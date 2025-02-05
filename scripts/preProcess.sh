@@ -35,4 +35,11 @@ for file in $dir/*; do
 
     python3 ./join_psd.py $file
 
+    # Delete the remaining splits, marked by "@"
+    # WARNING: this is preliminary
+    # there are cases where it might make sense to join, e.g. P-NP or D-N combinations
+    # has to be discussed!
+
+    sed -i 's/@//g' $file
+
 done;
