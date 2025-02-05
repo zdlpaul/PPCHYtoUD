@@ -33,4 +33,6 @@ for file in $dir/*; do
     # Delete lines which include (ID
     # sed -i '/(ID/d' $file
 
+    python3 ./join_psd.py $file
+
 done;
