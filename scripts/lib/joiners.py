@@ -236,4 +236,3 @@ class FileWriter:
         if overwrite == True:
             os.remove(self.j.path)
             os.rename(outname, self.j.path)
-
