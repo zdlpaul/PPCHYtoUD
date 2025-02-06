@@ -2,17 +2,37 @@ cconj = {
     "un",
     "un'",
     "oder",
+    "udr",
+    "adr",
     "azu",
     "tsi",
-    
+    "den",      # prob also subordinating
+    "abr",
+    "adr",
+    "hn",
+    "heynt",    # prob subordinating (personal comment Christine & Tessa, potentially like hence)
+    "ober",
+    "vorem",    # I think this is subordinating, translated as because
+    "varin",    # aren't these something like relative pronouns?
+    "vidr",     # ?
+    "ven",      # ?
+    "nor",
+    "in",  
+    "in'"  
+    "varum",    # ?
+    "vorum",
+    "zundrin",
+    "sey",      # ? 
+    "i",        # ?
+    "tsi",      # wheter/or, from Slavic
 }
 
 tags = {
     # ipsd_tag : UD_tag
     "N": "NOUN",  # generalized nouns tagged as NOUN
     "D": "DET",  # generalized determiners tagged as DET (determiner)
-    "ONE": "DET",  # ath. áður taggað sem NUM
-    "ONES": "DET",
+    # "ONE": "DET",  # ath. áður taggað sem NUM
+    # "ONES": "DET",
     "P": "ADP",  # generalized prepositions tagged as ADP
     "RP": "ADP",  # specifiers of P/complements of P - Ath. flokka sem eitthvað annað?
     "RPX": "ADP",
@@ -28,7 +48,7 @@ tags = {
     "TO": "PART",  # Infinitive marker tagged as PART (particle)
     "FP": "PART",  # focus particles marked as PART
     "NPR": "PROPN",  # proper nouns tagged as PROPN
-    "NPRS": "PROPN",
+    "NPR$": "PROPN",
     "PRO": "PRON",
     "WQ": "PRON",  # interrogative pronoun
     "WPRO": "PRON",  # wh-pronouns
@@ -77,13 +97,14 @@ UD_map = {
     "NPR": "PROPN",  # proper nouns tagged as PROPN
     "NPRS": "PROPN",
     "PRO": "PRON",
+    "PRO$": "PRON",    # possessive pronoun
     # 'WQ' : 'PRON',  #interrogative pronoun
-    "WQ": "SCONJ",
+    "WQP": "SCONJ",
     "WPRO": "PRON",  # wh-pronouns
-    "SUCH": "PRON",
-    "ES": "PRON",  # expletive tagged as PRON
-    "MAN": "PRON",
-    "MANS": "PRON",
+    # "SUCH": "PRON",
+    # "ES": "PRON",  # expletive tagged as PRON
+    # "MAN": "PRON",
+    # "MANS": "PRON",
     "NUM": "NUM",
     "ADJ": "ADJ",  # Adjectives tagged as ADV
     "ADJR": "ADJ",  # Comparative adjectives tagged as ADV
@@ -94,16 +115,19 @@ UD_map = {
     "NEG": "ADV",
     "ADVR": "ADV",  # Comparative adverbs tagged as ADV
     "ADVS": "ADV",  # Superlative adverbs tagged as ADV
-    "ALSO": "ADV",
-    "OTHER": "PRON",
-    "OTHERS": "PRON",
+    # "ALSO": "ADV",
+    # "OTHER": "PRON",
+    # "OTHERS": "PRON",
     "INTJ": "INTJ",  # interjection
     "FW": "X",
     "LS": "NUM",  # list marker tagged as numeral
     "X": "X",
 }
 
-OTB_map = {
+# This is used for the Icelandic tagger to get better results (I think?)
+# does not really make sense to use here then
+
+""" OTB_map = {
     "Gender": {"k": "Masc", "v": "Fem", "h": "Neut", "x": None},
     "Number": {"f": "Plur", "e": "Sing"},  # noun, plural number  # noun singular number
     "PronType": {
@@ -160,9 +184,11 @@ OTB_map = {
         "o": "Ord",  # FIX Ordinal number (not in OTB tag)
         "p": "Frac",  # Fraction
     },
-}
+} """
 
-DMII_map = {
+# same here, belongs to the Icelandic tagger
+# not useful for the purposes here
+""" DMII_map = {
     "Gender": {  # TODO: add gender to feature matrix
         "kk": "Masc",
         "kvk": "Fem",
@@ -223,8 +249,9 @@ DMII_map = {
         "FT": "Ind",  # if def marker not present in DMII
         None: None,
     },
-}
+} """
 
+# rules to determine the morphology
 Icepahc_feats = {
     "Case": {"N": "Nom", "A": "Acc", "D": "Dat", "G": "Gen"},
     "NOUN": {
@@ -291,6 +318,7 @@ Icepahc_feats = {
     },
 }
 
+# rules how to determine what the head is
 head_rules = {
     "IP-INF": {
         "dir": "r",
@@ -2220,6 +2248,7 @@ relation_NP = {
     "DIR-PRN": "obl",
 }
 
+# what kind of relations do subordinate clauses exhibit
 relation_IP = {
     None: "dep",
     "INF": "xcomp",
@@ -2422,6 +2451,7 @@ abbr_map = {
     "$d.": (r"\$d\.", "dæmis", "dæmis", ""),
 }
 
+# are there mwes in the Santorini corpus??
 mwes = [
     "af því að",
     "á meðan",
