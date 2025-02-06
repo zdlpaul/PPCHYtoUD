@@ -128,6 +128,7 @@ class IndexedCorpusTree(Tree):
     #         for subchild in child:
     #             pos_tags.append(child.label())
     #     return pos_tags
+    
 
       def num_verbs(self):
         """18.03.20
@@ -161,34 +162,67 @@ class IndexedCorpusTree(Tree):
 
         return verb_count
 
-      def num_verbs(self):
-        """18.03.20
+    # def_remove_nodes() not yet added
+    # no idea what this does
 
-        # Based on similar method in class UniversalDependencyGraph()
+class IndexedCorpusTreeError(Exception):
+    """docstring for ."""
 
-        Checks by POS (IcePaHC PoS tag) how many verbs are in list of tags
-        Used to estimate whether verb 'aux' UPOS is correct or wrong.
-        Converter generalizes 'aux' UPOS for 'hafa' and 'vera'.
+    def __init__(self, *args):
+        if args:
+            self.message = args[0]
+        else:
+            self.message = None
 
-        lambda function to only check two levels of tree, not further
+    def __str__(self):
+        print("calling str")
+        if self.message:
+            return "IndexedCorpusTreeError: {0}".format(self.message)
+        else:
+            return "IndexedCorpusTreeError has been raised"
 
-        Returns:
-            int: Number of verb tags found in sentence.
 
-        """
+class IcePaHCFormatReader(CategorizedBracketParseCorpusReader):
+    """24.03.20
 
-        verb_count = 0
-        for tag in self.tags(lambda t: t.height() == 2):
-            # for tag in self.immmediate_tags():
-            # print(tag)
-            if tag[0:2] in {
-                "VB",
-                "BE",
-                "DO",
-                "HV",
-                "MD",
-                "RD",
-            }:
-                verb_count += 1
+    Extension of the NLTK CategorizedBracketParseCorpusReader class for reading mostly unedited files from the IcePaHC corpus
+    See NLTK: https://www.nltk.org/_modules/nltk/corpus/reader/bracket_parse.html#CategorizedBracketParseCorpusReader
+    See IcePaHC: https://linguist.is/icelandic_treebank/Icelandic_Parsed_Historical_Corpus_(IcePaHC)
 
-        return verb_count
+    """
+
+    def __init__(self, *args, **kwargs):
+        CategorizedBracketParseCorpusReader.__init__(self, *args, **kwargs)
+
+    def _parse(self, t):
+        try:
+            tree = IndexedCorpusTree.fromstring(
+                t, remove_empty_top_bracketing=False, trim_id_tag=True, preprocess=True
+            ).remove_nodes(tags=["CODE"], trace=True)
+            # # If there's an empty node at the top, strip it off
+            # if tree.label() == '' and len(tree) == 2:
+            #     tree[0].corpus_id = str(tree[1]).strip('()ID ')
+            #     tree[0].corpus_id_num = str(tree[1]).strip('()ID ').split(',')[1]
+            #     return tree[0]
+            # else:
+            #     return tree
+            return tree
+
+        except ValueError as e:
+            sys.stderr.write("Bad tree detected; trying to recover...\n")
+            sys.stderr.write(t)
+            # Try to recover, if we can:
+            if e.args == ("mismatched parens",):
+                for n in range(1, 5):
+                    try:
+                        v = IndexedCorpusTree(self._normalize(t + ")" * n))
+                        sys.stderr.write(
+                            "  Recovered by adding %d close " "paren(s)\n" % n
+                        )
+                        return v
+                    except ValueError:
+                        pass
+            # Try something else:
+            sys.stderr.write("  Recovered by returning a flat parse.\n")
+            # sys.stderr.write(' '.join(t.split())+'\n')
+            return IndexedCorpusTree("S", self._tag(t))
