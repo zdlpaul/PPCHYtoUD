@@ -130,7 +130,7 @@ class IndexedCorpusTree(Tree):
     #     return pos_tags
     
 
-      def num_verbs(self):
+    def num_verbs(self):
         """18.03.20
 
         # Based on similar method in class UniversalDependencyGraph()
@@ -182,7 +182,7 @@ class IndexedCorpusTreeError(Exception):
             return "IndexedCorpusTreeError has been raised"
 
 
-class IcePaHCFormatReader(CategorizedBracketParseCorpusReader):
+class PPCHYFormatReader(CategorizedBracketParseCorpusReader):
     """24.03.20
 
     Extension of the NLTK CategorizedBracketParseCorpusReader class for reading mostly unedited files from the IcePaHC corpus
@@ -198,7 +198,7 @@ class IcePaHCFormatReader(CategorizedBracketParseCorpusReader):
         try:
             tree = IndexedCorpusTree.fromstring(
                 t, remove_empty_top_bracketing=False, trim_id_tag=True, preprocess=True
-            ).remove_nodes(tags=["CODE"], trace=True)
+            ) # removed .remove_nodes(call) here, CODE is deleted in preprocessing already
             # # If there's an empty node at the top, strip it off
             # if tree.label() == '' and len(tree) == 2:
             #     tree[0].corpus_id = str(tree[1]).strip('()ID ')
