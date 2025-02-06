@@ -19,7 +19,7 @@ from nltk.corpus.util import LazyCorpusLoader
 from nltk.data import path as nltk_path
 
 # from lib import depender
- from lib.reader import IcePaHCFormatReader, IndexedCorpusTree
+from lib.reader import PPCHYFormatReader, IndexedCorpusTree
 # from lib.tools import fix_IcePaHC_tree_errors, tagged_corpus
 
 def run_pre(corpus_path):
@@ -40,5 +40,11 @@ def run_pre(corpus_path):
 
 def load_corpus(name):
     corpus_loader = LazyCorpusLoader(
-        f"{name}/psd",
-        
+        f"{name}",
+        PPCHYFormatReader,
+        r".*\.psd",
+        cat_pattern=r".*(1|14|15|16|17|18|19).*", # categorization with centuriers - questionable
+        )
+    return corpus_loader
+
+TREE = ""
