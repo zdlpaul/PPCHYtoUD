@@ -43,7 +43,7 @@ def load_corpus(name):
         f"{name}",
         PPCHYFormatReader,
         r".*\.psd",
-        cat_pattern=r".*(1|14|15|16|17|18|19).*", # categorization with centuriers - questionable
+        cat_pattern=r".*(1|14|15|16|17|18|19).*", # categorization with centuries - questionable
         )
     return corpus_loader
 
