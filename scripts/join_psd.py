@@ -26,6 +26,7 @@ if __name__ == '__main__':
     for n in j.indexes:
         j.join_verbs_two_lines(n)
         j.join_verbs_three_lines(n)
+        j.assign_nominative(n)
         
     # output written to file
     f = FileWriter(j)

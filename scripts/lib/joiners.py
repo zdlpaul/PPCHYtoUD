@@ -186,6 +186,32 @@ class NodeJoiner:
             # print('\t\t', next, self.lines[index].strip())
             # print()
         return self
+
+
+    def assign_case(self, index):
+
+        # TODO: Small clauses einführen (pc. Tessa Adam)
+
+        NOUN_NODE = r"\(NP-.{3} \(PRO.*\)"
+        CASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV|BEN)"
+        PRO_NODE = r"(?<=\(NP-.{3} \()PRO\$?"
+        
+
+        if re.search(NOUN_NODE, self.lines[index]) and re.search(CASE_INFO, self.lines[index]):
+
+            case_info = re.findall(CASE_INFO, self.lines[index])[0]
+            pro_node = re.findall(PRO_NODE, self.lines[index])[0]
+            
+            self.lines[index] = re.sub(PRO_NODE, pro_node + '-' + case_info, self.lines[index])
+            
+            # case_info = re.findall(CASE_INFO, self.lines[index])[0]
+            # case_info = self._join_tag(case_info)
+            # print(case_info)
+
+            # self.lines[index] = re.sub(PRO_NODE, PRO_NODE + CASE_INFO, self.lines[index], 1)
+
+        return self
+                
     
 
 class FileWriter:
@@ -236,3 +262,4 @@ class FileWriter:
         if overwrite == True:
             os.remove(self.j.path)
             os.rename(outname, self.j.path)
+    
