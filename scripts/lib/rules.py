@@ -126,7 +126,6 @@ UD_map = {
 
 # This is used for the Icelandic tagger to get better results (I think?)
 # does not really make sense to use here then
-
 """ OTB_map = {
     "Gender": {"k": "Masc", "v": "Fem", "h": "Neut", "x": None},
     "Number": {"f": "Plur", "e": "Sing"},  # noun, plural number  # noun singular number
@@ -253,36 +252,33 @@ UD_map = {
 
 # rules to determine the morphology
 Icepahc_feats = {
-    "Case": {"N": "Nom", "A": "Acc", "D": "Dat", "G": "Gen"},
+    "Case": {"NOM": "Nom", "ACC": "Acc", "DAT": "Dat", "BEN": "Dat", "G": "Gen"},
     "NOUN": {
         "Case": {
-            "N": "Nom",  # nominative case
-            "A": "Acc",  # accusative case
-            "D": "Dat",  # dative case
-            "G": "Gen",  # genitive case
+            "NOM": "Nom",  # nominative case
+            "ACC": "Acc",  # accusative case
+            "DAT": "Dat",  # dative case
+            "BEN": "Dat",  # benefactive = dative(?)
+            "GEN": "Gen",  # genitive case
         },
-        "Number": {
-            "NS": "Plur",  # noun, plural number
-            "N": "Sing",
-            "NPR": "Sing",  # noun singular number
-            "NPRS": "Plur",  # proper noun plural
-        },
-        "Definite": {"$": "Def", "": "Ind"},  # TODO: remove def from dict
+        # Number is not marked in the corpus
+        # Definiteness is not marked in the corpus
     },
     "PRON": {  # Case, Gender, Number, PronType
         "Number": {
             "S": "Plur",  # noun, plural number
             "": "Sing",  # noun singular number
         },
-        "Case": {
-            "N": "Nom",  # nominative case
-            "A": "Acc",  # accusative case
-            "D": "Dat",  # dative case
-            "G": "Gen",  # genitive case
-        },
+       # Problem: Kasus auf Pronomen kommt vom NP-ACC tag davor, also (NP-ACC (Pro im))
+       # "Case": {
+       #     "N": "Nom",  # nominative case
+       #     "A": "Acc",  # accusative case
+       #    "D": "Dat",  # dative case
+       #     "G": "Gen",  # genitive case
+       # },
     },
     "DET": {
-        "Number": {"": "Sing", "S": "Plur"},
+        "Number": {"": "Sing", "S": "Plu"},
         "Degree": {"": "Pos", "R": "Cmp", "S": "Sup"},
     },
     "ADJ": {
@@ -297,18 +293,7 @@ Icepahc_feats = {
         "Degree": {
             "P": "Pos",  # first degree
             "R": "Cmp",  # second Degree
-            "S": "Sup",  # third degree
-        },
-        "Case": {"N": "Nom", "A": "Acc", "D": "Dat", "G": "Gen"},
-    },
-    "VERB": {
-        "Mood": {
-            "IMP": "Imp",  # imperative
-            "I": "Ind",  # indicative (IcePaHC POS-tag)
-            "S": "Sub",  # subjunctive (IcePaHC POS-tag)
-        },
-        "Tense": {"P": "Pres", "D": "Past"},
-        "VerbForm": {
+
             "": "Fin",  # finite verb
             "inf": "Inf",  # infinitive verb
             "I": "Inf",
