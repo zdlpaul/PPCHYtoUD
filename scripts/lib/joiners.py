@@ -189,28 +189,103 @@ class NodeJoiner:
 
 
     def assign_case(self, index):
-
-        # TODO: Small clauses einführen (pc. Tessa Adam)
-
-        NOUN_NODE = r"\(NP-.{3} \(PRO.*\)"
-        CASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV|BEN)"
-        PRO_NODE = r"(?<=\(NP-.{3} \()PRO\$?"
+        """ 
+            Distinguishes between GFs (SBJ, OB1, OB2) and case as in IcePaHC
+            Assigns case to the first head in the phrase, concord is handled below
+        """
         
+        NP_NODE = r"\(NP-.{3}(?!.*(\*))" # the star is preliminary, not sure what to do with those
+        NP_TAG = r"(?<=\()NP-.{3}"
+        CAT_TAG = r"(?<=\()NP(?=-.{3})"
+        CASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV)"
+        NOMINAL_NODE = r"(?<=\(NP-.{3} \()\b(PRO\$?|Q|NUM|N|ADJ|D)\b"
+        SMCSUBJ_NODE = r"\(IP-SMC \(NP-SBJ.*\)"
 
-        if re.search(NOUN_NODE, self.lines[index]) and re.search(CASE_INFO, self.lines[index]):
+        case_dict = {
+            "ACC": "OB1",
+            "DTV": "OB2"
+            }
 
-            case_info = re.findall(CASE_INFO, self.lines[index])[0]
-            pro_node = re.findall(PRO_NODE, self.lines[index])[0]
+        # Case for small clauses, where the subject bears accusative cae
+        if re.search(SMCSUBJ_NODE, self.lines[index]):
+
+            try:
+                case_info = re.findall(CASE_INFO, self.lines[index])[0]
+                pro_node = re.findall(NOMINAL_NODE, self.lines[index])[0]
+
+                self.lines[index] = re.sub(NOMINAL_NODE, pro_node + '-' + 'ACC', self.lines[index])
+
+            except IndexError:
+                pass
+
+        # All non small clause cases
+        elif re.search(NP_NODE, self.lines[index]) and re.search(CASE_INFO, self.lines[index]):
+
+            try: 
+                case_info = re.findall(CASE_INFO, self.lines[index])[0]
+                pro_node = re.findall(NOMINAL_NODE, self.lines[index])[0]
+                np_tag = re.findall(NP_TAG, self.lines[index])[0]
+                cat_tag = re.findall(CAT_TAG, self.lines[index])[0]
             
-            self.lines[index] = re.sub(PRO_NODE, pro_node + '-' + case_info, self.lines[index])
-            
-            # case_info = re.findall(CASE_INFO, self.lines[index])[0]
-            # case_info = self._join_tag(case_info)
-            # print(case_info)
+                if case_info == 'SBJ':
+                    self.lines[index] = re.sub(NOMINAL_NODE, pro_node + '-' + 'NOM', self.lines[index])
+                    pass
+                elif case_info == 'ACC' or 'DTV':
+                    self.lines[index] = re.sub(NOMINAL_NODE, pro_node + '-' + case_info, self.lines[index])
+                    self.lines[index] = re.sub(NP_TAG, cat_tag + '-' + case_dict[case_info], self.lines[index])
+                    
+            except IndexError:
+                pass
 
-            # self.lines[index] = re.sub(PRO_NODE, PRO_NODE + CASE_INFO, self.lines[index], 1)
 
         return self
+    
+
+    def case_concord_one_line(self, index):
+        """
+           Handles concord cases
+        """ 
+
+        # TOOD: QPs, CONJPs, basically all NPs inside an NP-GF
+        # the star is preliminary, not sure what to do with those
+        PROBE_NODE = r"\(\b(PRO\$?|Q|NUM|N|ADJ|D)\b-.{3}(?!.*(\*))"
+        PROBE_CASE = r"\(\b(?:PRO\$?|Q|NUM|N|ADJ|D)\b-(NOM|ACC|DTV)"
+        GOAL_NODE = r"\b(PRO\$?|Q|NUM|N|ADJ|D)\b[^-]"
+
+        case_dict = {
+            "ACC": "OB1",
+            "DTV": "OB2"
+            }
+
+        # do we need a try/except block here to handle errors? 
+        if re.search(PROBE_NODE, self.lines[index]):
+
+            case_info = re.findall(PROBE_CASE, self.lines[index])[0]
+
+            for nodes in re.findall(GOAL_NODE, self.lines[index]):
+                self.lines[index] =  re.sub(rf"\b{nodes}\b", nodes + '-' + case_info, self.lines[index])
+                    
+                
+        return self
+
+    def case_concord_two_lines(self, index):
+        PROBE_NODE = r"\(\b(PRO\$?|Q|NUM|N|ADJ|D)\b-.{3}(?!.*(\*))"
+        PROBE_CASE = r"\(\b(?:PRO\$?|Q|NUM|N|ADJ|D)\b-(NOM|ACC|DTV)"
+        GOAL_NODE = r"\b(PRO\$?|Q|NUM|N|ADJ|D)\b[^-]"
+
+        next = index + 1
+        nextnext = index + 2
+
+        if re.search(PROBE_NODE, self.lines[index]) and re.search(GOAL_NODE, self.lines[next]):
+
+            case_info = re.findall(PROBE_CASE, self.lines[index])[0]
+
+            for nodes in re.findall(GOAL_NODE, self.lines[next]):
+                self.lines[next] =  re.sub(rf"\b{nodes}\b", nodes + '-' + case_info, self.lines[next])
+
+
+        
+           
                 
     
 
