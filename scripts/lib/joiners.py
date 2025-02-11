@@ -190,8 +190,18 @@ class NodeJoiner:
 
     def assign_case(self, index):
         """ 
-            Distinguishes between GFs (SBJ, OB1, OB2) and case as in IcePaHC
-            Assigns case to the first head in the phrase, concord is handled below
+        Distinguishes between GFs (SBJ, OB1, OB2) and case as in IcePaHC
+        Assigns case to the first head in the phrase, concord is handled below
+        In:
+           ( (IP-MAT (NP-SBJ (PRO zey))
+	       (VBF farnemen)
+	       (NP-ACC (NUM finf) (ADJ nist_numerirte) (N zeytlekh)))
+             (ID 1927E-SHATZKY-TESHUAT,12.8))
+        Out:
+            ( (IP-MAT (NP-SBJ (Q-NOM yede) (N-NOM teyl))
+                (VBF hot)
+	        (NP-OB1 (D-ACC an) (ADJ-ACC eygenem) (N-ACC ser-blat)))
+              (ID 1927E-SHATZKY-TESHUAT,12.6))
         """
         
         NPcased_NODE = r"\(NP-.{3}(?!.*(\*))" # the star is preliminary
@@ -232,6 +242,7 @@ class NodeJoiner:
                 
             except IndexError:
                 pass
+            
 
         elif re.search(NPinNP_NODE, self.lines[index]):
 
@@ -243,8 +254,7 @@ class NodeJoiner:
                     embNP_NODE, embNP_node + '-' + case_info, self.lines[index])
                 
             except IndexError:
-                pass
-            
+                pass            
 
         # Case for small clauses, where the subject bears accusative cae
         if re.search(SMCSUBJ_NODE, self.lines[index]):
@@ -257,8 +267,9 @@ class NodeJoiner:
                     complexNP_NODE, pro_node + '-' + 'ACC', self.lines[index])
 
             except IndexError:
-                pass
+                pass            
 
+        # Case assignment for resumptives
         elif re.search(RSPNP_NODE, self.lines[index]):
 
             try:
@@ -279,7 +290,7 @@ class NodeJoiner:
                         RSPNPcased_TAG, cat_tag + '-' + case_dict[case_info] + '-RSP', self.lines[index])
 
             except IndexError:
-                pass   
+                pass
 
         # All non small clause cases
         elif re.search(NPcased_NODE, self.lines[index]) and re.search(CASE_INFO, self.lines[index]):
@@ -301,18 +312,25 @@ class NodeJoiner:
                         NPcased_TAG, cat_tag + '-' + case_dict[case_info], self.lines[index])
                     
             except IndexError:
-                pass           
-
+                pass         
 
         return self
     
 
     def case_concord_one_line(self, index):
         """
-           Handles concord cases
+        Handles case in complex noun phrases where parts are in one line: 
+        In:
+            ( (IP-MAT (NP-SBJ (D dos) (N bikhl))
+              ...
+              (ID 1927E-SHATZKY-TESHUAT,12.5))
+        Out:
+            ( (IP-MAT (NP-SBJ (D-NOM dos) (N-NOM bikhl))
+              ...
+              (ID 1927E-SHATZKY-TESHUAT,12.5))
         """ 
 
-        # TOOD: QPs
+        # TOOD: QP, QR, CP boundaries, cases where (NP (N schewrt) (CONJ un) (N spies))
         PROBE_NODE = r"\(\b(PRO\$?|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-.{3}(?!.*(\*))"
         PROBE_CASE = r"\(\b(?:PRO\$?|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-(NOM|ACC|DTV)"
         GOAL_NODE = r"\b(PRO\$?|Q|NUM|N|ADJ|ADJR|ADJS|D)\b[^-]"
@@ -334,24 +352,25 @@ class NodeJoiner:
         return self
     
 
-    def case_concord_two_lines(self, index):
+    def case_concord_conjunction(self, index):
+        """
+        tries to check if there is a closed NP node
+        then, no case is assigned to the things below, e.g.
+        
+        (CONJP (IP-MAT=1 (NP-SBJ (D-NOM dos) (ADJ tsveyte))
+			   (NP-OB1 (NUM-ACC 21) (N-ACC bleter))))
+	(CONJP (CONJ un)
+	       (IP-MAT=1 (NP-SBJ (D-NOM dos) (ADJ drite))
+			   (NP-OB1 (NUM-ACC 20) (N-ACC bleter) (X 8o)))))
+        (ID 1927E-SHATZKY-TESHUAT,12.10))
+        """
+        
         PROBE_NODE = r"\(\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-.{3}(?!.*(\*))"
         PROBE_CASE = r"\(\b(?:PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-(NOM|ACC|DTV)"
         GOAL_NODE = r"\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b[^-]"
 
         next = index + 1
-        nextnext = index + 2
-
-        # tries to check if there is a closed NP node
-        # then, no case is assigned to the things below, e.g.
-        #
-        # (CONJP (IP-MAT=1 (NP-SBJ (D-NOM dos) (ADJ tsveyte))
-	#		   (NP-OB1 (NUM-ACC 21) (N-ACC bleter))))
-	# (CONJP (CONJ un)
-	#	 (IP-MAT=1 (NP-SBJ (D-NOM dos) (ADJ drite))
-	#		   (NP-OB1 (NUM-ACC 20) (N-ACC bleter) (X 8o)))))
-        # (ID 1927E-SHATZKY-TESHUAT,12.10))
-        #
+        
         # TODO: Does not work with IP-ABS(?)
         if re.search(PROBE_NODE, self.lines[index]) and re.search(
                 GOAL_NODE, self.lines[next]) and re.search(

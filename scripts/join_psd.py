@@ -28,7 +28,7 @@ if __name__ == '__main__':
         j.join_verbs_three_lines(n)
         j.assign_case(n)
         j.case_concord_one_line(n)
-        j.case_concord_two_lines(n)
+        j.case_concord_conjunction(n)
         
     # output written to file
     f = FileWriter(j)
