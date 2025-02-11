@@ -194,16 +194,21 @@ class NodeJoiner:
             Assigns case to the first head in the phrase, concord is handled below
         """
         
-        NPcased_NODE = r"\(NP-.{3}(?!.*(\*))" # the star is preliminar
+        NPcased_NODE = r"\(NP-.{3}(?!.*(\*))" # the star is preliminary
         NPinNP_NODE = r"\(NP-.{3} \(NP.*"
         embNP_NODE = r"(?<=\(NP-.{3} \()NP"
         NPcaseless_TAG = r"(?<=\()NP"
         NPcased_TAG = r"(?<=\()NP-.{3}"
+        RSPNPcased_TAG = "(?<=\()NP-.{3}-RSP"
         CAT_TAG = r"(?<=\()NP(?=-.{3})"
         CASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV)"
         complexNP_NODE = r"(?<=\(NP-.{3} \()(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)"
         SMCSUBJ_NODE = r"\(IP-SMC \(NP-SBJ.*\)"
         CONJP_NODE = r"\(CONJP.*"
+        RSPNP_NODE = r"NP-.{3}-RSP"
+        RSPCASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV)(?=-RSP)"
+        complexRSPNP_NODE = r"(?<=\(NP-.{3}-RSP \()(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)"
+        RSPNPCAT_TAG = r"(?<=\()NP(?=-.{3}-RSP)"
 
         case_dict = {
             "ACC": "OB1",
@@ -254,9 +259,30 @@ class NodeJoiner:
             except IndexError:
                 pass
 
+        elif re.search(RSPNP_NODE, self.lines[index]):
+
+            try:
+                print(f"Hello! Nr. {index}")
+                case_info = re.findall(RSPCASE_INFO, self.lines[index])[0]
+                pro_node = re.findall(complexRSPNP_NODE, self.lines[index])[0]
+                cat_tag = re.findall(CAT_TAG, self.lines[index])[0]
+
+                if case_info == 'SBJ':
+                    self.lines[index] = re.sub(
+                        complexRSPNP_NODE, pro_node + '-' + 'NOM', self.lines[index])
+
+                elif case_info == 'ACC' or 'DTV':
+                    self.lines[index] = re.sub(
+                        complexRSPNP_NODE, pro_node + '-' + case_info, self.lines[index])
+
+                    self.lines[index] = re.sub(
+                        RSPNPcased_TAG, cat_tag + '-' + case_dict[case_info] + '-RSP', self.lines[index])
+
+            except IndexError:
+                pass   
+
         # All non small clause cases
         elif re.search(NPcased_NODE, self.lines[index]) and re.search(CASE_INFO, self.lines[index]):
-
             try: 
                 case_info = re.findall(CASE_INFO, self.lines[index])[0]
                 pro_node = re.findall(complexNP_NODE, self.lines[index])[0]
@@ -275,7 +301,7 @@ class NodeJoiner:
                         NPcased_TAG, cat_tag + '-' + case_dict[case_info], self.lines[index])
                     
             except IndexError:
-                pass
+                pass           
 
 
         return self
