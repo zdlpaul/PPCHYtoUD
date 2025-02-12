@@ -252,51 +252,64 @@ UD_map = {
 
 # rules to determine the morphology
 Icepahc_feats = {
-    "Case": {"NOM": "Nom", "ACC": "Acc", "DAT": "Dat", "BEN": "Dat", "G": "Gen"},
+    "Case": {"NOM": "Nom", "ACC": "Acc", "DTV": "Dat", "BEN": "Dat", "GEN": "Gen"},
     "NOUN": {
         "Case": {
             "NOM": "Nom",  # nominative case
             "ACC": "Acc",  # accusative case
-            "DAT": "Dat",  # dative case
+            "DTV": "Dat",  # dative case
             "BEN": "Dat",  # benefactive = dative(?)
             "GEN": "Gen",  # genitive case
         },
         # Number is not marked in the corpus
-        # Definiteness is not marked in the corpus
+        # TODO: implement mechanism to extract definiteness features
     },
-    "PRON": {  # Case, Gender, Number, PronType
-        "Number": {
-            "S": "Plur",  # noun, plural number
-            "": "Sing",  # noun singular number
+    "PRON": { # Case, Gender, Number, PronType
+        # "Number": {
+        #     "S": "Plur",  # noun, plural number
+        #     "": "Sing",  # noun singular number
+        # },
+        "Case": {
+             "NOM": "Nom",  # nominative case
+             "ACC": "Acc",  # accusative case
+             "DTV": "Dat",  # dative case
+             "GEN": "Gen",  # genitive case
         },
-       # Problem: Kasus auf Pronomen kommt vom NP-ACC tag davor, also (NP-ACC (Pro im))
-       # "Case": {
-       #     "N": "Nom",  # nominative case
-       #     "A": "Acc",  # accusative case
-       #    "D": "Dat",  # dative case
-       #     "G": "Gen",  # genitive case
-       # },
     },
     "DET": {
-        "Number": {"": "Sing", "S": "Plu"},
-        "Degree": {"": "Pos", "R": "Cmp", "S": "Sup"},
+        # "Number": {"": "Sing", "S": "Plu"},
+        # "Degree": {"": "Pos", "R": "Cmp", "S": "Sup"},
+        "Case": {
+             "NOM": "Nom",  # nominative case
+             "ACC": "Acc",  # accusative case
+             "DTV": "Dat",  # dative case
+             "GEN": "Gen",  # genitive case
     },
     "ADJ": {
-        "Case": {"N": "Nom", "A": "Acc", "D": "Dat", "G": "Gen"},
+        "Case": {"NOM": "Nom", "ACC": "Acc", "DTV": "Dat", "GEN": "Gen"},
         "Degree": {
-            "P": "Pos",  # first degree
-            "R": "Cmp",  # second Degree
+            "": "Pos",   # first degree
+            "R": "Cmp",  # second degree
             "S": "Sup",  # third degree
         },
     },
     "ADV": {
         "Degree": {
-            "P": "Pos",  # first degree
-            "R": "Cmp",  # second Degree
-
-            "": "Fin",  # finite verb
-            "inf": "Inf",  # infinitive verb
-            "I": "Inf",
+            "": "Pos",   # first degree
+            "R": "Cmp",  # second degree
+            "S": "Sup"   # third degree
+        },
+        "Case": {"NOM": "Nom", "ACC": "Acc", "DTV": "Dat", "GEN": "Gen"}
+    },
+    "VERB": {
+        "Mood": {
+            "I": "Imp",  # imperative
+        },
+        "Tense": {"P": "Pres", "D": "Past"},
+        "VerbForm": {
+            "F": "Fin",  # finite verb
+            # "inf": "Inf",  # I dont know
+            "": "Inf",
             "N": "Part",  # participle
             "G": "Part",
         },
@@ -304,6 +317,9 @@ Icepahc_feats = {
 }
 
 # rules how to determine what the head is
+# TODO: CP-QUE-MAT-THT
+# -DBL constituents
+# -DIAGN 
 head_rules = {
     "IP-INF": {
         "dir": "r",
@@ -323,32 +339,32 @@ head_rules = {
     "IP-INF-ABS": {"dir": "r", "rules": ["VB"]},
     "IP-INF-ABS-PRN": {"dir": "r", "rules": ["VB"]},
     "IP-INF-PRP": {"dir": "r", "rules": ["VB", "IP-INF"]},  # purpose infinitive
-    "IP-INF-PRP-PRN-SPE": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-PRP-PRN": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-PRP-PRN-SPE": {"dir": "r", "rules": ["VB"]},  # cannot find this one
+    # "IP-INF-PRP-PRN": {"dir": "r", "rules": ["VB"]},      # cannot find this one
     "IP-INF-PRP-SPE": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-PRP-SPE-PRN": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-PRP-SPE-PRN": {"dir": "r", "rules": ["VB"]},  # cannot find this one
     "IP-INF-SPE": {
         "dir": "r",
         "rules": ["VB", "DO", "IP-INF-SPE"],
     },  # spe = direct speech
-    "IP-INF-SPE-ADT": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-SPE-DEG": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-SPE-LFD": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-SPE-PRN": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-SPE-PRN-ELAB": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-SPE-PRP": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-SPE-PRP-PRN": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-SPE-SBJ": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-SPE-ADT": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-SPE-DEG": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-SPE-LFD": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-SPE-PRN": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-SPE-PRN-ELAB": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-SPE-PRP": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-SPE-PRP-PRN": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-SPE-SBJ": {"dir": "r", "rules": ["VB"]},
     "IP-INF-PRN": {"dir": "r", "rules": ["VB", "DO", "PP"]},
-    "IP-INF-PRN-ELAB": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-PRN-PRP": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-PRN-SPE": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-RSP": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-SBJ": {"dir": "r", "rules": ["VB", "IP-INF", ".AN", "NP-PRD", "DO", "PP"]},
-    "IP-INF-SBJ-SPE": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-DEG": {"dir": "r", "rules": ["VB"]},  # degree infinitive
-    "IP-INF-DEG-PRN": {"dir": "r", "rules": ["VB"]},
-    "IP-INF-DEG-SPE": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-PRN-ELAB": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-PRN-PRP": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-PRN-SPE": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-RSP": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-SBJ": {"dir": "r", "rules": ["VB", "IP-INF", ".AN", "NP-PRD", "DO", "PP"]},
+    # "IP-INF-SBJ-SPE": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-DEG": {"dir": "r", "rules": ["VB"]},  # degree infinitive
+    # "IP-INF-DEG-PRN": {"dir": "r", "rules": ["VB"]},
+    # "IP-INF-DEG-SPE": {"dir": "r", "rules": ["VB"]},
     "IP-INF-LFD": {"dir": "r", "rules": ["VB"]},
     "IP-INF-PRD": {"dir": "r", "rules": ["VB", "DO"]},
     "IP-INF-ADT": {"dir": "r", "rules": ["VB"]},
