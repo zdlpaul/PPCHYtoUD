@@ -6,6 +6,8 @@ adapted from https://github.com/thorunna/UDConverter/blob/master/scripts/lib/joi
 Part of the preprocessing pipeline. 
     - Joins nodes that have been split by @
     - only implemented for verbs at the moment
+    - assigns definiteness values based on determiners and NPR tag
+    - assigns case 
 '''
 
 import re
@@ -187,7 +189,15 @@ class NodeJoiner:
             # print()
         return self
 
+    def assign_definiteness(self, index):
+        """
+        Assigns (in)definitness to NP in a rule based-fashion
+        Uses NPR tag and type of determiner
+        """
 
+        propNOUN_NODE = r"\(NPR.*"
+
+        
     def assign_case(self, index):
         """ 
         Distinguishes between GFs (SBJ, OB1, OB2) and case as in IcePaHC
@@ -211,12 +221,15 @@ class NodeJoiner:
         NPcased_TAG = r"(?<=\()NP-.{3}"
         RSPNPcased_TAG = "(?<=\()NP-.{3}-RSP"
         CAT_TAG = r"(?<=\()NP(?=-.{3})"
-        CASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV)"
+        CASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV|GEN)"
         complexNP_NODE = r"(?<=\(NP-.{3} \()(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)"
+        
         SMCSUBJ_NODE = r"\(IP-SMC \(NP-SBJ.*\)"
+        
         CONJP_NODE = r"\(CONJP.*"
+        
         RSPNP_NODE = r"NP-.{3}-RSP"
-        RSPCASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV)(?=-RSP)"
+        RSPCASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV|GEN)(?=-RSP)"
         complexRSPNP_NODE = r"(?<=\(NP-.{3}-RSP \()(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)"
         RSPNPCAT_TAG = r"(?<=\()NP(?=-.{3}-RSP)"
 
@@ -273,7 +286,6 @@ class NodeJoiner:
         elif re.search(RSPNP_NODE, self.lines[index]):
 
             try:
-                print(f"Hello! Nr. {index}")
                 case_info = re.findall(RSPCASE_INFO, self.lines[index])[0]
                 pro_node = re.findall(complexRSPNP_NODE, self.lines[index])[0]
                 cat_tag = re.findall(CAT_TAG, self.lines[index])[0]
@@ -287,7 +299,8 @@ class NodeJoiner:
                         complexRSPNP_NODE, pro_node + '-' + case_info, self.lines[index])
 
                     self.lines[index] = re.sub(
-                        RSPNPcased_TAG, cat_tag + '-' + case_dict[case_info] + '-RSP', self.lines[index])
+                        RSPNPcased_TAG, cat_tag + '-' + case_dict[case_info] + '-RSP',
+                        self.lines[index])
 
             except IndexError:
                 pass
@@ -320,7 +333,7 @@ class NodeJoiner:
     def case_concord_one_line(self, index):
         """
         Handles case in complex noun phrases where parts are in one line: 
-        In:
+        In:    
             ( (IP-MAT (NP-SBJ (D dos) (N bikhl))
               ...
               (ID 1927E-SHATZKY-TESHUAT,12.5))
@@ -365,9 +378,9 @@ class NodeJoiner:
         (ID 1927E-SHATZKY-TESHUAT,12.10))
         """
         
-        PROBE_NODE = r"\(\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-.{3}(?!.*(\*))"
-        PROBE_CASE = r"\(\b(?:PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-(NOM|ACC|DTV)"
-        GOAL_NODE = r"\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b[^-]"
+        PROBE_NODE = r"\(\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D|QP)\b-.{3}(?!.*(\*))"
+        PROBE_CASE = r"\(\b(?:PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D|QP)\b-(NOM|ACC|DTV)"
+        GOAL_NODE = r"\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D|QP)\b[^-]"
 
         next = index + 1
         
