@@ -203,10 +203,10 @@ class NodeJoiner:
         Distinguishes between GFs (SBJ, OB1, OB2) and case as in IcePaHC
         Assigns case to the first head in the phrase, concord is handled below
         In:
-           ( (IP-MAT (NP-SBJ (PRO zey))
-	       (VBF farnemen)
-	       (NP-ACC (NUM finf) (ADJ nist_numerirte) (N zeytlekh)))
-             (ID 1927E-SHATZKY-TESHUAT,12.8))
+            ( (IP-MAT (NP-SBJ (Q yede) (N teyl))
+	        (VBF hot)
+	        (NP-ACC (D an) (ADJ eygenem) (N ser-blat)))
+               (ID 1927E-SHATZKY-TESHUAT,12.6))
         Out:
             ( (IP-MAT (NP-SBJ (Q-NOM yede) (N-NOM teyl))
                 (VBF hot)
