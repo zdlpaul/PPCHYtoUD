@@ -263,6 +263,9 @@ Icepahc_feats = {
         },
         # Number is not marked in the corpus
         # TODO: implement mechanism to extract definiteness features
+        "Definiteness": {
+            "$": "Def",
+            "!": "Indef",
     },
     "PRON": { # Case, Gender, Number, PronType
         # "Number": {

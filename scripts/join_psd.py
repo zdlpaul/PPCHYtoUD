@@ -29,6 +29,7 @@ if __name__ == '__main__':
         j.assign_case(n)
         j.case_concord_one_line(n)
         j.case_concord_conjunction(n)
+        j.assign_definiteness(n)
         
     # output written to file
     f = FileWriter(j)

@@ -196,6 +196,43 @@ class NodeJoiner:
         """
 
         propNOUN_NODE = r"\(NPR.*"
+        DN_NODE = r"\(NP.*\(D.*\(N"
+        D_TOKEN = r"(?:\bD.{0,4} )(\w+)+"
+        N_TAG = r"(?:\(NP.*\(D.*\()(N.{0,4})(?: )"
+
+        # TODO: look at the contracted forms with @
+        definites = ["der", "di", "dem", "dos", "den", "das", "dr",
+                     "ds", "eyner", "yener", "daz", "dz", "yenem",
+                     "yene", "di_dozike", "dus", "yens", "dizn", "des",
+                     "der_doziker", "die", "didozike", "dizr", "dis",
+                     "doz", "dizir", "dizh", "dizs"]
+
+        indefinites = ["a", "eyn", "an", "ayn", "eyne", "ayner", "in"]
+
+        if re.search(DN_NODE, self.lines[index]):
+
+            try:
+                d_token = re.findall(D_TOKEN, self.lines[index])[0]
+                n_tag = re.findall(N_TAG, self.lines[index])[0]
+
+                if d_token in definites:
+                    print(self.lines[index])
+                    self.lines[index] = re.sub(
+                        n_tag, n_tag + '-' + 'D', self.lines[index])
+                    print(self.lines[index])
+                    
+                elif d_token in indefinites:
+                    print(self.lines[index])
+                    self.lines[index] = re.sub(
+                        n_tag, n_tag + '-' + 'I', self.lines[index])
+                    print(self.lines[index])
+
+                else:
+                    pass
+
+            except IndexError:
+                pass
+        
 
         
     def assign_case(self, index):
