@@ -1902,11 +1902,8 @@ class Converter:
                             LEMMA = "_"
                     FEATS = Features(ifd_tag).features
                     MISC = defaultdict(lambda: None, {"IFD_tag": ifd_tag})
-                elif self.faroese:
-                    FEATS = FO_Features(tag).get_features()
-                    MISC = defaultdict(lambda: None)
                 else:
-                    FEATS = ICE_Features(tag).get_features()
+                    FEATS = PPCHY_Features(tag).get_features()
                     MISC = defaultdict(lambda: None)
                 if FORM not in {"None", None}:
                     self.dg.add_node(

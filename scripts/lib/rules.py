@@ -251,7 +251,7 @@ UD_map = {
 } """
 
 # rules to determine the morphology
-Icepahc_feats = {
+PPCHY_feats = {
     "Case": {"NOM": "Nom", "ACC": "Acc", "DTV": "Dat", "BEN": "Dat", "GEN": "Gen"},
     "NOUN": {
         "Case": {

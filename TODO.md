@@ -4,9 +4,14 @@
 
 ### Compliance with the UD schema
 
-One point are particle verbs, we want to merge them like in IcePaHC but we want to see that they are particle verbs - potentially implement its own tag.
+One point are particle verbs, we want to merge them like in IcePaHC but we want to see that they are particle verbs - potentially implement its own tag for the XPOS column.
 
 - [ ] implement a UD tag for particle verbs, e.g. PRTVB
+
+A list of things that have to be discussed with K:
+- verbs can be modified not only with a particle but also adverb (one XPOS-tag?)
+- P-D combinations, I would like to keep them apart but mark them? 
+- V-Pro combinations (searchable with PRO @pro), keep, but mark as CL with PronType in the morphology? Same with other pronouns? 
 
 ## `rules.py`
 
@@ -23,7 +28,7 @@ I want to implement definiteness, not sure how though, since it is not marked on
 For Proper Nouns, we could try to implement it so that if the whole tag is 
 
 - [x] implement definiteness in the `"NOUN":` subitem (How?)
-- [ ] implement definiteness for proper nouns, they have their own tag NPR (always definite)
+- [ ] implement definiteness for proper nouns, they have their own tag NPR (always definite), **actually, no?**
 
 
 ## `postProcessing.sh`
@@ -32,6 +37,10 @@ For Proper Nouns, we could try to implement it so that if the whole tag is
 
 One option for definiteness would be to add another dash '-' so that a complete tag would be something like TAG-CASE-DEF for nouns only (but not for determiners). This could be done by fiddling with the `_noun_features(self, tag)` function in the `ICE_Features` class.
 
+- [x] implement definitness in the `_noun_features(self, tag)` function
+
+Atm, it is achieved with a try/except block - maybe it is better to use an if/else function like in `determiner_features` on line 94. 
+
 All functions with `OTB_map` and `DMII_map` can probably be left out. These seem to have to do with the tagger that they added for Icelandic to get better results...
 
 ## `convert.py`
@@ -39,4 +48,4 @@ All functions with `OTB_map` and `DMII_map` can probably be left out. These seem
 I am not sure yet how to deal with the tagger that they append to the program. It looks like they use ABLTagger API - is there something similar for Yiddish? Ask Seth Kulick? 
 
 - [ ] adapt the `fix_IcePaHC_tree_errors` function from the `tools.py` file, although not imported in convert.py (why?)
-- [ ] think about line 426: What is a kafli? 
+- [ ] think about line 426: What is a kafli? *It is a chapter*
