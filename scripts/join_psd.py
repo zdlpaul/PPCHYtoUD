@@ -24,12 +24,14 @@ if __name__ == '__main__':
     j = NodeJoiner(file)
     # print(j.name)
     for n in j.indexes:
-        j.join_verbs_two_lines(n)
-        j.join_verbs_three_lines(n)
+        # These two need serious work!
+        # j.join_verbs_two_lines(n)
+        # j.join_verbs_three_lines(n)
         j.assign_case(n)
         j.case_concord_one_line(n)
         j.case_concord_conjunction(n)
         j.assign_definiteness(n)
+        j.delete_case_stacking(n)
         
     # output written to file
     f = FileWriter(j)

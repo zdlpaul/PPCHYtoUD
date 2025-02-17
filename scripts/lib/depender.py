@@ -233,10 +233,10 @@ class UniversalDependencyGraph(DependencyGraph):
         Joins clitics in CoNLLU string output with NodeJoiner class
         """
         nj = NodeJoiner(conllU.split("\n"))
-        for n in reversed(nj.indexes):
+        # for n in reversed(nj.indexes):
             # Various clitics processed
-            nj.join_clitics(n)
-            nj.join_other_nodes(n)
+            # nj.join_clitics(n)
+            # nj.join_other_nodes(n)
         conllU = "\n".join(nj.lines)
         return conllU
 

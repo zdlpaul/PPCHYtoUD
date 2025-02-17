@@ -165,6 +165,150 @@ class IndexedCorpusTree(Tree):
     # def_remove_nodes() not yet added
     # no idea what this does
 
+    def remove_nodes(self, tags=None, trace=False):
+        """
+        Removes all nodes from tree by specification
+
+        # TRACE NODE REMOVAL only tested for some PP nodes
+
+        Arguments:
+            tags (list): list of node labels to remove by
+            trace (boolean): true if trace nodes should be removed
+
+        Returns: self
+            type: IndexedCorpusTree
+
+        """
+        # for i in self.subtrees(filter=lambda t: t.height() == 2):
+        #     if trace == True:
+        #         if self[i][0][0] in {'0', '*'}:
+        #             print(subtree)
+        #             try:
+        #                 del self[i]
+        #                 # pass
+        #                 # print(subtree)
+        #                 # continue
+        #             except ValueError:
+        #                 # raise
+        #                 continue
+        #     if tags:
+        #         for tag in tags:
+        #             if subtree.label() == tag:
+        #                 try:
+        #                     self.remove(self[i])
+        #                     # continue
+        #                 except ValueError:
+        #                     continue
+        pairs_to_delete = []
+
+        if tags:
+            for child in self:
+                if type(child) != str:
+                    if child.label() in tags:
+                        self.remove(child)
+            for i in reversed(self.treepositions()):
+                # print(i)
+                if (
+                    isinstance(self[i], Tree)
+                    and self[i].height() == 2
+                    and len(self[i]) == 1
+                ):
+                    if self[i].label() in tags:
+                        parent_index = i[:-1]
+                        # print(self[i])
+                        # print(self[parent_index])
+                        pairs_to_delete.append((parent_index, i))
+            for parent, child in pairs_to_delete:
+                try:
+                    self[parent].remove(self[child])
+                except:
+                    continue
+            pairs_to_delete = []
+
+        # Only set for a certain kind of PP Tree
+        if trace == True:
+            for i in reversed(self.treepositions()):
+                if isinstance(self[i], Tree):
+                    try:
+                        if (
+                            self[i].label() == "PP"
+                            and len(self[i]) == 2
+                            and self[i][1][0][0] == "*"
+                        ):
+                            child_index = i + (1,)
+                            pairs_to_delete.append((i, child_index))
+                            # if len(self[i][0]) == 0:
+                            #     parent_index = i[:-1]
+                            #     # self[parent_index].remove(self[i])
+                            #     pairs_to_delete.append((parent_index, i))
+                            # elif self[i][0][0] in {'0', '*'}:
+                            #     parent_index = i[:-1]
+                            #     pairs_to_delete.append((parent_index, i))
+                        elif (
+                            self[i].label() == "VB"
+                            and self[i].height() == 2
+                            and self[i][0] == "*"
+                        ):
+                            parent_index = i[:-1]
+                            pairs_to_delete.append((parent_index, i))
+                        # elif self[i].label() == 'CODE' \
+                        # and len(self[i]) == 2 \
+                        # and self[i][1][0][0] == '{':
+                        #    child_index = i + (1,)
+                        #    pairs_to_delete.append((i, child_index))
+                    except IndexError:
+                        continue
+            for parent, child in pairs_to_delete:
+
+                try:
+                    self[parent].remove(self[child])
+                except:
+                    continue
+            pairs_to_delete = []
+
+        # empty nodes removed (no args)
+        for i in reversed(self.treepositions()):
+            if isinstance(self[i], Tree) and len(self[i]) == 0:
+                # print(self[i], len(self[i]))
+                parent_index = i[:-1]
+                # self[parent_index].remove(self[i])
+                pairs_to_delete.append((parent_index, i))
+
+        for parent, child in pairs_to_delete:
+            try:
+                # print('parent:', self[parent], len(parent))
+                # print('child:',self[child], len(child))
+                # child length checked, should only be 0
+                if len(self[i]) == 0:
+                    self[parent].remove(self[child])
+                    self.remove_nodes()
+                else:
+                    # if designated child not empty, correct child found
+                    for subtree in self[parent]:
+                        if len(subtree) == 0:
+                            self[parent].remove(self[child])
+                            self.remove_nodes()
+                    # raise(IndexedCorpusTreeError('tried to delete non-empty node'))
+            except:
+                continue
+
+        # print('clean out:\n',self)
+        return self
+
+    def remove_trace_nodes(self):
+        """
+        Removes trace nodes from tree
+
+        Returns: self
+            type: IndexedCorpusTree
+
+        """
+        pass
+        # for subtree in self.subtrees(filter=lambda t: t.height() == 2):
+        #
+        #         # print(subtree)
+        # return self
+        
 class IndexedCorpusTreeError(Exception):
     """docstring for ."""
 

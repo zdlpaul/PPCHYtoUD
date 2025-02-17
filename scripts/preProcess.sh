@@ -40,6 +40,6 @@ for file in $dir/*; do
     # there are cases where it might make sense to join, e.g. P-NP or D-N combinations
     # has to be discussed!
 
-    sed -i 's/@//g' $file
+    # sed -i 's/@//g' $file
 
 done;
