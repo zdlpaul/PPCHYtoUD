@@ -17,7 +17,9 @@ from datetime import datetime
 from collections import defaultdict
 import pyconll
 
-PARTICLE_NODE = r"\((P|RP.*|Q-.|ADVR?|PRO-.|ONE\+Q-.|OTHER-.|WD-.|RP-.*) [A-Za-z]+\@\)"
+# took out adverbs for the moment, I am not sure what to do with those yet
+# they seem to crash
+PARTICLE_NODE = r"\((P|RP.*|Q-.|PRO-.|ONE\+Q-.|OTHER-.|WD-.|RP-.*) [A-Za-z]+\@\)"
 PARTICLE_TOKEN = r"(?<= )[A-Za-z]+(?=\@)"
 
 PARTICLE_MIDDLE_NODE = r"\(TO \@[a-z]+\@\)"
@@ -94,6 +96,7 @@ class NodeJoiner:
                 re.findall(PARTICLE_TOKEN, self.lines[prev])[0],
                 self.lines[index],
             )
+
             # update verb lemma:
             # verb tag found
             verb_tag = re.findall(VERB_TAG, self.lines[index])[0]
@@ -135,29 +138,29 @@ class NodeJoiner:
         # next = index + 1
         
         if re.search(PARTICLE_MIDDLE_NODE, self.lines[prev]) and re.search(
-            VERB_NODE, self.lines[index]
-        ):
+            VERB_NODE, self.lines[index]):
             # print('\t', prev, self.lines[prevprev].strip())
             # print('\t', index, self.lines[prev].strip())
             # print('\t', next, self.lines[index].strip())
             # print()
 
             # particles joined
-            self.lines[prev] = re.sub(
-                PARTICLE_START,
-                re.findall(PARTICLE_TOKEN, self.lines[prevprev])[0],
-                self.lines[prev],
-            )
+            try:
+                self.lines[prev] = re.sub(
+                    PARTICLE_START,
+                    re.findall(PARTICLE_TOKEN, self.lines[prevprev])[0],
+                    self.lines[prev],
+                )
             # updated verb token
-            self.lines[index] = re.sub(
-                VERB_START,
-                re.findall(PARTICLE_TOKEN, self.lines[prev])[0],
-                self.lines[index],
-            )
+                self.lines[index] = re.sub(
+                    VERB_START,
+                    re.findall(PARTICLE_TOKEN, self.lines[prev])[0],
+                    self.lines[index],
+                )
             # update verb lemma:
             # verb tag found
-            verb_tag = re.findall(VERB_TAG, self.lines[index])[0]
-            verb_tag = self._join_tag(verb_tag)
+                verb_tag = re.findall(VERB_TAG, self.lines[index])[0]
+                verb_tag = self._join_tag(verb_tag)
             # print(verb_tag)
             # tag used to find new verb token found
             # new_verb_token_regex = (
@@ -180,13 +183,15 @@ class NodeJoiner:
             #    "-" + lemma_token, new_lemma.lower(), self.lines[index], 1
             # )
             # particle node deleted
-            self.lines[prev] = re.sub(PARTICLE_NODE, "", self.lines[prev])
-            self.lines[prevprev] = re.sub(PARTICLE_NODE, "", self.lines[prevprev])
+                self.lines[prev] = re.sub(PARTICLE_NODE, "", self.lines[prev])
+                self.lines[prevprev] = re.sub(PARTICLE_NODE, "", self.lines[prevprev])
 
             # print('\t\t', prev, self.lines[prevprev].strip())
             # print('\t\t', index, self.lines[prev].strip())
             # print('\t\t', next, self.lines[index].strip())
             # print()
+            except IndexError:
+                pass
         return self
 
     def assign_definiteness(self, index):
@@ -216,16 +221,12 @@ class NodeJoiner:
                 n_tag = re.findall(N_TAG, self.lines[index])[0]
 
                 if d_token in definites:
-                    print(self.lines[index])
                     self.lines[index] = re.sub(
                         n_tag, n_tag + '-' + 'D', self.lines[index])
-                    print(self.lines[index])
                     
                 elif d_token in indefinites:
-                    print(self.lines[index])
                     self.lines[index] = re.sub(
                         n_tag, n_tag + '-' + 'I', self.lines[index])
-                    print(self.lines[index])
 
                 else:
                     pass
@@ -304,7 +305,7 @@ class NodeJoiner:
                     embNP_NODE, embNP_node + '-' + case_info, self.lines[index])
                 
             except IndexError:
-                pass            
+                pass
 
         # Case for small clauses, where the subject bears accusative cae
         if re.search(SMCSUBJ_NODE, self.lines[index]):
@@ -341,7 +342,7 @@ class NodeJoiner:
 
             except IndexError:
                 pass
-
+            
         # All non small clause cases
         elif re.search(NPcased_NODE, self.lines[index]) and re.search(CASE_INFO, self.lines[index]):
             try: 
@@ -384,6 +385,7 @@ class NodeJoiner:
         PROBE_NODE = r"\(\b(PRO\$?|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-.{3}(?!.*(\*))"
         PROBE_CASE = r"\(\b(?:PRO\$?|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-(NOM|ACC|DTV)"
         GOAL_NODE = r"\b(PRO\$?|Q|NUM|N|ADJ|ADJR|ADJS|D)\b[^-]"
+        DconjD_NODE = r"\(D \(D"
 
         case_dict = {
             "ACC": "OB1",
@@ -431,6 +433,33 @@ class NodeJoiner:
             for nodes in re.findall(GOAL_NODE, self.lines[next]):
                 self.lines[next] =  re.sub(
                     rf"\b{nodes}\b", nodes + '-' + case_info, self.lines[next])
+
+
+        return self
+
+
+    def delete_case_stacking(self, index):
+        """
+        Deletes spurious case information on nouns
+        A bit of an ugly workaround, maybe do better with case assignment
+        """
+
+        CASEstack_NODE = r"(?:-NOM){2,}|(?:-ACC){2,}"
+
+        if re.search(CASEstack_NODE, self.lines[index]):
+
+            casestack = re.findall(CASEstack_NODE, self.lines[index])[0]
+            
+            for nodes in re.findall(CASEstack_NODE, self.lines[index]):
+
+                case = nodes.split("-")[1]
+
+                self.lines[index] = re.sub(
+                    rf"\b{nodes}\b", '-' + case, self.lines[index])
+
+
+        return self
+            
                 
     
 
