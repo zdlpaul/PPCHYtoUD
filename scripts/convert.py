@@ -283,7 +283,7 @@ def main():
 
                 dep = c.create_dependency_graph(TREE)
 
-                # conversion happens below
+                # conversion happens here
                 if (
                     dep.get_by_address(len(dep.nodes) - 1)["word"]
                     not in {".", ":", "?", "!", "kafli", '"'}
