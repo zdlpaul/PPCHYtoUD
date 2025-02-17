@@ -71,6 +71,7 @@ tags = {
     "INTJ": "INTJ",  # interjection
     "FW": "X",
     "X": "X",
+    "H": "X",        # hebrew gets mapped to X, maybe problematic
 }
 
 UD_map = {
@@ -98,11 +99,11 @@ UD_map = {
     "NPRS": "PROPN",
     "PRO": "PRON",
     "PRO$": "PRON",    # possessive pronoun
-    # 'WQ' : 'PRON',  #interrogative pronoun
+    'WQ' : 'PRON',  #interrogative pronoun
     "WQP": "SCONJ",
     "WPRO": "PRON",  # wh-pronouns
     # "SUCH": "PRON",
-    # "ES": "PRON",  # expletive tagged as PRON
+    "ES": "PRON",  # expletive tagged as PRON
     # "MAN": "PRON",
     # "MANS": "PRON",
     "NUM": "NUM",
@@ -122,6 +123,7 @@ UD_map = {
     "FW": "X",
     "LS": "NUM",  # list marker tagged as numeral
     "X": "X",
+    "H": "X",     # hebrew gets mapped to X, maybe problematic
 }
 
 # This is used for the Icelandic tagger to get better results (I think?)
@@ -263,9 +265,10 @@ PPCHY_feats = {
         },
         # Number is not marked in the corpus
         # TODO: implement mechanism to extract definiteness features
-        "Definiteness": {
-            "$": "Def",
-            "!": "Indef",
+        "Definite": {
+            "D": "Def",
+            "I": "Indef",
+        },
     },
     "PRON": { # Case, Gender, Number, PronType
         # "Number": {
@@ -287,6 +290,7 @@ PPCHY_feats = {
              "ACC": "Acc",  # accusative case
              "DTV": "Dat",  # dative case
              "GEN": "Gen",  # genitive case
+        },
     },
     "ADJ": {
         "Case": {"NOM": "Nom", "ACC": "Acc", "DTV": "Dat", "GEN": "Gen"},
@@ -1312,6 +1316,7 @@ head_rules = {
     "CP-QUE-ADV-SPE": {"dir": "r", "rules": ["IP-SUB.*"]},
     "CP-QUE-ADV-SPE-LFD": {"dir": "r", "rules": ["IP-SUB.*"]},
     "CP-QUE-LFD": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-MAT-THT" : {"dir": "r","rules": ["IP-SUB.*"]},
     "CP-QUE-PRN": {"dir": "r", "rules": ["IP-SUB.*"]},
     "CP-QUE-PRN-ELAB": {"dir": "r", "rules": ["IP-SUB.*"]},
     "CP-QUE-PRN-SPE": {"dir": "r", "rules": ["IP-SUB.*"]},

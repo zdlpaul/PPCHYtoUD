@@ -18,7 +18,7 @@ from sys import stdin, stdout
 from nltk.corpus.util import LazyCorpusLoader
 from nltk.data import path as nltk_path
 
-# from lib import depender
+from lib import depender
 from lib.reader import PPCHYFormatReader, IndexedCorpusTree
 # from lib.tools import fix_IcePaHC_tree_errors, tagged_corpus
 
@@ -249,7 +249,7 @@ def main():
             # c = depender.Converter(faroese=True)
         # else:
             # uses treebank PoS tags for UD features
-            c = depender.Converter() # only this option is viable for the PPCHY I think
+        c = depender.Converter() # only this option is viable for the PPCHY I think
             # there is no tagger (yet?), so this should be the only option
 
         to_join = []  # list for use in joining d.graphs into whole sentences
