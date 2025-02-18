@@ -172,15 +172,12 @@ class PPCHY_Features:
 
     def _noun_features(self, tag):
         if "-" in tag:
-            print(tag)
             try:
                 tag, case, definiteness = tag.split("-")
-                print(tag, case, definiteness)
                 self.features["Case"] = PPCHY_feats["NOUN"]["Case"][case]
                 self.features["Definite"] = PPCHY_feats["NOUN"]["Definite"][definiteness]
             except ValueError:
                 tag, case = tag.split("-")
-                print(case)
                 if case == "I" or case == "D":
                     self.features["Definite"] = PPCHY_feats["NOUN"]["Definite"][case]
                 else:
@@ -213,6 +210,10 @@ class PPCHY_Features:
     def _pronoun_features(self, tag):
         if "-" in tag:
             case = tag.split("-")[1]
+            if "$" in tag:
+                self.features["PronType"] = ["Poss"]
+            else:
+                self.features["PronType"] = "Prs"
             if case not in {"1", "2", "3", "4", "5", "6", "TTT", "WPRO", "CASE"}:
                 try:
                     self.features["Case"] = PPCHY_feats["Case"][case]
@@ -226,7 +227,6 @@ class PPCHY_Features:
             # self.features["Number"] = PPCHY_feats["PRON"]["Number"][""]
 
     def _determiner_features(self, tag):
-        # I don't have any of this, no Degree, no Number (so just get rid of it?)
         if "-" in tag:
             tag, case = tag.split("-", 1)
             if "-" in case:
@@ -237,11 +237,11 @@ class PPCHY_Features:
                 self.features["PronType"] = "Art"
             # elif tag == "ONES":
             #     self.features["Number"] = PPCHY_feats["DET"]["Number"]["S"]
-            elif tag.startswith("Q"):
-                if tag.startswith("Q"):
-                    self.features["Degree"] = PPCHY_feats["DET"]["Degree"][""]
-                else:
-                    self.features["Degree"] = PPCHY_feats["DET"]["Degree"][tag]
+            # elif tag.startswith("Q"):
+            #    if tag.startswith("Q"):
+            #        self.features["Degree"] = PPCHY_feats["DET"]["Degree"][""]
+            #    else:
+            #        self.features["Degree"] = PPCHY_feats["DET"]["Degree"][tag]
             # else:
                 # self.features["Number"] = PPCHY_feats["DET"]["Number"][""]
         else:
@@ -262,7 +262,9 @@ class PPCHY_Features:
         if "-" in tag:
             case = tag.split("-")[1]
             tag = tag.split("-")[0]
-            if case != "1":
+            if case == "D" or case == "I":
+                self.features["Definite"] = PPCHY_feats["Definite"][case]
+            elif case != "1":
                 self.features["Case"] = PPCHY_feats["Case"][case]
         return self.features
 

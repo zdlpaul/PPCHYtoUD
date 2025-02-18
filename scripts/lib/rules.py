@@ -255,6 +255,7 @@ UD_map = {
 # rules to determine the morphology
 PPCHY_feats = {
     "Case": {"NOM": "Nom", "ACC": "Acc", "DTV": "Dat", "BEN": "Dat", "GEN": "Gen"},
+    "Definite": {"D": "Def", "I": "Indef"},
     "NOUN": {
         "Case": {
             "NOM": "Nom",  # nominative case

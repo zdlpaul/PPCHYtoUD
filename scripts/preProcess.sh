@@ -27,6 +27,13 @@ for file in $dir/*; do
     # Delete ( (CODE...))
     sed -i '/( (CODE .*))/d' $file
 
+    # Delete certain punctuation 
+    sed -e 's/(PUNC ")/g' $file
+    sed -e 's/(PUNC :)/g' $file
+
+    # TODO: Delete commas only when they are not at the end of a clause
+    # sed 's/(PUNC ,))$/)/g' $file
+
     # Delete (ID...))
     # sed -i 's/(ID [0-9]*\.[A-Z]*[0-9]*\.[A-Z]*-[A-Z]*[,\.][0-9]*[,\.][0-9]*))//g' $file
 
@@ -37,7 +44,7 @@ for file in $dir/*; do
 
     # Delete the remaining splits, marked by "@"
     # WARNING: this is preliminary
-    # there are cases where it might make sense to join, e.g. P-NP or D-N combinations
+    # there are cases where it miht make sense to join, e.g. P-NP or D-N combinations
     # has to be discussed!
 
     # sed -i 's/@//g' $file
