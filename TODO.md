@@ -6,7 +6,7 @@
 
 One point are particle verbs, we want to merge them like in IcePaHC but we want to see that they are particle verbs - potentially implement its own tag for the XPOS column.
 
-- [ ] implement a UD tag for particle verbs, e.g. PRTVB
+- [ ] implement a UD tag for particle verbs, e.g. PRTVB **compare GERMAN UD**
 
 A list of things that have to be discussed with K:
 - verbs can be modified not only with a particle but also adverb (one XPOS-tag?)
@@ -22,8 +22,7 @@ I want to implement definiteness, not sure how though, since it is not marked on
 - [x] CP-QUE-MAT-THT not implemented yet 
 - [x] -DBL constituents, maybe just delete them, talk to K
   (at the moment it is handled through ignoring it in case assignment, in features.py:269)
-
-- [ ] -DIAGN, talk to K about that
+- [x] -DIAGN, talk to K about that, OK as its own tag
 
 ###  `Icepahc_feats = {}`
 
@@ -37,9 +36,9 @@ For Proper Nouns, we could try to implement it so that if the whole tag is
 Issue with adverbial particles, Santorini has the following strcuture: (ADVP-DIR (ADV aroys@) (PP *ICH*-1) (VBN @genumen)). The PP is an issue, since it looks for the particle in this line... Maybe we don't even want to contract those, talk to K! Additionally, the case info is stored not where the NP surfaces but where it is moved from. No idea how to solve this, just leave them uncased or come up with a relation between traces and their dependents
 
 Issue with doubled determiners, have a struc ture of (D (D di) (CONJ un) (D di)) --> get tripple ACC sometimes.
-Maybe just implement something that delets case-stacking!
+Maybe just implement something that delets case-stacking! (done, as its own function!)
 
-- [ ] fix too many cases on cojoined determiners
+- [x] fix too many cases on cojoined determiners
 
 ## `postProcessing.sh`
 
@@ -48,6 +47,12 @@ Maybe just implement something that delets case-stacking!
 One option for definiteness would be to add another dash '-' so that a complete tag would be something like TAG-CASE-DEF for nouns only (but not for determiners). This could be done by fiddling with the `_noun_features(self, tag)` function in the `ICE_Features` class.
 
 - [x] implement definitness in the `_noun_features(self, tag)` function
+
+I don't understand what Degree means on determiners, especially since Q gets no Degree (is it demonstratives, determiners, quantifiers, ...)?
+
+- [ ] understand degrees on determiners
+
+For some reason, numerals are not handled with their own tag in the dictionary, they just use the "fallback" before the tags. Is that ok? 
 
 Atm, it is achieved with a try/except block - maybe it is better to use an if/else function like in `determiner_features` on line 94. 
 

@@ -27,6 +27,7 @@ if __name__ == '__main__':
         # These two need serious work!
         # j.join_verbs_two_lines(n)
         # j.join_verbs_three_lines(n)
+        # j.remove_punctuation(n)
         j.assign_case(n)
         j.case_concord_one_line(n)
         j.case_concord_conjunction(n)
