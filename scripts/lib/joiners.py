@@ -66,16 +66,6 @@ class NodeJoiner:
         # print(new_tag)
         return new_tag
 
-    # TODO: make it work
-    def remove_punctuation(self, index):
-
-        COMMA_NODE = r"\(PUNC ,\)(?!\))"
-
-        if re.search(COMMA_NODE, self.lines[index]):
-
-            self.lines[index] = re.sub(COMMA_NODE, "", self.lines[index])
-            print(self.lines[index])
-
     
     def join_verbs_two_lines(self, index):
         """
@@ -212,11 +202,6 @@ class NodeJoiner:
 
         propNOUN_NODE = r"\(NPR.*"
         DN_NODE = r"\(NP.*\(D.*\(N"
-        D_NODE = r"\(D [a-z]*\)(?!\))"
-        N_NODE = r"(N[^P]{0,4})(?: )"
-        #NP-EXPL make this not work, hardcoded for the moment
-        NPEXPL_NODE = r"\(NP-EXPL"
-        Nnwl_TAG = r"(?<=\()N[^P]{0,4}(?= )"
         D_TOKEN = r"(?:\bD.{0,4} )(\w+)+"
         N_TAG = r"(?:\(NP.*\(D.*\()(N.{0,4})(?: )"
 
@@ -229,9 +214,6 @@ class NodeJoiner:
 
         indefinites = ["a", "eyn", "an", "ayn", "eyne", "ayner", "in"]
 
-        next = index + 1
-        nextnext = index + 2
-
         if re.search(DN_NODE, self.lines[index]):
 
             try:
@@ -240,41 +222,18 @@ class NodeJoiner:
 
                 if d_token in definites:
                     self.lines[index] = re.sub(
-                       rf"\b{n_tag}\b", n_tag + '-' + 'D', self.lines[index])
+                        n_tag, n_tag + '-' + 'D', self.lines[index])
                     
                 elif d_token in indefinites:
                     self.lines[index] = re.sub(
-                        rf"\b{n_tag}\b", n_tag + '-' + 'I', self.lines[index])
+                        n_tag, n_tag + '-' + 'I', self.lines[index])
 
                 else:
                     pass
 
             except IndexError:
                 pass
-
-
-        elif  re.search(D_NODE, self.lines[index]) and re.search(
-                N_NODE, self.lines[next]) and re.search(
-                    NPEXPL_NODE, self.lines[index]) == None:
-
-            try:
-                d_token = re.findall(D_TOKEN, self.lines[index])[0]
-                n_tag = re.findall(Nnwl_TAG, self.lines[next])[0]
-
-
-                if d_token in definites:
-                    self.lines[next] = re.sub(
-                       rf"\b{n_tag}\b", n_tag + '-' + 'D', self.lines[next])
-
-                elif d_token in indefinites:
-                    self.lines[next] = re.sub(
-                        rf"\b{n_tag}\b", n_tag + '-' + 'I', self.lines[next])
-
-                else:
-                    pass
-
-            except IndexError:
-                pass
+        
 
         
     def assign_case(self, index):
@@ -423,9 +382,9 @@ class NodeJoiner:
         """ 
 
         # TOOD: QP, QR, CP boundaries, cases where (NP (N schewrt) (CONJ un) (N spies))
-        PROBE_NODE = r"\(\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-.{3}(?!.*(\*))"
-        PROBE_CASE = r"\(\b(?:PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-(NOM|ACC|DTV)"
-        GOAL_NODE = r"(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?!\w)[^-]"
+        PROBE_NODE = r"\(\b(PRO\$?|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-.{3}(?!.*(\*))"
+        PROBE_CASE = r"\(\b(?:PRO\$?|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-(NOM|ACC|DTV)"
+        GOAL_NODE = r"\b(PRO\$?|Q|NUM|N|ADJ|ADJR|ADJS|D)\b[^-]"
         DconjD_NODE = r"\(D \(D"
 
         case_dict = {
@@ -436,25 +395,12 @@ class NodeJoiner:
         # do we need a try/except block here to handle errors? 
         if re.search(PROBE_NODE, self.lines[index]):
 
-            try:
-                case_info = re.findall(PROBE_CASE, self.lines[index])[0]
+            case_info = re.findall(PROBE_CASE, self.lines[index])[0]
 
-                for nodes in re.findall(GOAL_NODE, self.lines[index]):
-
-                    # weird behaviour of $ in PRO$
-                    # this is a hardcoded solution, its because of the rf-string
-
-                    if nodes == "PRO$":
-                        self.lines[index] = re.sub(
-                            r"PRO\$", nodes + '-' + case_info, self.lines[index])
-
-                    else:
-                        self.lines[index] = re.sub(
-                            rf"\b{nodes}\b", nodes + '-' + case_info, self.lines[index])
-                    
-            except IndexError:
-                pass
-            
+            for nodes in re.findall(GOAL_NODE, self.lines[index]):
+                self.lines[index] = re.sub(
+                    rf"\b{nodes}\b", nodes + '-' + case_info, self.lines[index])
+                          
         return self
     
 
@@ -482,19 +428,12 @@ class NodeJoiner:
                 GOAL_NODE, self.lines[next]) and re.search(
                     r"\(NP.*\)\)", self.lines[index]) == None: 
 
-            try:
-                case_info = re.findall(PROBE_CASE, self.lines[index])[0]
+            case_info = re.findall(PROBE_CASE, self.lines[index])[0]
 
-                for nodes in re.findall(GOAL_NODE, self.lines[next]):
-                    if nodes == "PRO$":
-                        self.lines[next] =  re.sub(
-                            rf"PRO\$", nodes + '-' + case_info, self.lines[next])
-                    else:
-                        self.lines[next] =  re.sub(
-                            rf"\b{nodes}\b", nodes + '-' + case_info, self.lines[next])
-                
-            except IndexError:
-                pass
+            for nodes in re.findall(GOAL_NODE, self.lines[next]):
+                self.lines[next] =  re.sub(
+                    rf"\b{nodes}\b", nodes + '-' + case_info, self.lines[next])
+
 
         return self
 
@@ -505,7 +444,7 @@ class NodeJoiner:
         A bit of an ugly workaround, maybe do better with case assignment
         """
 
-        CASEstack_NODE = r"(?:-NOM){2,}|(?:-ACC){2,}|(?:-DTV){2}"
+        CASEstack_NODE = r"(?:-NOM){2,}|(?:-ACC){2,}"
 
         if re.search(CASEstack_NODE, self.lines[index]):
 
