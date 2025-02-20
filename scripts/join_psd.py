@@ -15,6 +15,7 @@ part of preprocessing pipeline.
  - See module code for further documentation
 '''
 
+
 if __name__ == '__main__':
 
     # for file in os.listdir('testing/corpora/icecorpus/psd_orig'):
@@ -25,15 +26,19 @@ if __name__ == '__main__':
     # print(j.name)
     for n in j.indexes:
         # These two need serious work!
-        # j.join_verbs_two_lines(n)
-        # j.join_verbs_three_lines(n)
+        j.join_verbs_same_line(n)
+        j.join_verbs_two_lines(n)
+        j.join_verbs_three_lines(n)
         # j.remove_punctuation(n)
+        j.join_adverbs(n)
+        j.assign_reflexive(n)
         j.assign_case(n)
         j.case_concord_one_line(n)
         j.case_concord_conjunction(n)
         j.assign_definiteness(n)
+        j.join_preposition_determiner(n)
         j.delete_case_stacking(n)
-        
+
     # output written to file
     f = FileWriter(j)
     f.write_to_file(sepdir=False, overwrite=True)

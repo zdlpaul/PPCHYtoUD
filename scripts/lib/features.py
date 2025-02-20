@@ -173,10 +173,12 @@ class PPCHY_Features:
     def _noun_features(self, tag):
         if "-" in tag:
             try:
+                print(tag)
                 tag, case, definiteness = tag.split("-")
                 self.features["Case"] = PPCHY_feats["NOUN"]["Case"][case]
                 self.features["Definite"] = PPCHY_feats["NOUN"]["Definite"][definiteness]
             except ValueError:
+                print(tag)
                 tag, case = tag.split("-")
                 if case == "I" or case == "D":
                     self.features["Definite"] = PPCHY_feats["NOUN"]["Definite"][case]
@@ -211,10 +213,10 @@ class PPCHY_Features:
         if "-" in tag:
             case = tag.split("-")[1]
             if "$" in tag:
-                self.features["PronType"] = ["Poss"]
-            else:
-                self.features["PronType"] = "Prs"
-            if case not in {"1", "2", "3", "4", "5", "6", "TTT", "WPRO", "CASE"}:
+                self.features["PronType"] = "Poss"
+            elif case == "RFL":
+                self.features["PronType"] = "Reflex"
+            if case not in {"1", "2", "3", "4", "5", "6", "TTT", "WPRO", "CASE", "RFL"}:
                 try:
                     self.features["Case"] = PPCHY_feats["Case"][case]
                 except KeyError:
@@ -231,7 +233,7 @@ class PPCHY_Features:
             tag, case = tag.split("-", 1)
             if "-" in case:
                 case = case.split("-")[1]
-            if case not in {"ADV", "NSNSP", "MSA"}:
+            if case not in {"ADV", "NSNSP", "MSA", "DBL", "1", "2", "3", "4", "5", "6"}:
                 self.features["Case"] = PPCHY_feats["Case"][case]
             if tag == "D":
                 self.features["PronType"] = "Art"
@@ -271,8 +273,8 @@ class PPCHY_Features:
     def _verb_features(self, tag):
         if "-" in tag:
             case = tag.split("-")[1]
-            tag = tag.split("-")[0]
-            if case not in {"TTT", "3", "1", "2", "4", "DBL"}:
+            tag = tag.split("-")[0]                
+            if case not in {"TTT", "3", "1", "2", "4", "DBL", "PART", "LFD", "IPP"}:
                 try:
                     self.features["Case"] = PPCHY_feats["Case"][case]
                 except KeyError:
@@ -303,12 +305,17 @@ class PPCHY_Features:
         if "-" in tag:
             case = tag.split("-")[1]
             tag = tag.split("-")[0]
-            if case not in {"1", "2", "3", "5", "10", "XXX", "Q"}:
+            if case == "NEG":
+                self.features["Polarity"] = "Neg"
+            elif case not in {"1", "2", "3", "5", "10", "XXX", "Q"}:
                 try:
                     self.features["Case"] = PPCHY_feats["ADV"]["Case"][case]
                 except KeyError:
                     print(tag)
                     raise
+
+            # The ADVP below is just for (ID 1818E-GEOGRAFIE,6.68))
+            # this should be fixed later, probably in the corpus directly
             if len(tag) > 3 and tag not in {"ALSO", "WADV", "WADVP"}:
                 try:
                     self.features["Degree"] = PPCHY_feats["ADV"]["Degree"][tag[3]]
@@ -316,7 +323,7 @@ class PPCHY_Features:
                     print(tag)
                     raise
             else:
-                self.features["Degree"] = PPCHY_feats["ADV"]["Degree"]["P"]
+                self.features["Degree"] = PPCHY_feats["ADV"]["Degree"][""]
         else:
             if len(tag) > 3 and tag not in {"ALSO", "WADV", "WADVP"}:
                 try:

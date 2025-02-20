@@ -6,12 +6,26 @@
 
 One point are particle verbs, we want to merge them like in IcePaHC but we want to see that they are particle verbs - potentially implement its own tag for the XPOS column.
 
-- [ ] implement a UD tag for particle verbs, e.g. PRTVB **compare GERMAN UD**
+- [x] implement a UD tag for particle verbs, e.g. PRTVB **compare GERMAN UD**
 
 A list of things that have to be discussed with K:
 - verbs can be modified not only with a particle but also adverb (one XPOS-tag?)
 - P-D combinations, I would like to keep them apart but mark them? 
 - V-Pro combinations (searchable with PRO @pro), keep, but mark as CL with PronType in the morphology? Same with other pronouns? 
+
+### Case on posessive pronouns
+
+I think they are genitive when after the noun, e.g.:
+
+( (IP-MAT (NP-SBJ (D der)
+		  (N zun)
+		  (ADJP (PRO zayner)))
+	  (BEF iz)
+	  (ADJP-PRD (ADJ krank))
+	  (VBN gevorn))
+  (ID 1947E-ROYTE-POMERANTSEN,160.3883))
+  
+at the moment, they get tagged as NOM becuase they are part of a subject NP. Write a rule that makes postnominal possesive GEN? 
 
 ## `rules.py`
 
@@ -50,7 +64,7 @@ One option for definiteness would be to add another dash '-' so that a complete 
 
 I don't understand what Degree means on determiners, especially since Q gets no Degree (is it demonstratives, determiners, quantifiers, ...)?
 
-- [ ] understand degrees on determiners
+- [x] understand degrees on determiners **useless**
 
 For some reason, numerals are not handled with their own tag in the dictionary, they just use the "fallback" before the tags. Is that ok? 
 
@@ -70,3 +84,53 @@ I am not sure yet how to deal with the tagger that they append to the program. I
 Two functions, `determine_relations()` and `decode_escaped()` can probably stay as they are. What has to change is ` fix_IcePaHC_tree_error` `and tagged_corpus(corpus)`. Specifically the last one seems to be for the tagger, so not important here. 
 
 - [ ] adapt `fix_IcePaHC_tree_error`
+
+## Problems
+
+At the moment, some CorpusReaderFunctionalities do not work. Have to call the converter with `pyhton3 convert.py -N -i /path/to/corpus/* --output`.
+
+The following error:
+```
+Traceback (most recent call last):
+  File "/home/paulez/yiddishsoftware/YiDUDConverter/scripts/convert.py", line 506, in <module>
+    main()
+  File "/home/paulez/yiddishsoftware/YiDUDConverter/scripts/convert.py", line 171, in main
+    dep = c.create_dependency_graph(psd)
+  File "/home/paulez/yiddishsoftware/YiDUDConverter/scripts/lib/depender.py", line 1798, in create_dependency_graph
+    t = IndexedCorpusTree.fromstring(
+  File "/home/paulez/yiddishsoftware/YiDUDConverter/scripts/lib/reader.py", line 67, in fromstring
+    tree = super().fromstring(s)
+  File "/home/paulez/.local/lib/python3.10/site-packages/nltk/tree.py", line 667, in fromstring
+    cls._parse_error(s, match, "end-of-string")
+  File "/home/paulez/.local/lib/python3.10/site-packages/nltk/tree.py", line 735, in _parse_error
+    raise ValueError(msg)
+ValueError: IndexedCorpusTree.read(): expected 'end-of-string' but got '( '
+            at index 321.
+                "...saf.112)) ( (IP-MAT ..."
+```
+
+happens for some reason in (ID 1590E-SAM-HAYYIM,227_Assaf.112)). I have no idea why, 
+
+
+There seems to be a nested ADVP phrase level that is probably not correct..
+
+( (IP-MAT (NP-OB1 (D-ACC di) (NUM-ACC drey) (N-ACC-D khlkim))
+	  (VBF ruft)
+	  (NP-SBJ (PRO-NOM men))
+	  (NP-SPR (D di) (ADJ alte) (N-D velt))
+	  (CP-ADV (C veyl)
+		  (IP-SUB (NP-SBJ (PRO-NOM zey))
+			  (VBF zeynen)
+			  (ADVP-DIAGN (ADV shun))
+			  (PP (P fun)
+			      (ADVP (ADVP lang) (RP an)))
+			  (ADJP-PRD (ADJ bekant)))))
+  (ID 1818E-GEOGRAFIE,6.68))
+  
+now fixed in features.py:319 - just temporary though! should be fixed in the corpus. same in (ID 1927E-ZARETSKI-SHOLEM,8.73))
+
+what to do about DR+P...
+
+ADV ADV contractions
+
+Rubashov at the end a LOT of whitespace

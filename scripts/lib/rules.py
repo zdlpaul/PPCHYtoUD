@@ -34,6 +34,7 @@ tags = {
     # "ONE": "DET",  # ath. áður taggað sem NUM
     # "ONES": "DET",
     "P": "ADP",  # generalized prepositions tagged as ADP
+    "P-CL": "ADP",
     "RP": "ADP",  # specifiers of P/complements of P - Ath. flokka sem eitthvað annað?
     "RPX": "ADP",
     "Q": "ADJ",  # quantifiers tagged as ADJ - ATH ÞETTA ÞARF AÐ ENDURSKOÐA
@@ -72,6 +73,7 @@ tags = {
     "FW": "X",
     "X": "X",
     "H": "X",        # hebrew gets mapped to X, maybe problematic
+    "PUNC": "PUNCT",
 }
 
 UD_map = {
@@ -124,6 +126,7 @@ UD_map = {
     "LS": "NUM",  # list marker tagged as numeral
     "X": "X",
     "H": "X",     # hebrew gets mapped to X, maybe problematic
+    "PUNC" : "PUNCT",
 }
 
 # This is used for the Icelandic tagger to get better results (I think?)
@@ -268,7 +271,7 @@ PPCHY_feats = {
         # TODO: implement mechanism to extract definiteness features
         "Definite": {
             "D": "Def",
-            "I": "Indef",
+            "I": "Ind",
         },
     },
     "PRON": { # Case, Gender, Number, PronType
@@ -413,7 +416,7 @@ head_rules = {
             "N.*",
             "IP-SMC",
             "IP-MAT-*",
-            ".+[^PUNCT]",
+            ".+[^PUNC]",
         ],
     },
     "IP-MAT=\d": {
@@ -557,7 +560,7 @@ head_rules = {
             "IP-SMC",
             "IP-MAT.*",
             "PP",
-            ".+[^PUNCT]",
+            ".+[^PUNC]",
         ],
     },
     "IP-MAT-SPE-1": {
@@ -607,7 +610,7 @@ head_rules = {
             "IP-SMC",
             "IP-MAT.*",
             "PP",
-            ".+[^PUNCT]",
+            ".+[^PUNC]",
         ],
     },
     "IP-MAT-SPE-PRN": {
@@ -892,7 +895,7 @@ head_rules = {
     "IP-SUB-SPE-PRN-ELAB": {"dir": "r", "rules": ["VB.*", "HV.*"]},
     "IP-IMP": {"dir": "r", "rules": ["VB.", "HV."]},  # imperative
     "IP-IMP-PRN": {"dir": "r", "rules": ["VB."]},
-    "IP-IMP-SPE": {"dir": "r", "rules": ["VB.", "BE.*", "VAN", "DO.+", ".+[^PUNCT]"]},
+    "IP-IMP-SPE": {"dir": "r", "rules": ["VB.", "BE.*", "VAN", "DO.+", ".+[^PUNC]"]},
     "IP-IMP-SPE-PRN": {"dir": "r", "rules": ["VB."]},
     "IP-IMP-SPE-SBJ": {"dir": "r", "rules": ["VB."]},
     "IP-SMC": {
@@ -2192,7 +2195,7 @@ head_rules = {
             "INTJP",
             "PP",
             "WNP",
-            ".+[^PUNCT]",
+            ".+[^PUNC]",
         ],
     },  # quote phrase
     "QTP-SBJ": {"dir": "r", "rules": ["IP.*", "NP.*"]},

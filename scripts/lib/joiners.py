@@ -19,17 +19,17 @@ import pyconll
 
 # took out adverbs for the moment, I am not sure what to do with those yet
 # they seem to crash
-PARTICLE_NODE = r"\((P|RP.*|Q-.|PRO-.|ONE\+Q-.|OTHER-.|WD-.|RP-.*) [A-Za-z]+\@\)"
+PARTICLE_NODE = r"\((P|RP.*|Q-.|ADVR?|PRO-.|ONE\+Q-.|OTHER-.|WD-.|RP-.*|TO) [A-Za-z]+\@\)"
 PARTICLE_TOKEN = r"(?<= )[A-Za-z]+(?=\@)"
 
 PARTICLE_MIDDLE_NODE = r"\(TO \@[a-z]+\@\)"
 PARTICLE_MIDDLE_TOKEN = r"(?<= )\@[A-Za-z]+(?=\@)"
 PARTICLE_START = r"(?<= )\@(?=[A-Za-z])"
 
-VERB_NODE = r"\((BE|DO|HV|MD|RD|V(A|B))(P|D|N|)(I|S|N|G|)(-(N|A|D|G))? \@[A-Za-z]+\)"
+VERB_NODE = r"\((BE|DO|HV|MD|RD|V(A|B))(P|D|N|F|)(I|S|N|G|F|)(-(N|A|D|G))? \@[A-Za-z]+\)"
 VERB_START = r"(?<=[A-Z] )\@(?=[A-Za-z])"  # matches '@' in start of verb
 VERB_TOKEN = r"(?<=\@)[a-zA-Z]+"
-VERB_TAG = r"(?<=\()(BE|DO|HV|MD|RD|V(A|B))(P|D|N|)(I|S|N|G|)(-(N|A|D|G))?"
+VERB_TAG = r"(?<=\()(BE|DO|HV|MD|RD|V(A|B))(P|D|N|F|)(I|S|N|G|F|)(-(N|A|D|G))?"
 
 LEMMA_START_GENERAL = (
     r"((?<=[a-z]-)(?=[a-z]))"  # MATCHES START OF LEMMA
@@ -76,6 +76,31 @@ class NodeJoiner:
             self.lines[index] = re.sub(COMMA_NODE, "", self.lines[index])
             print(self.lines[index])
 
+
+    def join_verbs_same_line(self, index):
+
+        if re.search(PARTICLE_NODE, self.lines[index]) and re.search(
+                VERB_NODE, self.lines[index]):
+
+
+            self.lines[index] = re.sub(
+                VERB_START,
+                re.findall(PARTICLE_TOKEN, self.lines[index])[0],
+                self.lines[index],
+            )
+
+            verb_tag = re.findall(VERB_TAG, self.lines[index])[0]
+            verb_tag = self._join_tag(verb_tag)
+
+            self.lines[index] = re.sub(
+                VERB_TAG,
+                re.findall(verb_tag, self.lines[index])[0] +
+                '-PART',
+                self.lines[index],
+            )
+
+            self.lines[index] = re.sub(PARTICLE_NODE, "", self.lines[index])
+
     
     def join_verbs_two_lines(self, index):
         """
@@ -111,6 +136,13 @@ class NodeJoiner:
             # verb tag found
             verb_tag = re.findall(VERB_TAG, self.lines[index])[0]
             verb_tag = self._join_tag(verb_tag)
+
+            self.lines[index] = re.sub(
+                VERB_TAG,
+                re.findall(verb_tag, self.lines[index])[0] +
+                '-PART',
+                self.lines[index],
+            )
             # print(verb_tag)
             # tag used to find new verb token found
             # new_verb_token_regex = (
@@ -134,6 +166,11 @@ class NodeJoiner:
             # particle node deleted
             self.lines[prev] = re.sub(PARTICLE_NODE, "", self.lines[prev])
 
+            # removes the phrase-level of directional particles
+            # possibly not needed
+            if re.search(r"\(ADVP-DIR \)", self.lines[prev]):
+               re.sub(r"\(ADVP-DIR \)", "", self.lines[prev])
+                
             # print('\t\t', prev, self.lines[prev].strip())
             # print('\t\t', index, self.lines[index].strip())
             # print('\t\t', next, self.lines[next].strip())
@@ -171,6 +208,13 @@ class NodeJoiner:
             # verb tag found
                 verb_tag = re.findall(VERB_TAG, self.lines[index])[0]
                 verb_tag = self._join_tag(verb_tag)
+
+                self.lines[index] = re.sub(
+                    VERB_TAG,
+                    re.findall(verb_tag, self.lines[index])[0] +
+                    '-PART',
+                    self.lines[index],
+                )
             # print(verb_tag)
             # tag used to find new verb token found
             # new_verb_token_regex = (
@@ -195,6 +239,9 @@ class NodeJoiner:
             # particle node deleted
                 self.lines[prev] = re.sub(PARTICLE_NODE, "", self.lines[prev])
                 self.lines[prevprev] = re.sub(PARTICLE_NODE, "", self.lines[prevprev])
+
+                if re.search(r"\(ADVP-DIR \)", self.lines[prevprev]):
+                    re.sub(r"\(ADVP-DIR \)", "", self.lines[prevprev])
 
             # print('\t\t', prev, self.lines[prevprev].strip())
             # print('\t\t', index, self.lines[prev].strip())
@@ -255,7 +302,8 @@ class NodeJoiner:
 
         elif  re.search(D_NODE, self.lines[index]) and re.search(
                 N_NODE, self.lines[next]) and re.search(
-                    NPEXPL_NODE, self.lines[index]) == None:
+                    NPEXPL_NODE, self.lines[index]) == None and re.search(
+                        r"\(D.*\)\)\n", self.lines[index]) == None:
 
             try:
                 d_token = re.findall(D_TOKEN, self.lines[index])[0]
@@ -276,6 +324,39 @@ class NodeJoiner:
             except IndexError:
                 pass
 
+    def assign_reflexive(self, index):
+
+        rflNP_NODE = r"\(NP-RFL \(PRO"
+        rflPRO_TAG = r"(?<=NP-RFL \()PRO"
+
+        if re.search(rflNP_NODE, self.lines[index]):
+
+            self.lines[index] = re.sub(rflPRO_TAG, 'PRO-RFL', self.lines[index])
+
+        return self
+    
+
+    def join_adverbs(self, index):
+
+        negADV_NODE = r"\(ADV @o(?=\)\))"
+        negADV_TAG = r"(?=\()ADV(?= @o)"
+        NEG_NODE = r"\(NEG [a-z]+@\)"
+        NEG_TOKEN = r"(?<=\(NEG )[a-z]+(?=@)"
+        NEG_TAG = r"\(?<=\()NEG(?= )"
+
+        next  = index + 1
+        
+        if re.search(NEG_NODE, self.lines[index]) and re.search(
+                negADV_NODE, self.lines[next]):
+
+            self.lines[next] = re.sub(negADV_NODE,
+                                      '(ADV-NEG ' +
+                                      re.findall(NEG_TOKEN, self.lines[index])[0] +
+                                      'o',
+                                      self.lines[next])
+
+            self.lines[index] = re.sub(NEG_NODE, "", self.lines[index])
+
         
     def assign_case(self, index):
         """ 
@@ -293,10 +374,10 @@ class NodeJoiner:
               (ID 1927E-SHATZKY-TESHUAT,12.6))
         """
         
-        NPcased_NODE = r"\(NP-.{3}(?!.*(\*))" # the star is preliminary
+        NPcased_NODE = r"\(NP-.{3}(?!.*(\*))"# the star is preliminary
         NPinNP_NODE = r"\(NP-.{3} \(NP.*"
-        embNP_NODE = r"(?<=\(NP-.{3} \()NP"
-        NPcaseless_TAG = r"(?<=\()NP"
+        embNP_NODE = r"(?<=\(NP-.{3} \()NPR?(?=\s)"
+        NPcaseless_TAG = r"(?<=\()NPR?"
         NPcased_TAG = r"(?<=\()NP-.{3}"
         RSPNPcased_TAG = "(?<=\()NP-.{3}-RSP"
         CAT_TAG = r"(?<=\()NP(?=-.{3})"
@@ -314,7 +395,8 @@ class NodeJoiner:
 
         case_dict = {
             "ACC": "OB1",
-            "DTV": "OB2"
+            "DTV": "OB2",
+            "GEN": "GEN",
             }
 
         next = index + 1
@@ -425,7 +507,7 @@ class NodeJoiner:
         # TOOD: QP, QR, CP boundaries, cases where (NP (N schewrt) (CONJ un) (N spies))
         PROBE_NODE = r"\(\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-.{3}(?!.*(\*))"
         PROBE_CASE = r"\(\b(?:PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-(NOM|ACC|DTV)"
-        GOAL_NODE = r"(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?!\w)[^-]"
+        GOAL_NODE = r"(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)"
         DconjD_NODE = r"\(D \(D"
 
         case_dict = {
@@ -473,7 +555,7 @@ class NodeJoiner:
         
         PROBE_NODE = r"\(\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D|QP)\b-.{3}(?!.*(\*))"
         PROBE_CASE = r"\(\b(?:PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D|QP)\b-(NOM|ACC|DTV)"
-        GOAL_NODE = r"\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D|QP)\b[^-]"
+        GOAL_NODE = r"(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D|QP)(?=\s)"
 
         next = index + 1
         
@@ -498,6 +580,39 @@ class NodeJoiner:
 
         return self
 
+    def join_preposition_determiner(self, index):
+
+        Psep_NODE = r"\(PP \(P .*\@\)"
+        P_TAG = r"(?<=\(PP \()P(?= )"
+        P_TOKEN_at = r"(?<=\(P-CL )[a-z]+\@(?=\))"
+        P_TOKEN = r"(?<=\(P-CL )[a-z]+(?=\@\))"
+        Dsep_NODE = r"\(NP \(D @.*\)"
+        D_NODE = r"(?<=\(NP )\(D @[a-z]+\)"
+        D_TAG = r"(?<=\()D(?= @)"
+        D_TOKEN = r"(?<=\(NP \(D @)[a-z]+(?=\))"
+
+        next = index + 1
+
+        if re.search(Psep_NODE, self.lines[index]) and re.search(D_NODE, self.lines[next]):
+
+
+            self.lines[index] = re.sub(P_TAG,
+                                       re.findall(P_TAG, self.lines[index])[0] +
+                                       '-CL',
+                                       self.lines[index])
+
+            
+            self.lines[index] = re.sub(P_TOKEN_at,
+                                       re.findall(P_TOKEN, self.lines[index])[0] +
+                                       re.findall(D_TOKEN, self.lines[next])[0],
+                                       self.lines[index])
+
+            self.lines[next] = re.sub(D_NODE,
+                                      "(D 0)",
+                                      self.lines[next])
+
+        
+
 
     def delete_case_stacking(self, index):
         """
@@ -520,8 +635,6 @@ class NodeJoiner:
 
 
         return self
-            
-                
     
 
 class FileWriter:

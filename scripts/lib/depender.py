@@ -1629,6 +1629,7 @@ class Converter:
         try:
             for address, node in self.dg.nodes.items():
                 if node["ctag"] == "X":
+                    # print(address, node)
                     if (
                         address + 1 in self.dg.nodes
                         and self.dg.get_by_address(address + 1)["head"] == address
