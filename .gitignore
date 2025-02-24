@@ -9,3 +9,9 @@ data/
 UDCon_files/
  
 *~
+
+CoNLLU/
+
+corpora/
+
+occurence_lists/
