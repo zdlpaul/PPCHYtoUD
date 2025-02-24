@@ -55,4 +55,11 @@ for file in $dir/*; do
     # Delete weird dot in (ID 1590E-SAM-HAYYIM,3.52))
     sed -i 's/{\.}//' $file
 
+    # Deal with ellipsis (temporary)
+    sed -i 's/(VB 0)/(VB %ELLPS%)/g' $file
+
+    # hardcoded fix for 1XXXX-COURT-TESTIMONY,152_1640_e.922
+    # is an error in the code, should be part of preProcessing of the corpus
+    sed -i 's/(ADJP-SPR tut)/(DOF tut)/g' $file
+
 done;

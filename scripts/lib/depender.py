@@ -1781,6 +1781,22 @@ class Converter:
                     self.dg.get_by_address(address + 1).update({"rel": "fixed"})
                     self.dg.get_by_address(address + 2).update({"rel": "fixed"})
 
+    def _fix_ellipses(self):
+        """
+        doesn't work yet, is supposed to fix VB 0 combinations
+        I don't know what happens where...
+        could be a potential fix where this ellipsis site is just deleted
+        or the 0 is replaced with a special character, K
+        """
+
+        for address, node in self.dg.nodes.items():
+            if (
+                node["word"] == "0"
+                and node["ctag"] == "VERB"
+                and self.dg.get_by_addressr
+            ):
+                pass
+
     def create_dependency_graph(self, tree):
         """Create a dependency graph from a phrase structure tree.
 
@@ -1824,10 +1840,17 @@ class Converter:
                     t[i].set_id(0)
                     const.append(i)
 
+                    # for adress, node in self.dg.nodes.items():
+                    #     if node["word"] == '0':
+                    #         print(node)
+
             else:
 
                 # If trace node, skip (preliminary, may result in errors)
                 # e.g. *T*-3 etc.
+
+                # if self.
+                
                 if t[i][0] in {
                     "0",
                     "*",

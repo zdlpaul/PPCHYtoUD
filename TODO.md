@@ -17,6 +17,7 @@ A list of things that have to be discussed with K:
 
 I think they are genitive when after the noun, e.g.:
 
+```
 ( (IP-MAT (NP-SBJ (D der)
 		  (N zun)
 		  (ADJP (PRO zayner)))
@@ -24,8 +25,10 @@ I think they are genitive when after the noun, e.g.:
 	  (ADJP-PRD (ADJ krank))
 	  (VBN gevorn))
   (ID 1947E-ROYTE-POMERANTSEN,160.3883))
-  
-at the moment, they get tagged as NOM becuase they are part of a subject NP. Write a rule that makes postnominal possesive GEN? 
+```
+
+at the moment, they get tagged as NOM becuase they are part of a subject NP. 
+- [ ] Write a rule that makes postnominal possesive GEN? 
 
 ## `rules.py`
 
@@ -87,9 +90,10 @@ Two functions, `determine_relations()` and `decode_escaped()` can probably stay 
 
 ## Problems
 
-At the moment, some CorpusReaderFunctionalities do not work. Have to call the converter with `pyhton3 convert.py -N -i /path/to/corpus/* --output`.
+- At the moment, some CorpusReaderFunctionalities do not work. Have to call the converter with `pyhton3 convert.py -N -i /path/to/corpus/* --output`.
 
-The following error:
+- The following error happens for some reason in (ID 1590E-SAM-HAYYIM,227_Assaf.112)). I have no idea why.
+  - [ ] deleted the file for now, not a fix!
 ```
 Traceback (most recent call last):
   File "/home/paulez/yiddishsoftware/YiDUDConverter/scripts/convert.py", line 506, in <module>
@@ -109,11 +113,10 @@ ValueError: IndexedCorpusTree.read(): expected 'end-of-string' but got '( '
                 "...saf.112)) ( (IP-MAT ..."
 ```
 
-happens for some reason in (ID 1590E-SAM-HAYYIM,227_Assaf.112)). I have no idea why, 
 
-
-There seems to be a nested ADVP phrase level that is probably not correct..
-
+- There seems to be a nested ADVP phrase level that is probably not correct..
+  - [x] now fixed in features.py:319 - just temporary though! should be fixed in the corpus. same in (ID 1927E-ZARETSKI-SHOLEM,8.73))
+```
 ( (IP-MAT (NP-OB1 (D-ACC di) (NUM-ACC drey) (N-ACC-D khlkim))
 	  (VBF ruft)
 	  (NP-SBJ (PRO-NOM men))
@@ -126,11 +129,30 @@ There seems to be a nested ADVP phrase level that is probably not correct..
 			      (ADVP (ADVP lang) (RP an)))
 			  (ADJP-PRD (ADJ bekant)))))
   (ID 1818E-GEOGRAFIE,6.68))
+```  
+
+
+- ADV ADV contractions
+
+- at the end of Rubashov, there is a lot of whitespace that messes with the depender
+  - should go into a post-processing script probably. 
+  - [ ] PRELIMINARY: rubashov is deleted
   
-now fixed in features.py:319 - just temporary though! should be fixed in the corpus. same in (ID 1927E-ZARETSKI-SHOLEM,8.73))
+- there is a weird SPR tag that needs to be fixed.
+  - [x] part of `preProcess.sh` now
 
-what to do about DR+P...
+### Ellipsis
 
-ADV ADV contractions
+In the corpus, VP-ellipsis is marked with (VB 0). It either picks up the verb in the same sentence (e.g. from a matrix clause) or even from a sentence before.
+This creates problems, because for some reason the auxiliar does not get tagged as root, possible to do something in depender.py:1832 where tokens consisting of special characters are filtered out.
+If no general solution with the depender is found, this could also go into the post-processing pipeline.
 
-Rubashov at the end a LOT of whitespace
+Examples that create this problem:
+
+- 1XXXX-COURT-TESTIMONY,74_1555_e.360
+  - there is a root in the main clause but not in the subordinate clause
+- 1590E-SAM-HAYYIM,227_Assaf.140
+- 1928E-ZARETSKI-MENDELE,24.129
+- 1834E-UKRAINE-2,38.52
+
+- [x] fix (temporariliy done by swapping out the token 0 with the token ellipsis - not good for the parser though)

@@ -610,7 +610,6 @@ class NodeJoiner:
             self.lines[next] = re.sub(D_NODE,
                                       "(D 0)",
                                       self.lines[next])
-
         
 
 

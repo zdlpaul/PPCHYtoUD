@@ -1,3 +1,4 @@
+
 """
 
 A script for converting various token information into UD features, both for Icelandic and 
@@ -316,7 +317,7 @@ class PPCHY_Features:
 
             # The ADVP below is just for (ID 1818E-GEOGRAFIE,6.68))
             # this should be fixed later, probably in the corpus directly
-            if len(tag) > 3 and tag not in {"ALSO", "WADV", "WADVP"}:
+            if len(tag) > 3 and tag not in {"ALSO", "WADV", "WADVP", "ADVP"}:
                 try:
                     self.features["Degree"] = PPCHY_feats["ADV"]["Degree"][tag[3]]
                 except KeyError:
@@ -325,7 +326,7 @@ class PPCHY_Features:
             else:
                 self.features["Degree"] = PPCHY_feats["ADV"]["Degree"][""]
         else:
-            if len(tag) > 3 and tag not in {"ALSO", "WADV", "WADVP"}:
+            if len(tag) > 3 and tag not in {"ALSO", "WADV", "WADVP", "ADVP"}:
                 try:
                     self.features["Degree"] = PPCHY_feats["ADV"]["Degree"][tag[3]]
                 except KeyError:
