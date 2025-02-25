@@ -28,7 +28,7 @@ I think they are genitive when after the noun, e.g.:
 ```
 
 at the moment, they get tagged as NOM becuase they are part of a subject NP. 
-- [ ] Write a rule that makes postnominal possesive GEN? 
+- [x] Write a rule that makes postnominal possesive GEN? 
 
 ## `rules.py`
 
@@ -180,6 +180,7 @@ Examples that create this problem:
   
 - [x] VLF, should be aux in my opinion 
   - efsher volt zi oykh gekrogn nokh a polke %EXCL%
+  - [ ] potentially add a subjunctive tag? 
 
 - [ ] 1947E-ROYTE-POMERANTSEN,3.56
   - there are problems with determining the head in questions
@@ -188,7 +189,7 @@ Examples that create this problem:
 - [ ] RP-ASP
   - *a kuk gebn*, indefinite noun phrase + light verb expressign verbal 
   
-- [ ] reflexives are not analysed correctly, should be just objects? 
+- [x] reflexives are not analysed correctly, should be just objects? 
   - e.g. 1947E-ROYTE-POMERANTSEN,4.94
   - maybe Santorini discernes between actual reflexives and reflexive verbs
   - actual reflexives have a GF, non-actuals are NP-RFL
