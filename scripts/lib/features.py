@@ -17,7 +17,6 @@ from collections import defaultdict
 
 from lib.rules import UD_map, PPCHY_feats # took out OTB_map
 from lib.tools import decode_escaped
-
 class Features:
     """ """
 

@@ -27,9 +27,12 @@ for file in $dir/*; do
     # Delete ( (CODE...))
     sed -i '/( (CODE .*))/d' $file
 
-    # Delete certain punctuation 
-    # sed -e 's/(PUNC ")/g' $file
-    # sed -e 's/(PUNC :)/g' $file
+    # Replace certain punctuation 
+    # sed -i 's/(PUNC ---)/(PUNC ,)/g' $file
+    # sed -i 's/(PUNC --)/(PUNC ,)/g' $file
+
+    # Replace '-' notation for parentheticals
+    sed -i 's/(PUNC -)/(PUNC ,)/g' $file
 
     # TODO: Delete commas only when they are not at the end of a clause
     # sed 's/(PUNC ,))$/)/g' $file
@@ -42,12 +45,8 @@ for file in $dir/*; do
     # Delete hebrew notation that contains {}, messes with the depender
     sed -i -r 's/\{([a-z]+)\}/\1/g' $file
 
+    # Adapt the corpus for better conversion, see the module documentation
     python3 ./join_psd.py $file
-
-    # Delete the remaining splits, marked by "@"
-    # WARNING: this is preliminary
-    # there are cases where it miht make sense to join, e.g. P-NP or D-N combinations
-    # has to be discussed!
 
     # Delete lines that were left over by the NodeJoiner
     sed -i '/^[ \t]\+$/d' $file
@@ -55,11 +54,19 @@ for file in $dir/*; do
     # Delete weird dot in (ID 1590E-SAM-HAYYIM,3.52))
     sed -i 's/{\.}//' $file
 
-    # Deal with ellipsis (temporary)
-    sed -i 's/(VB 0)/(VB %ELLPS%)/g' $file
+    # Change por from a quantifier (Q) to an adjective (ADJ)
+    # this still does not work, see TODO.md
+    # sed -i 's/(Q por)/(ADV por)/g' $file
+
+    # Deal with ellipsis, preliminary
+    sed -i -r 's/\(VB(F|I|N)? 0\)/\(VB %ELLPS%\)/g' $file
 
     # hardcoded fix for 1XXXX-COURT-TESTIMONY,152_1640_e.922
     # is an error in the code, should be part of preProcessing of the corpus
     sed -i 's/(ADJP-SPR tut)/(DOF tut)/g' $file
+
+    # turns post-nominal possesive pronouns into genitive
+    # should actually be part of a postProcessing pipeline?
+    sed -i  's/(ADJP (PRO\$/(ADJP (PRO\$-GEN/g' $file
 
 done;

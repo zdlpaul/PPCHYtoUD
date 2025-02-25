@@ -35,14 +35,15 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
         return "conj"
     elif mod_tag == "ES":
         return "expl"  # expletive
+    elif mod_tag == "PRO$":
+        return "det:poss"
     elif mod_tag in ["PRO", "WPRO"]:
         return "nmod"
-    elif mod_tag in ["D", "WD", "ONE", "ONES", "OTHER", "OTHERS", "SUCH"]:
+    elif mod_tag in ["D", "WD", "ONE", "ONES", "OTHER", "OTHERS", "SUCH", "Q", "QR", "QS", "WQP"]:
         return "det"
     elif (
         mod_tag[:3] == "ADJ"
         or mod_tag[:4] == "WADJ"
-        or mod_tag in ["Q", "QR", "QS", "WQP"]
     ):
         # -SPR (secondary predicate)
         return "amod"
@@ -51,6 +52,8 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
         return "obl"  # NP sem er haus PP fær obl nominal  #TODO: haus CP-ADV (sem er PP) á að vera merktur advcl
     elif mod_tag == "P":
         return "case"
+    # elif mod_tag == "MEAS": for por? 
+        # return "compound"
     elif mod_tag[:3] == "ADV" or mod_tag in [
         "NEG",
         "FP",

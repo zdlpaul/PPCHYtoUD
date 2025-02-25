@@ -303,7 +303,8 @@ class NodeJoiner:
         elif  re.search(D_NODE, self.lines[index]) and re.search(
                 N_NODE, self.lines[next]) and re.search(
                     NPEXPL_NODE, self.lines[index]) == None and re.search(
-                        r"\(D.*\)\)\n", self.lines[index]) == None:
+                        r"\(D.*\)\)\n", self.lines[index]) == None and re.search(
+                            r"\(ADJP \(PRO\$", self.lines[next]) == None:
 
             try:
                 d_token = re.findall(D_TOKEN, self.lines[index])[0]
@@ -562,7 +563,8 @@ class NodeJoiner:
         # TODO: Does not work with IP-ABS(?)
         if re.search(PROBE_NODE, self.lines[index]) and re.search(
                 GOAL_NODE, self.lines[next]) and re.search(
-                    r"\(NP.*\)\)", self.lines[index]) == None: 
+                    r"\(NP.*\)\)", self.lines[index]) == None and re.search(
+                        r"\(ADJP \(PRO\$", self.lines[next]) == None: 
 
             try:
                 case_info = re.findall(PROBE_CASE, self.lines[index])[0]

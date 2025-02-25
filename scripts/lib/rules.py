@@ -12,15 +12,15 @@ cconj = {
     "hn",
     "heynt",    # prob subordinating (personal comment Christine & Tessa, potentially like hence)
     "ober",
-    "vorem",    # I think this is subordinating, translated as because
-    "varin",    # aren't these something like relative pronouns?
+    # "vorem",    # I think this is subordinating, translated as because
+    # "varin",    # aren't these something like relative pronouns?
     "vidr",     # ?
     "ven",      # ?
     "nor",
     "in",  
     "in'"  
-    "varum",    # ?
-    "vorum",
+    # "varum",    # ?
+    # "vorum",
     "zundrin",
     "sey",      # ? 
     "i",        # ?
@@ -43,6 +43,7 @@ tags = {
     "DO": "VERB",  #'gera', do, tagged as verb
     "HV": "AUX",  #'have' tagged as auxiliary verb
     "MD": "AUX",  # modal verbs tagged as auxiliary
+    "VL": "AUX",
     "RD": "VERB",  #'verða', become, tagged as verb
     "W": "DET",  # WH-determiner tagged as DET (determiner)
     "R": "VERB",  # All forms of "verða" tagged as VERB
@@ -74,7 +75,8 @@ tags = {
     "X": "X",
     "H": "X",        # hebrew gets mapped to X, maybe problematic
     "PUNC": "PUNCT",
-}
+    # "MEAS": "ADJ", # por does not work 
+} 
 
 UD_map = {
     # ipsd_tag : UD_tag
@@ -92,6 +94,7 @@ UD_map = {
     "DO": "VERB",  #'gera', do, tagged as verb
     "HV": "AUX",  #'have' tagged as auxiliary verb
     "MD": "AUX",  # modal verbs tagged as auxiliary
+    "VL": "AUX",
     "RD": "VERB",  #'verða', become, tagged as verb
     "W": "DET",  # WH-determiner tagged as DET (determiner)
     "R": "VERB",  # All forms of "verða" tagged as VERB
@@ -127,6 +130,7 @@ UD_map = {
     "X": "X",
     "H": "X",     # hebrew gets mapped to X, maybe problematic
     "PUNC" : "PUNCT",
+    # "MEAS" : "ADJ", # for por, does not work
 }
 
 # This is used for the Icelandic tagger to get better results (I think?)
@@ -2246,6 +2250,7 @@ relation_NP = {
     "POS": "nmod:poss",
     "POS-RSP": "nmod:poss",
     "POS-CPD": "nmod:poss",
+    "RFL": "expl:pv", # for pseudo reflexives
     "COM": "nmod:poss",
     "ADT": "obl",
     "TMP": "obl",

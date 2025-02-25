@@ -46,6 +46,7 @@ I want to implement definiteness, not sure how though, since it is not marked on
 For Proper Nouns, we could try to implement it so that if the whole tag is 
 
 - [x] implement definiteness in the `"NOUN":` subitem (How?)
+- [ ] implement PronType=Neg for negative pronouns (what are these, get a list from K?)
 - [ ] implement definiteness for proper nouns, they have their own tag NPR (always definite), **actually, no?**
 
 ## `join_psd.py`
@@ -140,6 +141,7 @@ ValueError: IndexedCorpusTree.read(): expected 'end-of-string' but got '( '
   
 - there is a weird SPR tag that needs to be fixed.
   - [x] part of `preProcess.sh` now
+  
 
 ### Ellipsis
 
@@ -156,3 +158,41 @@ Examples that create this problem:
 - 1834E-UKRAINE-2,38.52
 
 - [x] fix (temporariliy done by swapping out the token 0 with the token ellipsis - not good for the parser though)
+
+
+### Dependency Issues
+
+- [ ] VERB PART NUM combinations
+  - I don't know what the syntax here should be
+  - in German UD it is just an ADV modifier with a cc relation - ?
+
+- [ ] there is something going on with indirect objects/dative things
+  - could potentially be fixed in .conllu files
+   
+- [ ] issues with *a por*
+  - double DET confuses the parser 
+  - in German UD, it is tagged as an adjective (why?)
+  - in German grammar *paar* is analyzed as an Indefinitpronomen, maybe like *jeder* 
+
+- [ ] ot die katshke
+  - what is ot? *here*, *this very*, *just now*
+  - tagged as FP in Sanotini, talk to K about what to do with those...
+  
+- [x] VLF, should be aux in my opinion 
+  - efsher volt zi oykh gekrogn nokh a polke %EXCL%
+
+- [ ] 1947E-ROYTE-POMERANTSEN,3.56
+  - there are problems with determining the head in questions
+  - why should the WPRO be the root of the sentence? 
+
+- [ ] RP-ASP
+  - *a kuk gebn*, indefinite noun phrase + light verb expressign verbal 
+  
+- [ ] reflexives are not analysed correctly, should be just objects? 
+  - e.g. 1947E-ROYTE-POMERANTSEN,4.94
+  - maybe Santorini discernes between actual reflexives and reflexive verbs
+  - actual reflexives have a GF, non-actuals are NP-RFL
+  - https://universaldependencies.org/de/dep/expl-pv.html
+  
+- [ ] 1910E-GRINE-FELDER
+  - many many META categories, possibly just delete them, messes with de depender (a bit?)
