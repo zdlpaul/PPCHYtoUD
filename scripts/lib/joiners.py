@@ -503,9 +503,6 @@ class NodeJoiner:
                 case_info = re.findall(CASE_INFO, self.lines[index])[0]
                 cat_tag = re.findall(CAT_TAG, self.lines[index])[0]
 
-                print("case_info : ", case_info)
-                print("case_tag : ", cat_tag)
-
                 if case_info == 'SBJ':
                     self.lines[index] = re.sub(
                         r"\(D", "(D" + '-' + 'NOM', self.lines[index])
@@ -519,27 +516,32 @@ class NodeJoiner:
 
             except IndexError:
                 pass
+
+
+        if re.search(r"\(NP-(SBJ|ACC|DTV|GEN) \(ADV [a-z]*\) \([A-Z]*", self.lines[index]):
+
+            try:
+                case_info = re.findall(CASE_INFO, self.lines[index])[0]
+                cat_tag = re.findall(CAT_TAG, self.lines[index])[0]
+                goal_tag = re.findall(
+                    r"(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)",
+                    self.lines[index])[0]
+
+                if case_info == 'SBJ':
+                    self.lines[index] = re.sub(
+                        goal_tag, goal_tag + '-' + 'NOM', self.lines[index])
+                    
+                elif case_info == 'ACC' or 'DTV':
+                    self.lines[index] = re.sub(
+                        r"(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)", goal_tag + '-' + case_info, self.lines[index])
+                    
+                    self.lines[index] = re.sub(
+                        NPcased_TAG, cat_tag + '-' + case_dict[case_info], self.lines[index])
+                
+            except IndexError:
+                pass
             
         return self
-
-    
-    def assign_neg(self, index):
-        nischt_NODE
-        Q_TAG = r"(Q{0,4})(?: )"
-        Q_NODE = r"\(Q(-NOM|-ACC|-DTV|-GEN)? key[a-z]*\)"
-
-        try:
-            if re.search(Q_NODE, self.lines[index]):
-
-                for nodes in re.findall(Q_TAG, self.lines[index]):
-
-                    print(nodes)
-
-                    self.lines[index] = re.sub(
-                        rf"\b{nodes}\b", nodes + '-NEG', self.lines[index])
-                    
-        except IndexError:
-            pass
 
     def case_concord_one_line(self, index):
         """

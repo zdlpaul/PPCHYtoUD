@@ -173,19 +173,16 @@ class PPCHY_Features:
     def _noun_features(self, tag):
         if "-" in tag:
             try:
-                print(tag)
                 tag, case, definiteness = tag.split("-")
                 self.features["Case"] = PPCHY_feats["NOUN"]["Case"][case]
                 self.features["Definite"] = PPCHY_feats["NOUN"]["Definite"][definiteness]
             except ValueError:
-                print(tag)
                 tag, case = tag.split("-")
                 if case == "I" or case == "D":
                     self.features["Definite"] = PPCHY_feats["NOUN"]["Definite"][case]
                 else:
                     self.features["Case"] = PPCHY_feats["NOUN"]["Case"][case]
             except KeyError:
-                print(tag)
                 raise
             
         # took out since definiteness is not marked by $ but similar to Case
@@ -232,11 +229,19 @@ class PPCHY_Features:
 
     def _determiner_features(self, tag):
         if "-" in tag:
-            tag, case = tag.split("-", 1)
-            if "-" in case:
-                case = case.split("-")[1]
-            if case not in {"ADV", "NSNSP", "MSA", "DBL", "1", "2", "3", "4", "5", "6"}:
-                self.features["Case"] = PPCHY_feats["Case"][case]
+            tag, morph = tag.split("-", 1)
+            if "-" in morph:
+                case = morph.split("-")[0]
+                polarity = morph.split("-")[1]
+                if polarity == "NEG":
+                    self.features["PronType"] = "Neg"
+                if case not in {"ADV", "NSNSP", "MSA", "DBL", "1", "2", "3", "4", "5", "6"}:
+                    self.features["Case"] = PPCHY_feats["Case"][case]
+            else:
+                if morph == "NEG":
+                    self.features["Polarity"] = "Neg"
+                elif morph not in {"ADV", "NSNSP", "MSA", "DBL", "1", "2", "3", "4", "5", "6"}:
+                    self.features["Case"] = PPCHY_feats["Case"][morph]
             if tag == "D":
                 self.features["PronType"] = "Art"
             # elif tag == "ONES":

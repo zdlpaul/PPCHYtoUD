@@ -38,7 +38,6 @@ if __name__ == '__main__':
         j.assign_definiteness(n)
         j.join_preposition_determiner(n)
         j.delete_case_stacking(n)
-        # j.assign_neg(n)
 
     # output written to file
     f = FileWriter(j)

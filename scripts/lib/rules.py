@@ -779,6 +779,33 @@ head_rules = {
             "IP-MAT",
         ],
     },
+    "IP-MAT-THT": {
+        "dir": "r",
+        "rules": [
+            "VB",
+            "VB.*",
+            "VAN",
+            "RD.*",
+            "DO.*",
+            "DAN",
+            "VP",
+            "HV.*",
+            "ADJP",
+            "IP-MAT-PRN",
+            "IP-MAT.*",
+            ("IP-SMC.*|ADVP"),
+            "ADVP",
+            "NP",
+            "VAN",
+            "VAG",
+            "NP-PRD",
+            "N.*",
+            "IP-SMC",
+            "IP-MAT.*",
+            "PP",
+            ".+[^PUNC]",
+        ],
+    },
     "IP-MAT-THT-PRN": {
         "dir": "r",
         "rules": [
@@ -2440,6 +2467,7 @@ relation_IP = {
     "MAT-SPE-SBJ": "ccomp/xcomp",
     "MAT-SUB-SPE": "ccomp/xcomp",
     "MAT-SMC": "conj",  # same as MAT, occurs once
+    "MAT-THT": "ccomp", # not sure if this is correct, clauses are finite though!
     "SUB": "conj",
     "SUB-INF": "xcomp",
     "SUB-LFD": "conj",

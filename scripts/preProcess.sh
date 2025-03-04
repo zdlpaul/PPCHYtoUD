@@ -52,6 +52,9 @@ for file in $dir/*; do
     # Adapt the corpus for better conversion, see the module documentation
     python3 ./join_psd.py $file
 
+    # Add negative morphology to quantifiers
+    sed -i -r 's/\(Q(-?[A-Z]{0,3}) (keyn[a-z]*|nisht|[a-z]*nisht|nikht[a-z]*|nits)\)/\(Q\1-NEG \2\)/g' $file
+
     # Delete lines that were left over by the NodeJoiner
     sed -i '/^[ \t]\+$/d' $file
 
@@ -64,7 +67,7 @@ for file in $dir/*; do
 
     # changes NEG head to be adverbial
     # potentially a problem when it come to NEG inside an NP
-    sed -i -r 's/\(NEG ([a-z]*)\)/\(ADV-NEG \1\)/g' $file
+    sed -i -r 's/\(NEG (\@?[a-z]*)\)/\(ADV-NEG \1\)/g' $file
 
     # Deal with ellipsis, preliminary
     sed -i -r 's/\(VB(F|I|N)? 0\)/\(VB %ellps%\)/g' $file
