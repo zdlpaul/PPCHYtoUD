@@ -538,6 +538,20 @@ class Converter:
         elif self.auto_tags == "corpus":
             return self.tagged_sentences.get(tree.corpus_id, defaultdict(None))
 
+    # def _fix_apor(self):
+
+    #     for adress, node in self.dg.nodes.items():
+            
+    #         if (
+    #                 node["word"] == "a"
+    #                 and node["tag"] == "ADV"
+    #                 and node["ctag"] in {"D", "D-NOM", "D-ACC", "D-DTV"}
+    #                 and self.dg.get_by_adress(adress + 1)["word"] == "por"
+    #                 and self.dg.get_by_adress(adress + 1)["ctag"] == "Q"
+    #         ):
+    #             self.dg.get_by_adress(adress).update({"rel": "det"})
+    #             self.dg.get_by_adress(adress + 1).update({"rel": "compound"})
+
     def _fix_root_relation(self):
         """09.03.20
         Fixes buggy root relations in filled out sentence graph by checking
@@ -1863,7 +1877,7 @@ class Converter:
                     FORM = LEMMA = "-"
                     # tag = tag_list[nr]
 
-                elif "-" in t[i]:
+                elif "^" in t[i]:
                     # if leaf is for whatever reason a single symbol with no
                     # hyphen treat seperately
                     if len(t[i]) == 1:
@@ -1871,15 +1885,15 @@ class Converter:
                     # If terminal node with no label (token-lemma)
                     # e.g. tók-taka
                     else:
-                        FORM = decode_escaped(t[i].split("-", 1)[0])
-                        LEMMA = decode_escaped(t[i].split("-", 1)[1])
+                        FORM = decode_escaped(t[i].split("^", 1)[0])
+                        LEMMA = decode_escaped(t[i].split("^", 1)[1])
                         # tag = tag_list[nr]
                 elif t[i][0] in {
                     "<dash/>",
                     "<dash>",
                     "</dash>",
                 }:
-                    FORM = LEMMA = "-"
+                    FORM = LEMMA = "^"
                     # tag = tag_list[nr]
                 else:  # If no lemma present
                     FORM = decode_escaped(t[i])
@@ -2163,6 +2177,7 @@ class Converter:
         #    self._fix_case_rel()
         self._fix_cc_rel()
         self._fix_head_id_same()
+        # self._fix_apor()
         if self.dg.num_roots() != 1:
 
             # # DEBUG:

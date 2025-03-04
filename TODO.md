@@ -35,10 +35,16 @@ at the moment, they get tagged as NOM becuase they are part of a subject NP.
 General problem here is to get the Santorini corpus to the IcePaHC system. 
 I want to implement definiteness, not sure how though, since it is not marked on the head or the phrase level in the PPHC format - I don't know where the Icelandic people got it from then tbh. 
 
+- [ ] problems determining the head
+  - all heads in the IcePaHC are case-marked, not the ones in the PPCHY though
+  - add all the non-cases marked heads to the rules!
+  - look at hierarchy, unsure about this...
+
 ### `head_rules = {}`
 - [x] CP-QUE-MAT-THT not implemented yet 
-- [x] -DBL constituents, maybe just delete them, talk to K
-  (at the moment it is handled through ignoring it in case assignment, in features.py:269)
+- [x] -DBL constituents
+  - (at the moment it is handled through ignoring it in case assignment, in features.py:269)
+  - now handled as appositives, with the relation *appos*
 - [x] -DIAGN, talk to K about that, OK as its own tag
 
 ###  `Icepahc_feats = {}`
@@ -166,25 +172,32 @@ Examples that create this problem:
   - I don't know what the syntax here should be
   - in German UD it is just an ADV modifier with a cc relation - ?
 
-- [ ] there is something going on with indirect objects/dative things
+- [x] there is something going on with indirect objects/dative things
   - could potentially be fixed in .conllu files
+  - these seem to be ok now mostly...
    
-- [ ] issues with *a por*
+- [x] issues with *a por*
   - double DET confuses the parser 
   - in German UD, it is tagged as an adjective (why?)
   - in German grammar *paar* is analyzed as an Indefinitpronomen, maybe like *jeder* 
+  - one other option 
+  - make a por apor, but show that they are actually a-por with UD X-Y format for contracted elements
+	- **not fixed nicely at all...**
 
 - [ ] ot die katshke
   - what is ot? *here*, *this very*, *just now*
   - tagged as FP in Sanotini, talk to K about what to do with those...
+  - in the YMC they are tagged as ADV
+	- either an ADV or a particle on the verb
   
 - [x] VLF, should be aux in my opinion 
   - efsher volt zi oykh gekrogn nokh a polke %EXCL%
   - [ ] potentially add a subjunctive tag? 
 
-- [ ] 1947E-ROYTE-POMERANTSEN,3.56
+- [x] 1947E-ROYTE-POMERANTSEN,3.56
   - there are problems with determining the head in questions
   - why should the WPRO be the root of the sentence? 
+  - unclear why this is the object, they seem to work ok though
 
 - [ ] RP-ASP
   - *a kuk gebn*, indefinite noun phrase + light verb expressign verbal 
@@ -197,3 +210,58 @@ Examples that create this problem:
   
 - [ ] 1910E-GRINE-FELDER
   - many many META categories, possibly just delete them, messes with de depender (a bit?)
+  - this is a bit of a mess
+  ```
+  ( (META (NPR elkone)
+	(CONJ un)
+	(NPR gitl)
+	(VBF kumen)
+	(RP on)
+	(PUNC .)
+	(CODE {COM:end_formerly_missing_part}))
+  (ID 1910E-GRINE-FELDER,63.21))
+  ```
+  - does not work since there is only a META tag 
+
+- [x] NP-LGS is logical subject, assign SBJ feature!
+
+- [ ] NEG might not be an adverb always, but maybe it is? talk to K 
+
+- [ ] Genitives are still a problem, especially inside NP, see also AG sentences with UNCLEAR
+  ```
+  ( (IP-MAT (PP (DR+P derfar))
+	  (MDF vet)
+	  (NP-SBJ (NPR-SBJ hersh-ber))
+	  (ADVP-TMP (ADV amol))
+	  (NP-MSR (Q epes))
+	  (NP-DTV (NPR-DTV elkonen))
+	  (VB-PART tsuhelfn)
+	  (PUNC .))
+  (ID 1910E-GRINE-FELDER,64.51))
+  ```
+  - What is the correct structure here?
+  
+  ```
+  ( (IP-MAT (CONJ un')
+	  (NP-SBJ (PRO$ zeyn) (N hur))
+	  (VBF vs)
+	  (ADJP-PRD (ADJ gleykh)
+		    (PP (P az)
+			(NP (N guld)
+			    (ADJP (ADJ gishlagn))))))
+  (ID 1507W-BOVO,98.720))
+  ```
+  - What is the structure here? 
+  - same when an NP follows comparatives, should this be nmod? 
+  - quantifiers...
+  
+### Phrase level issues
+I do not fully understand, how phrases combine with each other, e.g.:
+```
+	(IP-IMP-SPE (IP-MAT-PRN-SPE (NP-SBJ (PRO ikh))
+				      (VBF bet))
+		      (VBI shreybt)
+			  ...
+	(ID 1XXXX-COURT-TESTIMONY,151_c1640_e.910))
+```
+Therefore I also do not know how to implement this in the rule. Seems to be the main provlem with wrongly alligned dependencies.

@@ -1,0 +1,3 @@
+(ADJP (PRO$ mayner)))
+
+(ADJ-SPR tut)

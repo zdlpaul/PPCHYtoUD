@@ -29,6 +29,8 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
         "NPR",
     ]:  # seinna no. í nafnlið fær 'conj' og er háð fyrra no.
         return "conj"
+    # elif mod_tag in ["ADJ", "ADJR", "ADJS", "ADJP", "ADJP-PRD", "ADJP-SPR"] and head_tag in ["N", "NP"]:
+        # return "nmod"  does not work for some reason..
     elif head_tag == "ADJP":
         return "amod"
     elif mod_tag == "NPR" and head_tag == "CONJP":
@@ -39,6 +41,9 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
         return "det:poss"
     elif mod_tag in ["PRO", "WPRO"]:
         return "nmod"
+    elif mod_tag == "Q" and head_tag == "D":
+        print(mod_tag, head_tag)
+        return "compound"
     elif mod_tag in ["D", "WD", "ONE", "ONES", "OTHER", "OTHERS", "SUCH", "Q", "QR", "QS", "WQP"]:
         return "det"
     elif (

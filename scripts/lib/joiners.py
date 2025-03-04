@@ -1,3 +1,4 @@
+
 '''
 Paul Zodl 
 2025
@@ -274,7 +275,7 @@ class NodeJoiner:
                      "der_doziker", "die", "didozike", "dizr", "dis",
                      "doz", "dizir", "dizh", "dizs"]
 
-        indefinites = ["a", "eyn", "an", "ayn", "eyne", "ayner", "in"]
+        indefinites = ["a", "eyn", "an", "ayn", "eyne", "ayner", "in", "aynem"]
 
         next = index + 1
         nextnext = index + 2
@@ -382,7 +383,7 @@ class NodeJoiner:
         NPcased_TAG = r"(?<=\()NP-.{3}"
         RSPNPcased_TAG = "(?<=\()NP-.{3}-RSP"
         CAT_TAG = r"(?<=\()NP(?=-.{3})"
-        CASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV|GEN)"
+        CASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV|GEN|LGS)"
         complexNP_NODE = r"(?<=\(NP-.{3} \()(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)"
         
         SMCSUBJ_NODE = r"\(IP-SMC \(NP-SBJ.*\)"
@@ -390,13 +391,14 @@ class NodeJoiner:
         CONJP_NODE = r"\(CONJP.*"
         
         RSPNP_NODE = r"NP-.{3}-RSP"
-        RSPCASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV|GEN)(?=-RSP)"
+        RSPCASE_INFO = r"(?<=\(NP-)(SBJ|ACC|DTV|GEN|LGS)(?=-RSP)"
         complexRSPNP_NODE = r"(?<=\(NP-.{3}-RSP \()(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)"
         RSPNPCAT_TAG = r"(?<=\()NP(?=-.{3}-RSP)"
 
         case_dict = {
             "ACC": "OB1",
             "DTV": "OB2",
+            "LGS": "SBJ", 
             "GEN": "GEN",
             }
 
@@ -478,6 +480,13 @@ class NodeJoiner:
                 if case_info == 'SBJ':
                     self.lines[index] = re.sub(
                         complexNP_NODE, pro_node + '-' + 'NOM', self.lines[index])
+
+                elif case_info == 'LGS':
+                     self.lines[index] = re.sub(
+                        complexNP_NODE, pro_node + '-' + 'NOM', self.lines[index])
+
+                     self.lines[index] = re.sub(
+                        NPcased_TAG, cat_tag + '-' + case_dict[case_info], self.lines[index])
                     
                 elif case_info == 'ACC' or 'DTV':
                     self.lines[index] = re.sub(
@@ -487,10 +496,50 @@ class NodeJoiner:
                         NPcased_TAG, cat_tag + '-' + case_dict[case_info], self.lines[index])
                     
             except IndexError:
-                pass         
+                pass
 
+        if re.search(r"\(NP-(SBJ|ACC|DTV|GEN) \(QP \(D", self.lines[index]):
+            try:
+                case_info = re.findall(CASE_INFO, self.lines[index])[0]
+                cat_tag = re.findall(CAT_TAG, self.lines[index])[0]
+
+                print("case_info : ", case_info)
+                print("case_tag : ", cat_tag)
+
+                if case_info == 'SBJ':
+                    self.lines[index] = re.sub(
+                        r"\(D", "(D" + '-' + 'NOM', self.lines[index])
+                    
+                elif case_info == 'ACC' or 'DTV':
+                    self.lines[index] = re.sub(
+                        r"\(D", "(D" + '-' + case_info, self.lines[index])
+                    
+                    self.lines[index] = re.sub(
+                        NPcased_TAG, cat_tag + '-' + case_dict[case_info], self.lines[index])
+
+            except IndexError:
+                pass
+            
         return self
+
     
+    def assign_neg(self, index):
+        nischt_NODE
+        Q_TAG = r"(Q{0,4})(?: )"
+        Q_NODE = r"\(Q(-NOM|-ACC|-DTV|-GEN)? key[a-z]*\)"
+
+        try:
+            if re.search(Q_NODE, self.lines[index]):
+
+                for nodes in re.findall(Q_TAG, self.lines[index]):
+
+                    print(nodes)
+
+                    self.lines[index] = re.sub(
+                        rf"\b{nodes}\b", nodes + '-NEG', self.lines[index])
+                    
+        except IndexError:
+            pass
 
     def case_concord_one_line(self, index):
         """
@@ -508,7 +557,7 @@ class NodeJoiner:
         # TOOD: QP, QR, CP boundaries, cases where (NP (N schewrt) (CONJ un) (N spies))
         PROBE_NODE = r"\(\b(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-.{3}(?!.*(\*))"
         PROBE_CASE = r"\(\b(?:PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)\b-(NOM|ACC|DTV)"
-        GOAL_NODE = r"(?<!\w)(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)"
+        GOAL_NODE = r"(?<!\w)(PRO\$|PRO|Q(?!\spor)|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)"
         DconjD_NODE = r"\(D \(D"
 
         case_dict = {
@@ -562,6 +611,19 @@ class NodeJoiner:
         
         # TODO: Does not work with IP-ABS(?)
         if re.search(PROBE_NODE, self.lines[index]) and re.search(
+                r"\(Q\s", self.lines[index]):
+
+            try:
+                case_info = re.findall(PROBE_CASE, self.lines[index])[0]
+
+                for nodes in re.findall(GOAL_NODE, self.lines[next]):
+                    self.lines[next] = re.sub(
+                        rf"\b{nodes}\b", nodes + '-' + case_info, self.lines[next])
+
+            except IndexError:
+                pass
+                
+        elif re.search(PROBE_NODE, self.lines[index]) and re.search(
                 GOAL_NODE, self.lines[next]) and re.search(
                     r"\(NP.*\)\)", self.lines[index]) == None and re.search(
                         r"\(ADJP \(PRO\$", self.lines[next]) == None: 
@@ -613,7 +675,13 @@ class NodeJoiner:
                                       "(D 0)",
                                       self.lines[next])
         
-
+    def debug_lines(self, index):
+        curr_line, prev_line = self.lines[index].split("\t"), self.lines[
+            index - 1].split("\t")
+        
+        print("curr_line = ", curr_line)
+        print("prev_line = ", prev_line)
+        print("self.lines[index] = ", self.lines[index])
 
     def delete_case_stacking(self, index):
         """
@@ -634,10 +702,75 @@ class NodeJoiner:
                 self.lines[index] = re.sub(
                     rf"\b{nodes}\b", '-' + case, self.lines[index])
 
-
         return self
     
 
+    # def fix_apor(self, index):
+
+
+    #     curr_line, prev_line = self.lines[index].split("\t"), self.lines[
+    #         index - 1
+    #     ].split("\t")
+
+    #     if len(curr_line) == 1 or len(prev_line) == 1:
+    #         return self
+
+    #     elif (
+    #             curr_line[1] == "por" and
+    #             prev_line[1] == "a" and
+    #             curr_line[3] != "por"
+    #     ):
+    #         print("Hello!")
+    #         prev_line[7] = "det"
+    #         curr_line[7] = "compound"
+
+    #         curr_line[6] = prev_line[0]
+
+    #         i = index
+
+    #         while i < len(self.lines):
+
+    #              target_line = self.lines[i].split("\t")
+
+    #              print("index: ", index)
+    #              print("target_line: ", target_line)
+    #              print("i: ", i)
+
+    #              if target_line[3] == "NOUN":
+
+    #                  prev_line[6] = target_line[0]
+
+    #                  break
+            
+
+    #              i += 1
+
+    #     self.lines[index], self.lines[index - 1] = "\t".join(curr_line), "\t".join(
+    #         prev_line
+    #     )
+
+    #     return self
+
+    
+    # def fix_ellipsis(self, index):
+
+    #     curr_line = self.lines[index].split("\t")
+
+    #     if curr_line[1] == "%ELLPS":
+
+    #         while i < len(self.lines):
+
+    #             target_line = self.lines[i].split("\t")
+
+    #             if target_line[3] == "VERB":
+
+    #                 target_line[7] == "root"
+
+    #        # a loop that changes all the [6] to the [0] of the target_line
+
+    #             i -= 1
+
+        
 class FileWriter:
     """
     Class to write .lines attribute of a Joiner object (NodeJoiner,

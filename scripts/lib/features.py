@@ -199,12 +199,14 @@ class PPCHY_Features:
     def _adjective_features(self, tag):
         if "-" in tag:
             tag, case = tag.split("-")
-            self.features["Case"] = PPCHY_feats["ADJ"]["Case"][case]
+            if case not in {"PRD", "SPR"}:
+                self.features["Case"] = PPCHY_feats["ADJ"]["Case"][case]
         if len(tag) > 3:
             if tag.startswith("W") and len(tag) > 4:
                 self.features["Degree"] = PPCHY_feats["ADJ"]["Degree"][tag[4]]
             elif not tag.startswith("W"):
-                self.features["Degree"] = PPCHY_feats["ADJ"]["Degree"][tag[3]]
+                print(tag)
+                self.features["Degree"] = PPCHY_feats["ADJ"]["Degree"][""]
         else:
             self.features["Degree"] = PPCHY_feats["ADJ"]["Degree"][""]
         return self.features
@@ -307,6 +309,14 @@ class PPCHY_Features:
             tag = tag.split("-")[0]
             if case == "NEG":
                 self.features["Polarity"] = "Neg"
+            elif case == "TMP":
+                self.features["AdvType"] = "Tim"
+            elif case == "DIR":
+                self.features["AdvType"] = "Loc"
+            elif case == "LOC":
+                self.features["AdvType"] = "Loc"
+            elif case == "MSR":
+                self.features["AdvType"] = "Deg"
             elif case not in {"1", "2", "3", "5", "10", "XXX", "Q"}:
                 try:
                     self.features["Case"] = PPCHY_feats["ADV"]["Case"][case]
@@ -362,6 +372,7 @@ class PPCHY_Features:
             "MD",
             "RD",
             "RA",
+            "VL",
         ]
         det_prefixes = ["D", "WD", "Q", "QR"]
         if word == "ADJ" or self.tag.startswith("WADJ"):

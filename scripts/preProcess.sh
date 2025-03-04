@@ -34,6 +34,8 @@ for file in $dir/*; do
     # Replace '-' notation for parentheticals
     sed -i 's/(PUNC -)/(PUNC ,)/g' $file
 
+    sed -i 's/%EXCL$/!/g' $file
+
     # TODO: Delete commas only when they are not at the end of a clause
     # sed 's/(PUNC ,))$/)/g' $file
 
@@ -41,6 +43,8 @@ for file in $dir/*; do
     # sed -i 's/(ID [0-9]*\.[A-Z]*[0-9]*\.[A-Z]*-[A-Z]*[,\.][0-9]*[,\.][0-9]*))//g' $file
     # Delete lines which include (ID
     # sed -i '/(ID/d' $file
+
+    sed -i -r 's/\{(COM:[a-z]+_?[a-z]+)\}/\L\1/g' $file
 
     # Delete hebrew notation that contains {}, messes with the depender
     sed -i -r 's/\{([a-z]+)\}/\1/g' $file
@@ -58,8 +62,16 @@ for file in $dir/*; do
     # this still does not work, see TODO.md
     # sed -i 's/(Q por)/(ADV por)/g' $file
 
+    # changes NEG head to be adverbial
+    # potentially a problem when it come to NEG inside an NP
+    sed -i -r 's/\(NEG ([a-z]*)\)/\(ADV-NEG \1\)/g' $file
+
     # Deal with ellipsis, preliminary
-    sed -i -r 's/\(VB(F|I|N)? 0\)/\(VB %ELLPS%\)/g' $file
+    sed -i -r 's/\(VB(F|I|N)? 0\)/\(VB %ellps%\)/g' $file
+
+    # takes all silent categories, changes their marking to %
+    # also makes them lowercase (to be more like lexical items)
+    sed -i -r 's/\*([a-zA-Z]*)\*/%\L\1%/g' $file
 
     # hardcoded fix for 1XXXX-COURT-TESTIMONY,152_1640_e.922
     # is an error in the code, should be part of preProcessing of the corpus
