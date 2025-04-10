@@ -1,11 +1,12 @@
 """
-Paul Zodl 
-2025
 
 Hinrik Hafsteinsson (hinhaf@hi.is)
 Þórunn Arnardóttir (thar@hi.is)
 
 Part of UniTree project for IcePaHC
+
+adapted by zdpaul (paul.zodl@uni-konstanz.de)
+2025 
 """
 
 import os

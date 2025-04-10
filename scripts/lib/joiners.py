@@ -1,14 +1,13 @@
 
 '''
-Paul Zodl 
-2025
-adapted from https://github.com/thorunna/UDConverter/blob/master/scripts/lib/joiners.py
-
 Part of the preprocessing pipeline. 
     - Joins nodes that have been split by @
     - only implemented for verbs at the moment
     - assigns definiteness values based on determiners and NPR tag
     - assigns case 
+
+adapted by zdlpaul (paul.zodl@uni-konstanz.de)
+2025
 '''
 
 import re
@@ -533,7 +532,7 @@ class NodeJoiner:
                     
                 elif case_info == 'ACC' or 'DTV':
                     self.lines[index] = re.sub(
-                        r"(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)", goal_tag + '-' + case_info, self.lines[index])
+                        r"(PRO\$|PRO|Q|NUM|N|ADJ|ADJR|ADJS|D)(?=\s)", goal_tag + '-' + case_info, self.lines[index],1)
                     
                     self.lines[index] = re.sub(
                         NPcased_TAG, cat_tag + '-' + case_dict[case_info], self.lines[index])

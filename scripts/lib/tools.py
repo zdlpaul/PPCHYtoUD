@@ -1,7 +1,6 @@
 """
-This is a script specifically for the IcePaHC
-There is a possibility to adapt this, especially the fix_errors function 
-TODO: Adapt
+adapted by zdlpaul (paul.zodl@uni-konstanz.de)
+2025
 """
 
 import string
@@ -168,7 +167,7 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
         return "dep"
     elif head_tag == "IP" and head_func == "SMC":
         return "dep"
-
+    
     return "dep"
 
 
@@ -192,7 +191,7 @@ def decode_escaped(string, lemma=False):
         return string
     else:
         return string
-
+    
 
 def fix_IcePaHC_tree_errors(tree):
     """

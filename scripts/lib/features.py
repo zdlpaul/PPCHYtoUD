@@ -1,12 +1,14 @@
 
 """
-
 A script for converting various token information into UD features, both for Icelandic and 
 Faroese text, for the respective token.
 The conversion builds on information from existing tags if a third-party tagger (such as ABLTagger) 
 is not used. If so, the tagger's output is converted to the proper format.
 
+adapted by zdlpaul (paul.zodl@uni-konstanz.de)
+2025
 """
+
 import os
 import re
 import json
@@ -306,6 +308,8 @@ class PPCHY_Features:
                 self.features["Tense"] = PPCHY_feats["VERB"]["Tense"]["P"]
             if tag[2] == "I":
                 self.features["Mood"] = PPCHY_feats["VERB"]["Mood"]["I"]
+            if tag == "VLF":
+                self.features["Mood"] = "Sub"
         return self.features
 
     def _adverb_features(self, tag):

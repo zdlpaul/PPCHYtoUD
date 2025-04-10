@@ -2,9 +2,6 @@ from lib.joiners import NodeJoiner, FileWriter
 import sys
 
 '''
-Paul Zodl 
-2025
-
 Hinrik Hafsteinsson
 Þórunn Arnardóttir
 2019
@@ -13,6 +10,9 @@ Text preperation script for IcePaHC corpus file (.psd). Not to be run by itself,
 part of preprocessing pipeline.
  - Joins various nodes in IcePaHC files that have been split, mostly by '$'
  - See module code for further documentation
+
+adapted by zdlpaul (paul.zodl@uni-konstanz.de)
+2025
 '''
 
 

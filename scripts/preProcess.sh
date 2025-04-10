@@ -15,6 +15,9 @@ Script for cleaning IcePaHC corpus files (.psd)
  - Replaces (, <dash/>) with (, ,-,)
  - Joins nouns with corresponding determiners (stýrimanns$ $ins -> stýrimannsins)
 Machine-specific paths must be specified before use
+
+adapted by zdpaul (paul.zodl@uni-konstanz.de)
+2025
 '''
 
 # path
@@ -53,7 +56,7 @@ for file in $dir/*; do
     python3 ./join_psd.py $file
 
     # Add negative morphology to quantifiers
-    sed -i -r 's/\(Q(-?[A-Z]{0,3}) (keyn[a-z]*|nisht|[a-z]*nisht|nikht[a-z]*|nits)\)/\(Q\1-NEG \2\)/g' $file
+    sed -i -r 's/\(Q(-?[A-Z]{0,3}) (keyn[a-z]*|nisht|[a-z]*nisht|nikht[a-z]*|nits|niks[a-z]*)\)/\(Q\1-NEG \2\)/g' $file
 
     # Delete lines that were left over by the NodeJoiner
     sed -i '/^[ \t]\+$/d' $file

@@ -6,6 +6,9 @@ Hinrik Hafsteinsson (hinhaf@hi.is)
 Based on earlier work by
 Örvar Kárason (ohk2@hi.is)
 Part of UniTree project for IcePaHC
+
+adapted by zdlpaul (paul.zodl@uni-konstanz.de)
+2025
 """
 
 from lib.features import *

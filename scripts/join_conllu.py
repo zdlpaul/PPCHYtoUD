@@ -12,6 +12,9 @@ by itself, part of postrocessing pipeline.
  - Joins sentences that have been split into main clauses, based on punctuation
  - Fixes UD token IDs and dependency heads after joining
  - See module code for further documentation
+
+adapted by zdlpaul (paul.zodl@uni-konstanz.de)
+2025
 '''
 
 if __name__ == '__main__':

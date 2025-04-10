@@ -1,3 +1,8 @@
+"""
+adapted by zdlpaul (paul.zodl@uni-konstanz.de)
+2025 
+"""
+
 cconj = {
     "un",
     "un'",
@@ -44,7 +49,7 @@ tags = {
     "HV": "AUX",  #'have' tagged as auxiliary verb
     "MD": "AUX",  # modal verbs tagged as auxiliary
     "VL": "AUX",
-    "RD": "VERB",  #'verða', become, tagged as verb
+    "RD": "AUX",  #'verða', become, tagged as verb
     "W": "DET",  # WH-determiner tagged as DET (determiner)
     "R": "VERB",  # All forms of "verða" tagged as VERB
     "TO": "PART",  # Infinitive marker tagged as PART (particle)
@@ -352,6 +357,21 @@ head_rules = {
             "HV",
         ],
     },
+    "IP-INF-3": {
+        "dir": "r",
+        "rules": [
+            "VB",
+            "DO",
+            "VAN",
+            "IP-INF",
+            "ADJP",
+            "NP-PRD",
+            "NP-OB1",
+            "PP",
+            "BE",
+            "HV",
+        ],
+    },
     "IP-INF-ABS": {"dir": "r", "rules": ["VB"]},
     "IP-INF-ABS-PRN": {"dir": "r", "rules": ["VB"]},
     "IP-INF-PRP": {"dir": "r", "rules": ["VB", "IP-INF"]},  # purpose infinitive
@@ -391,7 +411,6 @@ head_rules = {
     "IP-MAT": {
         "dir": "r",
         "rules": [
-            "RD.*",
             "VB",
             "VB.*",
             "VAN",
@@ -405,6 +424,7 @@ head_rules = {
             ("NP-PRD|IP-MAT|IP-MAT-\d"),
             "MD.*",
             "HAN",
+            "RD.*",
             "NP-PRD",
             "ADJP",
             "HV.*",
@@ -426,7 +446,6 @@ head_rules = {
     "IP-MAT=\d": {
         "dir": "r",
         "rules": [
-            "RD.*",
             "VB",
             "VB.*",
             "VAN",
@@ -437,6 +456,7 @@ head_rules = {
             "DAG",
             "HAG",
             "VP",
+            "RD.*",
             ("NP-PRD|IP-MAT|IP-MAT-\d"),
             "MD.*",
             "HAN",
@@ -784,7 +804,7 @@ head_rules = {
         "rules": [
             "VB",
             "VB.*",
-            "VAN",
+            "VA.*",
             "RD.*",
             "DO.*",
             "DAN",
@@ -821,7 +841,71 @@ head_rules = {
             "ADJP",
             "PP"
         ],
-    },    
+    },
+    "IP-MAT-THT-SPE": {
+        "dir": "r",
+        "rules": [
+            "VB",
+            "VB.*",
+            "RD.*",
+            "DO.*",
+            "VAN",
+            "HV.*",
+            "VAG",
+            "VP",
+            "NP-PRD",
+            "ADJP",
+            "PP"
+        ],
+    },
+    "IP-MAT-THT-SPE-1": {
+        "dir": "r",
+        "rules": [
+            "VB",
+            "VB.*",
+            "RD.*",
+            "DO.*",
+            "VAN",
+            "HV.*",
+            "VAG",
+            "VP",
+            "NP-PRD",
+            "ADJP",
+            "PP"
+        ],
+    },
+    "IP-MAT-THT-SPE=1": {
+        "dir": "r",
+        "rules": [
+            "VB",
+            "VB.*",
+            "RD.*",
+            "DO.*",
+            "VAN",
+            "HV.*",
+            "VAG",
+            "VP",
+            "NP-PRD",
+            "ADJP",
+            "PP"
+        ],
+    },
+    "IP-MAT-THT-SPE=3": {
+        "dir": "r",
+        "rules": [
+            "VB",
+            "VB.*",
+            "RD.*",
+            "DO.*",
+            "VAN",
+            "HV.*",
+            "VAG",
+            "VP",
+            "NP-PRD",
+            "ADJP",
+            "PP"
+        ],
+    },
     # MD.* á eftir VB: ef VB er spor ruglast venslin en þá getur MD sem hjálparsögn líka verið haus. Ef MD er seinna er það seinna í lagi
     "IP-SUB": {
         "dir": "r",
@@ -841,6 +925,7 @@ head_rules = {
             "BAG",
             "RDN",
             "BEN",
+            "BEF",
             "HVN",
             "HV.*",
             "MD.*",
@@ -996,15 +1081,15 @@ head_rules = {
     "IP-IMP-SPE-SBJ": {"dir": "r", "rules": ["VB."]},
     "IP-SMC": {
         "dir": "r",
-        "rules": ["IP-INF-SBJ", "IP-SMC", "NP-PRD", "VAN", "VAG-.", "ADJP", "NP.*"],
+        "rules": ["IP-INF-SBJ", "IP-SMC", "NP-PRD", "VAN", "VAG-.", "ADJP", "ADJP-PRD", "NP.*"],
     },  # small clause
     "IP-SMC-SBJ": {
         "dir": "r",
-        "rules": ["IP-INF-SBJ", "IP-SMC", "NP-PRD", "VAN", "VAG-.", "ADJP", "NP.*"],
+        "rules": ["IP-INF-SBJ", "IP-SMC", "NP-PRD", "VAN", "VAG-.", "ADJP", "ADJP-PRD", "NP.*"],
     },
     "IP-SMC-SPE": {
         "dir": "r",
-        "rules": ["IP-INF-SBJ", "IP-SMC", "NP-PRD", "VAN", "VAG-.", "ADJP", "NP.*"],
+        "rules": ["IP-INF-SBJ", "IP-SMC", "NP-PRD", "VAN", "VAG-.", "ADJP", "ADJP-PRD", "NP.*"],
     },
     "IP-PPL": {
         "dir": "r",
@@ -1380,6 +1465,50 @@ head_rules = {
     },
     "CP-THT": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},  # að
     "CP-THT-1": {"dir": "r", "rules": ["CP-THT", "IP-SUB.*", ".*"]},
+    "CP-THT=1": {"dir": "r", "rules": ["CP-THT", "IP-SUB.*", ".*"]},
+    "CP-THT-SBJ": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},  # extraposed subject
+    "CP-THT-SBJ-SPE": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},
+    "CP-THT-SPE": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},
+    "CP-THT-SPE-PRN": {"dir": "r", "rules": ["IP-SUB.*", "IP-MAT.*", ".*"]},
+    "CP-THT-SPE-SBJ": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},
+    "CP-THT-PRN": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},
+    "CP-THT-PRN-NaN": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},
+    "CP-THT-PRN-SPE": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},
+    "CP-THT-LFD": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},
+    "CP-THT-RSP": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},
+    "CP-CAR": {"dir": "r", "rules": ["IP-SUB.*"]},  # clause-adjoined relatives
+    "CP-CAR-SPE": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-CLF": {"dir": "r", "rules": ["IP-SUB.*"]},  # it-cleft
+    "CP-CLF-SPE": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-CMP": {"dir": "r", "rules": ["IP-SUB.*"]},  # comparative clause
+    "CP-CMP-LFD": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-CMP-SPE": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-DEG": {"dir": "r", "rules": ["IP-SUB.*"]},  # degree complements
+    "CP-DEG-SPE": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-FRL": {"dir": "r", "rules": ["IP-SUB", "IP-SUB.*", "WNP.*"]},  # free relative
+    "CP-FRL-SPE": {"dir": "r", "rules": ["IP-SUB.*", "WNP.*"]},
+    "CP-REL": {"dir": "r", "rules": ["IP-SUB.*"]},  # relative
+    "CP-REL-SPE": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-REL-SPE-PRN": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE": {
+        "dir": "r",
+        "rules": ["IP-SUB.*", "WNP", "WADVP", "CP-QUE.*"],
+    },  # question
+    "CP-QUE-SPE": {"dir": "r", "rules": ["IP-SUB.*", "IP-MAT.*", "IP-INF.*"]},
+    "CP-QUE-SPE-LFD": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-SPE-PRN": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-SPE-SBJ": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-ADV": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-ADV-LFD": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-ADV-SPE": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-ADV-SPE-LFD": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-LFD": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-MAT": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-MAT-SPE": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-QUE-MAT-EXAMPLE": {"dir": "r", "rules": ["IP-SUB.*"]},
+    "CP-THT": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},  # að
+    "CP-THT-1": {"dir": "r", "rules": ["CP-THT", "IP-SUB.*", ".*"]},
+    "CP-THT=1": {"dir": "r", "rules": ["CP-THT", "IP-SUB.*", ".*"]},
     "CP-THT-SBJ": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},  # extraposed subject
     "CP-THT-SBJ-SPE": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},
     "CP-THT-SPE": {"dir": "r", "rules": ["IP-SUB.*", ".*"]},
@@ -1419,6 +1548,7 @@ head_rules = {
     "CP-QUE-LFD": {"dir": "r", "rules": ["IP-SUB.*"]},
     "CP-QUE-MAT": {"dir": "r", "rules": ["IP-SUB.*"]},
     "CP-QUE-MAT-THT" : {"dir": "r","rules": ["IP-SUB.*"]},
+    "CP-QUE-MAT-SPE" : {"dir": "r","rules": ["IP-SUB.*"]},
     "CP-QUE-PRN": {"dir": "r", "rules": ["IP-SUB.*"]},
     "CP-QUE-PRN-ELAB": {"dir": "r", "rules": ["IP-SUB.*"]},
     "CP-QUE-PRN-SPE": {"dir": "r", "rules": ["IP-SUB.*"]},
@@ -1860,7 +1990,7 @@ head_rules = {
         ],
     },
     "NP-NUM": {"dir": "r", "rules": []},
-    "NP-VOC": {"dir": "r", "rules": ["N-N", "NS-N", "MAN-N", "OTHER-."]},
+    "NP-VOC": {"dir": "r", "rules": ["N", "H","N-N", "NS-N", "MAN-N", "OTHER-."]},
     "NP-VOC-LFD": {"dir": "r", "rules": ["N-N", "NS-N", "MAN-N", "OTHER-."]},
     "NP-DIR": {"dir": "r", "rules": [("N-.|NS-."), "NP.*"]},
     "NP-DIR-LFD": {"dir": "r", "rules": ["N-.", "NS-.", "NP.*"]},
@@ -2043,11 +2173,14 @@ head_rules = {
             "ADVR",
             "ADVS",
             "WADV",
+            "CP-FRL",
         ],
     },
     "ADVP-DIR": {
         "dir": "r",
-        "rules": ["N-.", "NS-.", "NPR-.", "NPRS-.", "ADV", "WADV"],
+        "rules": ["N-.", "NS-.", "NPR-.", "NPRS-.", "ADV", "WADV", "CP-FRL"],
+        # unclear if it is a good idea to include free relatives,
+        # threre is an example: (ID 1507W-BOVO,39.294)
     },
     "ADVP-DIR-LFD": {
         "dir": "r",
@@ -2313,6 +2446,7 @@ head_rules = {
             "PP",
             "ADJP",
             "ADVP",
+            "WNP",
         ],
     },
     "FRAG-SPE": {
@@ -2359,7 +2493,41 @@ head_rules = {
     "VP": {"dir": "r", "rules": ["V.+", "BE."]},
     "XP": {"dir": "r", "rules": ["XXX"]},
     "FS": {"dir": "r", "rules": ["CP-ADV"]},
-    "META": {"dir": "r", "rules": [("NP|FW"), "N.*", "LATIN", "CODE"]},
+    "META": {
+        "dir": "r",
+        "rules": [
+            "VB",
+            "VB.*",
+            "VAN",
+            "DO.*",
+            "DAN",
+            "HVN",
+            "VAG",
+            "DAG",
+            "HAG",
+            "VP",
+            ("NP-PRD|IP-MAT|IP-MAT-\d"),
+            "MD.*",
+            "HAN",
+            "RD.*",
+            "NP-PRD",
+            "ADJP",
+            "HV.*",
+            "NP-PRD",
+            "RP",
+            ("IP-INF|IP-MAT-PRN"),
+            ("PP|NP-1"),
+            "CP-QUE",
+            "QTP",
+            "FP",
+            ("NP-SBJ|IP-MAT"),
+            "NP",
+            "N.*",
+            "IP-SMC",
+            "IP-MAT-*",
+            ".+[^PUNC]",
+        ],
+    },
     "CODE": {"dir": "r", "rules": ["NP"]},
     "TRANSLATION": {"dir": "r", "rules": ["NP"]},
     "LATIN": {"dir": "r", "rules": ["FW", "CODE"]},
@@ -2461,6 +2629,9 @@ relation_IP = {
     "MAT-PRN-SPE": "parataxis",
     "MAT-SBJ": "conj",
     "MAT-SPE": "ccomp/xcomp",
+    "MAT-SPE-1": "ccomp/xcomp",
+    "MAT-SPE=1": "ccomp/xcomp",
+    "MAT-SPE-1": "ccomp/xcomp",
     "MAT-SPE-PRN": "ccomp/xcomp",
     "MAT-SPE-PRN-ELAB": "ccomp/xcomp",
     "MAT-SPE-PRN-LFD": "ccomp/xcomp",
@@ -2468,6 +2639,7 @@ relation_IP = {
     "MAT-SUB-SPE": "ccomp/xcomp",
     "MAT-SMC": "conj",  # same as MAT, occurs once
     "MAT-THT": "ccomp", # not sure if this is correct, clauses are finite though!
+    "MAT-THT-SPE": "ccomp/xcomp",
     "SUB": "conj",
     "SUB-INF": "xcomp",
     "SUB-LFD": "conj",

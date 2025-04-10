@@ -7,6 +7,9 @@
 #
 # Script for postprocessing IcePaHC Conll-U files
 # Machine-specific paths must be specified before use
+#
+# adapted by zdpaul (paul.zodl@uni-konstanz.de)
+# 2025
 
 
 # dir="../testing/CoNLLU_output"

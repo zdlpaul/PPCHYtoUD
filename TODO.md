@@ -35,7 +35,7 @@ at the moment, they get tagged as NOM becuase they are part of a subject NP.
 General problem here is to get the Santorini corpus to the IcePaHC system. 
 I want to implement definiteness, not sure how though, since it is not marked on the head or the phrase level in the PPHC format - I don't know where the Icelandic people got it from then tbh. 
 
-- [ ] problems determining the head
+- [x] problems determining the head
   - all heads in the IcePaHC are case-marked, not the ones in the PPCHY though
   - add all the non-cases marked heads to the rules!
   - look at hierarchy, unsure about this...
@@ -53,7 +53,7 @@ For Proper Nouns, we could try to implement it so that if the whole tag is
 
 - [x] implement definiteness in the `"NOUN":` subitem (How?)
 - [ ] implement PronType=Neg for negative pronouns (what are these, get a list from K?)
-- [ ] implement definiteness for proper nouns, they have their own tag NPR (always definite), **actually, no?**
+- [x] implement definiteness for proper nouns, they have their own tag NPR (always definite), **actually, no?**
 
 ## `join_psd.py`
 
@@ -192,7 +192,7 @@ Examples that create this problem:
   
 - [x] VLF, should be aux in my opinion 
   - efsher volt zi oykh gekrogn nokh a polke %EXCL%
-  - [ ] potentially add a subjunctive tag? 
+  - [x] potentially add a subjunctive tag? 
 
 - [x] 1947E-ROYTE-POMERANTSEN,3.56
   - there are problems with determining the head in questions
@@ -208,8 +208,9 @@ Examples that create this problem:
   - actual reflexives have a GF, non-actuals are NP-RFL
   - https://universaldependencies.org/de/dep/expl-pv.html
   
-- [ ] 1910E-GRINE-FELDER
+- [x] 1910E-GRINE-FELDER
   - many many META categories, possibly just delete them, messes with de depender (a bit?)
+	- *changed the conversion in the rules.py file*, works for now
   - this is a bit of a mess
   ```
   ( (META (NPR elkone)
@@ -240,6 +241,28 @@ Examples that create this problem:
   (ID 1910E-GRINE-FELDER,64.51))
   ```
   - What is the correct structure here?
+  - (ID 1910E-GRINE-FELDER,73.413)):
+  `( (META (VBF geyt) (ADV arayn) (P in) (N shtub) (PUNC ,) (P vi) (VAG farganvenendik) (PRO zikh) (PUNC .))`
+  -   (ID 1750W-MOSES,698.31))
+ ```
+  ( (IP-MAT (PP (DR+P drum))
+	  (ADVP (ADV akh))
+	  (VBF zag)
+	  (NP-SBJ (PRO ikh))
+	  (NP-DTV (PRO dir))
+	  (IP-MAT-THT (NP-ACC (H tsdkh^charity))
+		      (H umsft^and_UNKNOWN)
+		      (MDF zals@)
+		      (NP-SBJ (PRO @tu))
+		      (VB tan)
+		      (NP-DTV (IP-MAT (NP-SBJ (PRO er))
+				      (MDF mag)
+				      (VB zeyn)
+				      (ADJP-PRD (ADJP (ADJ arm))
+						(CONJP (CONJ uder)
+						       (NP (ADJ reykhr) (N man))))))))
+  ```
+
   
   ```
   ( (IP-MAT (CONJ un')
@@ -266,4 +289,38 @@ I do not fully understand, how phrases combine with each other, e.g.:
 	(ID 1XXXX-COURT-TESTIMONY,151_c1640_e.910))
 ```
 Therefore I also do not know how to implement this in the rule. Seems to be the main provlem with wrongly alligned dependencies.
+
+## Negation 
+
+### Adverbs
+Negative adverbs, or n-indefinites with spatial/temporal meaning: 
+- nimr (1589E-ESTER,.85)
+- nimer (1600e-magid__29)
+- nimr_mir (1xxxx-court-testimony__8)
+- ni (1579E-SHIR,.128)
+  - nia
+  - nie
+  
+- Jäger, Bochum never variants
+
+unclear examples: 
+- nin (1600e-magid_18)
+  - could be german *nun*
+- nishkoshe (1947e-royte-pomerantsen_2310) --> not interesting
+  - is this a negated form of koshe? 
+
+*gor* can not be found in the corpus until the 20th century
+	- orthographical variants
+
+
+Missing polarity information: 
+- 
+
+### Qs
+
+Missing polarity information:
+- [x] niks, e.g. (ID 1798W-DISKURS,164.36)
+- [x] gornisht, e.g. (ID 1910E-GRINE-FELDER,65.78)
+
+I am not sure what to do with *gor_nit*. 
 
