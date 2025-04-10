@@ -1,0 +1,605 @@
+# sent_id = 1800E-NAKHMAN,.1
+# X_ID = 1800E-NAKHMAN,172.3
+# text = un s iz faranen a berg,
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	s	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	faranen	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	a	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	berg	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	3	nsubj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.2
+# X_ID = 1800E-NAKHMAN,172.4
+# text = un oyfn berg shtayt a shtayn,
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	oyfn	_	ADP	P-CL	_	3	case	_	_
+3	berg	_	NOUN	N	_	4	obl	_	_
+4	shtayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	a	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	shtayn	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	4	nsubj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.3
+# X_ID = 1800E-NAKHMAN,172.5
+# text = un funem shtayn gayt a kval
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	funem	_	ADP	P-CL	_	3	case	_	_
+3	shtayn	_	NOUN	N	_	4	obl	_	_
+4	gayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	a	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	kval	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	4	nsubj	_	_
+
+# sent_id = 1800E-NAKHMAN,.4
+# X_ID = 1800E-NAKHMAN,172.6
+# text = un itlekhe zakh hot a harts,
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	itlekhe	_	DET	Q-NOM	Case=Nom	3	det	_	_
+3	zakh	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+4	hot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	a	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	harts	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	4	obj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.5
+# X_ID = 1800E-NAKHMAN,172.7
+# text = un di velt in_gantsn hot oykh a harts .
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	velt	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+4	in_gantsn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	hot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	oykh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	a	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	harts	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	5	obj	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.6
+# X_ID = 1800E-NAKHMAN,172.8
+# text = un dus harts fun der velt iz a gantse koyme mit a ponem un mit hent un fis
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	dus	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	harts	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	der	_	DET	D	PronType=Art	6	det	_	_
+6	velt	_	NOUN	N-D	Definite=Def	3	obl	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	a	_	DET	D	PronType=Art	10	det	_	_
+9	gantse	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	koyme	_	NOUN	N	_	7	xcomp	_	_
+11	mit	_	ADP	P	_	13	case	_	_
+12	a	_	DET	D	PronType=Art	13	det	_	_
+13	ponem	_	NOUN	N-I	Definite=Ind	10	obl	_	_
+14	un	_	CCONJ	CONJ	_	16	cc	_	_
+15	mit	_	ADP	P	_	16	case	_	_
+16	hent	_	NOUN	N	_	13	conj	_	_
+17	un	_	CCONJ	CONJ	_	18	cc	_	_
+18	fis	_	NOUN	N	_	16	conj	_	_
+
+# sent_id = 1800E-NAKHMAN,.7
+# X_ID = 1800E-NAKHMAN,172.9
+# text = lishmer der nugl funem fus funem harts fun der velt iz hartsiker ayder an andern@ @s harts .
+1	lishmer	UNKNOWN	X	H	_	11	dep	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	nugl	_	NOUN	N-NOM	Case=Nom	11	nsubj	_	_
+4	funem	_	ADP	P-CL	_	5	case	_	_
+5	fus	_	NOUN	N	_	3	obl	_	_
+6	funem	_	ADP	P-CL	_	7	case	_	_
+7	harts	_	NOUN	N	_	5	obl	_	_
+8	fun	_	ADP	P	_	10	case	_	_
+9	der	_	DET	D	PronType=Art	10	det	_	_
+10	velt	_	NOUN	N-D	Definite=Def	7	obl	_	_
+11	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+12	hartsiker	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+13	ayder	_	ADP	P	_	14	case	_	_
+14	an	_	DET	D	PronType=Art	12	amod	_	_
+15	andern@	_	ADJ	ADJ	Degree=Pos	14	amod	_	SpaceAfter=No
+16	@s	_	PUNCT	$	_	17	punct	_	_
+17	harts	_	NOUN	N	_	14	conj	_	SpaceAfter=No
+18	.	_	PUNCT	PUNC	_	11	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.8
+# X_ID = 1800E-NAKHMAN,172.10
+# text = un der berg mit kval shtayt in ayn ek fun der velt,
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	berg	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+4	mit	_	ADP	P	_	5	case	_	_
+5	kval	_	NOUN	N	_	3	obl	_	_
+6	shtayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	ayn	_	DET	D	PronType=Art	9	det	_	_
+9	ek	_	NOUN	N-I	Definite=Ind	6	obl	_	_
+10	fun	_	ADP	P	_	12	case	_	_
+11	der	_	DET	D	PronType=Art	12	det	_	_
+12	velt	_	NOUN	N-D	Definite=Def	9	obl	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.9
+# X_ID = 1800E-NAKHMAN,172.11
+# text = un dus harts fun der velt shtayt inem andern ek fun der velt .
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	dus	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	harts	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	der	_	DET	D	PronType=Art	6	det	_	_
+6	velt	_	NOUN	N-D	Definite=Def	3	obl	_	_
+7	shtayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	inem	_	ADP	P-CL	_	10	case	_	_
+9	andern	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	ek	_	NOUN	N	_	7	obl	_	_
+11	fun	_	ADP	P	_	13	case	_	_
+12	der	_	DET	D	PronType=Art	13	det	_	_
+13	velt	_	NOUN	N-D	Definite=Def	10	obl	_	SpaceAfter=No
+14	.	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.10
+# X_ID = 1800E-NAKHMAN,172.12
+# text = un dus harts shtayt akaygn dem kval
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	dus	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	shtayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	akaygn	_	ADP	P	_	7	case	_	_
+6	dem	_	DET	D	PronType=Art	7	det	_	_
+7	kval	_	NOUN	N-D	Definite=Def	4	obl	_	_
+
+# sent_id = 1800E-NAKHMAN,.11
+# X_ID = 1800E-NAKHMAN,172.13
+# text = un %con% glust
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	glust	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+
+# sent_id = 1800E-NAKHMAN,.12
+# X_ID = 1800E-NAKHMAN,172.14
+# text = un %con% benkt tomed zeyer, az se zol kumen tsum kval .
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	benkt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	tomed	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	zeyer	_	ADV	ADV	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	3	punct	_	_
+7	az	_	SCONJ	C	_	10	mark	_	_
+8	se	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+9	zol	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+10	kumen	_	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+11	tsum	_	ADP	P-CL	_	12	case	_	_
+12	kval	_	NOUN	N	_	10	obl	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.13
+# X_ID = 1800E-NAKHMAN,173.15
+# text = un dus benken un dus glustn funem harts tsum kval iz gur vild
+1	un	_	CCONJ	CONJ	_	11	cc	_	_
+2	dus	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	benken	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	11	nsubj	_	_
+4	un	_	CCONJ	CONJ	_	6	cc	_	_
+5	dus	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	glustn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	conj	_	_
+7	funem	_	ADP	P-CL	_	8	case	_	_
+8	harts	_	NOUN	N	_	3	obl	_	_
+9	tsum	_	ADP	P-CL	_	10	case	_	_
+10	kval	_	NOUN	N	_	3	obl	_	_
+11	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+12	gur	_	ADV	ADV	Degree=Pos	13	amod	_	_
+13	vild	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+
+# sent_id = 1800E-NAKHMAN,.14
+# X_ID = 1800E-NAKHMAN,173.16
+# text = un se shrayyt tomed dus harts az es zol kumen tsum kval
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	se	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
+3	shrayyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	tomed	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	dus	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+7	az	_	SCONJ	C	_	10	mark	_	_
+8	es	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+9	zol	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+10	kumen	_	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+11	tsum	_	ADP	P-CL	_	12	case	_	_
+12	kval	_	NOUN	N	_	10	obl	_	_
+
+# sent_id = 1800E-NAKHMAN,.15
+# X_ID = 1800E-NAKHMAN,173.17
+# text = un der kval glust tsum harts oykh
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	kval	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	glust	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	tsum	_	ADP	P-CL	_	6	case	_	_
+6	harts	_	NOUN	N	_	4	obl	_	_
+7	oykh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+
+# sent_id = 1800E-NAKHMAN,.16
+# X_ID = 1800E-NAKHMAN,173.18
+# text = un dus harts ot tsvey khlishes ...
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	dus	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	ot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	tsvey	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	khlishes	_	NOUN	N-ACC	Case=Acc	4	obj	_	SpaceAfter=No
+7	...	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.17
+# X_ID = 1800E-NAKHMAN,173.19
+# text = aynts vurn di zun yugt ya zayer
+1	aynts	_	NOUN	N	_	5	obl	_	_
+2	vurn	_	CCONJ	CONJ	_	5	cc	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	zun	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+5	yugt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	ya	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	zayer	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+
+# sent_id = 1800E-NAKHMAN,.18
+# X_ID = 1800E-NAKHMAN,173.20
+# text = un %con% brent es ...
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	brent	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	es	_	PRON	PRO-ACC	Case=Acc	3	obj	_	SpaceAfter=No
+5	...	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.19
+# X_ID = 1800E-NAKHMAN,173.21
+# text = un dus andere shlafkeyt ot dus harts, makhmes dem benken un dem glustn, vus %t%-1 dus harts benkt
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	dus	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+3	andere	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	4	amod	_	_
+4	shlafkeyt	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	5	obj	_	_
+5	ot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	dus	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	5	punct	_	_
+9	makhmes	_	ADP	P	_	11	case	_	_
+10	dem	_	DET	D	PronType=Art	11	det	_	_
+11	benken	_	NOUN	N-D	Definite=Def	5	obl	_	_
+12	un	_	CCONJ	CONJ	_	14	cc	_	_
+13	dem	_	DET	D	PronType=Art	14	det	_	_
+14	glustn	_	NOUN	N-D	Definite=Def	11	conj	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	11	punct	_	_
+16	vus	_	SCONJ	C	_	20	mark	_	_
+17	%t%-1	_	NOUN	NP-ACC	_	20	dep	_	_
+18	dus	_	DET	D-NOM	Case=Nom|PronType=Art	19	det	_	_
+19	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	20	nsubj	_	_
+20	benkt	_	VERB	VBF	VerbForm=Fin	11	acl:relcl	_	_
+
+# sent_id = 1800E-NAKHMAN,.20
+# X_ID = 1800E-NAKHMAN,173.22
+# text = un %con% glust tomed
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	glust	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	tomed	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+
+# sent_id = 1800E-NAKHMAN,.21
+# X_ID = 1800E-NAKHMAN,173.23
+# text = un es gayt nor oys tsum kval
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	es	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	gayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	nor	_	ADV	FP	Degree=Pos	3	advmod	_	_
+5	oys	_	ADP	RP	_	3	compound:prt	_	_
+6	tsum	_	ADP	P-CL	_	7	case	_	_
+7	kval	_	NOUN	N	_	3	obl	_	_
+
+# sent_id = 1800E-NAKHMAN,.22
+# X_ID = 1800E-NAKHMAN,173.24
+# text = un se shrayt alts, se zol kumen tsum kval ...
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	se	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	shrayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	alts	_	ADV	ADV	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	3	punct	_	_
+6	se	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+7	zol	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+8	kumen	_	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+9	tsum	_	ADP	P-CL	_	10	case	_	_
+10	kval	_	NOUN	N	_	8	obl	_	SpaceAfter=No
+11	...	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.23
+# X_ID = 1800E-NAKHMAN,173.25
+# text = vurn dus harts shtayt tumed akaygn dem kval
+1	vurn	_	CCONJ	CONJ	_	4	cc	_	_
+2	dus	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	shtayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	tumed	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	akaygn	_	ADP	P	_	8	case	_	_
+7	dem	_	DET	D	PronType=Art	8	det	_	_
+8	kval	_	NOUN	N-D	Definite=Def	4	obl	_	_
+
+# sent_id = 1800E-NAKHMAN,.24
+# X_ID = 1800E-NAKHMAN,173.26
+# text = un %con% shrat na gvald ...
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	shrat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	na	_	INTJ	INTJ	_	3	discourse	_	_
+5	gvald	_	NOUN	N	_	4	discourse	_	SpaceAfter=No
+6	...	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.25
+# X_ID = 1800E-NAKHMAN,173.27
+# text = lishmer az dus harts badarf zekh a bisl up ruen az se zol zekh up sapen a bisl azoy kumt a groyser foygl
+1	lishmer	UNKNOWN	X	H	_	20	dep	_	_
+2	az	_	SCONJ	C	_	10	mark	_	_
+3	dus	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	_
+5	badarf	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+6	zekh	_	PRON	PRO-RFL	PronType=Reflex	10	expl:pv	_	_
+7	a	_	DET	D	PronType=Art	8	det	_	_
+8	bisl	_	NOUN	N-I	Definite=Ind	10	obl	_	_
+9	up	_	ADP	RP	_	10	compound:prt	_	_
+10	ruen	_	VERB	VB	VerbForm=Inf	20	advcl	_	_
+11	az	_	SCONJ	C	_	16	mark	_	_
+12	se	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+13	zol	_	AUX	MDF	VerbForm=Fin	16	aux	_	_
+14	zekh	_	PRON	PRO-RFL	PronType=Reflex	16	expl:pv	_	_
+15	up	_	ADP	RP	_	16	compound:prt	_	_
+16	sapen	_	VERB	VB	VerbForm=Inf	20	advcl	_	_
+17	a	_	DET	D	PronType=Art	18	det	_	_
+18	bisl	_	NOUN	N-I	Definite=Ind	16	obl	_	_
+19	azoy	_	ADV	ADV	Degree=Pos	20	advmod	_	_
+20	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+21	a	_	DET	D-NOM	Case=Nom|PronType=Art	23	det	_	_
+22	groyser	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	23	amod	_	_
+23	foygl	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	20	nsubj	_	_
+
+# sent_id = 1800E-NAKHMAN,.26
+# X_ID = 1800E-NAKHMAN,173.28
+# text = un %con% far_shprayt di fligl oyf im
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	far_shprayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	fligl	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+6	oyf	_	ADP	P	_	7	case	_	_
+7	im	_	PRON	PRO	_	3	obl	_	_
+
+# sent_id = 1800E-NAKHMAN,.27
+# X_ID = 1800E-NAKHMAN,173.29
+# text = un %con% farshtelt im fun der zun .
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	farshtelt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	im	_	PRON	PRO-ACC	Case=Acc	3	obj	_	_
+5	fun	_	ADP	P	_	7	case	_	_
+6	der	_	DET	D	PronType=Art	7	det	_	_
+7	zun	_	NOUN	N-D	Definite=Def	3	obl	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.28
+# X_ID = 1800E-NAKHMAN,173.30
+# text = demolt rut zekh dus harts up a bisl
+1	demolt	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	rut	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zekh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	dus	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	nsubj	_	_
+6	up	_	ADP	RP	_	2	compound:prt	_	_
+7	a	_	DET	D	PronType=Art	8	det	_	_
+8	bisl	_	NOUN	N-I	Definite=Ind	2	obl	_	_
+
+# sent_id = 1800E-NAKHMAN,.29
+# X_ID = 1800E-NAKHMAN,173.31
+# text = un afile demlt, az se rut zekh up kukt es oykh akaygn dem kval
+1	un	_	CCONJ	CONJ	_	10	cc	_	_
+2	afile	_	ADV	FP	Degree=Pos	3	advmod	_	_
+3	demlt	_	ADV	ADV	Degree=Pos	10	advmod	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	3	punct	_	_
+5	az	_	SCONJ	C	_	7	mark	_	_
+6	se	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	rut	_	VERB	VBF	VerbForm=Fin	3	advcl	_	_
+8	zekh	_	PRON	PRO-RFL	PronType=Reflex	7	expl:pv	_	_
+9	up	_	ADP	RP	_	7	compound:prt	_	_
+10	kukt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+11	es	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+12	oykh	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+13	akaygn	_	ADP	P	_	15	case	_	_
+14	dem	_	DET	D	PronType=Art	15	det	_	_
+15	kval	_	NOUN	N-D	Definite=Def	10	obl	_	_
+
+# sent_id = 1800E-NAKHMAN,.30
+# X_ID = 1800E-NAKHMAN,173.32
+# text = un %con% benkt alts tsum kval .
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	benkt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	alts	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	tsum	_	ADP	P-CL	_	6	case	_	_
+6	kval	_	NOUN	N	_	3	obl	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.31
+# X_ID = 1800E-NAKHMAN,173.33
+# text = lishmer az se benkt yo azoy tsum kval, far vus %t%-1 gayt er nit tsum kval ?
+1	lishmer	UNKNOWN	X	H	_	13	dep	_	_
+2	az	_	SCONJ	C	_	4	mark	_	_
+3	se	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	benkt	_	VERB	VBF	VerbForm=Fin	13	advcl	_	_
+5	yo	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	azoy	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+7	tsum	_	ADP	P-CL	_	8	case	_	_
+8	kval	_	NOUN	N	_	4	obl	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	13	punct	_	_
+10	far	_	ADP	P	_	11	case	_	_
+11	vus	_	PRON	WPRO	_	13	obl	_	_
+12	%t%-1	_	ADP	PP	_	13	obl	_	_
+13	gayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+14	er	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+15	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	13	advmod	_	_
+16	tsum	_	ADP	P-CL	_	17	case	_	_
+17	kval	_	NOUN	N	_	13	obl	_	SpaceAfter=No
+18	?	_	PUNCT	PUNC	_	13	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.32
+# X_ID = 1800E-NAKHMAN,173.34
+# text = nor vi_bald dus harts vil tsu gayn noent tsum barg, vus oyvn iz der kval, azoy zet er shoyn nit aroys dem spits
+1	nor	_	CCONJ	CONJ	_	19	cc	_	_
+2	vi_bald	_	SCONJ	C	_	7	mark	_	_
+3	dus	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+5	vil	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+6	tsu	_	ADP	RP	_	7	compound:prt	_	_
+7	gayn	_	VERB	VB	VerbForm=Inf	19	advcl	_	_
+8	noent	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+9	tsum	_	ADP	P-CL	_	10	case	_	_
+10	barg	_	NOUN	N	_	8	obl	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	10	punct	_	_
+12	vus	_	SCONJ	C	_	14	mark	_	_
+13	oyvn	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+14	iz	_	VERB	VBF	VerbForm=Fin	10	acl:relcl	_	_
+15	der	_	DET	D-NOM	Case=Nom|PronType=Art	16	det	_	_
+16	kval	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	14	nsubj	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	19	punct	_	_
+18	azoy	_	ADV	ADV	Degree=Pos	19	advmod	_	_
+19	zet	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+20	er	_	PRON	PRO-NOM	Case=Nom	19	nsubj	_	_
+21	shoyn	_	ADV	ADV	Degree=Pos	19	advmod	_	_
+22	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	19	advmod	_	_
+23	aroys	_	ADV	ADV	Degree=Pos	19	advmod	_	_
+24	dem	_	DET	D-ACC	Case=Acc|PronType=Art	25	det	_	_
+25	spits	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	19	obj	_	_
+
+# sent_id = 1800E-NAKHMAN,.33
+# X_ID = 1800E-NAKHMAN,173.35
+# text = kon er nit zen dem kval
+1	kon	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+4	zen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	dem	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	kval	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	4	obj	_	_
+
+# sent_id = 1800E-NAKHMAN,.34
+# X_ID = 1800E-NAKHMAN,173.36
+# text = un vi_bald er kukt nit oyfn kval gayt er oys,
+1	un	_	CCONJ	CONJ	_	8	cc	_	_
+2	vi_bald	_	SCONJ	C	_	4	mark	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	kukt	_	VERB	VBF	VerbForm=Fin	8	advcl	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+6	oyfn	_	ADP	P-CL	_	7	case	_	_
+7	kval	_	NOUN	N	_	4	obl	_	_
+8	gayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	er	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+10	oys	_	ADP	RP	_	8	compound:prt	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.35
+# X_ID = 1800E-NAKHMAN,173.37
+# text = vurn gur zayn khays iz nor fun@ @em kval
+1	vurn	_	CCONJ	CONJ	_	5	cc	_	_
+2	gur	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+3	zayn	_	PRON	PRO$	_	4	det:poss	_	_
+4	khays	_	NOUN	N	_	5	nsubj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	nor	_	ADV	FP	Degree=Pos	9	advmod	_	_
+7	fun@	_	ADP	P	_	9	case	_	_
+8	@em	_	DET	D	PronType=Art	9	det	_	_
+9	kval	_	NOUN	N	_	5	obl	_	_
+
+# sent_id = 1800E-NAKHMAN,.36
+# X_ID = 1800E-NAKHMAN,173.38
+# text = un az er stayt akaygn barg zet er aroys dem spits barg vus dort iz der kval
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	az	_	SCONJ	C	_	4	mark	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	stayt	_	VERB	VBF	VerbForm=Fin	7	advcl	_	_
+5	akaygn	_	ADP	P	_	6	case	_	_
+6	barg	_	NOUN	N	_	4	obl	_	_
+7	zet	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	er	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+9	aroys	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+10	dem	_	DET	D-ACC	Case=Acc|PronType=Art	11	det	_	_
+11	spits	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+12	barg	_	NOUN	N-ACC	Case=Acc	11	nmod:poss	_	_
+13	vus	_	SCONJ	C	_	15	mark	_	_
+14	dort	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+15	iz	_	VERB	VBF	VerbForm=Fin	11	acl:relcl	_	_
+16	der	_	DET	D-NOM	Case=Nom|PronType=Art	17	det	_	_
+17	kval	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	15	nsubj	_	_
+
+# sent_id = 1800E-NAKHMAN,.37
+# X_ID = 1800E-NAKHMAN,173.39
+# text = obr teykef vi_bald er vil tsu gayn tsum barg zet er shoyn nit aroys dem spits ...
+1	obr	_	CCONJ	CONJ	_	10	cc	_	_
+2	teykef	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+3	vi_bald	_	SCONJ	C	_	7	mark	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+5	vil	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+6	tsu	_	ADP	RP	_	7	compound:prt	_	_
+7	gayn	_	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	tsum	_	ADP	P-CL	_	9	case	_	_
+9	barg	_	NOUN	N	_	7	obl	_	_
+10	zet	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+11	er	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+12	shoyn	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+13	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+14	aroys	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+15	dem	_	DET	D-ACC	Case=Acc|PronType=Art	16	det	_	_
+16	spits	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	10	obj	_	SpaceAfter=No
+17	...	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1800E-NAKHMAN,.38
+# X_ID = 1800E-NAKHMAN,173.40
+# text = kon er shoyn nit kukn oyfn kval
+1	kon	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	shoyn	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	5	advmod	_	_
+5	kukn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+6	oyfn	_	ADP	P-CL	_	7	case	_	_
+7	kval	_	NOUN	N	_	5	obl	_	_
+
+# sent_id = 1800E-NAKHMAN,.39
+# X_ID = 1800E-NAKHMAN,173.41
+# text = un az dus harts zol khas veshulem oys gayn volt gur di velt khorev gevorn
+1	un	_	CCONJ	CONJ	_	15	cc	_	_
+2	az	_	SCONJ	C	_	9	mark	_	_
+3	dus	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+5	zol	_	AUX	MDF	VerbForm=Fin	9	aux	_	_
+6	khas	have_mercy	X	H	_	9	dep	_	_
+7	veshulem	and_peace	X	H	_	6	discourse	_	_
+8	oys	_	ADP	RP	_	9	compound:prt	_	_
+9	gayn	_	VERB	VB	VerbForm=Inf	15	advcl	_	_
+10	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	15	dep	_	_
+11	gur	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+12	di	_	DET	D-NOM	Case=Nom|PronType=Art	13	det	_	_
+13	velt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	15	nsubj	_	_
+14	khorev	_	ADP	RP-H	_	15	compound:prt	_	_
+15	gevorn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1800E-NAKHMAN,.40
+# X_ID = 1800E-NAKHMAN,173.42
+# text = vurn dus harts iz ekh dus khayes fun itlekher zakh
+1	vurn	_	CCONJ	CONJ	_	4	cc	_	_
+2	dus	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	harts	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	ekh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	dus	_	DET	D	PronType=Art	7	det	_	_
+7	khayes	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+8	fun	_	ADP	P	_	10	case	_	_
+9	itlekher	_	DET	Q	_	10	det	_	_
+10	zakh	_	NOUN	N	_	7	obl	_	_
+
+1	un	_	CCONJ	CONJ	_	9	cc	_	_
+2	vi	_	ADV	WADV	Degree=Pos	9	advmod	_	_
+3	%t%-1	_	ADV	ADVP	Degree=Pos	9	advmod	_	_
+4	kon	_	AUX	MDF	VerbForm=Fin	9	aux	_	_
+5	di	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	velt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+7	a	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	kiem	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	9	obj	_	_
+9	hubn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+10	un	_	ADP	P	_	12	case	_	_
+11	dem	_	DET	D	PronType=Art	12	det	_	_
+12	harts	_	NOUN	N-D	Definite=Def	9	obl	_	_
+

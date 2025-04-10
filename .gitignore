@@ -1,7 +1,5 @@
 __pycache__/
 
-*.psd
-
 kuriositaeten/
 
 data/
@@ -9,9 +7,5 @@ data/
 UDCon_files/
  
 *~
-
-CoNLLU/
-
-corpora/
 
 occurence_lists/

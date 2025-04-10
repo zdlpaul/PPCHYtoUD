@@ -1,0 +1,85 @@
+# sent_id = 1819E-KHASID,.1
+# X_ID = 1819E-KHASID,.2
+# text = zeht dia sunkeyt fun dem sfr musr vas biz aher iz er given gsribn un bhaltin un keyn oyg hat im nit gilugt un bklert vas der mkhbr hat im ginumn fun grusi sfri musr un tsum hoyf gstelt
+1	zeht	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	dia	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+3	sunkeyt	_	NOUN	N-ACC	Case=Acc	1	obj	_	_
+4	fun	_	ADP	P	_	5	case	_	_
+5	dem	_	DET	D	PronType=Art	3	obl	_	_
+6	sfr	book	X	H	_	5	dep	_	_
+7	musr	morality	X	H	_	5	dep	_	_
+8	vas	_	SCONJ	C	_	14	mark	_	_
+9	biz	_	ADP	P	_	10	case	_	_
+10	aher	_	ADV	ADV	Degree=Pos	14	obl	_	_
+11	iz	_	AUX	BEF	VerbForm=Fin	14	cop	_	_
+12	er	_	PRON	PRO	_	14	nsubj	_	_
+13	given	_	AUX	BEN	Tense=Past|VerbForm=Part	14	cop	_	_
+14	gsribn	_	VERB	VAN	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+15	un	_	CCONJ	CONJ	_	16	cc	_	_
+16	bhaltin	_	VERB	VAN	Tense=Past|VerbForm=Part	14	conj	_	_
+17	un	_	CCONJ	CONJ	_	23	cc	_	_
+18	keyn	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	19	det	_	_
+19	oyg	_	NOUN	N-NOM	Case=Nom	23	nsubj	_	_
+20	hat	_	AUX	HVF	VerbForm=Fin	23	aux	_	_
+21	im	_	PRON	PRO	_	23	dep	_	_
+22	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	23	advmod	_	_
+23	gilugt	_	VERB	VBN	Tense=Past|VerbForm=Part	14	conj	_	_
+24	un	_	CCONJ	CONJ	_	25	cc	_	_
+25	bklert	_	VERB	VBN	Tense=Past|VerbForm=Part	23	conj	_	_
+26	vas	_	SCONJ	C	_	31	mark	_	_
+27	der	_	DET	D-NOM	Case=Nom|PronType=Art	28	det	_	_
+28	mkhbr	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	31	nsubj	_	_
+29	hat	_	AUX	HVF	VerbForm=Fin	31	aux	_	_
+30	im	_	PRON	PRO	_	31	dep	_	_
+31	ginumn	_	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+32	fun	_	ADP	P	_	33	case	_	_
+33	grusi	_	ADJ	ADJ	Degree=Pos	31	obl	_	_
+34	sfri	books	X	H	_	33	dep	_	_
+35	musr	morality	X	H	_	33	dep	_	_
+36	un	_	CCONJ	CONJ	_	31	cc	_	_
+37	tsum	_	ADP	P-CL	_	38	case	_	_
+38	hoyf	_	NOUN	N	_	31	obl	_	_
+39	gstelt	_	VERB	VBN	Tense=Past|VerbForm=Part	31	dep	_	_
+
+# sent_id = 1819E-KHASID,.2
+# X_ID = 1819E-KHASID,.3
+# text = der mens vas %t%-1 vet in ihm lezin vet fun zeyn its"hr vern gnezin
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	mens	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	_
+3	vas	_	SCONJ	C	_	8	mark	_	_
+4	%t%-1	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+5	vet	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	ihm	_	PRON	PRO	_	8	obl	_	_
+8	lezin	_	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+9	vet	_	VERB	MDF	VerbForm=Fin	0	root	_	_
+10	fun	_	ADP	P	_	12	case	_	_
+11	zeyn	_	PRON	PRO$	_	12	det:poss	_	_
+12	its"hr	_	NOUN	N	_	9	obl	_	_
+13	vern	_	AUX	RD	VerbForm=Inf	9	aux	_	_
+14	gnezin	_	VERB	VX	_	9	dep	_	_
+
+# sent_id = 1819E-KHASID,.3
+# X_ID = 1819E-KHASID,.4
+# text = mit zeyn zkhut veln mir bsermit vern fun unzri leyd
+1	mit	_	ADP	P	_	3	case	_	_
+2	zeyn	_	PRON	PRO$	_	3	det:poss	_	_
+3	zkhut	_	NOUN	N	_	6	obl	_	_
+4	veln	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+5	mir	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	bsermit	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+7	vern	_	AUX	RD	VerbForm=Inf	6	aux	_	_
+8	fun	_	ADP	P	_	10	case	_	_
+9	unzri	_	PRON	PRO$	_	10	det:poss	_	_
+10	leyd	_	NOUN	N	_	6	obl	_	_
+
+1	in	_	ADP	P	_	3	case	_	_
+2	unzr	_	PRON	PRO$	_	3	det:poss	_	_
+3	land	_	NOUN	N	_	9	obl	_	_
+4	mit	_	ADP	P	_	5	case	_	_
+5	gizang	_	NOUN	N	_	9	obl	_	_
+6	vern	_	AUX	RDF	VerbForm=Fin	9	aux	_	_
+7	mir	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+8	vern	_	AUX	RD	VerbForm=Inf	9	aux	_	_
+9	dr_freyt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+

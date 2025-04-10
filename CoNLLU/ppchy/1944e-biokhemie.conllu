@@ -1,0 +1,194 @@
+# sent_id = 1944E-BIOKHEMIE,.1
+# X_ID = 1944E-BIOKHEMIE,187.3
+# text = biokhemie der tayl fun algemayner biologie un organisher khemie, vos %t%-1 farnemt zikh mit oys forshn di khemishe un fizikalish-khemishe protsesn in leybedike organizmen .
+1	biokhemie	_	NOUN	N-NOM	Case=Nom	0	root	_	_
+2	der	_	DET	D	PronType=Art	3	det	_	_
+3	tayl	_	NOUN	N-D	Definite=Def	1	xcomp	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	algemayner	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	biologie	_	NOUN	N	_	3	obl	_	_
+7	un	_	CCONJ	CONJ	_	9	cc	_	_
+8	organisher	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	khemie	_	NOUN	N	_	6	conj	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	3	punct	_	_
+11	vos	_	SCONJ	C	_	13	mark	_	_
+12	%t%-1	_	NOUN	NP-SBJ	_	13	nsubj	_	_
+13	farnemt	_	VERB	VBF	VerbForm=Fin	3	acl:relcl	_	_
+14	zikh	_	PRON	PRO-RFL	PronType=Reflex	13	expl:pv	_	_
+15	mit	_	ADP	P	_	17	case	_	_
+16	oys	_	ADP	RP	_	17	compound:prt	_	_
+17	forshn	_	VERB	VB	VerbForm=Inf	13	obl	_	_
+18	di	_	DET	D-ACC	Case=Acc|PronType=Art	22	det	_	_
+19	khemishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	22	amod	_	_
+20	un	_	CCONJ	CONJ	_	19	amod	_	_
+21	fizikalish-khemishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	19	amod	_	_
+22	protsesn	_	NOUN	N-ACC	Case=Acc	17	obj	_	_
+23	in	_	ADP	P	_	25	case	_	_
+24	leybedike	_	ADJ	ADJ	Degree=Pos	25	amod	_	_
+25	organizmen	_	NOUN	N	_	22	obl	_	SpaceAfter=No
+26	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1944E-BIOKHEMIE,.2
+# X_ID = 1944E-BIOKHEMIE,187.4
+# text = umetum vu %t%-1 s iz faran leybn, kumen ksayder fur khemishe protsesn :
+1	umetum	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+2	vu	_	ADV	WADV	Degree=Pos	5	advmod	_	_
+3	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	5	advmod	_	_
+4	s	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	5	expl	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	1	advcl	_	_
+6	faran	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	leybn	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	9	punct	_	_
+9	kumen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	ksayder	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+11	fur	_	ADP	RP	_	9	compound:prt	_	_
+12	khemishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	13	amod	_	_
+13	protsesn	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	SpaceAfter=No
+14	:	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1944E-BIOKHEMIE,.3
+# X_ID = 1944E-BIOKHEMIE,187.5
+# text = khemishe farbindungen vern ksayder tseshtert
+1	khemishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	2	amod	_	_
+2	farbindungen	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	vern	_	AUX	RDF	VerbForm=Fin	5	aux	_	_
+4	ksayder	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	tseshtert	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1944E-BIOKHEMIE,.4
+# X_ID = 1944E-BIOKHEMIE,187.6
+# text = un naye vern geboyt .
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	naye	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	vern	_	AUX	RDF	VerbForm=Fin	4	aux	_	_
+4	geboyt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1944E-BIOKHEMIE,.5
+# X_ID = 1944E-BIOKHEMIE,187.7
+# text = leybedike organizmen zenen laboratories, vos %t%-1 farendern khemishe shtofn of aza oyfn, az zey zoln zayn tsu gepast farnn gebroykh funem organizm .
+1	leybedike	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	2	amod	_	_
+2	organizmen	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+3	zenen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	laboratories	_	NOUN	N	_	3	xcomp	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	vos	_	SCONJ	C	_	8	mark	_	_
+7	%t%-1	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+8	farendern	_	VERB	VBF	VerbForm=Fin	4	acl:relcl	_	_
+9	khemishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	10	amod	_	_
+10	shtofn	_	NOUN	N-ACC	Case=Acc	8	obj	_	_
+11	of	_	ADP	P	_	13	case	_	_
+12	aza	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	oyfn	_	NOUN	N	_	8	obl	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	13	punct	_	_
+15	az	_	SCONJ	C	_	20	mark	_	_
+16	zey	_	PRON	PRO-NOM	Case=Nom	20	nsubj	_	_
+17	zoln	_	AUX	MDF	VerbForm=Fin	20	aux	_	_
+18	zayn	_	AUX	BE	VerbForm=Inf	20	cop	_	_
+19	tsu	_	ADP	RP	_	20	compound:prt	_	_
+20	gepast	_	VERB	VAN	Tense=Past|VerbForm=Part	13	advcl	_	_
+21	farnn	_	ADP	P-CL	_	22	case	_	_
+22	gebroykh	_	NOUN	N	_	20	obl	_	_
+23	funem	_	ADP	P-CL	_	24	case	_	_
+24	organizm	_	NOUN	N	_	22	obl	_	SpaceAfter=No
+25	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1944E-BIOKHEMIE,.6
+# X_ID = 1944E-BIOKHEMIE,187.8
+# text = yeder leybediker un normal funktsionirndiker organizm boyt yene khemishe farbindungen, vos %t%-1 zenen im naytik, kedey of tsu haltn di normale funktsionirungen fun ale zayne organen
+1	yeder	_	DET	Q-NOM	Case=Nom	6	det	_	_
+2	leybediker	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+3	un	_	CCONJ	CONJ	_	5	cc	_	_
+4	normal	_	ADV	ADV	Degree=Pos	5	amod	_	_
+5	funktsionirndiker	_	VERB	VAG	Tense=Pres|VerbForm=Part	2	amod	_	_
+6	organizm	_	NOUN	N	_	7	nsubj	_	_
+7	boyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	yene	_	DET	D-ACC	Case=Acc|PronType=Art	10	det	_	_
+9	khemishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	10	amod	_	_
+10	farbindungen	_	NOUN	N-ACC	Case=Acc	7	obj	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	10	punct	_	_
+12	vos	_	SCONJ	C	_	14	mark	_	_
+13	%t%-1	_	NOUN	NP-SBJ	_	14	nsubj	_	_
+14	zenen	_	VERB	VBF	VerbForm=Fin	10	acl:relcl	_	_
+15	im	_	PRON	PRO-DTV	Case=Dat	14	iobj	_	_
+16	naytik	_	ADJ	ADJ	Degree=Pos	14	amod	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	14	punct	_	_
+18	kedey	_	SCONJ	C	_	14	advcl	_	_
+19	of	_	ADP	RP	_	21	compound:prt	_	_
+20	tsu	_	PART	TO	_	21	mark	_	_
+21	haltn	_	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+22	di	_	DET	D-ACC	Case=Acc|PronType=Art	24	det	_	_
+23	normale	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	24	amod	_	_
+24	funktsionirungen	_	NOUN	N-ACC	Case=Acc	21	obj	_	_
+25	fun	_	ADP	P	_	28	case	_	_
+26	ale	_	DET	Q	_	28	det	_	_
+27	zayne	_	PRON	PRO$	_	28	det:poss	_	_
+28	organen	_	NOUN	N	_	24	obl	_	_
+
+# sent_id = 1944E-BIOKHEMIE,.7
+# X_ID = 1944E-BIOKHEMIE,187.9
+# text = ven der organizm iz nit bekoyekh tsu regulirn zeyne biokhemishe protsesn, demolt vert in im tseshtert di khemishe glaykh-vog,
+1	ven	_	SCONJ	C	_	4	mark	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	organizm	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	17	advcl	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+6	bekoyekh	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+7	tsu	_	PART	TO	_	8	mark	_	_
+8	regulirn	_	VERB	VB	VerbForm=Inf	6	amod	_	_
+9	zeyne	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	11	det:poss	_	_
+10	biokhemishe	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	protsesn	_	NOUN	N	_	8	obj	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	17	punct	_	_
+13	demolt	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+14	vert	_	AUX	RDF	VerbForm=Fin	17	aux	_	_
+15	in	_	ADP	P	_	16	case	_	_
+16	im	_	PRON	PRO	_	17	obl	_	_
+17	tseshtert	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+18	di	_	DET	D-NOM	Case=Nom|PronType=Art	20	det	_	_
+19	khemishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	20	amod	_	_
+20	glaykh-vog	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	17	nsubj	_	SpaceAfter=No
+21	,	_	PUNCT	PUNC	_	17	punct	_	_
+
+# sent_id = 1944E-BIOKHEMIE,.8
+# X_ID = 1944E-BIOKHEMIE,187.10
+# text = un der poyl-yoytse iz a patologisher krankhafter tsushtand .
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	poyl-yoytse	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	a	_	DET	D	PronType=Art	8	det	_	_
+6	patologisher	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+7	krankhafter	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	tsushtand	_	NOUN	N-I	Definite=Ind	4	xcomp	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+1	mir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	kenen	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	di_dozike	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+4	ershaynungen	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	5	obj	_	_
+5	baobakhtn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+6	bay	_	ADP	P	_	7	case	_	_
+7	mentshn	_	NOUN	N	_	5	obl	_	_
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+9	vos	_	SCONJ	C	_	11	mark	_	_
+10	%t%-1	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+11	farlirn	_	VERB	VBF	VerbForm=Fin	7	acl:relcl	_	_
+12	taylvayz	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+13	makhmes	_	ADP	P	_	16	case	_	_
+14	a	_	DET	D	PronType=Art	16	det	_	_
+15	geviser	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	sibe	_	NOUN	N	_	11	obl	_	_
+17	ts.b.	_	X	X	_	19	dep	_	_
+18	an	_	DET	D	PronType=Art	19	det	_	_
+19	onshtekung	_	NOUN	N-I	Definite=Ind	16	appos	_	_
+20	mit	_	ADP	P	_	22	case	_	_
+21	sheydlekhe	_	ADJ	ADJ	Degree=Pos	22	amod	_	_
+22	bakteries	_	NOUN	N	_	19	obl	_	_
+23	dem	_	DET	D-ACC	Case=Acc|PronType=Art	24	det	_	_
+24	kontrol	_	NOUN	N-ACC	Case=Acc	11	obj	_	_
+25	iber	_	ADP	P	_	27	case	_	_
+26	dem	_	DET	D	PronType=Art	27	det	_	_
+27	shtof-bayt	_	NOUN	N-D	Definite=Def	24	obl	_	_
+28	.	_	PUNCT	PUNC	_	5	punct	_	_
+

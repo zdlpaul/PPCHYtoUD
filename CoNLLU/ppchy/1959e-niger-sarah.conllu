@@ -1,0 +1,519 @@
+# sent_id = 1959E-NIGER-SARAH,.1
+# X_ID = 1959E-NIGER-SARAH,82_bottom.3
+# text = un la di, vos veyber zagn zey oykh tsvishn di vos %t%-1 hobn zey farfast, zeynen geven veyber .
+1	un	_	CCONJ	CONJ	_	19	cc	_	_
+2	la	_	X	X	_	19	dep	_	_
+3	di	_	DET	D	PronType=Art	2	det	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	2	punct	_	_
+5	vos	_	SCONJ	C	_	2	mark	_	_
+6	veyber	_	NOUN	N	_	2	dep	_	_
+7	zagn	_	VERB	VBF	VerbForm=Fin	2	dep	_	_
+8	zey	_	PRON	PRO	_	2	nmod	_	_
+9	oykh	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+10	tsvishn	_	ADP	P	_	11	case	_	_
+11	di	_	DET	D	PronType=Art	19	obl	_	_
+12	vos	_	SCONJ	C	_	16	mark	_	_
+13	%t%-1	_	NOUN	NP-SBJ	_	16	nsubj	_	_
+14	hobn	_	AUX	HVF	VerbForm=Fin	16	aux	_	_
+15	zey	_	PRON	PRO-ACC	Case=Acc	16	obj	_	_
+16	farfast	_	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	19	punct	_	_
+18	zeynen	_	AUX	BEF	VerbForm=Fin	19	cop	_	_
+19	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+20	veyber	_	NOUN	N-NOM	Case=Nom	19	nsubj	_	SpaceAfter=No
+21	.	_	PUNCT	PUNC	_	19	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.2
+# X_ID = 1959E-NIGER-SARAH,83.4
+# text = untn veln mir oysrekhenen a gants tsetl fun froyen-farfaserins vos tsvishn zey zeynen mer vi alts farfaserins fun tkhines
+1	untn	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	veln	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	mir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	oysrekhenen	_	VERB	VB-PART	VerbForm=Inf	0	root	_	_
+5	a	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+6	gants	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	tsetl	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+8	fun	_	ADP	P	_	9	case	_	_
+9	froyen-farfaserins	_	NOUN	N	_	7	obl	_	_
+10	vos	_	SCONJ	C	_	13	mark	_	_
+11	tsvishn	_	ADP	P	_	12	case	_	_
+12	zey	_	PRON	PRO	_	13	obl	_	_
+13	zeynen	_	VERB	VBF	VerbForm=Fin	9	acl:relcl	_	_
+14	mer	_	DET	QR	_	13	obl	_	_
+15	vi	_	ADP	P	_	16	case	_	_
+16	alts	_	DET	Q	_	14	obl	_	_
+17	farfaserins	_	NOUN	N-NOM	Case=Nom	13	nsubj	_	_
+18	fun	_	ADP	P	_	19	case	_	_
+19	tkhines	_	NOUN	N	_	17	obl	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.3
+# X_ID = 1959E-NIGER-SARAH,83.5
+# text = eyner fun di populerste nemen, vos %t%-1 zeynen untergeshribn unter di tkhines, s rov zeynen di tkhines anonim,, iz der namen srh bs tuvim .
+1	eyner	_	PRON	PRO	_	23	xcomp	_	_
+2	fun	_	ADP	P	_	5	case	_	_
+3	di	_	DET	D	PronType=Art	5	det	_	_
+4	populerste	_	ADJ	ADJS	Degree=Pos	5	amod	_	_
+5	nemen	_	NOUN	N	_	1	obl	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	5	punct	_	_
+7	vos	_	SCONJ	C	_	10	mark	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+9	zeynen	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+10	untergeshribn	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+11	unter	_	ADP	P	_	13	case	_	_
+12	di	_	DET	D	PronType=Art	13	det	_	_
+13	tkhines	_	NOUN	N-D	Definite=Def	10	obl	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	23	punct	_	_
+15	s	_	DET	D	PronType=Art	16	det	_	_
+16	rov	_	NOUN	N	_	17	obl	_	_
+17	zeynen	_	VERB	VBF	VerbForm=Fin	23	parataxis	_	_
+18	di	_	DET	D-NOM	Case=Nom|PronType=Art	19	det	_	_
+19	tkhines	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	17	nsubj	_	_
+20	anonim	_	ADJ	ADJ	Degree=Pos	17	amod	_	SpaceAfter=No
+21	,	_	PUNCT	PUNC	_	23	punct	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	23	punct	_	_
+23	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+24	der	_	DET	D-NOM	Case=Nom|PronType=Art	25	det	_	_
+25	namen	_	NOUN	N-NOM	Case=Nom	23	nsubj	_	_
+26	srh	_	PROPN	NPR	_	25	appos	_	_
+27	bs	_	PROPN	NPR	_	26	flat:name	_	_
+28	tuvim	_	PROPN	NPR	_	26	dep	_	SpaceAfter=No
+29	.	_	PUNCT	PUNC	_	23	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.4
+# X_ID = 1959E-NIGER-SARAH,83.6
+# text = unter dem_dozikn pseudonim, un nokh mer anonim, zeynen aroys tkhines nokhgemakhte fun speterdike mkhbrim
+1	unter	_	ADP	P	_	3	case	_	_
+2	dem_dozikn	_	DET	D	PronType=Art	3	det	_	_
+3	pseudonim	_	NOUN	N	_	10	obl	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	10	punct	_	_
+5	un	_	CCONJ	CONJ	_	8	cc	_	_
+6	nokh	_	ADV	ADV	Degree=Pos	8	obl	_	_
+7	mer	_	DET	QR	_	6	det	_	_
+8	anonim	_	ADJ	ADJ	Degree=Pos	10	parataxis	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	10	punct	_	_
+10	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+11	aroys	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+12	tkhines	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+13	nokhgemakhte	_	VERB	VAN	Tense=Past|VerbForm=Part	12	acl	_	_
+14	fun	_	ADP	P	_	16	case	_	_
+15	speterdike	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	mkhbrim	_	NOUN	N	_	13	obl	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.5
+# X_ID = 1959E-NIGER-SARAH,83.7
+# text = mskilim tsvishn di tkhines-nokhmakher zeynen geven, vi %t%-2 men kan hern in di vilner yidishe farleger-kreyzn, a. m. dik, m. a. shatsky, un shpeter : naphthali mskil laitn, ihushe mzkh un andere .
+1	mskilim	_	NOUN	N	_	6	xcomp	_	_
+2	tsvishn	_	ADP	P	_	4	case	_	_
+3	di	_	DET	D	PronType=Art	4	det	_	_
+4	tkhines-nokhmakher	_	NOUN	N-D	Definite=Def	1	obl	_	_
+5	zeynen	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+6	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	vi	_	ADV	WADV	Degree=Pos	12	advmod	_	_
+9	%t%-2	_	ADV	ADVP	Degree=Pos	12	advmod	_	_
+10	men	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+11	kan	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+12	hern	_	VERB	VB	VerbForm=Inf	6	advcl	_	_
+13	in	_	ADP	P	_	17	case	_	_
+14	di	_	DET	D	PronType=Art	17	det	_	_
+15	vilner	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+16	yidishe	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	farleger-kreyzn	_	NOUN	N-D	Definite=Def	12	obl	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	6	punct	_	_
+19	a.	_	PROPN	NPR	_	6	nsubj	_	_
+20	m.	_	PROPN	NPR	_	19	flat:name	_	_
+21	dik	_	PROPN	NPR	_	19	dep	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	19	punct	_	_
+23	m.	_	PROPN	NPR	_	19	conj	_	_
+24	a.	_	PROPN	NPR	_	23	flat:name	_	_
+25	shatsky	_	PROPN	NPR	_	23	dep	_	SpaceAfter=No
+26	,	_	PUNCT	PUNC	_	6	punct	_	_
+27	un	_	CCONJ	CONJ	_	30	cc	_	_
+28	shpeter	_	ADV	ADV	Degree=Pos	30	advmod	_	SpaceAfter=No
+29	:	_	PUNCT	PUNC	_	30	punct	_	_
+30	naphthali	_	PROPN	NPR	_	6	conj	_	_
+31	mskil	_	PROPN	NPR	_	30	flat:name	_	_
+32	laitn	_	PROPN	NPR	_	30	dep	_	SpaceAfter=No
+33	,	_	PUNCT	PUNC	_	30	punct	_	_
+34	ihushe	_	PROPN	NPR	_	30	conj	_	_
+35	mzkh	_	PROPN	NPR	_	34	flat:name	_	_
+36	un	_	CCONJ	CONJ	_	37	cc	_	_
+37	andere	_	ADJ	ADJ	Degree=Pos	30	conj	_	SpaceAfter=No
+38	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.6
+# X_ID = 1959E-NIGER-SARAH,83.8
+# text = azoy az men hot genumen spkn, tsi s' iz gor geven amol oyf der velt a froy, vos %t%-1 hot aroysgegebn tkhines untern namen srh bs tubim .
+1	azoy	_	ADV	ADV	Degree=Pos	0	root	_	_
+2	az	_	SCONJ	C	_	5	mark	_	_
+3	men	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+5	genumen	_	VERB	VBN	Tense=Past|VerbForm=Part	1	advcl	_	_
+6	spkn	_	VERB	VB	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	tsi	_	SCONJ	C	_	12	mark	_	_
+9	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	12	expl	_	_
+10	iz	_	AUX	BEF	VerbForm=Fin	12	cop	_	_
+11	gor	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+12	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	6	dep	_	_
+13	amol	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+14	oyf	_	ADP	P	_	16	case	_	_
+15	der	_	DET	D	PronType=Art	16	det	_	_
+16	velt	_	NOUN	N-D	Definite=Def	12	obl	_	_
+17	a	_	DET	D-NOM	Case=Nom|PronType=Art	18	det	_	_
+18	froy	_	NOUN	N-NOM	Case=Nom	12	nsubj	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	18	punct	_	_
+20	vos	_	SCONJ	C	_	23	mark	_	_
+21	%t%-1	_	NOUN	NP-SBJ	_	23	nsubj	_	_
+22	hot	_	AUX	HVF	VerbForm=Fin	23	aux	_	_
+23	aroysgegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+24	tkhines	_	NOUN	N-ACC	Case=Acc	23	obj	_	_
+25	untern	_	ADP	P-CL	_	26	case	_	_
+26	namen	_	NOUN	N	_	23	obl	_	_
+27	srh	_	PROPN	NPR	_	26	appos	_	_
+28	bs	_	PROPN	NPR	_	27	flat:name	_	_
+29	tubim	_	PROPN	NPR	_	27	dep	_	SpaceAfter=No
+30	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.7
+# X_ID = 1959E-NIGER-SARAH,83.9
+# text = aza froy iz aber gevis geven amol .
+1	aza	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	2	amod	_	_
+2	froy	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+4	aber	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	gevis	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	amol	_	ADV	ADV	Degree=Pos	6	advmod	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.8
+# X_ID = 1959E-NIGER-SARAH,83.10
+# text = bey a geviser anstrengung vet %exp% nit shver zeyn tsu dergeyn oykh, ver un ven %t%-2 zi iz geven :
+1	bey	_	ADP	P	_	4	case	_	_
+2	a	_	DET	D	PronType=Art	4	det	_	_
+3	geviser	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	anstrengung	_	NOUN	N-I	Definite=Ind	9	obl	_	_
+5	vet	_	AUX	MDF	VerbForm=Fin	9	aux	_	_
+6	%exp%	_	NOUN	NP-SBJ-1	_	9	xcomp	_	_
+7	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+8	shver	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+10	tsu	_	PART	TO	_	6	mark	_	_
+11	dergeyn	_	VERB	VB	VerbForm=Inf	6	dep	_	_
+12	oykh	_	ADV	ADV	Degree=Pos	6	advmod	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	6	punct	_	_
+14	ver	_	PRON	WPRO	_	20	obj	_	_
+15	un	_	CCONJ	CONJ	_	14	conj	_	_
+16	ven	_	ADV	WADV	Degree=Pos	15	advmod	_	_
+17	%t%-2	_	NOUN	NP-PRD	_	20	xcomp	_	_
+18	zi	_	PRON	PRO-NOM	Case=Nom	20	nsubj	_	_
+19	iz	_	AUX	BEF	VerbForm=Fin	20	cop	_	_
+20	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	6	dep	_	SpaceAfter=No
+21	:	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.9
+# X_ID = 1959E-NIGER-SARAH,83.11
+# text = do veln mir zikh nor genugenen mit eynike tsitatn fun der zeyer populerer tkhine slsh sheorim, vos %t%-1 zi hot farfast .
+1	do	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+2	veln	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+3	mir	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	6	expl:pv	_	_
+5	nor	_	ADV	FP	Degree=Pos	6	advmod	_	_
+6	genugenen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+7	mit	_	ADP	P	_	9	case	_	_
+8	eynike	_	DET	Q	_	9	det	_	_
+9	tsitatn	_	NOUN	N	_	6	obl	_	_
+10	fun	_	ADP	P	_	14	case	_	_
+11	der	_	DET	D	PronType=Art	14	det	_	_
+12	zeyer	_	ADV	ADV	Degree=Pos	14	amod	_	_
+13	populerer	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+14	tkhine	_	NOUN	N	_	9	obl	_	_
+15	slsh	three	X	H	_	14	dep	_	_
+16	sheorim	gates	X	H	_	15	dep	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	14	punct	_	_
+18	vos	_	SCONJ	C	_	22	mark	_	_
+19	%t%-1	_	NOUN	NP-ACC	_	22	dep	_	_
+20	zi	_	PRON	PRO-NOM	Case=Nom	22	nsubj	_	_
+21	hot	_	AUX	HVF	VerbForm=Fin	22	aux	_	_
+22	farfast	_	VERB	VBN	Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
+23	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.10
+# X_ID = 1959E-NIGER-SARAH,83.12
+# text = di_dozike tsitatn, vos %t%-1 veln veyzn dem lezer di ekhtkeyt fun der tkhine slsh sheorim, veln im oykh, tsu suf, nokh amol tseygn dem intimen, lirishn kharakter fun di veybershe tfiles .
+1	di_dozike	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	tsitatn	_	NOUN	N-NOM	Case=Nom	27	nsubj	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	2	punct	_	_
+4	vos	_	SCONJ	C	_	7	mark	_	_
+5	%t%-1	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+6	veln	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+7	veyzn	_	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+8	dem	_	DET	D-DTV	Case=Dat|PronType=Art	9	det	_	_
+9	lezer	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	7	iobj	_	_
+10	di	_	DET	D-ACC	Case=Acc|PronType=Art	11	det	_	_
+11	ekhtkeyt	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+12	fun	_	ADP	P	_	14	case	_	_
+13	der	_	DET	D	PronType=Art	14	det	_	_
+14	tkhine	_	NOUN	N-D	Definite=Def	11	obl	_	_
+15	slsh	three	X	H	_	14	dep	_	_
+16	sheorim	gates	X	H	_	15	dep	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	27	punct	_	_
+18	veln	_	AUX	MDF	VerbForm=Fin	27	aux	_	_
+19	im	_	PRON	PRO-DTV	Case=Dat	27	iobj	_	_
+20	oykh	_	ADV	ADV	Degree=Pos	27	advmod	_	SpaceAfter=No
+21	,	_	PUNCT	PUNC	_	27	punct	_	_
+22	tsu	_	ADP	P	_	23	case	_	_
+23	suf	_	NOUN	N	_	27	obl	_	SpaceAfter=No
+24	,	_	PUNCT	PUNC	_	27	punct	_	_
+25	nokh	_	ADV	ADV	Degree=Pos	27	advmod	_	_
+26	amol	_	ADV	ADV	Degree=Pos	25	advmod	_	_
+27	tseygn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+28	dem	_	DET	D-ACC	Case=Acc|PronType=Art	32	det	_	_
+29	intimen	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	32	amod	_	SpaceAfter=No
+30	,	_	PUNCT	PUNC	_	32	punct	_	_
+31	lirishn	_	ADJ	ADJ	Degree=Pos	32	amod	_	_
+32	kharakter	_	NOUN	N	_	27	obj	_	_
+33	fun	_	ADP	P	_	36	case	_	_
+34	di	_	DET	D	PronType=Art	36	det	_	_
+35	veybershe	_	ADJ	ADJ	Degree=Pos	36	amod	_	_
+36	tfiles	_	NOUN	N-D	Definite=Def	32	obl	_	SpaceAfter=No
+37	.	_	PUNCT	PUNC	_	27	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.11
+# X_ID = 1959E-NIGER-SARAH,83.13
+# text = di erste zakh veln mir brengen di hagdome, vos %t%-1 srh bs tubim hot gemakht tsu ir tkhine slsh sheorim .
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	erste	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	zakh	_	NOUN	N-D	Definite=Def	6	xcomp	_	_
+4	veln	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+5	mir	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	brengen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+7	di	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	hagdome	_	NOUN	N-ACC	Case=Acc	6	obj	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	8	punct	_	_
+10	vos	_	SCONJ	C	_	16	mark	_	_
+11	%t%-1	_	NOUN	NP-ACC	_	16	dep	_	_
+12	srh	_	PROPN	NPR-SBJ	_	16	nsubj	_	_
+13	bs	_	PROPN	NPR	_	12	flat:name	_	_
+14	tubim	_	PROPN	NPR	_	12	dep	_	_
+15	hot	_	AUX	HVF	VerbForm=Fin	16	aux	_	_
+16	gemakht	_	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+17	tsu	_	ADP	P	_	19	case	_	_
+18	ir	_	PRON	PRO$	_	19	det:poss	_	_
+19	tkhine	_	NOUN	N	_	16	obl	_	_
+20	slsh	three	X	H	_	19	dep	_	_
+21	sheorim	gates	X	H	_	20	dep	_	SpaceAfter=No
+22	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.12
+# X_ID = 1959E-NIGER-SARAH,84_middle.15
+# text = in onheyb fun tekst shteyt angeshribn oyf loshn-koydesh :
+1	in	_	ADP	P	_	2	case	_	_
+2	onheyb	_	NOUN	N	_	5	obl	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	tekst	_	NOUN	N	_	2	obl	_	_
+5	shteyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	angeshribn	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	oyf	_	ADP	P	_	8	case	_	_
+8	loshn-koydesh	_	NOUN	N	_	5	obl	_	SpaceAfter=No
+9	:	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.13
+# X_ID = 1959E-NIGER-SARAH,84_middle.16
+# text = nor oyb das als iz nokh veynik tsu baveyzn az s' iz geven take a yidene srh, vos %t%-1 hot geshribn tkhines, veln mir brengen nokh a por tsitatn, vau %t%-2 der veybersher shtil un kharakter iz azoy kentik, az opleykenen im iz kmet ummeglekh
+1	nor	_	CCONJ	CONJ	_	27	cc	_	_
+2	oyb	_	SCONJ	C	_	5	mark	_	_
+3	das	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	als	_	DET	Q-NOM	Case=Nom	5	nsubj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	27	advcl	_	_
+6	nokh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	veynik	_	DET	Q	_	5	xcomp	_	_
+8	tsu	_	PART	TO	_	9	advcl	_	_
+9	baveyzn	_	VERB	VB	VerbForm=Inf	5	advcl	_	_
+10	az	_	SCONJ	C	_	13	mark	_	_
+11	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	13	expl	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	13	cop	_	_
+13	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+14	take	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+15	a	_	DET	D-NOM	Case=Nom|PronType=Art	16	det	_	_
+16	yidene	_	NOUN	N-NOM	Case=Nom	13	nsubj	_	_
+17	srh	_	PROPN	NPR	_	16	appos	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	16	punct	_	_
+19	vos	_	SCONJ	C	_	22	mark	_	_
+20	%t%-1	_	NOUN	NP-SBJ	_	22	nsubj	_	_
+21	hot	_	AUX	HVF	VerbForm=Fin	22	aux	_	_
+22	geshribn	_	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+23	tkhines	_	NOUN	N-ACC	Case=Acc	22	obj	_	SpaceAfter=No
+24	,	_	PUNCT	PUNC	_	27	punct	_	_
+25	veln	_	AUX	MDF	VerbForm=Fin	27	aux	_	_
+26	mir	_	PRON	PRO-NOM	Case=Nom	27	nsubj	_	_
+27	brengen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+28	nokh	_	ADV	ADV	Degree=Pos	27	dep	_	_
+29	a	_	DET	D	PronType=Art	28	det	_	_
+30	por	_	DET	Q	_	28	det	_	_
+31	tsitatn	_	NOUN	N	_	28	conj	_	SpaceAfter=No
+32	,	_	PUNCT	PUNC	_	28	punct	_	_
+33	vau	_	ADV	WADV	Degree=Pos	40	advmod	_	_
+34	%t%-2	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	40	advmod	_	_
+35	der	_	DET	D-NOM	Case=Nom|PronType=Art	37	det	_	_
+36	veybersher	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	37	amod	_	_
+37	shtil	_	NOUN	N-NOM	Case=Nom	40	nsubj	_	_
+38	un	_	CCONJ	CONJ	_	39	cc	_	_
+39	kharakter	_	NOUN	N	_	37	conj	_	_
+40	iz	_	VERB	VBF	VerbForm=Fin	28	acl:relcl	_	_
+41	azoy	_	ADV	ADV	Degree=Pos	42	amod	_	_
+42	kentik	_	ADJ	ADJ	Degree=Pos	40	amod	_	SpaceAfter=No
+43	,	_	PUNCT	PUNC	_	42	punct	_	_
+44	az	_	SCONJ	C	_	47	mark	_	_
+45	opleykenen	_	VERB	VB-PART	VerbForm=Inf	47	nsubj	_	_
+46	im	_	PRON	PRO-ACC	Case=Acc	45	obj	_	_
+47	iz	_	VERB	VBF	VerbForm=Fin	42	amod	_	_
+48	kmet	_	ADV	ADV	Degree=Pos	49	amod	_	_
+49	ummeglekh	_	ADJ	ADJ	Degree=Pos	47	amod	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.14
+# X_ID = 1959E-NIGER-SARAH,84_middle.17
+# text = ikh isho srh leyenen mir veyter in slsh sheorim tu betn oykh ...
+1	ikh	_	PRON	PRO	_	4	dep	_	_
+2	isho	_	NOUN	N	_	1	dep	_	_
+3	srh	_	PROPN	NPR	_	1	dep	_	_
+4	leyenen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	mir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	veyter	_	ADV	ADVR	Degree=Cmp	4	advmod	_	_
+7	in	_	ADP	P	_	8	dep	_	_
+8	slsh	three	X	H	_	4	obl	_	_
+9	sheorim	gates	X	H	_	8	dep	_	_
+10	tu	_	VERB	DOF	VerbForm=Fin	4	dep	_	_
+11	betn	_	VERB	VB	VerbForm=Inf	10	dep	_	_
+12	oykh	_	PRON	PRO	_	10	nmod	_	SpaceAfter=No
+13	...	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.15
+# X_ID = 1959E-NIGER-SARAH,84_middle.18
+# text = der fakt fun ir ne und zeyn vert dermont, vi %t%-1 mir hobn gezen, oykh in der hagdome un oykh speter .
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	fakt	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	_
+3	fun	_	ADP	P	_	5	case	_	_
+4	ir	_	PRON	PRO$	_	5	det:poss	_	_
+5	ne	_	NOUN	N	_	2	obl	_	_
+6	und	_	CCONJ	CONJ	_	7	cc	_	_
+7	zeyn	_	NOUN	N	_	5	conj	_	_
+8	vert	_	AUX	RDF	VerbForm=Fin	9	aux	_	_
+9	dermont	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	9	punct	_	_
+11	vi	_	ADV	WADV	Degree=Pos	15	advmod	_	_
+12	%t%-1	_	ADV	ADVP	Degree=Pos	15	advmod	_	_
+13	mir	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+14	hobn	_	AUX	HVF	VerbForm=Fin	15	aux	_	_
+15	gezen	_	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	9	punct	_	_
+17	oykh	_	ADV	ADV	Degree=Pos	9	obl	_	_
+18	in	_	ADP	P	_	20	case	_	_
+19	der	_	DET	D	PronType=Art	20	det	_	_
+20	hagdome	_	NOUN	N-D	Definite=Def	17	obl	_	_
+21	un	_	CCONJ	CONJ	_	22	cc	_	_
+22	oykh	_	ADV	ADV	Degree=Pos	17	conj	_	_
+23	speter	_	ADV	ADVR	Degree=Cmp	22	advmod	_	SpaceAfter=No
+24	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.16
+# X_ID = 1959E-NIGER-SARAH,84_middle.19
+# text = un dos iz nit nor biografish interesant :
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	dos	_	DET	D-NOM	Case=Nom|PronType=Art	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	3	advmod	_	_
+5	nor	_	ADV	FP	Degree=Pos	3	advmod	_	_
+6	biografish	_	ADV	ADV	Degree=Pos	7	amod	_	_
+7	interesant	_	ADJ	ADJ	Degree=Pos	3	amod	_	SpaceAfter=No
+8	:	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.17
+# X_ID = 1959E-NIGER-SARAH,84_middle.20
+# text = dos veyzt, az zi git iber in ire tfiles take ire eygene iberlegungen un nsiunes .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	veyzt	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	2	punct	_	_
+4	az	_	SCONJ	C	_	6	mark	_	_
+5	zi	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	git	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+7	iber	_	ADP	RP	_	6	compound:prt	_	_
+8	in	_	ADP	P	_	10	case	_	_
+9	ire	_	PRON	PRO$	_	10	det:poss	_	_
+10	tfiles	_	NOUN	N	_	6	obl	_	_
+11	take	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+12	ire	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	14	det:poss	_	_
+13	eygene	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	iberlegungen	_	NOUN	N	_	6	obj	_	_
+15	un	_	CCONJ	CONJ	_	16	cc	_	_
+16	nsiunes	_	NOUN	N	_	14	conj	_	SpaceAfter=No
+17	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.18
+# X_ID = 1959E-NIGER-SARAH,84_middle.21
+# text = oykh veyter shreybt zi
+1	oykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	veyter	_	ADV	ADVR	Degree=Cmp	1	advmod	_	_
+3	shreybt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	zi	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.19
+# X_ID = 1959E-NIGER-SARAH,85.23
+# text = biz zi kumt vider in suf tsu a shtikl oytobiografie :
+1	biz	_	SCONJ	C	_	3	mark	_	_
+2	zi	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	vider	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	suf	_	NOUN	N	_	3	obl	_	_
+7	tsu	_	ADP	P	_	9	case	_	_
+8	a	_	DET	D	PronType=Art	9	det	_	_
+9	shtikl	_	NOUN	N-I	Definite=Ind	3	obl	_	_
+10	oytobiografie	_	NOUN	N	_	9	nmod:poss	_	SpaceAfter=No
+11	:	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.20
+# X_ID = 1959E-NIGER-SARAH,85.24
+# text = zi aleyn shtamt, apnim, fun der shtot satnov .
+1	zi	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	aleyn	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	shtamt	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	3	punct	_	_
+5	apnim	_	ADV	ADV	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	3	punct	_	_
+7	fun	_	ADP	P	_	9	case	_	_
+8	der	_	DET	D	PronType=Art	9	det	_	_
+9	shtot	_	NOUN	N-D	Definite=Def	3	obl	_	_
+10	satnov	_	PROPN	NPR	_	9	appos	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1959E-NIGER-SARAH,.21
+# X_ID = 1959E-NIGER-SARAH,85.25
+# text = in sof fun di slsh sheorim shteyt untergeshribn
+1	in	_	ADP	P	_	2	case	_	_
+2	sof	_	NOUN	N	_	7	obl	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	di	_	DET	D	PronType=Art	2	obl	_	_
+5	slsh	three	X	H	_	4	dep	_	_
+6	sheorim	gates	X	H	_	5	dep	_	_
+7	shteyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	untergeshribn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+
+1	in	_	ADP	P	_	2	case	_	_
+2	dr.	_	PROPN	NPR	_	8	obl	_	_
+3	mehlers	_	NOUN	NPR$	_	2	dep	_	_
+4	hskhlh	_	NOUN	N	_	2	dep	_	_
+5	un	_	CCONJ	CONJ	_	6	cc	_	_
+6	khsides	_	NOUN	N	_	4	conj	_	_
+7	vert	_	AUX	RDF	VerbForm=Fin	8	aux	_	_
+8	dermont	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+9	a	_	DET	D-NOM	Case=Nom|PronType=Art	8	nsubj	_	_
+10	slsh	three	X	H	_	9	dep	_	_
+11	sheorim	gates	X	H	_	10	dep	_	_
+12	fun	_	ADP	P	_	13	case	_	_
+13	onheyb	_	NOUN	N	_	9	obl	_	_
+14	18tn	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	yh	_	NOUN	N	_	13	nmod:poss	_	_
+16	.	_	PUNCT	PUNC	_	8	punct	_	_
+

@@ -1,0 +1,2974 @@
+# sent_id = 1927E-ZARETSKI-SHOLEM,.1
+# X_ID = 1927E-ZARETSKI-SHOLEM,5.3
+# text = koydemkol darf men derklern, vos %t%-1 iz azoyns " ort in zats " .
+1	koydemkol	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	darf	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	men	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	derklern	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	vos	_	PRON	WPRO	_	8	obj	_	_
+7	%t%-1	_	NOUN	NP-PRD	_	8	xcomp	_	_
+8	iz	_	VERB	VBF	VerbForm=Fin	4	dep	_	_
+9	azoyns	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	11	amod	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	11	punct	_	_
+11	ort	_	NOUN	N	_	8	nsubj	_	_
+12	in	_	ADP	P	_	13	case	_	_
+13	zats	_	NOUN	N	_	11	obl	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	4	punct	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.2
+# X_ID = 1927E-ZARETSKI-SHOLEM,5.4
+# text = dos " ort in zats " darf men rekhenen nit loyt der tsal bazundere verter,
+1	dos	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	3	punct	_	_
+3	ort	_	NOUN	N	_	9	obj	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	zats	_	NOUN	N	_	3	obl	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	9	punct	_	_
+7	darf	_	AUX	MDF	VerbForm=Fin	9	aux	_	_
+8	men	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+9	rekhenen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+10	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	13	advmod	_	_
+11	loyt	_	ADP	P	_	13	case	_	_
+12	der	_	DET	D	PronType=Art	13	det	_	_
+13	tsal	_	NOUN	N-D	Definite=Def	9	obl	_	_
+14	bazundere	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	verter	_	NOUN	N	_	13	nmod:poss	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.3
+# X_ID = 1927E-ZARETSKI-SHOLEM,5.5
+# text = m' darf dos rekhenen loyt der tsol gantse grupes ;
+1	m'	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	darf	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	dos	_	DET	D-ACC	Case=Acc|PronType=Art	4	obj	_	_
+4	rekhenen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	loyt	_	ADP	P	_	7	case	_	_
+6	der	_	DET	D	PronType=Art	7	det	_	_
+7	tsol	_	NOUN	N-D	Definite=Def	4	obl	_	_
+8	gantse	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	grupes	_	NOUN	N	_	7	nmod:poss	_	SpaceAfter=No
+10	;	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.4
+# X_ID = 1927E-ZARETSKI-SHOLEM,5.6
+# text = a@ @shteyger : dos meserl meyns hot men farvorfn .
+1	a@	_	DET	D	PronType=Art	9	dep	_	_
+2	@shteyger	_	NOUN	N	_	1	dep	_	SpaceAfter=No
+3	:	_	PUNCT	PUNC	_	9	punct	_	_
+4	dos	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	meserl	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	9	obj	_	_
+6	meyns	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	5	det:poss	_	_
+7	hot	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+8	men	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+9	farvorfn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.5
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.7
+# text = do iz afn erstn ort di grupe " dos meserl meyns " .
+1	do	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	afn	_	ADP	P-CL	_	5	case	_	_
+4	erstn	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	ort	_	NOUN	N	_	2	obl	_	_
+6	di	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	grupe	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	7	punct	_	_
+9	dos	_	DET	D	PronType=Art	10	det	_	_
+10	meserl	_	NOUN	N-D	Definite=Def	7	appos	_	_
+11	meyns	_	PRON	PRO$	_	10	det:poss	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	2	punct	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.6
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.8
+# text = men kan nit opteyln " mayns " fun " dos meserl " . un zogn, a@ @shteyger, " dos mesrl hot men mayns farvorfn ",
+1	men	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	kan	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+4	opteyln	_	VERB	VB-PART	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	4	punct	_	_
+6	mayns	_	PRON	PRO$	_	4	dep	_	SpaceAfter=No
+7	"	_	PUNCT	PUNC	_	4	punct	_	_
+8	fun	_	ADP	P	_	10	case	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	10	punct	_	_
+10	dos	_	DET	D	PronType=Art	4	obl	_	_
+11	meserl	_	NOUN	N-D	Definite=Def	10	obl	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	4	punct	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	4	punct	_	_
+14	un	_	CCONJ	CONJ	_	15	cc	_	_
+15	zogn	_	VERB	VB	VerbForm=Inf	4	conj	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	15	punct	_	_
+17	a@	_	DET	D	PronType=Art	15	dep	_	_
+18	@shteyger	_	NOUN	N	_	17	dep	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	15	punct	_	SpaceAfter=No
+20	"	_	PUNCT	PUNC	_	15	punct	_	_
+21	dos	_	DET	D	PronType=Art	15	dep	_	_
+22	mesrl	_	NOUN	N	_	21	dep	_	_
+23	hot	_	AUX	HVF	VerbForm=Fin	21	aux	_	_
+24	men	_	PRON	PRO	_	21	nmod	_	_
+25	mayns	_	PRON	PRO$	_	21	det:poss	_	_
+26	farvorfn	_	VERB	VBN	Tense=Past|VerbForm=Part	21	dep	_	SpaceAfter=No
+27	"	_	PUNCT	PUNC	_	4	punct	_	SpaceAfter=No
+28	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.7
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.9
+# text = afn tsveytn ort dos perzonvort " hot ",
+1	afn	_	ADP	P-CL	_	3	case	_	_
+2	tsveytn	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ort	_	NOUN	N	_	5	obl	_	_
+4	dos	_	DET	D	PronType=Art	5	det	_	_
+5	perzonvort	_	NOUN	N-D	Definite=Def	0	root	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	5	punct	_	_
+7	hot	_	AUX	HVF	VerbForm=Fin	5	dep	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	5	punct	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.8
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.10
+# text = afn dritn, der subyekt " men ", u.a.v.
+1	afn	_	ADP	P-CL	_	2	case	_	_
+2	dritn	_	ADJ	ADJ	Degree=Pos	5	obl	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	5	punct	_	_
+4	der	_	DET	D	PronType=Art	5	det	_	_
+5	subyekt	_	NOUN	N-D	Definite=Def	0	root	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	5	punct	_	_
+7	men	_	PRON	PRO	_	5	dep	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	5	punct	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	5	punct	_	_
+10	u.a.v.	_	X	X	_	5	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.9
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.11
+# text = nokh a beyshpil : gekumen fun kheyder, khap ikh zikh bald aroys in hoyf arayn .
+1	nokh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	a	_	DET	D	PronType=Art	3	det	_	_
+3	beyshpil	_	NOUN	N-I	Definite=Ind	9	obl	_	SpaceAfter=No
+4	:	_	PUNCT	PUNC	_	9	punct	_	_
+5	gekumen	_	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	kheyder	_	NOUN	N	_	5	obl	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	9	punct	_	_
+9	khap	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	ikh	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+11	zikh	_	PRON	PRO-RFL	PronType=Reflex	9	expl:pv	_	_
+12	bald	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+13	aroys	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+14	in	_	ADP	P	_	15	case	_	_
+15	hoyf	_	NOUN	N	_	16	obl	_	_
+16	arayn	_	ADV	ADV	Degree=Pos	9	advmod	_	SpaceAfter=No
+17	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.10
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.12
+# text = do iz afn erstn ort di grupe " gekumen fun kheyder ", afn tsveytn ort dos perzonvort " khap ", afn dritn, der subyekt " ikh " u.a.v.
+1	do	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	afn	_	ADP	P-CL	_	5	case	_	_
+4	erstn	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	ort	_	NOUN	N	_	2	obl	_	_
+6	di	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	grupe	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	7	punct	_	_
+9	gekumen	_	VERB	VBN	Tense=Past|VerbForm=Part	7	dep	_	_
+10	fun	_	ADP	P	_	9	case	_	_
+11	kheyder	_	NOUN	N	_	9	dep	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	2	punct	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	2	punct	_	_
+14	afn	_	ADP	P-CL	_	16	case	_	_
+15	tsveytn	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	ort	_	NOUN	N	_	2	conj	_	_
+17	dos	_	DET	D-NOM	Case=Nom|PronType=Art	18	det	_	_
+18	perzonvort	_	NOUN	N-NOM	Case=Nom	16	nsubj	_	SpaceAfter=No
+19	"	_	PUNCT	PUNC	_	18	punct	_	_
+20	khap	_	VERB	VBF	VerbForm=Fin	18	dep	_	SpaceAfter=No
+21	"	_	PUNCT	PUNC	_	2	punct	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	2	punct	_	_
+23	afn	_	ADP	P-CL	_	24	case	_	_
+24	dritn	_	ADJ	ADJ	Degree=Pos	2	conj	_	SpaceAfter=No
+25	,	_	PUNCT	PUNC	_	24	punct	_	_
+26	der	_	DET	D-NOM	Case=Nom|PronType=Art	27	det	_	_
+27	subyekt	_	NOUN	N-NOM	Case=Nom	24	nsubj	_	SpaceAfter=No
+28	"	_	PUNCT	PUNC	_	27	punct	_	_
+29	ikh	_	PRON	PRO	_	27	dep	_	SpaceAfter=No
+30	"	_	PUNCT	PUNC	_	2	punct	_	_
+31	u.a.v.	_	X	X	_	2	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.11
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.13
+# text = s' makhn zikh sofek-faln bam beshtimen dos ort fun vort in zats .
+1	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	makhn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	sofek-faln	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+5	bam	_	ADP	P-CL	_	6	case	_	_
+6	beshtimen	_	VERB	VB	VerbForm=Inf	2	obl	_	_
+7	dos	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	ort	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+9	fun	_	ADP	P	_	10	case	_	_
+10	vort	_	NOUN	N	_	8	obl	_	_
+11	in	_	ADP	P	_	12	case	_	_
+12	zats	_	NOUN	N	_	8	obl	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.12
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.14
+# text = ikh ken zikh do op zey nit opshteln .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+2	ken	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	8	expl:pv	_	_
+4	do	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+5	op	_	ADP	P	_	6	case	_	_
+6	zey	_	PRON	PRO	_	8	obl	_	_
+7	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+8	opshteln	_	VERB	VB-PART	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.13
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.15
+# text = derlernen dos ort fun perzonvort in yidishn zats heyst, oysgefinen, vosere gezetsn %t%-1 giltn do, dehaine, op voser ort %t%-2 kumt dos perzonvort tsum oftstn, in vosere faln %t%-3 kumt dos far anders, eyder in dem oftstn verterseyder .
+1	derlernen	_	VERB	VB	VerbForm=Inf	9	nsubj	_	_
+2	dos	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+3	ort	_	NOUN	N-ACC	Case=Acc	1	obj	_	_
+4	fun	_	ADP	P	_	5	case	_	_
+5	perzonvort	_	NOUN	N	_	3	obl	_	_
+6	in	_	ADP	P	_	8	case	_	_
+7	yidishn	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	zats	_	NOUN	N	_	5	obl	_	_
+9	heyst	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	9	punct	_	_
+11	oysgefinen	_	VERB	VB-PART	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	11	punct	_	_
+13	vosere	_	DET	WD	_	16	obj	_	_
+14	gezetsn	_	NOUN	N	_	13	dep	_	_
+15	%t%-1	_	NOUN	NP-SBJ	_	16	nsubj	_	_
+16	giltn	_	VERB	VBF	VerbForm=Fin	11	dep	_	_
+17	do	_	ADV	ADV	Degree=Pos	16	advmod	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	16	punct	_	_
+19	dehaine	_	ADV	ADV	Degree=Pos	16	dep	_	SpaceAfter=No
+20	,	_	PUNCT	PUNC	_	19	punct	_	_
+21	op	_	ADP	P	_	22	case	_	_
+22	voser	_	DET	WD	_	25	obl	_	_
+23	ort	_	NOUN	N	_	22	dep	_	_
+24	%t%-2	_	ADP	PP	_	25	obl	_	_
+25	kumt	_	VERB	VBF	VerbForm=Fin	19	dep	_	_
+26	dos	_	DET	D-NOM	Case=Nom|PronType=Art	27	det	_	_
+27	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	25	nsubj	_	_
+28	tsum	_	ADP	P-CL	_	29	case	_	_
+29	oftstn	_	ADJ	ADJS	Degree=Pos	25	obl	_	SpaceAfter=No
+30	,	_	PUNCT	PUNC	_	19	punct	_	_
+31	in	_	ADP	P	_	32	case	_	_
+32	vosere	_	DET	WD	_	35	obl	_	_
+33	faln	_	NOUN	N	_	32	dep	_	_
+34	%t%-3	_	ADP	PP	_	35	obl	_	_
+35	kumt	_	VERB	VBF	VerbForm=Fin	19	conj	_	_
+36	dos	_	DET	D-NOM	Case=Nom|PronType=Art	35	nsubj	_	_
+37	far	_	ADP	RP	_	35	compound:prt	_	_
+38	anders	_	ADV	ADV	Degree=Pos	35	advmod	_	SpaceAfter=No
+39	,	_	PUNCT	PUNC	_	38	punct	_	_
+40	eyder	_	ADP	P	_	44	case	_	_
+41	in	_	ADP	P	_	44	case	_	_
+42	dem	_	DET	D	PronType=Art	44	det	_	_
+43	oftstn	_	ADJ	ADJS	Degree=Pos	44	amod	_	_
+44	verterseyder	_	NOUN	N-D	Definite=Def	38	obl	_	SpaceAfter=No
+45	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.14
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.16
+# text = dos iz nisht bloyz keyn teoretisher interes .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+4	bloyz	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+5	keyn	_	DET	Q-NEG	Polarity=Neg	7	det	_	_
+6	teoretisher	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	interes	_	NOUN	N	_	2	xcomp	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.15
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.17
+# text = di shprakh iz ba unz in di hent :
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	shprakh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	ba	_	ADP	P	_	5	case	_	_
+5	unz	_	PRON	PRO	_	3	obl	_	_
+6	in	_	ADP	P	_	8	case	_	_
+7	di	_	DET	D	PronType=Art	8	det	_	_
+8	hent	_	NOUN	N-D	Definite=Def	3	obl	_	SpaceAfter=No
+9	:	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.16
+# X_ID = 1927E-ZARETSKI-SHOLEM,6.18
+# text = m' kan dos makhn beser,
+1	m'	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	kan	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	dos	_	DET	D-ACC	Case=Acc|PronType=Art	4	obj	_	_
+4	makhn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	beser	_	ADV	ADVR	Degree=Cmp	4	advmod	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.17
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.20
+# text = m' kan dos makhn erger .
+1	m'	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	kan	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	dos	_	DET	D-ACC	Case=Acc|PronType=Art	4	obj	_	_
+4	makhn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	erger	_	ADV	ADVR	Degree=Cmp	4	advmod	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.18
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.21
+# text = beyshpiln vern in dem shurnal gebrakht vern genug %ich%-1,
+1	beyshpiln	_	NOUN	N	_	6	obl	_	_
+2	vern	_	AUX	RDF	VerbForm=Fin	6	aux	_	_
+3	in	_	ADP	P	_	5	case	_	_
+4	dem	_	DET	D	PronType=Art	5	det	_	_
+5	shurnal	_	NOUN	N-D	Definite=Def	6	obl	_	_
+6	gebrakht	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+7	vern	_	AUX	RD	VerbForm=Inf	6	aux	_	_
+8	genug	_	DET	Q-NOM	Case=Nom	9	det	_	_
+9	%ich%-1	_	NOUN	NP	_	6	nsubj	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.19
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.22
+# text = s' gevendt on unz nit tsu fardarbn di shprakh ;
+1	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	gevendt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	on	_	ADP	P	_	4	case	_	_
+4	unz	_	PRON	PRO	_	2	obl	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	xcomp	_	_
+6	tsu	_	PART	TO	_	5	mark	_	_
+7	fardarbn	_	VERB	VB	VerbForm=Inf	5	dep	_	_
+8	di	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+9	shprakh	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	5	obj	_	SpaceAfter=No
+10	;	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.20
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.23
+# text = memeyle hot aza shtudies a praktishn vert oykh .
+1	memeyle	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	hot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	aza	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	shtudies	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+5	a	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+6	praktishn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	vert	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+8	oykh	_	ADV	ADV	Degree=Pos	7	advmod	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.21
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.24
+# text = vi_azoy %t%-1 aber derlernt men dos ?
+1	vi_azoy	_	ADV	WADV	Degree=Pos	4	advmod	_	_
+2	%t%-1	_	ADV	ADVP	Degree=Pos	4	advmod	_	_
+3	aber	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	derlernt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	men	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	dos	_	DET	D-ACC	Case=Acc|PronType=Art	4	obj	_	SpaceAfter=No
+7	?	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.22
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.25
+# text = dos beste iz oysshtudirn sistematish, bizn sof a tsal faktishe reyd .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	beste	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	oysshtudirn	_	VERB	VB-PART	VerbForm=Inf	3	xcomp	_	_
+5	sistematish	_	ADV	ADV	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	4	punct	_	_
+7	bizn	_	ADP	P-CL	_	8	case	_	_
+8	sof	_	NOUN	N	_	4	obl	_	_
+9	a	_	DET	D-ACC	Case=Acc|PronType=Art	10	det	_	_
+10	tsal	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+11	faktishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	12	amod	_	_
+12	reyd	_	NOUN	N-ACC	Case=Acc	10	nmod:poss	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.23
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.26
+# text = un azoy vi shtudirn di lebedike reyd iz tekhnish umbakvem me volt gedarft tsuhern un farshreybn keseyder altsding, vos %t%-2 me redt arum, muz men onkumen tsu der literarisher shprakh .
+1	un	_	CCONJ	CONJ	_	28	cc	_	_
+2	azoy	_	ADV	ADV	Degree=Pos	28	advmod	_	_
+3	vi	_	ADV	WADV	Degree=Pos	8	advmod	_	_
+4	shtudirn	_	VERB	VB	VerbForm=Inf	8	nsubj	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+6	lebedike	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	reyd	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	4	obj	_	_
+8	iz	_	VERB	VBF	VerbForm=Fin	2	advcl	_	_
+9	tekhnish	_	ADV	ADV	Degree=Pos	10	amod	_	_
+10	umbakvem	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+11	me	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+12	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	14	dep	_	_
+13	gedarft	_	AUX	MDN	Tense=Past|VerbForm=Part	14	aux	_	_
+14	tsuhern	_	VERB	VB-PART	VerbForm=Inf	28	parataxis	_	_
+15	un	_	CCONJ	CONJ	_	16	cc	_	_
+16	farshreybn	_	VERB	VB	VerbForm=Inf	14	parataxis	_	_
+17	keseyder	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+18	altsding	_	DET	Q-ACC	Case=Acc	14	obj	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	18	punct	_	_
+20	vos	_	SCONJ	C	_	23	mark	_	_
+21	%t%-2	_	NOUN	NP-ACC	_	23	dep	_	_
+22	me	_	PRON	PRO-NOM	Case=Nom	23	nsubj	_	_
+23	redt	_	VERB	VBF	VerbForm=Fin	18	acl:relcl	_	_
+24	arum	_	ADV	ADV	Degree=Pos	23	advmod	_	SpaceAfter=No
+25	,	_	PUNCT	PUNC	_	28	punct	_	_
+26	muz	_	AUX	MDF	VerbForm=Fin	28	aux	_	_
+27	men	_	PRON	PRO-NOM	Case=Nom	28	nsubj	_	_
+28	onkumen	_	VERB	VB-PART	VerbForm=Inf	0	root	_	_
+29	tsu	_	ADP	P	_	32	case	_	_
+30	der	_	DET	D	PronType=Art	32	det	_	_
+31	literarisher	_	ADJ	ADJ	Degree=Pos	32	amod	_	_
+32	shprakh	_	NOUN	N-D	Definite=Def	28	obl	_	SpaceAfter=No
+33	.	_	PUNCT	PUNC	_	28	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.24
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.27
+# text = me darf nemen a prozaishn shreyber, fn._1 oder lekholapones a verk zayns, oyskleybn fun dortn ale perzonverter, ibertseyln, vi@ @fl fun zey op velkhn ort %t%-2 %t%-3 es shteyen, un upzukhn, mit vasere umshtandn in zatsboy %t%-4 s' iz farbundn dos oder yents ort fun perzonvort .
+1	me	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	darf	_	AUX	MDF	VerbForm=Fin	3	aux	_	_
+3	nemen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+5	prozaishn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	shreyber	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	3	obj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	fn._1	_	VERB	REF	_	6	dep	_	_
+9	oder	_	CCONJ	CONJ	_	12	cc	_	_
+10	lekholapones	UNKNOWN	X	H	_	12	dep	_	_
+11	a	_	DET	D	PronType=Art	12	det	_	_
+12	verk	_	NOUN	N-I	Definite=Ind	6	conj	_	_
+13	zayns	_	PRON	PRO$	_	12	det:poss	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	3	punct	_	_
+15	oyskleybn	_	VERB	VB-PART	VerbForm=Inf	3	conj	_	_
+16	fun	_	ADP	P	_	17	case	_	_
+17	dortn	_	ADV	ADV	Degree=Pos	15	obl	_	_
+18	ale	_	DET	Q-ACC	Case=Acc	19	det	_	_
+19	perzonverter	_	NOUN	N-ACC	Case=Acc	15	obj	_	SpaceAfter=No
+20	,	_	PUNCT	PUNC	_	3	punct	_	_
+21	ibertseyln	_	VERB	VB-PART	VerbForm=Inf	3	conj	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	21	punct	_	_
+23	vi@	_	ADV	WADV	Degree=Pos	33	obj	_	_
+24	@fl	_	DET	Q	_	23	det	_	_
+25	fun	_	ADP	P	_	26	case	_	_
+26	zey	_	PRON	PRO	_	23	obl	_	_
+27	op	_	ADP	P	_	29	case	_	_
+28	velkhn	_	DET	WD	_	29	det	_	_
+29	ort	_	NOUN	N	_	33	obl	_	_
+30	%t%-2	_	NOUN	NP-LGS	_	33	dep	_	_
+31	%t%-3	_	ADP	PP	_	33	obl	_	_
+32	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	33	expl	_	_
+33	shteyen	_	VERB	VBF	VerbForm=Fin	21	dep	_	SpaceAfter=No
+34	,	_	PUNCT	PUNC	_	3	punct	_	_
+35	un	_	CCONJ	CONJ	_	36	cc	_	_
+36	upzukhn	_	VERB	VB-PART	VerbForm=Inf	3	conj	_	SpaceAfter=No
+37	,	_	PUNCT	PUNC	_	36	punct	_	_
+38	mit	_	ADP	P	_	39	case	_	_
+39	vasere	_	DET	WD	_	46	obl	_	_
+40	umshtandn	_	NOUN	N	_	39	dep	_	_
+41	in	_	ADP	P	_	42	case	_	_
+42	zatsboy	_	NOUN	N	_	39	obl	_	_
+43	%t%-4	_	ADP	PP	_	46	obl	_	_
+44	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	46	expl	_	_
+45	iz	_	AUX	BEF	VerbForm=Fin	46	cop	_	_
+46	farbundn	_	VERB	VAN	Tense=Past|VerbForm=Part	36	dep	_	_
+47	dos	_	DET	D-NOM	Case=Nom|PronType=Art	50	det	_	_
+48	oder	_	CCONJ	CONJ	_	49	cc	_	_
+49	yents	_	DET	D-NOM	Case=Nom|PronType=Art	47	conj	_	_
+50	ort	_	NOUN	N	_	46	nsubj	_	_
+51	fun	_	ADP	P	_	52	case	_	_
+52	perzonvort	_	NOUN	N	_	50	obl	_	SpaceAfter=No
+53	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.25
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.28
+# text = ikh hob opgetun aza min arbet mit azoyne sholem-aleykhems verk :
+1	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+3	opgetun	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+4	aza	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	5	amod	_	_
+5	min	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+6	arbet	_	NOUN	N-ACC	Case=Acc	5	nmod:poss	_	_
+7	mit	_	ADP	P	_	9	case	_	_
+8	azoyne	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	sholem-aleykhems	_	NOUN	NPR$	_	5	obl	_	_
+10	verk	_	NOUN	N	_	9	conj	_	SpaceAfter=No
+11	:	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.26
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.29
+# text = " dos meserl ", 785 perzonverter, " ba@ @m dokter ", 414, " mesushelakh ", 380, " der zeyger ", 377, " drey keplekh ", 270, " tsarbalekhaim ", 211 . tsuzamen 2437 perzonverter . fn._2
+1	"	_	PUNCT	PUNC	_	0	punct	_	_
+2	dos	_	DET	D	PronType=Art	1	xcomp	_	_
+3	meserl	_	NOUN	N-D	Definite=Def	2	conj	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	2	punct	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	2	punct	_	_
+6	785	_	NUM	NUM	_	2	obl	_	_
+7	perzonverter	_	NOUN	N	_	6	conj	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	1	punct	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	10	punct	_	_
+10	ba@	_	ADP	P	_	1	xcomp	_	_
+11	@m	_	DET	D	PronType=Art	10	det	_	_
+12	dokter	_	NOUN	N	_	10	conj	_	SpaceAfter=No
+13	"	_	PUNCT	PUNC	_	10	punct	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	10	punct	_	_
+15	414	_	NUM	NUM	_	10	obl	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	1	punct	_	SpaceAfter=No
+17	"	_	PUNCT	PUNC	_	18	punct	_	_
+18	mesushelakh	_	NOUN	N	_	1	xcomp	_	SpaceAfter=No
+19	"	_	PUNCT	PUNC	_	18	punct	_	SpaceAfter=No
+20	,	_	PUNCT	PUNC	_	18	punct	_	_
+21	380	_	NUM	NUM	_	18	obl	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	1	punct	_	SpaceAfter=No
+23	"	_	PUNCT	PUNC	_	1	punct	_	_
+24	der	_	DET	D	PronType=Art	1	xcomp	_	_
+25	zeyger	_	NOUN	N-D	Definite=Def	24	conj	_	SpaceAfter=No
+26	"	_	PUNCT	PUNC	_	24	punct	_	SpaceAfter=No
+27	,	_	PUNCT	PUNC	_	24	punct	_	_
+28	377	_	NUM	NUM	_	24	obl	_	SpaceAfter=No
+29	,	_	PUNCT	PUNC	_	1	punct	_	SpaceAfter=No
+30	"	_	PUNCT	PUNC	_	1	punct	_	_
+31	drey	_	NUM	NUM	_	1	xcomp	_	_
+32	keplekh	_	NOUN	N	_	31	conj	_	SpaceAfter=No
+33	"	_	PUNCT	PUNC	_	31	punct	_	SpaceAfter=No
+34	,	_	PUNCT	PUNC	_	31	punct	_	_
+35	270	_	NUM	NUM	_	31	obl	_	SpaceAfter=No
+36	,	_	PUNCT	PUNC	_	1	punct	_	SpaceAfter=No
+37	"	_	PUNCT	PUNC	_	1	punct	_	_
+38	tsarbalekhaim	_	NOUN	N	_	1	xcomp	_	SpaceAfter=No
+39	"	_	PUNCT	PUNC	_	38	punct	_	SpaceAfter=No
+40	,	_	PUNCT	PUNC	_	38	punct	_	_
+41	211	_	NUM	NUM	_	38	obl	_	SpaceAfter=No
+42	.	_	PUNCT	PUNC	_	1	punct	_	_
+43	tsuzamen	_	ADV	ADV	Degree=Pos	44	advmod	_	_
+44	2437	_	NUM	NUM	_	1	xcomp	_	_
+45	perzonverter	_	NOUN	N	_	44	conj	_	SpaceAfter=No
+46	.	_	PUNCT	PUNC	_	1	punct	_	_
+47	fn._2	_	VERB	REF	_	1	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.27
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.30
+# text = ikh hob shtudirt dos ort fun perzonvort in hoyptzats bazunder un in beyzats bazunder .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+3	shtudirt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	dos	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	ort	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	perzonvort	_	NOUN	N	_	5	obl	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	hoyptzats	_	NOUN	N	_	7	obl	_	_
+10	bazunder	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+11	un	_	CCONJ	CONJ	_	13	cc	_	_
+12	in	_	ADP	P	_	13	case	_	_
+13	beyzats	_	NOUN	N	_	3	conj	_	_
+14	bazunder	_	ADV	ADV	Degree=Pos	13	advmod	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.28
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.31
+# text = ikh vil do veyzn frier etlekhe beyshpiln,
+1	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	vil	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	do	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	veyzn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	frier	_	ADV	ADVR	Degree=Cmp	4	advmod	_	_
+6	etlekhe	_	DET	Q-ACC	Case=Acc	7	det	_	_
+7	beyshpiln	_	NOUN	N-ACC	Case=Acc	4	obj	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.29
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.32
+# text = dernokh kum ikh tsu di statistishe tsifer .
+1	dernokh	_	ADP	P	_	2	obl	_	_
+2	kum	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	tsu	_	ADP	P	_	7	case	_	_
+5	di	_	DET	D	PronType=Art	7	det	_	_
+6	statistishe	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	tsifer	_	NOUN	N-D	Definite=Def	2	obl	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.30
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.33
+# text = ikh hob aber gikh bakumen an ander meserl .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	aber	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+4	gikh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	bakumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	an	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+7	ander	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	meserl	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	5	obj	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.31
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.34
+# text = dos perzonvort iz do afn tsveytn ort ;
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	do	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	afn	_	ADP	P-CL	_	7	case	_	_
+6	tsveytn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	ort	_	NOUN	N	_	3	obl	_	SpaceAfter=No
+8	;	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.32
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.35
+# text = afn erstn iz der subyekt .
+1	afn	_	ADP	P-CL	_	2	case	_	_
+2	erstn	_	NOUN	N	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	subyekt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.33
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.36
+# text = dos erste mal, fun zint dos meserl iz meyns, kumt mir dosdozike shreklekhe vort af di gedanken .
+1	dos	_	DET	D	PronType=Art	12	obl	_	_
+2	erste	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	mal	_	NOUN	N	_	1	conj	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	1	punct	_	_
+5	fun	_	ADP	P	_	9	case	_	_
+6	zint	_	SCONJ	C	_	9	mark	_	_
+7	dos	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	meserl	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+9	iz	_	VERB	VBF	VerbForm=Fin	1	obl	_	_
+10	meyns	_	PRON	PRO$	_	9	xcomp	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	12	punct	_	_
+12	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+13	mir	_	PRON	PRO-DTV	Case=Dat	12	iobj	_	_
+14	dosdozike	_	DET	D-NOM	Case=Nom|PronType=Art	16	det	_	_
+15	shreklekhe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	16	amod	_	_
+16	vort	_	NOUN	N-NOM	Case=Nom	12	nsubj	_	_
+17	af	_	ADP	P	_	19	case	_	_
+18	di	_	DET	D	PronType=Art	19	det	_	_
+19	gedanken	_	NOUN	N-D	Definite=Def	12	obl	_	SpaceAfter=No
+20	.	_	PUNCT	PUNC	_	12	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.34
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.37
+# text = do iz faran tsvey perzonverter " iz " un " kumt " .
+1	do	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	faran	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	tsvey	_	NUM	NUM-NOM	Case=Nom	5	nummod	_	_
+5	perzonverter	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	5	punct	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	5	appos	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	7	punct	_	_
+9	un	_	CCONJ	CONJ	_	7	cc	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	7	punct	_	_
+11	kumt	_	VERB	VBF	VerbForm=Fin	7	dep	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	2	punct	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.35
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.38
+# text = ober " iz " gefint zikh in a beyzats,
+1	ober	_	CCONJ	CONJ	_	5	cc	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	5	punct	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	5	nsubj	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	5	punct	_	_
+5	gefint	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	a	_	DET	D	PronType=Art	9	det	_	_
+9	beyzats	_	NOUN	N-I	Definite=Ind	5	obl	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.36
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.39
+# text = interesirt es unz itst nit .
+1	interesirt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	es	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	unz	_	PRON	PRO-ACC	Case=Acc	1	obj	_	_
+4	itst	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	1	advmod	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.37
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.40
+# text = dos perzonvort " kumt " shteyt afn tsveytn ort .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	perzonvort	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	SpaceAfter=No
+3	"	_	PUNCT	PUNC	_	2	punct	_	_
+4	kumt	_	VERB	VBF	VerbForm=Fin	2	dep	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	6	punct	_	_
+6	shteyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	afn	_	ADP	P-CL	_	9	case	_	_
+8	tsveytn	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	ort	_	NOUN	N	_	6	obl	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.38
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.41
+# text = dos alts, vos %t%-1 %ellps% far " kumt ", iz eyn " grupe ",
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	alts	_	DET	Q-NOM	Case=Nom	12	nsubj	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	2	punct	_	_
+4	vos	_	SCONJ	C	_	6	mark	_	_
+5	%t%-1	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+6	%ellps%	_	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+7	far	_	ADP	P	_	9	case	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	9	punct	_	_
+9	kumt	_	VERB	VBF	VerbForm=Fin	6	obl	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	12	punct	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	12	punct	_	_
+12	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+13	eyn	_	DET	D	PronType=Art	15	det	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	15	punct	_	_
+15	grupe	_	NOUN	N-I	Definite=Ind	12	xcomp	_	SpaceAfter=No
+16	"	_	PUNCT	PUNC	_	15	punct	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	12	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.39
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.42
+# text = %con% farnemt eyn " ort ", khotsh do kumt areyn a gantser bayzats .
+1	%con%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+2	farnemt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	5	punct	_	_
+5	ort	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	2	obj	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	5	punct	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	2	punct	_	_
+8	khotsh	_	SCONJ	C	_	10	mark	_	_
+9	do	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+10	kumt	_	VERB	VBF	VerbForm=Fin	2	advcl	_	_
+11	areyn	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+12	a	_	DET	D-NOM	Case=Nom|PronType=Art	14	det	_	_
+13	gantser	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	14	amod	_	_
+14	bayzats	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	10	nsubj	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.40
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.43
+# text = az du bist gekumen tsugeyn fun kheyder, bis@ @tu shoyn geven a toyter .
+1	az	_	SCONJ	C	_	4	mark	_	_
+2	du	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	bist	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	gekumen	_	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+5	tsugeyn	_	VERB	VB-PART	VerbForm=Inf	4	xcomp	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	kheyder	_	NOUN	N	_	5	obl	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	12	punct	_	_
+9	bis@	_	AUX	BEF	VerbForm=Fin	12	cop	_	_
+10	@tu	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+11	shoyn	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+12	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	a	_	DET	D	PronType=Art	14	det	_	_
+14	toyter	_	NOUN	N-I	Definite=Ind	12	xcomp	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	12	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.41
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.44
+# text = perzonvort " bist ", afn tsveytn ort,
+1	perzonvort	_	NOUN	N-NOM	Case=Nom	0	root	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	1	punct	_	_
+3	bist	_	AUX	BEF	VerbForm=Fin	1	dep	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	1	punct	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	1	punct	_	_
+6	afn	_	ADP	P-CL	_	8	case	_	_
+7	tsveytn	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	ort	_	NOUN	N	_	1	obl	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.42
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.45
+# text = dem erstn ort farnemt a bayzats .
+1	dem	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+2	erstn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	3	amod	_	_
+3	ort	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	4	obj	_	_
+4	farnemt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	a	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	bayzats	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	4	nsubj	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.43
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.46
+# text = es tsitert mir di hant .
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	tsitert	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	mir	_	PRON	PRO-DTV	Case=Dat	2	iobj	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	hant	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	nsubj	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.44
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.47
+# text = perzonvort " tsitert " afn tsveytn ort .
+1	perzonvort	_	NOUN	N	_	0	root	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	1	punct	_	_
+3	tsitert	_	VERB	VBF	VerbForm=Fin	1	dep	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	1	punct	_	_
+5	afn	_	ADP	P-CL	_	7	case	_	_
+6	tsveytn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	ort	_	NOUN	N	_	1	obl	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.45
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.48
+# text = afn erstn, a spetsiel hilfvort " es ", vos %t%-1 vet shpeter derklert vern .
+1	afn	_	ADP	P-CL	_	2	case	_	_
+2	erstn	_	NOUN	N	_	6	obl	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	6	punct	_	_
+4	a	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+5	spetsiel	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+6	hilfvort	_	NOUN	N-NOM	Case=Nom	0	root	_	SpaceAfter=No
+7	"	_	PUNCT	PUNC	_	6	punct	_	_
+8	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	6	expl	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	6	punct	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	6	punct	_	_
+11	vos	_	SCONJ	C	_	15	mark	_	_
+12	%t%-1	_	NOUN	NP-SBJ	_	15	nsubj	_	_
+13	vet	_	AUX	MDF	VerbForm=Fin	15	aux	_	_
+14	shpeter	_	ADV	ADVR	Degree=Cmp	15	advmod	_	_
+15	derklert	_	VERB	VAN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+16	vern	_	AUX	RD	VerbForm=Inf	15	aux	_	SpaceAfter=No
+17	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.46
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.49
+# text = zol yederer zogn zeyn mishpet .
+1	zol	_	AUX	MDF	VerbForm=Fin	3	aux	_	_
+2	yederer	_	DET	Q-NOM	Case=Nom	3	nsubj	_	_
+3	zogn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+4	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	5	det:poss	_	_
+5	mishpet	_	NOUN	N	_	3	obj	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.47
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.50
+# text = perzonvort " zol ", afn erstn ort .
+1	perzonvort	_	NOUN	N-NOM	Case=Nom	0	root	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	1	punct	_	_
+3	zol	_	AUX	MDF	VerbForm=Fin	1	dep	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	1	punct	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	1	punct	_	_
+6	afn	_	ADP	P-CL	_	8	case	_	_
+7	erstn	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	ort	_	NOUN	N	_	1	obl	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.48
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.51
+# text = vel ikh hobn berls psak
+1	vel	_	AUX	MDF	VerbForm=Fin	3	aux	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	hobn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+4	berls	_	NOUN	NPR$	_	3	dep	_	_
+5	psak	_	NOUN	N	_	4	conj	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.49
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.52
+# text = perzonvort " vel " afn ersten ort .
+1	perzonvort	_	NOUN	N-NOM	Case=Nom	0	root	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	1	punct	_	_
+3	vel	_	AUX	MDF	VerbForm=Fin	1	dep	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	1	punct	_	_
+5	afn	_	ADP	P-CL	_	7	case	_	_
+6	ersten	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	ort	_	NOUN	N	_	1	obl	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.50
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.53
+# text = bist shoyn vider do .
+1	bist	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	shoyn	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	vider	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+4	do	_	ADV	ADV	Degree=Pos	1	advmod	_	SpaceAfter=No
+5	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.51
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.54
+# text = perzonvort " bist " afn ersten ort .
+1	perzonvort	_	NOUN	N-NOM	Case=Nom	0	root	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	1	punct	_	_
+3	bist	_	VERB	VBF	VerbForm=Fin	1	dep	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	1	punct	_	_
+5	afn	_	ADP	P-CL	_	7	case	_	_
+6	ersten	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	ort	_	NOUN	N	_	1	obl	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.52
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.55
+# text = un vi biter un finster %t%-1 mir iz %exp% geven in kheyder .
+1	un	_	CCONJ	CONJ	_	0	root	_	_
+2	vi	_	ADV	WADV	Degree=Pos	3	advmod	_	_
+3	biter	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+4	un	_	CCONJ	CONJ	_	5	cc	_	_
+5	finster	_	ADJ	ADJ	Degree=Pos	3	conj	_	_
+6	%t%-1	_	X	ADJP-PRD	Degree=Pos	10	dep	_	_
+7	mir	_	PRON	PRO-DTV	Case=Dat	10	iobj	_	_
+8	iz	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+9	%exp%	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+10	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	1	conj	_	_
+11	in	_	ADP	P	_	12	case	_	_
+12	kheyder	_	NOUN	N	_	10	obl	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.53
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.56
+# text = perzonvort " iz " afn dritn ort, afn erstn, " un vi biter un fintster ", afn tsveytn, " mir " . fn._3
+1	perzonvort	_	NOUN	N-NOM	Case=Nom	0	root	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	1	punct	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	1	dep	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	1	punct	_	_
+5	afn	_	ADP	P-CL	_	7	case	_	_
+6	dritn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	ort	_	NOUN	N	_	1	obl	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	1	punct	_	_
+9	afn	_	ADP	P-CL	_	10	case	_	_
+10	erstn	_	ADJ	ADJ	Degree=Pos	1	conj	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	10	punct	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	10	punct	_	_
+13	un	_	CCONJ	CONJ	_	10	dep	_	_
+14	vi	_	ADV	WADV	Degree=Pos	13	advmod	_	_
+15	biter	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+16	un	_	CCONJ	CONJ	_	13	cc	_	_
+17	fintster	_	ADJ	ADJ	Degree=Pos	13	amod	_	SpaceAfter=No
+18	"	_	PUNCT	PUNC	_	1	punct	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	1	punct	_	_
+20	afn	_	ADP	P-CL	_	21	case	_	_
+21	tsveytn	_	ADJ	ADJ	Degree=Pos	1	conj	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	21	punct	_	SpaceAfter=No
+23	"	_	PUNCT	PUNC	_	21	punct	_	_
+24	mir	_	PRON	PRO	_	21	dep	_	SpaceAfter=No
+25	"	_	PUNCT	PUNC	_	1	punct	_	SpaceAfter=No
+26	.	_	PUNCT	PUNC	_	1	punct	_	_
+27	fn._3	_	VERB	REF	_	1	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.54
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.57
+# text = fn._1 in poezie zeynen di gezetsn fun verterseyder andere, vi in proze .
+1	fn._1	_	NUM	LS	_	4	dep	_	_
+2	in	_	ADP	P	_	3	case	_	_
+3	poezie	_	NOUN	N	_	4	obl	_	_
+4	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	di	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	gezetsn	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	verterseyder	_	NOUN	N	_	6	obl	_	_
+9	andere	_	ADJ	ADJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	9	punct	_	_
+11	vi	_	ADP	P	_	13	case	_	_
+12	in	_	ADP	P	_	13	case	_	_
+13	proze	_	NOUN	N	_	9	obl	_	SpaceAfter=No
+14	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.55
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.58
+# text = fn._2 tsu perzonverter hob ikh gerekhnt bafelformes oykh gey, zog, u.d.g. .
+1	fn._2	_	NUM	LS	_	6	dep	_	_
+2	tsu	_	ADP	P	_	3	case	_	_
+3	perzonverter	_	NOUN	N	_	6	obl	_	_
+4	hob	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+5	ikh	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	gerekhnt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	bafelformes	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+8	oykh	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+9	gey	_	VERB	VBI	Mood=Imp	7	appos	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	9	punct	_	_
+11	zog	_	VERB	VBI	Mood=Imp	9	conj	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	9	punct	_	_
+13	u.d.g.	_	X	X	_	9	dep	_	SpaceAfter=No
+14	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.56
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.59
+# text = erst halt ikh, az di bafel-forme darf men oysteyln un shtudirn bazunders,
+1	erst	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	halt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	2	punct	_	_
+5	az	_	SCONJ	C	_	10	mark	_	_
+6	di	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	bafel-forme	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	10	obj	_	_
+8	darf	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+9	men	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+10	oysteyln	_	VERB	VB-PART	VerbForm=Inf	2	ccomp	_	_
+11	un	_	CCONJ	CONJ	_	12	cc	_	_
+12	shtudirn	_	VERB	VB	VerbForm=Inf	10	conj	_	_
+13	bazunders	_	ADV	ADV	Degree=Pos	10	advmod	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.57
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.60
+# text = ikh hob aber itst keyn tseyt %ich%-1 nit ibertsumakhn di arbet .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hob	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	aber	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	itst	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+5	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	6	det	_	_
+6	tseyt	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	%ich%-1	_	X	IP-INF	_	6	xcomp	_	_
+8	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+9	ibertsumakhn	_	VERB	VB-PART	VerbForm=Inf	2	xcomp	_	_
+10	di	_	DET	D-ACC	Case=Acc|PronType=Art	11	det	_	_
+11	arbet	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	9	obj	_	SpaceAfter=No
+12	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.58
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.61
+# text = fn._3 " un vi biter un fintser mir " iz nit eyn grupe,
+1	fn._3	_	NUM	LS	_	10	dep	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	10	punct	_	_
+3	un	_	CCONJ	CONJ	_	10	nsubj	_	_
+4	vi	_	ADV	WADV	Degree=Pos	3	advmod	_	_
+5	biter	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+6	un	_	CCONJ	CONJ	_	3	cc	_	_
+7	fintser	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+8	mir	_	PRON	PRO	_	3	nmod	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	10	punct	_	_
+10	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+11	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+12	eyn	_	DET	D	PronType=Art	13	det	_	_
+13	grupe	_	NOUN	N-I	Definite=Ind	10	xcomp	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.59
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.62
+# text = varum " mir " tsit zikh nit tsu " vi biter un fintster ",
+1	varum	_	CCONJ	CONJ	_	5	cc	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	5	punct	_	_
+3	mir	_	PRON	PRO	_	5	nsubj	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	5	punct	_	_
+5	tsit	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+7	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	5	advmod	_	_
+8	tsu	_	ADP	P	_	10	case	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	10	punct	_	_
+10	vi	_	ADV	WADV	Degree=Pos	5	obl	_	_
+11	biter	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+12	un	_	CCONJ	CONJ	_	10	cc	_	_
+13	fintster	_	ADV	ADV	Degree=Pos	10	advmod	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	5	punct	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.60
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.63
+# text = s' tsit zikh tsu " iz geven " .
+1	s'	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	tsit	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	tsu	_	ADP	P	_	6	case	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	6	punct	_	_
+6	iz	_	AUX	BEF	VerbForm=Fin	2	obl	_	_
+7	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	6	obl	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	2	punct	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.61
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.64
+# text = azoy trakht ikh mir
+1	azoy	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	trakht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	2	iobj	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.62
+# X_ID = 1927E-ZARETSKI-SHOLEM,7.65
+# text = un %con% nem dos meserl tsu zikh in buzim arayn
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	nem	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	dos	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	meserl	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+6	tsu	_	ADP	P	_	7	case	_	_
+7	zikh	_	PRON	PRO	_	3	obl	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	buzim	_	NOUN	N	_	10	obl	_	_
+10	arayn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.63
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.67
+# text = do iz in eyn hoyptzats tsvey perzonverter, " trakht " un " nem " farbundn mitn bindvort " un " .
+1	do	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	5	case	_	_
+4	eyn	_	DET	D	PronType=Art	5	det	_	_
+5	hoyptzats	_	NOUN	N-I	Definite=Ind	2	obl	_	_
+6	tsvey	_	NUM	NUM-NOM	Case=Nom	7	nummod	_	_
+7	perzonverter	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	7	punct	_	_
+10	trakht	_	VERB	VBF	VerbForm=Fin	7	appos	_	SpaceAfter=No
+11	"	_	PUNCT	PUNC	_	10	punct	_	_
+12	un	_	CCONJ	CONJ	_	10	cc	_	SpaceAfter=No
+13	"	_	PUNCT	PUNC	_	10	punct	_	_
+14	nem	_	VERB	VBF	VerbForm=Fin	10	dep	_	SpaceAfter=No
+15	"	_	PUNCT	PUNC	_	7	punct	_	_
+16	farbundn	_	VERB	VAN	Tense=Past|VerbForm=Part	7	acl	_	_
+17	mitn	_	ADP	P-CL	_	18	case	_	_
+18	bindvort	_	NOUN	N	_	16	obl	_	SpaceAfter=No
+19	"	_	PUNCT	PUNC	_	18	punct	_	_
+20	un	_	CCONJ	CONJ	_	18	dep	_	SpaceAfter=No
+21	"	_	PUNCT	PUNC	_	2	punct	_	SpaceAfter=No
+22	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.64
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.68
+# text = dos perzonvort " trakht " iz afn tsveytn ort .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	perzonvort	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	SpaceAfter=No
+3	"	_	PUNCT	PUNC	_	2	punct	_	_
+4	trakht	_	VERB	VBF	VerbForm=Fin	2	dep	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	6	punct	_	_
+6	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	afn	_	ADP	P-CL	_	9	case	_	_
+8	tsveytn	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	ort	_	NOUN	N	_	6	obl	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.65
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.69
+# text = ober af voser ort %t%-1 zal men rekhenen dos perzonvort " nem " ?
+1	ober	_	CCONJ	CONJ	_	8	cc	_	_
+2	af	_	ADP	P	_	3	case	_	_
+3	voser	_	DET	WD	_	8	obl	_	_
+4	ort	_	NOUN	N	_	3	dep	_	_
+5	%t%-1	_	ADP	PP	_	8	obl	_	_
+6	zal	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+7	men	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+8	rekhenen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+9	dos	_	DET	D-ACC	Case=Acc|PronType=Art	10	det	_	_
+10	perzonvort	_	NOUN	N-ACC	Case=Acc	8	obj	_	SpaceAfter=No
+11	"	_	PUNCT	PUNC	_	10	punct	_	_
+12	nem	_	PRON	PRO	_	10	dep	_	SpaceAfter=No
+13	"	_	PUNCT	PUNC	_	8	punct	_	SpaceAfter=No
+14	?	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.66
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.70
+# text = di frage hob ikh derveyl nit barirt,
+1	di	_	DET	D-ACC	Case=Acc|PronType=Art	2	det	_	_
+2	frage	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	7	obj	_	_
+3	hob	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+5	derveyl	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+7	barirt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.67
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.71
+# text = un azelkhe " tsveyte perzonverter " hob ikh nit gerekhnt .
+1	un	_	CCONJ	CONJ	_	10	cc	_	_
+2	azelkhe	_	ADJ	ADJ	Degree=Pos	10	dep	_	SpaceAfter=No
+3	"	_	PUNCT	PUNC	_	2	punct	_	_
+4	tsveyte	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+5	perzonverter	_	NOUN	N	_	2	conj	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	10	punct	_	_
+7	hob	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+8	ikh	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+9	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+10	gerekhnt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.68
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.72
+# text = krikh shoyn arop, krikh
+1	krikh	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	shoyn	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	arop	_	ADV	ADV	Degree=Pos	1	advmod	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	1	punct	_	_
+5	krikh	_	VERB	VBI	Mood=Imp	1	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.69
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.73
+# text = dos tsveyte " krikh " iz ibergekhazert dos erste azoy vi : vos %t%-1 zal ikh ton, vos ?
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	tsveyte	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	7	nsubj	_	SpaceAfter=No
+3	"	_	PUNCT	PUNC	_	2	punct	_	_
+4	krikh	_	VERB	VBI	Mood=Imp	2	dep	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	7	punct	_	_
+6	iz	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+7	ibergekhazert	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	dos	_	DET	D-ACC	Case=Acc|PronType=Art	7	obj	_	_
+9	erste	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+10	azoy	_	ADV	ADVP	Degree=Pos	7	advmod	_	_
+11	vi	_	ADP	P	_	17	case	_	SpaceAfter=No
+12	:	_	PUNCT	PUNC	_	17	punct	_	_
+13	vos	_	PRON	WPRO	_	17	obj	_	_
+14	%t%-1	_	NOUN	NP-ACC	_	17	dep	_	_
+15	zal	_	AUX	MDF	VerbForm=Fin	17	aux	_	_
+16	ikh	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+17	ton	_	VERB	VB	VerbForm=Inf	10	obl	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	17	punct	_	_
+19	vos	_	PRON	WPRO	_	17	dep	_	SpaceAfter=No
+20	?	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.70
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.74
+# text = azelkhe " ibergekhazerte perzonverter " hob ikh oykh nit gerekhnt .
+1	azelkhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	4	amod	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	4	punct	_	_
+3	ibergekhazerte	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	4	amod	_	_
+4	perzonverter	_	NOUN	N-ACC	Case=Acc	10	obj	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	4	punct	_	_
+6	hob	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+7	ikh	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+8	oykh	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+9	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+10	gerekhnt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.71
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.75
+# text = ikh gey ariber tsu statistishe tsifer .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	gey	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ariber	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	tsu	_	ADP	P	_	6	case	_	_
+5	statistishe	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	tsifer	_	NOUN	N	_	3	obl	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.72
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.76
+# text = in di 6 durkhgestudirte dertseylungn kumen far in hoyptzatsn 1811 perzonverter,
+1	in	_	ADP	P	_	5	case	_	_
+2	di	_	DET	D	PronType=Art	5	det	_	_
+3	6	_	NUM	NUM	_	5	nummod	_	_
+4	durkhgestudirte	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	dertseylungn	_	NOUN	N-D	Definite=Def	6	obl	_	_
+6	kumen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	far	_	ADP	RP	_	6	compound:prt	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	hoyptzatsn	_	NOUN	N	_	6	obl	_	_
+10	1811	_	NUM	NUM-NOM	Case=Nom	11	nummod	_	_
+11	perzonverter	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.73
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.77
+# text = fun zey zeynen 197 " tsveyte " un 4 " ibergekhazerte " .
+1	fun	_	ADP	P	_	2	case	_	_
+2	zey	_	PRON	PRO	_	3	obl	_	_
+3	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	197	_	NUM	NUM-NOM	Case=Nom	3	nsubj	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	6	punct	_	_
+6	tsveyte	_	ADJ	ADJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+7	"	_	PUNCT	PUNC	_	3	punct	_	_
+8	un	_	CCONJ	CONJ	_	11	cc	_	_
+9	4	_	NUM	NUM	_	11	obl	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	11	punct	_	_
+11	ibergekhazerte	_	ADJ	ADJ	Degree=Pos	3	conj	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	3	punct	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.74
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.78
+# text = aropgerekhnt zey, bleybt 1610 .
+1	aropgerekhnt	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	4	advcl	_	_
+2	zey	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	4	punct	_	_
+4	bleybt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	1610	_	NUM	NUM-NOM	Case=Nom	4	nsubj	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.75
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.79
+# text = afn tsveytn ort kumen 1255 perzonverter, d.h. 78% .
+1	afn	_	ADP	P-CL	_	3	case	_	_
+2	tsveytn	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ort	_	NOUN	N	_	4	obl	_	_
+4	kumen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	1255	_	NUM	NUM-NOM	Case=Nom	6	nummod	_	_
+6	perzonverter	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	d.h.	_	X	X	_	9	dep	_	_
+9	78%	_	NUM	NUM	_	6	appos	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.76
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.80
+# text = afn erstn ort kumen 336 perzonverter, d.h. 21% .
+1	afn	_	ADP	P-CL	_	3	case	_	_
+2	erstn	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ort	_	NOUN	N	_	4	obl	_	_
+4	kumen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	336	_	NUM	NUM-NOM	Case=Nom	6	nummod	_	_
+6	perzonverter	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	d.h.	_	X	X	_	9	dep	_	_
+9	21%	_	NUM	NUM	_	6	appos	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.77
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.81
+# text = afn dritn ort kumen 19 perzonverter, d.h. 1% .
+1	afn	_	ADP	P-CL	_	3	case	_	_
+2	dritn	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ort	_	NOUN	N	_	4	obl	_	_
+4	kumen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	19	_	NUM	NUM-NOM	Case=Nom	6	nummod	_	_
+6	perzonverter	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	d.h.	_	X	X	_	9	dep	_	_
+9	1%	_	NUM	NUM	_	6	appos	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.78
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.82
+# text = s' iz klar, az di shtelung fun perzonvort afn tsveytn ort darf men haltn far a norm, vos %t%-2 badarf nit hobn keyn shpetsiele derklerung ; fn._4
+1	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	klar	_	ADJ	ADJ	Degree=Pos	2	amod	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	2	punct	_	_
+5	az	_	SCONJ	C	_	1	mark	_	_
+6	di	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	shtelung	_	NOUN	N-ACC	Case=Acc	15	obj	_	_
+8	fun	_	ADP	P	_	9	case	_	_
+9	perzonvort	_	NOUN	N	_	7	obl	_	_
+10	afn	_	ADP	P-CL	_	12	case	_	_
+11	tsveytn	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	ort	_	NOUN	N	_	9	obl	_	_
+13	darf	_	AUX	MDF	VerbForm=Fin	15	aux	_	_
+14	men	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+15	haltn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+16	far	_	ADP	P	_	18	case	_	_
+17	a	_	DET	D	PronType=Art	18	det	_	_
+18	norm	_	NOUN	N-I	Definite=Ind	15	obl	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	18	punct	_	_
+20	vos	_	SCONJ	C	_	24	mark	_	_
+21	%t%-2	_	NOUN	NP-SBJ	_	24	nsubj	_	_
+22	badarf	_	AUX	MDF	VerbForm=Fin	24	aux	_	_
+23	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	24	advmod	_	_
+24	hobn	_	VERB	VB	VerbForm=Inf	18	acl:relcl	_	_
+25	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	27	det	_	_
+26	shpetsiele	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	27	amod	_	_
+27	derklerung	_	NOUN	N-ACC	Case=Acc	24	obj	_	SpaceAfter=No
+28	;	_	PUNCT	PUNC	_	2	punct	_	_
+29	fn._4	_	VERB	REF	_	2	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.79
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.83
+# text = di shtelung afn I oder III ort darf men upklern .
+1	di	_	DET	D-ACC	Case=Acc|PronType=Art	2	det	_	_
+2	shtelung	_	NOUN	N-ACC	Case=Acc	10	obj	_	_
+3	afn	_	ADP	P-CL	_	4	case	_	_
+4	I	_	ADJ	ADJ	Degree=Pos	2	obl	_	_
+5	oder	_	CCONJ	CONJ	_	6	cc	_	_
+6	III	_	ADJ	ADJ	Degree=Pos	4	conj	_	_
+7	ort	_	NOUN	N	_	6	conj	_	_
+8	darf	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+9	men	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+10	upklern	_	VERB	VB-PART	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.80
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.84
+# text = in 336 faln kumt dos perzonvort afn I ort, nit afn tsveytn .
+1	in	_	ADP	P	_	2	case	_	_
+2	336	_	NUM	NUM	_	4	obl	_	_
+3	faln	_	NOUN	N	_	2	conj	_	_
+4	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	dos	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+7	afn	_	ADP	P-CL	_	9	case	_	_
+8	I	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	ort	_	NOUN	N	_	4	obl	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	9	punct	_	_
+11	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	13	advmod	_	_
+12	afn	_	ADP	P-CL	_	13	case	_	_
+13	tsveytn	_	ADJ	ADJ	Degree=Pos	9	conj	_	SpaceAfter=No
+14	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.81
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.85
+# text = an vos %t%-1 vendt zikh es ?
+1	an	_	ADP	P	_	2	case	_	_
+2	vos	_	PRON	WPRO	_	4	obl	_	_
+3	%t%-1	_	ADP	PP	_	4	obl	_	_
+4	vendt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+6	es	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	SpaceAfter=No
+7	?	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.82
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.86
+# text = dos kumt for :
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	for	_	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
+4	:	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.83
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.87
+# text = 1. ven dos perzonvort iz a bafel-form, a@ @shteyger : gey nor aroys funs tish oder zol yederer zogn zeyn mishpet
+1	1.	_	NUM	LS	_	5	dep	_	_
+2	ven	_	SCONJ	C	_	5	mark	_	_
+3	dos	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	a	_	DET	D	PronType=Art	7	det	_	_
+7	bafel-form	_	NOUN	N-I	Definite=Ind	5	xcomp	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	5	punct	_	_
+9	a@	_	DET	D	PronType=Art	5	dep	_	_
+10	@shteyger	_	NOUN	N	_	9	dep	_	SpaceAfter=No
+11	:	_	PUNCT	PUNC	_	5	punct	_	_
+12	gey	_	VERB	VBI	Mood=Imp	5	dep	_	_
+13	nor	_	ADV	FP	Degree=Pos	12	advmod	_	_
+14	aroys	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+15	funs	_	ADP	P-CL	_	16	case	_	_
+16	tish	_	NOUN	N	_	14	obl	_	_
+17	oder	_	CCONJ	CONJ	_	20	cc	_	_
+18	zol	_	AUX	MDF	VerbForm=Fin	20	aux	_	_
+19	yederer	_	DET	Q-NOM	Case=Nom	20	nsubj	_	_
+20	zogn	_	VERB	VB	VerbForm=Inf	5	conj	_	_
+21	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	22	det:poss	_	_
+22	mishpet	_	NOUN	N	_	20	obj	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.84
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.88
+# text = 2. in a zats, vos %t%-1 kumt nokh a tsitat : " sssa " : shreyt oys plutsim der rebe fn._5
+1	2.	_	NUM	LS	_	4	dep	_	_
+2	in	_	ADP	P	_	4	case	_	_
+3	a	_	DET	D	PronType=Art	4	det	_	_
+4	zats	_	NOUN	N-I	Definite=Ind	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	vos	_	SCONJ	C	_	8	mark	_	_
+7	%t%-1	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+8	kumt	_	VERB	VBF	VerbForm=Fin	4	acl:relcl	_	_
+9	nokh	_	ADP	P	_	11	case	_	_
+10	a	_	DET	D	PronType=Art	11	det	_	_
+11	tsitat	_	NOUN	N-I	Definite=Ind	8	obl	_	SpaceAfter=No
+12	:	_	PUNCT	PUNC	_	4	punct	_	SpaceAfter=No
+13	"	_	PUNCT	PUNC	_	17	punct	_	_
+14	sssa	_	INTJ	INTJ	_	17	discourse	_	SpaceAfter=No
+15	"	_	PUNCT	PUNC	_	17	punct	_	SpaceAfter=No
+16	:	_	PUNCT	PUNC	_	17	punct	_	_
+17	shreyt	_	VERB	VBF	VerbForm=Fin	4	appos	_	_
+18	oys	_	ADP	RP	_	17	compound:prt	_	_
+19	plutsim	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+20	der	_	DET	D-NOM	Case=Nom|PronType=Art	21	det	_	_
+21	rebe	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	17	nsubj	_	_
+22	fn._5	_	VERB	REF	_	4	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.85
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.89
+# text = 3. in a bemerkung, vos %t%-1 iz gestelt inmitn oder nokh an ander zats, ts.b. bin ikh dokh, heyst dos, a ganef nit : " bin ikh dokh, dos heyst, a ganef .
+1	3.	_	NUM	LS	_	4	dep	_	_
+2	in	_	ADP	P	_	4	case	_	_
+3	a	_	DET	D	PronType=Art	4	det	_	_
+4	bemerkung	_	NOUN	N-I	Definite=Ind	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	vos	_	SCONJ	C	_	9	mark	_	_
+7	%t%-1	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+8	iz	_	AUX	BEF	VerbForm=Fin	9	cop	_	_
+9	gestelt	_	VERB	VAN	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10	inmitn	_	ADP	P	_	15	case	_	_
+11	oder	_	CCONJ	CONJ	_	12	cc	_	_
+12	nokh	_	ADP	P	_	10	conj	_	_
+13	an	_	DET	D	PronType=Art	15	det	_	_
+14	ander	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	zats	_	NOUN	N-I	Definite=Ind	9	obl	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	4	punct	_	_
+17	ts.b.	_	X	X	_	18	dep	_	_
+18	bin	_	VERB	VBF	VerbForm=Fin	4	appos	_	_
+19	ikh	_	PRON	PRO-NOM	Case=Nom	18	nsubj	_	_
+20	dokh	_	ADV	ADV	Degree=Pos	18	advmod	_	SpaceAfter=No
+21	,	_	PUNCT	PUNC	_	18	punct	_	_
+22	heyst	_	VERB	VBF	VerbForm=Fin	18	parataxis	_	_
+23	dos	_	DET	D-NOM	Case=Nom|PronType=Art	22	nsubj	_	SpaceAfter=No
+24	,	_	PUNCT	PUNC	_	18	punct	_	_
+25	a	_	DET	D	PronType=Art	26	det	_	_
+26	ganef	_	NOUN	N-I	Definite=Ind	18	xcomp	_	_
+27	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	18	conj	_	SpaceAfter=No
+28	:	_	PUNCT	PUNC	_	27	punct	_	SpaceAfter=No
+29	"	_	PUNCT	PUNC	_	27	punct	_	_
+30	bin	_	AUX	BEF	VerbForm=Fin	27	dep	_	_
+31	ikh	_	PRON	PRO	_	30	nmod	_	_
+32	dokh	_	ADV	ADV	Degree=Pos	30	advmod	_	SpaceAfter=No
+33	,	_	PUNCT	PUNC	_	30	punct	_	_
+34	dos	_	DET	D	PronType=Art	30	det	_	_
+35	heyst	_	VERB	VBF	VerbForm=Fin	30	dep	_	SpaceAfter=No
+36	,	_	PUNCT	PUNC	_	30	punct	_	_
+37	a	_	DET	D	PronType=Art	30	det	_	_
+38	ganef	_	NOUN	N	_	30	dep	_	SpaceAfter=No
+39	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.86
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.90
+# text = 4. ven der zats iz loytn inhalt farbundn mitn frierdikn, zey az me volt gekent tsugebn : demolt, deriber, oyb azoy, u.d.g.
+1	4.	_	NUM	LS	_	8	dep	_	_
+2	ven	_	SCONJ	C	_	8	mark	_	_
+3	der	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	zats	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	8	nsubj	_	_
+5	iz	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+6	loytn	_	ADP	P-CL	_	7	case	_	_
+7	inhalt	_	NOUN	N	_	8	obl	_	_
+8	farbundn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+9	mitn	_	ADP	P-CL	_	10	case	_	_
+10	frierdikn	_	NOUN	N	_	8	obl	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	8	punct	_	_
+12	zey	_	X	X	_	8	dep	_	_
+13	az	_	SCONJ	C	_	17	mark	_	_
+14	me	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+15	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	17	dep	_	_
+16	gekent	_	AUX	MDN	Tense=Past|VerbForm=Part	17	aux	_	_
+17	tsugebn	_	VERB	VB-PART	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+18	:	_	PUNCT	PUNC	_	17	punct	_	_
+19	demolt	_	ADV	ADV	Degree=Pos	17	dep	_	SpaceAfter=No
+20	,	_	PUNCT	PUNC	_	19	punct	_	_
+21	deriber	_	ADV	ADV	Degree=Pos	19	conj	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	19	punct	_	_
+23	oyb	_	SCONJ	C	_	24	mark	_	_
+24	azoy	_	ADV	ADV	Degree=Pos	19	conj	_	SpaceAfter=No
+25	,	_	PUNCT	PUNC	_	19	punct	_	_
+26	u.d.g.	_	X	X	_	19	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.87
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.91
+# text = azoy trakht ikh mir
+1	azoy	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	trakht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	2	iobj	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.88
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.92
+# text = un %con% nem dos meserl tsu mir in buzim arayn
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	nem	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	dos	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	meserl	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+6	tsu	_	ADP	P	_	7	case	_	_
+7	mir	_	PRON	PRO	_	3	obl	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	buzim	_	NOUN	N	_	10	obl	_	_
+10	arayn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.89
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.93
+# text = fil ikh, az es brit mikh
+1	fil	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	1	punct	_	_
+4	az	_	SCONJ	C	_	6	mark	_	_
+5	es	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	brit	_	VERB	VBF	VerbForm=Fin	1	ccomp	_	_
+7	mikh	_	PRON	PRO-ACC	Case=Acc	6	obj	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.90
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.94
+# text = moyre zeyn zikh un opgebn dos ?
+1	moyre	_	ADP	RP-H	_	2	compound:prt	_	_
+2	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	un	_	CCONJ	CONJ	_	5	cc	_	_
+5	opgebn	_	VERB	VB-PART	VerbForm=Inf	2	dep	_	_
+6	dos	_	DET	D-ACC	Case=Acc|PronType=Art	5	obj	_	SpaceAfter=No
+7	?	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.91
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.95
+# text = vel ikh hobn berls psak
+1	vel	_	AUX	MDF	VerbForm=Fin	3	aux	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	hobn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+4	berls	_	NOUN	NPR$	_	3	dep	_	_
+5	psak	_	NOUN	N	_	4	conj	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.92
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.96
+# text = 5. zeltn, in andere faln, ts.b. in fregzats on a subyekt : bist shoyn vider do ?
+1	5.	_	NUM	LS	_	6	dep	_	_
+2	zeltn	_	ADV	ADV	Degree=Pos	6	advmod	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	6	punct	_	_
+4	in	_	ADP	P	_	6	case	_	_
+5	andere	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	faln	_	NOUN	N	_	0	root	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	ts.b.	_	X	X	_	10	dep	_	_
+9	in	_	ADP	P	_	10	case	_	_
+10	fregzats	_	NOUN	N	_	6	obl	_	_
+11	on	_	ADP	P	_	13	case	_	_
+12	a	_	DET	D	PronType=Art	13	det	_	_
+13	subyekt	_	NOUN	N-I	Definite=Ind	10	obl	_	SpaceAfter=No
+14	:	_	PUNCT	PUNC	_	10	punct	_	_
+15	bist	_	VERB	VBF	VerbForm=Fin	10	appos	_	_
+16	shoyn	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+17	vider	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+18	do	_	ADV	ADV	Degree=Pos	15	advmod	_	SpaceAfter=No
+19	?	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.93
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.97
+# text = a.a. interesant iz der banuts fun " es ", vi es tsitert mir di hant,
+1	a.a.	_	NUM	LS	_	3	dep	_	_
+2	interesant	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	banuts	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+6	fun	_	ADP	P	_	8	case	_	SpaceAfter=No
+7	"	_	PUNCT	PUNC	_	8	punct	_	_
+8	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	5	punct	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	5	punct	_	_
+11	vi	_	ADP	P	_	12	case	_	_
+12	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	_
+13	tsitert	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+14	mir	_	PRON	PRO-DTV	Case=Dat	13	iobj	_	_
+15	di	_	DET	D-NOM	Case=Nom|PronType=Art	16	det	_	_
+16	hant	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	13	nsubj	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.94
+# X_ID = 1927E-ZARETSKI-SHOLEM,8.98
+# text = es dakht zikh mikh, az ikh halt in di hent ... u.d.g.
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	_
+2	dakht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	mikh	_	PRON	PRO-DTV	Case=Dat	2	iobj	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	2	punct	_	_
+6	az	_	SCONJ	C	_	1	mark	_	_
+7	ikh	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+8	halt	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+9	in	_	ADP	P	_	11	case	_	_
+10	di	_	DET	D	PronType=Art	11	det	_	_
+11	hent	_	NOUN	N-D	Definite=Def	8	obl	_	SpaceAfter=No
+12	...	_	PUNCT	PUNC	_	2	punct	_	_
+13	u.d.g.	_	X	X	_	2	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.95
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.99
+# text = me meynt oftmal, az di funktsie fun dem " es " iz tsu farbeytn dem subyekt, vos %t%-1 darf kloymersht normal kumen afn erstn ort .
+1	me	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	meynt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	oftmal	_	ADV	ADV	Degree=Pos	2	advmod	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	2	punct	_	_
+5	az	_	SCONJ	C	_	13	mark	_	_
+6	di	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	funktsie	_	NOUN	N-NOM	Case=Nom	13	nsubj	_	_
+8	fun	_	ADP	P	_	9	case	_	_
+9	dem	_	DET	D	PronType=Art	7	obl	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	9	punct	_	_
+11	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	9	expl	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	13	punct	_	_
+13	iz	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+14	tsu	_	PART	TO	_	15	mark	_	_
+15	farbeytn	_	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	dem	_	DET	D-ACC	Case=Acc|PronType=Art	17	det	_	_
+17	subyekt	_	NOUN	N-ACC	Case=Acc	15	obj	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	17	punct	_	_
+19	vos	_	SCONJ	C	_	24	mark	_	_
+20	%t%-1	_	NOUN	NP-SBJ	_	24	nsubj	_	_
+21	darf	_	AUX	MDF	VerbForm=Fin	24	aux	_	_
+22	kloymersht	_	ADV	ADV	Degree=Pos	24	advmod	_	_
+23	normal	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+24	kumen	_	VERB	VB	VerbForm=Inf	17	acl:relcl	_	_
+25	afn	_	ADP	P-CL	_	27	case	_	_
+26	erstn	_	ADJ	ADJ	Degree=Pos	27	amod	_	_
+27	ort	_	NOUN	N	_	24	obl	_	SpaceAfter=No
+28	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.96
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.100
+# text = fn._4 ikh ken nokh tsugebn, az in 666 faln fun di 1255 kumt afn erstn ort der subyekt, in 521 faln, an ander zatsteyl oder a gantser beyzats, in 68 faln, der tsugab es, se, s', vos %t%-2 vet nokh bahandlt vern in tekst .
+1	fn._4	_	NUM	LS	_	5	dep	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	ken	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+4	nokh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	tsugebn	_	VERB	VB-PART	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	5	punct	_	_
+7	az	_	SCONJ	C	_	14	mark	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	666	_	NUM	NUM	_	14	obl	_	_
+10	faln	_	NOUN	N	_	9	conj	_	_
+11	fun	_	ADP	P	_	13	case	_	_
+12	di	_	DET	D	PronType=Art	13	det	_	_
+13	1255	_	NOUN	N-D	Definite=Def	9	obl	_	_
+14	kumt	_	VERB	VBF	VerbForm=Fin	5	ccomp	_	_
+15	afn	_	ADP	P-CL	_	17	case	_	_
+16	erstn	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	ort	_	NOUN	N	_	14	obl	_	_
+18	der	_	DET	D-NOM	Case=Nom|PronType=Art	19	det	_	_
+19	subyekt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	14	nsubj	_	SpaceAfter=No
+20	,	_	PUNCT	PUNC	_	14	punct	_	_
+21	in	_	ADP	P	_	22	case	_	_
+22	521	_	NUM	NUM	_	14	obl	_	_
+23	faln	_	NOUN	N	_	22	conj	_	SpaceAfter=No
+24	,	_	PUNCT	PUNC	_	14	punct	_	_
+25	an	_	DET	D	PronType=Art	27	det	_	_
+26	ander	_	ADJ	ADJ	Degree=Pos	27	amod	_	_
+27	zatsteyl	_	NOUN	N-I	Definite=Ind	14	obl	_	_
+28	oder	_	CCONJ	CONJ	_	31	cc	_	_
+29	a	_	DET	D	PronType=Art	31	det	_	_
+30	gantser	_	ADJ	ADJ	Degree=Pos	31	amod	_	_
+31	beyzats	_	NOUN	N-I	Definite=Ind	27	conj	_	SpaceAfter=No
+32	,	_	PUNCT	PUNC	_	14	punct	_	_
+33	in	_	ADP	P	_	34	case	_	_
+34	68	_	NUM	NUM	_	14	obl	_	_
+35	faln	_	NOUN	N	_	34	conj	_	SpaceAfter=No
+36	,	_	PUNCT	PUNC	_	14	punct	_	_
+37	der	_	DET	D-NOM	Case=Nom|PronType=Art	38	det	_	_
+38	tsugab	_	NOUN	N-NOM	Case=Nom	14	obl	_	_
+39	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	38	appos	_	SpaceAfter=No
+40	,	_	PUNCT	PUNC	_	39	punct	_	_
+41	se	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	39	conj	_	SpaceAfter=No
+42	,	_	PUNCT	PUNC	_	39	punct	_	_
+43	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	39	conj	_	SpaceAfter=No
+44	,	_	PUNCT	PUNC	_	38	punct	_	_
+45	vos	_	SCONJ	C	_	49	mark	_	_
+46	%t%-2	_	NOUN	NP-SBJ	_	49	nsubj	_	_
+47	vet	_	AUX	MDF	VerbForm=Fin	49	aux	_	_
+48	nokh	_	ADV	ADV	Degree=Pos	49	advmod	_	_
+49	bahandlt	_	VERB	VAN	Tense=Past|VerbForm=Part	38	acl:relcl	_	_
+50	vern	_	AUX	RD	VerbForm=Inf	49	aux	_	_
+51	in	_	ADP	P	_	52	case	_	_
+52	tekst	_	NOUN	N	_	49	obl	_	SpaceAfter=No
+53	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.97
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.101
+# text = fn._5 der zats heybt zikh on fun " shreyt-@ @oys ",
+1	fn._5	_	NUM	LS	_	4	dep	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	zats	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	heybt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+6	on	_	ADP	RP	_	4	compound:prt	_	_
+7	fun	_	ADP	P	_	9	case	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	9	punct	_	_
+9	shreyt-@	_	VERB	VBF	VerbForm=Fin	4	obl	_	_
+10	@oys	_	ADP	RP	_	9	compound:prt	_	SpaceAfter=No
+11	"	_	PUNCT	PUNC	_	4	punct	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.98
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.102
+# text = " sssa: " iz gramatish a bazunder baheft .
+1	"	_	PUNCT	PUNC	_	4	punct	_	_
+2	sssa:	_	INTJ	INTJ	_	1	dep	_	SpaceAfter=No
+3	"	_	PUNCT	PUNC	_	4	punct	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	gramatish	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	a	_	DET	D	PronType=Art	8	det	_	_
+7	bazunder	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	baheft	_	NOUN	N-I	Definite=Ind	4	xcomp	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.99
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.103
+# text = s' iz nit rikhtik :
+1	s'	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+4	rikhtik	_	ADJ	ADJ	Degree=Pos	2	amod	_	SpaceAfter=No
+5	:	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.100
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.104
+# text = mir zeen dem " es " sey in subyektive, sey in onsubyektive zatsn .
+1	mir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	zeen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	dem	_	DET	D-ACC	Case=Acc|PronType=Art	2	obj	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	3	punct	_	_
+5	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	2	punct	_	_
+7	sey	_	CCONJ	CONJ	_	9	cc	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	subyektive	_	NOUN	N	_	2	obl	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	9	punct	_	_
+11	sey	_	CCONJ	CONJ	_	14	cc	_	_
+12	in	_	ADP	P	_	14	case	_	_
+13	onsubyektive	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	zatsn	_	NOUN	N	_	9	conj	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.101
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.105
+# text = akegn, trefn mir oftmal zatsn, vau %t%-1 der subyekt iz nit afn erstn ort, un %t%-1 keyn " es " iz dortn nito .
+1	akegn	_	ADV	ADV	Degree=Pos	3	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	PUNC	_	3	punct	_	_
+3	trefn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	mir	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	oftmal	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+6	zatsn	_	NOUN	N-ACC	Case=Acc	3	obj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	vau	_	ADV	WADV	Degree=Pos	12	advmod	_	_
+9	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	12	advmod	_	_
+10	der	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+11	subyekt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	12	nsubj	_	_
+12	iz	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+13	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	12	advmod	_	_
+14	afn	_	ADP	P-CL	_	16	case	_	_
+15	erstn	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	ort	_	NOUN	N	_	12	obl	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	12	punct	_	_
+18	un	_	CCONJ	CONJ	_	24	cc	_	_
+19	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	24	advmod	_	_
+20	keyn	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	24	nsubj	_	SpaceAfter=No
+21	"	_	PUNCT	PUNC	_	20	punct	_	_
+22	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	20	expl	_	SpaceAfter=No
+23	"	_	PUNCT	PUNC	_	24	punct	_	_
+24	iz	_	VERB	VBF	VerbForm=Fin	12	conj	_	_
+25	dortn	_	ADV	ADV	Degree=Pos	24	advmod	_	_
+26	nito	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	24	advmod	_	SpaceAfter=No
+27	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.102
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.106
+# text = di funktsie fun " es " iz, tsu makhn, az der zats zal zikh nit onheybn mitn perzonvort, oyb s' iz nit neytik oystsudrikn keyn farbindung mit frierdikn .
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	funktsie	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+3	fun	_	ADP	P	_	5	case	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	5	punct	_	_
+5	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	7	punct	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+9	tsu	_	PART	TO	_	10	mark	_	_
+10	makhn	_	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	10	punct	_	_
+12	az	_	SCONJ	C	_	18	mark	_	_
+13	der	_	DET	D-NOM	Case=Nom|PronType=Art	14	det	_	_
+14	zats	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	18	nsubj	_	_
+15	zal	_	AUX	MDF	VerbForm=Fin	18	aux	_	_
+16	zikh	_	PRON	PRO-RFL	PronType=Reflex	18	expl:pv	_	_
+17	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	18	advmod	_	_
+18	onheybn	_	VERB	VB-PART	VerbForm=Inf	10	ccomp	_	_
+19	mitn	_	ADP	P-CL	_	20	case	_	_
+20	perzonvort	_	NOUN	N	_	18	obl	_	SpaceAfter=No
+21	,	_	PUNCT	PUNC	_	18	punct	_	_
+22	oyb	_	SCONJ	C	_	24	mark	_	_
+23	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	24	expl	_	_
+24	iz	_	VERB	VBF	VerbForm=Fin	18	advcl	_	_
+25	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	24	advmod	_	_
+26	neytik	_	ADJ	ADJ	Degree=Pos	24	amod	_	_
+27	oystsudrikn	_	VERB	VB-PART	VerbForm=Inf	24	xcomp	_	_
+28	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	29	det	_	_
+29	farbindung	_	NOUN	N-ACC	Case=Acc	27	obj	_	_
+30	mit	_	ADP	P	_	31	case	_	_
+31	frierdikn	_	NOUN	N	_	29	obl	_	SpaceAfter=No
+32	.	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.103
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.107
+# text = ven sholem-aleykem volt gezogt tsitert mir di hant ", volt es geheysn demolt, oder deriber, oder in aza fal u.d.g. tsitert mir di hant .
+1	ven	_	SCONJ	C	_	4	mark	_	_
+2	sholem-aleykem	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+3	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	4	dep	_	_
+4	gezogt	_	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	_
+5	tsitert	_	VERB	VBF	VerbForm=Fin	4	dep	_	_
+6	mir	_	PRON	PRO-DTV	Case=Dat	5	iobj	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	hant	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	13	punct	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	13	punct	_	_
+11	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	13	dep	_	_
+12	es	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+13	geheysn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+14	demolt	_	ADV	ADV	Degree=Pos	13	dep	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	14	punct	_	_
+16	oder	_	CCONJ	CONJ	_	17	cc	_	_
+17	deriber	_	ADP	P	_	14	conj	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	14	punct	_	_
+19	oder	_	CCONJ	CONJ	_	22	cc	_	_
+20	in	_	ADP	P	_	22	case	_	_
+21	aza	_	ADJ	ADJ	Degree=Pos	22	amod	_	_
+22	fal	_	NOUN	N	_	14	conj	_	_
+23	u.d.g.	_	X	X	_	14	dep	_	_
+24	tsitert	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+25	mir	_	PRON	PRO-DTV	Case=Dat	24	iobj	_	_
+26	di	_	DET	D-NOM	Case=Nom|PronType=Art	27	det	_	_
+27	hant	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	24	nsubj	_	SpaceAfter=No
+28	.	_	PUNCT	PUNC	_	13	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.104
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.108
+# text = er hot ober nit gevolt gebn do keyn farbindung mit frierdikn .
+1	er	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+3	ober	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+5	gevolt	_	AUX	MDN	Tense=Past|VerbForm=Part	6	aux	_	_
+6	gebn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+7	do	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+8	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	9	det	_	_
+9	farbindung	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+10	mit	_	ADP	P	_	11	case	_	_
+11	frierdikn	_	NOUN	N	_	9	obl	_	SpaceAfter=No
+12	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.105
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.109
+# text = hot er gehat far zikh tsvey meglikhkeytn : oder shteln afn erstn ort nit dos perzonvort, neyert an ander zatsglid : mir tsitert di hant, di hant tsitert mir, oder shteln farn perzonvort dem " fiktivn zatsglid " es .
+1	hot	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	far	_	ADP	P	_	5	case	_	_
+5	zikh	_	PRON	PRO	_	3	obl	_	_
+6	tsvey	_	NUM	NUM-ACC	Case=Acc	7	nummod	_	_
+7	meglikhkeytn	_	NOUN	N-ACC	Case=Acc	3	obj	_	SpaceAfter=No
+8	:	_	PUNCT	PUNC	_	7	punct	_	_
+9	oder	_	CCONJ	CONJ	_	7	appos	_	_
+10	shteln	_	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+11	afn	_	ADP	P-CL	_	13	case	_	_
+12	erstn	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	ort	_	NOUN	N	_	10	obl	_	_
+14	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	dep	_	_
+15	dos	_	DET	D	PronType=Art	14	det	_	_
+16	perzonvort	_	NOUN	N-D	Definite=Def	14	conj	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	14	punct	_	_
+18	neyert	_	CCONJ	CONJ	_	21	cc	_	_
+19	an	_	DET	D	PronType=Art	21	det	_	_
+20	ander	_	ADJ	ADJ	Degree=Pos	21	amod	_	_
+21	zatsglid	_	NOUN	N-I	Definite=Ind	14	conj	_	SpaceAfter=No
+22	:	_	PUNCT	PUNC	_	10	punct	_	_
+23	mir	_	PRON	PRO-DTV	Case=Dat	24	iobj	_	_
+24	tsitert	_	VERB	VBF	VerbForm=Fin	10	dep	_	_
+25	di	_	DET	D-NOM	Case=Nom|PronType=Art	26	det	_	_
+26	hant	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	24	nsubj	_	SpaceAfter=No
+27	,	_	PUNCT	PUNC	_	10	punct	_	_
+28	di	_	DET	D-NOM	Case=Nom|PronType=Art	29	det	_	_
+29	hant	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	30	nsubj	_	_
+30	tsitert	_	VERB	VBF	VerbForm=Fin	10	dep	_	_
+31	mir	_	PRON	PRO-DTV	Case=Dat	30	iobj	_	SpaceAfter=No
+32	,	_	PUNCT	PUNC	_	9	punct	_	_
+33	oder	_	CCONJ	CONJ	_	34	cc	_	_
+34	shteln	_	VERB	VB	VerbForm=Inf	9	conj	_	_
+35	farn	_	ADP	P-CL	_	36	case	_	_
+36	perzonvort	_	NOUN	N	_	34	obl	_	_
+37	dem	_	DET	D-ACC	Case=Acc|PronType=Art	40	det	_	SpaceAfter=No
+38	"	_	PUNCT	PUNC	_	40	punct	_	_
+39	fiktivn	_	ADJ	ADJ	Degree=Pos	40	amod	_	_
+40	zatsglid	_	NOUN	N	_	34	obj	_	SpaceAfter=No
+41	"	_	PUNCT	PUNC	_	40	punct	_	_
+42	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	40	expl	_	SpaceAfter=No
+43	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.106
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.110
+# text = ven %t%-1 kleybt oys der shreyber di erste meglikhkeyt un ven di tsveyte, dos iz mir nokh nit gants klar .
+1	ven	_	ADV	WADV	Degree=Pos	3	advmod	_	_
+2	%t%-1	_	ADV	ADVP-TMP	AdvType=Tim|Degree=Pos	3	advmod	_	_
+3	kleybt	_	VERB	VBF	VerbForm=Fin	16	dep	_	_
+4	oys	_	ADP	RP	_	3	compound:prt	_	_
+5	der	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	shreyber	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+7	di	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+8	erste	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	9	amod	_	_
+9	meglikhkeyt	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+10	un	_	CCONJ	CONJ	_	12	cc	_	_
+11	ven	_	ADV	WADV	Degree=Pos	12	advmod	_	_
+12	di	_	DET	D-ACC	Case=Acc|PronType=Art	3	conj	_	_
+13	tsveyte	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	12	amod	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	16	punct	_	_
+15	dos	_	DET	D-NOM	Case=Nom|PronType=Art	16	nsubj	_	_
+16	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+17	mir	_	PRON	PRO-DTV	Case=Dat	16	iobj	_	_
+18	nokh	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+19	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	16	advmod	_	_
+20	gants	_	ADV	ADV	Degree=Pos	21	amod	_	_
+21	klar	_	ADJ	ADJ	Degree=Pos	16	amod	_	SpaceAfter=No
+22	.	_	PUNCT	PUNC	_	16	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.107
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.111
+# text = dukhtn dukht %exp% mir, az do shpilt a role der ritm, oftmal di shtrebung tsu shteln dem aktsentirtn zatsglid neenter tsum sof .
+1	dukhtn	_	VERB	VB-DBL	VerbForm=Inf	0	root	_	_
+2	dukht	_	VERB	VBF	VerbForm=Fin	1	dep	_	_
+3	%exp%	_	NOUN	NP-SBJ-1	_	1	xcomp	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	1	iobj	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	1	punct	_	_
+6	az	_	SCONJ	C	_	3	mark	_	_
+7	do	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	shpilt	_	VERB	VBF	VerbForm=Fin	3	conj	_	_
+9	a	_	DET	D-ACC	Case=Acc|PronType=Art	10	det	_	_
+10	role	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	8	obj	_	_
+11	der	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+12	ritm	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	8	nsubj	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	8	punct	_	_
+14	oftmal	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+15	di	_	DET	D	PronType=Art	16	det	_	_
+16	shtrebung	_	NOUN	N-D	Definite=Def	8	obl	_	_
+17	tsu	_	PART	TO	_	18	mark	_	_
+18	shteln	_	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	dem	_	DET	D-ACC	Case=Acc|PronType=Art	21	det	_	_
+20	aktsentirtn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	21	amod	_	_
+21	zatsglid	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	18	obj	_	_
+22	neenter	_	ADV	ADV	Degree=Pos	18	advmod	_	_
+23	tsum	_	ADP	P-CL	_	24	case	_	_
+24	sof	_	NOUN	N	_	22	obl	_	SpaceAfter=No
+25	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.108
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.112
+# text = in 18 faln kumt dos perzonvort afn dritn ort .
+1	in	_	ADP	P	_	2	case	_	_
+2	18	_	NUM	NUM	_	4	obl	_	_
+3	faln	_	NOUN	N	_	2	conj	_	_
+4	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	dos	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+7	afn	_	ADP	P-CL	_	9	case	_	_
+8	dritn	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	ort	_	NOUN	N	_	4	obl	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.109
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.113
+# text = fun 18 faln kan men keyne bagrindete oysfirn nit makhn .
+1	fun	_	ADP	P	_	2	case	_	_
+2	18	_	NUM	NUM	_	10	obl	_	_
+3	faln	_	NOUN	N	_	2	conj	_	_
+4	kan	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+5	men	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+6	keyne	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	8	det	_	_
+7	bagrindete	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	oysfirn	_	NOUN	N-ACC	Case=Acc	10	obj	_	_
+9	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+10	makhn	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.110
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.114
+# text = ikh vel nor breyngen etlekhe beyshpiln :
+1	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	vel	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	nor	_	ADV	FP	Degree=Pos	4	advmod	_	_
+4	breyngen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	etlekhe	_	DET	Q-ACC	Case=Acc	6	det	_	_
+6	beyshpiln	_	NOUN	N-ACC	Case=Acc	4	obj	_	SpaceAfter=No
+7	:	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.111
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.115
+# text = vi sheyn, vi likhtik %t%-1 dort iz %exp% %EXCL%
+1	vi	_	ADV	WADV	Degree=Pos	2	advmod	_	_
+2	sheyn	_	ADJ	ADJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	2	punct	_	_
+4	vi	_	ADV	WADV	Degree=Pos	5	advmod	_	_
+5	likhtik	_	ADJ	ADJ	Degree=Pos	2	conj	_	_
+6	%t%-1	_	X	ADJP-PRD	Degree=Pos	8	dep	_	_
+7	dort	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	iz	_	VERB	VBF	VerbForm=Fin	2	conj	_	_
+9	%exp%	_	NOUN	NP-SBJ	_	8	nsubj	_	SpaceAfter=No
+10	%EXCL%	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.112
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.116
+# text = sa harber khreyn %t%-1 dos iz %EXCL%
+1	sa	_	DET	WD	_	0	root	_	_
+2	harber	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	khreyn	_	NOUN	N	_	1	dep	_	_
+4	%t%-1	_	NOUN	NP-PRD	_	6	xcomp	_	_
+5	dos	_	DET	D-NOM	Case=Nom|PronType=Art	6	nsubj	_	_
+6	iz	_	VERB	VBF	VerbForm=Fin	1	conj	_	SpaceAfter=No
+7	%EXCL%	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.113
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.117
+# text = azelkhe oysrufzatsn kumen far, 7 %ich%-1 .
+1	azelkhe	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	oysrufzatsn	_	NOUN	N	_	3	obl	_	_
+3	kumen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	far	_	ADP	RP	_	3	compound:prt	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	3	punct	_	_
+6	7	_	NUM	NUM-NOM	Case=Nom	3	nsubj	_	_
+7	%ich%-1	_	NOUN	NP	_	6	obl	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.114
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.118
+# text = ba mir tsulib nitsokhn iz kedai .
+1	ba	_	ADP	P	_	2	case	_	_
+2	mir	_	PRON	PRO	_	5	obl	_	_
+3	tsulib	_	ADP	P	_	4	case	_	_
+4	nitsokhn	_	PROPN	NPR	_	5	obl	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	kedai	_	X	X	_	5	nsubj	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.115
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.119
+# text = me volt gekent zogn, mitn perzonvort afn II ort : tsulib nitsokhn iz ba mir kedai fn._6
+1	me	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	4	dep	_	_
+3	gekent	_	AUX	MDN	Tense=Past|VerbForm=Part	4	aux	_	_
+4	zogn	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	mitn	_	ADP	P-CL	_	7	case	_	_
+7	perzonvort	_	NOUN	N	_	4	obl	_	_
+8	afn	_	ADP	P-CL	_	10	case	_	_
+9	II	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	ort	_	NOUN	N	_	7	obl	_	SpaceAfter=No
+11	:	_	PUNCT	PUNC	_	4	punct	_	_
+12	tsulib	_	ADP	P	_	4	dep	_	_
+13	nitsokhn	_	PROPN	NPR	_	14	obl	_	_
+14	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+15	ba	_	ADP	P	_	16	case	_	_
+16	mir	_	PRON	PRO	_	14	obl	_	_
+17	kedai	_	X	X	_	14	nsubj	_	_
+18	fn._6	_	VERB	REF	_	4	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.116
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.120
+# text = ober oyb onheybn fun " ba mir " iz %exp% shoyn shver tsu shteln dos perzonvort afn tsveytn ort .
+1	ober	_	CCONJ	CONJ	_	9	cc	_	_
+2	oyb	_	SCONJ	C	_	9	advcl	_	_
+3	onheybn	_	VERB	VB-PART	VerbForm=Inf	2	xcomp	_	_
+4	fun	_	ADP	P	_	6	case	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	6	punct	_	_
+6	ba	_	ADP	P	_	3	obl	_	_
+7	mir	_	PRON	PRO	_	6	obl	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	9	punct	_	_
+9	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	%exp%	_	NOUN	NP-SBJ-1	_	9	nsubj	_	_
+11	shoyn	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+12	shver	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+13	tsu	_	PART	TO	_	14	mark	_	_
+14	shteln	_	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+15	dos	_	DET	D-ACC	Case=Acc|PronType=Art	16	det	_	_
+16	perzonvort	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	14	obj	_	_
+17	afn	_	ADP	P-CL	_	19	case	_	_
+18	tsveytn	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+19	ort	_	NOUN	N	_	14	obl	_	SpaceAfter=No
+20	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.117
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.121
+# text = un der tote, af im kukndik, tsankt .
+1	un	_	CCONJ	CONJ	_	9	cc	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	tote	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	9	punct	_	_
+5	af	_	ADP	P	_	6	case	_	_
+6	im	_	PRON	PRO	_	7	obl	_	_
+7	kukndik	_	VERB	VAG	Tense=Pres|VerbForm=Part	9	advcl	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	9	punct	_	_
+9	tsankt	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.118
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.122
+# text = mitn perzonvort afn II ort volt di intonatsie geven shver .
+1	mitn	_	ADP	P-CL	_	2	case	_	_
+2	perzonvort	_	NOUN	N	_	9	obl	_	_
+3	afn	_	ADP	P-CL	_	5	case	_	_
+4	II	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	ort	_	NOUN	N	_	2	obl	_	_
+6	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	9	dep	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	intonatsie	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+9	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	shver	_	ADJ	ADJ	Degree=Pos	9	amod	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.119
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.123
+# text = bekheyn ken men haltn, az in sholem-aleykhems shprakh un dos iz kimat dos@ @zelbe, vos %t%-1 di sagteglekhe reydsprakh %ellps% kumt der perzonvort normal afn II ort .
+1	bekheyn	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	ken	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	men	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	haltn	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	az	_	SCONJ	C	_	23	mark	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	sholem-aleykhems	_	NOUN	NPR$	_	23	obl	_	_
+9	shprakh	_	NOUN	N	_	8	conj	_	_
+10	un	_	CCONJ	CONJ	_	12	cc	_	_
+11	dos	_	DET	D-NOM	Case=Nom|PronType=Art	12	nsubj	_	_
+12	iz	_	VERB	VBF	VerbForm=Fin	23	parataxis	_	_
+13	kimat	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+14	dos@	_	DET	D	PronType=Art	15	det	_	_
+15	@zelbe	_	ADJ	ADJ	Degree=Pos	12	xcomp	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	15	punct	_	_
+17	vos	_	SCONJ	C	_	22	mark	_	_
+18	%t%-1	_	NOUN	NP-PRD	_	22	xcomp	_	_
+19	di	_	DET	D-NOM	Case=Nom|PronType=Art	21	det	_	_
+20	sagteglekhe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	21	amod	_	_
+21	reydsprakh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	22	nsubj	_	_
+22	%ellps%	_	VERB	VB	VerbForm=Inf	15	acl:relcl	_	_
+23	kumt	_	VERB	VBF	VerbForm=Fin	4	ccomp	_	_
+24	der	_	DET	D-NOM	Case=Nom|PronType=Art	25	det	_	_
+25	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	23	nsubj	_	_
+26	normal	_	ADV	ADV	Degree=Pos	23	advmod	_	_
+27	afn	_	ADP	P-CL	_	29	case	_	_
+28	II	_	ADJ	ADJ	Degree=Pos	29	amod	_	_
+29	ort	_	NOUN	N	_	23	obl	_	SpaceAfter=No
+30	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.120
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.124
+# text = dos iz der gruntgezets fun yidishn verterseyder .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	der	_	DET	D	PronType=Art	4	det	_	_
+4	gruntgezets	_	NOUN	N-D	Definite=Def	2	xcomp	_	_
+5	fun	_	ADP	P	_	7	case	_	_
+6	yidishn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	verterseyder	_	NOUN	N	_	4	obl	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.121
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.125
+# text = afn I ort shteyt dos perzonvort derheypt, ven der zats iz farbundn mitn frierdiker, a hemsekh oder konsekvents, oykh ven dos perzonvort iz a bafel-form .
+1	afn	_	ADP	P-CL	_	3	case	_	_
+2	I	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ort	_	NOUN	N	_	4	obl	_	_
+4	shteyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	dos	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+7	derheypt	_	ADJ	ADJ	Degree=Pos	4	amod	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	4	punct	_	_
+9	ven	_	SCONJ	C	_	13	mark	_	_
+10	der	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+11	zats	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	13	nsubj	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	13	cop	_	_
+13	farbundn	_	VERB	VAN	Tense=Past|VerbForm=Part	4	advcl	_	_
+14	mitn	_	ADP	P-CL	_	15	case	_	_
+15	frierdiker	_	NOUN	N	_	13	obl	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	13	punct	_	_
+17	a	_	DET	D	PronType=Art	18	det	_	_
+18	hemsekh	_	NOUN	N-I	Definite=Ind	13	xcomp	_	_
+19	oder	_	CCONJ	CONJ	_	20	cc	_	_
+20	konsekvents	_	NOUN	N	_	18	conj	_	SpaceAfter=No
+21	,	_	PUNCT	PUNC	_	13	punct	_	_
+22	oykh	_	ADV	ADV	Degree=Pos	13	conj	_	_
+23	ven	_	SCONJ	C	_	26	mark	_	_
+24	dos	_	DET	D-NOM	Case=Nom|PronType=Art	25	det	_	_
+25	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	26	nsubj	_	_
+26	iz	_	VERB	VBF	VerbForm=Fin	22	advcl	_	_
+27	a	_	DET	D	PronType=Art	28	det	_	_
+28	bafel-form	_	NOUN	N-I	Definite=Ind	26	xcomp	_	SpaceAfter=No
+29	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.122
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.126
+# text = veyter vi afn II ort shteyt dos perzonvort letst-zeltn, ba badingen, vos me darf zey nokh shtudirn .
+1	veyter	_	ADV	ADVR	Degree=Cmp	6	advmod	_	_
+2	vi	_	ADP	P	_	5	case	_	_
+3	afn	_	ADP	P-CL	_	5	case	_	_
+4	II	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	ort	_	NOUN	N	_	1	obl	_	_
+6	shteyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	dos	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+9	letst-zeltn	_	ADV	ADV	Degree=Pos	6	advmod	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	6	punct	_	_
+11	ba	_	ADP	P	_	12	case	_	_
+12	badingen	_	NOUN	N	_	6	obl	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	12	punct	_	_
+14	vos	_	SCONJ	C	_	19	mark	_	_
+15	me	_	PRON	PRO-NOM	Case=Nom	19	nsubj	_	_
+16	darf	_	AUX	MDF	VerbForm=Fin	19	aux	_	_
+17	zey	_	PRON	PRO	_	19	dep	_	_
+18	nokh	_	ADV	ADV	Degree=Pos	19	advmod	_	_
+19	shtudirn	_	VERB	VB	VerbForm=Inf	12	acl:relcl	_	SpaceAfter=No
+20	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.123
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.127
+# text = fn._6 der shreyber hot azoy nit gekont zogn :
+1	fn._6	_	NUM	LS	_	8	dep	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	shreyber	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	8	nsubj	_	_
+4	hot	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+5	azoy	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+7	gekont	_	AUX	MDN	Tense=Past|VerbForm=Part	8	aux	_	_
+8	zogn	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	:	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.124
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.128
+# text = in der erster konstruktsie ba mir tsulib nitsokhn iz kedai iz aktsentirt sey " ba mir ", sey " tsulib nitsokhn " .
+1	in	_	ADP	P	_	4	case	_	_
+2	der	_	DET	D	PronType=Art	4	det	_	_
+3	erster	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	konstruktsie	_	NOUN	N	_	12	obl	_	_
+5	ba	_	ADP	P	_	6	case	_	_
+6	mir	_	PRON	PRO	_	9	obl	_	_
+7	tsulib	_	ADP	P	_	8	case	_	_
+8	nitsokhn	_	PROPN	NPR	_	9	obl	_	_
+9	iz	_	VERB	VBF	VerbForm=Fin	4	appos	_	_
+10	kedai	_	X	X	_	9	nsubj	_	_
+11	iz	_	AUX	BEF	VerbForm=Fin	12	cop	_	_
+12	aktsentirt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+13	sey	_	CCONJ	CONJ	_	15	cc	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	15	punct	_	_
+15	ba	_	ADP	P	_	12	nsubj	_	_
+16	mir	_	PRON	PRO	_	15	obl	_	SpaceAfter=No
+17	"	_	PUNCT	PUNC	_	15	punct	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	15	punct	_	_
+19	sey	_	CCONJ	CONJ	_	22	cc	_	SpaceAfter=No
+20	"	_	PUNCT	PUNC	_	22	punct	_	_
+21	tsulib	_	ADP	P	_	22	case	_	_
+22	nitsokhn	_	PROPN	NPR	_	15	conj	_	SpaceAfter=No
+23	"	_	PUNCT	PUNC	_	12	punct	_	SpaceAfter=No
+24	.	_	PUNCT	PUNC	_	12	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.125
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.129
+# text = oyb er zol shteln tsulib nitsokhn iz ba mir kedai, iz shoyn " ba mir " nit aktsentirt .
+1	oyb	_	SCONJ	C	_	4	mark	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	zol	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+4	shteln	_	VERB	VB	VerbForm=Inf	19	advcl	_	_
+5	tsulib	_	ADP	P	_	6	case	_	_
+6	nitsokhn	_	PROPN	NPR	_	7	obl	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	4	dep	_	_
+8	ba	_	ADP	P	_	9	case	_	_
+9	mir	_	PRON	PRO	_	7	obl	_	_
+10	kedai	_	X	X	_	7	nsubj	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	19	punct	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	19	cop	_	_
+13	shoyn	_	ADV	ADV	Degree=Pos	19	advmod	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	19	punct	_	_
+15	ba	_	ADP	P	_	16	case	_	_
+16	mir	_	PRON	PRO	_	19	nsubj	_	SpaceAfter=No
+17	"	_	PUNCT	PUNC	_	19	punct	_	_
+18	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	19	advmod	_	_
+19	aktsentirt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+20	.	_	PUNCT	PUNC	_	19	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.126
+# X_ID = 1927E-ZARETSKI-SHOLEM,9.130
+# text = nokh " nitsokhn " falt der trof af " kedai ", oder af der zatsgrupe, vos %t%-1 nokh " kedai " . red.
+1	nokh	_	ADP	P	_	3	case	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	3	punct	_	_
+3	nitsokhn	_	PROPN	NPR	_	5	obl	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	5	punct	_	_
+5	falt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	der	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	trof	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+8	af	_	ADP	P	_	10	case	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	10	punct	_	_
+10	kedai	_	X	X	_	5	obl	_	SpaceAfter=No
+11	"	_	PUNCT	PUNC	_	10	punct	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	10	punct	_	_
+13	oder	_	CCONJ	CONJ	_	16	cc	_	_
+14	af	_	ADP	P	_	16	case	_	_
+15	der	_	DET	D	PronType=Art	16	det	_	_
+16	zatsgrupe	_	NOUN	N-D	Definite=Def	10	conj	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	16	punct	_	_
+18	vos	_	SCONJ	C	_	20	mark	_	_
+19	%t%-1	_	NOUN	NP-SBJ	_	20	nsubj	_	_
+20	nokh	_	ADP	P	_	16	acl:relcl	_	SpaceAfter=No
+21	"	_	PUNCT	PUNC	_	22	punct	_	_
+22	kedai	_	X	X	_	20	obl	_	SpaceAfter=No
+23	"	_	PUNCT	PUNC	_	5	punct	_	SpaceAfter=No
+24	.	_	PUNCT	PUNC	_	5	punct	_	_
+25	red.	_	X	X	_	5	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.127
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.132
+# text = dos iz alts geredt vegn hoyptzats .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	4	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+3	alts	_	ADV	Q	_	4	advmod	_	_
+4	geredt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+5	vegn	_	ADP	P	_	6	case	_	_
+6	hoyptzats	_	NOUN	N	_	4	obl	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.128
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.133
+# text = vi %t%-1 halt dos mit dem beyzats ?
+1	vi	_	ADV	WADV	Degree=Pos	3	advmod	_	_
+2	%t%-1	_	ADV	ADVP	Degree=Pos	3	advmod	_	_
+3	halt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	dos	_	DET	D-NOM	Case=Nom|PronType=Art	3	nsubj	_	_
+5	mit	_	ADP	P	_	7	case	_	_
+6	dem	_	DET	D	PronType=Art	7	det	_	_
+7	beyzats	_	NOUN	N-D	Definite=Def	3	obl	_	SpaceAfter=No
+8	?	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.129
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.134
+# text = perzonverter in beyzatsn hob ikh ongetseylt 626 %ich%-1 .
+1	perzonverter	_	NOUN	N	_	6	obl	_	_
+2	in	_	ADP	P	_	3	case	_	_
+3	beyzatsn	_	NOUN	N	_	1	obl	_	_
+4	hob	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+5	ikh	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	ongetseylt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+7	626	_	NUM	NUM-ACC	Case=Acc	6	obj	_	_
+8	%ich%-1	_	NOUN	NP	_	7	obl	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.130
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.135
+# text = fun zey, 3 " tsveyte ", vos zey ignorir ikh do .
+1	fun	_	ADP	P	_	2	case	_	_
+2	zey	_	PRON	PRO	_	4	obl	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	4	punct	_	_
+4	3	_	NUM	NUM	_	0	root	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	4	punct	_	_
+6	tsveyte	_	ADJ	ADJ	Degree=Pos	4	amod	_	SpaceAfter=No
+7	"	_	PUNCT	PUNC	_	4	punct	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	4	punct	_	_
+9	vos	_	SCONJ	C	_	11	mark	_	_
+10	zey	_	PRON	PRO	_	11	dep	_	_
+11	ignorir	_	VERB	VBF	VerbForm=Fin	4	acl:relcl	_	_
+12	ikh	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+13	do	_	ADV	ADV	Degree=Pos	11	advmod	_	SpaceAfter=No
+14	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.131
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.136
+# text = bleybt 593 .
+1	bleybt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	593	_	NUM	NUM-NOM	Case=Nom	1	nsubj	_	SpaceAfter=No
+3	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.132
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.137
+# text = fun zey shteyen : afn II ort 522, d.h. 88% . afn I ort 71, d.h. 12% . afn III ort, nito .
+1	fun	_	ADP	P	_	2	case	_	_
+2	zey	_	PRON	PRO	_	3	obl	_	_
+3	shteyen	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	_	PUNCT	PUNC	_	3	punct	_	_
+5	afn	_	ADP	P-CL	_	7	case	_	_
+6	II	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	ort	_	NOUN	N	_	3	obl	_	_
+8	522	_	NUM	NUM-NOM	Case=Nom	3	nsubj	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	8	punct	_	_
+10	d.h.	_	X	X	_	11	dep	_	_
+11	88%	_	NUM	NUM	_	8	appos	_	SpaceAfter=No
+12	.	_	PUNCT	PUNC	_	3	punct	_	_
+13	afn	_	ADP	P-CL	_	15	case	_	_
+14	I	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	ort	_	NOUN	N	_	3	conj	_	_
+16	71	_	NUM	NUM-NOM	Case=Nom	15	nsubj	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	16	punct	_	_
+18	d.h.	_	X	X	_	19	dep	_	_
+19	12%	_	NUM	NUM	_	16	appos	_	SpaceAfter=No
+20	.	_	PUNCT	PUNC	_	3	punct	_	_
+21	afn	_	ADP	P-CL	_	23	case	_	_
+22	III	_	ADJ	ADJ	Degree=Pos	23	amod	_	_
+23	ort	_	NOUN	N	_	3	conj	_	SpaceAfter=No
+24	,	_	PUNCT	PUNC	_	23	punct	_	_
+25	nito	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	23	advmod	_	SpaceAfter=No
+26	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.133
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.138
+# text = der gruntgezets iz do nokh boyleter, vi bam hoyptzats .
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	gruntgezets	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	do	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	nokh	_	ADV	ADV	Degree=Pos	6	amod	_	_
+6	boyleter	_	ADJ	ADJ	Degree=Pos	3	amod	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	vi	_	ADP	P	_	10	case	_	_
+9	bam	_	ADP	P-CL	_	10	case	_	_
+10	hoyptzats	_	NOUN	N	_	6	amod	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.134
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.139
+# text = fun di 71 faln, ven dos perzonvort shteyt in beyzats afn erstn ort, iz di merheyt 43, azoyne, vau %t%-1 der beyzats iz baheft durkh dem bindvort " vos " un %t%-1 der subyekt iz farfelt, veyl er iz der zelbiker, vi dos vort in hoyptzats, vos tsu im tsit zikh dos bindvort " vos " .
+1	fun	_	ADP	P	_	3	case	_	_
+2	di	_	DET	D	PronType=Art	3	det	_	_
+3	71	_	NUM	NUM-D	Definite=Def	16	obl	_	_
+4	faln	_	NOUN	N	_	3	conj	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	3	punct	_	_
+6	ven	_	SCONJ	C	_	9	mark	_	_
+7	dos	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+9	shteyt	_	VERB	VBF	VerbForm=Fin	3	advcl	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	beyzats	_	NOUN	N	_	9	obl	_	_
+12	afn	_	ADP	P-CL	_	14	case	_	_
+13	erstn	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	ort	_	NOUN	N	_	9	obl	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	16	punct	_	_
+16	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+17	di	_	DET	D-NOM	Case=Nom|PronType=Art	18	det	_	_
+18	merheyt	_	NOUN	N-NOM	Case=Nom	16	nsubj	_	_
+19	43	_	NUM	NUM-NOM	Case=Nom	18	appos	_	SpaceAfter=No
+20	,	_	PUNCT	PUNC	_	16	punct	_	_
+21	azoyne	_	ADJ	ADJ	Degree=Pos	16	xcomp	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	21	punct	_	_
+23	vau	_	ADV	WADV	Degree=Pos	28	advmod	_	_
+24	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	28	advmod	_	_
+25	der	_	DET	D-NOM	Case=Nom|PronType=Art	26	det	_	_
+26	beyzats	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	28	nsubj	_	_
+27	iz	_	AUX	BEF	VerbForm=Fin	28	cop	_	_
+28	baheft	_	VERB	VAN	Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+29	durkh	_	ADP	P	_	31	case	_	_
+30	dem	_	DET	D	PronType=Art	31	det	_	_
+31	bindvort	_	NOUN	N-D	Definite=Def	28	obl	_	SpaceAfter=No
+32	"	_	PUNCT	PUNC	_	31	punct	_	_
+33	vos	_	SCONJ	C	_	31	dep	_	SpaceAfter=No
+34	"	_	PUNCT	PUNC	_	28	punct	_	_
+35	un	_	CCONJ	CONJ	_	40	cc	_	_
+36	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	40	advmod	_	_
+37	der	_	DET	D-NOM	Case=Nom|PronType=Art	38	det	_	_
+38	subyekt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	40	nsubj	_	_
+39	iz	_	AUX	BEF	VerbForm=Fin	40	cop	_	_
+40	farfelt	_	VERB	VAN	Tense=Past|VerbForm=Part	28	conj	_	SpaceAfter=No
+41	,	_	PUNCT	PUNC	_	40	punct	_	_
+42	veyl	_	SCONJ	C	_	44	mark	_	_
+43	er	_	PRON	PRO-NOM	Case=Nom	44	nsubj	_	_
+44	iz	_	VERB	VBF	VerbForm=Fin	40	advcl	_	_
+45	der	_	DET	D	PronType=Art	46	det	_	_
+46	zelbiker	_	ADJ	ADJ	Degree=Pos	44	xcomp	_	SpaceAfter=No
+47	,	_	PUNCT	PUNC	_	46	punct	_	_
+48	vi	_	ADP	P	_	50	case	_	_
+49	dos	_	DET	D	PronType=Art	50	det	_	_
+50	vort	_	NOUN	N-D	Definite=Def	46	obl	_	_
+51	in	_	ADP	P	_	52	case	_	_
+52	hoyptzats	_	NOUN	N	_	50	obl	_	SpaceAfter=No
+53	,	_	PUNCT	PUNC	_	52	punct	_	_
+54	vos	_	SCONJ	C	_	57	mark	_	_
+55	tsu	_	ADP	P	_	56	case	_	_
+56	im	_	PRON	PRO	_	57	obl	_	_
+57	tsit	_	VERB	VBF	VerbForm=Fin	52	acl:relcl	_	_
+58	zikh	_	PRON	PRO-RFL	PronType=Reflex	57	expl:pv	_	_
+59	dos	_	DET	D-NOM	Case=Nom|PronType=Art	60	det	_	_
+60	bindvort	_	NOUN	N-NOM	Case=Nom	57	nsubj	_	SpaceAfter=No
+61	"	_	PUNCT	PUNC	_	60	punct	_	_
+62	vos	_	SCONJ	C	_	60	dep	_	SpaceAfter=No
+63	"	_	PUNCT	PUNC	_	16	punct	_	SpaceAfter=No
+64	.	_	PUNCT	PUNC	_	16	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.135
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.140
+# text = a@ @shteyger : a maise, vos %t%-1 hot zikh farlofn fn._7
+1	a@	_	DET	D	PronType=Art	4	dep	_	_
+2	@shteyger	_	NOUN	N	_	1	dep	_	SpaceAfter=No
+3	:	_	PUNCT	PUNC	_	4	punct	_	_
+4	a	_	DET	D	PronType=Art	0	root	_	_
+5	maise	_	NOUN	N-I	Definite=Ind	4	conj	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	4	punct	_	_
+7	vos	_	SCONJ	C	_	11	mark	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+9	hot	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+10	zikh	_	PRON	PRO-RFL	PronType=Reflex	11	expl:pv	_	_
+11	farlofn	_	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+12	fn._7	_	VERB	REF	_	4	dep	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.136
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.141
+# text = farlofn hot zikh, farshteyt %exp% zikh, di mayse, vos %t%-1 iz dermont in hoyptzats .
+1	farlofn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	1	aux	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	1	expl:pv	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	1	punct	_	_
+5	farshteyt	_	VERB	VBF	VerbForm=Fin	1	parataxis	_	_
+6	%exp%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+7	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	1	punct	_	_
+9	di	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+10	mayse	_	NOUN	N-NOM	Case=Nom	1	nsubj	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	10	punct	_	_
+12	vos	_	SCONJ	C	_	15	mark	_	_
+13	%t%-1	_	NOUN	NP-SBJ	_	15	nsubj	_	_
+14	iz	_	AUX	BEF	VerbForm=Fin	15	cop	_	_
+15	dermont	_	VERB	VAN	Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+16	in	_	ADP	P	_	17	case	_	_
+17	hoyptzats	_	NOUN	N	_	15	obl	_	SpaceAfter=No
+18	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.137
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.142
+# text = vi of a mentshn, vos %t%-1 hot nor vos gezogt
+1	vi	_	ADP	P	_	0	root	_	_
+2	of	_	ADP	P	_	4	case	_	_
+3	a	_	DET	D	PronType=Art	4	det	_	_
+4	mentshn	_	NOUN	N-I	Definite=Ind	1	obl	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	vos	_	SCONJ	C	_	11	mark	_	_
+7	%t%-1	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+8	hot	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+9	nor	_	ADV	FP	Degree=Pos	11	advmod	_	_
+10	vos	_	DET	Q-ACC	Case=Acc	11	obj	_	_
+11	gezogt	_	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.138
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.143
+# text = gezogt hot der mentsh, vos %t%-1 iz dermont in hoyptzats .
+1	gezogt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	1	aux	_	_
+3	der	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	mentsh	_	NOUN	N-NOM	Case=Nom	1	nsubj	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	vos	_	SCONJ	C	_	9	mark	_	_
+7	%t%-1	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+8	iz	_	AUX	BEF	VerbForm=Fin	9	cop	_	_
+9	dermont	_	VERB	VAN	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	hoyptzats	_	NOUN	N	_	9	obl	_	SpaceAfter=No
+12	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.139
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.144
+# text = %exp% zol do agev gezogt vern :
+1	%exp%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+2	zol	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	do	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+4	agev	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	gezogt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+6	vern	_	AUX	RD	VerbForm=Inf	5	aux	_	SpaceAfter=No
+7	:	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.140
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.145
+# text = der farbund mit " vos " iz folkstimlekher, vi mit " velkher " ;
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	farbund	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+3	mit	_	ADP	P	_	5	case	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	5	punct	_	_
+5	vos	_	SCONJ	C	_	2	obl	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	7	punct	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	folkstimlekher	_	ADJ	ADJR	Degree=Pos	7	amod	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	8	punct	_	_
+10	vi	_	ADP	P	_	13	case	_	_
+11	mit	_	ADP	P	_	13	case	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	13	punct	_	_
+13	velkher	_	PRON	WPRO	_	8	amod	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	7	punct	_	SpaceAfter=No
+15	;	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.141
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.146
+# text = s' shadt nit, m' zal dos in zinen hobn in unzer tseytung-sprakh .
+1	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	shadt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	2	punct	_	_
+5	m'	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+6	zal	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+7	dos	_	DET	D-ACC	Case=Acc|PronType=Art	10	obj	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	zinen	_	NOUN	N	_	10	obl	_	_
+10	hobn	_	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+11	in	_	ADP	P	_	13	case	_	_
+12	unzer	_	PRON	PRO$	_	13	det:poss	_	_
+13	tseytung-sprakh	_	NOUN	N	_	10	obl	_	SpaceAfter=No
+14	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.142
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.147
+# text = iz aber der subyekt in beyzats nit farfelt, azoy kumt der perzonvort nit afn erstn ort :
+1	iz	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+2	aber	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+3	der	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	subyekt	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	beyzats	_	NOUN	N	_	4	obl	_	_
+7	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+8	farfelt	_	VERB	VAN	Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	11	punct	_	_
+10	azoy	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+11	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+12	der	_	DET	D-NOM	Case=Nom|PronType=Art	13	det	_	_
+13	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	11	nsubj	_	_
+14	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	11	advmod	_	_
+15	afn	_	ADP	P-CL	_	17	case	_	_
+16	erstn	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	ort	_	NOUN	N	_	11	obl	_	SpaceAfter=No
+18	:	_	PUNCT	PUNC	_	11	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.143
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.148
+# text = afn erstn ort kumt demolt oder der subyekt, oder an ander zatsglid, oder " es "
+1	afn	_	ADP	P-CL	_	3	case	_	_
+2	erstn	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ort	_	NOUN	N	_	4	obl	_	_
+4	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	demolt	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	oder	_	CCONJ	CONJ	_	8	cc	_	_
+7	der	_	DET	D	PronType=Art	8	det	_	_
+8	subyekt	_	NOUN	N-D	Definite=Def	4	nsubj	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	8	punct	_	_
+10	oder	_	CCONJ	CONJ	_	13	cc	_	_
+11	an	_	DET	D	PronType=Art	13	det	_	_
+12	ander	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	zatsglid	_	NOUN	N-I	Definite=Ind	8	conj	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	8	punct	_	_
+15	oder	_	CCONJ	CONJ	_	17	cc	_	SpaceAfter=No
+16	"	_	PUNCT	PUNC	_	17	punct	_	_
+17	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No
+18	"	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.144
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.149
+# text = a@ @shteyger : 1. vi a mentsh, vos me hot im ongetrotn
+1	a@	_	DET	D	PronType=Art	5	dep	_	_
+2	@shteyger	_	NOUN	N	_	1	dep	_	SpaceAfter=No
+3	:	_	PUNCT	PUNC	_	5	punct	_	_
+4	1.	_	NUM	LS	_	5	dep	_	_
+5	vi	_	ADP	P	_	0	root	_	_
+6	a	_	DET	D	PronType=Art	7	det	_	_
+7	mentsh	_	NOUN	N-I	Definite=Ind	5	obl	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+9	vos	_	SCONJ	C	_	13	mark	_	_
+10	me	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+11	hot	_	AUX	HVF	VerbForm=Fin	13	aux	_	_
+12	im	_	PRON	PRO	_	13	dep	_	_
+13	ongetrotn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.145
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.150
+# text = afn erstn ort shteyt in beyzats der subyekt " me ", dernakh erst der perzonvort .
+1	afn	_	ADP	P-CL	_	3	case	_	_
+2	erstn	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ort	_	NOUN	N	_	4	obl	_	_
+4	shteyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	beyzats	_	NOUN	N	_	4	obl	_	_
+7	der	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	subyekt	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	8	punct	_	_
+10	me	_	PRON	PRO	_	8	dep	_	SpaceAfter=No
+11	"	_	PUNCT	PUNC	_	4	punct	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	4	punct	_	_
+13	dernakh	_	ADP	P	_	14	case	_	_
+14	erst	_	ADV	ADV	Degree=Pos	4	conj	_	_
+15	der	_	DET	D-NOM	Case=Nom|PronType=Art	16	det	_	_
+16	perzonvort	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	14	nsubj	_	SpaceAfter=No
+17	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.146
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.151
+# text = 2. aza yid, vos im gefelt nit zeyne a zakh
+1	2.	_	NUM	LS	_	0	root	_	_
+2	aza	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	yid	_	NOUN	N	_	1	conj	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	1	punct	_	_
+5	vos	_	SCONJ	C	_	7	mark	_	_
+6	im	_	PRON	PRO	_	7	dep	_	_
+7	gefelt	_	VERB	VBF	VerbForm=Fin	1	acl:relcl	_	_
+8	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+9	zeyne	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	11	det:poss	_	_
+10	a	_	DET	D	PronType=Art	11	det	_	_
+11	zakh	_	NOUN	N-I	Definite=Ind	7	nsubj	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.147
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.152
+# text = afn erstn ort in beyzats der obyekt " im ", dernokh dos perzonvort .
+1	afn	_	ADP	P-CL	_	3	case	_	_
+2	erstn	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ort	_	NOUN	N	_	7	obl	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	beyzats	_	NOUN	N	_	3	obl	_	_
+6	der	_	DET	D	PronType=Art	7	det	_	_
+7	obyekt	_	NOUN	N-D	Definite=Def	0	root	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	7	punct	_	_
+9	im	_	PRON	PRO	_	7	dep	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	7	punct	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	7	punct	_	_
+12	dernokh	_	ADP	P	_	14	obl	_	_
+13	dos	_	DET	D	PronType=Art	14	det	_	_
+14	perzonvort	_	NOUN	N-D	Definite=Def	7	conj	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.148
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.153
+# text = 3. vi an alter man, vos es shlept zikh im nokh a fus
+1	3.	_	NUM	LS	_	0	root	_	_
+2	vi	_	ADP	P	_	1	case	_	_
+3	an	_	DET	D	PronType=Art	5	det	_	_
+4	alter	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	man	_	NOUN	N	_	1	obl	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	5	punct	_	_
+7	vos	_	SCONJ	C	_	9	mark	_	_
+8	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	9	expl	_	_
+9	shlept	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+10	zikh	_	PRON	PRO-RFL	PronType=Reflex	9	expl:pv	_	_
+11	im	_	PRON	PRO	_	9	dep	_	_
+12	nokh	_	ADP	RP	_	9	compound:prt	_	_
+13	a	_	DET	D-NOM	Case=Nom|PronType=Art	14	det	_	_
+14	fus	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	9	nsubj	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.149
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.154
+# text = sholem-aleykhem hot tsulib vos %t%-2 nit iz mistom tsulibn ritm, nit gevolt shteln afn erstn ort " im " oder " a fus ",
+1	sholem-aleykhem	_	PROPN	NPR-SBJ	_	14	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+3	tsulib	_	ADP	P	_	4	case	_	_
+4	vos	_	PRON	WPRO	_	14	obl	_	_
+5	%t%-2	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	4	obl	_	_
+8	mistom	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+9	tsulibn	_	ADP	P-CL	_	10	case	_	_
+10	ritm	_	NOUN	N	_	14	parataxis	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	14	punct	_	_
+12	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	14	advmod	_	_
+13	gevolt	_	AUX	MDN	Tense=Past|VerbForm=Part	14	aux	_	_
+14	shteln	_	VERB	VB	VerbForm=Inf	0	root	_	_
+15	afn	_	ADP	P-CL	_	17	case	_	_
+16	erstn	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	ort	_	NOUN	N	_	14	obl	_	SpaceAfter=No
+18	"	_	PUNCT	PUNC	_	14	punct	_	_
+19	im	_	PRON	PRO	_	14	dep	_	SpaceAfter=No
+20	"	_	PUNCT	PUNC	_	19	punct	_	_
+21	oder	_	CCONJ	CONJ	_	24	cc	_	SpaceAfter=No
+22	"	_	PUNCT	PUNC	_	24	punct	_	_
+23	a	_	DET	D	PronType=Art	24	det	_	_
+24	fus	_	NOUN	N-I	Definite=Ind	19	conj	_	SpaceAfter=No
+25	"	_	PUNCT	PUNC	_	14	punct	_	SpaceAfter=No
+26	,	_	PUNCT	PUNC	_	14	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.150
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.155
+# text = aber onheybn dem beyzats mitn perzonvort ken men nit, veyl demolt volt %exp% oyskumen, az der " alter man " shlept zikh, nit di " fus " .
+1	aber	_	CCONJ	CONJ	_	2	cc	_	_
+2	onheybn	_	VERB	VB-PART	VerbForm=Inf	0	root	_	_
+3	dem	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+4	beyzats	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	2	obj	_	_
+5	mitn	_	ADP	P-CL	_	6	case	_	_
+6	perzonvort	_	NOUN	N	_	2	obl	_	_
+7	ken	_	AUX	MDF	VerbForm=Fin	2	aux	_	_
+8	men	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+9	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	2	punct	_	_
+11	veyl	_	SCONJ	C	_	15	mark	_	_
+12	demolt	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+13	volt	_	AUX	MDF	VerbForm=Fin	15	aux	_	_
+14	%exp%	_	NOUN	NP-SBJ-1	_	15	ccomp	_	_
+15	oyskumen	_	VERB	VB-PART	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	15	punct	_	_
+17	az	_	SCONJ	C	_	14	mark	_	_
+18	der	_	DET	D-NOM	Case=Nom|PronType=Art	21	det	_	SpaceAfter=No
+19	"	_	PUNCT	PUNC	_	21	punct	_	_
+20	alter	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	21	amod	_	_
+21	man	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	23	nsubj	_	SpaceAfter=No
+22	"	_	PUNCT	PUNC	_	21	punct	_	_
+23	shlept	_	VERB	VBF	VerbForm=Fin	14	conj	_	_
+24	zikh	_	PRON	PRO-RFL	PronType=Reflex	23	expl:pv	_	SpaceAfter=No
+25	,	_	PUNCT	PUNC	_	23	punct	_	_
+26	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	23	advmod	_	_
+27	di	_	DET	D	PronType=Art	29	det	_	SpaceAfter=No
+28	"	_	PUNCT	PUNC	_	29	punct	_	_
+29	fus	_	NOUN	N-D	Definite=Def	23	obl	_	SpaceAfter=No
+30	"	_	PUNCT	PUNC	_	2	punct	_	SpaceAfter=No
+31	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.151
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.156
+# text = di stelung fun perzonvort darf men nokh veyter shtudirn, sey af merer material, sey af farsheydenern material .
+1	di	_	DET	D-ACC	Case=Acc|PronType=Art	2	det	_	_
+2	stelung	_	NOUN	N-ACC	Case=Acc	9	obj	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	perzonvort	_	NOUN	N	_	2	obl	_	_
+5	darf	_	AUX	MDF	VerbForm=Fin	9	aux	_	_
+6	men	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+7	nokh	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+8	veyter	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+9	shtudirn	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	9	punct	_	_
+11	sey	_	CCONJ	CONJ	_	14	cc	_	_
+12	af	_	ADP	P	_	14	case	_	_
+13	merer	_	DET	QR	_	14	det	_	_
+14	material	_	NOUN	N	_	9	obl	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	14	punct	_	_
+16	sey	_	CCONJ	CONJ	_	19	cc	_	_
+17	af	_	ADP	P	_	19	case	_	_
+18	farsheydenern	_	ADJ	ADJR	Degree=Pos	19	amod	_	_
+19	material	_	NOUN	N	_	14	conj	_	SpaceAfter=No
+20	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.152
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.157
+# text = ober gevise oysfirn ken men shoyn makhn,
+1	ober	_	CCONJ	CONJ	_	7	cc	_	_
+2	gevise	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	3	amod	_	_
+3	oysfirn	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+4	ken	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+5	men	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+6	shoyn	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	makhn	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.153
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.158
+# text = un gevise zatsboyen, vos %t%-1 kumen-@ @for amol in tseytungen, ken men zikher haltn far greyzn .
+1	un	_	CCONJ	CONJ	_	16	cc	_	_
+2	gevise	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	3	amod	_	_
+3	zatsboyen	_	NOUN	N-ACC	Case=Acc	16	obj	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	3	punct	_	_
+5	vos	_	SCONJ	C	_	7	mark	_	_
+6	%t%-1	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+7	kumen-@	_	VERB	VBF	VerbForm=Fin	3	acl:relcl	_	_
+8	@for	_	ADP	RP	_	7	compound:prt	_	_
+9	amol	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	tseytungen	_	NOUN	N	_	7	obl	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	16	punct	_	_
+13	ken	_	AUX	MDF	VerbForm=Fin	16	aux	_	_
+14	men	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+15	zikher	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+16	haltn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+17	far	_	ADP	P	_	18	case	_	_
+18	greyzn	_	NOUN	N	_	16	obl	_	SpaceAfter=No
+19	.	_	PUNCT	PUNC	_	16	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.154
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.159
+# text = beyshpiln breyng ikh in meyn bikhl " greyzn un sfeykes " kiev_1927,_kap.ix,_xii .
+1	beyshpiln	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+2	breyng	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	in	_	ADP	P	_	6	case	_	_
+5	meyn	_	PRON	PRO$	_	6	det:poss	_	_
+6	bikhl	_	NOUN	N	_	2	obl	_	SpaceAfter=No
+7	"	_	PUNCT	PUNC	_	6	punct	_	_
+8	greyzn	_	NOUN	N	_	6	dep	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	sfeykes	_	NOUN	N	_	8	conj	_	SpaceAfter=No
+11	"	_	PUNCT	PUNC	_	2	punct	_	_
+12	kiev_1927,_kap.ix,_xii	_	VERB	REF	_	2	dep	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-ZARETSKI-SHOLEM,.155
+# X_ID = 1927E-ZARETSKI-SHOLEM,10.160
+# text = fn._7 ikh rekhn, az " hot " shteyt do afn erstn ort, veyl dos bindvort " vos " farnemt nit keyn ort in verterzeyder .
+1	fn._7	_	NUM	LS	_	3	dep	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	rekhn	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	3	punct	_	_
+5	az	_	SCONJ	C	_	9	mark	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	9	punct	_	_
+7	hot	_	AUX	HVF	VerbForm=Fin	9	nsubj	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	9	punct	_	_
+9	shteyt	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+10	do	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+11	afn	_	ADP	P-CL	_	13	case	_	_
+12	erstn	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	ort	_	NOUN	N	_	9	obl	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	3	punct	_	_
+15	veyl	_	SCONJ	C	_	21	mark	_	_
+16	dos	_	DET	D-NOM	Case=Nom|PronType=Art	17	det	_	_
+17	bindvort	_	NOUN	N-NOM	Case=Nom	21	nsubj	_	SpaceAfter=No
+18	"	_	PUNCT	PUNC	_	17	punct	_	_
+19	vos	_	SCONJ	C	_	17	dep	_	SpaceAfter=No
+20	"	_	PUNCT	PUNC	_	21	punct	_	_
+21	farnemt	_	VERB	VBF	VerbForm=Fin	3	advcl	_	_
+22	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	21	advmod	_	_
+23	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	24	det	_	_
+24	ort	_	NOUN	N-ACC	Case=Acc	21	obj	_	_
+25	in	_	ADP	P	_	26	case	_	_
+26	verterzeyder	_	NOUN	N	_	24	obl	_	SpaceAfter=No
+27	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	farhof	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	tsu	_	PART	TO	_	4	mark	_	_
+4	barekhtikn	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	aza	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	kuk	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	an	_	DET	D	PronType=Art	9	det	_	_
+8	anders	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	mal	_	NOUN	N-I	Definite=Ind	4	obl	_	_
+10	.	_	PUNCT	PUNC	_	2	punct	_	_
+

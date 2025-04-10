@@ -1,0 +1,2612 @@
+# sent_id = 1588E-LETTERS-CRACOW,.1
+# X_ID = 1588E-LETTERS-CRACOW,50.3
+# text = r"r vist dz ikh eyer ktbim mkbl hab givezin
+1	r"r	sirs	X	H	_	2	dep	_	_
+2	vist	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	dz	_	SCONJ	C	_	9	mark	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+5	eyer	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	6	det:poss	_	_
+6	ktbim	_	NOUN	N	_	9	obj	_	_
+7	mkbl	_	ADP	RP-H	_	9	compound:prt	_	_
+8	hab	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+9	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.2
+# X_ID = 1588E-LETTERS-CRACOW,50.4
+# text = un %pro% hab den slikh nit lng velin mmsikh zeyn
+1	un	_	CCONJ	CONJ	_	10	cc	_	_
+2	%pro%	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+3	hab	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+4	den	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	slikh	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	10	obj	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+7	lng	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+8	velin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	10	aux	_	_
+9	mmsikh	_	ADP	RP-H	_	10	compound:prt	_	_
+10	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.3
+# X_ID = 1588E-LETTERS-CRACOW,50.5
+# text = un %con% hab in nokh be-yom hanal ab gifertigt
+1	un	_	CCONJ	CONJ	_	9	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+3	hab	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+4	in	_	PRON	PRO-ACC	Case=Acc	9	obj	_	_
+5	nokh	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+6	be-yom	on_day	X	H	_	9	dep	_	_
+7	hanal	aforesaid	X	H	_	6	dep	_	_
+8	ab	_	ADP	RP	_	9	compound:prt	_	_
+9	gifertigt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.4
+# X_ID = 1588E-LETTERS-CRACOW,50.6
+# text = %xxx% kan msig zeyn ven ir far meyn ktb %ich%-1 mkbl hab givezin dz %t%-2 ikh eykh gshikt hab
+1	%xxx%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+2	kan	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	msig	_	ADP	RP-H	_	4	compound:prt	_	_
+4	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	ven	_	SCONJ	C	_	13	mark	_	_
+6	ir	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+7	far	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+8	meyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	9	det:poss	_	_
+9	ktb	_	NOUN	N	_	13	obj	_	_
+10	%ich%-1	_	SCONJ	CP-REL	_	9	acl:relcl	_	_
+11	mkbl	_	ADP	RP-H	_	13	compound:prt	_	_
+12	hab	_	AUX	HVF	VerbForm=Fin	13	aux	_	_
+13	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+14	dz	_	PRON	WPRO	_	18	obj	_	_
+15	%t%-2	_	NOUN	NP-ACC	_	18	dep	_	_
+16	ikh	_	PRON	PRO-NOM	Case=Nom	18	nsubj	_	_
+17	eykh	_	PRON	PRO-DTV	Case=Dat	18	iobj	_	_
+18	gshikt	_	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+19	hab	_	AUX	HVF	VerbForm=Fin	18	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.5
+# X_ID = 1588E-LETTERS-CRACOW,50.7
+# text = g"k mslikh akhr het mir nit mihr eyn slikh givezin .
+1	g"k	also_yes	X	H	_	0	root	_	_
+2	mslikh	from_messenger	X	H	_	1	obl	_	_
+3	akhr	after	X	H	_	2	dep	_	_
+4	het	_	AUX	HVF	VerbForm=Fin	1	aux	_	_
+5	mir	_	PRON	PRO-DTV	Case=Dat	1	iobj	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	1	advmod	_	_
+7	mihr	_	DET	QR	_	1	obl	_	_
+8	eyn	_	DET	D	PronType=Art	9	det	_	_
+9	slikh	_	NOUN	N-I	Definite=Ind	1	xcomp	_	_
+10	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	1	dep	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.6
+# X_ID = 1588E-LETTERS-CRACOW,51.9
+# text = %pro% hab mikh giferkht ez vert gisehn
+1	%pro%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	mikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+4	giferkht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	ez	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+6	vert	_	AUX	RDF	VerbForm=Fin	7	aux	_	_
+7	gisehn	_	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.7
+# X_ID = 1588E-LETTERS-CRACOW,51.10
+# text = %con% hab eykh far oykh gsribin
+1	%con%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+3	eykh	_	PRON	PRO-DTV	Case=Dat	6	iobj	_	_
+4	far	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	oykh	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	gsribin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.8
+# X_ID = 1588E-LETTERS-CRACOW,51.11
+# text = %con% laz eykh visin vidr
+1	%con%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+2	laz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	eykh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	visin	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	vidr	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.9
+# X_ID = 1588E-LETTERS-CRACOW,51.12
+# text = ver %t%-1 veys ub meyn ktb eykh givardin iz
+1	ver	_	PRON	WPRO	_	3	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	veys	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	ub	_	SCONJ	C	_	8	mark	_	_
+5	meyn	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	6	det:poss	_	_
+6	ktb	_	NOUN	N	_	8	nsubj	_	_
+7	eykh	_	PRON	PRO-DTV	Case=Dat	8	iobj	_	_
+8	givardin	_	VERB	VBN	Tense=Past|VerbForm=Part	3	dep	_	_
+9	iz	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.10
+# X_ID = 1588E-LETTERS-CRACOW,51.13
+# text = nun laz %pro% eykh visin bras
+1	nun	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	laz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	%pro%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+4	eykh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	visin	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	bras	in_head	X	H	_	5	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.11
+# X_ID = 1588E-LETTERS-CRACOW,51.14
+# text = vaz %t%-1 blngin iz eyer rind_ledr laz %con% eykh visin %pro% hab di t"u vail an givardin
+1	vaz	_	PRON	WPRO	_	3	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	blngin	_	VERB	VAG	Tense=Pres|VerbForm=Part	7	obl	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+5	eyer	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	6	det:poss	_	_
+6	rind_ledr	_	NOUN	N	_	3	obj	_	_
+7	laz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	%con%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+9	eykh	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+10	visin	_	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	%pro%	_	NOUN	NP-SBJ	_	17	nsubj	_	_
+12	hab	_	AUX	HVF	VerbForm=Fin	17	aux	_	_
+13	di	_	DET	D-ACC	Case=Acc|PronType=Art	15	det	_	_
+14	t"u	15	NUM	NUM-ACC	Case=Acc	15	nummod	_	_
+15	vail	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	17	obj	_	_
+16	an	_	ADP	RP	_	17	compound:prt	_	_
+17	givardin	_	VERB	VBN	Tense=Past|VerbForm=Part	10	ccomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.12
+# X_ID = 1588E-LETTERS-CRACOW,51.15
+# text = %con% hab zi gebn tsu zhub
+1	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	zi	_	PRON	PRO-ACC	Case=Acc	4	obj	_	_
+4	gebn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	tsu	_	ADP	P	_	6	case	_	_
+6	zhub	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.13
+# X_ID = 1588E-LETTERS-CRACOW,51.16
+# text = ikh ver zi bkumn ai"h tukh g' sbueu's meyom hanal
+1	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	ver	_	AUX	RDF	VerbForm=Fin	4	aux	_	_
+3	zi	_	PRON	PRO-ACC	Case=Acc	4	obj	_	_
+4	bkumn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	ai"h	if_will_want_God	X	H	_	4	discourse	_	_
+6	tukh	within	X	H	_	4	obl	_	_
+7	g'	3	X	H	_	6	dep	_	_
+8	sbueu's	weeks	X	H	_	6	dep	_	_
+9	meyom	from_day	X	H	_	6	dep	_	_
+10	hanal	aforesaid	X	H	_	6	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.14
+# X_ID = 1588E-LETTERS-CRACOW,51.17
+# text = %con% hab zi r ahrn pulk fr_koyft
+1	%con%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+3	zi	_	PRON	PRO-ACC	Case=Acc	7	obj	_	_
+4	r	_	PROPN	NPR-DTV	_	7	dep	_	_
+5	ahrn	_	PROPN	NPR	_	4	flat:name	_	_
+6	pulk	_	PROPN	NPR	_	4	dep	_	_
+7	fr_koyft	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.15
+# X_ID = 1588E-LETTERS-CRACOW,51.18
+# text = %con% hab zi zunst nit an verdin kenn
+1	%con%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+3	zi	_	PRON	PRO-ACC	Case=Acc	7	obj	_	_
+4	zunst	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+6	an	_	ADP	RP	_	7	compound:prt	_	_
+7	verdin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+8	kenn	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	7	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.16
+# X_ID = 1588E-LETTERS-CRACOW,51.19
+# text = oykh di elnt heyt hab ikh fr_kuft bed u' sak ukhtsi kh"a ...
+1	oykh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	di	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+3	elnt	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	4	amod	_	_
+4	heyt	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	7	obj	_	_
+5	hab	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+6	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	fr_kuft	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	bed	for	X	H	_	7	dep	_	_
+9	u'	6	X	H	_	7	dep	_	_
+10	sak	_	NOUN	N	_	7	dep	_	_
+11	ukhtsi	and_half	X	H	_	7	dep	_	_
+12	kh"a	all_one	X	H	_	7	dep	_	SpaceAfter=No
+13	...	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.17
+# X_ID = 1588E-LETTERS-CRACOW,51.20
+# text = di meut hof ikh oykh %ich%-1 tsu bkumn i"h meyom hanal tukh b' sbueu's .
+1	di	_	DET	D	PronType=Art	2	det	_	_
+2	meut	money	NOUN	N-D	Definite=Def	3	obl	_	_
+3	hof	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	oykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+6	%ich%-1	_	NOUN	NP-ACC	_	8	dep	_	_
+7	tsu	_	PART	TO	_	8	mark	_	_
+8	bkumn	_	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+9	i"h	if_he_will_want	X	H	_	8	discourse	_	_
+10	meyom	from_day	X	H	_	8	obl	_	_
+11	hanal	aforesaid	X	H	_	10	dep	_	_
+12	tukh	within	X	H	_	8	obl	_	_
+13	b'	2	X	H	_	12	dep	_	_
+14	sbueu's	weeks	X	H	_	12	dep	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.18
+# X_ID = 1588E-LETTERS-CRACOW,51.21
+# text = di strut hab ikh mir lazin %arb% %ich%-2 %ich%-1 tsushreybn mtemi'm khmusi'm
+1	di	_	DET	D	PronType=Art	2	det	_	_
+2	strut	_	NOUN	N-D	Definite=Def	6	obl	_	_
+3	hab	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+5	mir	_	PRON	PRO	_	6	obl	_	_
+6	lazin	_	VERB	VBN-IPP	Tense=Past|VerbForm=Part	0	root	_	_
+7	%arb%	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+8	%ich%-2	_	NOUN	NP-DTV	_	10	dep	_	_
+9	%ich%-1	_	NOUN	NP-ACC	_	10	dep	_	_
+10	tsushreybn	_	VERB	VB-PART	VerbForm=Inf	6	xcomp	_	_
+11	mtemi'm	hidden	X	H	_	10	dep	_	_
+12	khmusi'm	delicacies	X	H	_	10	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.19
+# X_ID = 1588E-LETTERS-CRACOW,51.22
+# text = mid az ikh di meut bkumn ver vil ikh tkf umid ai"h ab tsalin min
+1	mid	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+2	az	_	SCONJ	C	_	6	mark	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+4	di	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	meut	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	6	obj	_	_
+6	bkumn	_	VERB	VB	VerbForm=Inf	14	advcl	_	_
+7	ver	_	AUX	RDF	VerbForm=Fin	6	aux	_	_
+8	vil	_	AUX	MDF	VerbForm=Fin	14	aux	_	_
+9	ikh	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+10	tkf	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+11	umid	and_immediately	X	H	_	10	dep	_	_
+12	ai"h	if_will_want_God	X	H	_	14	dep	_	_
+13	ab	_	ADP	RP	_	14	compound:prt	_	_
+14	tsalin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+15	min	_	DET	QR	_	14	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.20
+# X_ID = 1588E-LETTERS-CRACOW,51.23
+# text = vaz %t%-1 blngin iz di mskhnut mprutsin_meynstir hat man muzn aroys gebn
+1	vaz	_	PRON	WPRO	_	3	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	blngin	_	VERB	VAG	Tense=Pres|VerbForm=Part	12	obl	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	mskhnut	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+7	mprutsin_meynstir	from_Prutsin_Meynstir	X	H	_	6	obl	_	_
+8	hat	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+9	man	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+10	muzn	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	12	aux	_	_
+11	aroys	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+12	gebn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.21
+# X_ID = 1588E-LETTERS-CRACOW,51.24
+# text = daz khdr ir"h hat der_fir erb givezin
+1	daz	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	khdr	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+3	ir"h	it_will_be_exalted_his_majesty	X	H	_	2	dep	_	_
+4	hat	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+5	der_fir	_	ADP	P	_	7	obl	_	_
+6	erb	_	ADP	RP-H	_	7	compound:prt	_	_
+7	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.22
+# X_ID = 1588E-LETTERS-CRACOW,51.25
+# text = nun laz ikh eykh visin dz ikh nit hab velin ab lasin ed dz mir@ @s h"u vidr bkumn habin
+1	nun	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	laz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	eykh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	visin	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	dz	_	SCONJ	C	_	12	mark	_	_
+7	ikh	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+8	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	12	advmod	_	_
+9	hab	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+10	velin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	12	aux	_	_
+11	ab	_	ADP	RP	_	12	compound:prt	_	_
+12	lasin	_	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+13	ed	until	X	H	_	19	dep	_	_
+14	dz	_	SCONJ	C	_	19	mark	_	_
+15	mir@	_	PRON	PRO-NOM	Case=Nom	19	nsubj	_	_
+16	@s	_	PRON	PRO-ACC	Case=Acc	19	obj	_	_
+17	h"u	have_mercy_and_peace	X	H	_	19	dep	_	_
+18	vidr	_	ADV	ADV	Degree=Pos	19	advmod	_	_
+19	bkumn	_	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+20	habin	_	AUX	HVF	VerbForm=Fin	19	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.23
+# X_ID = 1588E-LETTERS-CRACOW,51.26
+# text = hab zunst giht abrhm siklir g"k der_fir erb muzin zeyn
+1	hab	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+2	zunst	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+3	giht	_	AUX	HVN	Tense=Past|VerbForm=Part	10	dep	_	_
+4	abrhm	_	PROPN	NPR-SBJ	_	10	nsubj	_	_
+5	siklir	_	PROPN	NPR	_	4	flat:name	_	_
+6	g"k	also_yes	ADV	H	_	10	advmod	_	_
+7	der_fir	_	ADP	P	_	10	obl	_	_
+8	erb	_	ADP	RP-H	_	10	compound:prt	_	_
+9	muzin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	10	aux	_	_
+10	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.24
+# X_ID = 1588E-LETTERS-CRACOW,51.27
+# text = %pro% hat zunst fil velin an gibin bkitsur
+1	%pro%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+2	hat	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+3	zunst	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+4	fil	_	DET	Q-ACC	Case=Acc	7	obj	_	_
+5	velin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	7	aux	_	_
+6	an	_	ADP	RP	_	7	compound:prt	_	_
+7	gibin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+8	bkitsur	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.25
+# X_ID = 1588E-LETTERS-CRACOW,51.28
+# text = mir habn@ @s t"u vidr bkumn
+1	mir	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	habn@	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+3	@s	_	PRON	PRO-ACC	Case=Acc	6	obj	_	_
+4	t"u	very_soon_and_immediately	ADV	H	_	6	advmod	_	_
+5	vidr	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	bkumn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.26
+# X_ID = 1588E-LETTERS-CRACOW,51.29
+# text = un er hat der_tsu eyn gziph oyf gnumn mkhdr ir"h
+1	un	_	CCONJ	CONJ	_	8	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+3	hat	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+4	der_tsu	_	ADP	P	_	8	obl	_	_
+5	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	gziph	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	8	obj	_	_
+7	oyf	_	ADP	RP	_	8	compound:prt	_	_
+8	gnumn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	mkhdr	from_room	X	H	_	8	obl	_	_
+10	ir"h	it_will_be_exalted_his_majesty	X	H	_	8	discourse	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.27
+# X_ID = 1588E-LETTERS-CRACOW,51.30
+# text = mn hat mit gutin niks bkumn kenin fun im
+1	mn	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	hat	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+3	mit	_	ADP	P	_	4	case	_	_
+4	gutin	_	NOUN	N	_	6	obl	_	_
+5	niks	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	6	obj	_	_
+6	bkumn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+7	kenin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	6	aux	_	_
+8	fun	_	ADP	P	_	9	case	_	_
+9	im	_	PRON	PRO	_	6	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.28
+# X_ID = 1588E-LETTERS-CRACOW,51.31
+# text = abr ez iz durkh keynm r"h gisehn daz hstdlut
+1	abr	_	CCONJ	CONJ	_	7	cc	_	_
+2	ez	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	7	expl	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+4	durkh	_	ADP	P	_	6	case	_	_
+5	keynm	_	DET	Q-NEG	Polarity=Neg	6	det	_	_
+6	r"h	head_community	NOUN	N	_	7	obl	_	_
+7	gisehn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	daz	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+9	hstdlut	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.29
+# X_ID = 1588E-LETTERS-CRACOW,51.32
+# text = un ikh bin zer gekh droyf givezin
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+3	bin	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+4	zer	_	ADV	ADV	Degree=Pos	5	amod	_	_
+5	gekh	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+6	droyf	_	ADP	P	_	5	amod	_	_
+7	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.30
+# X_ID = 1588E-LETTERS-CRACOW,51.33
+# text = mtem az %exp% oykh g"k idue iz vaz %t%-2 eyn veyli an stit zoy bleybt ez vayl eyn_zoy
+1	mtem	UNKNOWN	X	H	_	15	dep	_	_
+2	az	_	SCONJ	C	_	7	mark	_	_
+3	%exp%	_	NOUN	NP-SBJ-1	_	7	nsubj	_	_
+4	oykh	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+5	g"k	also_yes	ADV	H	_	7	advmod	_	_
+6	idue	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	15	advcl	_	_
+8	vaz	_	PRON	WPRO	_	13	obj	_	_
+9	%t%-2	_	NOUN	NP-SBJ	_	13	nsubj	_	_
+10	eyn	_	DET	D	PronType=Art	11	det	_	_
+11	veyli	_	NOUN	N-I	Definite=Ind	13	obl	_	_
+12	an	_	ADP	RP	_	13	compound:prt	_	_
+13	stit	_	VERB	VBF	VerbForm=Fin	7	dep	_	_
+14	zoy	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+15	bleybt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+16	ez	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+17	vayl	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+18	eyn_zoy	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.31
+# X_ID = 1588E-LETTERS-CRACOW,51.34
+# text = sgit laz %pro% eykh visin dz r' ftkh'h bsud gizagt hat dz eyer duks an rasis eyn ab_zag_brib gshribn hat
+1	sgit	_	X	X	_	2	dep	_	_
+2	laz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	%pro%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+4	eykh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	visin	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	dz	_	SCONJ	C	_	10	mark	_	_
+7	r'	_	PROPN	NPR-SBJ	_	10	nsubj	_	_
+8	ftkh'h	_	PROPN	NPR	_	7	flat:name	_	_
+9	bsud	in_secret	X	H	_	10	dep	_	_
+10	gizagt	_	VERB	VBN	Tense=Past|VerbForm=Part	5	ccomp	_	_
+11	hat	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+12	dz	_	SCONJ	C	_	19	mark	_	_
+13	eyer	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	14	det:poss	_	_
+14	duks	_	NOUN	N	_	19	nsubj	_	_
+15	an	_	ADP	P	_	16	case	_	_
+16	rasis	_	NOUN	N	_	19	obl	_	_
+17	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	18	det	_	_
+18	ab_zag_brib	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	19	obj	_	_
+19	gshribn	_	VERB	VBN	Tense=Past|VerbForm=Part	10	ccomp	_	_
+20	hat	_	AUX	HVF	VerbForm=Fin	19	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.32
+# X_ID = 1588E-LETTERS-CRACOW,52.36
+# text = zoy hab %xxx% muzin eyn busli fleysgir droyf %ich%-1 zeyn dz daz mskhun vidr kumn iz bid sl abrhm hanal ud"l
+1	zoy	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+3	%xxx%	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+4	muzin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	10	aux	_	_
+5	eyn	_	DET	D	PronType=Art	6	det	_	_
+6	busli	_	NOUN	N-I	Definite=Ind	7	obl	_	_
+7	fleysgir	_	ADJ	ADJR	Degree=Pos	10	amod	_	_
+8	droyf	_	ADP	P	_	9	case	_	_
+9	%ich%-1	_	SCONJ	CP-THT	_	7	amod	_	_
+10	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+11	dz	_	SCONJ	C	_	15	mark	_	_
+12	daz	_	DET	D-NOM	Case=Nom|PronType=Art	13	det	_	_
+13	mskhun	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	15	nsubj	_	_
+14	vidr	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+15	kumn	_	VERB	VBN	Tense=Past|VerbForm=Part	10	ccomp	_	_
+16	iz	_	AUX	BEF	VerbForm=Fin	15	cop	_	_
+17	bid	in_hand	X	H	_	19	dep	_	_
+18	sl	of	X	H	_	19	dep	_	_
+19	abrhm	_	PROPN	NPR	_	15	obl	_	_
+20	hanal	aforesaid	X	H	_	19	dep	_	_
+21	ud"l	and_enough_for_wise_one	X	H	_	15	discourse	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.33
+# X_ID = 1588E-LETTERS-CRACOW,52.37
+# text = nun vaz %t%-1 blngin iz fun den andrn mshkun laz %con% eykh visin dz er nokh nit kumn iz
+1	nun	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+2	vaz	_	PRON	WPRO	_	4	obj	_	_
+3	%t%-1	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+4	blngin	_	VERB	VAG	Tense=Pres|VerbForm=Part	10	obl	_	_
+5	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+6	fun	_	ADP	P	_	9	case	_	_
+7	den	_	DET	D	PronType=Art	9	det	_	_
+8	andrn	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	mshkun	_	NOUN	N-D	Definite=Def	4	obl	_	_
+10	laz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+11	%con%	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+12	eykh	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+13	visin	_	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+14	dz	_	SCONJ	C	_	18	mark	_	_
+15	er	_	PRON	PRO-NOM	Case=Nom	18	nsubj	_	_
+16	nokh	_	ADV	ADV	Degree=Pos	18	advmod	_	_
+17	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	18	advmod	_	_
+18	kumn	_	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	_	_
+19	iz	_	AUX	BEF	VerbForm=Fin	18	cop	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.34
+# X_ID = 1588E-LETTERS-CRACOW,52.38
+# text = %con% hab in nokh nit gizehn
+1	%con%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+3	in	_	PRON	PRO-ACC	Case=Acc	6	obj	_	_
+4	nokh	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+6	gizehn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.35
+# X_ID = 1588E-LETTERS-CRACOW,52.39
+# text = vert er kumen vil %con% im vaul visin %ich%-1 tsubh tsu gebn
+1	vert	_	AUX	RDF	VerbForm=Fin	3	aux	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	kumen	_	VERB	VB	VerbForm=Inf	8	advcl	_	_
+4	vil	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+5	%con%	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+6	im	_	PRON	PRO	_	8	obl	_	_
+7	vaul	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	visin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+9	%ich%-1	_	NOUN	NP-DTV	_	12	dep	_	_
+10	tsubh	_	NOUN	N-ACC	Case=Acc	12	obj	_	_
+11	tsu	_	PART	TO	_	12	mark	_	_
+12	gebn	_	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.36
+# X_ID = 1588E-LETTERS-CRACOW,52.40
+# text = ai"h drft %pro% da_er_fur gar niks tsu zargin
+1	ai"h	if_will_want_God	X	H	_	2	dep	_	_
+2	drft	_	VERB	MDF	VerbForm=Fin	0	root	_	_
+3	%pro%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+4	da_er_fur	_	ADP	P	_	8	obl	_	_
+5	gar	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	niks	_	DET	Q-NEG	Polarity=Neg	8	obl	_	_
+7	tsu	_	PART	TO	_	8	mark	_	_
+8	zargin	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.37
+# X_ID = 1588E-LETTERS-CRACOW,52.41
+# text = vgm fr den hub mr' zelik vil zi vaul ai"h mslk zeyn
+1	vgm	and_also	X	H	_	12	dep	_	_
+2	fr	_	ADP	P	_	4	case	_	_
+3	den	_	DET	D	PronType=Art	4	det	_	_
+4	hub	_	NOUN	N-D	Definite=Def	12	obl	_	_
+5	mr'	from_rabbi	X	H	_	6	dep	_	_
+6	zelik	_	PROPN	NPR	_	4	obl	_	_
+7	vil	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+8	zi	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+9	vaul	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+10	ai"h	if_will_want_God	X	H	_	12	dep	_	_
+11	mslk	_	ADP	RP-H	_	12	compound:prt	_	_
+12	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.38
+# X_ID = 1588E-LETTERS-CRACOW,52.42
+# text = vaz %t%-1 blngin iz fun daz esk mr" heym brndeys zoy laz ikh eykh visin dz ikh ez mid gitan hab un %con% mit im giret hab
+1	vaz	_	PRON	WPRO	_	3	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	blngin	_	VERB	VAG	Tense=Pres|VerbForm=Part	12	obl	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+5	fun	_	ADP	P	_	7	case	_	_
+6	daz	_	DET	D	PronType=Art	7	det	_	_
+7	esk	_	NOUN	N-D	Definite=Def	3	obl	_	_
+8	mr"	from_rabbi	X	H	_	9	dep	_	_
+9	heym	_	PROPN	NPR	_	7	obl	_	_
+10	brndeys	_	PROPN	NPR	_	9	flat:name	_	_
+11	zoy	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+12	laz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+13	ikh	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+14	eykh	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+15	visin	_	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+16	dz	_	SCONJ	C	_	20	mark	_	_
+17	ikh	_	PRON	PRO-NOM	Case=Nom	20	nsubj	_	_
+18	ez	_	PRON	PRO-ACC	Case=Acc	20	obj	_	_
+19	mid	_	ADV	ADV	Degree=Pos	20	advmod	_	_
+20	gitan	_	VERB	VBN	Tense=Past|VerbForm=Part	15	ccomp	_	_
+21	hab	_	AUX	HVF	VerbForm=Fin	20	aux	_	_
+22	un	_	CCONJ	CONJ	_	26	cc	_	_
+23	%con%	_	NOUN	NP-SBJ	_	26	nsubj	_	_
+24	mit	_	ADP	P	_	25	case	_	_
+25	im	_	PRON	PRO	_	26	obl	_	_
+26	giret	_	VERB	VBN	Tense=Past|VerbForm=Part	20	conj	_	_
+27	hab	_	AUX	HVF	VerbForm=Fin	26	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.39
+# X_ID = 1588E-LETTERS-CRACOW,52.43
+# text = zoy hat er mir keyn tsubh kenin fun im brengin
+1	zoy	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+2	hat	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	10	iobj	_	_
+5	keyn	_	DET	Q-NEG	Polarity=Neg	6	det	_	_
+6	tsubh	_	NOUN	N	_	10	obl	_	_
+7	kenin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	10	aux	_	_
+8	fun	_	ADP	P	_	9	case	_	_
+9	im	_	PRON	PRO	_	10	obl	_	_
+10	brengin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.40
+# X_ID = 1588E-LETTERS-CRACOW,52.44
+# text = %con% hat vaul tsubh gebin aleyn keyn tsubh mspik'
+1	%con%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+2	hat	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	vaul	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+4	tsubh	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+5	gebin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	aleyn	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+7	keyn	_	DET	Q-NEG	Polarity=Neg	8	det	_	_
+8	tsubh	_	NOUN	N	_	5	conj	_	_
+9	mspik'	from_Spik'	X	H	_	8	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.41
+# X_ID = 1588E-LETTERS-CRACOW,52.45
+# text = zoy bin ikh le"e mit r' tezi gngin
+1	zoy	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+2	bin	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+4	le"e	forever_until	X	H	_	8	dep	_	_
+5	mit	_	ADP	P	_	6	case	_	_
+6	r'	_	PROPN	NPR	_	8	obl	_	_
+7	tezi	_	PROPN	NPR	_	6	flat:name	_	_
+8	gngin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.42
+# X_ID = 1588E-LETTERS-CRACOW,52.46
+# text = un %con% mit im giret hab e"i dbrim
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+3	mit	_	ADP	P	_	4	case	_	_
+4	im	_	PRON	PRO	_	5	obl	_	_
+5	giret	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	hab	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+7	e"i	on_hands	X	H	_	5	obl	_	_
+8	dbrim	words	X	H	_	7	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.43
+# X_ID = 1588E-LETTERS-CRACOW,52.47
+# text = %con% tsu im kumn bin dz er niks bimerkt hat
+1	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+2	tsu	_	ADP	P	_	3	case	_	_
+3	im	_	PRON	PRO	_	4	obl	_	_
+4	kumn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	bin	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+6	dz	_	SCONJ	C	_	9	mark	_	_
+7	er	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+8	niks	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	9	obj	_	_
+9	bimerkt	_	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+10	hat	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.44
+# X_ID = 1588E-LETTERS-CRACOW,52.48
+# text = nun bkitsur %pro% hat uns tsubh gebin
+1	nun	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+2	bkitsur	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+3	%pro%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+4	hat	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+5	uns	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+6	tsubh	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+7	gebin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.45
+# X_ID = 1588E-LETTERS-CRACOW,52.49
+# text = %con% hat@ @s in eyn lang bank givarfin
+1	%con%	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+2	hat@	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+3	@s	_	PRON	PRO-ACC	Case=Acc	8	obj	_	_
+4	in	_	ADP	P	_	7	case	_	_
+5	eyn	_	DET	D	PronType=Art	7	det	_	_
+6	lang	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	bank	_	NOUN	N-I	Definite=Ind	8	obl	_	_
+8	givarfin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.46
+# X_ID = 1588E-LETTERS-CRACOW,52.50
+# text = un %con% vil mikh mmsikh zeyn
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+3	vil	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+4	mikh	_	PRON	PRO-ACC	Case=Acc	6	obj	_	_
+5	mmsikh	_	ADP	RP-H	_	6	compound:prt	_	_
+6	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.47
+# X_ID = 1588E-LETTERS-CRACOW,52.51
+# text = drum zeyt visin vau %t%-2 ir hlt der_mit dz %ich%-1 ir eykh nit lasin zalt %arb% %ich%-3 mmsikh zeyn in keyn ufn
+1	drum	_	ADP	P	_	0	root	_	_
+2	zeyt	_	AUX	BEI	Mood=Imp	1	cop	_	_
+3	visin	_	VERB	VAG	Tense=Pres|VerbForm=Part	1	amod	_	_
+4	vau	_	ADV	WADV	Degree=Pos	1	xcomp	_	_
+5	%t%-2	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	7	advmod	_	_
+6	ir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	hlt	_	ADV	VBF	VerbForm=Fin	14	advmod	_	_
+8	der_mit	_	ADP	P	_	7	obl	_	_
+9	dz	_	SCONJ	C	_	14	mark	_	_
+10	%ich%-1	_	ADV	ADVP	Degree=Pos	14	advmod	_	_
+11	ir	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+12	eykh	_	PRON	PRO	_	14	obl	_	_
+13	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	14	advmod	_	_
+14	lasin	_	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+15	zalt	_	AUX	MDF	VerbForm=Fin	14	aux	_	_
+16	%arb%	_	NOUN	NP-SBJ	_	19	nsubj	_	_
+17	%ich%-3	_	NOUN	NP-ACC	_	19	dep	_	_
+18	mmsikh	_	ADP	RP-H	_	19	compound:prt	_	_
+19	zeyn	_	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+20	in	_	ADP	P	_	22	case	_	_
+21	keyn	_	DET	Q-NEG	Polarity=Neg	22	det	_	_
+22	ufn	_	NOUN	N	_	19	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.48
+# X_ID = 1588E-LETTERS-CRACOW,52.52
+# text = den ez iz keyn mms dran
+1	den	_	CCONJ	CONJ	_	3	cc	_	_
+2	ez	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	keyn	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	5	det	_	_
+5	mms	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+6	dran	_	ADP	P	_	3	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.49
+# X_ID = 1588E-LETTERS-CRACOW,52.53
+# text = menin sl r' iekb hab ikh eykh far oykh gshribin
+1	menin	from_matter	X	H	_	3	dep	_	_
+2	sl	of	X	H	_	3	dep	_	_
+3	r'	_	PROPN	NPR	_	10	obl	_	_
+4	iekb	_	PROPN	NPR	_	3	flat:name	_	_
+5	hab	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+6	ikh	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+7	eykh	_	PRON	PRO-DTV	Case=Dat	10	iobj	_	_
+8	far	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+9	oykh	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+10	gshribin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.50
+# X_ID = 1588E-LETTERS-CRACOW,52.54
+# text = menin sl ast yunh trit ikh rat eykh kll nit tsu den shidukh
+1	menin	from_matter	X	H	_	4	dep	_	_
+2	sl	of	X	H	_	4	dep	_	_
+3	ast	wife_of	X	H	_	4	dep	_	_
+4	yunh	_	PROPN	NPR	_	7	obl	_	_
+5	trit	_	X	X	_	4	dep	_	_
+6	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	rat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	eykh	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+9	kll	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+10	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+11	tsu	_	ADP	P	_	13	case	_	_
+12	den	_	DET	D	PronType=Art	13	det	_	_
+13	shidukh	_	NOUN	N-D	Definite=Def	7	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.51
+# X_ID = 1588E-LETTERS-CRACOW,52.55
+# text = %con% geb vaul eyn groysin skh
+1	%con%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+2	geb	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	vaul	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+5	groysin	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	skh	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	2	obj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.52
+# X_ID = 1588E-LETTERS-CRACOW,52.56
+# text = tumin li %con% hab bkl ikhulti gitan vaz %t%-1 ikh hab kenin tan
+1	tumin	you_believe	X	H	_	7	dep	_	_
+2	li	to_me	X	H	_	7	dep	_	_
+3	%con%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+4	hab	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+5	bkl	in_all	X	H	_	7	dep	_	_
+6	ikhulti	ability_my	X	H	_	5	dep	_	_
+7	gitan	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	vaz	_	PRON	WPRO	_	13	obj	_	_
+9	%t%-1	_	NOUN	NP-ACC	_	13	dep	_	_
+10	ikh	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+11	hab	_	AUX	HVF	VerbForm=Fin	13	aux	_	_
+12	kenin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	13	aux	_	_
+13	tan	_	VERB	VB	VerbForm=Inf	7	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.53
+# X_ID = 1588E-LETTERS-CRACOW,52.57
+# text = %con% hab den slikh nit gidarft oyf hltin
+1	%con%	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+3	den	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+4	slikh	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	8	obj	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+6	gidarft	_	AUX	MDN	Tense=Past|VerbForm=Part	8	aux	_	_
+7	oyf	_	ADP	RP	_	8	compound:prt	_	_
+8	hltin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.54
+# X_ID = 1588E-LETTERS-CRACOW,52.58
+# text = ikh hab lang vaul givist vaz %t%-1 ikh hlt
+1	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	lang	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+4	vaul	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	givist	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	vaz	_	PRON	WPRO	_	9	obj	_	_
+7	%t%-1	_	NOUN	NP-ACC	_	9	dep	_	_
+8	ikh	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+9	hlt	_	VERB	VBF	VerbForm=Fin	5	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.55
+# X_ID = 1588E-LETTERS-CRACOW,52.59
+# text = ikh hab@ @s far lang gitan daz meyn vaz ir gmeynt hat dz ikh@ @s itsundr tan zal
+1	ikh	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	hab@	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+3	@s	_	PRON	PRO-ACC	Case=Acc	6	obj	_	_
+4	far	_	ADP	P	_	5	case	_	_
+5	lang	_	ADV	ADV	Degree=Pos	6	obl	_	_
+6	gitan	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	daz	_	DET	D	PronType=Art	8	det	_	_
+8	meyn	_	NOUN	N-D	Definite=Def	6	obl	_	_
+9	vaz	_	SCONJ	C	_	11	mark	_	_
+10	ir	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+11	gmeynt	_	VERB	VBN	Tense=Past|VerbForm=Part	8	appos	_	_
+12	hat	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+13	dz	_	SCONJ	C	_	17	mark	_	_
+14	ikh@	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+15	@s	_	PRON	PRO	_	17	dep	_	_
+16	itsundr	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+17	tan	_	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+18	zal	_	AUX	MDF	VerbForm=Fin	17	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.56
+# X_ID = 1588E-LETTERS-CRACOW,52.60
+# text = tamin li ver vaz an den eneyni'm gvezin velt ikh lang eyn slikh miukhd gishikt habin
+1	tamin	believe_you	X	H	_	15	dep	_	_
+2	li	to_me	X	H	_	15	dep	_	_
+3	ver	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+4	vaz	_	DET	Q-NOM	Case=Nom	8	nsubj	_	_
+5	an	_	ADP	P	_	7	case	_	_
+6	den	_	DET	D	PronType=Art	7	det	_	_
+7	eneyni'm	_	NOUN	N-D	Definite=Def	8	obl	_	_
+8	gvezin	_	VERB	VBN	Tense=Past|VerbForm=Part	15	advcl	_	_
+9	velt	_	AUX	MDF	VerbForm=Fin	15	aux	_	_
+10	ikh	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+11	lang	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+12	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	13	det	_	_
+13	slikh	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	15	obj	_	_
+14	miukhd	special	X	H	_	13	dep	_	_
+15	gishikt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+16	habin	_	AUX	HV	VerbForm=Inf	15	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.57
+# X_ID = 1588E-LETTERS-CRACOW,52.61
+# text = gleykh ven eyn psk ver bey eykh het mikh@ @s dokh gimekhtig't oyf eyn psk
+1	gleykh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	ven	_	SCONJ	C	_	5	mark	_	_
+3	eyn	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	psk	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	5	nsubj	_	_
+5	ver	_	VERB	VBF	VerbForm=Fin	12	advcl	_	_
+6	bey	_	ADP	P	_	7	case	_	_
+7	eykh	_	PRON	PRO	_	5	obl	_	_
+8	het	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+9	mikh@	_	PRON	PRO-ACC	Case=Acc	12	obj	_	_
+10	@s	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+11	dokh	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+12	gimekhtig't	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	oyf	_	ADP	P	_	15	case	_	_
+14	eyn	_	DET	D	PronType=Art	15	det	_	_
+15	psk	_	NOUN	N-I	Definite=Ind	12	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.58
+# X_ID = 1588E-LETTERS-CRACOW,52.62
+# text = abr ikh hab shun lang givist vau %t%-1 ikh mit in hlt
+1	abr	_	CCONJ	CONJ	_	6	cc	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+3	hab	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	shun	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	lang	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	givist	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	vau	_	ADV	WADV	Degree=Pos	12	advmod	_	_
+8	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	12	advmod	_	_
+9	ikh	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+10	mit	_	ADP	P	_	11	case	_	_
+11	in	_	PRON	PRO	_	12	obl	_	_
+12	hlt	_	VERB	VBF	VerbForm=Fin	6	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.59
+# X_ID = 1588E-LETTERS-CRACOW,52.63
+# text = drum libr r' msh zikht fr eykh
+1	drum	_	ADP	P	_	5	obl	_	_
+2	libr	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	r'	_	PROPN	NPR	_	5	vocative	_	_
+4	msh	_	PROPN	NPR	_	3	flat:name	_	_
+5	zikht	_	VERB	VBI	Mood=Imp	0	root	_	_
+6	fr	_	ADP	RP	_	5	compound:prt	_	_
+7	eykh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.60
+# X_ID = 1588E-LETTERS-CRACOW,52.64
+# text = un lat eykh di enini'm gar_nit zoymn
+1	un	_	CCONJ	CONJ	_	2	cc	_	_
+2	lat	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	eykh	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	enini'm	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+6	gar_nit	_	ADV	NEG	_	7	advmod	_	_
+7	zoymn	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.61
+# X_ID = 1588E-LETTERS-CRACOW,52.65
+# text = un tut yu vd"l vaz %t%-1 ir tan zalt
+1	un	_	CCONJ	CONJ	_	2	cc	_	_
+2	tut	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	yu	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	vd"l	and_enough_for_wise_one	X	H	_	2	discourse	_	_
+5	vaz	_	PRON	WPRO	_	8	obj	_	_
+6	%t%-1	_	NOUN	NP-ACC	_	8	dep	_	_
+7	ir	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+8	tan	_	VERB	VB	VerbForm=Inf	2	dep	_	_
+9	zalt	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.62
+# X_ID = 1588E-LETTERS-CRACOW,52.66
+# text = aleyn %exp% ver gut ven ir vaz tan vert az mir keyn spk iz
+1	aleyn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	%exp%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	ver	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	gut	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	ven	_	SCONJ	C	_	8	mark	_	_
+6	ir	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+7	vaz	_	DET	Q-ACC	Case=Acc	8	obj	_	_
+8	tan	_	VERB	VB	VerbForm=Inf	3	advcl	_	_
+9	vert	_	AUX	RDF	VerbForm=Fin	8	aux	_	_
+10	az	_	SCONJ	C	_	14	mark	_	_
+11	mir	_	PRON	PRO-DTV	Case=Dat	14	iobj	_	_
+12	keyn	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	13	det	_	_
+13	spk	_	NOUN	N-NOM	Case=Nom	14	nsubj	_	_
+14	iz	_	VERB	VBF	VerbForm=Fin	8	advcl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.63
+# X_ID = 1588E-LETTERS-CRACOW,52.67
+# text = zoy lat@ @s eyn veyli bsud bleybn mtemi'm unmukim
+1	zoy	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	lat@	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	@s	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+4	eyn	_	DET	D	PronType=Art	5	det	_	_
+5	veyli	_	NOUN	N-I	Definite=Ind	7	obl	_	_
+6	bsud	in_secret	X	H	_	7	dep	_	_
+7	bleybn	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+8	mtemi'm	reasons	X	H	_	7	dep	_	_
+9	unmukim	and_explanations	X	H	_	8	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.64
+# X_ID = 1588E-LETTERS-CRACOW,52.68
+# text = un tut yu nit andrs
+1	un	_	CCONJ	CONJ	_	2	cc	_	_
+2	tut	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	yu	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+5	andrs	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.65
+# X_ID = 1588E-LETTERS-CRACOW,53.69
+# text = ikh hlt ir kent mikh vaul dz ikh@ @s mit eyn itlkhin gants meyn vk"s mit eykh u mi itn
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hlt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	kent	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+5	mikh	_	PRON	PRO-ACC	Case=Acc	4	obj	_	_
+6	vaul	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+7	dz	_	SCONJ	C	_	14	mark	_	_
+8	ikh@	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+9	@s	_	PRON	PRO-ACC	Case=Acc	14	obj	_	_
+10	mit	_	ADP	P	_	12	case	_	_
+11	eyn	_	DET	D	PronType=Art	12	det	_	_
+12	itlkhin	_	DET	Q	_	14	obl	_	_
+13	gants	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+14	meyn	_	VERB	VBF	VerbForm=Fin	4	ccomp	_	_
+15	vk"s	and_all_that_yes	X	H	_	14	dep	_	_
+16	mit	_	ADP	P	_	17	case	_	_
+17	eykh	_	PRON	PRO	_	14	obl	_	_
+18	u	and	X	H	_	14	dep	_	_
+19	mi	who	X	H	_	18	dep	_	_
+20	itn	he_will_give	X	H	_	18	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.66
+# X_ID = 1588E-LETTERS-CRACOW,53.70
+# text = ikh kent eykh fil oysrikhtin
+1	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	kent	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	eykh	_	PRON	PRO-DTV	Case=Dat	5	iobj	_	_
+4	fil	_	DET	Q-ACC	Case=Acc	5	obj	_	_
+5	oysrikhtin	_	VERB	VB-PART	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.67
+# X_ID = 1588E-LETTERS-CRACOW,53.71
+# text = %con% velt mikh varlikh nit sparin az %t%-1 ikh ed hst'a gitan hab
+1	%con%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+2	velt	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+3	mikh	_	PRON	PRO-RFL	PronType=Reflex	6	expl:pv	_	_
+4	varlikh	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+6	sparin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+7	az	_	SCONJ	C	_	12	mark	_	_
+8	%t%-1	_	ADV	ADVP	Degree=Pos	12	advmod	_	_
+9	ikh	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+10	ed	until	X	H	_	12	dep	_	_
+11	hst'a	now	X	H	_	10	dep	_	_
+12	gitan	_	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+13	hab	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.68
+# X_ID = 1588E-LETTERS-CRACOW,53.72
+# text = alleyn veys ikh nit andrs tsu shreybn
+1	alleyn	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	veys	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+5	andrs	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+6	tsu	_	PART	TO	_	7	mark	_	_
+7	shreybn	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.69
+# X_ID = 1588E-LETTERS-CRACOW,53.73
+# text = un tut vaz %t%-1 ir zalt tan
+1	un	_	CCONJ	CONJ	_	2	cc	_	_
+2	tut	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	vaz	_	PRON	WPRO	_	7	obj	_	_
+4	%t%-1	_	NOUN	NP-ACC	_	7	dep	_	_
+5	ir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+6	zalt	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+7	tan	_	VERB	VB	VerbForm=Inf	2	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.70
+# X_ID = 1588E-LETTERS-CRACOW,53.74
+# text = vaz %t%-1 blngin iz mkhmt r' msh mkali_mia het ir mir gifalgt ver %exp% eykh nit gist...
+1	vaz	_	PRON	WPRO	_	3	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	blngin	_	VERB	VAG	Tense=Pres|VerbForm=Part	14	obl	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+5	mkhmt	_	ADP	P	_	6	case	_	_
+6	r'	_	PROPN	NPR	_	3	obl	_	_
+7	msh	_	PROPN	NPR	_	6	flat:name	_	_
+8	mkali_mia	from_Kalimia	X	H	_	6	obl	_	_
+9	het	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+10	ir	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+11	mir	_	PRON	PRO-DTV	Case=Dat	12	iobj	_	_
+12	gifalgt	_	VERB	VBN	Tense=Past|VerbForm=Part	14	advcl	_	_
+13	ver	_	AUX	BEF	VerbForm=Fin	14	cop	_	_
+14	%exp%	_	NOUN	NP-SBJ	_	0	root	_	_
+15	eykh	_	PRON	PRO-DTV	Case=Dat	14	iobj	_	_
+16	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	14	advmod	_	_
+17	gist...	_	X	X	_	14	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.71
+# X_ID = 1588E-LETTERS-CRACOW,53.75
+# text = ikh hab velin habin dz r' zelig mrla eykh zal erb zeyn der_fir
+1	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	velin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	4	aux	_	_
+4	habin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	dz	_	SCONJ	C	_	12	mark	_	_
+6	r'	_	PROPN	NPR-SBJ	_	12	nsubj	_	_
+7	zelig	_	PROPN	NPR	_	6	flat:name	_	_
+8	mrla	from_Rla	X	H	_	6	obl	_	_
+9	eykh	_	PRON	PRO-DTV	Case=Dat	12	iobj	_	_
+10	zal	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+11	erb	_	ADP	RP-H	_	12	compound:prt	_	_
+12	zeyn	_	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+13	der_fir	_	ADP	P	_	12	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.72
+# X_ID = 1588E-LETTERS-CRACOW,53.76
+# text = adr er zal di meu't oys lign
+1	adr	_	CCONJ	CONJ	_	7	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+3	zal	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+4	di	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	meu't	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	7	obj	_	_
+6	oys	_	ADP	RP	_	7	compound:prt	_	_
+7	lign	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.73
+# X_ID = 1588E-LETTERS-CRACOW,53.77
+# text = zoy zalt ir im erb zeyn
+1	zoy	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+2	zalt	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+3	ir	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+4	im	_	PRON	PRO-DTV	Case=Dat	6	iobj	_	_
+5	erb	_	ADP	RP-H	_	6	compound:prt	_	_
+6	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.74
+# X_ID = 1588E-LETTERS-CRACOW,53.78
+# text = zoy ver eyer khsbun vaul gut gblibn vi vaul dz ez bey mir nokh keyn sfk iz
+1	zoy	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+2	ver	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+3	eyer	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	4	det:poss	_	_
+4	khsbun	_	NOUN	N	_	7	nsubj	_	_
+5	vaul	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+6	gut	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	gblibn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	vi	_	ADV	WADV	Degree=Pos	17	advmod	_	_
+9	vaul	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+10	dz	_	SCONJ	C	_	17	mark	_	_
+11	ez	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+12	bey	_	ADP	P	_	13	case	_	_
+13	mir	_	PRON	PRO	_	17	obl	_	_
+14	nokh	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+15	keyn	_	DET	Q-NEG	Polarity=Neg	16	det	_	_
+16	sfk	_	NOUN	N	_	17	xcomp	_	_
+17	iz	_	VERB	VBF	VerbForm=Fin	7	advcl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.75
+# X_ID = 1588E-LETTERS-CRACOW,53.79
+# text = nokh du ver ez eyn vdai givezin
+1	nokh	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+2	du	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+3	ver	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+4	ez	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+5	eyn	_	DET	D	PronType=Art	6	det	_	_
+6	vdai	_	NOUN	N-I	Definite=Ind	7	xcomp	_	_
+7	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.76
+# X_ID = 1588E-LETTERS-CRACOW,53.80
+# text = lipmn gisikh iz mit r' kheym brndeys ken k"k oystilits gitsoygn
+1	lipmn	_	PROPN	NPR-SBJ	_	11	nsubj	_	_
+2	gisikh	_	PROPN	NPR	_	1	flat:name	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	11	cop	_	_
+4	mit	_	ADP	P	_	5	case	_	_
+5	r'	_	PROPN	NPR	_	11	obl	_	_
+6	kheym	_	PROPN	NPR	_	5	flat:name	_	_
+7	brndeys	_	PROPN	NPR	_	5	dep	_	_
+8	ken	_	ADP	P	_	10	case	_	_
+9	k"k	community_holy	X	H	_	10	dep	_	_
+10	oystilits	_	PROPN	NPR	_	11	obl	_	_
+11	gitsoygn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.77
+# X_ID = 1588E-LETTERS-CRACOW,53.81
+# text = %xxx% vil dokh mit zeyn krubim ridn der_fun, abr ud"l
+1	%xxx%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+2	vil	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+3	dokh	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+4	mit	_	ADP	P	_	6	case	_	_
+5	zeyn	_	PRON	PRO$	_	6	det:poss	_	_
+6	krubim	_	NOUN	N	_	7	obl	_	_
+7	ridn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+8	der_fun	_	ADP	P	_	7	obl	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	7	punct	_	_
+10	abr	_	CCONJ	CONJ	_	11	cc	_	_
+11	ud"l	and_enough_for_wise_one	X	H	_	7	conj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.78
+# X_ID = 1588E-LETTERS-CRACOW,53.82
+# text = denkt varlikh dran nit
+1	denkt	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	varlikh	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	dran	_	ADP	P	_	1	obl	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	1	advmod	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.79
+# X_ID = 1588E-LETTERS-CRACOW,53.83
+# text = drum tut lpi khkhmtikh vi %t%-1 eykh eyer fatr rat
+1	drum	_	ADP	P	_	2	obl	_	_
+2	tut	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	lpi	according_to	X	H	_	2	obl	_	_
+4	khkhmtikh	wisdom_your	X	H	_	3	dep	_	_
+5	vi	_	ADV	WADV	Degree=Pos	10	advmod	_	_
+6	%t%-1	_	ADV	ADVP	Degree=Pos	10	advmod	_	_
+7	eykh	_	PRON	PRO-DTV	Case=Dat	10	iobj	_	_
+8	eyer	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	9	det:poss	_	_
+9	fatr	_	NOUN	N	_	10	nsubj	_	_
+10	rat	_	VERB	VBF	VerbForm=Fin	2	advcl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.80
+# X_ID = 1588E-LETTERS-CRACOW,53.84
+# text = daz ktb az %t%-1 ir mir shik mlemburg ikh hab mit r' mikhl nokh nisht giret
+1	daz	_	DET	D	PronType=Art	2	det	_	_
+2	ktb	_	NOUN	N-D	Definite=Def	16	obl	_	_
+3	az	_	SCONJ	C	_	7	mark	_	_
+4	%t%-1	_	NOUN	NP-ACC	_	7	dep	_	_
+5	ir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+6	mir	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+7	shik	_	VERB	VBF	VerbForm=Fin	2	acl:relcl	_	_
+8	mlemburg	from_Lemberg	X	H	_	7	obl	_	_
+9	ikh	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+10	hab	_	AUX	HVF	VerbForm=Fin	16	aux	_	_
+11	mit	_	ADP	P	_	12	case	_	_
+12	r'	_	PROPN	NPR	_	16	obl	_	_
+13	mikhl	_	PROPN	NPR	_	12	flat:name	_	_
+14	nokh	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+15	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	16	advmod	_	_
+16	giret	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.81
+# X_ID = 1588E-LETTERS-CRACOW,53.85
+# text = den ikh hab den slikh nit oyf hltin velin zeyn hlbin
+1	den	_	CCONJ	CONJ	_	8	cc	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+3	hab	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+4	den	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	slikh	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	8	obj	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+7	oyf	_	ADP	RP	_	8	compound:prt	_	_
+8	hltin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+9	velin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	8	aux	_	_
+10	zeyn	_	PRON	PRO$	_	11	det:poss	_	_
+11	hlbin	_	NOUN	N	_	8	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.82
+# X_ID = 1588E-LETTERS-CRACOW,53.86
+# text = daz enk kan ikh mit peybsli vaul nokh sreybn
+1	daz	_	DET	D-ACC	Case=Acc|PronType=Art	9	obj	_	_
+2	enk	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+3	kan	_	AUX	MDF	VerbForm=Fin	9	aux	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+5	mit	_	ADP	P	_	6	case	_	_
+6	peybsli	_	PROPN	NPR	_	9	obl	_	_
+7	vaul	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+8	nokh	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+9	sreybn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.83
+# X_ID = 1588E-LETTERS-CRACOW,53.87
+# text = un vaz %t%-1 an iz blngin zeyn vert muz er ken k"k puzna shreybn
+1	un	_	CCONJ	CONJ	_	14	cc	_	_
+2	vaz	_	PRON	WPRO	_	6	obj	_	_
+3	%t%-1	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+4	an	_	ADP	RP	_	6	compound:prt	_	_
+5	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+6	blngin	_	VERB	VAG	Tense=Pres|VerbForm=Part	14	obl	_	_
+7	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	8	det:poss	_	_
+8	vert	_	NOUN	N	_	6	obj	_	_
+9	muz	_	AUX	MDF	VerbForm=Fin	14	aux	_	_
+10	er	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+11	ken	_	ADP	P	_	13	case	_	_
+12	k"k	community_holy	X	H	_	13	dep	_	_
+13	puzna	_	PROPN	NPR	_	14	obl	_	_
+14	shreybn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.84
+# X_ID = 1588E-LETTERS-CRACOW,53.88
+# text = drum hab ikh den shlikh bkhinm nit velin lazn %ich%-1 vrtin
+1	drum	_	ADP	P	_	9	obl	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+4	den	_	DET	D	PronType=Art	9	obl	_	_
+5	shlikh	UNKNOWN	X	H	_	4	dep	_	_
+6	bkhinm	UNKNOWN	X	H	_	4	dep	_	_
+7	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+8	velin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	9	aux	_	_
+9	lazn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+10	%ich%-1	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+11	vrtin	_	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.85
+# X_ID = 1588E-LETTERS-CRACOW,53.89
+# text = min zekht
+1	min	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	zekht	_	VERB	VBI	Mood=Imp	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.86
+# X_ID = 1588E-LETTERS-CRACOW,53.90
+# text = vert ir vaz meu't habin zoy kuft eykh vaz bak_fel adr elint heyt dz mir eyer hutsa'ut vidr givinn kent
+1	vert	_	AUX	RDF	VerbForm=Fin	5	aux	_	_
+2	ir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	vaz	_	DET	Q-ACC	Case=Acc	4	det	_	_
+4	meu't	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+5	habin	_	VERB	VB	VerbForm=Inf	7	advcl	_	_
+6	zoy	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	kuft	_	VERB	VBI	Mood=Imp	0	root	_	_
+8	eykh	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+9	vaz	_	DET	Q-ACC	Case=Acc	10	det	_	_
+10	bak_fel	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+11	adr	_	CCONJ	CONJ	_	13	cc	_	_
+12	elint	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	13	amod	_	_
+13	heyt	_	NOUN	N-ACC	Case=Acc	10	conj	_	_
+14	dz	_	SCONJ	C	_	19	mark	_	_
+15	mir	_	PRON	PRO-NOM	Case=Nom	19	nsubj	_	_
+16	eyer	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	17	det:poss	_	_
+17	hutsa'ut	_	NOUN	N	_	19	obj	_	_
+18	vidr	_	ADV	ADV	Degree=Pos	19	advmod	_	_
+19	givinn	_	VERB	VB	VerbForm=Inf	7	advcl	_	_
+20	kent	_	AUX	MDF	VerbForm=Fin	19	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.87
+# X_ID = 1588E-LETTERS-CRACOW,53.91
+# text = nayart kuft nit eyn_zoy az far azoy vi frier
+1	nayart	_	ADV	FP	Degree=Pos	2	advmod	_	_
+2	kuft	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+4	eyn_zoy	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+5	az	_	ADP	P	_	7	case	_	_
+6	far	_	ADP	P	_	7	case	_	_
+7	azoy	_	ADV	ADV	Degree=Pos	4	obl	_	_
+8	vi	_	ADP	P	_	9	case	_	_
+9	frier	_	ADV	ADV	Degree=Pos	7	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.88
+# X_ID = 1588E-LETTERS-CRACOW,53.92
+# text = tamin li het ikh bmzl nit eyn_zoy an gitrafin het %pro% zer ibl gihndlit
+1	tamin	believe_you	X	H	_	14	dep	_	_
+2	li	to_me	X	H	_	1	dep	_	_
+3	het	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+5	bmzl	in_luck	X	H	_	9	dep	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+7	eyn_zoy	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+8	an	_	ADP	RP	_	9	compound:prt	_	_
+9	gitrafin	_	VERB	VBN	Tense=Past|VerbForm=Part	14	advcl	_	_
+10	het	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+11	%pro%	_	NOUN	NP-SBJ	_	14	nsubj	_	_
+12	zer	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+13	ibl	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+14	gihndlit	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.89
+# X_ID = 1588E-LETTERS-CRACOW,53.93
+# text = mn hat mir daz krn nit velin drum gebin
+1	mn	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+2	hat	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+3	mir	_	PRON	PRO-DTV	Case=Dat	9	iobj	_	_
+4	daz	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	krn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	9	obj	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+7	velin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	9	aux	_	_
+8	drum	_	ADP	P	_	9	obl	_	_
+9	gebin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.90
+# X_ID = 1588E-LETTERS-CRACOW,53.94
+# text = drum zekht eykh besir fur
+1	drum	_	ADP	P	_	2	obl	_	_
+2	zekht	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	eykh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	besir	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+5	fur	_	ADP	RP	_	2	compound:prt	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.91
+# X_ID = 1588E-LETTERS-CRACOW,53.95
+# text = vaz %t%-1 blngin iz brndeyli lebn drft ir gar niks tsu zargn fr ir
+1	vaz	_	PRON	WPRO	_	3	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	blngin	_	VERB	VAG	Tense=Pres|VerbForm=Part	7	obl	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+5	brndeyli	_	PROPN	NPR-ACC	_	3	dep	_	_
+6	lebn	_	PROPN	NPR	_	5	flat:name	_	_
+7	drft	_	VERB	MDF	VerbForm=Fin	0	root	_	_
+8	ir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+9	gar	_	ADV	ADV	Degree=Pos	12	obj	_	_
+10	niks	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	9	det	_	_
+11	tsu	_	PART	TO	_	12	mark	_	_
+12	zargn	_	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+13	fr	_	ADP	P	_	14	case	_	_
+14	ir	_	PRON	PRO	_	12	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.92
+# X_ID = 1588E-LETTERS-CRACOW,53.96
+# text = %con% kent msig zeyn
+1	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+2	kent	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	msig	_	ADP	RP-H	_	4	compound:prt	_	_
+4	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.93
+# X_ID = 1588E-LETTERS-CRACOW,53.97
+# text = zi vil eykh nit her habin
+1	zi	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	vil	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+3	eykh	_	PRON	PRO-ACC	Case=Acc	6	obj	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+5	her	_	ADV	RP-ADV	_	6	advmod	_	_
+6	habin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.94
+# X_ID = 1588E-LETTERS-CRACOW,53.98
+# text = vert mti vaz abgin vil %pro% ir nakh vaz leyan
+1	vert	_	AUX	RDF	VerbForm=Fin	4	aux	_	_
+2	mti	when	X	H	_	4	dep	_	_
+3	vaz	_	DET	Q-NOM	Case=Nom	4	nsubj	_	_
+4	abgin	_	VERB	VB-PART	VerbForm=Inf	10	advcl	_	_
+5	vil	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+6	%pro%	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+7	ir	_	PRON	PRO-DTV	Case=Dat	10	iobj	_	_
+8	nakh	_	ADV	ADV	Degree=Pos	10	obj	_	_
+9	vaz	_	DET	Q-ACC	Case=Acc	8	det	_	_
+10	leyan	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.95
+# X_ID = 1588E-LETTERS-CRACOW,53.99
+# text = r' zelig vil %ellps% nakh sukh'ut oykh ken krakh
+1	r'	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+2	zelig	_	PROPN	NPR	_	1	flat:name	_	_
+3	vil	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+4	%ellps%	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	nakh	_	ADP	P	_	6	case	_	_
+6	sukh'ut	_	PROPN	NPR	_	4	obl	_	_
+7	oykh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+8	ken	_	ADP	P	_	9	case	_	_
+9	krakh	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.96
+# X_ID = 1588E-LETTERS-CRACOW,53.100
+# text = min laz ikh eykh visin dz r' kheym k"ts her kumn iz nakh zeyn irush mkhmutu
+1	min	_	DET	QR	_	2	obl	_	_
+2	laz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	eykh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	visin	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	dz	_	SCONJ	C	_	11	mark	_	_
+7	r'	_	PROPN	NPR-SBJ	_	11	nsubj	_	_
+8	kheym	_	PROPN	NPR	_	7	flat:name	_	_
+9	k"ts	_	PROPN	NPR	_	7	dep	_	_
+10	her	_	ADV	RP-ADV	_	11	advmod	_	_
+11	kumn	_	VERB	VBN	Tense=Past|VerbForm=Part	5	ccomp	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	11	cop	_	_
+13	nakh	_	ADP	P	_	14	case	_	_
+14	zeyn	_	PRON	PRO$	_	11	obl	_	_
+15	irush	inheritance	X	H	_	14	dep	_	_
+16	mkhmutu	from_mother_his	X	H	_	14	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.97
+# X_ID = 1588E-LETTERS-CRACOW,53.101
+# text = un %con% hat mit mir giret dz ikh eykh shreyb mkhmt akhut astu di %t%-1 er far giht bitu sl khnn royzsh mdrezints
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+3	hat	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	mit	_	ADP	P	_	5	case	_	_
+5	mir	_	PRON	PRO	_	6	obl	_	_
+6	giret	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	dz	_	SCONJ	C	_	10	mark	_	_
+8	ikh	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+9	eykh	_	PRON	PRO-DTV	Case=Dat	10	iobj	_	_
+10	shreyb	_	VERB	VBF	VerbForm=Fin	6	ccomp	_	_
+11	mkhmt	_	ADP	P	_	12	dep	_	_
+12	akhut	sister	X	H	_	10	obl	_	_
+13	astu	wife_his	X	H	_	12	dep	_	_
+14	di	_	PRON	WPRO	_	18	obj	_	_
+15	%t%-1	_	NOUN	NP-ACC	_	18	dep	_	_
+16	er	_	PRON	PRO-NOM	Case=Nom	18	nsubj	_	_
+17	far	_	ADP	RP	_	18	compound:prt	_	_
+18	giht	_	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+19	bitu	house_his	X	H	_	18	dep	_	_
+20	sl	of	X	H	_	21	dep	_	_
+21	khnn	_	PROPN	NPR	_	19	obl	_	_
+22	royzsh	_	PROPN	NPR	_	21	flat:name	_	_
+23	mdrezints	from_Drezints	X	H	_	21	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.98
+# X_ID = 1588E-LETTERS-CRACOW,53.102
+# text = er meynt givis vil@ @s mutsa mkhukh al hpuel zeyn
+1	er	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	meynt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	givis	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+4	vil@	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+5	@s	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+6	mutsa	_	ADP	RP-H	_	10	compound:prt	_	_
+7	mkhukh	because_of	X	H	_	10	dep	_	_
+8	al	on	X	H	_	7	dep	_	_
+9	hpuel	the_reality	X	H	_	7	dep	_	_
+10	zeyn	_	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.99
+# X_ID = 1588E-LETTERS-CRACOW,53.103
+# text = %exp% shat niks dz ikh eykh shreybn der_fun dz ir fun alin visin zalt
+1	%exp%	_	NOUN	NP-SBJ-1	_	2	nsubj	_	_
+2	shat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	niks	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	2	obj	_	_
+4	dz	_	SCONJ	C	_	7	mark	_	_
+5	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+6	eykh	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+7	shreybn	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+8	der_fun	_	ADP	P	_	7	obl	_	_
+9	dz	_	SCONJ	C	_	13	mark	_	_
+10	ir	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+11	fun	_	ADP	P	_	12	case	_	_
+12	alin	_	DET	Q	_	13	obl	_	_
+13	visin	_	VERB	VB	VerbForm=Inf	7	conj	_	_
+14	zalt	_	AUX	MDF	VerbForm=Fin	13	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.100
+# X_ID = 1588E-LETTERS-CRACOW,53.104
+# text = vaz %t%-1 blngin iz di khumsi'm mhrmb"n zi trfin hi nit eyn_zoy fil gshtin az dartin kent ir ez nit bzul bkumn
+1	vaz	_	PRON	WPRO	_	3	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	blngin	_	VERB	VAG	Tense=Pres|VerbForm=Part	9	obl	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	khumsi'm	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+7	mhrmb"n	from_Rambam	X	H	_	6	dep	_	_
+8	zi	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+9	trfin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	hi	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+11	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	dep	_	_
+12	eyn_zoy	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+13	fil	_	DET	Q	_	11	det	_	_
+14	gshtin	_	NOUN	N	_	11	conj	_	_
+15	az	_	SCONJ	C	_	22	mark	_	_
+16	dartin	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+17	kent	_	AUX	MDF	VerbForm=Fin	22	aux	_	_
+18	ir	_	PRON	PRO-NOM	Case=Nom	22	nsubj	_	_
+19	ez	_	PRON	PRO-ACC	Case=Acc	22	obj	_	_
+20	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	22	advmod	_	_
+21	bzul	cheaply	X	H	_	22	dep	_	_
+22	bkumn	_	VERB	VB	VerbForm=Inf	11	advcl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.101
+# X_ID = 1588E-LETTERS-CRACOW,53.105
+# text = zoy lat@ @s le"e bleybn
+1	zoy	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	lat@	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	@s	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	le"e	forever_until	X	H	_	5	dep	_	_
+5	bleybn	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.102
+# X_ID = 1588E-LETTERS-CRACOW,54.106
+# text = zekht oyb ir mir khlk msi"g sl ras fun a"kh bkumn kent
+1	zekht	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	oyb	_	SCONJ	C	_	11	mark	_	_
+3	ir	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	11	iobj	_	_
+5	khlk	part	X	H	_	11	dep	_	_
+6	msi"g	UNKNOWN	X	H	_	5	dep	_	_
+7	sl	of	X	H	_	5	dep	_	_
+8	ras	head	X	H	_	5	dep	_	_
+9	fun	_	ADP	P	_	10	dep	_	_
+10	a"kh	way_of_life	X	H	_	11	dep	_	_
+11	bkumn	_	VERB	VB	VerbForm=Inf	1	dep	_	_
+12	kent	_	AUX	MDF	VerbForm=Fin	11	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.103
+# X_ID = 1588E-LETTERS-CRACOW,54.107
+# text = zoy kuft in
+1	zoy	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	kuft	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	in	_	PRON	PRO-ACC	Case=Acc	2	obj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.104
+# X_ID = 1588E-LETTERS-CRACOW,54.108
+# text = %pro% iz mir fr_larin givardin
+1	%pro%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+3	mir	_	PRON	PRO-DTV	Case=Dat	4	iobj	_	_
+4	fr_larin	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+5	givardin	_	VERB	RDN	Tense=Past|VerbForm=Part	4	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.105
+# X_ID = 1588E-LETTERS-CRACOW,54.109
+# text = min zeyt gibetin %t%-1 blngin iz meyn zakh ? hlbin fun den shif ? oyb ir@ @s der_forshin kent
+1	min	_	DET	QR	_	0	root	_	_
+2	zeyt	_	AUX	BEI	Mood=Imp	1	cop	_	_
+3	gibetin	_	VERB	VAN	Tense=Past|VerbForm=Part	1	xcomp	_	_
+4	%t%-1	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+5	blngin	_	VERB	VAG	Tense=Pres|VerbForm=Part	18	obl	_	_
+6	iz	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+7	meyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	8	det:poss	_	_
+8	zakh	_	NOUN	N	_	5	obj	_	_
+9	?	_	X	X	_	8	dep	_	_
+10	hlbin	_	NOUN	N	_	8	conj	_	_
+11	fun	_	ADP	P	_	13	case	_	_
+12	den	_	DET	D	PronType=Art	13	det	_	_
+13	shif	_	NOUN	N-D	Definite=Def	8	obl	_	_
+14	?	_	X	X	_	18	dep	_	_
+15	oyb	_	SCONJ	C	_	18	mark	_	_
+16	ir@	_	PRON	PRO-NOM	Case=Nom	18	nsubj	_	_
+17	@s	_	PRON	PRO-ACC	Case=Acc	18	obj	_	_
+18	der_forshin	_	VERB	VB	VerbForm=Inf	1	dep	_	_
+19	kent	_	AUX	MDF	VerbForm=Fin	18	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.106
+# X_ID = 1588E-LETTERS-CRACOW,54.110
+# text = ugm bifelt@ @s eyerin fatr
+1	ugm	and_also	X	H	_	2	dep	_	_
+2	bifelt@	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	@s	_	PRON	PRO-ACC	Case=Acc	2	obj	_	_
+4	eyerin	_	PRON	PRO$-DTV	Case=Dat|PronType=Poss	5	det:poss	_	_
+5	fatr	_	NOUN	N	_	2	iobj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.107
+# X_ID = 1588E-LETTERS-CRACOW,54.111
+# text = ven er ir nit zu vert dz er mmrsh eynm bmkumi zeyn mekht velt %pro% im oyf k"d ... shikin dz ez mir eyn_malt gitsalt ver
+1	ven	_	SCONJ	C	_	6	mark	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+3	ir	_	X	X	_	6	dep	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+5	zu	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	vert	_	VERB	VBF	VerbForm=Fin	20	advcl	_	_
+7	dz	_	SCONJ	C	_	12	mark	_	_
+8	er	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+9	mmrsh	permit	X	H	_	12	dep	_	_
+10	eynm	_	X	X	_	9	dep	_	_
+11	bmkumi	in_place_his	X	H	_	12	dep	_	_
+12	zeyn	_	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+13	mekht	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+14	velt	_	AUX	MDF	VerbForm=Fin	20	aux	_	_
+15	%pro%	_	NOUN	NP-SBJ	_	20	nsubj	_	_
+16	im	_	PRON	PRO-DTV	Case=Dat	20	iobj	_	_
+17	oyf	_	ADP	P	_	18	dep	_	_
+18	k"d	UNKNOWN	X	H	_	20	dep	_	SpaceAfter=No
+19	...	_	PUNCT	PUNC	_	20	punct	_	_
+20	shikin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+21	dz	_	SCONJ	C	_	25	mark	_	_
+22	ez	_	PRON	PRO-NOM	Case=Nom	25	nsubj	_	_
+23	mir	_	PRON	PRO-DTV	Case=Dat	25	iobj	_	_
+24	eyn_malt	_	ADV	ADV	Degree=Pos	25	advmod	_	_
+25	gitsalt	_	VERB	VAN	Tense=Past|VerbForm=Part	20	advcl	_	_
+26	ver	_	AUX	BEF	VerbForm=Fin	25	cop	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.108
+# X_ID = 1588E-LETTERS-CRACOW,54.112
+# text = ir vist ez hat mir mkhlif mskurt esrt mugi'm gevezin .
+1	ir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	vist	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ez	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	10	expl	_	_
+4	hat	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+5	mir	_	PRON	PRO-DTV	Case=Dat	10	iobj	_	_
+6	mkhlif	UNKNOWN	X	H	_	10	dep	_	_
+7	mskurt	UNKNOWN	X	H	_	6	dep	_	_
+8	esrt	ten	X	H	_	6	dep	_	_
+9	mugi'm	_	ADP	RP-H	_	10	compound:prt	_	_
+10	gevezin	_	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.109
+# X_ID = 1588E-LETTERS-CRACOW,54.113
+# text = zeyt gibetin dz mir eyer fatr moykhl iz
+1	zeyt	_	VERB	BEI	Mood=Imp	0	root	_	_
+2	gibetin	_	VERB	VAN	Tense=Past|VerbForm=Part	1	xcomp	_	_
+3	dz	_	SCONJ	C	_	8	mark	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	8	iobj	_	_
+5	eyer	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	6	det:poss	_	_
+6	fatr	_	NOUN	N	_	8	nsubj	_	_
+7	moykhl	_	ADP	RP-H	_	8	compound:prt	_	_
+8	iz	_	VERB	VBF	VerbForm=Fin	1	ccomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.110
+# X_ID = 1588E-LETTERS-CRACOW,54.114
+# text = kan ikh hi fil den eyerin vidr tan vil@ %pro% @s ton
+1	kan	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+3	hi	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+4	fil	_	DET	Q-ACC	Case=Acc	8	obj	_	_
+5	den	_	DET	D-DTV	Case=Dat|PronType=Art	6	det	_	_
+6	eyerin	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	8	iobj	_	_
+7	vidr	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	tan	_	VERB	VB	VerbForm=Inf	12	advcl	_	_
+9	vil@	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+10	%pro%	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+11	@s	_	PRON	PRO-ACC	Case=Acc	12	obj	_	_
+12	ton	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.111
+# X_ID = 1588E-LETTERS-CRACOW,54.115
+# text = den brib gebt oykh an
+1	den	_	DET	D-ACC	Case=Acc|PronType=Art	2	det	_	_
+2	brib	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+3	gebt	_	VERB	VBI	Mood=Imp	0	root	_	_
+4	oykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	an	_	ADP	RP	_	3	compound:prt	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.112
+# X_ID = 1588E-LETTERS-CRACOW,54.116
+# text = tut eyn mtsuh
+1	tut	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+3	mtsuh	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	1	obj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.113
+# X_ID = 1588E-LETTERS-CRACOW,54.117
+# text = ikh hab@ @s mit den shlikh bsud gihltin
+1	ikh	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+2	hab@	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+3	@s	_	PRON	PRO-ACC	Case=Acc	8	obj	_	_
+4	mit	_	ADP	P	_	6	case	_	_
+5	den	_	DET	D	PronType=Art	6	det	_	_
+6	shlikh	_	NOUN	N-D	Definite=Def	8	obl	_	_
+7	bsud	in_secret	X	H	_	8	dep	_	_
+8	gihltin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.114
+# X_ID = 1588E-LETTERS-CRACOW,54.118
+# text = un %con% hab im@ @s fr_botin nokh kudm az er tsu mir kumn iz
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+3	hab	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	im@	_	PRON	PRO-DTV	Case=Dat	6	iobj	_	_
+5	@s	_	PRON	PRO-ACC	Case=Acc	6	obj	_	_
+6	fr_botin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	nokh	_	ADP	P	_	8	dep	_	_
+8	kudm	first	X	H	_	6	obl	_	_
+9	az	_	SCONJ	C	_	13	mark	_	_
+10	er	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+11	tsu	_	ADP	P	_	12	case	_	_
+12	mir	_	PRON	PRO	_	13	obl	_	_
+13	kumn	_	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+14	iz	_	AUX	BEF	VerbForm=Fin	13	cop	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.115
+# X_ID = 1588E-LETTERS-CRACOW,54.119
+# text = zoy iz di gnts khilh ful givezin dz ikh eyn slikh miukhd %ich%-1 hab fun eykh vi vaul dz ikh@ @s gileykint hab
+1	zoy	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+4	gnts	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	5	amod	_	_
+5	khilh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+6	ful	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	dz	_	SCONJ	C	_	14	mark	_	_
+9	ikh	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+10	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	11	det	_	_
+11	slikh	_	NOUN	N-ACC	Case=Acc	14	obj	_	_
+12	miukhd	special	X	H	_	11	dep	_	_
+13	%ich%-1	_	ADP	PP	_	11	obl	_	_
+14	hab	_	VERB	VBF	VerbForm=Fin	7	ccomp	_	_
+15	fun	_	ADP	P	_	16	case	_	_
+16	eykh	_	PRON	PRO	_	14	obl	_	_
+17	vi	_	ADV	WADV	Degree=Pos	22	advmod	_	_
+18	vaul	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+19	dz	_	SCONJ	C	_	22	mark	_	_
+20	ikh@	_	PRON	PRO-NOM	Case=Nom	22	nsubj	_	_
+21	@s	_	PRON	PRO-ACC	Case=Acc	22	obj	_	_
+22	gileykint	_	VERB	VBN	Tense=Past|VerbForm=Part	7	advcl	_	_
+23	hab	_	AUX	HVF	VerbForm=Fin	22	aux	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.116
+# X_ID = 1588E-LETTERS-CRACOW,54.120
+# text = ir het im@ @s dortin zolin fr_bitin .
+1	ir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+2	het	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+3	im@	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+4	@s	_	PRON	PRO-ACC	Case=Acc	7	obj	_	_
+5	dortin	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+6	zolin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	7	aux	_	_
+7	fr_bitin	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.117
+# X_ID = 1588E-LETTERS-CRACOW,54.121
+# text = halts vil ikh koyfn ai"h
+1	halts	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+2	vil	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	koyfn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	ai"h	if_will_want_God	X	H	_	4	discourse	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.118
+# X_ID = 1588E-LETTERS-CRACOW,54.122
+# text = un dz meyd vil ikh eykh dingin
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	dz	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+3	meyd	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	7	obj	_	_
+4	vil	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+5	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+6	eykh	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+7	dingin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.119
+# X_ID = 1588E-LETTERS-CRACOW,54.123
+# text = vert@ @s di nit zeyn velin mir zehn nakh eyn andri
+1	vert@	_	AUX	RDF	VerbForm=Fin	5	aux	_	_
+2	@s	_	PRON	PRO	_	5	xcomp	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	nsubj	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	5	advmod	_	_
+5	zeyn	_	VERB	VB	VerbForm=Inf	8	advcl	_	_
+6	velin	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+7	mir	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+8	zehn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+9	nakh	_	ADP	P	_	11	case	_	_
+10	eyn	_	DET	D	PronType=Art	11	det	_	_
+11	andri	_	ADJ	ADJ	Degree=Pos	8	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.120
+# X_ID = 1588E-LETTERS-CRACOW,54.124
+# text = min hab %pro% eykh fr_gesin %ich%-1 tsu shreybn vaz %t%-2 ez gishtndin hat hstdles mpritsin meynstr dz ir nit zalt meynin ez het zer fil gistndin
+1	min	_	DET	QR	_	5	obl	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	%pro%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+4	eykh	_	PRON	PRO	_	5	obl	_	_
+5	fr_gesin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	%ich%-1	_	NOUN	NP-DTV	_	8	dep	_	_
+7	tsu	_	PART	TO	_	8	mark	_	_
+8	shreybn	_	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	vaz	_	PRON	WPRO	_	12	obj	_	_
+10	%t%-2	_	NOUN	NP-MSR	_	12	obl	_	_
+11	ez	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	12	expl	_	_
+12	gishtndin	_	VERB	VBN	Tense=Past|VerbForm=Part	8	dep	_	_
+13	hat	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+14	hstdles	_	PROPN	NPR-LGS	_	12	dep	_	_
+15	mpritsin	from_Pritsin	X	H	_	14	dep	_	_
+16	meynstr	_	NOUN	N	_	14	conj	_	_
+17	dz	_	SCONJ	C	_	5	dep	_	_
+18	ir	_	PRON	PRO-NOM	Case=Nom	21	nsubj	_	_
+19	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	21	advmod	_	_
+20	zalt	_	AUX	MDF	VerbForm=Fin	21	aux	_	_
+21	meynin	_	VERB	VB	VerbForm=Inf	17	conj	_	_
+22	ez	_	PRON	PRO-NOM	Case=Nom	26	nsubj	_	_
+23	het	_	AUX	HVF	VerbForm=Fin	26	aux	_	_
+24	zer	_	ADV	ADV	Degree=Pos	26	obl	_	_
+25	fil	_	DET	Q	_	24	det	_	_
+26	gistndin	_	VERB	VBN	Tense=Past|VerbForm=Part	21	ccomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.121
+# X_ID = 1588E-LETTERS-CRACOW,54.125
+# text = er hat an daz khdr zufltsirt vi er eykh het nun min az m' sak ribt gebn fun eyn zoyan klign skh makhr
+1	er	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	hat	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+3	an	_	ADP	P	_	5	case	_	_
+4	daz	_	DET	D	PronType=Art	5	det	_	_
+5	khdr	_	NOUN	N-D	Definite=Def	6	obl	_	_
+6	zufltsirt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	vi	_	SCONJ	C	_	17	mark	_	_
+8	er	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+9	eykh	_	PRON	PRO-DTV	Case=Dat	17	iobj	_	_
+10	het	_	AUX	HVF	VerbForm=Fin	17	aux	_	_
+11	nun	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+12	min	_	DET	QR	_	17	dep	_	_
+13	az	_	ADP	P	_	14	case	_	_
+14	m'	_	NUM	NUM	_	12	obl	_	_
+15	sak	_	NOUN	N	_	14	conj	_	_
+16	ribt	_	NOUN	N	_	14	nmod:poss	_	_
+17	gebn	_	VERB	VBN	Tense=Past|VerbForm=Part	6	ccomp	_	_
+18	fun	_	ADP	P	_	19	case	_	_
+19	eyn	_	DET	D	PronType=Art	17	obl	_	_
+20	zoyan	_	X	X	_	19	dep	_	_
+21	klign	_	X	X	_	19	dep	_	_
+22	skh	many	X	H	_	19	dep	_	_
+23	makhr	_	X	X	_	19	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.122
+# X_ID = 1588E-LETTERS-CRACOW,54.126
+# text = der_veyl in der ksr ir"h het oyf gitsoygn zoy velt er keyn ribit gebn
+1	der_veyl	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+2	in	_	PRON	PRO-ACC	Case=Acc	8	obj	_	_
+3	der	_	DET	D-NOM	Case=Nom|PronType=Art	8	nsubj	_	_
+4	ksr	emperor	X	H	_	3	dep	_	_
+5	ir"h	it_will_be_exalted_his_majesty	X	H	_	3	dep	_	_
+6	het	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+7	oyf	_	ADP	RP	_	8	compound:prt	_	_
+8	gitsoygn	_	VERB	VBN	Tense=Past|VerbForm=Part	14	advcl	_	_
+9	zoy	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+10	velt	_	AUX	MDF	VerbForm=Fin	14	aux	_	_
+11	er	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+12	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	13	det	_	_
+13	ribit	_	NOUN	N-ACC	Case=Acc	14	obj	_	_
+14	gebn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.123
+# X_ID = 1588E-LETTERS-CRACOW,54.127
+# text = un %con% velt eykh oyf den m' sak tsu tsilin dz ir het zalin lpi khsbnu bkumn berkh t"u sak
+1	un	_	CCONJ	CONJ	_	10	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+3	velt	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+4	eykh	_	PRON	PRO-DTV	Case=Dat	10	iobj	_	_
+5	oyf	_	ADP	P	_	8	case	_	_
+6	den	_	DET	D	PronType=Art	8	det	_	_
+7	m'	_	NUM	NUM	_	8	nummod	_	_
+8	sak	_	NOUN	N-D	Definite=Def	10	obl	_	_
+9	tsu	_	ADP	RP	_	10	compound:prt	_	_
+10	tsilin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+11	dz	_	SCONJ	C	_	17	mark	_	_
+12	ir	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+13	het	_	AUX	HVF	VerbForm=Fin	17	aux	_	_
+14	zalin	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	17	aux	_	_
+15	lpi	according_to	X	H	_	17	dep	_	_
+16	khsbnu	thought_our	X	H	_	15	dep	_	_
+17	bkumn	_	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+18	berkh	_	ADV	ADV	Degree=Pos	17	dep	_	_
+19	t"u	15	NUM	NUM	_	18	nummod	_	_
+20	sak	_	NOUN	N	_	18	conj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.124
+# X_ID = 1588E-LETTERS-CRACOW,54.128
+# text = zoy habn@ @s mir t"u mutsia fun im givezin .
+1	zoy	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+2	habn@	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+3	@s	_	PRON	PRO-ACC	Case=Acc	9	obj	_	_
+4	mir	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+5	t"u	very_soon_and_immediately	ADV	H	_	9	advmod	_	_
+6	mutsia	_	ADP	RP-H	_	9	compound:prt	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	im	_	PRON	PRO	_	9	obl	_	_
+9	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.125
+# X_ID = 1588E-LETTERS-CRACOW,54.129
+# text = hat gishtndin a' litra pilpul ua' litra inbr
+1	hat	_	AUX	HVF	VerbForm=Fin	2	aux	_	_
+2	gishtndin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	a'	1	X	H	_	2	nsubj	_	_
+4	litra	pound	X	H	_	3	dep	_	_
+5	pilpul	long-winded_debate	X	H	_	3	dep	_	_
+6	ua'	and_1	X	H	_	3	dep	_	_
+7	litra	pound	X	H	_	3	dep	_	_
+8	inbr	UNKNOWN	X	H	_	3	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.126
+# X_ID = 1588E-LETTERS-CRACOW,54.130
+# text = er hat zer msrb givezin an den khdr ir"h
+1	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	hat	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	zer	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+4	msrb	_	ADP	RP-H	_	5	compound:prt	_	_
+5	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	an	_	ADP	P	_	8	case	_	_
+7	den	_	DET	D	PronType=Art	8	det	_	_
+8	khdr	_	NOUN	N-D	Definite=Def	5	obl	_	_
+9	ir"h	it_will_be_exalted_his_majesty	X	H	_	8	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.127
+# X_ID = 1588E-LETTERS-CRACOW,54.131
+# text = %con% kent msig zeyn
+1	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+2	kent	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	msig	_	ADP	RP-H	_	4	compound:prt	_	_
+4	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.128
+# X_ID = 1588E-LETTERS-CRACOW,54.132
+# text = mn hat in mit den halumpin fun shlos muzn hulin un bkhrm gdul muzn gebn uslu'm sni't .
+1	mn	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+2	hat	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+3	in	_	PRON	PRO-ACC	Case=Acc	10	obj	_	_
+4	mit	_	ADP	P	_	6	case	_	_
+5	den	_	DET	D	PronType=Art	6	det	_	_
+6	halumpin	_	NOUN	N-D	Definite=Def	10	obl	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	shlos	_	NOUN	N	_	10	obl	_	_
+9	muzn	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	10	aux	_	_
+10	hulin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+11	un	_	CCONJ	CONJ	_	15	cc	_	_
+12	bkhrm	UNKNOWN	X	H	_	15	dep	_	_
+13	gdul	great	X	H	_	15	dep	_	_
+14	muzn	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	15	aux	_	_
+15	gebn	_	VERB	VB	VerbForm=Inf	10	conj	_	_
+16	uslu'm	and_peace	X	H	_	15	discourse	_	_
+17	sni't	again	X	H	_	15	dep	_	SpaceAfter=No
+18	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.129
+# X_ID = 1588E-LETTERS-CRACOW,66.135
+# text = liben raboysay, vos %t%-1 zolen mir aykh fil shrayben un gor hukh der_manen
+1	liben	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	raboysay	_	NOUN	N	_	0	vocative	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	0	punct	_	_
+4	vos	_	PRON	WPRO	_	0	obj	_	_
+5	%t%-1	_	NOUN	NP-ADV	_	0	obl	_	_
+6	zolen	_	AUX	MDF	VerbForm=Fin	0	aux	_	_
+7	mir	_	PRON	PRO-NOM	Case=Nom	0	nsubj	_	_
+8	aykh	_	PRON	PRO-DTV	Case=Dat	0	iobj	_	_
+9	fil	_	DET	Q-ACC	Case=Acc	0	obj	_	_
+10	shrayben	_	VERB	VB	VerbForm=Inf	0	root	_	_
+11	un	_	CCONJ	CONJ	_	0	cc	_	_
+12	gor	_	ADV	ADV	Degree=Pos	0	advmod	_	_
+13	hukh	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+14	der_manen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.130
+# X_ID = 1588E-LETTERS-CRACOW,66.136
+# text = mir betin eykh lmen rakhmi vekhasde hashem %pro% zult got an zehn un %con% zult der_tsu tun
+1	mir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	betin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	eykh	_	PRON	PRO-ACC	Case=Acc	2	obj	_	_
+4	lmen	for	X	H	_	2	obl	_	_
+5	rakhmi	mercy	X	H	_	4	dep	_	_
+6	vekhasde	and_loving-kindness_of	X	H	_	4	dep	_	_
+7	hashem	the_name	X	H	_	4	dep	_	_
+8	%pro%	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+9	zult	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+10	got	_	PROPN	NPR-ACC	_	12	dep	_	_
+11	an	_	ADP	RP	_	12	compound:prt	_	_
+12	zehn	_	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+13	un	_	CCONJ	CONJ	_	17	cc	_	_
+14	%con%	_	NOUN	NP-SBJ	_	17	nsubj	_	_
+15	zult	_	AUX	MDF	VerbForm=Fin	17	aux	_	_
+16	der_tsu	_	ADP	P	_	17	obl	_	_
+17	tun	_	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.131
+# X_ID = 1588E-LETTERS-CRACOW,66.137
+# text = bifrat zult %con% zehn dz ub es moyglikh iz dz ir zult tsu dem starosti tsihn ken der lnts_krun
+1	bifrat	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	zult	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+4	zehn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	dz	_	SCONJ	C	_	4	dep	_	_
+6	ub	_	SCONJ	C	_	9	mark	_	_
+7	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	9	ccomp	_	_
+8	moyglikh	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	iz	_	VERB	VBF	VerbForm=Fin	4	dep	_	_
+10	dz	_	SCONJ	C	_	7	mark	_	_
+11	ir	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+12	zult	_	AUX	MDF	VerbForm=Fin	16	aux	_	_
+13	tsu	_	ADP	P	_	15	case	_	_
+14	dem	_	DET	D	PronType=Art	15	det	_	_
+15	starosti	_	NOUN	N-D	Definite=Def	16	obl	_	_
+16	tsihn	_	VERB	VB	VerbForm=Inf	7	conj	_	_
+17	ken	_	ADP	P	_	19	case	_	_
+18	der	_	DET	D	PronType=Art	19	det	_	_
+19	lnts_krun	_	NOUN	N-D	Definite=Def	16	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.132
+# X_ID = 1588E-LETTERS-CRACOW,66.138
+# text = un %con% zult makhin dz er shraybt den eiruni'm me-krake hn den eiruni'm me-kazmr hn den pod starusti heyni lagvnitski dz er reyt oyf ds rot_hoyz
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+3	zult	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+4	makhin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	dz	_	SCONJ	C	_	7	mark	_	_
+6	er	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	shraybt	_	VERB	VBF	VerbForm=Fin	4	ccomp	_	_
+8	den	_	DET	D-DTV	Case=Dat|PronType=Art	9	det	_	_
+9	eiruni'm	_	NOUN	N-DTV	Case=Dat	7	iobj	_	_
+10	me-krake	from_Cracow	X	H	_	9	obl	_	_
+11	hn	_	CCONJ	CONJ	_	13	cc	_	_
+12	den	_	DET	D	PronType=Art	13	det	_	_
+13	eiruni'm	_	NOUN	N-D	Definite=Def	9	conj	_	_
+14	me-kazmr	from_Kazimir	X	H	_	13	obl	_	_
+15	hn	_	CCONJ	CONJ	_	18	cc	_	_
+16	den	_	DET	D	PronType=Art	18	det	_	_
+17	pod	_	X	X	_	18	dep	_	_
+18	starusti	_	NOUN	N	_	9	conj	_	_
+19	heyni	_	ADV	ADV	Degree=Pos	20	advmod	_	_
+20	lagvnitski	_	PROPN	NPR	_	18	appos	_	_
+21	dz	_	SCONJ	C	_	23	mark	_	_
+22	er	_	PRON	PRO-NOM	Case=Nom	23	nsubj	_	_
+23	reyt	_	VERB	VBF	VerbForm=Fin	7	advcl	_	_
+24	oyf	_	ADP	P	_	26	case	_	_
+25	ds	_	DET	D	PronType=Art	26	det	_	_
+26	rot_hoyz	_	NOUN	N-D	Definite=Def	23	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.133
+# X_ID = 1588E-LETTERS-CRACOW,66.139
+# text = yenkil iz akh tsu der lnts_krun
+1	yenkil	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	akh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	tsu	_	ADP	P	_	6	case	_	_
+5	der	_	DET	D	PronType=Art	6	det	_	_
+6	lnts_krun	_	NOUN	N-D	Definite=Def	2	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.134
+# X_ID = 1588E-LETTERS-CRACOW,66.140
+# text = men kan zikh abr nisht oyf in ver_lusn
+1	men	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+2	kan	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	8	expl:pv	_	_
+4	abr	_	CCONJ	CONJ	_	8	cc	_	_
+5	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+6	oyf	_	ADP	P	_	7	case	_	_
+7	in	_	PRON	PRO	_	8	obl	_	_
+8	ver_lusn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.135
+# X_ID = 1588E-LETTERS-CRACOW,66.141
+# text = den er iz l"e nit bekav habries
+1	den	_	CCONJ	CONJ	_	3	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	l"e	not_on_us	X	H	_	3	dep	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	3	advmod	_	_
+6	bekav	in_line	X	H	_	3	obl	_	_
+7	habries	the_health	X	H	_	6	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.136
+# X_ID = 1588E-LETTERS-CRACOW,66.142
+# text = drum zikht h.sh.i. an dz ir tsu anndr kumt irgnts vau dz ets droys etsh hlt .
+1	drum	_	ADP	P	_	2	obl	_	_
+2	zikht	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	h.sh.i.	the_name_may_be_blessed	X	H	_	2	dep	_	_
+4	an	_	ADP	RP	_	2	compound:prt	_	_
+5	dz	_	SCONJ	C	_	9	mark	_	_
+6	ir	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+7	tsu	_	ADP	P	_	8	case	_	_
+8	anndr	_	PRON	PRO	_	9	obl	_	_
+9	kumt	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+10	irgnts	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+11	vau	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+12	dz	_	SCONJ	C	_	16	mark	_	_
+13	ets	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+14	droys	_	ADP	P	_	16	obl	_	_
+15	etsh	_	NOUN	N-ACC	Case=Acc	16	obj	_	_
+16	hlt	_	VERB	VBF	VerbForm=Fin	9	advcl	_	SpaceAfter=No
+17	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.137
+# X_ID = 1588E-LETTERS-CRACOW,66.143
+# text = akh muzt ir helfn mit gelt
+1	akh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	muzt	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	ir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	helfn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	mit	_	ADP	P	_	6	case	_	_
+6	gelt	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.138
+# X_ID = 1588E-LETTERS-CRACOW,66.144
+# text = es kumt leu"h oyf di tsdkh leyt di %t%-1 men nit gizukht het, dz es got der_barim, bifrat veyl nimnts tar in di shtot tar gin
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	leu"h	to_sins_our_the_many	X	H	_	2	obl	_	_
+4	oyf	_	ADP	P	_	6	case	_	_
+5	di	_	DET	D	PronType=Art	6	det	_	_
+6	tsdkh	_	NOUN	N-D	Definite=Def	2	obl	_	_
+7	leyt	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+8	di	_	PRON	WPRO	_	12	obj	_	_
+9	%t%-1	_	NOUN	NP-ACC	_	12	dep	_	_
+10	men	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+11	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	12	advmod	_	_
+12	gizukht	_	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	het	_	AUX	HVF	VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	2	punct	_	_
+15	dz	_	SCONJ	C	_	18	mark	_	_
+16	es	_	PRON	PRO-NOM	Case=Nom	18	nsubj	_	_
+17	got	_	PROPN	NPR-ACC	_	18	dep	_	_
+18	der_barim	_	VERB	VBF	VerbForm=Fin	2	advcl	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	2	punct	_	_
+20	bifrat	_	ADV	ADV	Degree=Pos	28	advmod	_	_
+21	veyl	_	SCONJ	C	_	28	mark	_	_
+22	nimnts	_	DET	Q-NOM	Case=Nom	28	nsubj	_	_
+23	tar	_	AUX	MDF	VerbForm=Fin	28	aux	_	_
+24	in	_	ADP	P	_	26	case	_	_
+25	di	_	DET	D	PronType=Art	26	det	_	_
+26	shtot	_	NOUN	N-D	Definite=Def	28	obl	_	_
+27	tar	_	AUX	MDF-DBL	VerbForm=Fin	28	aux	_	_
+28	gin	_	VERB	VB	VerbForm=Inf	2	advcl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.139
+# X_ID = 1588E-LETTERS-CRACOW,66.145
+# text = di hutsaus zeyn beu"h tsu fil mn hutsaus kbrni'm br_minn hutsaus sumrim goyim, hutsau's sumri'm ihudi'm lhbdil hutsaus eneym
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	hutsaus	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	beu"h	for_sins_our_the_many	X	H	_	3	obl	_	_
+5	tsu	_	ADV	ADV	Degree=Pos	3	xcomp	_	_
+6	fil	_	DET	Q	_	5	det	_	_
+7	mn	from	X	H	_	3	dep	_	_
+8	hutsaus	expenses	X	H	_	7	dep	_	_
+9	kbrni'm	gravediggers	X	H	_	7	dep	_	_
+10	br_minn	God_forbid	X	H	_	7	dep	_	_
+11	hutsaus	expenses	X	H	_	7	dep	_	_
+12	sumrim	guards	X	H	_	7	dep	_	_
+13	goyim	Gentiles	X	H	_	7	dep	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	7	punct	_	_
+15	hutsau's	expenses	X	H	_	7	dep	_	_
+16	sumri'm	guards	X	H	_	7	dep	_	_
+17	ihudi'm	Jews	X	H	_	7	dep	_	_
+18	lhbdil	to_separate	X	H	_	7	dep	_	_
+19	hutsaus	expenses	X	H	_	7	dep	_	_
+20	eneym	eyes	X	H	_	7	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.140
+# X_ID = 1588E-LETTERS-CRACOW,66.146
+# text = di zeyn beu"h nit %t%-1 tsu shreybn
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	beu"h	for_sins_our_the_many	X	H	_	2	obl	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+5	%t%-1	_	NOUN	NP-ACC	_	7	dep	_	_
+6	tsu	_	PART	TO	_	7	mark	_	_
+7	shreybn	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.141
+# X_ID = 1588E-LETTERS-CRACOW,66.147
+# text = drum zikht got an
+1	drum	_	ADP	P	_	2	obl	_	_
+2	zikht	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	got	_	PROPN	NPR-ACC	_	2	dep	_	_
+4	an	_	ADP	RP	_	2	compound:prt	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.142
+# X_ID = 1588E-LETTERS-CRACOW,66.148
+# text = un hilft mit alin zakhin di %t%-1 da %t%-2 tsu helfin zeyn
+1	un	_	CCONJ	CONJ	_	2	cc	_	_
+2	hilft	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	mit	_	ADP	P	_	5	case	_	_
+4	alin	_	DET	Q	_	5	det	_	_
+5	zakhin	_	NOUN	N	_	2	obl	_	_
+6	di	_	PRON	WPRO	_	12	obj	_	_
+7	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+8	da	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+9	%t%-2	_	NOUN	NP-DTV	_	11	dep	_	_
+10	tsu	_	PART	TO	_	11	mark	_	_
+11	helfin	_	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+12	zeyn	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.143
+# X_ID = 1588E-LETTERS-CRACOW,66.149
+# text = zikht shikt tsu leytn di ir vist dz zi fun khl i"ts zeyn dz zi akh helfin .
+1	zikht	_	VERB	VBI	Mood=Imp	2	ccomp	_	_
+2	shikt	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	tsu	_	ADP	P	_	4	case	_	_
+4	leytn	_	NOUN	N	_	2	obl	_	_
+5	di	_	PRON	WPRO	_	7	obj	_	_
+6	ir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	vist	_	VERB	VBF	VerbForm=Fin	4	acl:relcl	_	_
+8	dz	_	SCONJ	C	_	13	mark	_	_
+9	zi	_	PRON	PRO	_	13	nsubj	_	_
+10	fun	_	ADP	P	_	11	dep	_	_
+11	khl	public	X	H	_	13	dep	_	_
+12	i"ts	he_will_protect_them	X	H	_	13	dep	_	_
+13	zeyn	_	VERB	VBF	VerbForm=Fin	7	ccomp	_	_
+14	dz	_	SCONJ	C	_	17	mark	_	_
+15	zi	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+16	akh	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+17	helfin	_	VERB	VBF	VerbForm=Fin	2	advcl	_	SpaceAfter=No
+18	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.144
+# X_ID = 1588E-LETTERS-CRACOW,66.150
+# text = ir vist vaul dz ir hut mit uns keynim keyn urt gimakht
+1	ir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	vist	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	vaul	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	dz	_	SCONJ	C	_	12	mark	_	_
+5	ir	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+6	hut	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+7	mit	_	ADP	P	_	9	case	_	_
+8	uns	_	PRON	PRO	_	9	nmod	_	_
+9	keynim	_	DET	Q-NEG	Polarity=Neg	12	obl	_	_
+10	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	11	det	_	_
+11	urt	_	NOUN	N-ACC	Case=Acc	12	obj	_	_
+12	gimakht	_	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.145
+# X_ID = 1588E-LETTERS-CRACOW,66.151
+# text = nor bleybn mir fun hs"i vegin
+1	nor	_	CCONJ	CONJ	_	2	cc	_	_
+2	bleybn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	mir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	fun	_	ADP	P	_	5	dep	_	_
+5	hs"i	his_name_may_be_blessed	X	H	_	2	obl	_	_
+6	vegin	_	NOUN	N	_	5	conj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.146
+# X_ID = 1588E-LETTERS-CRACOW,66.152
+# text = un %con% vegin zikh in in zilkhn feyer un flam un in zilkhn skhnes
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	vegin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	3	expl:pv	_	_
+5	in	_	ADP	P	_	3	dep	_	_
+6	in	_	ADP	P	_	8	case	_	_
+7	zilkhn	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	feyer	_	NOUN	N	_	3	obl	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	flam	_	NOUN	N	_	8	conj	_	_
+11	un	_	CCONJ	CONJ	_	14	cc	_	_
+12	in	_	ADP	P	_	14	case	_	_
+13	zilkhn	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	skhnes	_	NOUN	N	_	8	conj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.147
+# X_ID = 1588E-LETTERS-CRACOW,66.153
+# text = hs"i zul sumr isral zeyn
+1	hs"i	his_name_may_be_blessed	X	H	_	5	dep	_	_
+2	zul	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	sumr	guard	X	H	_	4	dep	_	_
+4	isral	_	PROPN	NPR	_	5	xcomp	_	_
+5	zeyn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.148
+# X_ID = 1588E-LETTERS-CRACOW,66.154
+# text = vau nit kh"v da vist dz mir akh velin vek loyfn
+1	vau	_	SCONJ	C	_	5	advcl	_	_
+2	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	1	xcomp	_	_
+3	kh"v	have_mercy_and_peace	X	H	_	5	dep	_	_
+4	da	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	vist	_	VERB	VBI	Mood=Imp	0	root	_	_
+6	dz	_	SCONJ	C	_	11	mark	_	_
+7	mir	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+8	akh	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+9	velin	_	AUX	MDF	VerbForm=Fin	11	aux	_	_
+10	vek	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+11	loyfn	_	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.149
+# X_ID = 1588E-LETTERS-CRACOW,66.155
+# text = un %con% velin veytr nit eyeri heyzr hitn hn in der gs hn in dem mku'm
+1	un	_	CCONJ	CONJ	_	8	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+3	velin	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+4	veytr	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+6	eyeri	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	7	det:poss	_	_
+7	heyzr	_	NOUN	N	_	8	obj	_	_
+8	hitn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+9	hn	_	CCONJ	CONJ	_	12	cc	_	_
+10	in	_	ADP	P	_	12	case	_	_
+11	der	_	DET	D	PronType=Art	12	det	_	_
+12	gs	_	NOUN	N-D	Definite=Def	8	obl	_	_
+13	hn	_	CCONJ	CONJ	_	16	cc	_	_
+14	in	_	ADP	P	_	16	case	_	_
+15	dem	_	DET	D	PronType=Art	16	det	_	_
+16	mku'm	_	NOUN	N-D	Definite=Def	12	conj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.150
+# X_ID = 1588E-LETTERS-CRACOW,66.156
+# text = den es tar keyn ihudi nit in ds mkum %ellps% :
+1	den	_	CCONJ	CONJ	_	10	cc	_	_
+2	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	10	expl	_	_
+3	tar	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+4	keyn	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	5	det	_	_
+5	ihudi	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	ds	_	DET	D	PronType=Art	9	det	_	_
+9	mkum	_	NOUN	N-D	Definite=Def	10	obl	_	_
+10	%ellps%	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	:	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.151
+# X_ID = 1588E-LETTERS-CRACOW,66.157
+# text = drum zikht gat it"s an
+1	drum	_	ADP	P	_	2	obl	_	_
+2	zikht	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	gat	_	PROPN	NPR-ACC	_	2	dep	_	_
+4	it"s	may_be_blessed_name	X	H	_	3	dep	_	_
+5	an	_	ADP	RP	_	2	compound:prt	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.152
+# X_ID = 1588E-LETTERS-CRACOW,66.158
+# text = un hilft %arb% ratin
+1	un	_	CCONJ	CONJ	_	2	cc	_	_
+2	hilft	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	%arb%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+4	ratin	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.153
+# X_ID = 1588E-LETTERS-CRACOW,66.159
+# text = ir vist %pro% zeit al eyn_vek gilufn un di hkhrzes ali %ich%-2 vaul givist di %t%-3 men vert tun
+1	ir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	vist	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	%pro%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+4	zeit	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+5	al	_	ADV	Q	_	7	advmod	_	_
+6	eyn_vek	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	gilufn	_	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	un	_	CCONJ	CONJ	_	14	cc	_	_
+9	di	_	DET	D-ACC	Case=Acc|PronType=Art	10	det	_	_
+10	hkhrzes	_	NOUN	N-ACC	Case=Acc	14	obj	_	_
+11	ali	_	ADV	Q-ACC	Case=Acc	10	advmod	_	_
+12	%ich%-2	_	SCONJ	CP-REL	_	10	acl:relcl	_	_
+13	vaul	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+14	givist	_	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	_	_
+15	di	_	PRON	WPRO	_	19	obj	_	_
+16	%t%-3	_	NOUN	NP-ACC	_	19	dep	_	_
+17	men	_	PRON	PRO-NOM	Case=Nom	19	nsubj	_	_
+18	vert	_	AUX	RDF	VerbForm=Fin	19	aux	_	_
+19	tun	_	VERB	VB	VerbForm=Inf	14	acl:relcl	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.154
+# X_ID = 1588E-LETTERS-CRACOW,66.160
+# text = un %con% hut ali mit anndr nisht %ich%-1 gitun neyart eyn_vek tsu loyfn un di khilh its"u azu el krn tsbi gilusn
+1	un	_	CCONJ	CONJ	_	9	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+3	hut	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+4	ali	_	ADV	Q	_	9	advmod	_	_
+5	mit	_	ADP	P	_	6	case	_	_
+6	anndr	_	PRON	PRO	_	4	obl	_	_
+7	nisht	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	9	obj	_	_
+8	%ich%-1	_	X	IP-INF-PRN	_	7	xcomp	_	_
+9	gitun	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	neyart	_	ADV	FP	Degree=Pos	13	advmod	_	_
+11	eyn_vek	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+12	tsu	_	PART	TO	_	13	mark	_	_
+13	loyfn	_	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+14	un	_	CCONJ	CONJ	_	22	cc	_	_
+15	di	_	DET	D-ACC	Case=Acc|PronType=Art	16	det	_	_
+16	khilh	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	22	obj	_	_
+17	its"u	he_will_sustain_them	X	H	_	22	dep	_	_
+18	azu	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+19	el	on	X	H	_	22	dep	_	_
+20	krn	foundation	X	H	_	19	dep	_	_
+21	tsbi	UNKNOWN	X	H	_	19	dep	_	_
+22	gilusn	_	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.155
+# X_ID = 1588E-LETTERS-CRACOW,66.161
+# text = psita es zeyn fil untr khl its"u di %t%-1 zikh ver_entvrn zeyn nisht nits
+1	psita	obviously	X	H	_	3	dep	_	_
+2	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
+3	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	fil	_	DET	Q-NOM	Case=Nom	3	nsubj	_	_
+5	untr	_	ADP	P	_	6	case	_	_
+6	khl	_	NOUN	N	_	4	obl	_	_
+7	its"u	he_will_sustain_them	X	H	_	4	discourse	_	_
+8	di	_	PRON	WPRO	_	11	obj	_	_
+9	%t%-1	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+10	zikh	_	PRON	PRO-RFL	PronType=Reflex	11	expl:pv	_	_
+11	ver_entvrn	_	VERB	VAG	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
+12	zeyn	_	AUX	BEF	VerbForm=Fin	11	cop	_	_
+13	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	11	dep	_	_
+14	nits	_	DET	Q-NEG	Polarity=Neg	13	det	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.156
+# X_ID = 1588E-LETTERS-CRACOW,66.162
+# text = abr dukh ir hut gizehn vi %t%-1 di zakh hut giht eyn gistalt
+1	abr	_	CCONJ	CONJ	_	5	cc	_	_
+2	dukh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+3	ir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	hut	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+5	gizehn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	vi	_	ADV	WADV	Degree=Pos	11	advmod	_	_
+7	%t%-1	_	ADV	ADVP	Degree=Pos	11	advmod	_	_
+8	di	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+9	zakh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	11	nsubj	_	_
+10	hut	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+11	giht	_	VERB	VBN	Tense=Past|VerbForm=Part	5	dep	_	_
+12	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	13	det	_	_
+13	gistalt	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	11	obj	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.157
+# X_ID = 1588E-LETTERS-CRACOW,66.163
+# text = drum zikht el kl pni'm dz ir zikht udr zelbirt tsum staroste tsu tsihn udr makhin eyn yom vau %t%-1 mn tsu annr kem un dz er shrib brib tsum mku'm heyni leiruni mkrake hn leiruni mkazmir hn tsu lagvnitski, bifrat dz er oyf ds rot_hoyz reyt .
+1	drum	_	ADP	P	_	2	obl	_	_
+2	zikht	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	el	on	X	H	_	2	obl	_	_
+4	kl	all	X	H	_	3	dep	_	_
+5	pni'm	faces	X	H	_	3	dep	_	_
+6	dz	_	SCONJ	C	_	8	mark	_	_
+7	ir	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+8	zikht	_	VERB	VBF	VerbForm=Fin	2	advcl	_	_
+9	udr	_	CCONJ	CONJ	_	14	cc	_	_
+10	zelbirt	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+11	tsum	_	ADP	P-CL	_	12	case	_	_
+12	staroste	_	NOUN	N	_	14	obl	_	_
+13	tsu	_	PART	TO	_	14	mark	_	_
+14	tsihn	_	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+15	udr	_	CCONJ	CONJ	_	16	cc	_	_
+16	makhin	_	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	18	det	_	_
+18	yom	_	NOUN	N-ACC	Case=Acc	16	obj	_	_
+19	vau	_	ADV	WADV	Degree=Pos	24	advmod	_	_
+20	%t%-1	_	ADV	ADVP-TMP	AdvType=Tim|Degree=Pos	24	advmod	_	_
+21	mn	_	PRON	PRO-NOM	Case=Nom	24	nsubj	_	_
+22	tsu	_	ADP	P	_	23	case	_	_
+23	annr	_	PRON	PRO	_	24	obl	_	_
+24	kem	_	VERB	VBF	VerbForm=Fin	18	acl:relcl	_	_
+25	un	_	CCONJ	CONJ	_	8	conj	_	_
+26	dz	_	SCONJ	C	_	28	mark	_	_
+27	er	_	PRON	PRO-NOM	Case=Nom	28	nsubj	_	_
+28	shrib	_	VERB	VBF	VerbForm=Fin	25	advcl	_	_
+29	brib	_	NOUN	N-ACC	Case=Acc	28	obj	_	_
+30	tsum	_	ADP	P-CL	_	31	case	_	_
+31	mku'm	_	NOUN	N	_	28	obl	_	_
+32	heyni	_	ADV	ADV	Degree=Pos	33	advmod	_	_
+33	leiruni	UNKNOWN	X	H	_	31	obl	_	_
+34	mkrake	from_Cracow	X	H	_	33	dep	_	_
+35	hn	_	CCONJ	CONJ	_	36	cc	_	_
+36	leiruni	UNKNOWN	X	H	_	33	conj	_	_
+37	mkazmir	from_Kazmir	X	H	_	36	dep	_	_
+38	hn	_	CCONJ	CONJ	_	40	cc	_	_
+39	tsu	_	ADP	P	_	40	case	_	_
+40	lagvnitski	_	PROPN	NPR	_	33	conj	_	SpaceAfter=No
+41	,	_	PUNCT	PUNC	_	8	punct	_	_
+42	bifrat	_	ADV	ADV	Degree=Pos	48	advmod	_	_
+43	dz	_	SCONJ	C	_	48	mark	_	_
+44	er	_	PRON	PRO-NOM	Case=Nom	48	nsubj	_	_
+45	oyf	_	ADP	P	_	47	case	_	_
+46	ds	_	DET	D	PronType=Art	47	det	_	_
+47	rot_hoyz	_	NOUN	N-D	Definite=Def	48	obl	_	_
+48	reyt	_	VERB	VBF	VerbForm=Fin	8	conj	_	SpaceAfter=No
+49	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.158
+# X_ID = 1588E-LETTERS-CRACOW,67.165
+# text = un trakhtt dz es gut zul zeyn
+1	un	_	CCONJ	CONJ	_	2	cc	_	_
+2	trakhtt	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	dz	_	SCONJ	C	_	7	mark	_	_
+4	es	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+5	gut	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+6	zul	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+7	zeyn	_	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.159
+# X_ID = 1588E-LETTERS-CRACOW,67.166
+# text = mir kinn eykh nit min shreybn le"e .
+1	mir	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	kinn	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+3	eykh	_	PRON	PRO-DTV	Case=Dat	6	iobj	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+5	min	_	DET	QR	_	6	dep	_	_
+6	shreybn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+7	le"e	forever_until	X	H	_	6	obl	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.160
+# X_ID = 1588E-LETTERS-CRACOW,67.167
+# text = zuln mir eykh shreybn vi %t%-1 es hi shtit h.sh.i. geb dz es zul besr gin .
+1	zuln	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+2	mir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	eykh	_	PRON	PRO-DTV	Case=Dat	4	iobj	_	_
+4	shreybn	_	VERB	VB	VerbForm=Inf	11	advcl	_	_
+5	vi	_	ADV	WADV	Degree=Pos	9	advmod	_	_
+6	%t%-1	_	ADV	ADVP	Degree=Pos	9	advmod	_	_
+7	es	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+8	hi	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+9	shtit	_	VERB	VBF	VerbForm=Fin	4	dep	_	_
+10	h.sh.i.	the_name_may_be_blessed	X	H	_	11	dep	_	_
+11	geb	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+12	dz	_	SCONJ	C	_	16	mark	_	_
+13	es	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+14	zul	_	AUX	MDF	VerbForm=Fin	16	aux	_	_
+15	besr	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+16	gin	_	VERB	VB	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+17	.	_	PUNCT	PUNC	_	11	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.161
+# X_ID = 1588E-LETTERS-CRACOW,67.168
+# text = es git vild durkh anndr .
+1	es	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	git	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	vild	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	durkh	_	ADP	P	_	5	case	_	_
+5	anndr	_	PRON	PRO	_	3	obl	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.162
+# X_ID = 1588E-LETTERS-CRACOW,67.169
+# text = h.sh.i. zul zeyn tsarin ap tun
+1	h.sh.i.	the_name_may_be_blessed	X	H	_	6	dep	_	_
+2	zul	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+3	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	4	det:poss	_	_
+4	tsarin	_	NOUN	N	_	6	obj	_	_
+5	ap	_	ADP	RP	_	6	compound:prt	_	_
+6	tun	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.163
+# X_ID = 1588E-LETTERS-CRACOW,67.170
+# text = den ihudi den %t%-1 mir shikn der heyst moyshe
+1	den	_	DET	D	PronType=Art	2	det	_	_
+2	ihudi	_	NOUN	N-D	Definite=Def	8	obl	_	_
+3	den	_	PRON	WPRO	_	6	obj	_	_
+4	%t%-1	_	NOUN	NP-ACC	_	6	dep	_	_
+5	mir	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	shikn	_	VERB	VBF	VerbForm=Fin	2	acl:relcl	_	_
+7	der	_	DET	D-NOM	Case=Nom|PronType=Art	8	nsubj	_	_
+8	heyst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	moyshe	_	PROPN	NPR	_	8	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.164
+# X_ID = 1588E-LETTERS-CRACOW,67.171
+# text = %pro% iz eyn gutr ihudi
+1	%pro%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	eyn	_	DET	D	PronType=Art	5	det	_	_
+4	gutr	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	ihudi	_	NOUN	N-I	Definite=Ind	2	xcomp	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.165
+# X_ID = 1588E-LETTERS-CRACOW,67.172
+# text = zikht gat an
+1	zikht	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	gat	_	PROPN	NPR-ACC	_	1	dep	_	_
+3	an	_	ADP	RP	_	1	compound:prt	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.166
+# X_ID = 1588E-LETTERS-CRACOW,67.173
+# text = un shikt vas %t%-1 da moyglikh iz
+1	un	_	CCONJ	CONJ	_	2	cc	_	_
+2	shikt	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	vas	_	PRON	WPRO	_	7	obj	_	_
+4	%t%-1	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+5	da	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+6	moyglikh	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	2	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.167
+# X_ID = 1588E-LETTERS-CRACOW,67.174
+# text = un shreybt vi fil %t%-1 ir shikt .
+1	un	_	CCONJ	CONJ	_	2	cc	_	_
+2	shreybt	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	vi	_	ADV	ADV	Degree=Pos	7	obj	_	_
+4	fil	_	DET	Q	_	3	det	_	_
+5	%t%-1	_	NOUN	NP-ACC	_	7	dep	_	_
+6	ir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	shikt	_	VERB	VBF	VerbForm=Fin	2	dep	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.168
+# X_ID = 1588E-LETTERS-CRACOW,67.175
+# text = es zeyn beu"h fil heyzr ver_shlusn givardn
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	6	expl	_	_
+2	zeyn	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+3	beu"h	for_sins_our_the_many	X	H	_	6	dep	_	_
+4	fil	_	DET	Q-NOM	Case=Nom	5	det	_	_
+5	heyzr	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+6	ver_shlusn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+7	givardn	_	VERB	RDN	Tense=Past|VerbForm=Part	6	dep	_	_
+
+# sent_id = 1588E-LETTERS-CRACOW,.169
+# X_ID = 1588E-LETTERS-CRACOW,67.176
+# text = dar_mit kumn di leyt beu"h oyf di ktsbh
+1	dar_mit	_	ADP	P	_	2	obl	_	_
+2	kumn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	leyt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	nsubj	_	_
+5	beu"h	for_sins_our_the_many	X	H	_	2	obl	_	_
+6	oyf	_	ADP	P	_	8	case	_	_
+7	di	_	DET	D	PronType=Art	8	det	_	_
+8	ktsbh	_	NOUN	N-D	Definite=Def	2	obl	_	_
+
+1	es	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hut	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	4	det	_	_
+4	erkh	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+5	nokh	_	CCONJ	CONJ	_	7	cc	_	_
+6	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	7	det	_	_
+7	shieur	_	NOUN	N-ACC	Case=Acc	4	conj	_	_
+8	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+9	.	_	PUNCT	PUNC	_	2	punct	_	_
+

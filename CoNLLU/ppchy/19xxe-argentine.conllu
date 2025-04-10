@@ -1,0 +1,416 @@
+# sent_id = 19XXE-ARGENTINE,.1
+# X_ID = 19XXE-ARGENTINE,.2
+# text = reb borukhl un blumele@ @'s kinder lebn in argentine .
+1	reb	_	PROPN	NPR	_	7	nsubj	_	_
+2	borukhl	_	PROPN	NPR	_	1	flat:name	_	_
+3	un	_	CCONJ	CONJ	_	4	cc	_	_
+4	blumele@	_	NOUN	NP-SBJ	_	1	conj	_	SpaceAfter=No
+5	@'s	_	PUNCT	$	_	6	punct	_	_
+6	kinder	_	NOUN	N	_	1	conj	_	_
+7	lebn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	argentine	_	PROPN	NPR	_	7	obl	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.2
+# X_ID = 19XXE-ARGENTINE,.3
+# text = zeyere fotografies hengen oyf der vant in a halben krayz,
+1	zeyere	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	2	det:poss	_	_
+2	fotografies	_	NOUN	N	_	3	nsubj	_	_
+3	hengen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	oyf	_	ADP	P	_	6	case	_	_
+5	der	_	DET	D	PronType=Art	6	det	_	_
+6	vant	_	NOUN	N-D	Definite=Def	3	obl	_	_
+7	in	_	ADP	P	_	10	case	_	_
+8	a	_	DET	D	PronType=Art	10	det	_	_
+9	halben	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	krayz	_	NOUN	N-I	Definite=Ind	3	obl	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.3
+# X_ID = 19XXE-ARGENTINE,.4
+# text = un unter zey hengt dos bild fun kheyfetz-khayim, vi a shtern in a serp fun der levone .
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	unter	_	ADP	P	_	3	case	_	_
+3	zey	_	PRON	PRO	_	4	obl	_	_
+4	hengt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	dos	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	bild	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	kheyfetz-khayim	_	PROPN	NPR	_	6	obl	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	4	punct	_	_
+10	vi	_	ADP	P	_	12	case	_	_
+11	a	_	DET	D	PronType=Art	12	det	_	_
+12	shtern	_	NOUN	N-I	Definite=Ind	4	obl	_	_
+13	in	_	ADP	P	_	15	case	_	_
+14	a	_	DET	D	PronType=Art	15	det	_	_
+15	serp	_	NOUN	N-I	Definite=Ind	12	obl	_	_
+16	fun	_	ADP	P	_	18	case	_	_
+17	der	_	DET	D	PronType=Art	18	det	_	_
+18	levone	_	NOUN	N-D	Definite=Def	15	obl	_	SpaceAfter=No
+19	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.4
+# X_ID = 19XXE-ARGENTINE,.5
+# text = der tsadik fun radun iz a kleyn yidele mit groyse oygen ful mit tsar un gutskeyt, ongeton in a hoyekher vinterdikn hitl .
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	tsadik	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	radun	_	PROPN	NPR	_	2	obl	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	a	_	DET	D	PronType=Art	8	det	_	_
+7	kleyn	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	yidele	_	NOUN	N	_	5	xcomp	_	_
+9	mit	_	ADP	P	_	11	case	_	_
+10	groyse	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	oygen	_	NOUN	N	_	8	obl	_	_
+12	ful	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+13	mit	_	ADP	P	_	14	case	_	_
+14	tsar	_	NOUN	N	_	12	amod	_	_
+15	un	_	CCONJ	CONJ	_	16	cc	_	_
+16	gutskeyt	_	NOUN	N	_	14	conj	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	8	punct	_	_
+18	ongeton	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	8	acl	_	_
+19	in	_	ADP	P	_	23	case	_	_
+20	a	_	DET	D	PronType=Art	23	det	_	_
+21	hoyekher	_	ADJ	ADJ	Degree=Pos	23	amod	_	_
+22	vinterdikn	_	ADJ	ADJ	Degree=Pos	23	amod	_	_
+23	hitl	_	NOUN	N-I	Definite=Ind	18	obl	_	SpaceAfter=No
+24	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.5
+# X_ID = 19XXE-ARGENTINE,.6
+# text = ven beyde altitshke kukn oyf di fotografies fun zeyere zin un zeyer blik falt oyfn tsadik fun radun, farrikht blumele dos tikhl oyfn kop, ire hor zoln zikh nit aroyszen,
+1	ven	_	SCONJ	C	_	4	mark	_	_
+2	beyde	_	DET	Q-NOM	Case=Nom	3	det	_	_
+3	altitshke	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+4	kukn	_	VERB	VBF	VerbForm=Fin	20	advcl	_	_
+5	oyf	_	ADP	P	_	7	case	_	_
+6	di	_	DET	D	PronType=Art	7	det	_	_
+7	fotografies	_	NOUN	N-D	Definite=Def	4	obl	_	_
+8	fun	_	ADP	P	_	10	case	_	_
+9	zeyere	_	PRON	PRO$	_	10	det:poss	_	_
+10	zin	_	NOUN	N	_	7	obl	_	_
+11	un	_	CCONJ	CONJ	_	14	cc	_	_
+12	zeyer	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	13	det:poss	_	_
+13	blik	_	NOUN	N	_	14	nsubj	_	_
+14	falt	_	VERB	VBF	VerbForm=Fin	4	conj	_	_
+15	oyfn	_	ADP	P-CL	_	16	case	_	_
+16	tsadik	_	NOUN	N	_	14	obl	_	_
+17	fun	_	ADP	P	_	18	case	_	_
+18	radun	_	PROPN	NPR	_	16	obl	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	20	punct	_	_
+20	farrikht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+21	blumele	_	PROPN	NPR-SBJ	_	20	nsubj	_	_
+22	dos	_	DET	D-ACC	Case=Acc|PronType=Art	23	det	_	_
+23	tikhl	_	NOUN	N-ACC	Case=Acc	20	obj	_	_
+24	oyfn	_	ADP	P-CL	_	25	case	_	_
+25	kop	_	NOUN	N	_	23	obl	_	SpaceAfter=No
+26	,	_	PUNCT	PUNC	_	20	punct	_	_
+27	ire	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	28	det:poss	_	_
+28	hor	_	NOUN	N	_	32	nsubj	_	_
+29	zoln	_	AUX	MDF	VerbForm=Fin	32	aux	_	_
+30	zikh	_	PRON	PRO-RFL	PronType=Reflex	32	expl:pv	_	_
+31	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	32	advmod	_	_
+32	aroyszen	_	VERB	VB-PART	VerbForm=Inf	20	advcl	_	SpaceAfter=No
+33	,	_	PUNCT	PUNC	_	20	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.6
+# X_ID = 19XXE-ARGENTINE,.7
+# text = un reb borukhlen dakht %exp% zikh az er hert dem kheyfetz-khaim ziftsn : " ay, kinderlekh, kinderlekh, haynt-morgen kumt meshiakh
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	reb	_	PROPN	NPR-DTV	_	4	dep	_	_
+3	borukhlen	_	PROPN	NPR	_	2	flat:name	_	_
+4	dakht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	%exp%	_	NOUN	NP-SBJ-1	_	4	nsubj	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+7	az	_	SCONJ	C	_	9	mark	_	_
+8	er	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+9	hert	_	VERB	VBF	VerbForm=Fin	4	ccomp	_	_
+10	dem	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+11	kheyfetz-khaim	_	PROPN	NPR-D	_	12	nsubj	_	_
+12	ziftsn	_	VERB	VB	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+13	:	_	PUNCT	PUNC	_	12	punct	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	12	punct	_	_
+15	ay	_	INTJ	INTJ	_	22	discourse	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	22	punct	_	_
+17	kinderlekh	_	NOUN	N	_	22	vocative	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	22	punct	_	_
+19	kinderlekh	_	NOUN	N	_	22	vocative	_	SpaceAfter=No
+20	,	_	PUNCT	PUNC	_	22	punct	_	_
+21	haynt-morgen	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+22	kumt	_	VERB	VBF	VerbForm=Fin	12	ccomp	_	_
+23	meshiakh	_	PROPN	NPR-SBJ	_	22	nsubj	_	_
+
+# sent_id = 19XXE-ARGENTINE,.7
+# X_ID = 19XXE-ARGENTINE,.8
+# text = un ir zayt nokh nit greyt . "
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	ir	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	zayt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	nokh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	3	advmod	_	_
+6	greyt	_	ADJ	ADJ	Degree=Pos	3	amod	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	3	punct	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.8
+# X_ID = 19XXE-ARGENTINE,.9
+# text = bay reb borukhlen tsitert di ash-groye bord,
+1	bay	_	ADP	P	_	2	case	_	_
+2	reb	_	PROPN	NPR	_	4	obl	_	_
+3	borukhlen	_	PROPN	NPR	_	2	flat:name	_	_
+4	tsitert	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	di	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+6	ash-groye	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	7	amod	_	_
+7	bord	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.9
+# X_ID = 19XXE-ARGENTINE,.10
+# text = er kukt oyf di fotografies fun zayne zin
+1	er	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	kukt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	oyf	_	ADP	P	_	5	case	_	_
+4	di	_	DET	D	PronType=Art	5	det	_	_
+5	fotografies	_	NOUN	N-D	Definite=Def	2	obl	_	_
+6	fun	_	ADP	P	_	8	case	_	_
+7	zayne	_	PRON	PRO$	_	8	det:poss	_	_
+8	zin	_	NOUN	N	_	5	obl	_	_
+
+# sent_id = 19XXE-ARGENTINE,.10
+# X_ID = 19XXE-ARGENTINE,.11
+# text = un %con% murmelt : ver %t%-1 veys tsi zey hitn dort yidishkayt,
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	murmelt	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	_	PUNCT	PUNC	_	3	punct	_	_
+5	ver	_	PRON	WPRO	_	7	obj	_	_
+6	%t%-1	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+7	veys	_	VERB	VBF	VerbForm=Fin	3	dep	_	_
+8	tsi	_	SCONJ	C	_	7	dep	_	_
+9	zey	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+10	hitn	_	VERB	VBF	VerbForm=Fin	8	conj	_	_
+11	dort	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+12	yidishkayt	_	NOUN	N-ACC	Case=Acc	10	obj	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.11
+# X_ID = 19XXE-ARGENTINE,.12
+# text = ver %t%-1 veys tsi zey hitn op shabes .
+1	ver	_	PRON	WPRO	_	3	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	veys	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	tsi	_	SCONJ	C	_	3	dep	_	_
+5	zey	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	hitn	_	VERB	VBF	VerbForm=Fin	4	conj	_	_
+7	op	_	ADP	RP	_	6	compound:prt	_	_
+8	shabes	_	NOUN	N-ACC	Case=Acc	6	obj	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.12
+# X_ID = 19XXE-ARGENTINE,.13
+# text = reb borukhl iz alle zayne yorn a khevra-man in khevra-poyelim, vu %t%-1 es dovnen di frume baalei-melokhes .
+1	reb	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+2	borukhl	_	PROPN	NPR	_	1	flat:name	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	alle	_	DET	Q	_	6	det	_	_
+5	zayne	_	PRON	PRO$	_	6	det:poss	_	_
+6	yorn	_	NOUN	N	_	3	obl	_	_
+7	a	_	DET	D	PronType=Art	8	det	_	_
+8	khevra-man	_	NOUN	N-I	Definite=Ind	3	xcomp	_	_
+9	in	_	ADP	P	_	10	case	_	_
+10	khevra-poyelim	_	NOUN	N	_	3	obl	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	10	punct	_	_
+12	vu	_	ADV	WADV	Degree=Pos	15	advmod	_	_
+13	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	15	advmod	_	_
+14	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	15	expl	_	_
+15	dovnen	_	VERB	VBF	VerbForm=Fin	10	acl:relcl	_	_
+16	di	_	DET	D-NOM	Case=Nom|PronType=Art	18	det	_	_
+17	frume	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	18	amod	_	_
+18	baalei-melokhes	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	15	nsubj	_	SpaceAfter=No
+19	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.13
+# X_ID = 19XXE-ARGENTINE,.14
+# text = zint er iz gekumen af der elter un di kinder holtn im oys, hot er oyfgehert arbetn .
+1	zint	_	SCONJ	C	_	4	mark	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	gekumen	_	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	_	_
+5	af	_	ADP	P	_	7	case	_	_
+6	der	_	DET	D	PronType=Art	7	det	_	_
+7	elter	_	NOUN	N-D	Definite=Def	4	obl	_	_
+8	un	_	CCONJ	CONJ	_	11	cc	_	_
+9	di	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+10	kinder	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	11	nsubj	_	_
+11	holtn	_	VERB	VBF	VerbForm=Fin	4	conj	_	_
+12	im	_	PRON	PRO-ACC	Case=Acc	11	obj	_	_
+13	oys	_	ADP	RP	_	11	compound:prt	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	17	punct	_	_
+15	hot	_	AUX	HVF	VerbForm=Fin	17	aux	_	_
+16	er	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+17	oyfgehert	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+18	arbetn	_	VERB	VB	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+19	.	_	PUNCT	PUNC	_	17	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.14
+# X_ID = 19XXE-ARGENTINE,.15
+# text = eyn mol in yor vert er tsurik a baal-melokhe .
+1	eyn	_	NUM	NUM	_	5	obl	_	_
+2	mol	_	NOUN	N	_	1	conj	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	yor	_	NOUN	N	_	1	obl	_	_
+5	vert	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+7	tsurik	_	ADV	RP-ADV	_	5	advmod	_	_
+8	a	_	DET	D	PronType=Art	9	det	_	_
+9	baal-melokhe	_	NOUN	N-I	Definite=Ind	5	xcomp	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.15
+# X_ID = 19XXE-ARGENTINE,.16
+# text = dos iz oyf morgen nokh yom-kiper ven er helft boyen di sukke .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	oyf	_	ADP	P	_	4	case	_	_
+4	morgen	_	NOUN	N	_	2	obl	_	_
+5	nokh	_	ADP	P	_	6	case	_	_
+6	yom-kiper	_	PROPN	NPR	_	4	obl	_	_
+7	ven	_	SCONJ	C	_	9	mark	_	_
+8	er	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+9	helft	_	VERB	VBF	VerbForm=Fin	2	advcl	_	_
+10	boyen	_	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+11	di	_	DET	D-ACC	Case=Acc|PronType=Art	12	det	_	_
+12	sukke	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	10	obj	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.16
+# X_ID = 19XXE-ARGENTINE,.17
+# text = emes, er aleyn klopt nit di breter
+1	emes	_	ADV	ADV	Degree=Pos	5	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	PUNC	_	5	punct	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	aleyn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	klopt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	5	advmod	_	_
+7	di	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	breter	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	5	obj	_	_
+
+# sent_id = 19XXE-ARGENTINE,.17
+# X_ID = 19XXE-ARGENTINE,.18
+# text = un %con% legt nit aroyf dem skhakh,
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	legt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	3	advmod	_	_
+5	aroyf	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+6	dem	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	skhakh	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.18
+# X_ID = 19XXE-ARGENTINE,.19
+# text = ober er derlangt di ayzerne farroste negl, vos %t%-1 er hit op fun yor tsu yor in a blekhener kley .
+1	ober	_	CCONJ	CONJ	_	3	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	derlangt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+5	ayzerne	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+6	farroste	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	negl	_	NOUN	N-ACC	Case=Acc	3	obj	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+9	vos	_	SCONJ	C	_	12	mark	_	_
+10	%t%-1	_	NOUN	NP-ACC	_	12	dep	_	_
+11	er	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+12	hit	_	VERB	VBF	VerbForm=Fin	7	acl:relcl	_	_
+13	op	_	ADP	RP	_	12	compound:prt	_	_
+14	fun	_	ADP	P	_	15	case	_	_
+15	yor	_	NOUN	N	_	12	obl	_	_
+16	tsu	_	ADP	P	_	17	case	_	_
+17	yor	_	NOUN	N	_	12	obl	_	_
+18	in	_	ADP	P	_	21	case	_	_
+19	a	_	DET	D	PronType=Art	21	det	_	_
+20	blekhener	_	ADJ	ADJ	Degree=Pos	21	amod	_	_
+21	kley	_	NOUN	N-I	Definite=Ind	12	obl	_	SpaceAfter=No
+22	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.19
+# X_ID = 19XXE-ARGENTINE,.20
+# text = ven di shkheynim barekhenen vifil %t%-1 di sukke hot opgekost un vi@ @fil yeder shokhn darf gebn %t%-2 tsushtayer, fargest men an dem kheylik vos %t%-3 hot arayngetrogn reb borukhl .
+1	ven	_	SCONJ	C	_	4	mark	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	shkheynim	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	barekhenen	_	VERB	VBF	VerbForm=Fin	21	advcl	_	_
+5	vifil	_	PRON	WPRO	_	10	obj	_	_
+6	%t%-1	_	NOUN	NP-MSR	_	10	obl	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	sukke	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	_
+9	hot	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+10	opgekost	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	4	dep	_	_
+11	un	_	CCONJ	CONJ	_	17	cc	_	_
+12	vi@	_	PRON	WPRO	_	17	det	_	_
+13	@fil	_	DET	Q	_	12	det	_	_
+14	yeder	_	DET	Q-NOM	Case=Nom	15	det	_	_
+15	shokhn	_	NOUN	N-NOM	Case=Nom	17	nsubj	_	_
+16	darf	_	AUX	MDF	VerbForm=Fin	17	aux	_	_
+17	gebn	_	VERB	VB	VerbForm=Inf	10	conj	_	_
+18	%t%-2	_	DET	QP	_	17	dep	_	_
+19	tsushtayer	_	NOUN	N	_	18	conj	_	SpaceAfter=No
+20	,	_	PUNCT	PUNC	_	21	punct	_	_
+21	fargest	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+22	men	_	PRON	PRO-NOM	Case=Nom	21	nsubj	_	_
+23	an	_	ADP	P	_	25	case	_	_
+24	dem	_	DET	D	PronType=Art	25	det	_	_
+25	kheylik	_	NOUN	N-D	Definite=Def	21	obl	_	_
+26	vos	_	SCONJ	C	_	29	mark	_	_
+27	%t%-3	_	NOUN	NP-ACC	_	29	dep	_	_
+28	hot	_	AUX	HVF	VerbForm=Fin	29	aux	_	_
+29	arayngetrogn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+30	reb	_	PROPN	NPR-SBJ	_	29	nsubj	_	_
+31	borukhl	_	PROPN	NPR	_	30	flat:name	_	SpaceAfter=No
+32	.	_	PUNCT	PUNC	_	21	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.20
+# X_ID = 19XXE-ARGENTINE,.21
+# text = fardrist es im
+1	fardrist	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	es	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	im	_	PRON	PRO-DTV	Case=Dat	1	iobj	_	_
+
+# sent_id = 19XXE-ARGENTINE,.21
+# X_ID = 19XXE-ARGENTINE,.22
+# text = un er dermont : un mayne negl ?
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	dermont	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	_	PUNCT	PUNC	_	3	punct	_	_
+5	un	_	CCONJ	CONJ	_	7	cc	_	_
+6	mayne	_	PRON	PRO$	_	7	det:poss	_	_
+7	negl	_	NOUN	N	_	3	dep	_	SpaceAfter=No
+8	?	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 19XXE-ARGENTINE,.22
+# X_ID = 19XXE-ARGENTINE,.23
+# text = di shkheynim lakhn
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	shkheynim	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	lakhn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	vintshn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	im	_	PRON	PRO-DTV	Case=Dat	3	iobj	_	_
+5	er	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+6	zol	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+7	iber@	_	ADP	P	_	9	case	_	_
+8	@a@	_	DET	D	PronType=Art	9	det	_	_
+9	@yor	_	NOUN	N	_	10	obl	_	_
+10	derlebn	_	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+11	tsu	_	PART	TO	_	12	mark	_	_
+12	derlangen	_	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	zayne	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	15	det:poss	_	_
+14	farroste	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	negl	_	NOUN	N	_	12	obj	_	_
+16	.	_	PUNCT	PUNC	_	3	punct	_	_
+

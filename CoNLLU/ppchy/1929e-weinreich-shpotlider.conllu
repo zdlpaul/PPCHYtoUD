@@ -1,0 +1,990 @@
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.1
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,537.3
+# text = di elementn fun spot tibul un vits zeynen genug stark in unzer literatur un folksshafung
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	elementn	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	spot	_	NOUN	N	_	2	obl	_	_
+5	tibul	_	NOUN	N	_	4	conj	_	_
+6	un	_	CCONJ	CONJ	_	7	cc	_	_
+7	vits	_	NOUN	N	_	4	conj	_	_
+8	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	genug	_	DET	Q	_	10	amod	_	_
+10	stark	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+11	in	_	ADP	P	_	13	case	_	_
+12	unzer	_	PRON	PRO$	_	13	det:poss	_	_
+13	literatur	_	NOUN	N	_	10	amod	_	_
+14	un	_	CCONJ	CONJ	_	15	cc	_	_
+15	folksshafung	_	NOUN	N	_	13	conj	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.2
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,537.4
+# text = un zey hobn aroysgerufn a hipshn interes bey unzere forsher
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	zey	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	hobn	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	aroysgerufn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+5	a	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+6	hipshn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	interes	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	4	obj	_	_
+8	bey	_	ADP	P	_	10	case	_	_
+9	unzere	_	PRON	PRO$	_	10	det:poss	_	_
+10	forsher	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.3
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,537.5
+# text = mit parodies hot zikh farnumen profesor isral davidzon mit folksverter vegn mdinut un stet nkh prilutski mit spet_lsun der@ @zelber mit tsunemenishn dr. smual veysenberg
+1	mit	_	ADP	P	_	2	case	_	_
+2	parodies	_	NOUN	N	_	5	obl	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+5	farnumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	profesor	_	PROPN	NPR-SBJ	_	5	nsubj	_	_
+7	isral	_	PROPN	NPR	_	6	flat:name	_	_
+8	davidzon	_	PROPN	NPR	_	6	dep	_	_
+9	mit	_	ADP	P	_	10	case	_	_
+10	folksverter	_	NOUN	N	_	5	conj	_	_
+11	vegn	_	ADP	P	_	12	case	_	_
+12	mdinut	_	NOUN	N	_	10	obl	_	_
+13	un	_	CCONJ	CONJ	_	14	cc	_	_
+14	stet	_	NOUN	N	_	12	conj	_	_
+15	nkh	_	PROPN	NPR	_	10	obl	_	_
+16	prilutski	_	PROPN	NPR	_	15	flat:name	_	_
+17	mit	_	ADP	P	_	18	case	_	_
+18	spet_lsun	_	NOUN	N	_	5	conj	_	_
+19	der@	_	DET	D	PronType=Art	20	det	_	_
+20	@zelber	_	ADJ	ADJ	Degree=Pos	18	obl	_	_
+21	mit	_	ADP	P	_	22	case	_	_
+22	tsunemenishn	_	NOUN	N	_	5	conj	_	_
+23	dr.	_	PROPN	NPR	_	22	obl	_	_
+24	smual	_	PROPN	NPR	_	23	flat:name	_	_
+25	veysenberg	_	PROPN	NPR	_	23	dep	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.4
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,537.6
+# text = oyf vifil %t%-1 komik un satire dringen areyn in gdr fun der drame hot zey dr. itskhh shifer bahandlt in zeyn dreybendikn verk
+1	oyf	_	ADP	P	_	2	case	_	_
+2	vifil	_	PRON	WPRO	_	7	obl	_	_
+3	%t%-1	_	ADP	PP	_	7	obl	_	_
+4	komik	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+5	un	_	CCONJ	CONJ	_	6	cc	_	_
+6	satire	_	NOUN	N-NOM	Case=Nom	4	conj	_	_
+7	dringen	_	VERB	VBF	VerbForm=Fin	19	obl	_	_
+8	areyn	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+9	in	_	ADP	P	_	10	case	_	_
+10	gdr	_	NOUN	N	_	8	obl	_	_
+11	fun	_	ADP	P	_	13	case	_	_
+12	der	_	DET	D	PronType=Art	13	det	_	_
+13	drame	_	NOUN	N-D	Definite=Def	10	obl	_	_
+14	hot	_	AUX	HVF	VerbForm=Fin	19	aux	_	_
+15	zey	_	PRON	PRO-ACC	Case=Acc	19	obj	_	_
+16	dr.	_	PROPN	NPR-SBJ	_	19	nsubj	_	_
+17	itskhh	_	PROPN	NPR	_	16	flat:name	_	_
+18	shifer	_	PROPN	NPR	_	16	dep	_	_
+19	bahandlt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+20	in	_	ADP	P	_	23	case	_	_
+21	zeyn	_	PRON	PRO$	_	23	det:poss	_	_
+22	dreybendikn	_	ADJ	ADJ	Degree=Pos	23	amod	_	_
+23	verk	_	NOUN	N	_	19	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.5
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,537.7
+# text = speter a bisl iz men tsugegangen tsu dem min opspetndike lider
+1	speter	_	ADV	ADVR	Degree=Cmp	6	advmod	_	_
+2	a	_	DET	D	PronType=Art	3	det	_	_
+3	bisl	_	NOUN	N-I	Definite=Ind	1	obl	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+5	men	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	tsugegangen	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+7	tsu	_	ADP	P	_	9	case	_	_
+8	dem	_	DET	D	PronType=Art	9	det	_	_
+9	min	_	NOUN	N-D	Definite=Def	6	obl	_	_
+10	opspetndike	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	lider	_	NOUN	N	_	9	nmod:poss	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.6
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,537.8
+# text = itskhk rivkind hot publikirt " a sheyn lid fun di handverksleyt ", prog ahrn freyman, " a ney klog-lid oyf a msrth fun prog ", nkhum shtif, alihu bkhurs " hmbdil " .
+1	itskhk	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+2	rivkind	_	PROPN	NPR	_	1	flat:name	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	publikirt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	4	punct	_	_
+6	a	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+7	sheyn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	lid	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+9	fun	_	ADP	P	_	11	case	_	_
+10	di	_	DET	D	PronType=Art	11	det	_	_
+11	handverksleyt	_	NOUN	N-D	Definite=Def	8	obl	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	8	punct	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	8	punct	_	_
+14	prog	_	PROPN	NPR	_	8	dep	_	_
+15	ahrn	_	PROPN	NPR	_	14	flat:name	_	_
+16	freyman	_	PROPN	NPR	_	15	flat:name	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	8	punct	_	SpaceAfter=No
+18	"	_	PUNCT	PUNC	_	8	punct	_	_
+19	a	_	DET	D	PronType=Art	8	conj	_	_
+20	ney	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+21	klog-lid	_	NOUN	N	_	19	conj	_	_
+22	oyf	_	ADP	P	_	24	case	_	_
+23	a	_	DET	D	PronType=Art	24	det	_	_
+24	msrth	_	NOUN	N-I	Definite=Ind	19	obl	_	_
+25	fun	_	ADP	P	_	26	case	_	_
+26	prog	_	PROPN	NPR	_	24	obl	_	SpaceAfter=No
+27	"	_	PUNCT	PUNC	_	19	punct	_	SpaceAfter=No
+28	,	_	PUNCT	PUNC	_	19	punct	_	_
+29	nkhum	_	PROPN	NPR	_	19	dep	_	_
+30	shtif	_	PROPN	NPR	_	29	flat:name	_	SpaceAfter=No
+31	,	_	PUNCT	PUNC	_	8	punct	_	_
+32	alihu	_	PROPN	NPR	_	8	conj	_	_
+33	bkhurs	_	NOUN	NPR$	_	32	dep	_	SpaceAfter=No
+34	"	_	PUNCT	PUNC	_	32	punct	_	_
+35	hmbdil	the_one_who_separates	X	H	_	32	dep	_	SpaceAfter=No
+36	"	_	PUNCT	PUNC	_	4	punct	_	SpaceAfter=No
+37	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.7
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.9
+# text = fragmentn fun azoyne shafungen zeynen faran in aliezer shulmans " spth ihudith ashknzith usfruthkh ", bey dr. maks grunvalds a lid vegn di proger dinstmeydlekh leyder in a deytsher tranksriptsie in meyne bilder fun der yidisher literaturgeshikhte " a sheyn ney lid vas tsu hamburg iz geshen " usv.
+1	fragmentn	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+2	fun	_	ADP	P	_	4	case	_	_
+3	azoyne	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	shafungen	_	NOUN	N	_	1	obl	_	_
+5	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	faran	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	aliezer	_	PROPN	NPR	_	5	obl	_	_
+9	shulmans	_	NOUN	NPR$	_	8	dep	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	8	punct	_	_
+11	spth	language_of	X	H	_	8	dep	_	_
+12	ihudith	Jewish_woman	X	H	_	11	dep	_	_
+13	ashknzith	Ashkenazi	X	H	_	11	dep	_	_
+14	usfruthkh	and_its_literature	X	H	_	11	dep	_	SpaceAfter=No
+15	"	_	PUNCT	PUNC	_	8	punct	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	8	punct	_	_
+17	bey	_	ADP	P	_	18	case	_	_
+18	dr.	_	PROPN	NPR	_	8	conj	_	_
+19	maks	_	PROPN	NPR	_	18	flat:name	_	_
+20	grunvalds	_	NOUN	NPR$	_	18	dep	_	_
+21	a	_	DET	D	PronType=Art	18	dep	_	_
+22	lid	_	NOUN	N-I	Definite=Ind	21	dep	_	_
+23	vegn	_	ADP	P	_	26	case	_	_
+24	di	_	DET	D	PronType=Art	26	det	_	_
+25	proger	_	ADJ	ADJ	Degree=Pos	26	amod	_	_
+26	dinstmeydlekh	_	NOUN	N-D	Definite=Def	21	obl	_	_
+27	leyder	_	ADV	ADV	Degree=Pos	18	dep	_	_
+28	in	_	ADP	P	_	31	case	_	_
+29	a	_	DET	D	PronType=Art	31	det	_	_
+30	deytsher	_	ADJ	ADJ	Degree=Pos	31	amod	_	_
+31	tranksriptsie	_	NOUN	N-I	Definite=Ind	27	obl	_	_
+32	in	_	ADP	P	_	34	case	_	_
+33	meyne	_	PRON	PRO$	_	34	det:poss	_	_
+34	bilder	_	NOUN	N	_	8	conj	_	_
+35	fun	_	ADP	P	_	38	case	_	_
+36	der	_	DET	D	PronType=Art	38	det	_	_
+37	yidisher	_	ADJ	ADJ	Degree=Pos	38	amod	_	_
+38	literaturgeshikhte	_	NOUN	N-D	Definite=Def	34	obl	_	SpaceAfter=No
+39	"	_	PUNCT	PUNC	_	34	punct	_	_
+40	a	_	DET	D	PronType=Art	34	dep	_	_
+41	sheyn	_	ADJ	ADJ	Degree=Pos	40	amod	_	_
+42	ney	_	ADJ	ADJ	Degree=Pos	40	amod	_	_
+43	lid	_	NOUN	N	_	40	dep	_	_
+44	vas	_	SCONJ	C	_	40	mark	_	_
+45	tsu	_	ADP	P	_	40	case	_	_
+46	hamburg	_	PROPN	NPR	_	40	dep	_	_
+47	iz	_	AUX	BEF	VerbForm=Fin	40	cop	_	_
+48	geshen	_	VERB	VBN	Tense=Past|VerbForm=Part	40	dep	_	SpaceAfter=No
+49	"	_	PUNCT	PUNC	_	34	punct	_	_
+50	usv.	_	X	X	_	34	dep	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.8
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.10
+# text = di itstike tsvey lider vos ikh druk fun zey dem fuln tekst zeynen oykh a tsushteyer tsu dem min literatur bey yidn
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+2	itstike	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+3	tsvey	_	NUM	NUM-NOM	Case=Nom	4	nummod	_	_
+4	lider	_	NOUN	N-NOM	Case=Nom	13	nsubj	_	_
+5	vos	_	SCONJ	C	_	7	mark	_	_
+6	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	druk	_	VERB	VBF	VerbForm=Fin	4	acl:relcl	_	_
+8	fun	_	ADP	P	_	9	case	_	_
+9	zey	_	PRON	PRO	_	7	dep	_	_
+10	dem	_	DET	D	PronType=Art	9	det	_	_
+11	fuln	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+12	tekst	_	NOUN	N	_	9	conj	_	_
+13	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+14	oykh	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+15	a	_	DET	D	PronType=Art	16	det	_	_
+16	tsushteyer	_	NOUN	N-I	Definite=Ind	13	xcomp	_	_
+17	tsu	_	ADP	P	_	19	case	_	_
+18	dem	_	DET	D	PronType=Art	19	det	_	_
+19	min	_	NOUN	N-D	Definite=Def	16	obl	_	_
+20	literatur	_	NOUN	N	_	19	nmod:poss	_	_
+21	bey	_	ADP	P	_	22	case	_	_
+22	yidn	_	NOUN	N	_	20	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.9
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.11
+# text = I. di " bashreybung fun ashknz un poliak " iz fartseykhnt bey steynshneyder in tsvey oysgabes fun prog on a yor berkh 1675-1680 com:reference_omitted
+1	I.	_	NUM	LS	_	11	dep	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	11	nsubj	_	SpaceAfter=No
+3	"	_	PUNCT	PUNC	_	2	punct	_	_
+4	bashreybung	_	NOUN	N	_	2	dep	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	ashknz	_	PROPN	NPR	_	4	obl	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	poliak	_	NOUN	N	_	6	conj	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	11	punct	_	_
+10	iz	_	AUX	BEF	VerbForm=Fin	11	cop	_	_
+11	fartseykhnt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+12	bey	_	ADP	P	_	13	case	_	_
+13	steynshneyder	_	PROPN	NPR	_	11	obl	_	_
+14	in	_	ADP	P	_	15	case	_	_
+15	tsvey	_	NUM	NUM	_	11	obl	_	_
+16	oysgabes	_	NOUN	N	_	15	conj	_	_
+17	fun	_	ADP	P	_	18	case	_	_
+18	prog	_	PROPN	NPR	_	15	obl	_	_
+19	on	_	ADP	P	_	21	case	_	_
+20	a	_	DET	D	PronType=Art	21	det	_	_
+21	yor	_	NOUN	N-I	Definite=Ind	15	obl	_	_
+22	berkh	_	ADV	ADV	Degree=Pos	23	advmod	_	_
+23	1675-1680	_	NUM	NUM	_	21	appos	_	_
+24	com:reference_omitted	_	VERB	REF	_	11	dep	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.10
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.12
+# text = bn yekb com:reference_omitted dermont dem nomen nit ingantsn pinktlekh
+1	bn	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+2	yekb	_	PROPN	NPR	_	1	flat:name	_	_
+3	com:reference_omitted	_	VERB	REF	_	4	dep	_	_
+4	dermont	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	dem	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	nomen	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	4	obj	_	_
+7	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+8	ingantsn	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+9	pinktlekh	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.11
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.13
+# text = a por urut fun dem lid in a stark fardeytster transkriptsie gefinen zikh in s"st com:reference_omitted
+1	a	_	ADV	D-NOM	Case=Nom|PronType=Art	3	advmod	_	_
+2	por	_	DET	Q	_	1	det	_	_
+3	urut	_	NOUN	N-NOM	Case=Nom	12	nsubj	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	dem	_	DET	D	PronType=Art	6	det	_	_
+6	lid	_	NOUN	N-D	Definite=Def	3	obl	_	_
+7	in	_	ADP	P	_	11	case	_	_
+8	a	_	DET	D	PronType=Art	11	det	_	_
+9	stark	_	ADV	ADV	Degree=Pos	11	amod	_	_
+10	fardeytster	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+11	transkriptsie	_	NOUN	N	_	3	obl	_	_
+12	gefinen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+13	zikh	_	PRON	PRO-RFL	PronType=Reflex	12	expl:pv	_	_
+14	in	_	ADP	P	_	15	case	_	_
+15	s"st	_	PROPN	NPR	_	12	obl	_	_
+16	com:reference_omitted	_	VERB	REF	_	12	dep	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.12
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.14
+# text = letstns hot m. erik in zeyn iberdertseylt, mit tsitates, dem inhalt fun der zakh
+1	letstns	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+3	m.	_	PROPN	NPR-SBJ	_	7	nsubj	_	_
+4	erik	_	PROPN	NPR	_	3	flat:name	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	zeyn	_	PRON	PRO$	_	7	obl	_	_
+7	iberdertseylt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+9	mit	_	ADP	P	_	10	case	_	_
+10	tsitates	_	NOUN	N	_	7	obl	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	7	punct	_	_
+12	dem	_	DET	D-ACC	Case=Acc|PronType=Art	13	det	_	_
+13	inhalt	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+14	fun	_	ADP	P	_	16	case	_	_
+15	der	_	DET	D	PronType=Art	16	det	_	_
+16	zakh	_	NOUN	N-D	Definite=Def	13	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.13
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.15
+# text = zi iz ober azoy tsikave loyt inhalt un sprakh az es loynt zi tsu brengen ingantsn
+1	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ober	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	azoy	_	ADV	ADV	Degree=Pos	5	amod	_	_
+5	tsikave	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+6	loyt	_	ADP	P	_	7	case	_	_
+7	inhalt	_	NOUN	N	_	5	amod	_	_
+8	un	_	CCONJ	CONJ	_	9	cc	_	_
+9	sprakh	_	NOUN	N	_	7	conj	_	_
+10	az	_	SCONJ	C	_	12	mark	_	_
+11	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	12	expl	_	_
+12	loynt	_	VERB	VBF	VerbForm=Fin	5	amod	_	_
+13	zi	_	PRON	PRO-ACC	Case=Acc	12	xcomp	_	_
+14	tsu	_	PART	TO	_	13	mark	_	_
+15	brengen	_	VERB	VB	VerbForm=Inf	13	dep	_	_
+16	ingantsn	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.14
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.16
+# text = keyn shum mkhbr iz in dem verkl nit ongerufn
+1	keyn	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	3	det	_	_
+2	shum	_	DET	Q-NOM	Case=Nom	3	det	_	_
+3	mkhbr	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	9	cop	_	_
+5	in	_	ADP	P	_	7	case	_	_
+6	dem	_	DET	D	PronType=Art	7	det	_	_
+7	verkl	_	NOUN	N-D	Definite=Def	9	obl	_	_
+8	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+9	ongerufn	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.15
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.17
+# text = un hiut er zogt areyn i di deytshe i di poylishe i di proger yidn ken men in flug oykh nit makhn keyn hserut vegn zeyn opstam
+1	un	_	CCONJ	CONJ	_	22	cc	_	_
+2	hiut	_	SCONJ	C	_	4	mark	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	zogt	_	VERB	VBF	VerbForm=Fin	22	advcl	_	_
+5	areyn	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	i	_	CCONJ	CONJ	_	4	dep	_	_
+7	di	_	DET	D	PronType=Art	8	det	_	_
+8	deytshe	_	ADJ	ADJ	Degree=Pos	6	obl	_	_
+9	i	_	CCONJ	CONJ	_	11	cc	_	_
+10	di	_	DET	D	PronType=Art	11	det	_	_
+11	poylishe	_	ADJ	ADJ	Degree=Pos	6	conj	_	_
+12	i	_	CCONJ	CONJ	_	15	cc	_	_
+13	di	_	DET	D	PronType=Art	15	det	_	_
+14	proger	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	yidn	_	NOUN	N-D	Definite=Def	6	conj	_	_
+16	ken	_	AUX	MDF	VerbForm=Fin	22	aux	_	_
+17	men	_	PRON	PRO-NOM	Case=Nom	22	nsubj	_	_
+18	in	_	ADP	P	_	19	case	_	_
+19	flug	_	NOUN	N	_	22	obl	_	_
+20	oykh	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+21	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	22	advmod	_	_
+22	makhn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+23	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	24	det	_	_
+24	hserut	_	NOUN	N-ACC	Case=Acc	22	obj	_	_
+25	vegn	_	ADP	P	_	27	case	_	_
+26	zeyn	_	PRON	PRO$	_	27	det:poss	_	_
+27	opstam	_	NOUN	N	_	24	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.16
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.18
+# text = ober ven mir kukn zikh eyn bemerkn mir, az mir hobn tsu tun mit a poylish-yidishn mkhbr
+1	ober	_	CCONJ	CONJ	_	7	cc	_	_
+2	ven	_	SCONJ	C	_	4	mark	_	_
+3	mir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	kukn	_	VERB	VBF	VerbForm=Fin	7	advcl	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+6	eyn	_	ADP	RP	_	4	compound:prt	_	_
+7	bemerkn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	mir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	7	punct	_	_
+10	az	_	SCONJ	C	_	12	mark	_	_
+11	mir	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+12	hobn	_	VERB	VBF	VerbForm=Fin	7	ccomp	_	_
+13	tsu	_	PART	TO	_	14	advcl	_	_
+14	tun	_	VERB	VB	VerbForm=Inf	12	advcl	_	_
+15	mit	_	ADP	P	_	18	case	_	_
+16	a	_	DET	D	PronType=Art	18	det	_	_
+17	poylish-yidishn	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
+18	mkhbr	_	NOUN	N-I	Definite=Ind	14	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.17
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,538.19
+# text = a deytsher yid volt nit gezen azoy sharf di shvakhkeytn fun zeyne landsleyt
+1	a	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	deytsher	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	yid	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	6	nsubj	_	_
+4	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	6	dep	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+6	gezen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	azoy	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+8	sharf	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+9	di	_	DET	D-ACC	Case=Acc|PronType=Art	10	det	_	_
+10	shvakhkeytn	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+11	fun	_	ADP	P	_	13	case	_	_
+12	zeyne	_	PRON	PRO$	_	13	det:poss	_	_
+13	landsleyt	_	NOUN	N	_	10	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.18
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.20
+# text = fun mkumut vos %t%-1 vern angerufn in di verzn 19-20 zeen mir az der shreyber iz oyf zeyn vanderveg oysgeven in gants tsfun- un mitldeytshland dos rov in hesn
+1	fun	_	ADP	P	_	2	case	_	_
+2	mkumut	_	NOUN	N	_	11	obl	_	_
+3	vos	_	SCONJ	C	_	6	mark	_	_
+4	%t%-1	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+5	vern	_	AUX	RDF	VerbForm=Fin	6	aux	_	_
+6	angerufn	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	di	_	DET	D	PronType=Art	9	det	_	_
+9	verzn	_	NOUN	N	_	6	obl	_	_
+10	19-20	_	NUM	NUM-D	Definite=Def	9	nummod	_	_
+11	zeen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+12	mir	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+13	az	_	SCONJ	C	_	20	mark	_	_
+14	der	_	DET	D-NOM	Case=Nom|PronType=Art	15	det	_	_
+15	shreyber	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	20	nsubj	_	_
+16	iz	_	AUX	BEF	VerbForm=Fin	20	cop	_	_
+17	oyf	_	ADP	P	_	19	case	_	_
+18	zeyn	_	PRON	PRO$	_	19	det:poss	_	_
+19	vanderveg	_	NOUN	N	_	20	obl	_	_
+20	oysgeven	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	11	ccomp	_	_
+21	in	_	ADP	P	_	23	case	_	_
+22	gants	_	ADJ	ADJ	Degree=Pos	23	amod	_	_
+23	tsfun-	_	PROPN	NPR	_	20	obl	_	_
+24	un	_	CCONJ	CONJ	_	25	cc	_	_
+25	mitldeytshland	_	PROPN	NPR	_	23	conj	_	_
+26	dos	_	DET	D	PronType=Art	27	det	_	_
+27	rov	_	NOUN	N-D	Definite=Def	20	obl	_	_
+28	in	_	ADP	P	_	29	case	_	_
+29	hesn	_	PROPN	NPR	_	20	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.19
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.21
+# text = un er hot zikh mistome genug ongelitn fun di ashknzim
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	7	expl:pv	_	_
+5	mistome	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+6	genug	_	DET	Q-ACC	Case=Acc	7	obj	_	_
+7	ongelitn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+8	fun	_	ADP	P	_	10	case	_	_
+9	di	_	DET	D	PronType=Art	10	det	_	_
+10	ashknzim	_	PROPN	NPR-D	_	7	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.20
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.22
+# text = er hot kegn zey a sharfn argument
+1	er	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	kegn	_	ADP	P	_	4	case	_	_
+4	zey	_	PRON	PRO	_	2	dep	_	_
+5	a	_	DET	D	PronType=Art	4	det	_	_
+6	sharfn	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+7	argument	_	NOUN	N	_	4	conj	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.21
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.23
+# text = zey hobn zikh nit vos %t%-2 %ich%-1 ibertsunemen antkegn di " shnorer " fun mzrkh veyl bset di deytshe yorn hobn gehat bey zikh a mlkhmh afile di dreysig-yorike mlkhmh 1618-1648 zeynen zey gelofn keyn mzrkh azoy vi %t%-3 di poylishe hobn genumen loyfn keyn deytshland nokh khmelmitskis gzrut
+1	zey	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hobn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO	_	2	obl	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+5	vos	_	DET	Q-ACC	Case=Acc	2	obj	_	_
+6	%t%-2	_	NOUN	NP-ACC	_	8	dep	_	_
+7	%ich%-1	_	NOUN	NP-RFL	_	8	expl:pv	_	_
+8	ibertsunemen	_	VERB	VB-PART	VerbForm=Inf	5	xcomp	_	_
+9	antkegn	_	ADP	P	_	12	case	_	_
+10	di	_	DET	D	PronType=Art	12	det	_	SpaceAfter=No
+11	"	_	PUNCT	PUNC	_	12	punct	_	_
+12	shnorer	_	NOUN	N	_	8	obl	_	SpaceAfter=No
+13	"	_	PUNCT	PUNC	_	12	punct	_	_
+14	fun	_	ADP	P	_	15	dep	_	_
+15	mzrkh	east	X	H	_	12	obl	_	_
+16	veyl	_	SCONJ	C	_	34	mark	_	_
+17	bset	_	SCONJ	C	_	16	fixed	_	_
+18	di	_	DET	D-NOM	Case=Nom|PronType=Art	20	det	_	_
+19	deytshe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	20	amod	_	_
+20	yorn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	22	nsubj	_	_
+21	hobn	_	AUX	HVF	VerbForm=Fin	22	aux	_	_
+22	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	34	advcl	_	_
+23	bey	_	ADP	P	_	24	case	_	_
+24	zikh	_	PRON	PRO	_	22	obl	_	_
+25	a	_	DET	D-ACC	Case=Acc|PronType=Art	26	det	_	_
+26	mlkhmh	_	NOUN	N-ACC	Case=Acc	22	obj	_	_
+27	afile	_	ADV	FP	Degree=Pos	30	advmod	_	_
+28	di	_	DET	D-ACC	Case=Acc|PronType=Art	30	det	_	_
+29	dreysig-yorike	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	30	amod	_	_
+30	mlkhmh	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	26	appos	_	_
+31	1618-1648	_	X	X	_	30	dep	_	_
+32	zeynen	_	AUX	BEF	VerbForm=Fin	34	cop	_	_
+33	zey	_	PRON	PRO-NOM	Case=Nom	34	nsubj	_	_
+34	gelofn	_	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+35	keyn	_	ADP	P	_	36	dep	_	_
+36	mzrkh	east	X	H	_	34	obl	_	_
+37	azoy	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+38	vi	_	ADV	WADV	Degree=Pos	37	advcl	_	_
+39	%t%-3	_	ADV	ADVP	Degree=Pos	43	advmod	_	_
+40	di	_	DET	D-NOM	Case=Nom|PronType=Art	41	det	_	_
+41	poylishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	43	nsubj	_	_
+42	hobn	_	AUX	HVF	VerbForm=Fin	43	aux	_	_
+43	genumen	_	VERB	VBN	Tense=Past|VerbForm=Part	38	conj	_	_
+44	loyfn	_	VERB	VB	VerbForm=Inf	43	xcomp	_	_
+45	keyn	_	ADP	P	_	46	case	_	_
+46	deytshland	_	PROPN	NPR	_	44	obl	_	_
+47	nokh	_	ADP	P	_	48	case	_	_
+48	khmelmitskis	_	NOUN	NPR$	_	44	obl	_	_
+49	gzrut	_	NOUN	N	_	48	conj	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.22
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.24
+# text = un di poylishe yidn zeynen dafke geven gute mkhnin-urkhim
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+3	poylishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	yidn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+5	zeynen	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+6	dafke	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	gute	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	mkhnin-urkhim	_	NOUN	N	_	7	xcomp	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.23
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.25
+# text = tsum sof fun verz 183 usv geyt unzer shreyber afilu ariber tsu der ofensive
+1	tsum	_	ADP	P-CL	_	2	case	_	_
+2	sof	_	NOUN	N	_	7	obl	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	verz	_	NOUN	N	_	2	obl	_	_
+5	183	_	NUM	NUM	_	4	nummod	_	_
+6	usv	_	X	X	_	4	dep	_	_
+7	geyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	unzer	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	9	det:poss	_	_
+9	shreyber	_	NOUN	N	_	7	nsubj	_	_
+10	afilu	_	ADV	FP	Degree=Pos	7	advmod	_	_
+11	ariber	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+12	tsu	_	ADP	P	_	14	case	_	_
+13	der	_	DET	D	PronType=Art	14	det	_	_
+14	ofensive	_	NOUN	N-D	Definite=Def	11	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.24
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.26
+# text = un %con% varft oyf di ashknzim az zey zeynen kartnspiler un zey farfirn di erlekhe poylishe yidn
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	varft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	oyf	_	ADP	P	_	6	case	_	_
+5	di	_	DET	D	PronType=Art	6	det	_	_
+6	ashknzim	_	PROPN	NPR-D	_	3	obl	_	_
+7	az	_	SCONJ	C	_	9	mark	_	_
+8	zey	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+9	zeynen	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+10	kartnspiler	_	NOUN	N	_	9	xcomp	_	_
+11	un	_	CCONJ	CONJ	_	13	cc	_	_
+12	zey	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+13	farfirn	_	VERB	VBF	VerbForm=Fin	9	conj	_	_
+14	di	_	DET	D-ACC	Case=Acc|PronType=Art	17	det	_	_
+15	erlekhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	17	amod	_	_
+16	poylishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	17	amod	_	_
+17	yidn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	13	obj	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.25
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.27
+# text = ober er hot fandestvegn genug humor tsu zen oykh di eygene poylishe khsrunut un genug yusr tsu zen di melut fun di askhnzim oykh
+1	ober	_	CCONJ	CONJ	_	3	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	hot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	fandestvegn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	genug	_	DET	Q-ACC	Case=Acc	6	det	_	_
+6	humor	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+7	tsu	_	PART	TO	_	8	mark	_	_
+8	zen	_	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	oykh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+10	di	_	DET	D-ACC	Case=Acc|PronType=Art	13	det	_	_
+11	eygene	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	13	amod	_	_
+12	poylishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	13	amod	_	_
+13	khsrunut	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	8	obj	_	_
+14	un	_	CCONJ	CONJ	_	16	cc	_	_
+15	genug	_	DET	Q	_	16	det	_	_
+16	yusr	_	NOUN	N	_	6	conj	_	_
+17	tsu	_	PART	TO	_	18	mark	_	_
+18	zen	_	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	di	_	DET	D-ACC	Case=Acc|PronType=Art	20	det	_	_
+20	melut	_	NOUN	N-ACC	Case=Acc	18	obj	_	_
+21	fun	_	ADP	P	_	23	case	_	_
+22	di	_	DET	D	PronType=Art	23	det	_	_
+23	askhnzim	_	NOUN	N-D	Definite=Def	20	obl	_	_
+24	oykh	_	ADV	ADV	Degree=Pos	18	advmod	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.26
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.28
+# text = kegn di preger iz eyngtlekh faran nor eyn tenh zey zeynen fmoim
+1	kegn	_	ADP	P	_	3	case	_	_
+2	di	_	DET	D	PronType=Art	3	det	_	_
+3	preger	_	NOUN	N-D	Definite=Def	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	eyngtlekh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	faran	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+7	nor	_	ADV	FP	Degree=Pos	8	advmod	_	_
+8	eyn	_	NUM	NUM	_	4	nsubj	_	_
+9	tenh	_	NOUN	N	_	8	conj	_	_
+10	zey	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+11	zeynen	_	VERB	VBF	VerbForm=Fin	8	dep	_	_
+12	fmoim	_	NOUN	N	_	11	xcomp	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.27
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.29
+# text = un di polemik mit zey iz mer gutmutike
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	polemik	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+4	mit	_	ADP	P	_	5	case	_	_
+5	zey	_	PRON	PRO	_	3	obl	_	_
+6	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	mer	_	DET	QR	_	8	amod	_	_
+8	gutmutike	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.28
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.30
+# text = tsu der tekhnik funem opdruk
+1	tsu	_	ADP	P	_	3	case	_	_
+2	der	_	DET	D	PronType=Art	3	det	_	_
+3	tekhnik	_	NOUN	N-D	Definite=Def	0	root	_	_
+4	funem	_	ADP	P-CL	_	5	case	_	_
+5	opdruk	_	NOUN	N	_	3	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.29
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.31
+# text = di numeratsie fun di verzn di opsteltseykhns dos bisl nmudut zeynen tsugestelt fun mir oyf tsu fargringern dos leyenen
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	numeratsie	_	NOUN	N-NOM	Case=Nom	12	nsubj	_	_
+3	fun	_	ADP	P	_	5	case	_	_
+4	di	_	DET	D	PronType=Art	5	det	_	_
+5	verzn	_	NOUN	N-D	Definite=Def	2	obl	_	_
+6	di	_	DET	D	PronType=Art	7	det	_	_
+7	opsteltseykhns	_	NOUN	N-D	Definite=Def	2	conj	_	_
+8	dos	_	DET	D	PronType=Art	9	det	_	_
+9	bisl	_	NOUN	N-D	Definite=Def	2	conj	_	_
+10	nmudut	_	NOUN	N	_	9	nmod:poss	_	_
+11	zeynen	_	AUX	BEF	VerbForm=Fin	12	cop	_	_
+12	tsugestelt	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+13	fun	_	ADP	P	_	14	case	_	_
+14	mir	_	PRON	PRO	_	12	obl	_	_
+15	oyf	_	ADP	P	_	17	case	_	_
+16	tsu	_	PART	TO	_	17	mark	_	_
+17	fargringern	_	VERB	VB	VerbForm=Inf	12	obl	_	_
+18	dos	_	DET	D-ACC	Case=Acc|PronType=Art	19	det	_	_
+19	leyenen	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	17	obj	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.30
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.32
+# text = oykh hob ikh stilshveygndig farrikht ofene drukteutn
+1	oykh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	stilshveygndig	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	farrikht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	ofene	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	drukteutn	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.31
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.33
+# text = di hebreishe verter hob ikh gelozn eyngeringlt in halbe lbnut azoy vi %t%-1 zey steyen in original
+1	di	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+2	hebreishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	3	amod	_	_
+3	verter	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	6	obj	_	_
+4	hob	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+5	ikh	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	gelozn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	eyngeringlt	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+8	in	_	ADP	P	_	10	case	_	_
+9	halbe	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	lbnut	_	NOUN	N	_	7	amod	_	_
+11	azoy	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+12	vi	_	ADP	P	_	15	case	_	_
+13	%t%-1	_	ADV	ADVP	Degree=Pos	15	advmod	_	_
+14	zey	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+15	steyen	_	VERB	VBF	VerbForm=Fin	11	obl	_	_
+16	in	_	ADP	P	_	17	case	_	_
+17	original	_	NOUN	N	_	15	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.32
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.34
+# text = dos bikhl halt akht zeytlekh oktav-format
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	bikhl	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	halt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	akht	_	NUM	NUM-ACC	Case=Acc	5	nummod	_	_
+5	zeytlekh	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+6	oktav-format	_	NOUN	N-ACC	Case=Acc	5	conj	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.33
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.35
+# text = II. dos tsveyte lid, di com:title_omitted hob ikh in ergets nit gefunen dermont oyser in tsedners katalog fun britishn muzeum com:reference_omitted
+1	II.	_	NUM	LS	_	13	dep	_	_
+2	dos	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+3	tsveyte	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	4	amod	_	_
+4	lid	_	NOUN	N-ACC	Case=Acc	13	obj	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	di	_	DET	D	PronType=Art	4	appos	_	_
+7	com:title_omitted	_	X	TTL	_	6	dep	_	_
+8	hob	_	AUX	HVF	VerbForm=Fin	13	aux	_	_
+9	ikh	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	ergets	_	ADV	ADV	Degree=Pos	13	obl	_	_
+12	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	13	advmod	_	_
+13	gefunen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+14	dermont	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+15	oyser	_	ADP	P	_	17	case	_	_
+16	in	_	ADP	P	_	17	case	_	_
+17	tsedners	_	NOUN	NPR$	_	13	obl	_	_
+18	katalog	_	NOUN	N	_	17	conj	_	_
+19	fun	_	ADP	P	_	21	case	_	_
+20	britishn	_	ADJ	ADJ	Degree=Pos	21	amod	_	_
+21	muzeum	_	NOUN	N	_	17	obl	_	_
+22	com:reference_omitted	_	VERB	REF	_	13	dep	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.34
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.36
+# text = in britishn muzeum trogt es dem numer .Or._1979._c._25
+1	in	_	ADP	P	_	3	case	_	_
+2	britishn	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	muzeum	_	NOUN	N	_	4	obl	_	_
+4	trogt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	es	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	dem	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	numer	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	4	obj	_	_
+8	.Or._1979._c._25	_	NOUN	NP-OB1	_	7	obj	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.35
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.37
+# text = tsedner git tsu " prag 1792? "
+1	tsedner	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	git	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	tsu	_	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	2	punct	_	_
+5	prag	_	PROPN	NPR-ACC	_	2	dep	_	_
+6	1792?	_	NUM	NUM	_	5	nummod	_	SpaceAfter=No
+7	"	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.36
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.38
+# text = oyf dem bikhl gupa es halt 4 zeytlekh oktav-format iz keyn shum yor un ort nit ongevizn
+1	oyf	_	ADP	P	_	3	case	_	_
+2	dem	_	DET	D	PronType=Art	3	det	_	_
+3	bikhl	_	NOUN	N-D	Definite=Def	17	obl	_	_
+4	gupa	itself	X	H	_	3	dep	_	_
+5	es	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	halt	_	VERB	VBF	VerbForm=Fin	17	parataxis	_	_
+7	4	_	NUM	NUM-ACC	Case=Acc	8	nummod	_	_
+8	zeytlekh	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+9	oktav-format	_	NOUN	N-ACC	Case=Acc	8	conj	_	_
+10	iz	_	AUX	BEF	VerbForm=Fin	17	cop	_	_
+11	keyn	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	13	det	_	_
+12	shum	_	DET	Q-NOM	Case=Nom	13	det	_	_
+13	yor	_	NOUN	N-NOM	Case=Nom	17	nsubj	_	_
+14	un	_	CCONJ	CONJ	_	15	cc	_	_
+15	ort	_	NOUN	N	_	13	conj	_	_
+16	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	17	advmod	_	_
+17	ongevizn	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.37
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.39
+# text = nor der shrift endlt tsum proger
+1	nor	_	CCONJ	CONJ	_	4	cc	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	shrift	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	endlt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	tsum	_	ADP	P-CL	_	6	case	_	_
+6	proger	_	ADJ	ADJ	Degree=Pos	4	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.38
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.40
+# text = un der oysleyg e h in farsheydene erter iz take karakteristish far dem oysloz fun 18tn yh .
+1	un	_	CCONJ	CONJ	_	9	cc	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	oysleyg	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	_
+4	e	_	X	X	_	3	dep	_	_
+5	h	_	X	X	_	3	dep	_	_
+6	in	_	ADP	P	_	8	case	_	_
+7	farsheydene	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	erter	_	NOUN	N	_	3	obl	_	_
+9	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	take	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+11	karakteristish	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+12	far	_	ADP	P	_	14	case	_	_
+13	dem	_	DET	D	PronType=Art	14	det	_	_
+14	oysloz	_	NOUN	N-D	Definite=Def	11	amod	_	_
+15	fun	_	ADP	P	_	17	case	_	_
+16	18tn	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	yh	_	NOUN	N	_	14	obl	_	SpaceAfter=No
+18	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.39
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.41
+# text = ven di deytshe shriftsprakhike hspeut zeynen tsulib der khsklh gevorn starker
+1	ven	_	CCONJ	CONJ	_	10	cc	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+3	deytshe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	5	amod	_	_
+4	shriftsprakhike	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	5	amod	_	_
+5	hspeut	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	_
+6	zeynen	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+7	tsulib	_	ADP	P	_	9	case	_	_
+8	der	_	DET	D	PronType=Art	9	det	_	_
+9	khsklh	_	NOUN	N-D	Definite=Def	10	obl	_	_
+10	gevorn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	starker	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.40
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.42
+# text = es varft zikh in di oygn di konsekvente shreybung " vab " dafke mit a ptkh untern a kedey tsu batseykhnen dem poliaks oyssprakh
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	varft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	in	_	ADP	P	_	6	case	_	_
+5	di	_	DET	D	PronType=Art	6	det	_	_
+6	oygn	_	NOUN	N-D	Definite=Def	2	obl	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+8	konsekvente	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	9	amod	_	_
+9	shreybung	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	9	punct	_	_
+11	vab	_	NOUN	N	_	9	dep	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	9	punct	_	_
+13	dafke	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+14	mit	_	ADP	P	_	16	case	_	_
+15	a	_	DET	D	PronType=Art	16	det	_	_
+16	ptkh	_	NOUN	N-I	Definite=Ind	9	xcomp	_	_
+17	untern	_	ADP	P-CL	_	18	case	_	_
+18	a	_	NOUN	N	_	16	obl	_	_
+19	kedey	_	SCONJ	C	_	2	advcl	_	_
+20	tsu	_	PART	TO	_	21	mark	_	_
+21	batseykhnen	_	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	dem	_	DET	D-ACC	Case=Acc|PronType=Art	23	det	_	_
+23	poliaks	_	NOUN	N$	_	21	obj	_	_
+24	oyssprakh	_	NOUN	N	_	23	conj	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.41
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.43
+# text = a ptkh-a-shreybung gefinen mir nokh in dem vort " tatin "
+1	a	_	DET	D-ACC	Case=Acc|PronType=Art	2	det	_	_
+2	ptkh-a-shreybung	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	3	obj	_	_
+3	gefinen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	mir	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	nokh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+6	in	_	ADP	P	_	8	case	_	_
+7	dem	_	DET	D	PronType=Art	8	det	_	_
+8	vort	_	NOUN	N-D	Definite=Def	3	obl	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	8	punct	_	_
+10	tatin	_	NOUN	N	_	8	dep	_	SpaceAfter=No
+11	"	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.42
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.44
+# text = veytir zeynen alts gkudut dos nemlekhe di opsteltseykns tsugegebn durkh mir in dem itstikn iberdruk
+1	veytir	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+2	zeynen	_	AUX	BEF	VerbForm=Fin	9	cop	_	_
+3	alts	_	X	X	_	9	dep	_	_
+4	gkudut	UNKNOWN	X	H	_	9	dep	_	_
+5	dos	_	DET	D	PronType=Art	6	det	_	_
+6	nemlekhe	_	ADJ	ADJ	Degree=Pos	9	obl	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	opsteltseykns	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+9	tsugegebn	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+10	durkh	_	ADP	P	_	11	case	_	_
+11	mir	_	PRON	PRO	_	9	obl	_	_
+12	in	_	ADP	P	_	15	case	_	_
+13	dem	_	DET	D	PronType=Art	15	det	_	_
+14	itstikn	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	iberdruk	_	NOUN	N-D	Definite=Def	9	obl	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.43
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.45
+# text = interesant iz %exp% tsu fargleykhn di pretenzies tsu dem " poliak " vos %t%-2 vern do aroysgezogt mit hundert yor speter
+1	interesant	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	%exp%	_	NOUN	NP-SBJ-1	_	2	nsubj	_	_
+4	tsu	_	PART	TO	_	5	mark	_	_
+5	fargleykhn	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	di	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	pretenzies	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+8	tsu	_	ADP	P	_	9	case	_	_
+9	dem	_	DET	D	PronType=Art	7	obl	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	9	punct	_	_
+11	poliak	_	NOUN	N	_	9	dep	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	7	punct	_	_
+13	vos	_	SCONJ	C	_	17	mark	_	_
+14	%t%-2	_	NOUN	NP-SBJ	_	17	nsubj	_	_
+15	vern	_	AUX	RDF	VerbForm=Fin	17	aux	_	_
+16	do	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+17	aroysgezogt	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+18	mit	_	ADP	P	_	19	case	_	_
+19	hundert	_	NUM	NUM	_	17	obl	_	_
+20	yor	_	NOUN	N	_	19	conj	_	_
+21	speter	_	ADV	ADVR	Degree=Cmp	19	advmod	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.44
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,539.46
+# text = zey zeynen sharfer in der form
+1	zey	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	sharfer	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	in	_	ADP	P	_	6	case	_	_
+5	der	_	DET	D	PronType=Art	6	det	_	_
+6	form	_	NOUN	N-D	Definite=Def	3	amod	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.45
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,540.47
+# text = un dos iz a raikh az der anonimer mkhbr iz nit keyn poylisher yid
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	dos	_	DET	D-NOM	Case=Nom|PronType=Art	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	a	_	DET	D	PronType=Art	5	det	_	_
+5	raikh	_	NOUN	N-I	Definite=Ind	3	xcomp	_	_
+6	az	_	SCONJ	C	_	10	mark	_	_
+7	der	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+8	anonimer	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	9	amod	_	_
+9	mkhbr	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	_
+10	iz	_	VERB	VBF	VerbForm=Fin	5	ccomp	_	_
+11	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+12	keyn	_	DET	Q-NEG	Polarity=Neg	14	det	_	_
+13	poylisher	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	yid	_	NOUN	N	_	10	xcomp	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.46
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,540.48
+# text = ober sof-kl-sof khzrn zey zikh iber .
+1	ober	_	CCONJ	CONJ	_	3	cc	_	_
+2	sof-kl-sof	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	khzrn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	zey	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	3	expl:pv	_	_
+6	iber	_	ADP	RP	_	3	compound:prt	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1929E-WEINREICH-SHPOTLIDER,.47
+# X_ID = 1929E-WEINREICH-SHPOTLIDER,540.49
+# text = un es iz genug zikh ariber@ %ich%-2 @tsu@ @trogn in der itstiker tseyt,
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	genug	_	DET	Q	_	3	xcomp	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	3	xcomp	_	_
+6	ariber@	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	%ich%-2	_	ADP	PP	_	6	obl	_	_
+8	@tsu@	_	PART	TO	_	5	mark	_	_
+9	@trogn	_	VERB	VB	VerbForm=Inf	5	dep	_	_
+10	in	_	ADP	P	_	13	case	_	_
+11	der	_	DET	D	PronType=Art	13	det	_	_
+12	itstiker	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	tseyt	_	NOUN	N-D	Definite=Def	5	obl	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	3	punct	_	_
+
+1	veln	_	AUX	MDF	VerbForm=Fin	3	aux	_	_
+2	mir	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	zen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+4	mutatis	_	X	FW	Foreign=Yes	3	flat:foreign	_	_
+5	mutandis	_	X	FW	Foreign=Yes	4	flat:foreign	_	_
+6	az	_	SCONJ	C	_	13	mark	_	_
+7	"	_	PUNCT	PUNC	_	13	punct	_	_
+8	ostyuden	_	NOUN	N-NOM	Case=Nom	13	nsubj	_	_
+9	"	_	PUNCT	PUNC	_	8	punct	_	_
+10	und	_	CCONJ	CONJ	_	12	cc	_	_
+11	deytshe	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	yidn	_	NOUN	N	_	8	conj	_	_
+13	kumen	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+14	nokh	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+15	heynt	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+16	nokh	_	ADP	P	_	18	case	_	_
+17	der	_	DET	D	PronType=Art	18	det	_	_
+18	veltmlkhmh	_	NOUN	N-D	Definite=Def	13	obl	_	_
+19	mit	_	ADP	P	_	22	case	_	_
+20	di	_	DET	D	PronType=Art	22	det	_	_
+21	zelbe	_	ADJ	ADJ	Degree=Pos	22	amod	_	_
+22	tenut	_	NOUN	N-D	Definite=Def	13	obl	_	_
+23	eyner	_	PRON	PRO	_	13	obl	_	_
+24	tsum	_	ADP	P-CL	_	25	case	_	_
+25	andern	_	ADJ	ADJ	Degree=Pos	23	obl	_	_
+26	.	_	PUNCT	PUNC	_	3	punct	_	_
+

@@ -1,0 +1,400 @@
+# sent_id = 1677W-WITZENHAUSEN,.1
+# X_ID = 1677W-WITZENHAUSEN,162.3
+# text = akh ven ayner mekht velen fragen, im ken dos azoy fil %ich%-1 iz on ayner hatoke gelegen, dos talmy ha-meylekh hot lozen %arb% zibentsig zekeynem holen fun ierusolayim un hi tut es an man alaynt iz der terets, talmy ha meylekh hot drum %ich%-2 fil genumen er hot velen zen oyb zi ale glaykh verden shraybn ayner az vi der ander .
+1	akh	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+2	ven	_	SCONJ	C	_	6	mark	_	_
+3	ayner	_	DET	Q-NOM	Case=Nom	6	nsubj	_	_
+4	mekht	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+5	velen	_	AUX	MD	VerbForm=Inf	6	aux	_	_
+6	fragen	_	VERB	VB	VerbForm=Inf	38	advcl	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	im	_	X	X	_	18	dep	_	_
+9	ken	_	X	X	_	18	dep	_	_
+10	dos	_	SCONJ	C	_	18	mark	_	_
+11	azoy	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+12	fil	_	DET	Q	_	18	nsubj	_	_
+13	%ich%-1	_	SCONJ	CP-DEG	_	12	advcl	_	_
+14	iz	_	AUX	BEF	VerbForm=Fin	18	cop	_	_
+15	on	_	ADP	P	_	17	case	_	_
+16	ayner	_	DET	D	PronType=Art	17	det	_	_
+17	hatoke	_	NOUN	N-I	Definite=Ind	18	obl	_	_
+18	gelegen	_	VERB	VBN	Tense=Past|VerbForm=Part	6	ccomp	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	18	punct	_	_
+20	dos	_	SCONJ	C	_	24	mark	_	_
+21	talmy	_	PROPN	NPR-SBJ	_	24	nsubj	_	_
+22	ha-meylekh	the_king	X	H	_	21	dep	_	_
+23	hot	_	AUX	HVF	VerbForm=Fin	24	aux	_	_
+24	lozen	_	VERB	VBN-IPP	Tense=Past|VerbForm=Part	18	advcl	_	_
+25	%arb%	_	NOUN	NP-SBJ	_	28	nsubj	_	_
+26	zibentsig	_	NUM	NUM-ACC	Case=Acc	27	nummod	_	_
+27	zekeynem	_	NOUN	N-ACC	Case=Acc	28	obj	_	_
+28	holen	_	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+29	fun	_	ADP	P	_	30	case	_	_
+30	ierusolayim	_	PROPN	NPR	_	28	obl	_	_
+31	un	_	CCONJ	CONJ	_	33	cc	_	_
+32	hi	_	ADV	ADV	Degree=Pos	33	advmod	_	_
+33	tut	_	VERB	VBF	VerbForm=Fin	18	conj	_	_
+34	es	_	PRON	PRO-ACC	Case=Acc	33	obj	_	_
+35	an	_	DET	D-NOM	Case=Nom|PronType=Art	36	det	_	_
+36	man	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	33	nsubj	_	_
+37	alaynt	_	ADJ	ADJ	Degree=Pos	33	amod	_	_
+38	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+39	der	_	DET	D-NOM	Case=Nom|PronType=Art	40	det	_	_
+40	terets	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	38	nsubj	_	SpaceAfter=No
+41	,	_	PUNCT	PUNC	_	38	punct	_	_
+42	talmy	_	PROPN	NPR-SBJ	_	49	nsubj	_	_
+43	ha	the	X	H	_	42	dep	_	_
+44	meylekh	king	X	H	_	42	dep	_	_
+45	hot	_	AUX	HVF	VerbForm=Fin	49	aux	_	_
+46	drum	_	ADP	P	_	47	dep	_	_
+47	%ich%-2	_	X	IP-MAT-THT	_	49	dep	_	_
+48	fil	_	DET	Q-ACC	Case=Acc	49	obj	_	_
+49	genumen	_	VERB	VBN	Tense=Past|VerbForm=Part	38	ccomp	_	_
+50	er	_	PRON	PRO-NOM	Case=Nom	53	nsubj	_	_
+51	hot	_	AUX	HVF	VerbForm=Fin	53	aux	_	_
+52	velen	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	53	aux	_	_
+53	zen	_	VERB	VB	VerbForm=Inf	49	ccomp	_	_
+54	oyb	_	SCONJ	C	_	59	mark	_	_
+55	zi	_	PRON	PRO-NOM	Case=Nom	59	nsubj	_	_
+56	ale	_	ADV	Q	_	59	advmod	_	_
+57	glaykh	_	ADV	ADV	Degree=Pos	59	advmod	_	_
+58	verden	_	AUX	RDF	VerbForm=Fin	59	aux	_	_
+59	shraybn	_	VERB	VB	VerbForm=Inf	53	dep	_	_
+60	ayner	_	PRON	PRO	_	59	obl	_	_
+61	az	_	ADP	P	_	64	case	_	_
+62	vi	_	ADP	P	_	64	case	_	_
+63	der	_	DET	D	PronType=Art	64	det	_	_
+64	ander	_	ADJ	ADJ	Degree=Pos	60	obl	_	SpaceAfter=No
+65	.	_	PUNCT	PUNC	_	38	punct	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.2
+# X_ID = 1677W-WITZENHAUSEN,162.4
+# text = nun, do iz ayn nes %ich%-1 geshen al-pi ruekh hakoydesh dos zi ale glaykh for_taytsht un geshriben hoben
+1	nun	_	INTJ	INTJ	_	8	discourse	_	SpaceAfter=No
+2	,	_	PUNCT	PUNC	_	8	punct	_	_
+3	do	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+5	ayn	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	nes	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+7	%ich%-1	_	SCONJ	CP-THT-PRN	_	6	ccomp	_	_
+8	geshen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	al-pi	according_to	X	H	_	8	obl	_	_
+10	ruekh	spirit	X	H	_	9	dep	_	_
+11	hakoydesh	the_holy	X	H	_	9	dep	_	_
+12	dos	_	SCONJ	C	_	16	mark	_	_
+13	zi	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+14	ale	_	ADV	Q	_	16	advmod	_	_
+15	glaykh	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+16	for_taytsht	_	VERB	VBN	Tense=Past|VerbForm=Part	8	ccomp	_	_
+17	un	_	CCONJ	CONJ	_	18	cc	_	_
+18	geshriben	_	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	_	_
+19	hoben	_	AUX	HVF	VerbForm=Fin	16	aux	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.3
+# X_ID = 1677W-WITZENHAUSEN,163.5
+# text = obr ven man vil fregen man hot dokh yu in kile kedoyshe farara gehat meie khakhomen gedoylem di %t%-1 do hoben maytik gevezen toyre neviem u-ksuvem leloshen sfardem un akh hot medines holand shnas khameyshes alofem 379 lepak in dem mokem dort oder dort_rekht gehat 25 melumodem gedoylem di %t%-2 do hoben toyre neviem u-ksuvem maytik gevezen un vi %t%-3 lozt man es den nun shteyn uf aynen man der %t%-4 es maytik iz un on aynen, der %t%-5 di hatoke helft %ich%-6 iber leynen do gib ikh den terets
+1	obr	_	CCONJ	CONJ	_	88	cc	_	_
+2	ven	_	SCONJ	C	_	5	mark	_	_
+3	man	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	vil	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+5	fregen	_	VERB	VB	VerbForm=Inf	88	advcl	_	_
+6	man	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+7	hot	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+8	dokh	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+9	yu	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+10	in	_	ADP	P	_	13	case	_	_
+11	kile	community	X	H	_	13	dep	_	_
+12	kedoyshe	holy	X	H	_	13	dep	_	_
+13	farara	_	PROPN	NPR	_	14	obl	_	_
+14	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	5	ccomp	_	_
+15	meie	_	X	X	_	14	dep	_	_
+16	khakhomen	_	NOUN	N	_	15	conj	_	_
+17	gedoylem	_	NOUN	N	_	15	conj	_	_
+18	di	_	PRON	WPRO	_	23	obj	_	_
+19	%t%-1	_	NOUN	NP-SBJ	_	23	nsubj	_	_
+20	do	_	ADV	ADV	Degree=Pos	23	advmod	_	_
+21	hoben	_	AUX	HVF	VerbForm=Fin	23	aux	_	_
+22	maytik	_	ADP	RP-H	_	23	compound:prt	_	_
+23	gevezen	_	VERB	VBN	Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+24	toyre	Torah	X	H	_	23	dep	_	_
+25	neviem	Prophets	X	H	_	24	dep	_	_
+26	u-ksuvem	and_Writings	X	H	_	24	dep	_	_
+27	leloshen	to_language	X	H	_	28	dep	_	_
+28	sfardem	_	PROPN	NPR	_	23	obl	_	_
+29	un	_	CCONJ	CONJ	_	45	cc	_	_
+30	akh	_	ADV	ADV	Degree=Pos	45	advmod	_	_
+31	hot	_	AUX	HVF	VerbForm=Fin	45	aux	_	_
+32	medines	_	NOUN	N-NOM	Case=Nom	45	nsubj	_	_
+33	holand	_	PROPN	NPR	_	32	dep	_	_
+34	shnas	year_of	X	H	_	45	dep	_	_
+35	khameyshes	five	X	H	_	34	dep	_	_
+36	alofem	thousands	X	H	_	34	dep	_	_
+37	379	_	NUM	NUM	_	34	nummod	_	_
+38	lepak	to_detail_small	X	H	_	34	dep	_	_
+39	in	_	ADP	P	_	41	case	_	_
+40	dem	_	DET	D	PronType=Art	41	det	_	_
+41	mokem	_	NOUN	N-D	Definite=Def	45	obl	_	_
+42	dort	_	PROPN	NPR	_	41	appos	_	_
+43	oder	_	CCONJ	CONJ	_	44	cc	_	_
+44	dort_rekht	_	PROPN	NPR	_	42	conj	_	_
+45	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	14	ccomp	_	_
+46	25	_	NUM	NUM-ACC	Case=Acc	47	nummod	_	_
+47	melumodem	_	NOUN	N-ACC	Case=Acc	45	obj	_	_
+48	gedoylem	_	NOUN	N-ACC	Case=Acc	47	conj	_	_
+49	di	_	PRON	WPRO	_	57	obj	_	_
+50	%t%-2	_	NOUN	NP-SBJ	_	57	nsubj	_	_
+51	do	_	ADV	ADV	Degree=Pos	57	advmod	_	_
+52	hoben	_	AUX	HVF	VerbForm=Fin	57	aux	_	_
+53	toyre	Torah	X	H	_	57	dep	_	_
+54	neviem	Prophets	X	H	_	53	dep	_	_
+55	u-ksuvem	and_Writings	X	H	_	53	dep	_	_
+56	maytik	_	ADP	RP-H	_	57	compound:prt	_	_
+57	gevezen	_	VERB	VBN	Tense=Past|VerbForm=Part	47	acl:relcl	_	_
+58	un	_	CCONJ	CONJ	_	61	cc	_	_
+59	vi	_	ADV	WADV	Degree=Pos	61	advmod	_	_
+60	%t%-3	_	ADV	ADVP	Degree=Pos	61	advmod	_	_
+61	lozt	_	VERB	VBF	VerbForm=Fin	14	ccomp	_	_
+62	man	_	PRON	PRO-NOM	Case=Nom	61	nsubj	_	_
+63	es	_	PRON	PRO-NOM	Case=Nom	66	nsubj	_	_
+64	den	_	ADV	ADV	Degree=Pos	66	advmod	_	_
+65	nun	_	ADV	ADV	Degree=Pos	66	advmod	_	_
+66	shteyn	_	VERB	VB	VerbForm=Inf	61	xcomp	_	_
+67	uf	_	ADP	P	_	69	case	_	_
+68	aynen	_	DET	D	PronType=Art	69	det	_	_
+69	man	_	NOUN	N	_	66	obl	_	_
+70	der	_	PRON	WPRO	_	74	obj	_	_
+71	%t%-4	_	NOUN	NP-SBJ	_	74	nsubj	_	_
+72	es	_	PRON	PRO-ACC	Case=Acc	74	obj	_	_
+73	maytik	_	ADP	RP-H	_	74	compound:prt	_	_
+74	iz	_	VERB	VBF	VerbForm=Fin	69	acl:relcl	_	_
+75	un	_	CCONJ	CONJ	_	77	cc	_	_
+76	on	_	ADP	P	_	77	case	_	_
+77	aynen	_	PRON	PRO	_	69	conj	_	SpaceAfter=No
+78	,	_	PUNCT	PUNC	_	77	punct	_	_
+79	der	_	PRON	WPRO	_	83	obj	_	_
+80	%t%-5	_	NOUN	NP-SBJ	_	83	nsubj	_	_
+81	di	_	DET	D	PronType=Art	82	det	_	_
+82	hatoke	_	NOUN	N-D	Definite=Def	83	obl	_	_
+83	helft	_	VERB	VBF	VerbForm=Fin	77	acl:relcl	_	_
+84	%ich%-6	_	NOUN	NP-ACC	_	86	dep	_	_
+85	iber	_	ADP	RP	_	86	compound:prt	_	_
+86	leynen	_	VERB	VB	VerbForm=Inf	83	xcomp	_	_
+87	do	_	ADV	ADV	Degree=Pos	88	advmod	_	_
+88	gib	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+89	ikh	_	PRON	PRO-NOM	Case=Nom	88	nsubj	_	_
+90	den	_	DET	D-ACC	Case=Acc|PronType=Art	91	det	_	_
+91	terets	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	88	obj	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.4
+# X_ID = 1677W-WITZENHAUSEN,163.6
+# text = ikh hob in aynem seyfer geleyent dos ayner shraybt in zayner hakdome un %con% fregt ayn kashe
+1	ikh	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+3	in	_	ADP	P	_	5	case	_	_
+4	aynem	_	DET	D	PronType=Art	5	det	_	_
+5	seyfer	_	NOUN	N-I	Definite=Ind	6	obl	_	_
+6	geleyent	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	dos	_	SCONJ	C	_	9	mark	_	_
+8	ayner	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+9	shraybt	_	VERB	VBF	VerbForm=Fin	6	ccomp	_	_
+10	in	_	ADP	P	_	12	case	_	_
+11	zayner	_	PRON	PRO$	_	12	det:poss	_	_
+12	hakdome	_	NOUN	N	_	9	obl	_	_
+13	un	_	CCONJ	CONJ	_	15	cc	_	_
+14	%con%	_	NOUN	NP-SBJ	_	15	nsubj	_	_
+15	fregt	_	VERB	VBF	VerbForm=Fin	9	conj	_	_
+16	ayn	_	DET	D-ACC	Case=Acc|PronType=Art	17	det	_	_
+17	kashe	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	15	obj	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.5
+# X_ID = 1677W-WITZENHAUSEN,163.7
+# text = vi %t%-1 kumt es, dos itsundert kumt ayn gemayner, shlekhter lamden un %con% fregt ayn groyse kashe uf poskem hageoynem hakadmoynem ?
+1	vi	_	ADV	WADV	Degree=Pos	3	advmod	_	_
+2	%t%-1	_	ADV	ADVP	Degree=Pos	3	advmod	_	_
+3	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	3	punct	_	_
+6	dos	_	SCONJ	C	_	4	mark	_	_
+7	itsundert	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	kumt	_	VERB	VBF	VerbForm=Fin	4	conj	_	_
+9	ayn	_	DET	D-NOM	Case=Nom|PronType=Art	13	det	_	_
+10	gemayner	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	13	amod	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	13	punct	_	_
+12	shlekhter	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	13	amod	_	_
+13	lamden	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	8	nsubj	_	_
+14	un	_	CCONJ	CONJ	_	16	cc	_	_
+15	%con%	_	NOUN	NP-SBJ	_	16	nsubj	_	_
+16	fregt	_	VERB	VBF	VerbForm=Fin	8	conj	_	_
+17	ayn	_	DET	D-ACC	Case=Acc|PronType=Art	19	det	_	_
+18	groyse	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	19	amod	_	_
+19	kashe	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	16	obj	_	_
+20	uf	_	ADP	P	_	21	dep	_	_
+21	poskem	adjudicators	X	H	_	16	obl	_	_
+22	hageoynem	the_Geonim	X	H	_	21	dep	_	_
+23	hakadmoynem	the_first	X	H	_	21	dep	_	SpaceAfter=No
+24	?	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.6
+# X_ID = 1677W-WITZENHAUSEN,163.8
+# text = vi shayekh,
+1	vi	_	ADV	WADV	Degree=Pos	0	root	_	_
+2	shayekh	_	ADJ	ADJ	Degree=Pos	1	amod	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.7
+# X_ID = 1677W-WITZENHAUSEN,163.9
+# text = hoben es zelkhe geoynem gedoylem nit gezen oder do on geshtoysen ?
+1	hoben	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+2	es	_	PRON	PRO-ACC	Case=Acc	7	obj	_	_
+3	zelkhe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	geoynem	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+5	gedoylem	_	NOUN	N-NOM	Case=Nom	4	conj	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+7	gezen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	oder	_	CCONJ	CONJ	_	11	cc	_	_
+9	do	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+10	on	_	ADP	RP	_	11	compound:prt	_	_
+11	geshtoysen	_	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+12	?	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.8
+# X_ID = 1677W-WITZENHAUSEN,163.10
+# text = entvert er
+1	entvert	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.9
+# X_ID = 1677W-WITZENHAUSEN,163.11
+# text = un %con% sprikht es iz ayn moshel
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	sprikht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	es	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+6	ayn	_	DET	D	PronType=Art	7	det	_	_
+7	moshel	_	NOUN	N-I	Definite=Ind	5	xcomp	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.10
+# X_ID = 1677W-WITZENHAUSEN,163.12
+# text = es geyt do ayn riz, der kan gor vayt zen
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	geyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	do	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	ayn	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	riz	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	5	punct	_	_
+7	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	dep	_	_
+8	kan	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+9	gor	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+10	vayt	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+11	zen	_	VERB	VB	VerbForm=Inf	7	dep	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.11
+# X_ID = 1677W-WITZENHAUSEN,163.13
+# text = do kumt ayn getsverglayn
+1	do	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ayn	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	getsverglayn	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	2	nsubj	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.12
+# X_ID = 1677W-WITZENHAUSEN,163.14
+# text = dos nemt er uf di aksl
+1	dos	_	DET	D-ACC	Case=Acc|PronType=Art	2	obj	_	_
+2	nemt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	uf	_	ADP	P	_	6	case	_	_
+5	di	_	DET	D	PronType=Art	6	det	_	_
+6	aksl	_	NOUN	N-D	Definite=Def	2	obl	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.13
+# X_ID = 1677W-WITZENHAUSEN,163.15
+# text = do kan dos klayne getsverglayn nokh vayter %ich%-1 zen az der groyse riz
+1	do	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+2	kan	_	AUX	MDF	VerbForm=Fin	9	aux	_	_
+3	dos	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+4	klayne	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	5	amod	_	_
+5	getsverglayn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+6	nokh	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+7	vayter	_	ADV	ADVR	Degree=Cmp	6	advmod	_	_
+8	%ich%-1	_	ADP	PP	_	6	obl	_	_
+9	zen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+10	az	_	ADP	P	_	13	case	_	_
+11	der	_	DET	D	PronType=Art	13	det	_	_
+12	groyse	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	riz	_	NOUN	N-D	Definite=Def	9	obl	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.14
+# X_ID = 1677W-WITZENHAUSEN,163.16
+# text = azoy akh di geoynem gedoylem hoben gor vayt gezen
+1	azoy	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+2	akh	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	geoynem	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	_
+5	gedoylem	_	NOUN	N-NOM	Case=Nom	4	conj	_	_
+6	hoben	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+7	gor	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+8	vayt	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+9	gezen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.15
+# X_ID = 1677W-WITZENHAUSEN,163.17
+# text = un der gemayne lamden nemt ire sforim in di hant
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+3	gemayne	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	lamden	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+5	nemt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	ire	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	7	det:poss	_	_
+7	sforim	_	NOUN	N	_	5	obj	_	_
+8	in	_	ADP	P	_	10	case	_	_
+9	di	_	DET	D	PronType=Art	10	det	_	_
+10	hant	_	NOUN	N-D	Definite=Def	5	obl	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.16
+# X_ID = 1677W-WITZENHAUSEN,163.18
+# text = un %con% lernet do inen
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	lernet	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	do	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	inen	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+
+# sent_id = 1677W-WITZENHAUSEN,.17
+# X_ID = 1677W-WITZENHAUSEN,163.19
+# text = ale di kashes vos %t%-1 den geoynem iz kashe gevezen hot er for zikh
+1	ale	_	DET	Q-ACC	Case=Acc	3	det	_	_
+2	di	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+3	kashes	_	NOUN	N-ACC	Case=Acc	11	obj	_	_
+4	vos	_	SCONJ	C	_	10	mark	_	_
+5	%t%-1	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+6	den	_	DET	D-DTV	Case=Dat|PronType=Art	7	det	_	_
+7	geoynem	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	10	iobj	_	_
+8	iz	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+9	kashe	_	ADP	RP-H	_	10	compound:prt	_	_
+10	gevezen	_	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+11	hot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+12	er	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+13	for	_	ADP	P	_	14	case	_	_
+14	zikh	_	PRON	PRO	_	11	obl	_	_
+
+1	mag	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+2	%exp%	_	NOUN	NP-SBJ-1	_	5	nsubj	_	_
+3	den	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+4	laykht	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	%ellps%	_	VERB	VB	VerbForm=Inf	0	root	_	_
+6	,	_	PUNCT	PUNC	_	5	punct	_	_
+7	dos	_	SCONJ	C	_	14	mark	_	_
+8	er	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+9	nokh	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+10	ayn	_	DET	D	PronType=Art	9	det	_	_
+11	venig	_	DET	Q	_	9	det	_	_
+12	vayter	_	ADV	ADVR	Degree=Cmp	14	advmod	_	_
+13	kan	_	AUX	MDF	VerbForm=Fin	14	aux	_	_
+14	zen	_	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+15	un	_	CCONJ	CONJ	_	19	cc	_	_
+16	ayn	_	DET	D-ACC	Case=Acc|PronType=Art	17	det	_	_
+17	kashe	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	19	obj	_	_
+18	oys	_	ADP	RP	_	19	compound:prt	_	_
+19	finden	_	VERB	VB	VerbForm=Inf	14	conj	_	_
+

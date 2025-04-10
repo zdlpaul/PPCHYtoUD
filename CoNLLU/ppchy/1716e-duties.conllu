@@ -1,0 +1,220 @@
+# sent_id = 1716E-DUTIES,.1
+# X_ID = 1716E-DUTIES,.2
+# text = dz gat iz imr un ibig var
+1	dz	_	SCONJ	C	_	0	root	_	_
+2	gat	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+4	imr	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	un	_	CCONJ	CONJ	_	6	cc	_	_
+6	ibig	_	ADV	ADV	Degree=Pos	4	conj	_	_
+7	var	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+
+# sent_id = 1716E-DUTIES,.2
+# X_ID = 1716E-DUTIES,.3
+# text = dz zoyln zikh dran kern manin un' veybr oykh ali leyt
+1	dz	_	SCONJ	C	_	0	root	_	_
+2	zoyln	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+4	dran	_	ADP	P	_	5	obl	_	_
+5	kern	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+6	manin	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+7	un'	_	CCONJ	CONJ	_	8	cc	_	_
+8	veybr	_	NOUN	N-NOM	Case=Nom	6	conj	_	_
+9	oykh	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+10	ali	_	DET	Q	_	11	det	_	_
+11	leyt	_	NOUN	N	_	6	conj	_	_
+
+# sent_id = 1716E-DUTIES,.3
+# X_ID = 1716E-DUTIES,.4
+# text = vi mn zal an den ikhud gloybn mit gantsn hertsn
+1	vi	_	SCONJ	C	_	0	root	_	_
+2	mn	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+3	zal	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+4	an	_	ADP	P	_	6	case	_	_
+5	den	_	DET	D	PronType=Art	6	det	_	_
+6	ikhud	_	NOUN	N-D	Definite=Def	7	obl	_	_
+7	gloybn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+8	mit	_	ADP	P	_	10	case	_	_
+9	gantsn	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	hertsn	_	NOUN	N	_	7	obl	_	_
+
+# sent_id = 1716E-DUTIES,.4
+# X_ID = 1716E-DUTIES,.5
+# text = vi der mens zal val prubn oyf gatsdinst
+1	vi	_	SCONJ	C	_	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	mens	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+4	zal	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+5	val	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	prubn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+7	oyf	_	ADP	P	_	8	case	_	_
+8	gatsdinst	_	NOUN	N	_	6	obl	_	_
+
+# sent_id = 1716E-DUTIES,.5
+# X_ID = 1716E-DUTIES,.6
+# text = dz er nit zal meynn
+1	dz	_	SCONJ	C	_	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	5	advmod	_	_
+4	zal	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+5	meynn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+
+# sent_id = 1716E-DUTIES,.6
+# X_ID = 1716E-DUTIES,.7
+# text = daz das eshiruth iz im an_gbarn
+1	daz	_	SCONJ	C	_	0	root	_	_
+2	das	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	eshiruth	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	1	conj	_	_
+5	im	_	PRON	PRO-DTV	Case=Dat	4	iobj	_	_
+6	an_gbarn	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+
+# sent_id = 1716E-DUTIES,.7
+# X_ID = 1716E-DUTIES,.8
+# text = dz mir isral zeynn
+1	dz	_	SCONJ	C	_	0	root	_	_
+2	mir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	isral	_	PROPN	NPR	_	4	xcomp	_	_
+4	zeynn	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+
+# sent_id = 1716E-DUTIES,.8
+# X_ID = 1716E-DUTIES,.9
+# text = ven mir es viln prubin
+1	ven	_	SCONJ	C	_	5	mark	_	_
+2	mir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	es	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+4	viln	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+5	prubin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1716E-DUTIES,.9
+# X_ID = 1716E-DUTIES,.10
+# text = vi mir zaln unzr ... habn oyf gat aleyn
+1	vi	_	SCONJ	C	_	0	root	_	_
+2	mir	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+3	zaln	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+4	unzr	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	5	det:poss	_	_
+5	...	_	NOUN	N	_	6	obj	_	_
+6	habn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+7	oyf	_	ADP	P	_	8	case	_	_
+8	gat	_	PROPN	NPR	_	6	obl	_	_
+9	aleyn	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+
+# sent_id = 1716E-DUTIES,.10
+# X_ID = 1716E-DUTIES,.11
+# text = als vas %t%-1 gishikht fun grus biz kleyn
+1	als	_	DET	Q	_	0	root	_	_
+2	vas	_	PRON	WPRO	_	4	obj	_	_
+3	%t%-1	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+4	gishikht	_	VERB	VBF	VerbForm=Fin	1	acl:relcl	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	grus	_	NOUN	N	_	4	obl	_	_
+7	biz	_	ADP	P	_	8	case	_	_
+8	kleyn	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1716E-DUTIES,.11
+# X_ID = 1716E-DUTIES,.12
+# text = daz ali unzr mesi ... zal alis zeyn lshm shmim
+1	daz	_	SCONJ	C	_	0	root	_	_
+2	ali	_	DET	Q-NOM	Case=Nom	4	det	_	_
+3	unzr	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	4	det:poss	_	_
+4	mesi	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	SpaceAfter=No
+5	...	_	PUNCT	PUNC	_	4	punct	_	_
+6	zal	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+7	alis	_	ADV	Q	_	8	advmod	_	_
+8	zeyn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+9	lshm	for_sake	X	H	_	8	obl	_	_
+10	shmim	heavens	X	H	_	9	dep	_	_
+
+# sent_id = 1716E-DUTIES,.12
+# X_ID = 1716E-DUTIES,.13
+# text = mesi vas %t%-1 mir tuan
+1	mesi	deeds	X	H	_	0	root	_	_
+2	vas	_	SCONJ	C	_	5	mark	_	_
+3	%t%-1	_	NOUN	NP-ACC	_	5	dep	_	_
+4	mir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	tuan	_	VERB	VBF	VerbForm=Fin	1	acl:relcl	_	_
+
+# sent_id = 1716E-DUTIES,.13
+# X_ID = 1716E-DUTIES,.14
+# text = dz man zal zikh gnts sfl haltn
+1	dz	_	SCONJ	C	_	0	root	_	_
+2	man	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+3	zal	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	7	expl:pv	_	_
+5	gnts	_	ADV	ADV	Degree=Pos	7	amod	_	_
+6	sfl	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	haltn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+
+# sent_id = 1716E-DUTIES,.14
+# X_ID = 1716E-DUTIES,.15
+# text = vi man zal zikh vaul bidenkn
+1	vi	_	SCONJ	C	_	0	root	_	_
+2	man	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+3	zal	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	6	expl:pv	_	_
+5	vaul	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	bidenkn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+
+# sent_id = 1716E-DUTIES,.15
+# X_ID = 1716E-DUTIES,.16
+# text = vi mir zaln khshbun ldk ha tn oyl ali unzri mesim
+1	vi	_	SCONJ	C	_	0	root	_	_
+2	mir	_	PRON	PRO-NOM	Case=Nom	1	dep	_	_
+3	zaln	_	AUX	MDF	VerbForm=Fin	2	aux	_	_
+4	khshbun	arithmetic	X	H	_	2	dep	_	_
+5	ldk	to_fine	X	H	_	2	dep	_	_
+6	ha	the	X	H	_	2	dep	_	_
+7	tn	UNKNOWN	X	H	_	2	dep	_	_
+8	oyl	want	X	H	_	2	dep	_	_
+9	ali	_	DET	Q	_	2	dep	_	_
+10	unzri	_	PRON	PRO$	_	9	det:poss	_	_
+11	mesim	_	NOUN	N	_	9	conj	_	_
+
+# sent_id = 1716E-DUTIES,.16
+# X_ID = 1716E-DUTIES,.17
+# text = vas %t%-1 der_tsu gihert
+1	vas	_	PRON	WPRO	_	4	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+3	der_tsu	_	ADP	P	_	4	obl	_	_
+4	gihert	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+
+# sent_id = 1716E-DUTIES,.17
+# X_ID = 1716E-DUTIES,.18
+# text = ier man kumt in der finstr erd
+1	ier	_	SCONJ	C	_	3	mark	_	_
+2	man	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	in	_	ADP	P	_	7	case	_	_
+5	der	_	DET	D	PronType=Art	7	det	_	_
+6	finstr	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	erd	_	NOUN	N-D	Definite=Def	3	obl	_	_
+
+# sent_id = 1716E-DUTIES,.18
+# X_ID = 1716E-DUTIES,.19
+# text = dz mir zalin zikh purs %ich%-1 zeyn fun menkhi zakhn
+1	dz	_	SCONJ	C	_	0	root	_	_
+2	mir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+3	zalin	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	7	expl:pv	_	_
+5	purs	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+6	%ich%-1	_	ADP	PP	_	5	amod	_	_
+7	zeyn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+8	fun	_	ADP	P	_	10	case	_	_
+9	menkhi	_	DET	Q	_	10	det	_	_
+10	zakhn	_	NOUN	N	_	7	obl	_	_
+
+# sent_id = 1716E-DUTIES,.19
+# X_ID = 1716E-DUTIES,.20
+# text = ven_shun mn ken ez habn
+1	ven_shun	_	SCONJ	C	_	5	mark	_	_
+2	mn	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	ken	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+4	ez	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+5	habn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+1	di	_	PRON	WPRO	_	5	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	tayts	_	NOUN	N	_	5	obl	_	_
+5	stin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+

@@ -1,0 +1,410 @@
+# sent_id = 1798W-DISKURS,.1
+# X_ID = 1798W-DISKURS,164.3
+# text = anshl holander kumt in shif
+1	anshl	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+2	holander	_	PROPN	NPR	_	1	flat:name	_	_
+3	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	shif	_	NOUN	N	_	3	obl	_	_
+
+# sent_id = 1798W-DISKURS,.2
+# X_ID = 1798W-DISKURS,164.4
+# text = %con% frogt ken ikh an huk-plats krign ?
+1	%con%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+2	frogt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ken	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+5	an	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	huk-plats	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	7	obj	_	_
+7	krign	_	VERB	VB	VerbForm=Inf	2	dep	_	SpaceAfter=No
+8	?	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1798W-DISKURS,.3
+# X_ID = 1798W-DISKURS,164.5
+# text = shifer zogt es shif iz nokh ledig
+1	shifer	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+2	zogt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	es	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	shif	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+6	nokh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	ledig	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+
+# sent_id = 1798W-DISKURS,.4
+# X_ID = 1798W-DISKURS,164.6
+# text = gumpel spanier kumt
+1	gumpel	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+2	spanier	_	PROPN	NPR	_	1	flat:name	_	_
+3	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+
+# sent_id = 1798W-DISKURS,.5
+# X_ID = 1798W-DISKURS,164.7
+# text = un %con% frogt akh nokh an huk-pletsie
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	frogt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	akh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	nokh	_	ADP	P	_	7	case	_	_
+6	an	_	DET	D	PronType=Art	7	det	_	_
+7	huk-pletsie	_	NOUN	N-I	Definite=Ind	3	obl	_	_
+
+# sent_id = 1798W-DISKURS,.6
+# X_ID = 1798W-DISKURS,164.8
+# text = shifer zogt yu
+1	shifer	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+2	zogt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	yu	_	INTJ	INTJ	_	2	dep	_	_
+
+# sent_id = 1798W-DISKURS,.7
+# X_ID = 1798W-DISKURS,164.9
+# text = gumpel get in shif
+1	gumpel	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	get	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	shif	_	NOUN	N	_	2	obl	_	_
+
+# sent_id = 1798W-DISKURS,.8
+# X_ID = 1798W-DISKURS,164.10
+# text = un %con% zogt o vi gut
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	zogt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	o	_	INTJ	INTJ	_	3	ccomp	_	_
+5	vi	_	ADV	WADV	Degree=Pos	4	amod	_	_
+6	gut	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+
+# sent_id = 1798W-DISKURS,.9
+# X_ID = 1798W-DISKURS,164.11
+# text = do ken ikh gut shlofn
+1	do	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	ken	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	gut	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	shlofn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1798W-DISKURS,.10
+# X_ID = 1798W-DISKURS,164.12
+# text = nokh kaner do
+1	nokh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	kaner	_	DET	Q	_	0	root	_	_
+3	do	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+
+# sent_id = 1798W-DISKURS,.11
+# X_ID = 1798W-DISKURS,164.13
+# text = yo vor_haftig, do zitst nokh an mensh %ich%-1 in
+1	yo	_	INTJ	INTJ	_	5	discourse	_	_
+2	vor_haftig	_	ADV	ADV	Degree=Pos	5	advmod	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	5	punct	_	_
+4	do	_	DET	DR	_	5	obl	_	_
+5	zitst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	nokh	_	X	AD-NOMV	_	8	dep	_	_
+7	an	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	mensh	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	5	nsubj	_	_
+9	%ich%-1	_	NOUN	NP	_	5	obl	_	_
+10	in	_	ADP	P	_	9	case	_	_
+
+# sent_id = 1798W-DISKURS,.12
+# X_ID = 1798W-DISKURS,164.14
+# text = o do ken ikh shlofn
+1	o	_	INTJ	INTJ	_	5	discourse	_	_
+2	do	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+3	ken	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	shlofn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1798W-DISKURS,.13
+# X_ID = 1798W-DISKURS,164.15
+# text = gut morgn
+1	gut	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	morgn	_	NOUN	N	_	0	root	_	_
+
+# sent_id = 1798W-DISKURS,.14
+# X_ID = 1798W-DISKURS,164.16
+# text = o anshl du bist es
+1	o	_	INTJ	INTJ	_	4	discourse	_	_
+2	anshl	_	PROPN	NPR	_	4	vocative	_	_
+3	du	_	PRON	PRO	_	4	xcomp	_	_
+4	bist	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	es	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+
+# sent_id = 1798W-DISKURS,.15
+# X_ID = 1798W-DISKURS,164.17
+# text = ikh hob nit gevust dos du akh in itret bist
+1	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+4	gevust	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	dos	_	SCONJ	C	_	10	mark	_	_
+6	du	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+7	akh	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	itret	_	PROPN	NPR	_	10	obl	_	_
+10	bist	_	VERB	VBF	VerbForm=Fin	4	ccomp	_	_
+
+# sent_id = 1798W-DISKURS,.16
+# X_ID = 1798W-DISKURS,164.18
+# text = ikh hob gemant du bist shabes in amsterdam gevezt um uf gerufn tsu vern
+1	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+3	gemant	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	du	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+5	bist	_	AUX	BEF	VerbForm=Fin	9	cop	_	_
+6	shabes	_	NOUN	N	_	9	obl	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	amsterdam	_	PROPN	NPR	_	9	obl	_	_
+9	gevezt	_	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+10	um	_	ADP	P	_	11	case	_	_
+11	uf	_	ADP	RP	_	9	obl	_	_
+12	gerufn	_	VERB	VAN	Tense=Past|VerbForm=Part	11	ccomp	_	_
+13	tsu	_	PART	TO	_	11	mark	_	_
+14	vern	_	AUX	RD	VerbForm=Inf	11	aux	_	_
+
+# sent_id = 1798W-DISKURS,.17
+# X_ID = 1798W-DISKURS,164.19
+# text = for akht tog shabes zenen ale di ketsinem uf gerufn gevorn
+1	for	_	ADP	P	_	2	case	_	_
+2	akht	_	NUM	NUM	_	10	obl	_	_
+3	tog	_	NOUN	N	_	2	conj	_	_
+4	shabes	_	NOUN	N	_	2	conj	_	_
+5	zenen	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+6	ale	_	DET	Q-NOM	Case=Nom	8	det	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	ketsinem	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	_
+9	uf	_	ADP	RP	_	10	compound:prt	_	_
+10	gerufn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+11	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	10	dep	_	_
+
+# sent_id = 1798W-DISKURS,.18
+# X_ID = 1798W-DISKURS,164.20
+# text = hob ikh gemant shabes kumt es on di dalfonem
+1	hob	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	gemant	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	shabes	_	NOUN	N	_	5	obl	_	_
+5	kumt	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+6	es	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+7	on	_	ADP	P	_	9	case	_	_
+8	di	_	DET	D	PronType=Art	9	det	_	_
+9	dalfonem	_	NOUN	N-D	Definite=Def	5	obl	_	_
+
+# sent_id = 1798W-DISKURS,.19
+# X_ID = 1798W-DISKURS,164.21
+# text = anshl vos %t%-1 mans@ @tu den dos es bey uns tsu geyt vi bey eykh leyt dos khilek %ich%-2 gemakht vert tsvishn kotsn oder gemaner man
+1	anshl	_	PROPN	NPR	_	4	vocative	_	_
+2	vos	_	PRON	WPRO	_	4	obj	_	_
+3	%t%-1	_	NOUN	NP-ACC	_	4	dep	_	_
+4	mans@	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	@tu	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	den	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+7	dos	_	SCONJ	C	_	12	mark	_	_
+8	es	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+9	bey	_	ADP	P	_	10	case	_	_
+10	uns	_	PRON	PRO	_	12	obl	_	_
+11	tsu	_	ADP	RP	_	12	compound:prt	_	_
+12	geyt	_	VERB	VBF	VerbForm=Fin	4	ccomp	_	_
+13	vi	_	ADP	P	_	16	case	_	_
+14	bey	_	ADP	P	_	16	case	_	_
+15	eykh	_	PRON	PRO	_	16	nmod	_	_
+16	leyt	_	NOUN	N	_	12	obl	_	_
+17	dos	_	SCONJ	C	_	20	mark	_	_
+18	khilek	_	NOUN	N-NOM	Case=Nom	20	nsubj	_	_
+19	%ich%-2	_	ADP	PP	_	18	obl	_	_
+20	gemakht	_	VERB	VAN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+21	vert	_	AUX	RDF	VerbForm=Fin	20	aux	_	_
+22	tsvishn	_	ADP	P	_	23	case	_	_
+23	kotsn	_	NOUN	N	_	20	obl	_	_
+24	oder	_	CCONJ	CONJ	_	26	cc	_	_
+25	gemaner	_	ADJ	ADJ	Degree=Pos	26	amod	_	_
+26	man	_	NOUN	N	_	23	conj	_	_
+
+# sent_id = 1798W-DISKURS,.20
+# X_ID = 1798W-DISKURS,164.22
+# text = mir zenen ale goer egal
+1	mir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	zenen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ale	_	ADV	Q	_	2	advmod	_	_
+4	goer	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+5	egal	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+
+# sent_id = 1798W-DISKURS,.21
+# X_ID = 1798W-DISKURS,164.23
+# text = der maneg is niks beser als der gemaner man
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	maneg	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	is	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	niks	_	DET	Q-NEG	Polarity=Neg	5	amod	_	_
+5	beser	_	ADJ	ADJR	Degree=Pos	3	amod	_	_
+6	als	_	ADP	P	_	9	case	_	_
+7	der	_	DET	D	PronType=Art	9	det	_	_
+8	gemaner	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	man	_	NOUN	N-D	Definite=Def	5	amod	_	_
+
+# sent_id = 1798W-DISKURS,.22
+# X_ID = 1798W-DISKURS,164.24
+# text = ale gor tsu_gleykh kenen dokh nit uf gerufn vern
+1	ale	_	DET	Q-NOM	Case=Nom	8	nsubj	_	_
+2	gor	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	tsu_gleykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	kenen	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+5	dokh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+7	uf	_	ADP	RP	_	8	compound:prt	_	_
+8	gerufn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+9	vern	_	AUX	RD	VerbForm=Inf	8	aux	_	_
+
+# sent_id = 1798W-DISKURS,.23
+# X_ID = 1798W-DISKURS,164.25
+# text = gumpl yu mar vorum %t%-1 iz den iosef shu-ran-makher nit de erste shabes uf gerufn gevorn
+1	gumpl	_	PROPN	NPR	_	15	dep	_	_
+2	yu	_	INTJ	INTJ	_	15	discourse	_	_
+3	mar	_	CCONJ	CONJ	_	15	cc	_	_
+4	vorum	_	ADP	P	_	15	obl	_	_
+5	%t%-1	_	ADP	PP	_	15	obl	_	_
+6	iz	_	AUX	BEF	VerbForm=Fin	15	cop	_	_
+7	den	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+8	iosef	_	PROPN	NPR-SBJ	_	15	nsubj	_	_
+9	shu-ran-makher	_	PROPN	NPR	_	8	flat:name	_	_
+10	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	15	advmod	_	_
+11	de	_	DET	D	PronType=Art	15	obl	_	_
+12	erste	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+13	shabes	_	NOUN	N	_	11	conj	_	_
+14	uf	_	ADP	RP	_	15	compound:prt	_	_
+15	gerufn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+16	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	15	dep	_	_
+
+# sent_id = 1798W-DISKURS,.24
+# X_ID = 1798W-DISKURS,164.26
+# text = anshl du bist an rekhter nar
+1	anshl	_	PROPN	NPR	_	3	dep	_	_
+2	du	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	bist	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	an	_	DET	D	PronType=Art	6	det	_	_
+5	rekhter	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	nar	_	NOUN	N-I	Definite=Ind	3	xcomp	_	_
+
+# sent_id = 1798W-DISKURS,.25
+# X_ID = 1798W-DISKURS,164.27
+# text = haftore vert dokh for_kaft
+1	haftore	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+2	vert	_	AUX	RDF	VerbForm=Fin	4	aux	_	_
+3	dokh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	for_kaft	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1798W-DISKURS,.26
+# X_ID = 1798W-DISKURS,164.28
+# text = dokh ikh ze voul dos du akh an soyne %ich%-1 bist fun di neye kile
+1	dokh	_	CCONJ	CONJ	_	3	cc	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	ze	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	voul	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	dos	_	SCONJ	C	_	11	mark	_	_
+6	du	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+7	akh	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+8	an	_	DET	D	PronType=Art	9	det	_	_
+9	soyne	_	NOUN	N-I	Definite=Ind	11	xcomp	_	_
+10	%ich%-1	_	ADP	PP	_	9	obl	_	_
+11	bist	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+12	fun	_	ADP	P	_	15	case	_	_
+13	di	_	DET	D	PronType=Art	15	det	_	_
+14	neye	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	kile	_	NOUN	N-D	Definite=Def	11	obl	_	_
+
+# sent_id = 1798W-DISKURS,.27
+# X_ID = 1798W-DISKURS,164.29
+# text = ikh vil amol meyn bikhlekh fun de khinekh vos %t%-1 ikh hob leyenen
+1	ikh	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+2	vil	_	AUX	MDF	VerbForm=Fin	13	aux	_	_
+3	amol	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+4	meyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	5	det:poss	_	_
+5	bikhlekh	_	NOUN	N	_	13	obj	_	_
+6	fun	_	ADP	P	_	8	case	_	_
+7	de	_	DET	D	PronType=Art	8	det	_	_
+8	khinekh	_	NOUN	N	_	5	obl	_	_
+9	vos	_	SCONJ	C	_	12	mark	_	_
+10	%t%-1	_	NOUN	NP-ACC	_	12	dep	_	_
+11	ikh	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+12	hob	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+13	leyenen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1798W-DISKURS,.28
+# X_ID = 1798W-DISKURS,164.30
+# text = gumpl her amol anshl
+1	gumpl	_	PROPN	NPR	_	2	dep	_	_
+2	her	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	amol	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	anshl	_	PROPN	NPR	_	2	vocative	_	_
+
+# sent_id = 1798W-DISKURS,.29
+# X_ID = 1798W-DISKURS,164.31
+# text = ikh zog dir meyn herts rekht araus
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	zog	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	dir	_	PRON	PRO-DTV	Case=Dat	2	iobj	_	_
+4	meyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	5	det:poss	_	_
+5	herts	_	NOUN	N	_	2	obj	_	_
+6	rekht	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+7	araus	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+
+# sent_id = 1798W-DISKURS,.30
+# X_ID = 1798W-DISKURS,164.32
+# text = du bist dir on mir un on fil andere leyt grob toue
+1	du	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	bist	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	dir	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	on	_	ADP	P	_	5	case	_	_
+5	mir	_	PRON	PRO	_	2	obl	_	_
+6	un	_	CCONJ	CONJ	_	10	cc	_	_
+7	on	_	ADP	P	_	10	case	_	_
+8	fil	_	DET	Q	_	10	det	_	_
+9	andere	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	leyt	_	NOUN	N	_	5	conj	_	_
+11	grob	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+12	toue	_	ADP	RP-H	_	2	compound:prt	_	_
+
+# sent_id = 1798W-DISKURS,.31
+# X_ID = 1798W-DISKURS,164.33
+# text = ikh bin bey meyn lebn kan soyne fun di neye kile
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	bin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	bey	_	ADP	P	_	5	case	_	_
+4	meyn	_	PRON	PRO$	_	5	det:poss	_	_
+5	lebn	_	NOUN	N	_	2	obl	_	_
+6	kan	_	DET	Q	_	7	det	_	_
+7	soyne	_	NOUN	N	_	2	xcomp	_	_
+8	fun	_	ADP	P	_	11	case	_	_
+9	di	_	DET	D	PronType=Art	11	det	_	_
+10	neye	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	kile	_	NOUN	N-D	Definite=Def	7	obl	_	_
+
+# sent_id = 1798W-DISKURS,.32
+# X_ID = 1798W-DISKURS,164.34
+# text = nor ikh ze nit dos ir leyt epes gebesert zeyt
+1	nor	_	CCONJ	CONJ	_	3	cc	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	ze	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	3	advmod	_	_
+5	dos	_	SCONJ	C	_	10	mark	_	_
+6	ir	_	PRON	PRO-NOM	Case=Nom	7	nmod	_	_
+7	leyt	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+8	epes	_	DET	Q	_	9	amod	_	_
+9	gebesert	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	zeyt	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+
+# sent_id = 1798W-DISKURS,.33
+# X_ID = 1798W-DISKURS,164.35
+# text = anshl vos mir gebesert zenen o shma beni
+1	anshl	_	PROPN	NPR	_	0	root	_	_
+2	vos	_	SCONJ	C	_	1	mark	_	_
+3	mir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	gebesert	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	zenen	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+6	o	_	INTJ	INTJ	_	7	discourse	_	_
+7	shma	hear	X	H	_	1	vocative	_	_
+8	beni	sons	X	H	_	7	dep	_	_
+
+1	den	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	vas@	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	@tu	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	gor	_	ADV	ADV	Degree=Pos	2	obj	_	_
+5	niks	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	4	det	_	_
+

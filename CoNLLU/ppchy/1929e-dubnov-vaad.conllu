@@ -1,0 +1,1027 @@
+# sent_id = 1929E-DUBNOV-VAAD,.1
+# X_ID = 1929E-DUBNOV-VAAD,699.3
+# text = der original fnkm funem " ued arbe artsut " in poyln iz, vi %t%-1 bakant, farfaln gevorn .
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	original	_	NOUN	N-NOM	Case=Nom	19	nsubj	_	_
+3	fnkm	_	NOUN	N-NOM	Case=Nom	2	conj	_	_
+4	funem	_	ADP	P-CL	_	5	case	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	2	punct	_	_
+6	ued	_	NOUN	N	_	5	dep	_	_
+7	arbe	four	X	H	_	6	dep	_	_
+8	artsut	lands	X	H	_	6	dep	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	5	punct	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	poyln	_	PROPN	NPR	_	5	obl	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	19	cop	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	19	punct	_	_
+14	vi	_	ADV	WADV	Degree=Pos	19	advcl	_	_
+15	%t%-1	_	ADV	ADVP	Degree=Pos	16	advmod	_	_
+16	bakant	_	ADJ	ADJ	Degree=Pos	14	xcomp	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	19	punct	_	_
+18	farfaln	_	VERB	VX	_	19	dep	_	_
+19	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+20	.	_	PUNCT	PUNC	_	19	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.2
+# X_ID = 1929E-DUBNOV-VAAD,699.4
+# text = es zenen nor nitsul gevorn etlekhe bleter, vos %t%-1 zenen bsetu in yor 1894 mir tsugesikt gevorn fun der stot dubna un %t%-1 gefinen zikh itst in meyn arkhiv .
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	5	expl	_	_
+2	zenen	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+3	nor	_	ADV	FP	Degree=Pos	5	advmod	_	_
+4	nitsul	_	ADP	RP-H	_	5	compound:prt	_	_
+5	gevorn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	etlekhe	_	DET	Q-NOM	Case=Nom	7	det	_	_
+7	bleter	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+9	vos	_	SCONJ	C	_	17	mark	_	_
+10	%t%-1	_	NOUN	NP-SBJ	_	17	nsubj	_	_
+11	zenen	_	AUX	BEF	VerbForm=Fin	17	cop	_	_
+12	bsetu	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+13	in	_	ADP	P	_	14	case	_	_
+14	yor	_	NOUN	N	_	17	obl	_	_
+15	1894	_	NUM	NUM	_	14	nummod	_	_
+16	mir	_	PRON	PRO-DTV	Case=Dat	17	iobj	_	_
+17	tsugesikt	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+18	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	17	dep	_	_
+19	fun	_	ADP	P	_	22	case	_	_
+20	der	_	DET	D	PronType=Art	22	det	_	_
+21	stot	_	NOUN	N	_	22	nummod	_	_
+22	dubna	_	PROPN	NPR-D	_	17	obl	_	_
+23	un	_	CCONJ	CONJ	_	25	cc	_	_
+24	%t%-1	_	NOUN	NP-SBJ	_	25	nsubj	_	_
+25	gefinen	_	VERB	VBF	VerbForm=Fin	17	conj	_	_
+26	zikh	_	PRON	PRO-RFL	PronType=Reflex	25	expl:pv	_	_
+27	itst	_	ADV	ADV	Degree=Pos	25	advmod	_	_
+28	in	_	ADP	P	_	30	case	_	_
+29	meyn	_	PRON	PRO$	_	30	det:poss	_	_
+30	arkhiv	_	NOUN	N	_	25	obl	_	SpaceAfter=No
+31	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.3
+# X_ID = 1929E-DUBNOV-VAAD,699.5
+# text = in didozike bleter zenen faran tsvey krzim in yidish, vos %t%-1 zenen in namen funem " ued arbe artsut " oysgerufn gevorn oyfn yarid in yaroslav galitsie, vu %t%-3 es flegn oft forkumen di zitsungen funem ved, un dernakh oykh in ale bt-mdrsim fun gants poyln
+1	in	_	ADP	P	_	3	case	_	_
+2	didozike	_	DET	D	PronType=Art	3	det	_	_
+3	bleter	_	NOUN	N-D	Definite=Def	4	obl	_	_
+4	zenen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	faran	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+6	tsvey	_	NUM	NUM-NOM	Case=Nom	7	nummod	_	_
+7	krzim	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	yidish	_	NOUN	N	_	7	obl	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	7	punct	_	_
+11	vos	_	SCONJ	C	_	22	mark	_	_
+12	%t%-1	_	NOUN	NP-SBJ	_	22	nsubj	_	_
+13	zenen	_	AUX	BEF	VerbForm=Fin	22	cop	_	_
+14	in	_	ADP	P	_	15	case	_	_
+15	namen	_	NOUN	N	_	22	obl	_	_
+16	funem	_	ADP	P-CL	_	17	case	_	SpaceAfter=No
+17	"	_	PUNCT	PUNC	_	15	punct	_	_
+18	ued	_	NOUN	N	_	17	dep	_	_
+19	arbe	four	X	H	_	18	dep	_	_
+20	artsut	lands	X	H	_	18	dep	_	SpaceAfter=No
+21	"	_	PUNCT	PUNC	_	18	punct	_	_
+22	oysgerufn	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+23	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	22	dep	_	_
+24	oyfn	_	ADP	P-CL	_	25	case	_	_
+25	yarid	_	NOUN	N	_	22	obl	_	_
+26	in	_	ADP	P	_	27	case	_	_
+27	yaroslav	_	PROPN	NPR	_	25	obl	_	_
+28	galitsie	_	PROPN	NPR	_	27	flat:name	_	SpaceAfter=No
+29	,	_	PUNCT	PUNC	_	27	punct	_	_
+30	vu	_	ADV	WADV	Degree=Pos	35	advmod	_	_
+31	%t%-3	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	35	advmod	_	_
+32	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	35	expl	_	_
+33	flegn	_	AUX	MDF	VerbForm=Fin	35	aux	_	_
+34	oft	_	ADV	ADV	Degree=Pos	35	advmod	_	_
+35	forkumen	_	VERB	VB-PART	VerbForm=Inf	27	acl:relcl	_	_
+36	di	_	DET	D-NOM	Case=Nom|PronType=Art	37	det	_	_
+37	zitsungen	_	NOUN	N-NOM	Case=Nom	35	nsubj	_	_
+38	funem	_	ADP	P-CL	_	39	dep	_	_
+39	ved	UNKNOWN	X	H	_	37	obl	_	SpaceAfter=No
+40	,	_	PUNCT	PUNC	_	22	punct	_	_
+41	un	_	CCONJ	CONJ	_	22	cc	_	_
+42	dernakh	_	ADP	P	_	22	obl	_	_
+43	oykh	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+44	in	_	ADP	P	_	46	case	_	_
+45	ale	_	DET	Q	_	46	det	_	_
+46	bt-mdrsim	_	NOUN	N	_	22	obl	_	_
+47	fun	_	ADP	P	_	49	case	_	_
+48	gants	_	ADJ	ADJ	Degree=Pos	49	amod	_	_
+49	poyln	_	PROPN	NPR	_	46	obl	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.4
+# X_ID = 1929E-DUBNOV-VAAD,699.6
+# text = dos iz geven in yar 1671, nakh di shreklekhe hrigut fun khmelnitskin in ukraine in nakh di mlkhmut in poyln, ven di yidishe khilut zenen gevorn ekonomish ruinirt, geystik dershlagn un ven der alter oytoritet fun ved hot ongehoybn stark faln
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	3	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+3	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	yar	_	NOUN	N	_	3	obl	_	_
+6	1671	_	NUM	NUM	_	5	nummod	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	3	punct	_	_
+8	nakh	_	ADP	P	_	11	case	_	_
+9	di	_	DET	D	PronType=Art	11	det	_	_
+10	shreklekhe	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	hrigut	_	NOUN	N	_	3	obl	_	_
+12	fun	_	ADP	P	_	13	case	_	_
+13	khmelnitskin	_	PROPN	NPR	_	11	obl	_	_
+14	in	_	ADP	P	_	15	case	_	_
+15	ukraine	_	PROPN	NPR	_	11	obl	_	_
+16	in	_	CCONJ	CONJ	_	19	cc	_	_
+17	nakh	_	ADP	P	_	19	case	_	_
+18	di	_	DET	D	PronType=Art	19	det	_	_
+19	mlkhmut	_	NOUN	N-D	Definite=Def	11	conj	_	_
+20	in	_	ADP	P	_	21	case	_	_
+21	poyln	_	PROPN	NPR	_	19	obl	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	3	punct	_	_
+23	ven	_	SCONJ	C	_	30	mark	_	_
+24	di	_	DET	D-NOM	Case=Nom|PronType=Art	26	det	_	_
+25	yidishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	26	amod	_	_
+26	khilut	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	30	nsubj	_	_
+27	zenen	_	AUX	BEF	VerbForm=Fin	30	cop	_	_
+28	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	30	dep	_	_
+29	ekonomish	_	ADV	ADV	Degree=Pos	30	advmod	_	_
+30	ruinirt	_	VERB	VAN	Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+31	,	_	PUNCT	PUNC	_	30	punct	_	_
+32	geystik	_	ADV	ADV	Degree=Pos	30	advmod	_	_
+33	dershlagn	_	VERB	VAN	Tense=Past|VerbForm=Part	30	ccomp	_	_
+34	un	_	CCONJ	CONJ	_	30	conj	_	_
+35	ven	_	SCONJ	C	_	42	mark	_	_
+36	der	_	DET	D-NOM	Case=Nom|PronType=Art	38	det	_	_
+37	alter	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	38	amod	_	_
+38	oytoritet	_	NOUN	N-NOM	Case=Nom	42	nsubj	_	_
+39	fun	_	ADP	P	_	40	dep	_	_
+40	ved	UNKNOWN	X	H	_	38	obl	_	_
+41	hot	_	AUX	HVF	VerbForm=Fin	42	aux	_	_
+42	ongehoybn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	34	advcl	_	_
+43	stark	_	ADV	ADV	Degree=Pos	44	advmod	_	_
+44	faln	_	VERB	VB	VerbForm=Inf	42	xcomp	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.5
+# X_ID = 1929E-DUBNOV-VAAD,699.7
+# text = in yener tseyt fun algemeyner " ruine " hot der khurbn gebrakht oykh in yidishn lebn tsu mhumut, mkhlukt, tsu a iridh fun der alter strenger distsiplin in di khilut in tsu " knuniut uksrim ", intriges un opozitsie mtsd eyntslne mitglider oder grupes in di khilut kegn di tknut funem ued, bazunders oyf@ @n virtshaftlekh-finantsieln gebit .
+1	in	_	ADP	P	_	3	case	_	_
+2	yener	_	DET	D	PronType=Art	3	det	_	_
+3	tseyt	_	NOUN	N-D	Definite=Def	12	obl	_	_
+4	fun	_	ADP	P	_	7	case	_	_
+5	algemeyner	_	ADJ	ADJ	Degree=Pos	7	amod	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	7	punct	_	_
+7	ruine	_	NOUN	N	_	3	obl	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	12	punct	_	_
+9	hot	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+10	der	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+11	khurbn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	12	nsubj	_	_
+12	gebrakht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	oykh	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+14	in	_	ADP	P	_	16	case	_	_
+15	yidishn	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	lebn	_	NOUN	N	_	12	obl	_	_
+17	tsu	_	ADP	P	_	18	case	_	_
+18	mhumut	_	NOUN	N	_	12	obl	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	18	punct	_	_
+20	mkhlukt	_	NOUN	N	_	18	conj	_	SpaceAfter=No
+21	,	_	PUNCT	PUNC	_	18	punct	_	_
+22	tsu	_	ADP	P	_	24	case	_	_
+23	a	_	DET	D	PronType=Art	24	det	_	_
+24	iridh	_	NOUN	N-I	Definite=Ind	18	conj	_	_
+25	fun	_	ADP	P	_	29	case	_	_
+26	der	_	DET	D	PronType=Art	29	det	_	_
+27	alter	_	ADJ	ADJ	Degree=Pos	29	amod	_	_
+28	strenger	_	ADJ	ADJ	Degree=Pos	29	amod	_	_
+29	distsiplin	_	NOUN	N-D	Definite=Def	24	obl	_	_
+30	in	_	ADP	P	_	32	case	_	_
+31	di	_	DET	D	PronType=Art	32	det	_	_
+32	khilut	_	NOUN	N-D	Definite=Def	24	obl	_	_
+33	in	_	CCONJ	CONJ	_	40	cc	_	_
+34	tsu	_	ADP	P	_	40	case	_	SpaceAfter=No
+35	"	_	PUNCT	PUNC	_	40	punct	_	_
+36	knuniut	conspiracies	X	H	_	40	dep	_	_
+37	uksrim	and_connections	X	H	_	40	dep	_	SpaceAfter=No
+38	"	_	PUNCT	PUNC	_	40	punct	_	SpaceAfter=No
+39	,	_	PUNCT	PUNC	_	40	punct	_	_
+40	intriges	_	NOUN	N	_	18	conj	_	_
+41	un	_	CCONJ	CONJ	_	42	cc	_	_
+42	opozitsie	_	NOUN	N	_	40	conj	_	_
+43	mtsd	from_side	X	H	_	45	dep	_	_
+44	eyntslne	_	ADJ	ADJ	Degree=Pos	45	amod	_	_
+45	mitglider	_	NOUN	N	_	40	obl	_	_
+46	oder	_	CCONJ	CONJ	_	47	cc	_	_
+47	grupes	_	NOUN	N	_	45	conj	_	_
+48	in	_	ADP	P	_	50	case	_	_
+49	di	_	DET	D	PronType=Art	50	det	_	_
+50	khilut	_	NOUN	N-D	Definite=Def	45	obl	_	_
+51	kegn	_	ADP	P	_	53	case	_	_
+52	di	_	DET	D	PronType=Art	53	det	_	_
+53	tknut	_	NOUN	N-D	Definite=Def	40	obl	_	_
+54	funem	_	ADP	P-CL	_	55	case	_	_
+55	ued	_	NOUN	N	_	53	obl	_	SpaceAfter=No
+56	,	_	PUNCT	PUNC	_	40	punct	_	_
+57	bazunders	_	ADV	ADV	Degree=Pos	61	advmod	_	_
+58	oyf@	_	ADP	P	_	61	case	_	_
+59	@n	_	DET	D	PronType=Art	61	det	_	_
+60	virtshaftlekh-finantsieln	_	ADJ	ADJ	Degree=Pos	61	amod	_	_
+61	gebit	_	NOUN	N	_	40	obl	_	SpaceAfter=No
+62	.	_	PUNCT	PUNC	_	12	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.6
+# X_ID = 1929E-DUBNOV-VAAD,699.8
+# text = tsum sof fun di 60ker in onhoyb 70ker yorn funem 16tn yorhundert hot der " ved arbe artsut " zikh genumen vider farstarkn zeyn oytoritet, farfestikn di distsiplin in di khilut un bekemfn di leyt, vos %t%-1 zenen tsulib private interesn eubr oyf di ongenumene tknut un %t%-1 viln zikh nist rekhenen mitn ttubt-khkll .
+1	tsum	_	ADP	P-CL	_	2	case	_	_
+2	sof	_	NOUN	N	_	21	obl	_	_
+3	fun	_	ADP	P	_	5	case	_	_
+4	di	_	DET	D	PronType=Art	5	det	_	_
+5	60ker	_	ADJ	ADJ	Degree=Pos	2	obl	_	_
+6	in	_	CCONJ	CONJ	_	9	cc	_	_
+7	onhoyb	_	NOUN	N	_	9	conj	_	_
+8	70ker	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	yorn	_	NOUN	N	_	2	conj	_	_
+10	funem	_	ADP	P-CL	_	12	case	_	_
+11	16tn	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	yorhundert	_	NOUN	N	_	9	obl	_	_
+13	hot	_	AUX	HVF	VerbForm=Fin	21	aux	_	_
+14	der	_	DET	D-NOM	Case=Nom|PronType=Art	21	nsubj	_	SpaceAfter=No
+15	"	_	PUNCT	PUNC	_	14	punct	_	_
+16	ved	UNKNOWN	X	H	_	14	dep	_	_
+17	arbe	four	X	H	_	16	dep	_	_
+18	artsut	lands	X	H	_	16	dep	_	SpaceAfter=No
+19	"	_	PUNCT	PUNC	_	21	punct	_	_
+20	zikh	_	PRON	PRO-RFL	PronType=Reflex	21	expl:pv	_	_
+21	genumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+22	vider	_	ADV	ADV	Degree=Pos	23	advmod	_	_
+23	farstarkn	_	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+24	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	25	det:poss	_	_
+25	oytoritet	_	NOUN	N	_	23	obj	_	SpaceAfter=No
+26	,	_	PUNCT	PUNC	_	23	punct	_	_
+27	farfestikn	_	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+28	di	_	DET	D-ACC	Case=Acc|PronType=Art	29	det	_	_
+29	distsiplin	_	NOUN	N-ACC	Case=Acc	27	obj	_	_
+30	in	_	ADP	P	_	32	case	_	_
+31	di	_	DET	D	PronType=Art	32	det	_	_
+32	khilut	_	NOUN	N-D	Definite=Def	29	obl	_	_
+33	un	_	CCONJ	CONJ	_	34	cc	_	_
+34	bekemfn	_	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+35	di	_	DET	D-ACC	Case=Acc|PronType=Art	36	det	_	_
+36	leyt	_	NOUN	N-ACC	Case=Acc	34	obj	_	SpaceAfter=No
+37	,	_	PUNCT	PUNC	_	36	punct	_	_
+38	vos	_	SCONJ	C	_	40	mark	_	_
+39	%t%-1	_	NOUN	NP-SBJ	_	40	nsubj	_	_
+40	zenen	_	VERB	VBF	VerbForm=Fin	36	acl:relcl	_	_
+41	tsulib	_	ADP	P	_	43	case	_	_
+42	private	_	ADJ	ADJ	Degree=Pos	43	amod	_	_
+43	interesn	_	NOUN	N	_	40	obl	_	_
+44	eubr	_	ADP	RP-H	_	40	compound:prt	_	_
+45	oyf	_	ADP	P	_	48	case	_	_
+46	di	_	DET	D	PronType=Art	48	det	_	_
+47	ongenumene	_	ADJ	ADJ	Degree=Pos	48	amod	_	_
+48	tknut	_	NOUN	N-D	Definite=Def	40	obl	_	_
+49	un	_	CCONJ	CONJ	_	54	cc	_	_
+50	%t%-1	_	NOUN	NP-SBJ	_	54	nsubj	_	_
+51	viln	_	AUX	MDF	VerbForm=Fin	54	aux	_	_
+52	zikh	_	PRON	PRO-RFL	PronType=Reflex	54	expl:pv	_	_
+53	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	54	advmod	_	_
+54	rekhenen	_	VERB	VB	VerbForm=Inf	40	conj	_	_
+55	mitn	_	ADP	P-CL	_	56	case	_	_
+56	ttubt-khkll	_	NOUN	N	_	54	obl	_	SpaceAfter=No
+57	.	_	PUNCT	PUNC	_	21	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.7
+# X_ID = 1929E-DUBNOV-VAAD,699.9
+# text = loyt der hstdlut funem ued hobn der seyt un der kinig in 1673 gegebn di khl-farvaltungen das rekht oystsushlisn fun der khilh yedn viderspenikstn ;
+1	loyt	_	ADP	P	_	3	case	_	_
+2	der	_	DET	D	PronType=Art	3	det	_	_
+3	hstdlut	_	NOUN	N-D	Definite=Def	14	obl	_	_
+4	funem	_	ADP	P-CL	_	5	case	_	_
+5	ued	_	NOUN	N	_	3	obl	_	_
+6	hobn	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+7	der	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	seyt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	14	nsubj	_	_
+9	un	_	CCONJ	CONJ	_	11	cc	_	_
+10	der	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+11	kinig	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	8	conj	_	_
+12	in	_	ADP	P	_	13	case	_	_
+13	1673	_	NOUN	N	_	14	obl	_	_
+14	gegebn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	di	_	DET	D-DTV	Case=Dat|PronType=Art	16	det	_	_
+16	khl-farvaltungen	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	14	iobj	_	_
+17	das	_	DET	D-ACC	Case=Acc|PronType=Art	18	det	_	_
+18	rekht	_	NOUN	N-ACC	Case=Acc	14	obj	_	_
+19	oystsushlisn	_	VERB	VB-PART	VerbForm=Inf	18	xcomp	_	_
+20	fun	_	ADP	P	_	22	case	_	_
+21	der	_	DET	D	PronType=Art	22	det	_	_
+22	khilh	_	NOUN	N-D	Definite=Def	19	obl	_	_
+23	yedn	_	DET	Q-ACC	Case=Acc	24	det	_	_
+24	viderspenikstn	_	NOUN	N-ACC	Case=Acc	19	obj	_	SpaceAfter=No
+25	;	_	PUNCT	PUNC	_	14	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.8
+# X_ID = 1929E-DUBNOV-VAAD,699.10
+# text = on der derloybenis funem khl hot keyn yid nist getort makhn khluaut bey di pritsim un glkhim, onnemen an arende oder a stele .
+1	on	_	ADP	P	_	3	case	_	_
+2	der	_	DET	D	PronType=Art	3	det	_	_
+3	derloybenis	_	NOUN	N-D	Definite=Def	11	obl	_	_
+4	funem	_	ADP	P-CL	_	5	case	_	_
+5	khl	_	NOUN	N	_	3	obl	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+7	keyn	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	8	det	_	_
+8	yid	_	NOUN	N-NOM	Case=Nom	11	nsubj	_	_
+9	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	11	advmod	_	_
+10	getort	_	AUX	MDN	Tense=Past|VerbForm=Part	11	aux	_	_
+11	makhn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+12	khluaut	_	NOUN	N-ACC	Case=Acc	11	obj	_	_
+13	bey	_	ADP	P	_	15	case	_	_
+14	di	_	DET	D	PronType=Art	15	det	_	_
+15	pritsim	_	NOUN	N-D	Definite=Def	12	obl	_	_
+16	un	_	CCONJ	CONJ	_	17	cc	_	_
+17	glkhim	_	NOUN	N	_	15	conj	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	11	punct	_	_
+19	onnemen	_	VERB	VB-PART	VerbForm=Inf	11	conj	_	_
+20	an	_	DET	D-ACC	Case=Acc|PronType=Art	21	det	_	_
+21	arende	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	19	obj	_	_
+22	oder	_	CCONJ	CONJ	_	24	cc	_	_
+23	a	_	DET	D-ACC	Case=Acc|PronType=Art	24	det	_	_
+24	stele	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	21	conj	_	SpaceAfter=No
+25	.	_	PUNCT	PUNC	_	11	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.9
+# X_ID = 1929E-DUBNOV-VAAD,700.11
+# text = mit etlekhe yor speter 1676 hot der ued vider farvert yidn tsu arendirn pritsishe erd oder mlukhh-optsalungen, vi bkll areyn@ %ich%-1 @tretn in handl-batsiungen mit nisht-yidn . makhmes das brengt oft tsu konfliktn mit di kristn un %con% ken shadn dem kll .
+1	mit	_	ADP	P	_	3	case	_	_
+2	etlekhe	_	DET	Q	_	3	det	_	_
+3	yor	_	NOUN	N	_	4	obl	_	_
+4	speter	_	ADV	ADVR	Degree=Cmp	10	advmod	_	_
+5	1676	_	NOUN	N	_	4	appos	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+7	der	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	ued	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	_
+9	vider	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+10	farvert	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	yidn	_	NOUN	N-DTV	Case=Dat	10	iobj	_	_
+12	tsu	_	PART	TO	_	13	mark	_	_
+13	arendirn	_	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+14	pritsishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	15	amod	_	_
+15	erd	_	NOUN	N-ACC	Case=Acc	13	obj	_	_
+16	oder	_	CCONJ	CONJ	_	17	cc	_	_
+17	mlukhh-optsalungen	_	NOUN	N	_	15	conj	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	15	punct	_	_
+19	vi	_	ADP	P	_	23	case	_	_
+20	bkll	_	ADV	ADV	Degree=Pos	23	advmod	_	_
+21	areyn@	_	ADV	ADV	Degree=Pos	23	advmod	_	_
+22	%ich%-1	_	ADP	PP	_	21	obl	_	_
+23	@tretn	_	VERB	VB	VerbForm=Inf	15	obl	_	_
+24	in	_	ADP	P	_	25	case	_	_
+25	handl-batsiungen	_	NOUN	N	_	23	obl	_	_
+26	mit	_	ADP	P	_	27	case	_	_
+27	nisht-yidn	_	NOUN	N	_	25	obl	_	SpaceAfter=No
+28	.	_	PUNCT	PUNC	_	10	punct	_	_
+29	makhmes	_	SCONJ	C	_	31	mark	_	_
+30	das	_	DET	D-NOM	Case=Nom|PronType=Art	31	nsubj	_	_
+31	brengt	_	VERB	VBF	VerbForm=Fin	10	advcl	_	_
+32	oft	_	ADV	ADV	Degree=Pos	31	advmod	_	_
+33	tsu	_	ADP	P	_	34	case	_	_
+34	konfliktn	_	NOUN	N	_	31	obl	_	_
+35	mit	_	ADP	P	_	37	case	_	_
+36	di	_	DET	D	PronType=Art	37	det	_	_
+37	kristn	_	NOUN	N-D	Definite=Def	34	obl	_	_
+38	un	_	CCONJ	CONJ	_	41	cc	_	_
+39	%con%	_	NOUN	NP-SBJ	_	41	nsubj	_	_
+40	ken	_	AUX	MDF	VerbForm=Fin	41	aux	_	_
+41	shadn	_	VERB	VB	VerbForm=Inf	31	conj	_	_
+42	dem	_	DET	D-DTV	Case=Dat|PronType=Art	43	det	_	_
+43	kll	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	41	iobj	_	SpaceAfter=No
+44	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.10
+# X_ID = 1929E-DUBNOV-VAAD,700.12
+# text = speter 1687 hot der kinig aroysgegebn, loyt der hstdlut fun ued, a farordnung, az ale yidn zenen mkhoyb zikh untertsuvarfn dem oytoritet funem ued un nist avekmakhn zikh fun tsoln steyern tsum ued un tsu di khl-farvaltungen .
+1	speter	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+2	1687	_	NOUN	N	_	1	appos	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	kinig	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+6	aroysgegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	loyt	_	ADP	P	_	10	case	_	_
+9	der	_	DET	D	PronType=Art	10	det	_	_
+10	hstdlut	_	NOUN	N-D	Definite=Def	6	obl	_	_
+11	fun	_	ADP	P	_	12	case	_	_
+12	ued	_	NOUN	N	_	10	obl	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	6	punct	_	_
+14	a	_	DET	D-ACC	Case=Acc|PronType=Art	15	det	_	_
+15	farordnung	_	NOUN	N-ACC	Case=Acc	6	obj	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	15	punct	_	_
+17	az	_	SCONJ	C	_	20	mark	_	_
+18	ale	_	DET	Q-NOM	Case=Nom	19	det	_	_
+19	yidn	_	NOUN	N-NOM	Case=Nom	20	nsubj	_	_
+20	zenen	_	VERB	VBF	VerbForm=Fin	15	ccomp	_	_
+21	mkhoyb	_	ADP	RP-H	_	20	compound:prt	_	_
+22	zikh	_	PRON	PRO-RFL	PronType=Reflex	23	expl:pv	_	_
+23	untertsuvarfn	_	VERB	VB-PART	VerbForm=Inf	20	xcomp	_	_
+24	dem	_	DET	D-DTV	Case=Dat|PronType=Art	25	det	_	_
+25	oytoritet	_	NOUN	N-DTV	Case=Dat	23	iobj	_	_
+26	funem	_	ADP	P-CL	_	27	case	_	_
+27	ued	_	NOUN	N	_	25	obl	_	_
+28	un	_	CCONJ	CONJ	_	30	cc	_	_
+29	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	30	advmod	_	_
+30	avekmakhn	_	VERB	VB-PART	VerbForm=Inf	23	xcomp	_	_
+31	zikh	_	PRON	PRO-RFL	PronType=Reflex	30	expl:pv	_	_
+32	fun	_	ADP	P	_	33	case	_	_
+33	tsoln	_	VERB	VB	VerbForm=Inf	30	obl	_	_
+34	steyern	_	NOUN	N-ACC	Case=Acc	33	obj	_	_
+35	tsum	_	ADP	P-CL	_	36	case	_	_
+36	ued	_	NOUN	N	_	33	obl	_	_
+37	un	_	CCONJ	CONJ	_	40	cc	_	_
+38	tsu	_	ADP	P	_	40	case	_	_
+39	di	_	DET	D	PronType=Art	40	det	_	_
+40	khl-farvaltungen	_	NOUN	N-D	Definite=Def	36	conj	_	SpaceAfter=No
+41	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.11
+# X_ID = 1929E-DUBNOV-VAAD,700.13
+# text = der erster kruz batsit zikh tsum anhoyb funem ongevizenem kamf mtsd dem " ued arbe artsut " kegn azelkhe umgehorkhzame mitglider, vos %t%-1 viln zikh aroys@ %ich%-3 @dreyen fun di tknut hued, firn intriges, tragn areyn %ich%-4 mtlukt " in seririh " in@ @em khelmer kreyz .
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	erster	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	kruz	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	batsit	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+6	tsum	_	ADP	P-CL	_	7	case	_	_
+7	anhoyb	_	NOUN	N	_	4	obl	_	_
+8	funem	_	ADP	P-CL	_	10	case	_	_
+9	ongevizenem	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	kamf	_	NOUN	N	_	7	obl	_	_
+11	mtsd	from_side	X	H	_	12	dep	_	_
+12	dem	_	DET	D	PronType=Art	10	obl	_	SpaceAfter=No
+13	"	_	PUNCT	PUNC	_	12	punct	_	_
+14	ued	_	NOUN	N	_	12	dep	_	_
+15	arbe	four	X	H	_	14	dep	_	_
+16	artsut	lands	X	H	_	14	dep	_	SpaceAfter=No
+17	"	_	PUNCT	PUNC	_	10	punct	_	_
+18	kegn	_	ADP	P	_	21	case	_	_
+19	azelkhe	_	ADJ	ADJ	Degree=Pos	21	amod	_	_
+20	umgehorkhzame	_	ADJ	ADJ	Degree=Pos	21	amod	_	_
+21	mitglider	_	NOUN	N	_	10	obl	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	21	punct	_	_
+23	vos	_	SCONJ	C	_	29	mark	_	_
+24	%t%-1	_	NOUN	NP-SBJ	_	29	nsubj	_	_
+25	viln	_	AUX	MDF	VerbForm=Fin	29	aux	_	_
+26	zikh	_	PRON	PRO-RFL	PronType=Reflex	29	expl:pv	_	_
+27	aroys@	_	ADV	ADV	Degree=Pos	29	advmod	_	_
+28	%ich%-3	_	ADP	PP	_	27	obl	_	_
+29	@dreyen	_	VERB	VB	VerbForm=Inf	21	acl:relcl	_	_
+30	fun	_	ADP	P	_	31	case	_	_
+31	di	_	DET	D	PronType=Art	29	obl	_	_
+32	tknut	UNKNOWN	X	H	_	31	dep	_	_
+33	hued	the_UNKNOWN	X	H	_	31	dep	_	SpaceAfter=No
+34	,	_	PUNCT	PUNC	_	29	punct	_	_
+35	firn	_	VERB	VB	VerbForm=Inf	29	dep	_	_
+36	intriges	_	NOUN	N-ACC	Case=Acc	29	obj	_	SpaceAfter=No
+37	,	_	PUNCT	PUNC	_	29	punct	_	_
+38	tragn	_	VERB	VB	VerbForm=Inf	29	dep	_	_
+39	areyn	_	ADV	ADV	Degree=Pos	29	advmod	_	_
+40	%ich%-4	_	ADP	PP	_	39	obl	_	_
+41	mtlukt	_	NOUN	N-ACC	Case=Acc	29	obj	_	SpaceAfter=No
+42	"	_	PUNCT	PUNC	_	29	punct	_	_
+43	in	_	ADP	P	_	44	case	_	_
+44	seririh	_	NOUN	N	_	29	obl	_	SpaceAfter=No
+45	"	_	PUNCT	PUNC	_	29	punct	_	_
+46	in@	_	ADP	P	_	49	case	_	_
+47	@em	_	DET	D	PronType=Art	49	det	_	_
+48	khelmer	_	ADJ	ADJ	Degree=Pos	49	amod	_	_
+49	kreyz	_	NOUN	N	_	29	obl	_	SpaceAfter=No
+50	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.12
+# X_ID = 1929E-DUBNOV-VAAD,700.14
+# text = tsulib zeyere mesim " kan men niks yutsa zeyn idi khubut .ga dmlkha " s meynt areyntragn di mlukh-steyern, un " khlut uglilut suldikn zikh eyn driber bey pritsim un glkht "
+1	tsulib	_	ADP	P	_	3	case	_	_
+2	zeyere	_	PRON	PRO$	_	3	det:poss	_	_
+3	mesim	_	NOUN	N	_	16	obl	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	16	punct	_	_
+5	kan	_	AUX	MDF	VerbForm=Fin	16	dep	_	_
+6	men	_	PRON	PRO	_	5	nmod	_	_
+7	niks	_	DET	Q-NEG	Polarity=Neg	5	det	_	_
+8	yutsa	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+9	zeyn	_	VERB	VB	VerbForm=Inf	5	dep	_	_
+10	idi	_	X	X	_	5	dep	_	_
+11	khubut	_	X	X	_	5	dep	_	_
+12	.ga	_	X	X	_	5	dep	_	_
+13	dmlkha	of_king	X	H	_	5	dep	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	16	punct	_	_
+15	s	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+16	meynt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+17	areyntragn	_	VERB	VB-PART	VerbForm=Inf	16	dep	_	_
+18	di	_	DET	D-ACC	Case=Acc|PronType=Art	19	det	_	_
+19	mlukh-steyern	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	17	obj	_	SpaceAfter=No
+20	,	_	PUNCT	PUNC	_	16	punct	_	_
+21	un	_	CCONJ	CONJ	_	16	cc	_	SpaceAfter=No
+22	"	_	PUNCT	PUNC	_	16	punct	_	_
+23	khlut	communities	X	H	_	16	dep	_	_
+24	uglilut	and_areas	X	H	_	23	dep	_	_
+25	suldikn	_	VERB	VBF	VerbForm=Fin	23	dep	_	_
+26	zikh	_	PRON	PRO	_	23	nmod	_	_
+27	eyn	_	ADP	RP	_	23	compound:prt	_	_
+28	driber	_	ADP	P	_	23	case	_	_
+29	bey	_	ADP	P	_	23	case	_	_
+30	pritsim	_	NOUN	N	_	23	dep	_	_
+31	un	_	CCONJ	CONJ	_	23	cc	_	_
+32	glkht	_	NOUN	N	_	23	dep	_	SpaceAfter=No
+33	"	_	PUNCT	PUNC	_	16	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.13
+# X_ID = 1929E-DUBNOV-VAAD,700.15
+# text = durkh dem makhn zey di yidn " spl unbzh " far di umut_heulm,
+1	durkh	_	ADP	P	_	2	case	_	_
+2	dem	_	DET	D	PronType=Art	3	obl	_	_
+3	makhn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	zey	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	yidn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	7	nsubj	_	SpaceAfter=No
+7	"	_	PUNCT	PUNC	_	3	punct	_	_
+8	spl	despised	X	H	_	7	amod	_	_
+9	unbzh	and_abonimable	X	H	_	7	amod	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	7	punct	_	_
+11	far	_	ADP	P	_	13	case	_	_
+12	di	_	DET	D	PronType=Art	13	det	_	_
+13	umut_heulm	_	NOUN	N-D	Definite=Def	7	amod	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.14
+# X_ID = 1929E-DUBNOV-VAAD,700.16
+# text = fil srrut redn vegn dem
+1	fil	_	DET	Q-NOM	Case=Nom	2	det	_	_
+2	srrut	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+3	redn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	vegn	_	ADP	P	_	5	case	_	_
+5	dem	_	DET	D	PronType=Art	3	obl	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.15
+# X_ID = 1929E-DUBNOV-VAAD,700.17
+# text = in dos brengt tsu khlul-ksm .
+1	in	_	CCONJ	CONJ	_	3	cc	_	_
+2	dos	_	DET	D-NOM	Case=Nom|PronType=Art	3	nsubj	_	_
+3	brengt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	tsu	_	ADP	P	_	5	case	_	_
+5	khlul-ksm	_	NOUN	N	_	3	obl	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.16
+# X_ID = 1929E-DUBNOV-VAAD,700.18
+# text = der ued git deriber dos rekht %ich%-1 di ortike oytonome farvaltungen " rudf zeyn " azelkhe leyt, strafn zey " mit khrput un knsut utfisut " un areyn@ %ich%-2 @leygn in khrm .
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	ued	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	git	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	deriber	_	ADP	P	_	3	obl	_	_
+5	dos	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	rekht	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+7	%ich%-1	_	X	IP-INF	_	6	xcomp	_	_
+8	di	_	DET	D-DTV	Case=Dat|PronType=Art	11	det	_	_
+9	ortike	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	11	amod	_	_
+10	oytonome	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	11	amod	_	_
+11	farvaltungen	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	3	iobj	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	3	punct	_	_
+13	rudf	_	ADP	RP-H	_	14	compound:prt	_	_
+14	zeyn	_	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+15	"	_	PUNCT	PUNC	_	14	punct	_	_
+16	azelkhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	17	amod	_	_
+17	leyt	_	NOUN	N-ACC	Case=Acc	14	obj	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	14	punct	_	_
+19	strafn	_	VERB	VB	VerbForm=Inf	14	dep	_	_
+20	zey	_	PRON	PRO-ACC	Case=Acc	19	obj	_	SpaceAfter=No
+21	"	_	PUNCT	PUNC	_	19	punct	_	_
+22	mit	_	ADP	P	_	23	case	_	_
+23	khrput	_	NOUN	N	_	19	obl	_	_
+24	un	_	CCONJ	CONJ	_	25	cc	_	_
+25	knsut	fines	X	H	_	23	conj	_	_
+26	utfisut	and_apprehensions	X	H	_	25	dep	_	SpaceAfter=No
+27	"	_	PUNCT	PUNC	_	23	punct	_	_
+28	un	_	CCONJ	CONJ	_	31	cc	_	_
+29	areyn@	_	ADV	ADV	Degree=Pos	31	advmod	_	_
+30	%ich%-2	_	ADP	PP	_	29	obl	_	_
+31	@leygn	_	VERB	VB	VerbForm=Inf	23	conj	_	_
+32	in	_	ADP	P	_	33	case	_	_
+33	khrm	_	NOUN	N	_	31	obl	_	SpaceAfter=No
+34	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.17
+# X_ID = 1929E-DUBNOV-VAAD,700.19
+# text = konkreter un fil strenger loytn ton iz der tsveyter kruz, velkher %t%-1 iz gevendt : 1 kegn gelt-felsher in di, vos %t%-2 handlen mit falshe gelt " eusk bziufim ", 4 kegn di " vos %t%-3 koyfn gegnbte zakhn " 5 vos %t%-4 zenen " srsrim bin goy lgoy, " 6 vos zenen " mglh msturin sl isral bpni erlim " %t%-5 dertseyln oys far goyim vos %t%-6 bey yidn tut zikh mistome darf es meynen vegn di mesim fun di uedim un dem ued hgdul 5 vos " veyzn un lernin yudshi mkhiut lerlim " das meynt vider, vos %t%-7 antdeken di surut fun der yidisher virtshaft klf-khuts 7 vos %t%-8 zukhn zikh " htmnut " bey srrut an dem visn fun khl 8 un vos %t%-9 viln zikh durkh di srrut bafreyen fun tsaln steyern
+1	konkreter	_	ADJ	ADJR	Degree=Pos	7	amod	_	_
+2	un	_	CCONJ	CONJ	_	3	cc	_	_
+3	fil	_	DET	Q	_	1	amod	_	_
+4	strenger	_	ADJ	ADJR	Degree=Pos	3	amod	_	_
+5	loytn	_	ADP	P-CL	_	6	case	_	_
+6	ton	_	NOUN	N	_	3	amod	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	der	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+9	tsveyter	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	10	amod	_	_
+10	kruz	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	10	punct	_	_
+12	velkher	_	PRON	WPRO	_	15	obj	_	_
+13	%t%-1	_	NOUN	NP-SBJ	_	15	nsubj	_	_
+14	iz	_	AUX	BEF	VerbForm=Fin	15	cop	_	_
+15	gevendt	_	VERB	VAN	Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+16	:	_	PUNCT	PUNC	_	15	punct	_	_
+17	1	_	NUM	LS	_	15	dep	_	_
+18	kegn	_	ADP	P	_	19	case	_	_
+19	gelt-felsher	_	NOUN	N	_	15	obl	_	_
+20	in	_	CCONJ	CONJ	_	21	cc	_	_
+21	di	_	DET	D	PronType=Art	19	conj	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	21	punct	_	_
+23	vos	_	SCONJ	C	_	25	mark	_	_
+24	%t%-2	_	NOUN	NP-SBJ	_	25	nsubj	_	_
+25	handlen	_	VERB	VBF	VerbForm=Fin	21	acl:relcl	_	_
+26	mit	_	ADP	P	_	28	case	_	_
+27	falshe	_	ADJ	ADJ	Degree=Pos	28	amod	_	_
+28	gelt	_	NOUN	N	_	25	obl	_	SpaceAfter=No
+29	"	_	PUNCT	PUNC	_	25	punct	_	_
+30	eusk	busy	X	H	_	25	dep	_	_
+31	bziufim	forgeries	X	H	_	30	dep	_	SpaceAfter=No
+32	"	_	PUNCT	PUNC	_	19	punct	_	SpaceAfter=No
+33	,	_	PUNCT	PUNC	_	19	punct	_	_
+34	4	_	NUM	LS	_	19	dep	_	_
+35	kegn	_	ADP	P	_	36	case	_	_
+36	di	_	DET	D	PronType=Art	19	conj	_	SpaceAfter=No
+37	"	_	PUNCT	PUNC	_	36	punct	_	_
+38	vos	_	SCONJ	C	_	40	mark	_	_
+39	%t%-3	_	NOUN	NP-SBJ	_	40	nsubj	_	_
+40	koyfn	_	VERB	VBF	VerbForm=Fin	36	acl:relcl	_	_
+41	gegnbte	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	42	amod	_	_
+42	zakhn	_	NOUN	N-ACC	Case=Acc	40	obj	_	SpaceAfter=No
+43	"	_	PUNCT	PUNC	_	40	punct	_	_
+44	5	_	NUM	LS	_	40	dep	_	_
+45	vos	_	SCONJ	C	_	40	conj	_	_
+46	%t%-4	_	NOUN	NP-SBJ	_	45	dep	_	_
+47	zenen	_	VERB	VBF	VerbForm=Fin	46	dep	_	SpaceAfter=No
+48	"	_	PUNCT	PUNC	_	46	punct	_	_
+49	srsrim	UNKNOWN	X	H	_	46	dep	_	_
+50	bin	between	X	H	_	49	dep	_	_
+51	goy	Gentile	X	H	_	49	dep	_	_
+52	lgoy	to_Gentile	X	H	_	49	dep	_	SpaceAfter=No
+53	,	_	PUNCT	PUNC	_	40	punct	_	SpaceAfter=No
+54	"	_	PUNCT	PUNC	_	40	punct	_	_
+55	6	_	NUM	LS	_	40	dep	_	_
+56	vos	_	SCONJ	C	_	67	mark	_	_
+57	zenen	_	AUX	BEF	VerbForm=Fin	67	dep	_	SpaceAfter=No
+58	"	_	PUNCT	PUNC	_	57	punct	_	_
+59	mglh	_	ADP	RP-H	_	57	compound:prt	_	_
+60	msturin	hiding-places	X	H	_	57	dep	_	_
+61	sl	of	X	H	_	57	dep	_	_
+62	isral	_	PROPN	NPR	_	57	dep	_	_
+63	bpni	before	X	H	_	57	dep	_	_
+64	erlim	Gentiles	X	H	_	57	dep	_	SpaceAfter=No
+65	"	_	PUNCT	PUNC	_	67	punct	_	_
+66	%t%-5	_	NOUN	NP-SBJ	_	67	nsubj	_	_
+67	dertseyln	_	VERB	VBF	VerbForm=Fin	40	conj	_	_
+68	oys	_	ADP	RP	_	67	compound:prt	_	_
+69	far	_	ADP	P	_	70	case	_	_
+70	goyim	_	NOUN	N	_	67	obl	_	_
+71	vos	_	PRON	WPRO	_	75	obj	_	_
+72	%t%-6	_	NOUN	NP-SBJ	_	75	nsubj	_	_
+73	bey	_	ADP	P	_	74	case	_	_
+74	yidn	_	NOUN	N	_	75	obl	_	_
+75	tut	_	VERB	VBF	VerbForm=Fin	67	dep	_	_
+76	zikh	_	PRON	PRO-RFL	PronType=Reflex	75	expl:pv	_	_
+77	mistome	_	ADV	ADV	Degree=Pos	80	advmod	_	_
+78	darf	_	AUX	MDF	VerbForm=Fin	80	aux	_	_
+79	es	_	PRON	PRO-NOM	Case=Nom	80	nsubj	_	_
+80	meynen	_	VERB	VB	VerbForm=Inf	40	parataxis	_	_
+81	vegn	_	ADP	P	_	83	case	_	_
+82	di	_	DET	D	PronType=Art	83	det	_	_
+83	mesim	_	NOUN	N-D	Definite=Def	80	obl	_	_
+84	fun	_	ADP	P	_	86	case	_	_
+85	di	_	DET	D	PronType=Art	86	det	_	_
+86	uedim	_	NOUN	N-D	Definite=Def	83	obl	_	_
+87	un	_	CCONJ	CONJ	_	89	cc	_	_
+88	dem	_	DET	D	PronType=Art	89	det	_	_
+89	ued	_	NOUN	N-D	Definite=Def	86	conj	_	_
+90	hgdul	the_great	X	H	_	89	dep	_	_
+91	5	_	NUM	LS	_	40	dep	_	_
+92	vos	_	SCONJ	C	_	40	conj	_	SpaceAfter=No
+93	"	_	PUNCT	PUNC	_	92	punct	_	_
+94	veyzn	_	VERB	VBF	VerbForm=Fin	92	dep	_	_
+95	un	_	CCONJ	CONJ	_	96	cc	_	_
+96	lernin	_	VERB	VBF	VerbForm=Fin	94	conj	_	_
+97	yudshi	_	ADJ	ADJ	Degree=Pos	94	amod	_	_
+98	mkhiut	sustenances	X	H	_	94	dep	_	_
+99	lerlim	to_Gentiles	X	H	_	94	dep	_	SpaceAfter=No
+100	"	_	PUNCT	PUNC	_	40	punct	_	_
+101	das	_	DET	D-NOM	Case=Nom|PronType=Art	102	nsubj	_	_
+102	meynt	_	VERB	VBF	VerbForm=Fin	40	dep	_	_
+103	vider	_	ADV	ADV	Degree=Pos	102	advmod	_	SpaceAfter=No
+104	,	_	PUNCT	PUNC	_	102	punct	_	_
+105	vos	_	SCONJ	C	_	107	mark	_	_
+106	%t%-7	_	NOUN	NP-SBJ	_	107	nsubj	_	_
+107	antdeken	_	VERB	VBF	VerbForm=Fin	102	acl:relcl	_	_
+108	di	_	DET	D-ACC	Case=Acc|PronType=Art	109	det	_	_
+109	surut	_	NOUN	N-ACC	Case=Acc	107	obj	_	_
+110	fun	_	ADP	P	_	113	case	_	_
+111	der	_	DET	D	PronType=Art	113	det	_	_
+112	yidisher	_	ADJ	ADJ	Degree=Pos	113	amod	_	_
+113	virtshaft	_	NOUN	N-D	Definite=Def	109	obl	_	_
+114	klf-khuts	_	X	X	_	113	dep	_	_
+115	7	_	NUM	LS	_	40	dep	_	_
+116	vos	_	SCONJ	C	_	118	mark	_	_
+117	%t%-8	_	NOUN	NP-SBJ	_	118	nsubj	_	_
+118	zukhn	_	VERB	VBF	VerbForm=Fin	40	conj	_	_
+119	zikh	_	PRON	PRO-RFL	PronType=Reflex	118	expl:pv	_	SpaceAfter=No
+120	"	_	PUNCT	PUNC	_	118	punct	_	_
+121	htmnut	appointing	X	H	_	118	dep	_	SpaceAfter=No
+122	"	_	PUNCT	PUNC	_	118	punct	_	_
+123	bey	_	ADP	P	_	124	case	_	_
+124	srrut	_	NOUN	N	_	118	obl	_	_
+125	an	_	ADP	P	_	127	case	_	_
+126	dem	_	DET	D	PronType=Art	127	det	_	_
+127	visn	_	NOUN	N-D	Definite=Def	118	obl	_	_
+128	fun	_	ADP	P	_	129	case	_	_
+129	khl	_	NOUN	N	_	127	obl	_	_
+130	8	_	NUM	LS	_	40	dep	_	_
+131	un	_	CCONJ	CONJ	_	40	conj	_	_
+132	vos	_	SCONJ	C	_	139	mark	_	_
+133	%t%-9	_	NOUN	NP-SBJ	_	139	nsubj	_	_
+134	viln	_	AUX	MDF	VerbForm=Fin	139	aux	_	_
+135	zikh	_	PRON	PRO-RFL	PronType=Reflex	139	expl:pv	_	_
+136	durkh	_	ADP	P	_	138	case	_	_
+137	di	_	DET	D	PronType=Art	138	det	_	_
+138	srrut	_	NOUN	N-D	Definite=Def	139	obl	_	_
+139	bafreyen	_	VERB	VB	VerbForm=Inf	131	acl:relcl	_	_
+140	fun	_	ADP	P	_	141	case	_	_
+141	tsaln	_	VERB	VB	VerbForm=Inf	139	obl	_	_
+142	steyern	_	NOUN	N-ACC	Case=Acc	141	obj	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.18
+# X_ID = 1929E-DUBNOV-VAAD,700.20
+# text = kegn di ale kategories vert derklert a " khrm hgdul uhnuraand_the_awe-inspiring btkiet sufr ukkoy ndut ", loyt der tknh fun der frierdiker ued-zitsung in lublin in februar 1671 .
+1	kegn	_	ADP	P	_	4	case	_	_
+2	di	_	DET	D	PronType=Art	4	det	_	_
+3	ale	_	DET	Q	_	4	det	_	_
+4	kategories	_	NOUN	N-D	Definite=Def	6	obl	_	_
+5	vert	_	AUX	RDF	VerbForm=Fin	6	aux	_	_
+6	derklert	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+7	a	_	DET	D-NOM	Case=Nom|PronType=Art	6	nsubj	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	7	punct	_	_
+9	khrm	excommunication	X	H	_	7	dep	_	_
+10	hgdul	the_great	X	H	_	9	dep	_	_
+11	uhnuraand_the_awe-inspiring	_	X	H	_	9	dep	_	_
+12	btkiet	in_the_blowing_of	X	H	_	9	dep	_	_
+13	sufr	shofar	X	H	_	9	dep	_	_
+14	ukkoy	and_extinguishing	X	H	_	9	dep	_	_
+15	ndut	candles	X	H	_	9	dep	_	SpaceAfter=No
+16	"	_	PUNCT	PUNC	_	6	punct	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	6	punct	_	_
+18	loyt	_	ADP	P	_	20	case	_	_
+19	der	_	DET	D	PronType=Art	20	det	_	_
+20	tknh	_	NOUN	N-D	Definite=Def	6	obl	_	_
+21	fun	_	ADP	P	_	24	case	_	_
+22	der	_	DET	D	PronType=Art	24	det	_	_
+23	frierdiker	_	ADJ	ADJ	Degree=Pos	24	amod	_	_
+24	ued-zitsung	_	NOUN	N	_	20	obl	_	_
+25	in	_	ADP	P	_	26	case	_	_
+26	lublin	_	PROPN	NPR	_	24	obl	_	_
+27	in	_	ADP	P	_	28	case	_	_
+28	februar	_	NOUN	N	_	24	obl	_	_
+29	1671	_	NUM	NUM	_	28	nummod	_	SpaceAfter=No
+30	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.19
+# X_ID = 1929E-DUBNOV-VAAD,701.21
+# text = didozike beyde kruzim zenen a klare ilustratsie kn tsu di ordenungen in di yidishe khilut fun poyln in yner tseyt, kn tsu di mitlen, vos %t%-1 der ued flegt onnemen kedey tsu farstarkn zeyn oytoritet in di distsiplin in di khilut .
+1	didozike	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	beyde	_	DET	Q-NOM	Case=Nom	3	det	_	_
+3	kruzim	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	zenen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	a	_	DET	D	PronType=Art	7	det	_	_
+6	klare	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	ilustratsie	_	NOUN	N	_	4	xcomp	_	_
+8	kn	_	CCONJ	CONJ	_	11	cc	_	_
+9	tsu	_	ADP	P	_	11	case	_	_
+10	di	_	DET	D	PronType=Art	11	det	_	_
+11	ordenungen	_	NOUN	N-D	Definite=Def	7	obl	_	_
+12	in	_	ADP	P	_	15	case	_	_
+13	di	_	DET	D	PronType=Art	15	det	_	_
+14	yidishe	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	khilut	_	NOUN	N	_	11	obl	_	_
+16	fun	_	ADP	P	_	17	case	_	_
+17	poyln	_	PROPN	NPR	_	15	obl	_	_
+18	in	_	ADP	P	_	20	case	_	_
+19	yner	_	DET	D	PronType=Art	20	det	_	_
+20	tseyt	_	NOUN	N	_	15	obl	_	SpaceAfter=No
+21	,	_	PUNCT	PUNC	_	11	punct	_	_
+22	kn	_	CCONJ	CONJ	_	25	cc	_	_
+23	tsu	_	ADP	P	_	25	case	_	_
+24	di	_	DET	D	PronType=Art	25	det	_	_
+25	mitlen	_	NOUN	N-D	Definite=Def	11	conj	_	SpaceAfter=No
+26	,	_	PUNCT	PUNC	_	25	punct	_	_
+27	vos	_	SCONJ	C	_	32	mark	_	_
+28	%t%-1	_	NOUN	NP-ACC	_	32	dep	_	_
+29	der	_	DET	D-NOM	Case=Nom|PronType=Art	30	det	_	_
+30	ued	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	32	nsubj	_	_
+31	flegt	_	AUX	MDF	VerbForm=Fin	32	aux	_	_
+32	onnemen	_	VERB	VB-PART	VerbForm=Inf	25	acl:relcl	_	_
+33	kedey	_	SCONJ	C	_	32	advcl	_	_
+34	tsu	_	PART	TO	_	35	mark	_	_
+35	farstarkn	_	VERB	VB	VerbForm=Inf	33	xcomp	_	_
+36	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	37	det:poss	_	_
+37	oytoritet	_	NOUN	N	_	35	obj	_	_
+38	in	_	ADP	P	_	40	case	_	_
+39	di	_	DET	D	PronType=Art	40	det	_	_
+40	distsiplin	_	NOUN	N-D	Definite=Def	37	obl	_	_
+41	in	_	ADP	P	_	43	case	_	_
+42	di	_	DET	D	PronType=Art	43	det	_	_
+43	khilut	_	NOUN	N-D	Definite=Def	40	obl	_	SpaceAfter=No
+44	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.20
+# X_ID = 1929E-DUBNOV-VAAD,701.22
+# text = di beyde kruzim zenen geshribn in a gemishter sprakh fun yidish mit hebreishe psukim
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	beyde	_	DET	Q-NOM	Case=Nom	3	det	_	_
+3	kruzim	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+4	zenen	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+5	geshribn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+6	in	_	ADP	P	_	9	case	_	_
+7	a	_	DET	D	PronType=Art	9	det	_	_
+8	gemishter	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	sprakh	_	NOUN	N	_	5	obl	_	_
+10	fun	_	ADP	P	_	11	case	_	_
+11	yidish	_	NOUN	N	_	9	obl	_	_
+12	mit	_	ADP	P	_	14	case	_	_
+13	hebreishe	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	psukim	_	NOUN	N	_	11	obl	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.21
+# X_ID = 1929E-DUBNOV-VAAD,701.23
+# text = der erster kruz iz teylveyz geven farefntlekht fun unz in der " jewish encyclopedia " ...,
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	erster	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	kruz	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+5	teylveyz	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+6	geven	_	AUX	BEN	Tense=Past|VerbForm=Part	7	cop	_	_
+7	farefntlekht	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+8	fun	_	ADP	P	_	9	case	_	_
+9	unz	_	PRON	PRO	_	7	obl	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	der	_	DET	D	PronType=Art	7	obl	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	11	punct	_	_
+13	jewish	_	PROPN	NPR	_	11	dep	_	_
+14	encyclopedia	_	PROPN	NPR	_	13	flat:name	_	SpaceAfter=No
+15	"	_	PUNCT	PUNC	_	7	punct	_	SpaceAfter=No
+16	...	_	PUNCT	PUNC	_	7	punct	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.22
+# X_ID = 1929E-DUBNOV-VAAD,701.24
+# text = aber da gibn mir tsum erstn mol zeyn fuln tekst .
+1	aber	_	CCONJ	CONJ	_	3	cc	_	_
+2	da	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	gibn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	mir	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	tsum	_	ADP	P-CL	_	7	case	_	_
+6	erstn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	mol	_	NOUN	N	_	3	obl	_	_
+8	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	10	det:poss	_	_
+9	fuln	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	tekst	_	NOUN	N	_	3	obj	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.23
+# X_ID = 1929E-DUBNOV-VAAD,701.25
+# text = der tsveyter iz nakh ergets nisht geven gedrukt .
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	tsveyter	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	8	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+4	nakh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+5	ergets	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+6	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+7	geven	_	AUX	BEN	Tense=Past|VerbForm=Part	8	cop	_	_
+8	gedrukt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.24
+# X_ID = 1929E-DUBNOV-VAAD,701.26
+# text = mir brengen di dokumentn in zeyer original-ortografie
+1	mir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	brengen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	di	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+4	dokumentn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	2	obj	_	_
+5	in	_	ADP	P	_	7	case	_	_
+6	zeyer	_	PRON	PRO$	_	7	det:poss	_	_
+7	original-ortografie	_	NOUN	N	_	2	obl	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.25
+# X_ID = 1929E-DUBNOV-VAAD,701.27
+# text = un %con% gibn oykh a faksimile fun di 3 zeytlekh .
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	gibn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	oykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	a	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	faksimile	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+7	fun	_	ADP	P	_	10	case	_	_
+8	di	_	DET	D	PronType=Art	10	det	_	_
+9	3	_	NUM	NUM	_	10	nummod	_	_
+10	zeytlekh	_	NOUN	N-D	Definite=Def	6	obl	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.26
+# X_ID = 1929E-DUBNOV-VAAD,701.28
+# text = far di kruzim kimt a hkdmh in hebreish funem ued a min kitsur fun dem, vos %t%-2 vert oysfirlekh gezagt veyter : vegn di umruike tseytn vegn di " khrupim ugdupim " un mkhlukut, vos %t%-3 viderspenikste perzonen makhn an .
+1	far	_	ADP	P	_	3	case	_	_
+2	di	_	DET	D	PronType=Art	3	det	_	_
+3	kruzim	_	NOUN	N-D	Definite=Def	4	obl	_	_
+4	kimt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	a	_	DET	D	PronType=Art	6	det	_	_
+6	hkdmh	_	NOUN	N-I	Definite=Ind	4	nsubj	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	hebreish	_	NOUN	N	_	6	obl	_	_
+9	funem	_	ADP	P-CL	_	10	case	_	_
+10	ued	_	NOUN	N	_	6	obl	_	_
+11	a	_	DET	D	PronType=Art	12	det	_	_
+12	min	_	NOUN	N-I	Definite=Ind	6	appos	_	_
+13	kitsur	_	NOUN	N	_	12	nmod:poss	_	_
+14	fun	_	ADP	P	_	15	case	_	_
+15	dem	_	DET	D	PronType=Art	13	obl	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	15	punct	_	_
+17	vos	_	SCONJ	C	_	21	mark	_	_
+18	%t%-2	_	NOUN	NP-SBJ	_	21	nsubj	_	_
+19	vert	_	AUX	RDF	VerbForm=Fin	21	aux	_	_
+20	oysfirlekh	_	ADV	ADV	Degree=Pos	21	advmod	_	_
+21	gezagt	_	VERB	VAN	Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+22	veyter	_	ADV	ADV	Degree=Pos	21	advmod	_	SpaceAfter=No
+23	:	_	PUNCT	PUNC	_	4	punct	_	_
+24	vegn	_	ADP	P	_	27	case	_	_
+25	di	_	DET	D	PronType=Art	27	det	_	_
+26	umruike	_	ADJ	ADJ	Degree=Pos	27	amod	_	_
+27	tseytn	_	NOUN	N-D	Definite=Def	4	obl	_	_
+28	vegn	_	ADP	P	_	29	case	_	_
+29	di	_	DET	D	PronType=Art	27	conj	_	SpaceAfter=No
+30	"	_	PUNCT	PUNC	_	29	punct	_	_
+31	khrupim	UNKNOWN	X	H	_	29	dep	_	_
+32	ugdupim	and_UNKNOWN	X	H	_	29	dep	_	SpaceAfter=No
+33	"	_	PUNCT	PUNC	_	29	punct	_	_
+34	un	_	CCONJ	CONJ	_	35	cc	_	_
+35	mkhlukut	disagreements	X	H	_	29	conj	_	SpaceAfter=No
+36	,	_	PUNCT	PUNC	_	35	punct	_	_
+37	vos	_	SCONJ	C	_	41	mark	_	_
+38	%t%-3	_	NOUN	NP-ACC	_	41	dep	_	_
+39	viderspenikste	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	40	amod	_	_
+40	perzonen	_	NOUN	N-NOM	Case=Nom	41	nsubj	_	_
+41	makhn	_	VERB	VBF	VerbForm=Fin	35	acl:relcl	_	_
+42	an	_	ADP	RP	_	41	compound:prt	_	SpaceAfter=No
+43	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.27
+# X_ID = 1929E-DUBNOV-VAAD,701.29
+# text = " ukdai hih lnu lpnut mkl etkinu bi am beunsi' sh hansim khkhm " .
+1	"	_	PUNCT	PUNC	_	0	punct	_	_
+2	ukdai	UNKNOWN	X	H	_	1	dep	_	_
+3	hih	UNKNOWN	X	H	_	1	dep	_	_
+4	lnu	UNKNOWN	X	H	_	1	dep	_	_
+5	lpnut	UNKNOWN	X	H	_	1	dep	_	_
+6	mkl	UNKNOWN	X	H	_	1	dep	_	_
+7	etkinu	UNKNOWN	X	H	_	1	dep	_	_
+8	bi	UNKNOWN	X	H	_	1	dep	_	_
+9	am	UNKNOWN	X	H	_	1	dep	_	_
+10	beunsi'	UNKNOWN	X	H	_	1	dep	_	_
+11	sh	UNKNOWN	X	H	_	1	dep	_	_
+12	hansim	UNKNOWN	X	H	_	1	dep	_	_
+13	khkhm	UNKNOWN	X	H	_	1	dep	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	1	punct	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1929E-DUBNOV-VAAD,.28
+# X_ID = 1929E-DUBNOV-VAAD,701.30
+# text = aber tsulib di groyse shverikeytn fun areyntrogn der mlubh di steyern hot men das biz itst nisht gekent ton .
+1	aber	_	CCONJ	CONJ	_	19	cc	_	_
+2	tsulib	_	ADP	P	_	5	case	_	_
+3	di	_	DET	D	PronType=Art	5	det	_	_
+4	groyse	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	shverikeytn	_	NOUN	N	_	19	obl	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	areyntrogn	_	VERB	VB-PART	VerbForm=Inf	5	obl	_	_
+8	der	_	DET	D-DTV	Case=Dat|PronType=Art	9	det	_	_
+9	mlubh	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	7	iobj	_	_
+10	di	_	DET	D-ACC	Case=Acc|PronType=Art	11	det	_	_
+11	steyern	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	7	obj	_	_
+12	hot	_	AUX	HVF	VerbForm=Fin	19	aux	_	_
+13	men	_	PRON	PRO-NOM	Case=Nom	19	nsubj	_	_
+14	das	_	DET	D-ACC	Case=Acc|PronType=Art	19	obj	_	_
+15	biz	_	ADP	P	_	16	case	_	_
+16	itst	_	ADV	ADV	Degree=Pos	19	obl	_	_
+17	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	19	advmod	_	_
+18	gekent	_	AUX	MDN	Tense=Past|VerbForm=Part	19	aux	_	_
+19	ton	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+20	.	_	PUNCT	PUNC	_	19	punct	_	_
+
+1	kedey	_	SCONJ	C	_	8	advcl	_	_
+2	makhn	_	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+3	tsu	_	ADP	P	_	4	case	_	_
+4	dem	_	DET	D	PronType=Art	2	obl	_	_
+5	a	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	sof	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	2	obj	_	_
+7	vern	_	AUX	RDF	VerbForm=Fin	8	aux	_	_
+8	aroysgegebn	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+9	di	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+10	kruzim	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	8	nsubj	_	_
+11	:	_	PUNCT	PUNC	_	8	punct	_	_
+

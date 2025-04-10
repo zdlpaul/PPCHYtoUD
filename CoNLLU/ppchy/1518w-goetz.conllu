@@ -1,0 +1,799 @@
+# sent_id = 1518W-GOETZ,.1
+# X_ID = 1518W-GOETZ,159.3
+# text = ikh tue oykh das tsu visen un kol hakal tsu zagen den grosen gevalt un' das gros un_rekht das %t%-2 unz vayzen ist vider_faren in regenspurk fon unzerem shtif_fater man
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	tue	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	oykh	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+4	das	_	DET	D-ACC	Case=Acc|PronType=Art	6	obj	_	_
+5	tsu	_	PART	TO	_	6	mark	_	_
+6	visen	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	kol	all	X	H	_	6	conj	_	_
+9	hakal	the_public	X	H	_	8	dep	_	_
+10	tsu	_	PART	TO	_	6	mark	_	_
+11	zagen	_	VERB	VB	VerbForm=Inf	6	dep	_	_
+12	den	_	DET	D	PronType=Art	14	det	_	_
+13	grosen	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	gevalt	_	NOUN	N-D	Definite=Def	6	obl	_	_
+15	un'	_	CCONJ	CONJ	_	18	cc	_	_
+16	das	_	DET	D	PronType=Art	18	det	_	_
+17	gros	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
+18	un_rekht	_	NOUN	N	_	14	conj	_	_
+19	das	_	PRON	WPRO	_	24	obj	_	_
+20	%t%-2	_	NOUN	NP-SBJ	_	24	nsubj	_	_
+21	unz	_	PRON	PRO-DTV	Case=Dat	22	nmod	_	_
+22	vayzen	_	NOUN	N-DTV	Case=Dat	24	iobj	_	_
+23	ist	_	AUX	BEF	VerbForm=Fin	24	cop	_	_
+24	vider_faren	_	VERB	VBN	Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+25	in	_	ADP	P	_	26	case	_	_
+26	regenspurk	_	PROPN	NPR	_	24	obl	_	_
+27	fon	_	ADP	P	_	29	case	_	_
+28	unzerem	_	PRON	PRO$	_	29	det:poss	_	_
+29	shtif_fater	_	NOUN	N	_	24	obl	_	_
+30	man	_	PROPN	NPR	_	29	dep	_	_
+
+# sent_id = 1518W-GOETZ,.2
+# X_ID = 1518W-GOETZ,159.4
+# text = dokh red ikh fur mikh alayn
+1	dokh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	red	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	fur	_	ADP	P	_	5	case	_	_
+5	mikh	_	PRON	PRO	_	2	obl	_	_
+6	alayn	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+
+# sent_id = 1518W-GOETZ,.3
+# X_ID = 1518W-GOETZ,159.5
+# text = das erst do vir zein gezesen tsu altorf do ist mein fater zelig ab gangen mit tot
+1	das	_	DET	D	PronType=Art	15	obl	_	_
+2	erst	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	do	_	SCONJ	C	_	6	mark	_	_
+4	vir	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+5	zein	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+6	gezesen	_	VERB	VBN	Tense=Past|VerbForm=Part	1	advcl	_	_
+7	tsu	_	ADP	P	_	8	case	_	_
+8	altorf	_	PROPN	NPR	_	6	obl	_	_
+9	do	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+10	ist	_	AUX	BEF	VerbForm=Fin	15	cop	_	_
+11	mein	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	12	det:poss	_	_
+12	fater	_	NOUN	N	_	15	nsubj	_	_
+13	zelig	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+14	ab	_	ADP	RP	_	15	compound:prt	_	_
+15	gangen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+16	mit	_	ADP	P	_	17	case	_	_
+17	tot	_	NOUN	N	_	15	obl	_	_
+
+# sent_id = 1518W-GOETZ,.4
+# X_ID = 1518W-GOETZ,159.6
+# text = do ist mein mueter zelig morgen_gob gevest zekhs_hundert gulden
+1	do	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+2	ist	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+3	mein	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	7	nsubj	_	_
+4	mueter	_	NOUN	N	_	3	conj	_	_
+5	zelig	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+6	morgen_gob	_	NOUN	N	_	3	conj	_	_
+7	gevest	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	zekhs_hundert	_	NUM	NUM	_	7	xcomp	_	_
+9	gulden	_	NOUN	N	_	8	conj	_	_
+
+# sent_id = 1518W-GOETZ,.5
+# X_ID = 1518W-GOETZ,159.7
+# text = do hot zi genumen den mendel fon regenspurk
+1	do	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	zi	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	genumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	den	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	mendel	_	PROPN	NPR	_	4	obj	_	_
+7	fon	_	ADP	P	_	8	case	_	_
+8	regenspurk	_	PROPN	NPR	_	6	obl	_	_
+
+# sent_id = 1518W-GOETZ,.6
+# X_ID = 1518W-GOETZ,160.8
+# text = un' %con% hot im for_sprokhen un gegeben drit_halb_hundert gulden reinis
+1	un'	_	CCONJ	CONJ	_	5	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	im	_	PRON	PRO-DTV	Case=Dat	5	iobj	_	_
+5	for_sprokhen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	un	_	CCONJ	CONJ	_	7	cc	_	_
+7	gegeben	_	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+8	drit_halb_hundert	_	NUM	NUM-ACC	Case=Acc	9	nummod	_	_
+9	gulden	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+10	reinis	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	9	amod	_	_
+
+# sent_id = 1518W-GOETZ,.7
+# X_ID = 1518W-GOETZ,160.9
+# text = das ander fierd_halb_hundert gulden reinis uns armen un dertsogen vayzen tsu halten tsum besten
+1	das	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+2	ander	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	4	amod	_	_
+3	fierd_halb_hundert	_	NUM	NUM-ACC	Case=Acc	4	nummod	_	_
+4	gulden	_	NOUN	N-ACC	Case=Acc	12	obj	_	_
+5	reinis	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	4	amod	_	_
+6	uns	_	PRON	PRO-ACC	Case=Acc	12	dep	_	_
+7	armen	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+8	un	_	CCONJ	CONJ	_	7	amod	_	_
+9	dertsogen	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+10	vayzen	_	NOUN	N-ACC	Case=Acc	6	conj	_	_
+11	tsu	_	PART	TO	_	12	mark	_	_
+12	halten	_	VERB	VB	VerbForm=Inf	0	root	_	_
+13	tsum	_	ADP	P-CL	_	14	case	_	_
+14	besten	_	ADJ	ADJS	Degree=Pos	12	obl	_	_
+
+# sent_id = 1518W-GOETZ,.8
+# X_ID = 1518W-GOETZ,160.10
+# text = un' zi gekauft hot das hous, do der man inen zitst, fon der gemayn yudis_hayt das %exp% yederman %t%-3 tsu visen is do zol er %ich%-4 inen zitsen do_veil zi lebt
+1	un'	_	CCONJ	CONJ	_	3	cc	_	_
+2	zi	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	gekauft	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	hot	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+5	das	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	hous	_	NOUN	N-ACC	Case=Acc	3	obj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	do	_	ADV	WADV	Degree=Pos	12	advmod	_	_
+9	der	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+10	man	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	12	nsubj	_	_
+11	inen	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+12	zitst	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	3	punct	_	_
+14	fon	_	ADP	P	_	17	case	_	_
+15	der	_	DET	D	PronType=Art	17	det	_	_
+16	gemayn	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	yudis_hayt	_	NOUN	N-D	Definite=Def	3	obl	_	_
+18	das	_	SCONJ	C	_	24	mark	_	_
+19	%exp%	_	NOUN	NP-SBJ-2	_	24	nsubj	_	_
+20	yederman	_	DET	Q-DTV	Case=Dat	24	iobj	_	_
+21	%t%-3	_	NOUN	NP-ACC	_	23	dep	_	_
+22	tsu	_	PART	TO	_	23	mark	_	_
+23	visen	_	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+24	is	_	VERB	VBF	VerbForm=Fin	3	advcl	_	_
+25	do	_	DET	DR	_	30	obl	_	_
+26	zol	_	AUX	MDF	VerbForm=Fin	30	aux	_	_
+27	er	_	PRON	PRO-NOM	Case=Nom	30	nsubj	_	_
+28	%ich%-4	_	NOUN	NP	_	30	obl	_	_
+29	inen	_	ADP	P	_	28	case	_	_
+30	zitsen	_	VERB	VB	VerbForm=Inf	24	ccomp	_	_
+31	do_veil	_	SCONJ	C	_	33	mark	_	_
+32	zi	_	PRON	PRO-NOM	Case=Nom	33	nsubj	_	_
+33	lebt	_	VERB	VBF	VerbForm=Fin	30	advcl	_	_
+
+# sent_id = 1518W-GOETZ,.9
+# X_ID = 1518W-GOETZ,160.11
+# text = un nokh irem tot do zol das houz uns bruedern haym gefalen
+1	un	_	CCONJ	CONJ	_	12	cc	_	_
+2	nokh	_	ADP	P	_	4	case	_	_
+3	irem	_	PRON	PRO$	_	4	det:poss	_	_
+4	tot	_	NOUN	N	_	12	obl	_	_
+5	do	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+6	zol	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+7	das	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	houz	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	12	nsubj	_	_
+9	uns	_	PRON	PRO-DTV	Case=Dat	10	nmod	_	_
+10	bruedern	_	NOUN	N-DTV	Case=Dat	12	iobj	_	_
+11	haym	_	ADP	RP-N	_	12	compound:prt	_	_
+12	gefalen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1518W-GOETZ,.10
+# X_ID = 1518W-GOETZ,160.12
+# text = das hous hot zi gekauft un' hundert gulden reinis
+1	das	_	DET	D-ACC	Case=Acc|PronType=Art	2	det	_	_
+2	hous	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	5	obj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	zi	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	gekauft	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	un'	_	ADP	P	_	7	case	_	_
+7	hundert	_	NUM	NUM	_	5	obl	_	_
+8	gulden	_	NOUN	N	_	7	conj	_	_
+9	reinis	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+
+# sent_id = 1518W-GOETZ,.11
+# X_ID = 1518W-GOETZ,160.13
+# text = di drit_halb_hundert gulden di hot er under zikh gebrokht mit foreter_rei un' mit bueberei az %t%-1 %exp% den ayner gantsen gemayn iudish_hayt %t%-2 vol tsu visen is
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	drit_halb_hundert	_	NUM	NUM	_	3	nummod	_	_
+3	gulden	_	NOUN	N-D	Definite=Def	9	obl	_	_
+4	di	_	DET	D-ACC	Case=Acc|PronType=Art	9	obj	_	_
+5	hot	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+6	er	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+7	under	_	ADP	P	_	8	case	_	_
+8	zikh	_	PRON	PRO	_	9	obl	_	_
+9	gebrokht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	mit	_	ADP	P	_	11	case	_	_
+11	foreter_rei	_	NOUN	N	_	9	obl	_	_
+12	un'	_	CCONJ	CONJ	_	14	cc	_	_
+13	mit	_	ADP	P	_	14	case	_	_
+14	bueberei	_	NOUN	N	_	11	conj	_	_
+15	az	_	SCONJ	C	_	27	mark	_	_
+16	%t%-1	_	ADV	ADVP	Degree=Pos	27	advmod	_	_
+17	%exp%	_	NOUN	NP-SBJ	_	27	nsubj	_	_
+18	den	_	ADV	ADV	Degree=Pos	27	advmod	_	_
+19	ayner	_	DET	D-DTV	Case=Dat|PronType=Art	22	det	_	_
+20	gantsen	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	22	amod	_	_
+21	gemayn	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	22	amod	_	_
+22	iudish_hayt	_	NOUN	N-DTV-I	Case=Dat|Definite=Ind	27	iobj	_	_
+23	%t%-2	_	NOUN	NP-ACC	_	26	dep	_	_
+24	vol	_	ADV	ADV	Degree=Pos	26	advmod	_	_
+25	tsu	_	PART	TO	_	26	mark	_	_
+26	visen	_	VERB	VB	VerbForm=Inf	27	xcomp	_	_
+27	is	_	VERB	VBF	VerbForm=Fin	9	advcl	_	_
+
+# sent_id = 1518W-GOETZ,.12
+# X_ID = 1518W-GOETZ,160.14
+# text = mer, haben unzer for_muner gegeben meinem stief_fater tsvay_hundert gulden gelt un' gelt_vert, al das %t%-1 in ein hous ghoyrt, as mein fater ist gevest ayn reikh man
+1	mer	_	ADV	QR	_	6	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	PUNC	_	6	punct	_	_
+3	haben	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	unzer	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	5	det:poss	_	_
+5	for_muner	_	NOUN	N	_	6	nsubj	_	_
+6	gegeben	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	meinem	_	PRON	PRO$-DTV	Case=Dat|PronType=Poss	8	det:poss	_	_
+8	stief_fater	_	NOUN	N	_	6	iobj	_	_
+9	tsvay_hundert	_	NUM	NUM-ACC	Case=Acc	10	nummod	_	_
+10	gulden	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+11	gelt	_	NOUN	N-ACC	Case=Acc	10	nmod:poss	_	_
+12	un'	_	CCONJ	CONJ	_	13	cc	_	_
+13	gelt_vert	_	NOUN	N	_	11	conj	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	10	punct	_	_
+15	al	_	DET	Q	_	10	appos	_	_
+16	das	_	PRON	WPRO	_	21	obj	_	_
+17	%t%-1	_	NOUN	NP-SBJ	_	21	nsubj	_	_
+18	in	_	ADP	P	_	20	case	_	_
+19	ein	_	DET	D	PronType=Art	20	det	_	_
+20	hous	_	NOUN	N	_	21	obl	_	_
+21	ghoyrt	_	VERB	VBF	VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	6	punct	_	_
+23	as	_	SCONJ	C	_	27	mark	_	_
+24	mein	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	25	det:poss	_	_
+25	fater	_	NOUN	N	_	27	nsubj	_	_
+26	ist	_	AUX	BEF	VerbForm=Fin	27	cop	_	_
+27	gevest	_	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+28	ayn	_	DET	D	PronType=Art	30	det	_	_
+29	reikh	_	ADJ	ADJ	Degree=Pos	30	amod	_	_
+30	man	_	NOUN	N-I	Definite=Ind	27	xcomp	_	_
+
+# sent_id = 1518W-GOETZ,.13
+# X_ID = 1518W-GOETZ,160.15
+# text = er zol uns halten un' tsiuhun drei ior lang mit esen, mit drinken, mit klaydern, mit lernen nokh dem iudisen orden
+1	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	zol	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	uns	_	PRON	PRO-ACC	Case=Acc	4	obj	_	_
+4	halten	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	un'	_	CCONJ	CONJ	_	6	cc	_	_
+6	tsiuhun	_	VERB	VB	VerbForm=Inf	4	conj	_	_
+7	drei	_	NUM	NUM	_	9	obl	_	_
+8	ior	_	NOUN	N	_	7	conj	_	_
+9	lang	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+10	mit	_	ADP	P	_	11	case	_	_
+11	esen	_	NOUN	N	_	4	obl	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	11	punct	_	_
+13	mit	_	ADP	P	_	14	case	_	_
+14	drinken	_	NOUN	N	_	11	conj	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	11	punct	_	_
+16	mit	_	ADP	P	_	17	case	_	_
+17	klaydern	_	NOUN	N	_	11	conj	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	11	punct	_	_
+19	mit	_	ADP	P	_	20	case	_	_
+20	lernen	_	NOUN	N	_	11	conj	_	_
+21	nokh	_	ADP	P	_	24	case	_	_
+22	dem	_	DET	D	PronType=Art	24	det	_	_
+23	iudisen	_	ADJ	ADJ	Degree=Pos	24	amod	_	_
+24	orden	_	NOUN	N-D	Definite=Def	4	obl	_	_
+
+# sent_id = 1518W-GOETZ,.14
+# X_ID = 1518W-GOETZ,160.16
+# text = der %t%-2 es nit geton hot das is er gevest
+1	der	_	PRON	WPRO	_	5	obj	_	_
+2	%t%-2	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+3	es	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	5	advmod	_	_
+5	geton	_	VERB	VBN	Tense=Past|VerbForm=Part	10	obl	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+7	das	_	DET	D	PronType=Art	10	dep	_	_
+8	is	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+9	er	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+10	gevest	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1518W-GOETZ,.15
+# X_ID = 1518W-GOETZ,160.17
+# text = das ikh nit men %ich%-1 bin bei im gevest ven ayn ior alzo hot er zikh alzo arm gemakht
+1	das	_	SCONJ	C	_	9	mark	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+4	men	_	DET	QR	_	9	obl	_	_
+5	%ich%-1	_	ADP	PP	_	4	obl	_	_
+6	bin	_	AUX	BEF	VerbForm=Fin	9	cop	_	_
+7	bei	_	ADP	P	_	8	case	_	_
+8	im	_	PRON	PRO	_	9	obl	_	_
+9	gevest	_	VERB	VBN	Tense=Past|VerbForm=Part	19	advcl	_	_
+10	ven	_	ADP	P	_	12	case	_	_
+11	ayn	_	DET	D	PronType=Art	12	det	_	_
+12	ior	_	NOUN	N-I	Definite=Ind	9	obl	_	_
+13	alzo	_	ADV	ADV	Degree=Pos	19	advmod	_	_
+14	hot	_	AUX	HVF	VerbForm=Fin	19	aux	_	_
+15	er	_	PRON	PRO-NOM	Case=Nom	19	nsubj	_	_
+16	zikh	_	PRON	PRO-ACC	Case=Acc	18	nsubj	_	_
+17	alzo	_	ADV	ADV	Degree=Pos	18	amod	_	_
+18	arm	_	ADJ	ADJ	Degree=Pos	19	ccomp	_	_
+19	gemakht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1518W-GOETZ,.16
+# X_ID = 1518W-GOETZ,160.18
+# text = un er zei for_dorben
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	zei	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	for_dorben	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1518W-GOETZ,.17
+# X_ID = 1518W-GOETZ,160.19
+# text = un %con% hot mein arme geshvistrikh gehalten az ayn foreter un' boyzvikht
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+4	mein	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	6	det:poss	_	_
+5	arme	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	geshvistrikh	_	NOUN	N	_	7	obj	_	_
+7	gehalten	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	az	_	ADP	P	_	10	case	_	_
+9	ayn	_	DET	D	PronType=Art	10	det	_	_
+10	foreter	_	NOUN	N-I	Definite=Ind	7	obl	_	_
+11	un'	_	CCONJ	CONJ	_	12	cc	_	_
+12	boyzvikht	_	NOUN	N	_	10	conj	_	_
+
+# sent_id = 1518W-GOETZ,.18
+# X_ID = 1518W-GOETZ,160.20
+# text = un %con% kaynerlay %ich%-1 hot gehalten vas %t%-2 er unz hot tsue gezagt das %t%-3 ayner gantsen gemayn iudish_hayt %t%-4 tsu visen is
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+3	kaynerlay	_	DET	Q-ACC	Case=Acc	6	obj	_	_
+4	%ich%-1	_	SCONJ	CP-REL	_	3	acl:relcl	_	_
+5	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+6	gehalten	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	vas	_	PRON	WPRO	_	13	obj	_	_
+8	%t%-2	_	NOUN	NP-ACC	_	13	dep	_	_
+9	er	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+10	unz	_	PRON	PRO-DTV	Case=Dat	13	iobj	_	_
+11	hot	_	AUX	HVF	VerbForm=Fin	13	aux	_	_
+12	tsue	_	ADP	RP	_	13	compound:prt	_	_
+13	gezagt	_	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+14	das	_	PRON	WPRO	_	23	obj	_	_
+15	%t%-3	_	NOUN	NP-SBJ	_	23	nsubj	_	_
+16	ayner	_	DET	D-DTV	Case=Dat|PronType=Art	19	det	_	_
+17	gantsen	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	19	amod	_	_
+18	gemayn	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	19	amod	_	_
+19	iudish_hayt	_	NOUN	N-DTV-I	Case=Dat|Definite=Ind	23	iobj	_	_
+20	%t%-4	_	NOUN	NP-ACC	_	22	dep	_	_
+21	tsu	_	PART	TO	_	22	mark	_	_
+22	visen	_	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+23	is	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+
+# sent_id = 1518W-GOETZ,.19
+# X_ID = 1518W-GOETZ,160.21
+# text = mer, kan mir armen man nit verden mein gelihen gelt das %t%-1 ikh oft hab gefodert zelbs un' %con% gesikt hab andert loyt an im
+1	mer	_	ADV	QR	_	8	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	PUNC	_	8	punct	_	_
+3	kan	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	6	nmod	_	_
+5	armen	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	6	amod	_	_
+6	man	_	NOUN	N-DTV	Case=Dat	8	iobj	_	_
+7	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+8	verden	_	VERB	VB	VerbForm=Inf	0	root	_	_
+9	mein	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	11	det:poss	_	_
+10	gelihen	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	gelt	_	NOUN	N	_	8	nsubj	_	_
+12	das	_	PRON	WPRO	_	17	obj	_	_
+13	%t%-1	_	NOUN	NP-ACC	_	17	dep	_	_
+14	ikh	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+15	oft	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+16	hab	_	AUX	HVF	VerbForm=Fin	17	aux	_	_
+17	gefodert	_	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+18	zelbs	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+19	un'	_	CCONJ	CONJ	_	21	cc	_	_
+20	%con%	_	NOUN	NP-SBJ	_	21	nsubj	_	_
+21	gesikt	_	VERB	VBN	Tense=Past|VerbForm=Part	17	conj	_	_
+22	hab	_	AUX	HVF	VerbForm=Fin	21	aux	_	_
+23	andert	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	24	amod	_	_
+24	loyt	_	NOUN	N-ACC	Case=Acc	21	obj	_	_
+25	an	_	ADP	P	_	26	case	_	_
+26	im	_	PRON	PRO	_	21	obl	_	_
+
+# sent_id = 1518W-GOETZ,.20
+# X_ID = 1518W-GOETZ,160.22
+# text = er meiner gespot hot
+1	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	meiner	_	PRON	PRO-GEN	Case=Gen	3	dep	_	_
+3	gespot	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	hot	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+
+# sent_id = 1518W-GOETZ,.21
+# X_ID = 1518W-GOETZ,160.23
+# text = un %con% forlaykt mir armen man das mein
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	forlaykt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	6	nmod	_	_
+5	armen	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	6	amod	_	_
+6	man	_	NOUN	N-DTV	Case=Dat	3	iobj	_	_
+7	das	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	mein	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+
+# sent_id = 1518W-GOETZ,.22
+# X_ID = 1518W-GOETZ,160.24
+# text = mer %exp% is ayner gantsen gemayn iudis_hayt %t%-1 tsu visen
+1	mer	_	ADV	QR	_	3	advmod	_	_
+2	%exp%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	is	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	ayner	_	DET	D-DTV	Case=Dat|PronType=Art	7	det	_	_
+5	gantsen	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	7	amod	_	_
+6	gemayn	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	7	amod	_	_
+7	iudis_hayt	_	NOUN	N-DTV-I	Case=Dat|Definite=Ind	3	iobj	_	_
+8	%t%-1	_	NOUN	NP-ACC	_	10	dep	_	_
+9	tsu	_	PART	TO	_	10	mark	_	_
+10	visen	_	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+
+# sent_id = 1518W-GOETZ,.23
+# X_ID = 1518W-GOETZ,160.25
+# text = do mayn geshvistrikh ist bei im gevest do hot er zikh alzo arm gemakht
+1	do	_	SCONJ	C	_	7	mark	_	_
+2	mayn	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	3	det:poss	_	_
+3	geshvistrikh	_	NOUN	N	_	7	nsubj	_	_
+4	ist	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+5	bei	_	ADP	P	_	6	case	_	_
+6	im	_	PRON	PRO	_	7	obl	_	_
+7	gevest	_	VERB	VBN	Tense=Past|VerbForm=Part	14	advcl	_	_
+8	do	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+9	hot	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+10	er	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+11	zikh	_	PRON	PRO-ACC	Case=Acc	13	nsubj	_	_
+12	alzo	_	ADV	ADV	Degree=Pos	13	amod	_	_
+13	arm	_	ADJ	ADJ	Degree=Pos	14	ccomp	_	_
+14	gemakht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1518W-GOETZ,.24
+# X_ID = 1518W-GOETZ,160.26
+# text = un' %con% hot for_zetst di houzen fon bayn um brot, ouf aym sim
+1	un'	_	CCONJ	CONJ	_	4	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	for_zetst	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	houzen	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	fon	_	ADP	P	_	8	case	_	_
+8	bayn	_	NOUN	N	_	6	obl	_	_
+9	um	_	ADP	P	_	10	case	_	_
+10	brot	_	NOUN	N	_	4	obl	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	4	punct	_	_
+12	ouf	_	ADP	P	_	14	case	_	_
+13	aym	_	DET	D	PronType=Art	14	det	_	_
+14	sim	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1518W-GOETZ,.25
+# X_ID = 1518W-GOETZ,160.27
+# text = un' %con% hot ayn gantse gemayn iudishayt das ir for halten das er uns for_driben hot ouz dem houz hunger halben
+1	un'	_	CCONJ	CONJ	_	11	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+4	ayn	_	DET	D-DTV	Case=Dat|PronType=Art	7	det	_	_
+5	gantse	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	7	amod	_	_
+6	gemayn	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	7	amod	_	_
+7	iudishayt	_	NOUN	N-DTV-I	Case=Dat|Definite=Ind	11	iobj	_	_
+8	das	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+9	ir	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	11	obj	_	_
+10	for	_	ADP	RP	_	11	compound:prt	_	_
+11	halten	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+12	das	_	SCONJ	C	_	15	mark	_	_
+13	er	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+14	uns	_	PRON	PRO-DTV	Case=Dat	15	iobj	_	_
+15	for_driben	_	VERB	VBN	Tense=Past|VerbForm=Part	11	ccomp	_	_
+16	hot	_	AUX	HVF	VerbForm=Fin	15	aux	_	_
+17	ouz	_	ADP	P	_	19	case	_	_
+18	dem	_	DET	D	PronType=Art	19	det	_	_
+19	houz	_	NOUN	N-D	Definite=Def	15	obl	_	_
+20	hunger	_	NOUN	N	_	15	obl	_	_
+21	halben	_	NOUN	N	_	20	conj	_	_
+
+# sent_id = 1518W-GOETZ,.26
+# X_ID = 1518W-GOETZ,160.28
+# text = alzo bald az %t%-1 di drei ior ouz voren do tet er zikh her_for
+1	alzo	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+2	bald	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	az	_	SCONJ	C	_	9	mark	_	_
+4	%t%-1	_	ADV	ADVP-TMP	AdvType=Tim|Degree=Pos	9	advmod	_	_
+5	di	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+6	drei	_	NUM	NUM-NOM	Case=Nom	7	nummod	_	_
+7	ior	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+8	ouz	_	ADP	RP	_	9	compound:prt	_	_
+9	voren	_	VERB	VBF	VerbForm=Fin	1	advcl	_	_
+10	do	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+11	tet	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+12	er	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+13	zikh	_	PRON	PRO-RFL	PronType=Reflex	11	expl:pv	_	_
+14	her_for	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+
+# sent_id = 1518W-GOETZ,.27
+# X_ID = 1518W-GOETZ,160.29
+# text = un %con% fand zikh das %t%-1 ayner gantsen iudish_hayt %t%-2 vol tsu visen var az guet az zekhtsehen_hundert gulden
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	fand	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	3	expl:pv	_	_
+5	das	_	PRON	WPRO	_	14	obj	_	_
+6	%t%-1	_	NOUN	NP-SBJ	_	14	nsubj	_	_
+7	ayner	_	DET	D-DTV	Case=Dat|PronType=Art	9	det	_	_
+8	gantsen	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	9	amod	_	_
+9	iudish_hayt	_	NOUN	N-DTV-I	Case=Dat|Definite=Ind	14	iobj	_	_
+10	%t%-2	_	NOUN	NP-ACC	_	13	dep	_	_
+11	vol	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+12	tsu	_	PART	TO	_	13	mark	_	_
+13	visen	_	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+14	var	_	VERB	VBF	VerbForm=Fin	3	acl:relcl	_	_
+15	az	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+16	guet	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+17	az	_	ADP	P	_	18	case	_	_
+18	zekhtsehen_hundert	_	NUM	NUM	_	15	obl	_	_
+19	gulden	_	NOUN	N	_	18	conj	_	_
+
+# sent_id = 1518W-GOETZ,.28
+# X_ID = 1518W-GOETZ,160.30
+# text = das hot er gevunen mit unzerem gelt alzo vol az mit zeinem gelt
+1	das	_	DET	D-ACC	Case=Acc|PronType=Art	4	obj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	gevunen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	mit	_	ADP	P	_	7	case	_	_
+6	unzerem	_	PRON	PRO$	_	7	det:poss	_	_
+7	gelt	_	NOUN	N	_	4	obl	_	_
+8	alzo	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+9	vol	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+10	az	_	ADP	P	_	13	case	_	_
+11	mit	_	ADP	P	_	13	case	_	_
+12	zeinem	_	PRON	PRO$	_	13	det:poss	_	_
+13	gelt	_	NOUN	N	_	8	obl	_	_
+
+# sent_id = 1518W-GOETZ,.29
+# X_ID = 1518W-GOETZ,160.31
+# text = nun bin ikh itsunt a@ @m iungsten gevezen tsu regenspurk
+1	nun	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+2	bin	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+4	itsunt	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+5	a@	_	ADP	P	_	7	case	_	_
+6	@m	_	DET	D	PronType=Art	7	det	_	_
+7	iungsten	_	ADV	ADV	Degree=Pos	4	obl	_	_
+8	gevezen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	tsu	_	ADP	P	_	10	case	_	_
+10	regenspurk	_	PROPN	NPR	_	8	obl	_	_
+
+# sent_id = 1518W-GOETZ,.30
+# X_ID = 1518W-GOETZ,160.32
+# text = un' %con% hab an in gesikt den eltsten rebe mit namen r' meier
+1	un'	_	CCONJ	CONJ	_	6	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+3	hab	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	an	_	ADP	P	_	5	case	_	_
+5	in	_	PRON	PRO	_	6	obl	_	_
+6	gesikt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	den	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+8	eltsten	_	ADJ	ADJS-ACC	Case=Acc|Degree=Pos	9	amod	_	_
+9	rebe	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+10	mit	_	ADP	P	_	11	case	_	_
+11	namen	_	NOUN	N	_	9	obl	_	_
+12	r'	_	PROPN	NPR	_	11	appos	_	_
+13	meier	_	PROPN	NPR	_	12	flat:name	_	_
+
+# sent_id = 1518W-GOETZ,.31
+# X_ID = 1518W-GOETZ,160.33
+# text = un' %con% gefodert hab das mein gelihen gelt
+1	un'	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	gefodert	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	hab	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+5	das	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+6	mein	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	8	det:poss	_	_
+7	gelihen	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	gelt	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+
+# sent_id = 1518W-GOETZ,.32
+# X_ID = 1518W-GOETZ,160.34
+# text = un' %con% hab g begert mit im tsu rekhenen for gueten loyten vas %t%-1 mir tsue geburt mir tsu mein tayl
+1	un'	_	CCONJ	CONJ	_	5	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+3	hab	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	g	_	X	X	_	5	dep	_	_
+5	begert	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	mit	_	ADP	P	_	7	case	_	_
+7	im	_	PRON	PRO	_	9	obl	_	_
+8	tsu	_	PART	TO	_	9	mark	_	_
+9	rekhenen	_	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+10	for	_	ADP	P	_	12	case	_	_
+11	gueten	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	loyten	_	NOUN	N	_	9	obl	_	_
+13	vas	_	PRON	WPRO	_	17	obj	_	_
+14	%t%-1	_	NOUN	NP-SBJ	_	17	nsubj	_	_
+15	mir	_	PRON	PRO-DTV	Case=Dat	17	iobj	_	_
+16	tsue	_	ADP	RP	_	17	compound:prt	_	_
+17	geburt	_	VERB	VBF	VerbForm=Fin	9	dep	_	_
+18	mir	_	PRON	PRO-DTV	Case=Dat	9	xcomp	_	_
+19	tsu	_	ADP	RP	_	18	compound:prt	_	_
+20	mein	_	PRON	PRO$	_	21	det:poss	_	_
+21	tayl	_	NOUN	N	_	18	obl	_	_
+
+# sent_id = 1518W-GOETZ,.33
+# X_ID = 1518W-GOETZ,160.35
+# text = do hot er zikh losen %arb% %ich%-1 merken er vol mikh um troyben do_veil ikh nit hab un' %con% vol alzo fon mir kumen az fon meinem brueder mose den hot er uber_tobert in aynem trunk
+1	do	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	zikh	_	PRON	PRO	_	5	obl	_	_
+5	losen	_	VERB	VBN-IPP	Tense=Past|VerbForm=Part	0	root	_	_
+6	%arb%	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+7	%ich%-1	_	NOUN	NP-RFL	_	8	expl:pv	_	_
+8	merken	_	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	er	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+10	vol	_	AUX	MDF	VerbForm=Fin	13	aux	_	_
+11	mikh	_	PRON	PRO-ACC	Case=Acc	13	obj	_	_
+12	um	_	ADP	RP	_	13	compound:prt	_	_
+13	troyben	_	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+14	do_veil	_	SCONJ	C	_	17	mark	_	_
+15	ikh	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+16	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	17	advmod	_	_
+17	hab	_	VERB	VBF	VerbForm=Fin	13	advcl	_	_
+18	un'	_	CCONJ	CONJ	_	24	cc	_	_
+19	%con%	_	NOUN	NP-SBJ	_	24	nsubj	_	_
+20	vol	_	AUX	MDF	VerbForm=Fin	24	aux	_	_
+21	alzo	_	ADV	ADV	Degree=Pos	24	advmod	_	_
+22	fon	_	ADP	P	_	23	case	_	_
+23	mir	_	PRON	PRO	_	24	obl	_	_
+24	kumen	_	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+25	az	_	ADP	P	_	28	case	_	_
+26	fon	_	ADP	P	_	28	case	_	_
+27	meinem	_	PRON	PRO$	_	28	det:poss	_	_
+28	brueder	_	NOUN	N	_	24	obl	_	_
+29	mose	_	PROPN	NPR	_	28	appos	_	_
+30	den	_	DET	D-ACC	Case=Acc|PronType=Art	28	dep	_	_
+31	hot	_	AUX	HVF	VerbForm=Fin	30	aux	_	_
+32	er	_	PRON	PRO-NOM	Case=Nom	30	nsubj	_	_
+33	uber_tobert	_	VERB	VBN	Tense=Past|VerbForm=Part	30	dep	_	_
+34	in	_	ADP	P	_	36	case	_	_
+35	aynem	_	DET	D	PronType=Art	36	det	_	_
+36	trunk	_	NOUN	N-I	Definite=Ind	30	obl	_	_
+
+# sent_id = 1518W-GOETZ,.34
+# X_ID = 1518W-GOETZ,160.36
+# text = un' boyz loyt dar_tsue geholfen haben
+1	un'	_	CCONJ	CONJ	_	5	cc	_	_
+2	boyz	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	loyt	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+4	dar_tsue	_	ADP	P	_	5	obl	_	_
+5	geholfen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	haben	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+
+# sent_id = 1518W-GOETZ,.35
+# X_ID = 1518W-GOETZ,160.37
+# text = nokh hot er mikh gebrokht um all mein zilber_geshir biz ouf ayn kopf
+1	nokh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	mikh	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+5	gebrokht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	um	_	ADP	P	_	9	case	_	_
+7	all	_	DET	Q	_	9	det	_	_
+8	mein	_	PRON	PRO$	_	9	det:poss	_	_
+9	zilber_geshir	_	NOUN	N	_	5	obl	_	_
+10	biz	_	ADP	P	_	13	case	_	_
+11	ouf	_	ADP	P	_	13	case	_	_
+12	ayn	_	DET	D	PronType=Art	13	det	_	_
+13	kopf	_	NOUN	N-I	Definite=Ind	9	obl	_	_
+
+# sent_id = 1518W-GOETZ,.36
+# X_ID = 1518W-GOETZ,160.38
+# text = den vil ikh darein vagen riterlikh biz ikh meiner sheden ayn kum
+1	den	_	DET	D-ACC	Case=Acc|PronType=Art	5	obj	_	_
+2	vil	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	darein	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	vagen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+6	riterlikh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	biz	_	SCONJ	C	_	12	mark	_	_
+8	ikh	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+9	meiner	_	PRON	PRO$-GEN	Case=Gen|PronType=Poss	12	dep	_	_
+10	sheden	_	NOUN	N	_	9	conj	_	_
+11	ayn	_	ADP	RP	_	12	compound:prt	_	_
+12	kum	_	VERB	VBF	VerbForm=Fin	5	advcl	_	_
+
+# sent_id = 1518W-GOETZ,.37
+# X_ID = 1518W-GOETZ,160.39
+# text = un' %con% tue im tsu visen das ikh im ab zag meinem stief_fater, mendel tsu regenspurk, zeinem leib un' zeinem guet, un' ayner gantsen gemayn iudis_hayt un' aykh ayner gantsen gemayn stat regenspurk, das zi zikh nikhs derfen %ich%-1 guets tsu mir for zehen
+1	un'	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	tue	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	im	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+5	tsu	_	PART	TO	_	6	mark	_	_
+6	visen	_	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	das	_	SCONJ	C	_	11	mark	_	_
+8	ikh	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+9	im	_	PRON	PRO-DTV	Case=Dat	11	iobj	_	_
+10	ab	_	ADP	RP	_	11	compound:prt	_	_
+11	zag	_	VERB	VBF	VerbForm=Fin	6	ccomp	_	_
+12	meinem	_	PRON	PRO$	_	13	det:poss	_	_
+13	stief_fater	_	NOUN	N	_	11	obl	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	13	punct	_	_
+15	mendel	_	PROPN	NPR	_	13	appos	_	_
+16	tsu	_	ADP	P	_	17	case	_	_
+17	regenspurk	_	PROPN	NPR	_	15	obl	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	13	punct	_	_
+19	zeinem	_	PRON	PRO$	_	20	det:poss	_	_
+20	leib	_	NOUN	N	_	13	appos	_	_
+21	un'	_	CCONJ	CONJ	_	23	cc	_	_
+22	zeinem	_	PRON	PRO$	_	23	det:poss	_	_
+23	guet	_	NOUN	N	_	20	conj	_	SpaceAfter=No
+24	,	_	PUNCT	PUNC	_	13	punct	_	_
+25	un'	_	CCONJ	CONJ	_	29	cc	_	_
+26	ayner	_	DET	D	PronType=Art	29	det	_	_
+27	gantsen	_	ADJ	ADJ	Degree=Pos	29	amod	_	_
+28	gemayn	_	ADJ	ADJ	Degree=Pos	29	amod	_	_
+29	iudis_hayt	_	NOUN	N-I	Definite=Ind	13	conj	_	_
+30	un'	_	CCONJ	CONJ	_	36	cc	_	_
+31	aykh	_	ADV	ADV	Degree=Pos	36	advmod	_	_
+32	ayner	_	DET	D	PronType=Art	36	det	_	_
+33	gantsen	_	ADJ	ADJ	Degree=Pos	36	amod	_	_
+34	gemayn	_	ADJ	ADJ	Degree=Pos	36	amod	_	_
+35	stat	_	NOUN	N	_	36	conj	_	_
+36	regenspurk	_	PROPN	NPR-I	_	13	conj	_	SpaceAfter=No
+37	,	_	PUNCT	PUNC	_	11	punct	_	_
+38	das	_	SCONJ	C	_	48	mark	_	_
+39	zi	_	PRON	PRO-NOM	Case=Nom	48	nsubj	_	_
+40	zikh	_	PRON	PRO-RFL	PronType=Reflex	48	expl:pv	_	_
+41	nikhs	_	ADV	Q	_	48	advmod	_	_
+42	derfen	_	AUX	MDF	VerbForm=Fin	48	aux	_	_
+43	%ich%-1	_	DET	QP	_	48	dep	_	_
+44	guets	_	ADJ	ADJ	Degree=Pos	43	amod	_	_
+45	tsu	_	ADP	P	_	46	case	_	_
+46	mir	_	PRON	PRO	_	48	obl	_	_
+47	for	_	ADP	RP	_	48	compound:prt	_	_
+48	zehen	_	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+
+# sent_id = 1518W-GOETZ,.38
+# X_ID = 1518W-GOETZ,160.40
+# text = volt got fon himel, das di burger un' ayn gantse gemayn fon regenspurk zolt visen den grosen gevalt der %t%-1 mir %ich%-2 geshikht mir armen man fon dem mendel, meinem stief_fater
+1	volt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	got	_	PROPN	NPR-SBJ	_	1	nsubj	_	_
+3	fon	_	ADP	P	_	4	case	_	_
+4	himel	_	NOUN	N	_	2	obl	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	1	punct	_	_
+6	das	_	SCONJ	C	_	16	mark	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	burger	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	16	nsubj	_	_
+9	un'	_	CCONJ	CONJ	_	12	cc	_	_
+10	ayn	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+11	gantse	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	12	amod	_	_
+12	gemayn	_	NOUN	N-NOM	Case=Nom	8	conj	_	_
+13	fon	_	ADP	P	_	14	case	_	_
+14	regenspurk	_	PROPN	NPR	_	12	obl	_	_
+15	zolt	_	AUX	MDF	VerbForm=Fin	16	aux	_	_
+16	visen	_	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+17	den	_	DET	D-ACC	Case=Acc|PronType=Art	19	det	_	_
+18	grosen	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	19	amod	_	_
+19	gevalt	_	NOUN	N-ACC	Case=Acc	16	obj	_	_
+20	der	_	PRON	WPRO	_	24	obj	_	_
+21	%t%-1	_	NOUN	NP-SBJ	_	24	nsubj	_	_
+22	mir	_	PRON	PRO-DTV	Case=Dat	23	nmod	_	_
+23	%ich%-2	_	NOUN	NP-PRN	_	24	iobj	_	_
+24	geshikht	_	VERB	VBF	VerbForm=Fin	19	acl:relcl	_	_
+25	mir	_	PRON	PRO	_	27	nmod	_	_
+26	armen	_	ADJ	ADJ	Degree=Pos	27	amod	_	_
+27	man	_	NOUN	N	_	24	appos	_	_
+28	fon	_	ADP	P	_	30	case	_	_
+29	dem	_	DET	D	PronType=Art	30	det	_	_
+30	mendel	_	PROPN	NPR	_	24	obl	_	SpaceAfter=No
+31	,	_	PUNCT	PUNC	_	30	punct	_	_
+32	meinem	_	PRON	PRO$	_	33	det:poss	_	_
+33	stief_fater	_	NOUN	N	_	30	appos	_	_
+
+1	es	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	mokht	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+3	got	_	PROPN	NPR-ACC	_	6	dep	_	_
+4	fon	_	ADP	P	_	5	case	_	_
+5	himel	_	NOUN	N	_	3	obl	_	_
+6	der_barmen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+

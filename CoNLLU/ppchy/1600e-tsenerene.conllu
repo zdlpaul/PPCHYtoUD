@@ -1,0 +1,260 @@
+# sent_id = 1600E-TSENERENE,.1
+# X_ID = 1600E-TSENERENE,171.3
+# text = der mineg %ich%-1 iz gevezen fin ale tsadikem dos zey pflegen tsi veyden shof in der midber der_varten zey velen zikh vayt ayn_vek makhen fin den layten
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	mineg	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	%ich%-1	_	ADP	PP	_	2	obl	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+5	gevezen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	fin	_	ADP	P	_	8	case	_	_
+7	ale	_	DET	Q	_	8	det	_	_
+8	tsadikem	_	NOUN	N	_	5	obl	_	_
+9	dos	_	SCONJ	C	_	11	mark	_	_
+10	zey	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+11	pflegen	_	AUX	MDF	VerbForm=Fin	5	xcomp	_	_
+12	tsi	_	PART	TO	_	13	mark	_	_
+13	veyden	_	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	shof	_	NOUN	N-ACC	Case=Acc	13	obj	_	_
+15	in	_	ADP	P	_	17	case	_	_
+16	der	_	DET	D	PronType=Art	17	det	_	_
+17	midber	_	NOUN	N-D	Definite=Def	13	obl	_	_
+18	der_varten	_	ADV	ADV	Degree=Pos	24	advmod	_	_
+19	zey	_	PRON	PRO-NOM	Case=Nom	24	nsubj	_	_
+20	velen	_	AUX	MDF	VerbForm=Fin	24	aux	_	_
+21	zikh	_	PRON	PRO-RFL	PronType=Reflex	24	expl:pv	_	_
+22	vayt	_	ADV	ADV	Degree=Pos	24	advmod	_	_
+23	ayn_vek	_	ADV	ADV	Degree=Pos	24	advmod	_	_
+24	makhen	_	VERB	VB	VerbForm=Inf	5	advcl	_	_
+25	fin	_	ADP	P	_	27	case	_	_
+26	den	_	DET	D	PronType=Art	27	det	_	_
+27	layten	_	NOUN	N-D	Definite=Def	24	obl	_	_
+
+# sent_id = 1600E-TSENERENE,.2
+# X_ID = 1600E-TSENERENE,171.4
+# text = den ven men bay layten iz do kimt fil aveyres der_fin rekhhiles in kine in loshen hore imasig gvil
+1	den	_	CCONJ	CONJ	_	8	cc	_	_
+2	ven	_	SCONJ	C	_	6	mark	_	_
+3	men	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+4	bay	_	ADP	P	_	5	case	_	_
+5	layten	_	NOUN	N	_	6	obl	_	_
+6	iz	_	VERB	VBF	VerbForm=Fin	8	advcl	_	_
+7	do	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	kimt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	fil	_	DET	Q-NOM	Case=Nom	10	det	_	_
+10	aveyres	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+11	der_fin	_	ADP	P	_	8	obl	_	_
+12	rekhhiles	slander	X	H	_	8	dep	_	_
+13	in	_	X	X	_	12	dep	_	_
+14	kine	_	NOUN	N	_	12	obl	_	_
+15	in	_	ADP	P	_	16	dep	_	_
+16	loshen	language	X	H	_	12	obl	_	_
+17	hore	the_evil	X	H	_	16	dep	_	_
+18	imasig	it_will_restrict	X	H	_	12	dep	_	_
+19	gvil	border	X	H	_	12	dep	_	_
+
+# sent_id = 1600E-TSENERENE,.3
+# X_ID = 1600E-TSENERENE,171.5
+# text = in derim shteyt geshriben akher hamidber,
+1	in	_	CCONJ	CONJ	_	3	cc	_	_
+2	derim	_	ADP	P	_	3	obl	_	_
+3	shteyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	geshriben	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	akher	after	X	H	_	3	nsubj	_	_
+6	hamidber	the_desert	X	H	_	5	dep	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1600E-TSENERENE,.4
+# X_ID = 1600E-TSENERENE,171.6
+# text = klomer er ging vayt
+1	klomer	that_is_to_say	X	H	_	3	dep	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	ging	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	vayt	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+
+# sent_id = 1600E-TSENERENE,.5
+# X_ID = 1600E-TSENERENE,171.7
+# text = er volt nit veyden oyf fremde felder
+1	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	volt	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+4	veyden	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	oyf	_	ADP	P	_	7	case	_	_
+6	fremde	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	felder	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1600E-TSENERENE,.6
+# X_ID = 1600E-TSENERENE,171.8
+# text = in di khakhomem zogen fertsik yor iz moyshe gezesen in mitsrayim un fertsik yor in midien un fertsik yor in der midber
+1	in	_	CCONJ	CONJ	_	4	cc	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	khakhomem	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	zogen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	fertsik	_	NUM	NUM	_	9	obl	_	_
+6	yor	_	NOUN	N	_	5	conj	_	_
+7	iz	_	AUX	BEF	VerbForm=Fin	9	cop	_	_
+8	moyshe	_	PROPN	NPR-SBJ	_	9	nsubj	_	_
+9	gezesen	_	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	mitsrayim	_	PROPN	NPR	_	9	obl	_	_
+12	un	_	CCONJ	CONJ	_	13	cc	_	_
+13	fertsik	_	NUM	NUM	_	9	ccomp	_	_
+14	yor	_	NOUN	N	_	13	conj	_	_
+15	in	_	ADP	P	_	16	case	_	_
+16	midien	_	PROPN	NPR	_	13	obl	_	_
+17	un	_	CCONJ	CONJ	_	18	cc	_	_
+18	fertsik	_	NUM	NUM	_	9	ccomp	_	_
+19	yor	_	NOUN	N	_	18	conj	_	_
+20	in	_	ADP	P	_	22	case	_	_
+21	der	_	DET	D	PronType=Art	22	det	_	_
+22	midber	_	NOUN	N-D	Definite=Def	18	obl	_	_
+
+# sent_id = 1600E-TSENERENE,.7
+# X_ID = 1600E-TSENERENE,171.9
+# text = in azoy vor oykh reb akive fertsik yor handlen mit skhoyre
+1	in	_	CCONJ	CONJ	_	9	cc	_	_
+2	azoy	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+3	vor	_	AUX	BEF	VerbForm=Fin	9	cop	_	_
+4	oykh	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+5	reb	_	PROPN	NPR-SBJ	_	9	nsubj	_	_
+6	akive	_	PROPN	NPR	_	5	flat:name	_	_
+7	fertsik	_	NUM	NUM	_	9	obl	_	_
+8	yor	_	NOUN	N	_	7	conj	_	_
+9	handlen	_	VERB	VAG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	mit	_	ADP	P	_	11	case	_	_
+11	skhoyre	_	NOUN	N	_	9	obl	_	_
+
+# sent_id = 1600E-TSENERENE,.8
+# X_ID = 1600E-TSENERENE,171.10
+# text = in der_nokh vor er fertsik yor lernen
+1	in	_	CCONJ	CONJ	_	7	cc	_	_
+2	der_nokh	_	ADP	P	_	7	obl	_	_
+3	vor	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+5	fertsik	_	NUM	NUM	_	7	obl	_	_
+6	yor	_	NOUN	N	_	5	conj	_	_
+7	lernen	_	VERB	VAG	Tense=Pres|VerbForm=Part	0	root	_	_
+
+# sent_id = 1600E-TSENERENE,.9
+# X_ID = 1600E-TSENERENE,171.11
+# text = in der_nokh vor er fertsik yor yeshive halten
+1	in	_	CCONJ	CONJ	_	8	cc	_	_
+2	der_nokh	_	ADP	P	_	8	obl	_	_
+3	vor	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+5	fertsik	_	NUM	NUM	_	8	obl	_	_
+6	yor	_	NOUN	N	_	5	conj	_	_
+7	yeshive	_	ADP	RP-H	_	8	compound:prt	_	_
+8	halten	_	VERB	VAG	Tense=Pres|VerbForm=Part	0	root	_	_
+
+# sent_id = 1600E-TSENERENE,.10
+# X_ID = 1600E-TSENERENE,171.12
+# text = in moyshe vor kimen bay dem berg khorev vi %t%-1 men vert di toyre geben
+1	in	_	CCONJ	CONJ	_	4	cc	_	_
+2	moyshe	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+3	vor	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	kimen	_	VERB	VAG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	bay	_	ADP	P	_	7	case	_	_
+6	dem	_	DET	D	PronType=Art	7	det	_	_
+7	berg	_	NOUN	N-D	Definite=Def	4	obl	_	_
+8	khorev	_	PROPN	NPR	_	7	dep	_	_
+9	vi	_	ADV	WADV	Degree=Pos	15	advmod	_	_
+10	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	15	advmod	_	_
+11	men	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+12	vert	_	AUX	RDF	VerbForm=Fin	15	aux	_	_
+13	di	_	DET	D-ACC	Case=Acc|PronType=Art	14	det	_	_
+14	toyre	_	PROPN	NPR-D	_	15	obj	_	_
+15	geben	_	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+
+# sent_id = 1600E-TSENERENE,.11
+# X_ID = 1600E-TSENERENE,171.13
+# text = do hot zikh bevizen di skhine dorkh fayer
+1	do	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+4	bevizen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	di	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	skhine	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+7	dorkh	_	ADP	P	_	8	case	_	_
+8	fayer	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1600E-TSENERENE,.12
+# X_ID = 1600E-TSENERENE,171.14
+# text = in dos fayer vor oyf eynem dorn_boym
+1	in	_	CCONJ	CONJ	_	4	cc	_	_
+2	dos	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	fayer	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	vor	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	oyf	_	ADP	P	_	7	case	_	_
+6	eynem	_	DET	D	PronType=Art	7	det	_	_
+7	dorn_boym	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1600E-TSENERENE,.13
+# X_ID = 1600E-TSENERENE,171.15
+# text = un der dorn vor nit fer_brent .
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	dorn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+4	vor	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+6	fer_brent	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1600E-TSENERENE,.14
+# X_ID = 1600E-TSENERENE,171.16
+# text = der khizkine in der bekhaye shrayben vorim %t%-1 hot zikh koydesh borkhi bevizen dorkh fayer
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	khizkine	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+3	in	_	CCONJ	CONJ	_	5	cc	_	_
+4	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	bekhaye	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	conj	_	_
+6	shrayben	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	vorim	_	ADP	P	_	13	obl	_	_
+8	%t%-1	_	ADP	PP	_	13	obl	_	_
+9	hot	_	AUX	HVF	VerbForm=Fin	13	aux	_	_
+10	zikh	_	PRON	PRO-RFL	PronType=Reflex	13	expl:pv	_	_
+11	koydesh	_	PROPN	NPR-SBJ	_	13	nsubj	_	_
+12	borkhi	_	PROPN	NPR	_	11	flat:name	_	_
+13	bevizen	_	VERB	VBN	Tense=Past|VerbForm=Part	6	dep	_	_
+14	dorkh	_	ADP	P	_	15	case	_	_
+15	fayer	_	NOUN	N	_	13	obl	_	_
+
+# sent_id = 1600E-TSENERENE,.15
+# X_ID = 1600E-TSENERENE,171.17
+# text = dos iz derim, dos moyshe zol zikh kenen geveynen fayer tsi zehen
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	derim	_	ADP	P	_	10	case	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	10	punct	_	_
+5	dos	_	SCONJ	C	_	10	mark	_	_
+6	moyshe	_	PROPN	NPR-SBJ	_	10	nsubj	_	_
+7	zol	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+8	zikh	_	PRON	PRO-RFL	PronType=Reflex	10	expl:pv	_	_
+9	kenen	_	AUX	MD	VerbForm=Inf	10	aux	_	_
+10	geveynen	_	VERB	VB	VerbForm=Inf	2	obl	_	_
+11	fayer	_	NOUN	N-ACC	Case=Acc	13	obj	_	_
+12	tsi	_	PART	TO	_	13	mark	_	_
+13	zehen	_	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+
+1	in	_	CCONJ	CONJ	_	22	cc	_	_
+2	ven	_	SCONJ	C	_	5	mark	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	vert	_	AUX	RDF	VerbForm=Fin	5	aux	_	_
+5	kimen	_	VERB	VB	VerbForm=Inf	22	advcl	_	_
+6	tsi	_	ADP	P	_	8	case	_	_
+7	dem	_	DET	D	PronType=Art	8	det	_	_
+8	berg	_	NOUN	N-D	Definite=Def	5	obl	_	_
+9	sine	_	PROPN	NPR	_	8	dep	_	_
+10	vi	_	ADV	WADV	Degree=Pos	17	advmod	_	_
+11	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	17	advmod	_	_
+12	men	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+13	der_nokh	_	ADP	P	_	17	obl	_	_
+14	vert	_	AUX	RDF	VerbForm=Fin	17	aux	_	_
+15	di	_	DET	D-ACC	Case=Acc|PronType=Art	16	det	_	_
+16	toyre	_	PROPN	NPR-D	_	17	obj	_	_
+17	geben	_	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+18	do	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+19	ver	_	AUX	RDF	VerbForm=Fin	22	aux	_	_
+20	fil	_	DET	Q-NOM	Case=Nom	21	det	_	_
+21	fayer	_	NOUN	N-NOM	Case=Nom	22	nsubj	_	_
+22	zayn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+

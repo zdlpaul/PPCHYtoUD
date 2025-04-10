@@ -1,0 +1,4971 @@
+# sent_id = 1818E-GEOGRAFIE,.1
+# X_ID = 1818E-GEOGRAFIE,.2
+# text = velkhi %t%-1 habin grus lust tsu visn fun ali lender
+1	velkhi	_	PRON	WPRO	_	3	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	habin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	grus	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	5	amod	_	_
+5	lust	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+6	tsu	_	PART	TO	_	7	mark	_	_
+7	visn	_	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	fun	_	ADP	P	_	10	case	_	_
+9	ali	_	DET	Q	_	10	det	_	_
+10	lender	_	NOUN	N	_	7	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.2
+# X_ID = 1818E-GEOGRAFIE,.3
+# text = habin mir es gidrukt oyf gimeyn teytsi sprakh bkdi es zalin es kenin ali fr_steyn
+1	habin	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+2	mir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	es	_	PRON	PRO-ACC	Case=Acc	4	obj	_	_
+4	gidrukt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	oyf	_	ADP	P	_	8	case	_	_
+6	gimeyn	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+7	teytsi	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	sprakh	_	NOUN	N	_	4	obl	_	_
+9	bkdi	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+10	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	15	expl	_	_
+11	zalin	_	AUX	MDF	VerbForm=Fin	15	aux	_	_
+12	es	_	PRON	PRO-ACC	Case=Acc	15	obj	_	_
+13	kenin	_	AUX	MD	VerbForm=Inf	15	aux	_	_
+14	ali	_	DET	Q-NOM	Case=Nom	15	nsubj	_	_
+15	fr_steyn	_	VERB	VB	VerbForm=Inf	4	advcl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.3
+# X_ID = 1818E-GEOGRAFIE,3.6
+# text = das vort yeografeye beteyt di beshreybung fun unzr velt oyf velkhi %t%-1 mir vaunen un fun ihr tsu_teylung oyf ali khlkim
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	vort	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	yeografeye	_	NOUN	N-NOM	Case=Nom	2	dep	_	_
+4	beteyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	beshreybung	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	fun	_	ADP	P	_	9	case	_	_
+8	unzr	_	PRON	PRO$	_	9	det:poss	_	_
+9	velt	_	NOUN	N	_	6	obl	_	_
+10	oyf	_	ADP	P	_	11	case	_	_
+11	velkhi	_	PRON	WPRO	_	14	obl	_	_
+12	%t%-1	_	ADP	PP	_	14	obl	_	_
+13	mir	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+14	vaunen	_	VERB	VBF	VerbForm=Fin	9	acl:relcl	_	_
+15	un	_	CCONJ	CONJ	_	18	cc	_	_
+16	fun	_	ADP	P	_	18	case	_	_
+17	ihr	_	PRON	PRO$	_	18	det:poss	_	_
+18	tsu_teylung	_	NOUN	N	_	9	conj	_	_
+19	oyf	_	ADP	P	_	21	case	_	_
+20	ali	_	DET	Q	_	21	det	_	_
+21	khlkim	_	NOUN	N	_	18	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.4
+# X_ID = 1818E-GEOGRAFIE,3.7
+# text = di gistalt fun dr gantsir erd mit ali vaserin tsu_zamin iz entfr rund keylekhdik udr in gistalt der_fun
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	gistalt	_	NOUN	N-NOM	Case=Nom	11	nsubj	_	_
+3	fun	_	ADP	P	_	6	case	_	_
+4	dr	_	DET	D	PronType=Art	6	det	_	_
+5	gantsir	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	erd	_	NOUN	N	_	2	obl	_	_
+7	mit	_	ADP	P	_	9	case	_	_
+8	ali	_	DET	Q	_	9	det	_	_
+9	vaserin	_	NOUN	N	_	6	obl	_	_
+10	tsu_zamin	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+11	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+12	entfr	_	CCONJ	CONJ	_	13	amod	_	_
+13	rund	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+14	keylekhdik	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+15	udr	_	CCONJ	CONJ	_	17	cc	_	_
+16	in	_	ADP	P	_	17	case	_	_
+17	gistalt	_	NOUN	N	_	13	amod	_	_
+18	der_fun	_	ADP	P	_	17	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.5
+# X_ID = 1818E-GEOGRAFIE,3.8
+# text = un deribr rufin mir di gantsi velt kdur harts erd_kugl kulia zemmey
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	deribr	_	ADP	P	_	3	obl	_	_
+3	rufin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	mir	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+6	gantsi	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	velt	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+8	kdur	UNKNOWN	X	H	_	10	dep	_	_
+9	harts	the_land	X	H	_	10	dep	_	_
+10	erd_kugl	_	NOUN	N	_	3	xcomp	_	_
+11	kulia	_	X	FW	Foreign=Yes	10	appos	_	_
+12	zemmey	_	X	FW	Foreign=Yes	11	flat:foreign	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.6
+# X_ID = 1818E-GEOGRAFIE,3.9
+# text = di erd fun unzr velt hat oyf zikh mer vasir vi erd bald tsvey mal za fil
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	erd	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+3	fun	_	ADP	P	_	5	case	_	_
+4	unzr	_	PRON	PRO$	_	5	det:poss	_	_
+5	velt	_	NOUN	N	_	2	obl	_	_
+6	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	oyf	_	ADP	P	_	8	case	_	_
+8	zikh	_	PRON	PRO	_	6	obl	_	_
+9	mer	_	DET	QR	_	6	dep	_	_
+10	vasir	_	NOUN	N	_	9	conj	_	_
+11	vi	_	ADP	P	_	12	case	_	_
+12	erd	_	NOUN	N	_	9	obl	_	_
+13	bald	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+14	tsvey	_	NUM	NUM	_	16	obl	_	_
+15	mal	_	NOUN	N	_	14	conj	_	_
+16	za	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+17	fil	_	DET	Q	_	16	det	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.7
+# X_ID = 1818E-GEOGRAFIE,3.10
+# text = vau %t%-1 es iz trukin ruft men ibsh
+1	vau	_	ADV	WADV	Degree=Pos	4	advmod	_	_
+2	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	4	advmod	_	_
+3	es	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	6	dep	_	_
+5	trukin	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+6	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	men	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+8	ibsh	_	NOUN	N	_	6	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.8
+# X_ID = 1818E-GEOGRAFIE,3.11
+# text = un vau %t%-1 vaser %ellps% ruft men iaim nhrut imurim mehr teykhin com:russian_omitted
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	vau	_	ADV	WADV	Degree=Pos	5	advmod	_	_
+3	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	5	advmod	_	_
+4	vaser	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+5	%ellps%	_	VERB	VB	VerbForm=Inf	6	dep	_	_
+6	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	men	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+8	iaim	UNKNOWN	X	H	_	11	dep	_	_
+9	nhrut	UNKNOWN	X	H	_	11	dep	_	_
+10	imurim	UNKNOWN	X	H	_	11	dep	_	_
+11	mehr	_	NOUN	N	_	6	xcomp	_	_
+12	teykhin	_	NOUN	N	_	11	conj	_	_
+13	com:russian_omitted	_	NOUN	NP-PRN	_	11	appos	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.9
+# X_ID = 1818E-GEOGRAFIE,3.12
+# text = di vas %t%-1 shreybin unz yeagrafeye veyzin unz oyf den papir zelkhi grusi land_kartin vas es iz deroyf di velt in_gantsin un oykh va %t%-3 es iz ibsh un va %t%-5 vaser
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	7	nsubj	_	_
+2	vas	_	SCONJ	C	_	4	mark	_	_
+3	%t%-1	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+4	shreybin	_	VERB	VBF	VerbForm=Fin	1	acl:relcl	_	_
+5	unz	_	PRON	PRO-DTV	Case=Dat	4	iobj	_	_
+6	yeagrafeye	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	veyzin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	unz	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+9	oyf	_	ADP	P	_	11	case	_	_
+10	den	_	DET	D	PronType=Art	11	det	_	_
+11	papir	_	NOUN	N-D	Definite=Def	7	obl	_	_
+12	zelkhi	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	14	amod	_	_
+13	grusi	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	14	amod	_	_
+14	land_kartin	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+15	vas	_	SCONJ	C	_	17	mark	_	_
+16	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	17	expl	_	_
+17	iz	_	VERB	VBF	VerbForm=Fin	14	acl:relcl	_	_
+18	deroyf	_	ADP	P	_	17	obl	_	_
+19	di	_	DET	D-NOM	Case=Nom|PronType=Art	20	det	_	_
+20	velt	_	NOUN	N-NOM	Case=Nom	17	nsubj	_	_
+21	in_gantsin	_	ADV	ADV	Degree=Pos	20	advmod	_	_
+22	un	_	CCONJ	CONJ	_	27	cc	_	_
+23	oykh	_	ADV	ADV	Degree=Pos	27	advmod	_	_
+24	va	_	ADV	WADV	Degree=Pos	27	advmod	_	_
+25	%t%-3	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	27	advmod	_	_
+26	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	27	expl	_	_
+27	iz	_	VERB	VBF	VerbForm=Fin	20	conj	_	_
+28	ibsh	_	NOUN	N-NOM	Case=Nom	27	nsubj	_	_
+29	un	_	CCONJ	CONJ	_	27	conj	_	_
+30	va	_	ADV	WADV	Degree=Pos	27	advmod	_	_
+31	%t%-5	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	27	advmod	_	_
+32	vaser	_	NOUN	N	_	27	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.10
+# X_ID = 1818E-GEOGRAFIE,3.13
+# text = zey veyzin oykh abr kleyne mapes oyf velkhi %t%-1 nisht mer %ich%-3 %ich%-4 %t%-2 tsu zehn iz eyn khlk fun dr velt eyn grusin udr eyn kleynem udr nisht mer az eyn mdinh
+1	zey	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	veyzin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	abr	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+5	kleyne	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	mapes	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	oyf	_	ADP	P	_	8	case	_	_
+8	velkhi	_	PRON	WPRO	_	17	obl	_	_
+9	%t%-1	_	ADP	PP	_	17	obl	_	_
+10	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	11	advmod	_	_
+11	mer	_	DET	QR	_	17	nsubj	_	_
+12	%ich%-3	_	ADP	PP	_	11	obl	_	_
+13	%ich%-4	_	SCONJ	CONJP	_	11	conj	_	_
+14	%t%-2	_	NOUN	NP-ACC	_	16	dep	_	_
+15	tsu	_	PART	TO	_	16	mark	_	_
+16	zehn	_	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+17	iz	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+18	eyn	_	DET	D	PronType=Art	19	det	_	_
+19	khlk	_	NOUN	N-I	Definite=Ind	17	obl	_	_
+20	fun	_	ADP	P	_	22	case	_	_
+21	dr	_	DET	D	PronType=Art	22	det	_	_
+22	velt	_	NOUN	N-D	Definite=Def	19	obl	_	_
+23	eyn	_	DET	D	PronType=Art	24	det	_	_
+24	grusin	_	ADJ	ADJ	Degree=Pos	19	appos	_	_
+25	udr	_	CCONJ	CONJ	_	27	cc	_	_
+26	eyn	_	DET	D	PronType=Art	27	det	_	_
+27	kleynem	_	ADJ	ADJ	Degree=Pos	24	conj	_	_
+28	udr	_	CCONJ	CONJ	_	30	cc	_	_
+29	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	30	advmod	_	_
+30	mer	_	DET	QR	_	17	conj	_	_
+31	az	_	ADP	P	_	33	case	_	_
+32	eyn	_	DET	D	PronType=Art	33	det	_	_
+33	mdinh	_	NOUN	N-I	Definite=Ind	30	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.11
+# X_ID = 1818E-GEOGRAFIE,3.14
+# text = di land_kartin veyzt unz gleykh vi di velt iz flakh plaske
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	land_kartin	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	veyzt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	unz	_	PRON	PRO-DTV	Case=Dat	3	iobj	_	_
+5	gleykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+6	vi	_	SCONJ	C	_	9	mark	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	velt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+9	iz	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+10	flakh	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+11	plaske	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.12
+# X_ID = 1818E-GEOGRAFIE,3.15
+# text = abr dr ems iz er keylekhdik
+1	abr	_	CCONJ	CONJ	_	4	cc	_	_
+2	dr	_	DET	D	PronType=Art	3	det	_	_
+3	ems	_	NOUN	N-D	Definite=Def	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	keylekhdik	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.13
+# X_ID = 1818E-GEOGRAFIE,3.16
+# text = oyf ali land_kartin iz men akhtung gebin oyf dia fir zeytin az ven du leygst es fr zikh oyf den tish iz in dr rekhti hand mzrkh
+1	oyf	_	ADP	P	_	3	case	_	_
+2	ali	_	DET	Q	_	3	det	_	_
+3	land_kartin	_	NOUN	N	_	7	obl	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+5	men	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+6	akhtung	_	ADP	RP-N	_	7	compound:prt	_	_
+7	gebin	_	VERB	VAG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	oyf	_	ADP	P	_	10	case	_	_
+9	dia	_	DET	D	PronType=Art	10	det	_	_
+10	fir	_	NUM	NUM	_	7	obl	_	_
+11	zeytin	_	NOUN	N	_	10	conj	_	_
+12	az	_	SCONJ	C	_	22	mark	_	_
+13	ven	_	SCONJ	C	_	12	fixed	_	_
+14	du	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+15	leygst	_	VERB	VBF	VerbForm=Fin	22	advcl	_	_
+16	es	_	PRON	PRO-ACC	Case=Acc	15	obj	_	_
+17	fr	_	ADP	P	_	18	case	_	_
+18	zikh	_	PRON	PRO	_	15	obl	_	_
+19	oyf	_	ADP	P	_	21	case	_	_
+20	den	_	DET	D	PronType=Art	21	det	_	_
+21	tish	_	NOUN	N-D	Definite=Def	15	obl	_	_
+22	iz	_	VERB	VBF	VerbForm=Fin	7	advcl	_	_
+23	in	_	ADP	P	_	26	case	_	_
+24	dr	_	DET	D	PronType=Art	26	det	_	_
+25	rekhti	_	ADJ	ADJ	Degree=Pos	26	amod	_	_
+26	hand	_	NOUN	N-D	Definite=Def	22	obl	_	_
+27	mzrkh	east	X	H	_	22	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.14
+# X_ID = 1818E-GEOGRAFIE,3.17
+# text = in dr linkn iz merib
+1	in	_	ADP	P	_	3	case	_	_
+2	dr	_	DET	D	PronType=Art	3	det	_	_
+3	linkn	_	NOUN	N-D	Definite=Def	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	merib	west	X	H	_	4	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.15
+# X_ID = 1818E-GEOGRAFIE,3.18
+# text = ubin iz tsfun
+1	ubin	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	tsfun	north	X	H	_	2	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.16
+# X_ID = 1818E-GEOGRAFIE,3.19
+# text = un untin iz drum
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	untin	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	drum	south	X	H	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.17
+# X_ID = 1818E-GEOGRAFIE,4.21
+# text = im aukinum otseyan vert girufin das grusi mehr vas %t%-1 ringelt arum di gantsi velt
+1	im	_	NOUN	N	_	5	xcomp	_	_
+2	aukinum	_	NOUN	N	_	1	conj	_	_
+3	otseyan	_	NOUN	N	_	1	conj	_	_
+4	vert	_	AUX	RDF	VerbForm=Fin	5	aux	_	_
+5	girufin	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+6	das	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+7	grusi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	8	amod	_	_
+8	mehr	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+9	vas	_	SCONJ	C	_	11	mark	_	_
+10	%t%-1	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+11	ringelt	_	VERB	VBF	VerbForm=Fin	8	acl:relcl	_	_
+12	arum	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+13	di	_	DET	D-ACC	Case=Acc|PronType=Art	15	det	_	_
+14	gantsi	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	15	amod	_	_
+15	velt	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	11	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.18
+# X_ID = 1818E-GEOGRAFIE,4.22
+# text = er hat abr ukh nukh fil andere nemin
+1	er	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	abr	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	ukh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+5	nukh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+6	fil	_	DET	Q-ACC	Case=Acc	8	det	_	_
+7	andere	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	nemin	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.19
+# X_ID = 1818E-GEOGRAFIE,4.23
+# text = un bey velkhi mdinh %t%-1 er ligt ruft men im nakh dr mdinh nakh
+1	un	_	CCONJ	CONJ	_	8	cc	_	_
+2	bey	_	ADP	P	_	3	case	_	_
+3	velkhi	_	DET	WD	_	7	obl	_	_
+4	mdinh	_	NOUN	N	_	3	dep	_	_
+5	%t%-1	_	ADP	PP	_	7	obl	_	_
+6	er	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	ligt	_	VERB	VBF	VerbForm=Fin	8	obl	_	_
+8	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	men	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+10	im	_	PRON	PRO-ACC	Case=Acc	8	obj	_	_
+11	nakh	_	ADP	P-DBL	_	13	case	_	_
+12	dr	_	DET	D	PronType=Art	13	det	_	_
+13	mdinh	_	NOUN	N-D	Definite=Def	8	obl	_	_
+14	nakh	_	ADP	P	_	13	case	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.20
+# X_ID = 1818E-GEOGRAFIE,4.24
+# text = un gants veyt fun dr ibsh ruft men im dr stilir iam aukinum
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	gants	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+3	veyt	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	dr	_	DET	D	PronType=Art	6	det	_	_
+6	ibsh	_	NOUN	N-D	Definite=Def	2	obl	_	_
+7	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	men	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+9	im	_	PRON	PRO-ACC	Case=Acc	7	obj	_	_
+10	dr	_	DET	D	PronType=Art	11	det	_	_
+11	stilir	_	PROPN	NPR	_	7	xcomp	_	_
+12	iam	_	PROPN	NPR	_	11	flat:name	_	_
+13	aukinum	_	NOUN	N	_	11	appos	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.21
+# X_ID = 1818E-GEOGRAFIE,4.25
+# text = oykh ruft men im im hkrkh eyz_mer im khlbn das veysi mer un akh fil andere nemn
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	men	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	im	_	PRON	PRO-ACC	Case=Acc	2	obj	_	_
+5	im	sea	X	H	_	7	dep	_	_
+6	hkrkh	UNKNOWN	X	H	_	7	dep	_	_
+7	eyz_mer	_	NOUN	N	_	2	xcomp	_	_
+8	im	sea	X	H	_	12	dep	_	_
+9	khlbn	UNKNOWN	X	H	_	12	dep	_	_
+10	das	_	DET	D	PronType=Art	12	det	_	_
+11	veysi	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	mer	_	NOUN	N-D	Definite=Def	7	conj	_	_
+13	un	_	CCONJ	CONJ	_	17	cc	_	_
+14	akh	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+15	fil	_	DET	Q	_	17	det	_	_
+16	andere	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	nemn	_	NOUN	N	_	7	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.22
+# X_ID = 1818E-GEOGRAFIE,4.26
+# text = imim verin girufn anderi grusi vaserin vas %t%-1 zeynin gizaltsin zua vi das mitlendeshi mehr im htikun baltikeyse mer im baltike teytshi mehr im gramaneya un nukh anderi
+1	imim	_	NOUN	N	_	3	xcomp	_	_
+2	verin	_	AUX	RDF	VerbForm=Fin	3	aux	_	_
+3	girufn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+4	anderi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+5	grusi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+6	vaserin	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+7	vas	_	SCONJ	C	_	9	mark	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+9	zeynin	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+10	gizaltsin	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+11	zua	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+12	vi	_	ADP	P	_	15	case	_	_
+13	das	_	DET	D	PronType=Art	15	det	_	_
+14	mitlendeshi	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	mehr	_	NOUN	N	_	11	obl	_	_
+16	im	sea	X	H	_	15	appos	_	_
+17	htikun	UNKNOWN	X	H	_	16	dep	_	_
+18	baltikeyse	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+19	mer	_	NOUN	N	_	15	conj	_	_
+20	im	sea	X	H	_	21	dep	_	_
+21	baltike	_	PROPN	NPR	_	19	appos	_	_
+22	teytshi	_	ADJ	ADJ	Degree=Pos	23	amod	_	_
+23	mehr	_	NOUN	N	_	15	conj	_	_
+24	im	sea	X	H	_	25	dep	_	_
+25	gramaneya	_	PROPN	NPR	_	23	appos	_	_
+26	un	_	CCONJ	CONJ	_	27	cc	_	_
+27	nukh	_	ADV	ADV	Degree=Pos	15	conj	_	_
+28	anderi	_	ADJ	ADJ	Degree=Pos	27	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.23
+# X_ID = 1818E-GEOGRAFIE,4.27
+# text = yaurim aueres ruft men kleneri vaserin velkhi %t%-1 zeynn tsu huf giklibin mit zise vaser
+1	yaurim	UNKNOWN	X	H	_	3	dep	_	_
+2	aueres	UNKNOWN	X	H	_	1	dep	_	_
+3	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	men	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	kleneri	_	ADJ	ADJR-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	vaserin	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+7	velkhi	_	PRON	WPRO	_	12	obj	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+9	zeynn	_	AUX	BEF	VerbForm=Fin	12	cop	_	_
+10	tsu	_	ADP	P	_	11	case	_	_
+11	huf	_	NOUN	N	_	12	obl	_	_
+12	giklibin	_	VERB	VAN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+13	mit	_	ADP	P	_	15	case	_	_
+14	zise	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	vaser	_	NOUN	N	_	12	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.24
+# X_ID = 1818E-GEOGRAFIE,4.28
+# text = un das ruft men yezare
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	das	_	DET	D-ACC	Case=Acc|PronType=Art	3	obj	_	_
+3	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	men	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	yezare	_	NOUN	N	_	3	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.25
+# X_ID = 1818E-GEOGRAFIE,4.29
+# text = ven eyn azere hat abr in zikh gizaltsene un bitere vasir ruft men es ykh im
+1	ven	_	SCONJ	C	_	4	mark	_	_
+2	eyn	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	azere	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	4	nsubj	_	_
+4	hat	_	VERB	VBF	VerbForm=Fin	12	advcl	_	_
+5	abr	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	zikh	_	PRON	PRO	_	4	obl	_	_
+8	gizaltsene	_	ADJ	ADJ	Degree=Pos	4	dep	_	_
+9	un	_	CCONJ	CONJ	_	8	amod	_	_
+10	bitere	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+11	vasir	_	NOUN	N	_	8	conj	_	_
+12	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+13	men	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+14	es	_	PRON	PRO-ACC	Case=Acc	12	obj	_	_
+15	ykh	UNKNOWN	X	H	_	12	xcomp	_	_
+16	im	sea	X	H	_	15	dep	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.26
+# X_ID = 1818E-GEOGRAFIE,4.30
+# text = un deriber ruft men di gruse kaspishe azere im veyl zi iz gizaltsin un %con% iz bey mdinh kspi
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	deriber	_	ADP	P	_	3	obl	_	_
+3	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	men	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+6	gruse	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+7	kaspishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	azere	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+9	im	_	NOUN	N	_	3	xcomp	_	_
+10	veyl	_	SCONJ	C	_	12	mark	_	_
+11	zi	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+12	iz	_	VERB	VBF	VerbForm=Fin	3	advcl	_	_
+13	gizaltsin	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+14	un	_	CCONJ	CONJ	_	16	cc	_	_
+15	%con%	_	NOUN	NP-SBJ	_	16	nsubj	_	_
+16	iz	_	VERB	VBF	VerbForm=Fin	12	conj	_	_
+17	bey	_	ADP	P	_	18	case	_	_
+18	mdinh	_	NOUN	N	_	16	obl	_	_
+19	kspi	_	PROPN	NPR	_	18	dep	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.27
+# X_ID = 1818E-GEOGRAFIE,4.31
+# text = brikh him eynge_mehr tseyasgina marski ruft men zu eyn urt va %t%-1 der im iz zeyer gikvetst tsu_vishin tsvey ibsut un %t%-1 %con% geyt nit breyt
+1	brikh	UNKNOWN	X	H	_	3	dep	_	_
+2	him	the_sea	X	H	_	3	dep	_	_
+3	eynge_mehr	_	NOUN	N	_	6	xcomp	_	_
+4	tseyasgina	_	X	FW	Foreign=Yes	3	appos	_	_
+5	marski	_	X	FW	Foreign=Yes	4	flat:foreign	_	_
+6	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	men	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+8	zu	_	ADV	ADV	Degree=Pos	6	dep	_	_
+9	eyn	_	DET	D	PronType=Art	8	det	_	_
+10	urt	_	NOUN	N-I	Definite=Ind	8	conj	_	_
+11	va	_	ADV	WADV	Degree=Pos	17	advmod	_	_
+12	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	17	advmod	_	_
+13	der	_	DET	D-NOM	Case=Nom|PronType=Art	14	det	_	_
+14	im	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	17	nsubj	_	_
+15	iz	_	AUX	BEF	VerbForm=Fin	17	cop	_	_
+16	zeyer	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+17	gikvetst	_	VERB	VAN	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+18	tsu_vishin	_	ADP	P	_	19	case	_	_
+19	tsvey	_	NUM	NUM	_	17	obl	_	_
+20	ibsut	_	NOUN	N	_	19	conj	_	_
+21	un	_	CCONJ	CONJ	_	24	cc	_	_
+22	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	24	advmod	_	_
+23	%con%	_	NOUN	NP-SBJ	_	24	nsubj	_	_
+24	geyt	_	VERB	VBF	VerbForm=Fin	17	conj	_	_
+25	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	24	advmod	_	_
+26	breyt	_	ADV	ADV	Degree=Pos	24	advmod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.28
+# X_ID = 1818E-GEOGRAFIE,4.32
+# text = un in beyde zeytin beheft er tsvey breyte imim zu vi %t%-1 das eynge mehr kalez iz mfsik tsu_veysin frnkreykh un england
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	in	_	ADP	P	_	4	case	_	_
+3	beyde	_	DET	Q	_	4	det	_	_
+4	zeytin	_	NOUN	N	_	5	obl	_	_
+5	beheft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+7	tsvey	_	NUM	NUM-ACC	Case=Acc	9	nummod	_	_
+8	breyte	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	9	amod	_	_
+9	imim	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+10	zu	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+11	vi	_	ADV	WADV	Degree=Pos	17	advmod	_	_
+12	%t%-1	_	ADV	ADVP	Degree=Pos	17	advmod	_	_
+13	das	_	DET	D-NOM	Case=Nom|PronType=Art	15	det	_	_
+14	eynge	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	15	amod	_	_
+15	mehr	_	NOUN	N-NOM	Case=Nom	17	nsubj	_	_
+16	kalez	_	PROPN	NPR-D	_	15	dep	_	_
+17	iz	_	VERB	VBF	VerbForm=Fin	10	advcl	_	_
+18	mfsik	_	ADP	RP-H	_	17	compound:prt	_	_
+19	tsu_veysin	_	ADP	P	_	20	case	_	_
+20	frnkreykh	_	PROPN	NPR	_	17	obl	_	_
+21	un	_	CCONJ	CONJ	_	22	cc	_	_
+22	england	_	PROPN	NPR	_	20	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.29
+# X_ID = 1818E-GEOGRAFIE,4.33
+# text = dardanel iz bey kanstantinapl
+1	dardanel	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	bey	_	ADP	P	_	4	case	_	_
+4	kanstantinapl	_	PROPN	NPR	_	2	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.30
+# X_ID = 1818E-GEOGRAFIE,4.34
+# text = gibarlater iz mpsik tsvishn spneya un afrike
+1	gibarlater	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	mpsik	_	ADP	RP-H	_	2	compound:prt	_	_
+4	tsvishn	_	ADP	P	_	5	case	_	_
+5	spneya	_	PROPN	NPR	_	2	obl	_	_
+6	un	_	CCONJ	CONJ	_	7	cc	_	_
+7	afrike	_	PROPN	NPR	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.31
+# X_ID = 1818E-GEOGRAFIE,4.35
+# text = un dr zund iz mfsik tsu_vishin sveydin un deni_mark
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	dr	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	zund	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	mfsik	_	ADP	RP-H	_	4	compound:prt	_	_
+6	tsu_vishin	_	ADP	P	_	7	case	_	_
+7	sveydin	_	PROPN	NPR	_	4	obl	_	_
+8	un	_	CCONJ	CONJ	_	9	cc	_	_
+9	deni_mark	_	PROPN	NPR	_	7	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.32
+# X_ID = 1818E-GEOGRAFIE,4.36
+# text = un mitsileyen iz mfsik tsu_visin misileya un neapal
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	mitsileyen	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	mfsik	_	ADP	RP-H	_	3	compound:prt	_	_
+5	tsu_visin	_	ADP	P	_	6	case	_	_
+6	misileya	_	PROPN	NPR	_	3	obl	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	neapal	_	PROPN	NPR	_	6	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.33
+# X_ID = 1818E-GEOGRAFIE,4.37
+# text = lsun his mehr_buzen ruft men zu eyn urt va %t%-1 der im rukt zikh areyn %ich%-2 eyn grusi stik in dr ibsh
+1	lsun	UNKNOWN	X	H	_	3	dep	_	_
+2	his	UNKNOWN	X	H	_	3	dep	_	_
+3	mehr_buzen	_	NOUN	N	_	4	xcomp	_	_
+4	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	men	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	zu	_	ADV	ADV	Degree=Pos	4	dep	_	_
+7	eyn	_	DET	D	PronType=Art	6	det	_	_
+8	urt	_	NOUN	N-I	Definite=Ind	6	conj	_	_
+9	va	_	ADV	WADV	Degree=Pos	13	advmod	_	_
+10	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	13	advmod	_	_
+11	der	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+12	im	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	13	nsubj	_	_
+13	rukt	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+14	zikh	_	PRON	PRO-RFL	PronType=Reflex	13	expl:pv	_	_
+15	areyn	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+16	%ich%-2	_	ADP	PP	_	15	obl	_	_
+17	eyn	_	DET	D	PronType=Art	19	det	_	_
+18	grusi	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+19	stik	_	NOUN	N-I	Definite=Ind	13	obl	_	_
+20	in	_	ADP	P	_	22	case	_	_
+21	dr	_	DET	D	PronType=Art	22	det	_	_
+22	ibsh	_	NOUN	N-D	Definite=Def	13	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.34
+# X_ID = 1818E-GEOGRAFIE,5.39
+# text = nml him ruft men zu eyn urt va %t%-1 eyn kleyn stikl im gist zikh oys in dr ibsh vas derinin kanin zikh stelin grusi shifin un ukh akrentin tsu behaltin zikh fun vind udr fun anderi nutsin vegin
+1	nml	UNKNOWN	X	H	_	3	dep	_	_
+2	him	the_sea	X	H	_	1	dep	_	_
+3	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	men	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	zu	_	ADV	ADV	Degree=Pos	3	dep	_	_
+6	eyn	_	DET	D	PronType=Art	5	det	_	_
+7	urt	_	NOUN	N-I	Definite=Ind	5	conj	_	_
+8	va	_	ADV	WADV	Degree=Pos	14	advmod	_	_
+9	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	14	advmod	_	_
+10	eyn	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+11	kleyn	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	12	amod	_	_
+12	stikl	_	NOUN	N-NOM	Case=Nom	14	nsubj	_	_
+13	im	_	NOUN	N-NOM	Case=Nom	12	nmod:poss	_	_
+14	gist	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+15	zikh	_	PRON	PRO-RFL	PronType=Reflex	14	expl:pv	_	_
+16	oys	_	ADP	RP	_	14	compound:prt	_	_
+17	in	_	ADP	P	_	19	case	_	_
+18	dr	_	DET	D	PronType=Art	19	det	_	_
+19	ibsh	_	NOUN	N-D	Definite=Def	14	obl	_	_
+20	vas	_	SCONJ	C	_	24	mark	_	_
+21	derinin	_	ADV	ADV	Degree=Pos	24	advmod	_	_
+22	kanin	_	AUX	MDF	VerbForm=Fin	24	aux	_	_
+23	zikh	_	PRON	PRO-RFL	PronType=Reflex	24	expl:pv	_	_
+24	stelin	_	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+25	grusi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	26	amod	_	_
+26	shifin	_	NOUN	N-NOM	Case=Nom	24	nsubj	_	_
+27	un	_	CCONJ	CONJ	_	29	cc	_	_
+28	ukh	_	ADV	ADV	Degree=Pos	29	advmod	_	_
+29	akrentin	_	NOUN	N	_	26	conj	_	_
+30	tsu	_	PART	TO	_	31	advcl	_	_
+31	behaltin	_	VERB	VB	VerbForm=Inf	24	advcl	_	_
+32	zikh	_	PRON	PRO-RFL	PronType=Reflex	31	expl:pv	_	_
+33	fun	_	ADP	P	_	34	case	_	_
+34	vind	_	NOUN	N	_	31	obl	_	_
+35	udr	_	CCONJ	CONJ	_	38	cc	_	_
+36	fun	_	ADP	P	_	38	case	_	_
+37	anderi	_	ADJ	ADJ	Degree=Pos	38	amod	_	_
+38	nutsin	_	NOUN	N	_	31	advcl	_	_
+39	vegin	_	NOUN	N	_	38	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.35
+# X_ID = 1818E-GEOGRAFIE,5.40
+# text = im haeym arkhipelag iz eyn stik im vas %t%-1 iz gants gidikht mit inzlen grusi un kleyni un nahant eynh fun di anderi
+1	im	sea	X	H	_	3	dep	_	_
+2	haeym	UNKNOWN	X	H	_	3	dep	_	_
+3	arkhipelag	_	X	FW	Foreign=Yes	4	dep	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	eyn	_	DET	D	PronType=Art	6	det	_	_
+6	stik	_	NOUN	N-I	Definite=Ind	4	xcomp	_	_
+7	im	_	NOUN	N	_	6	nmod:poss	_	_
+8	vas	_	SCONJ	C	_	10	mark	_	_
+9	%t%-1	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+10	iz	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+11	gants	_	ADV	ADV	Degree=Pos	12	amod	_	_
+12	gidikht	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+13	mit	_	ADP	P	_	14	case	_	_
+14	inzlen	_	NOUN	N	_	12	amod	_	_
+15	grusi	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+16	un	_	CCONJ	CONJ	_	17	cc	_	_
+17	kleyni	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+18	un	_	CCONJ	CONJ	_	20	cc	_	_
+19	nahant	_	ADV	ADV	Degree=Pos	20	advmod	_	_
+20	eynh	_	PRON	PRO-NOM	Case=Nom	15	amod	_	_
+21	fun	_	ADP	P	_	23	case	_	_
+22	di	_	DET	D	PronType=Art	23	det	_	_
+23	anderi	_	ADJ	ADJ	Degree=Pos	20	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.36
+# X_ID = 1818E-GEOGRAFIE,5.41
+# text = nhr vert girufin eyn lufidige vasr vas %t%-1 geyt ir veg vi in eyn karite
+1	nhr	_	NOUN	N	_	3	xcomp	_	_
+2	vert	_	AUX	RDF	VerbForm=Fin	3	aux	_	_
+3	girufin	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+4	eyn	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+5	lufidige	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+6	vasr	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+7	vas	_	SCONJ	C	_	9	mark	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+9	geyt	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+10	ir	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	11	det:poss	_	_
+11	veg	_	NOUN	N	_	9	obj	_	_
+12	vi	_	ADP	P	_	15	case	_	_
+13	in	_	ADP	P	_	15	case	_	_
+14	eyn	_	DET	D	PronType=Art	15	det	_	_
+15	karite	_	NOUN	N-I	Definite=Ind	9	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.37
+# X_ID = 1818E-GEOGRAFIE,5.42
+# text = meeyn vert girufin das urt fun vanin %t%-1 di teykhin heybin zikh an %ich%-2 tsu tsihen
+1	meeyn	_	NOUN	N	_	3	xcomp	_	_
+2	vert	_	AUX	RDF	VerbForm=Fin	3	aux	_	_
+3	girufin	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+4	das	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	urt	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	vanin	_	ADV	WADV	Degree=Pos	11	obl	_	_
+8	%t%-1	_	ADP	PP	_	11	obl	_	_
+9	di	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+10	teykhin	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	11	nsubj	_	_
+11	heybin	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+12	zikh	_	PRON	PRO	_	11	obl	_	_
+13	an	_	ADP	RP	_	11	compound:prt	_	_
+14	%ich%-2	_	NOUN	NP-RFL	_	16	expl:pv	_	_
+15	tsu	_	PART	TO	_	16	mark	_	_
+16	tsihen	_	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.38
+# X_ID = 1818E-GEOGRAFIE,5.43
+# text = un ali teykhin heybin zikh an %ich%-2 tsu tsihen fun untr eyn barg
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	ali	_	DET	Q-NOM	Case=Nom	3	det	_	_
+3	teykhin	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+4	heybin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zikh	_	PRON	PRO	_	4	obl	_	_
+6	an	_	ADP	RP	_	4	compound:prt	_	_
+7	%ich%-2	_	NOUN	NP-RFL	_	9	expl:pv	_	_
+8	tsu	_	PART	TO	_	9	mark	_	_
+9	tsihen	_	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+10	fun	_	ADP	P	_	13	case	_	_
+11	untr	_	ADP	P	_	13	case	_	_
+12	eyn	_	DET	D	PronType=Art	13	det	_	_
+13	barg	_	NOUN	N-I	Definite=Ind	9	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.39
+# X_ID = 1818E-GEOGRAFIE,5.44
+# text = das us_laz fun di teykhin va %t%-1 zey falin areyn in eyn greseri teykh udr in im areyn ruft men es den tuer
+1	das	_	DET	D	PronType=Art	2	det	_	_
+2	us_laz	_	NOUN	N-D	Definite=Def	19	obl	_	_
+3	fun	_	ADP	P	_	5	case	_	_
+4	di	_	DET	D	PronType=Art	5	det	_	_
+5	teykhin	_	NOUN	N-D	Definite=Def	2	obl	_	_
+6	va	_	ADV	WADV	Degree=Pos	9	advmod	_	_
+7	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	9	advmod	_	_
+8	zey	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+9	falin	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+10	areyn	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+11	in	_	ADP	P	_	14	case	_	_
+12	eyn	_	DET	D	PronType=Art	14	det	_	_
+13	greseri	_	ADJ	ADJR	Degree=Pos	14	amod	_	_
+14	teykh	_	NOUN	N-I	Definite=Ind	10	obl	_	_
+15	udr	_	CCONJ	CONJ	_	18	cc	_	_
+16	in	_	ADP	P	_	17	case	_	_
+17	im	_	NOUN	N	_	18	obl	_	_
+18	areyn	_	ADV	ADV	Degree=Pos	10	conj	_	_
+19	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+20	men	_	PRON	PRO-NOM	Case=Nom	19	nsubj	_	_
+21	es	_	PRON	PRO-ACC	Case=Acc	19	obj	_	_
+22	den	_	DET	D	PronType=Art	23	det	_	_
+23	tuer	_	NOUN	N-D	Definite=Def	19	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.40
+# X_ID = 1818E-GEOGRAFIE,5.45
+# text = un ali vaserin %ich%-1 kumen in im areyn us_ginumin eyn teykh velkhir %t%-2 iz in afrike in mdint nigriley
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	ali	_	DET	Q-NOM	Case=Nom	3	det	_	_
+3	vaserin	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+4	%ich%-1	_	ADP	PP	_	3	obl	_	_
+5	kumen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	im	_	NOUN	N	_	8	obl	_	_
+8	areyn	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+9	us_ginumin	_	ADP	P	_	11	case	_	_
+10	eyn	_	DET	D	PronType=Art	11	det	_	_
+11	teykh	_	NOUN	N-I	Definite=Ind	5	obl	_	_
+12	velkhir	_	PRON	WPRO	_	14	obj	_	_
+13	%t%-2	_	NOUN	NP-SBJ	_	14	nsubj	_	_
+14	iz	_	VERB	VBF	VerbForm=Fin	11	acl:relcl	_	_
+15	in	_	ADP	P	_	16	case	_	_
+16	afrike	_	PROPN	NPR	_	14	obl	_	_
+17	in	_	ADP	P	_	18	case	_	_
+18	mdint	_	NOUN	N	_	16	obl	_	_
+19	nigriley	_	PROPN	NPR	_	18	dep	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.41
+# X_ID = 1818E-GEOGRAFIE,5.46
+# text = der nar vart fr_falin in dr mdbr in grusi zend
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	7	nsubj	_	_
+2	nar	_	ADV	FP	Degree=Pos	1	advmod	_	_
+3	vart	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+4	fr_falin	_	VERB	VX	_	7	dep	_	_
+5	in	_	ADP	P	_	7	case	_	_
+6	dr	_	DET	D	PronType=Art	7	det	_	_
+7	mdbr	_	NOUN	N-D	Definite=Def	0	root	_	_
+8	in	_	ADP	P	_	10	case	_	_
+9	grusi	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	zend	_	NOUN	N	_	7	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.42
+# X_ID = 1818E-GEOGRAFIE,5.47
+# text = es iz ukh faran oyf dr velt grabints kanalin velkhi %t%-1 tsihen zikh fun eyn teykh in dr anderi
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ukh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	faran	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+5	oyf	_	ADP	P	_	7	case	_	_
+6	dr	_	DET	D	PronType=Art	7	det	_	_
+7	velt	_	NOUN	N-D	Definite=Def	2	obl	_	_
+8	grabints	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+9	kanalin	_	NOUN	N-NOM	Case=Nom	8	appos	_	_
+10	velkhi	_	PRON	WPRO	_	12	obj	_	_
+11	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+12	tsihen	_	VERB	VBF	VerbForm=Fin	8	acl:relcl	_	_
+13	zikh	_	PRON	PRO-RFL	PronType=Reflex	12	expl:pv	_	_
+14	fun	_	ADP	P	_	16	case	_	_
+15	eyn	_	DET	D	PronType=Art	16	det	_	_
+16	teykh	_	NOUN	N-I	Definite=Ind	12	obl	_	_
+17	in	_	ADP	P	_	19	case	_	_
+18	dr	_	DET	D	PronType=Art	19	det	_	_
+19	anderi	_	ADJ	ADJ	Degree=Pos	12	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.43
+# X_ID = 1818E-GEOGRAFIE,5.48
+# text = abr das iz durkh mentshlikhi arbeyt gigrabin givarin
+1	abr	_	CCONJ	CONJ	_	7	cc	_	_
+2	das	_	DET	D-NOM	Case=Nom|PronType=Art	7	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+4	durkh	_	ADP	P	_	6	case	_	_
+5	mentshlikhi	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	arbeyt	_	NOUN	N	_	7	obl	_	_
+7	gigrabin	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+8	givarin	_	VERB	RDN	Tense=Past|VerbForm=Part	7	dep	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.44
+# X_ID = 1818E-GEOGRAFIE,5.49
+# text = arts ruft men zu eyn gruse stik land vas er iz nit ibrgirisin mit keyn im
+1	arts	_	NOUN	N	_	2	xcomp	_	_
+2	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	men	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	zu	_	ADV	ADV	Degree=Pos	2	dep	_	_
+5	eyn	_	DET	D	PronType=Art	4	det	_	_
+6	gruse	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+7	stik	_	NOUN	N	_	4	conj	_	_
+8	land	_	NOUN	N	_	4	nmod:poss	_	_
+9	vas	_	SCONJ	C	_	13	mark	_	_
+10	er	_	PRON	PRO	_	13	nsubj	_	_
+11	iz	_	AUX	BEF	VerbForm=Fin	13	cop	_	_
+12	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	13	advmod	_	_
+13	ibrgirisin	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+14	mit	_	ADP	P	_	16	case	_	_
+15	keyn	_	DET	Q-NEG	Polarity=Neg	16	det	_	_
+16	im	_	NOUN	N	_	13	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.45
+# X_ID = 1818E-GEOGRAFIE,5.50
+# text = inzel vispe ruft men zu eyn stik land velkhir %t%-1 fun ali zeytin mit im begasin iz in men kan im ibsh tsu im nit tsu kumin
+1	inzel	_	NOUN	N	_	3	xcomp	_	_
+2	vispe	_	X	FW	Foreign=Yes	1	appos	_	_
+3	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	men	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	zu	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+6	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	stik	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+8	land	_	NOUN	N-ACC	Case=Acc	7	nmod:poss	_	_
+9	velkhir	_	PRON	WPRO	_	16	obj	_	_
+10	%t%-1	_	NOUN	NP-SBJ	_	16	nsubj	_	_
+11	fun	_	ADP	P	_	13	case	_	_
+12	ali	_	DET	Q	_	13	det	_	_
+13	zeytin	_	NOUN	N	_	16	obl	_	_
+14	mit	_	ADP	P	_	15	case	_	_
+15	im	_	NOUN	N	_	16	obl	_	_
+16	begasin	_	VERB	VAN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+17	iz	_	AUX	BEF	VerbForm=Fin	16	cop	_	_
+18	in	_	CCONJ	CONJ	_	27	cc	_	_
+19	men	_	PRON	PRO-NOM	Case=Nom	27	nsubj	_	_
+20	kan	_	AUX	MDF	VerbForm=Fin	27	aux	_	_
+21	im	_	ADP	P-CL	_	22	case	_	_
+22	ibsh	_	NOUN	N	_	27	obl	_	_
+23	tsu	_	ADP	P	_	24	case	_	_
+24	im	_	PRON	PRO	_	27	obl	_	_
+25	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	27	advmod	_	_
+26	tsu	_	ADP	RP	_	27	compound:prt	_	_
+27	kumin	_	VERB	VB	VerbForm=Inf	16	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.46
+# X_ID = 1818E-GEOGRAFIE,5.51
+# text = khtsi khai halber inzel ruft men zu eyn stik land vas er iz mit vasir begasin un nist mer az mit eyn zeyt iz er tsu ibsh bheft un men kan nist mer az durkh dartin tsu kumin
+1	khtsi	half	X	H	_	4	dep	_	_
+2	khai	UNKNOWN	X	H	_	4	dep	_	_
+3	halber	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	inzel	_	NOUN	N	_	5	xcomp	_	_
+5	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	men	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+7	zu	_	ADV	ADV	Degree=Pos	5	dep	_	_
+8	eyn	_	DET	D	PronType=Art	7	det	_	_
+9	stik	_	NOUN	N-I	Definite=Ind	7	conj	_	_
+10	land	_	NOUN	N	_	7	nmod:poss	_	_
+11	vas	_	SCONJ	C	_	16	mark	_	_
+12	er	_	PRON	PRO	_	16	nsubj	_	_
+13	iz	_	AUX	BEF	VerbForm=Fin	16	cop	_	_
+14	mit	_	ADP	P	_	15	case	_	_
+15	vasir	_	NOUN	N	_	16	obl	_	_
+16	begasin	_	VERB	VAN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+17	un	_	CCONJ	CONJ	_	28	cc	_	_
+18	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	28	obl	_	_
+19	mer	_	DET	QR	_	18	det	_	_
+20	az	_	ADP	P	_	23	case	_	_
+21	mit	_	ADP	P	_	23	case	_	_
+22	eyn	_	DET	D	PronType=Art	23	det	_	_
+23	zeyt	_	NOUN	N-I	Definite=Ind	18	obl	_	_
+24	iz	_	AUX	BEF	VerbForm=Fin	28	cop	_	_
+25	er	_	PRON	PRO	_	28	nsubj	_	_
+26	tsu	_	ADP	P	_	27	case	_	_
+27	ibsh	_	NOUN	N	_	28	obl	_	_
+28	bheft	_	VERB	VAN	Tense=Past|VerbForm=Part	16	conj	_	_
+29	un	_	CCONJ	CONJ	_	38	cc	_	_
+30	men	_	PRON	PRO-NOM	Case=Nom	38	nsubj	_	_
+31	kan	_	AUX	MDF	VerbForm=Fin	38	aux	_	_
+32	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	36	advmod	_	_
+33	mer	_	DET	QR	_	32	det	_	_
+34	az	_	ADP	P	_	32	case	_	_
+35	durkh	_	ADP	P	_	36	case	_	_
+36	dartin	_	ADV	ADV	Degree=Pos	38	obl	_	_
+37	tsu	_	ADP	RP	_	38	compound:prt	_	_
+38	kumin	_	VERB	VB	VerbForm=Inf	16	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.47
+# X_ID = 1818E-GEOGRAFIE,6.53
+# text = brikh harts erd_eynge meyendi marze ruft men zu eyn langi stik erd velkhir %t%-1 zikh tsiht tsu_vishin tsvey imim
+1	brikh	UNKNOWN	X	H	_	3	dep	_	_
+2	harts	the_land	X	H	_	3	dep	_	_
+3	erd_eynge	_	NOUN	N	_	6	xcomp	_	_
+4	meyendi	_	X	FW	Foreign=Yes	3	appos	_	_
+5	marze	_	X	FW	Foreign=Yes	4	flat:foreign	_	_
+6	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	men	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+8	zu	_	ADV	ADV	Degree=Pos	6	dep	_	_
+9	eyn	_	DET	D	PronType=Art	8	det	_	_
+10	langi	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+11	stik	_	NOUN	N	_	8	conj	_	_
+12	erd	_	NOUN	N	_	8	nmod:poss	_	_
+13	velkhir	_	PRON	WPRO	_	16	obj	_	_
+14	%t%-1	_	NOUN	NP-SBJ	_	16	nsubj	_	_
+15	zikh	_	PRON	PRO-RFL	PronType=Reflex	16	expl:pv	_	_
+16	tsiht	_	VERB	VBF	VerbForm=Fin	8	acl:relcl	_	_
+17	tsu_vishin	_	ADP	P	_	18	case	_	_
+18	tsvey	_	NUM	NUM	_	16	obl	_	_
+19	imim	_	NOUN	N	_	18	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.48
+# X_ID = 1818E-GEOGRAFIE,6.54
+# text = un in di ekin iz er beheft tsu tsvey ibsut
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	in	_	ADP	P	_	4	case	_	_
+3	di	_	DET	D	PronType=Art	4	det	_	_
+4	ekin	_	NOUN	N-D	Definite=Def	7	obl	_	_
+5	iz	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+6	er	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	beheft	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+8	tsu	_	ADP	P	_	9	case	_	_
+9	tsvey	_	NUM	NUM	_	7	obl	_	_
+10	ibsut	_	NOUN	N	_	9	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.49
+# X_ID = 1818E-GEOGRAFIE,6.55
+# text = kap heyst eyn zeyr hukhir berg vas %t%-1 tsiht zikh fun ibsh in im areyn
+1	kap	_	NOUN	N	_	2	xcomp	_	_
+2	heyst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	eyn	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+4	zeyr	_	ADV	ADV	Degree=Pos	5	amod	_	_
+5	hukhir	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+6	berg	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+7	vas	_	SCONJ	C	_	9	mark	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+9	tsiht	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+10	zikh	_	PRON	PRO-RFL	PronType=Reflex	9	expl:pv	_	_
+11	fun	_	ADP	P	_	12	case	_	_
+12	ibsh	_	NOUN	N	_	9	obl	_	_
+13	in	_	ADP	P	_	14	case	_	_
+14	im	_	NOUN	N	_	15	obl	_	_
+15	areyn	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.50
+# X_ID = 1818E-GEOGRAFIE,6.56
+# text = afaka udr skale iz eyn barg vas %t%-1 iz ful steynr
+1	afaka	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+2	udr	_	CCONJ	CONJ	_	3	cc	_	_
+3	skale	_	NOUN	N-NOM	Case=Nom	1	conj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	eyn	_	DET	D	PronType=Art	6	det	_	_
+6	barg	_	NOUN	N-I	Definite=Ind	4	xcomp	_	_
+7	vas	_	SCONJ	C	_	9	mark	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+9	iz	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+10	ful	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+11	steynr	_	NOUN	N	_	10	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.51
+# X_ID = 1818E-GEOGRAFIE,6.57
+# text = khr iz eyn gants hukhir barg
+1	khr	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	eyn	_	DET	D	PronType=Art	6	det	_	_
+4	gants	_	ADV	ADV	Degree=Pos	6	amod	_	_
+5	hukhir	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+6	barg	_	NOUN	N	_	2	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.52
+# X_ID = 1818E-GEOGRAFIE,6.58
+# text = gbeh iz eyn klenerir barg
+1	gbeh	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	eyn	_	DET	D	PronType=Art	5	det	_	_
+4	klenerir	_	ADJ	ADJR	Degree=Pos	5	amod	_	_
+5	barg	_	NOUN	N-I	Definite=Ind	2	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.53
+# X_ID = 1818E-GEOGRAFIE,6.59
+# text = di erd habin mir eyn giteylt in tsveyen das heyst ibsh un imim
+1	di	_	DET	D-ACC	Case=Acc|PronType=Art	2	det	_	_
+2	erd	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	6	obj	_	_
+3	habin	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	mir	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+5	eyn	_	ADP	RP	_	6	compound:prt	_	_
+6	giteylt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	tsveyen	_	NUM	NUM	_	6	obl	_	_
+9	das	_	DET	D-NOM	Case=Nom|PronType=Art	10	nsubj	_	_
+10	heyst	_	VERB	VBF	VerbForm=Fin	8	parataxis	_	_
+11	ibsh	_	NOUN	N	_	8	appos	_	_
+12	un	_	CCONJ	CONJ	_	13	cc	_	_
+13	imim	_	NOUN	N	_	11	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.54
+# X_ID = 1818E-GEOGRAFIE,6.60
+# text = abr di ibsh iz eyn giteylt in 4 khlkim
+1	abr	_	CCONJ	CONJ	_	6	cc	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	ibsh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+5	eyn	_	ADP	RP	_	6	compound:prt	_	_
+6	giteylt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	4	_	NUM	NUM	_	6	obl	_	_
+9	khlkim	_	NOUN	N	_	8	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.55
+# X_ID = 1818E-GEOGRAFIE,6.61
+# text = un azu %ich%-1 heysin zey eaurape, azie afrike un di amerike mit al di vispes vas %t%-2 zeynen nahent bey zey
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	azu	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+3	%ich%-1	_	NOUN	NP-PRN	_	2	appos	_	_
+4	heysin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zey	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	eaurape	_	PROPN	NPR	_	4	appos	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	azie	_	PROPN	NPR	_	6	conj	_	_
+9	afrike	_	PROPN	NPR	_	6	conj	_	_
+10	un	_	CCONJ	CONJ	_	12	cc	_	_
+11	di	_	DET	D	PronType=Art	12	det	_	_
+12	amerike	_	PROPN	NPR-D	_	6	conj	_	_
+13	mit	_	ADP	P	_	16	case	_	_
+14	al	_	DET	Q	_	16	det	_	_
+15	di	_	DET	D	PronType=Art	16	det	_	_
+16	vispes	_	NOUN	N-D	Definite=Def	6	obl	_	_
+17	vas	_	SCONJ	C	_	19	mark	_	_
+18	%t%-2	_	NOUN	NP-SBJ	_	19	nsubj	_	_
+19	zeynen	_	VERB	VBF	VerbForm=Fin	16	acl:relcl	_	_
+20	nahent	_	ADV	ADV	Degree=Pos	19	advmod	_	_
+21	bey	_	ADP	P	_	22	case	_	_
+22	zey	_	PRON	PRO	_	20	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.56
+# X_ID = 1818E-GEOGRAFIE,6.62
+# text = anderi teylin es abr in finf khlkum eaurape, azie afrike, amerike un australazie uder polinezie
+1	anderi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	2	nsubj	_	_
+2	teylin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	es	_	PRON	PRO-ACC	Case=Acc	2	obj	_	_
+4	abr	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	finf	_	NUM	NUM	_	2	obl	_	_
+7	khlkum	_	NOUN	N	_	6	conj	_	_
+8	eaurape	_	PROPN	NPR	_	6	appos	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	8	punct	_	_
+10	azie	_	PROPN	NPR	_	8	conj	_	_
+11	afrike	_	PROPN	NPR	_	8	conj	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	8	punct	_	_
+13	amerike	_	PROPN	NPR	_	8	conj	_	_
+14	un	_	CCONJ	CONJ	_	15	cc	_	_
+15	australazie	_	PROPN	NPR	_	8	conj	_	_
+16	uder	_	CCONJ	CONJ	_	17	cc	_	_
+17	polinezie	_	PROPN	NPR	_	15	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.57
+# X_ID = 1818E-GEOGRAFIE,6.63
+# text = un in dem khlk rekhnt men es di inzlen di vas %t%-1 men veys fun lang an un ukh di neye_gifunene oyf dem indishin otsan in mzrkh un drum azie
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	in	_	ADP	P	_	4	case	_	_
+3	dem	_	DET	D	PronType=Art	4	det	_	_
+4	khlk	_	NOUN	N-D	Definite=Def	5	obl	_	_
+5	rekhnt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	men	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+7	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	5	expl	_	_
+8	di	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+9	inzlen	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+10	di	_	DET	D-ACC	Case=Acc|PronType=Art	9	appos	_	_
+11	vas	_	SCONJ	C	_	14	mark	_	_
+12	%t%-1	_	NOUN	NP-ACC	_	14	dep	_	_
+13	men	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+14	veys	_	VERB	VBF	VerbForm=Fin	10	acl:relcl	_	_
+15	fun	_	ADP	P	_	16	case	_	_
+16	lang	_	ADV	ADV	Degree=Pos	14	obl	_	_
+17	an	_	ADP	RP	_	16	compound:prt	_	_
+18	un	_	CCONJ	CONJ	_	21	cc	_	_
+19	ukh	_	ADV	ADV	Degree=Pos	21	advmod	_	_
+20	di	_	DET	D	PronType=Art	21	det	_	_
+21	neye_gifunene	_	ADJ	ADJ	Degree=Pos	10	conj	_	_
+22	oyf	_	ADP	P	_	25	case	_	_
+23	dem	_	DET	D	PronType=Art	25	det	_	_
+24	indishin	_	ADJ	ADJ	Degree=Pos	25	amod	_	_
+25	otsan	_	NOUN	N-D	Definite=Def	21	obl	_	_
+26	in	_	ADP	P	_	27	dep	_	_
+27	mzrkh	east	X	H	_	25	conj	_	_
+28	un	_	CCONJ	CONJ	_	30	cc	_	_
+29	drum	south	X	H	_	30	dep	_	_
+30	azie	_	PROPN	NPR	_	27	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.58
+# X_ID = 1818E-GEOGRAFIE,6.64
+# text = un deruntr iz di grusi inzln ney haland veyl zi iz greser fr eurape
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	deruntr	_	ADP	P	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+5	grusi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+6	inzln	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+7	ney	_	PROPN	NPR	_	6	appos	_	_
+8	haland	_	PROPN	NPR	_	7	flat:name	_	_
+9	veyl	_	SCONJ	C	_	11	mark	_	_
+10	zi	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+11	iz	_	VERB	VBF	VerbForm=Fin	3	advcl	_	_
+12	greser	_	ADJ	ADJR	Degree=Pos	11	amod	_	_
+13	fr	_	ADP	P	_	14	case	_	_
+14	eurape	_	NOUN	N	_	12	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.59
+# X_ID = 1818E-GEOGRAFIE,6.65
+# text = di tsvey khlkim zeynn nit fun eybig bekant
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	tsvey	_	NUM	NUM-NOM	Case=Nom	3	nummod	_	_
+3	khlkim	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	zeynn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	eybig	_	ADV	ADV	Degree=Pos	4	obl	_	_
+8	bekant	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.60
+# X_ID = 1818E-GEOGRAFIE,6.66
+# text = den men hat fun lang an nit mer %ich%-1 givst az di ersti drey khlkim das heyst eaurape azie afrike
+1	den	_	CCONJ	CONJ	_	10	cc	_	_
+2	men	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+3	hat	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+4	fun	_	ADP	P	_	5	case	_	_
+5	lang	_	ADV	ADV	Degree=Pos	10	obl	_	_
+6	an	_	ADP	RP	_	5	compound:prt	_	_
+7	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+8	mer	_	DET	QR	_	10	dep	_	_
+9	%ich%-1	_	ADP	PP	_	8	obl	_	_
+10	givst	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	az	_	ADP	P	_	14	case	_	_
+12	di	_	DET	D	PronType=Art	14	det	_	_
+13	ersti	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	drey	_	NUM	NUM	_	10	obl	_	_
+15	khlkim	_	NOUN	N	_	14	conj	_	_
+16	das	_	DET	D-NOM	Case=Nom|PronType=Art	17	nsubj	_	_
+17	heyst	_	VERB	VBF	VerbForm=Fin	14	parataxis	_	_
+18	eaurape	_	PROPN	NPR	_	14	appos	_	_
+19	azie	_	PROPN	NPR	_	18	flat:name	_	_
+20	afrike	_	PROPN	NPR	_	18	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.61
+# X_ID = 1818E-GEOGRAFIE,6.67
+# text = das iz oykh nukh nit gants farful givezin bakant
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	8	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+3	oykh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+4	nukh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+6	gants	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+7	farful	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+8	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	bakant	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.62
+# X_ID = 1818E-GEOGRAFIE,6.68
+# text = di drey khlkim ruft men di alte velt veyl zey zeynen shun fun lang an bekant
+1	di	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+2	drey	_	NUM	NUM-ACC	Case=Acc	3	nummod	_	_
+3	khlkim	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	4	obj	_	_
+4	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	men	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	di	_	DET	D	PronType=Art	8	det	_	_
+7	alte	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	velt	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+9	veyl	_	SCONJ	C	_	11	mark	_	_
+10	zey	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+11	zeynen	_	VERB	VBF	VerbForm=Fin	4	advcl	_	_
+12	shun	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+13	fun	_	ADP	P	_	14	dep	_	_
+14	lang	_	X	ADVP	Degree=Pos	11	obl	_	_
+15	an	_	ADP	RP	_	14	compound:prt	_	_
+16	bekant	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.63
+# X_ID = 1818E-GEOGRAFIE,6.69
+# text = amerike ruft men abr di neye velt veyl zi iz nit lang bikant givarn
+1	amerike	_	PROPN	NPR-ACC	_	2	dep	_	_
+2	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	men	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	abr	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+5	di	_	DET	D	PronType=Art	7	det	_	_
+6	neye	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	velt	_	NOUN	N-D	Definite=Def	2	xcomp	_	_
+8	veyl	_	SCONJ	C	_	14	mark	_	_
+9	zi	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+10	iz	_	AUX	BEF	VerbForm=Fin	14	cop	_	_
+11	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	14	advmod	_	_
+12	lang	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+13	bikant	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	givarn	_	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.64
+# X_ID = 1818E-GEOGRAFIE,6.70
+# text = das land amerike iz der_gangin givarin durkh eyn man vas men hat im girufin kalumbus in das yahr 1491
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	land	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	amerike	_	PROPN	NPR-D	_	2	dep	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+5	der_gangin	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+6	givarin	_	VERB	RDN	Tense=Past|VerbForm=Part	5	dep	_	_
+7	durkh	_	ADP	P	_	9	case	_	_
+8	eyn	_	DET	D	PronType=Art	9	det	_	_
+9	man	_	NOUN	N-I	Definite=Ind	5	obl	_	_
+10	vas	_	SCONJ	C	_	14	mark	_	_
+11	men	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+12	hat	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+13	im	_	PRON	PRO	_	14	dep	_	_
+14	girufin	_	VERB	VBN	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+15	kalumbus	_	NOUN	N	_	14	xcomp	_	_
+16	in	_	ADP	P	_	18	case	_	_
+17	das	_	DET	D	PronType=Art	18	det	_	_
+18	yahr	_	NOUN	N	_	5	obl	_	_
+19	1491	_	NUM	NUM-D	Definite=Def	18	nummod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.65
+# X_ID = 1818E-GEOGRAFIE,6.71
+# text = un dem namen amerike hat es bakumen fun eynm vas %t%-1 hat giheysin amerike vespustsius eyn soykhr fun flarentsie vas %t%-2 iz gigangin un %t%-2 iz der_gangen nakh mer velt
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	dem	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+3	namen	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+4	amerike	_	PROPN	NPR	_	3	appos	_	_
+5	hat	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+6	es	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	bakumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	fun	_	ADP	P	_	17	case	_	_
+9	eynm	_	PRON	PRO	_	17	nmod	_	_
+10	vas	_	SCONJ	C	_	13	mark	_	_
+11	%t%-1	_	NOUN	NP-SBJ	_	13	nsubj	_	_
+12	hat	_	AUX	HVF	VerbForm=Fin	13	aux	_	_
+13	giheysin	_	VERB	VBN	Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+14	amerike	_	PROPN	NPR	_	13	xcomp	_	_
+15	vespustsius	_	PROPN	NPR	_	14	flat:name	_	_
+16	eyn	_	DET	D	PronType=Art	17	det	_	_
+17	soykhr	_	NOUN	N-I	Definite=Ind	7	obl	_	_
+18	fun	_	ADP	P	_	19	case	_	_
+19	flarentsie	_	NOUN	N	_	17	obl	_	_
+20	vas	_	SCONJ	C	_	23	mark	_	_
+21	%t%-2	_	NOUN	NP-SBJ	_	23	nsubj	_	_
+22	iz	_	AUX	BEF	VerbForm=Fin	23	cop	_	_
+23	gigangin	_	VERB	VBN	Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+24	un	_	CCONJ	CONJ	_	27	cc	_	_
+25	%t%-2	_	NOUN	NP-SBJ	_	27	nsubj	_	_
+26	iz	_	AUX	BEF	VerbForm=Fin	27	cop	_	_
+27	der_gangen	_	VERB	VBN	Tense=Past|VerbForm=Part	23	conj	_	_
+28	nakh	_	ADP	P	_	30	case	_	_
+29	mer	_	DET	QR	_	30	det	_	_
+30	velt	_	NOUN	N	_	27	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.66
+# X_ID = 1818E-GEOGRAFIE,6.72
+# text = un er hat gilazin %arb% zeyn namen deroyf gebin
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	hat	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	gilazin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	%arb%	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+6	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	7	det:poss	_	_
+7	namen	_	NOUN	N	_	9	obj	_	_
+8	deroyf	_	ADP	P	_	9	obl	_	_
+9	gebin	_	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.67
+# X_ID = 1818E-GEOGRAFIE,6.73
+# text = un %con% hat ap ginumen fun yenm dem kbud
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+3	hat	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	ap	_	ADP	RP	_	5	compound:prt	_	_
+5	ginumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	yenm	_	DET	D	PronType=Art	5	obl	_	_
+8	dem	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+9	kbud	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	5	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.68
+# X_ID = 1818E-GEOGRAFIE,6.74
+# text = das erste bvaunung in der velt hat zikh an ghubin in azie
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	erste	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	bvaunung	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+4	in	_	ADP	P	_	6	case	_	_
+5	der	_	DET	D	PronType=Art	6	det	_	_
+6	velt	_	NOUN	N-D	Definite=Def	3	obl	_	_
+7	hat	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+8	zikh	_	PRON	PRO-RFL	PronType=Reflex	10	expl:pv	_	_
+9	an	_	ADP	RP	_	10	compound:prt	_	_
+10	ghubin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	in	_	ADP	P	_	12	case	_	_
+12	azie	_	PROPN	NPR	_	10	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.69
+# X_ID = 1818E-GEOGRAFIE,6.75
+# text = varum dart iz bshafn givarn adm hrasun
+1	varum	_	CCONJ	CONJ	_	4	cc	_	_
+2	dart	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	bshafn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+5	givarn	_	VERB	RDN	Tense=Past|VerbForm=Part	4	dep	_	_
+6	adm	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+7	hrasun	the_first	X	H	_	6	dep	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.70
+# X_ID = 1818E-GEOGRAFIE,7.77
+# text = un dartin iz gegebin givarin di turh
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	dartin	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	gegebin	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+5	givarin	_	VERB	RDN	Tense=Past|VerbForm=Part	4	dep	_	_
+6	di	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	turh	_	PROPN	NPR-D	_	4	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.71
+# X_ID = 1818E-GEOGRAFIE,7.78
+# text = un oykh di avut habin dartin givaunt
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	oykh	_	X	AD-NOMV	_	4	dep	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	avut	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+5	habin	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+6	dartin	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	givaunt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.72
+# X_ID = 1818E-GEOGRAFIE,7.79
+# text = der khlk iz givezin brimter in der gantser velt
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	khlk	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	brimter	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+6	in	_	ADP	P	_	9	case	_	_
+7	der	_	DET	D	PronType=Art	9	det	_	_
+8	gantser	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	velt	_	NOUN	N-D	Definite=Def	5	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.73
+# X_ID = 1818E-GEOGRAFIE,7.80
+# text = yetst iz abr eaurape barimter ibr ire teyne gnhgt ibr ire gute regirung un ibr ire kligere msptim
+1	yetst	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	abr	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	eaurape	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+5	barimter	_	ADJ	ADJR	Degree=Pos	2	amod	_	_
+6	ibr	_	ADP	P	_	9	case	_	_
+7	ire	_	PRON	PRO$	_	9	det:poss	_	_
+8	teyne	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	gnhgt	_	NOUN	N	_	5	amod	_	_
+10	ibr	_	ADP	P	_	13	case	_	_
+11	ire	_	PRON	PRO$	_	13	det:poss	_	_
+12	gute	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	regirung	_	NOUN	N	_	9	conj	_	_
+14	un	_	CCONJ	CONJ	_	18	cc	_	_
+15	ibr	_	ADP	P	_	18	case	_	_
+16	ire	_	PRON	PRO$	_	18	det:poss	_	_
+17	kligere	_	ADJ	ADJR	Degree=Pos	18	amod	_	_
+18	msptim	_	NOUN	N	_	9	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.74
+# X_ID = 1818E-GEOGRAFIE,7.81
+# text = di anderi khlkim habin abr nit di melut
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	anderi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	khlkim	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	habin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	abr	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+7	di	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	melut	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	4	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.75
+# X_ID = 1818E-GEOGRAFIE,7.82
+# text = nar di ekste mdinut fun azie regirn nakh mit khkhmh
+1	nar	_	ADV	FP	Degree=Pos	4	advmod	_	_
+2	di	_	DET	D	PronType=Art	4	det	_	_
+3	ekste	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	mdinut	_	NOUN	N	_	7	nsubj	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	azie	_	PROPN	NPR	_	4	obl	_	_
+7	regirn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	nakh	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+9	mit	_	ADP	P	_	10	case	_	_
+10	khkhmh	_	NOUN	N	_	7	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.76
+# X_ID = 1818E-GEOGRAFIE,7.83
+# text = das iz khine un yapanie
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	khine	_	PROPN	NPR	_	2	xcomp	_	_
+4	un	_	CCONJ	CONJ	_	5	cc	_	_
+5	yapanie	_	PROPN	NPR	_	3	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.77
+# X_ID = 1818E-GEOGRAFIE,7.84
+# text = abr di merb zeyt fun azie iz nit azu
+1	abr	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	merb	west	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+4	zeyt	_	NOUN	N-NOM	Case=Nom	3	conj	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	azie	_	PROPN	NPR	_	3	obl	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+9	azu	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.78
+# X_ID = 1818E-GEOGRAFIE,7.85
+# text = der grester teyl fun afrike zeynen nar barbarzintses
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	grester	_	ADJ	ADJS-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	teyl	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+4	fun	_	ADP	P	_	5	case	_	_
+5	afrike	_	PROPN	NPR	_	3	obl	_	_
+6	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	nar	_	ADV	FP	Degree=Pos	8	advmod	_	_
+8	barbarzintses	_	NOUN	N	_	6	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.79
+# X_ID = 1818E-GEOGRAFIE,7.86
+# text = das heyst zey habin keyn rekhti amunh un keyn rekht far_stand
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	heyst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zey	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	habin	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+5	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	7	det	_	_
+6	rekhti	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	amunh	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+8	un	_	CCONJ	CONJ	_	11	cc	_	_
+9	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	11	det	_	_
+10	rekht	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	11	amod	_	_
+11	far_stand	_	NOUN	N-ACC	Case=Acc	7	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.80
+# X_ID = 1818E-GEOGRAFIE,7.87
+# text = in amerike iz nar kluge leyt vau %t%-1 eaurapeianer habin zikh bazelt
+1	in	_	ADP	P	_	2	case	_	_
+2	amerike	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	nar	_	ADV	FP	Degree=Pos	6	advmod	_	_
+5	kluge	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	leyt	_	NOUN	N	_	3	nsubj	_	_
+7	vau	_	ADV	WADV	Degree=Pos	12	advmod	_	_
+8	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	12	advmod	_	_
+9	eaurapeianer	_	PROPN	NPR-SBJ	_	12	nsubj	_	_
+10	habin	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+11	zikh	_	PRON	PRO-RFL	PronType=Reflex	12	expl:pv	_	_
+12	bazelt	_	ADV	VBN	Tense=Past|VerbForm=Part	3	advmod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.81
+# X_ID = 1818E-GEOGRAFIE,7.88
+# text = veyter iz nakh alts vild un pust
+1	veyter	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	nakh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	alts	_	DET	Q-NOM	Case=Nom	2	nsubj	_	_
+5	vild	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+6	un	_	CCONJ	CONJ	_	5	amod	_	_
+7	pust	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.82
+# X_ID = 1818E-GEOGRAFIE,7.89
+# text = andri ertr zeynen nakh zeyer veynig bekant
+1	andri	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	2	amod	_	_
+2	ertr	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+3	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	nakh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	zeyer	_	ADV	ADV	Degree=Pos	7	amod	_	_
+6	veynig	_	DET	Q	_	5	det	_	_
+7	bekant	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.83
+# X_ID = 1818E-GEOGRAFIE,7.90
+# text = eaurpie di grenetsin fun eaurpe
+1	eaurpie	_	PROPN	NPR	_	0	root	_	_
+2	di	_	DET	D	PronType=Art	3	det	_	_
+3	grenetsin	_	NOUN	N-D	Definite=Def	1	obl	_	_
+4	fun	_	ADP	P	_	5	case	_	_
+5	eaurpe	_	NOUN	NP	_	3	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.84
+# X_ID = 1818E-GEOGRAFIE,7.91
+# text = eaurpie grentst zikh :
+1	eaurpie	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	grentst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	SpaceAfter=No
+4	:	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.85
+# X_ID = 1818E-GEOGRAFIE,7.92
+# text = oyf tsfun zeyt iz der eyz_mer
+1	oyf	_	ADP	P	_	3	case	_	_
+2	tsfun	north	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	der	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	eyz_mer	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.86
+# X_ID = 1818E-GEOGRAFIE,7.93
+# text = oyf mzrkh zeyt iz dr grekser arkhiplag der dardnel der azavsr mehr der teykh dan un di uralske berg
+1	oyf	_	ADP	P	_	3	case	_	_
+2	mzrkh	east	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	dr	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+6	grekser	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	7	amod	_	_
+7	arkhiplag	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+8	der	_	DET	D	PronType=Art	9	det	_	_
+9	dardnel	_	PROPN	NPR-D	_	7	conj	_	_
+10	der	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+11	azavsr	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	12	amod	_	_
+12	mehr	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	conj	_	_
+13	der	_	DET	D	PronType=Art	15	det	_	_
+14	teykh	_	NOUN	N	_	15	conj	_	_
+15	dan	_	PROPN	NPR-D	_	7	conj	_	_
+16	un	_	CCONJ	CONJ	_	19	cc	_	_
+17	di	_	DET	D	PronType=Art	19	det	_	_
+18	uralske	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+19	berg	_	NOUN	N-D	Definite=Def	7	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.87
+# X_ID = 1818E-GEOGRAFIE,7.94
+# text = oyf drum iz dr grenits dr mit_lendesher mer
+1	oyf	_	ADP	P	_	2	dep	_	_
+2	drum	south	X	H	_	3	dep	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	dr	_	DET	D	PronType=Art	5	det	_	_
+5	grenits	_	NOUN	N-D	Definite=Def	3	xcomp	_	_
+6	dr	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+7	mit_lendesher	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	8	amod	_	_
+8	mer	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.88
+# X_ID = 1818E-GEOGRAFIE,7.95
+# text = oyf merib iz der grents oykh der atlantisher mehr
+1	oyf	_	ADP	P	_	2	dep	_	_
+2	merib	west	X	H	_	3	dep	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	grents	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+6	oykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+7	der	_	DET	D	PronType=Art	9	det	_	_
+8	atlantisher	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	mehr	_	NOUN	N-D	Definite=Def	3	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.89
+# X_ID = 1818E-GEOGRAFIE,7.96
+# text = eaurpie hat in zikh drey kitriut rus_land estreykh un turkaye der pups hat oykh fr zikh eyn groys stik land oyf velkhi er zelbst deruf hersht un ukh drey_tsehn mlukhut
+1	eaurpie	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	drey	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	kitriut	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	rus_land	_	PROPN	NPR	_	6	appos	_	_
+8	estreykh	_	PROPN	NPR	_	7	flat:name	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	turkaye	_	PROPN	NPR	_	7	conj	_	_
+11	der	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+12	pups	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	13	nsubj	_	_
+13	hat	_	VERB	VBF	VerbForm=Fin	6	parataxis	_	_
+14	oykh	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+15	fr	_	ADP	P	_	16	case	_	_
+16	zikh	_	PRON	PRO	_	13	obl	_	_
+17	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	19	det	_	_
+18	groys	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	19	amod	_	_
+19	stik	_	NOUN	N-ACC	Case=Acc	13	obj	_	_
+20	land	_	NOUN	N-ACC	Case=Acc	19	nmod:poss	_	_
+21	oyf	_	ADP	P	_	22	case	_	_
+22	velkhi	_	PRON	WPRO	_	26	obl	_	_
+23	er	_	PRON	PRO-NOM	Case=Nom	26	nsubj	_	_
+24	zelbst	_	ADV	ADV	Degree=Pos	23	advmod	_	_
+25	deruf	_	ADP	P	_	26	obl	_	_
+26	hersht	_	VERB	VBF	VerbForm=Fin	19	acl:relcl	_	_
+27	un	_	CCONJ	CONJ	_	29	cc	_	_
+28	ukh	_	ADV	ADV	Degree=Pos	29	advmod	_	_
+29	drey_tsehn	_	NUM	NUM	_	6	conj	_	_
+30	mlukhut	_	NOUN	N	_	29	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.90
+# X_ID = 1818E-GEOGRAFIE,7.97
+# text = un das %ich%-1 zeynen zey com:list_omitted
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	das	_	DET	D	PronType=Art	3	det	_	_
+3	%ich%-1	_	NOUN	NP-PRN	_	4	xcomp	_	_
+4	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zey	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	com:list_omitted	_	NOUN	NP-1	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.91
+# X_ID = 1818E-GEOGRAFIE,8.99
+# text = un es hat in zikh nakh zeks kinigreykhin mlukhut velkhi %t%-1 giherin unter andri ksrin un mlkhim zu vi %t%-2 pulin giher untir dem russhin kisr
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	es	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	zikh	_	PRON	PRO	_	3	obl	_	_
+6	nakh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+7	zeks	_	NUM	NUM-ACC	Case=Acc	8	nummod	_	_
+8	kinigreykhin	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+9	mlukhut	_	NOUN	N-ACC	Case=Acc	8	appos	_	_
+10	velkhi	_	PRON	WPRO	_	12	obj	_	_
+11	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+12	giherin	_	VERB	VBF	VerbForm=Fin	8	acl:relcl	_	_
+13	unter	_	ADP	P	_	15	case	_	_
+14	andri	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	ksrin	_	NOUN	N	_	12	obl	_	_
+16	un	_	CCONJ	CONJ	_	17	cc	_	_
+17	mlkhim	_	NOUN	N	_	15	conj	_	_
+18	zu	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+19	vi	_	ADV	WADV	Degree=Pos	22	advmod	_	_
+20	%t%-2	_	ADV	ADVP	Degree=Pos	22	advmod	_	_
+21	pulin	_	PROPN	NPR-SBJ	_	22	nsubj	_	_
+22	giher	_	VERB	VBF	VerbForm=Fin	18	advcl	_	_
+23	untir	_	ADP	P	_	26	case	_	_
+24	dem	_	DET	D	PronType=Art	26	det	_	_
+25	russhin	_	ADJ	ADJ	Degree=Pos	26	amod	_	_
+26	kisr	_	NOUN	N-D	Definite=Def	22	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.92
+# X_ID = 1818E-GEOGRAFIE,8.100
+# text = zu iz nakh finf mlukhut
+1	zu	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	nakh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	finf	_	NUM	NUM-NOM	Case=Nom	5	nummod	_	_
+5	mlukhut	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.93
+# X_ID = 1818E-GEOGRAFIE,8.101
+# text = un das %ich%-1 zeyn zey : com:list_omitted
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	das	_	DET	D	PronType=Art	3	det	_	_
+3	%ich%-1	_	NOUN	NP-PRN	_	4	xcomp	_	_
+4	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zey	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	SpaceAfter=No
+6	:	_	PUNCT	PUNC	_	4	punct	_	_
+7	com:list_omitted	_	NOUN	NP-1	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.94
+# X_ID = 1818E-GEOGRAFIE,8.102
+# text = ukh hat es in zikh fil gruse kurferstin un kleneri
+1	ukh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	es	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	zikh	_	PRON	PRO	_	2	obl	_	_
+6	fil	_	DET	Q-ACC	Case=Acc	8	det	_	_
+7	gruse	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	kurferstin	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	kleneri	_	ADJ	ADJR	Degree=Pos	8	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.95
+# X_ID = 1818E-GEOGRAFIE,8.103
+# text = ukh hat es in zikh fir frey reykh_stet com:list_omitted
+1	ukh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	es	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	zikh	_	PRON	PRO	_	2	obl	_	_
+6	fir	_	NUM	NUM-ACC	Case=Acc	8	nummod	_	_
+7	frey	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	reykh_stet	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+9	com:list_omitted	_	NOUN	NP-PRN	_	8	appos	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.96
+# X_ID = 1818E-GEOGRAFIE,8.104
+# text = fun di gresti teykhin vas %t%-1 zeyn in irupe
+1	fun	_	ADP	P	_	4	case	_	_
+2	di	_	DET	D	PronType=Art	4	det	_	_
+3	gresti	_	ADJ	ADJS	Degree=Pos	4	amod	_	_
+4	teykhin	_	NOUN	N	_	0	root	_	_
+5	vas	_	SCONJ	C	_	7	mark	_	_
+6	%t%-1	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+7	zeyn	_	VERB	VBF	VerbForm=Fin	4	acl:relcl	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	irupe	_	PROPN	NPR	_	7	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.97
+# X_ID = 1818E-GEOGRAFIE,8.105
+# text = in teyts_land iz der duney dr reyn di udre un di elbe
+1	in	_	ADP	P	_	2	case	_	_
+2	teyts_land	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	duney	_	PROPN	NPR-D	_	3	nsubj	_	_
+6	dr	_	DET	D	PronType=Art	7	det	_	_
+7	reyn	_	PROPN	NPR-D	_	5	conj	_	_
+8	di	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+9	udre	_	NOUN	NP-SBJ	_	5	conj	_	_
+10	un	_	CCONJ	CONJ	_	12	cc	_	_
+11	di	_	DET	D	PronType=Art	12	det	_	_
+12	elbe	_	PROPN	NPR-D	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.98
+# X_ID = 1818E-GEOGRAFIE,8.106
+# text = in itley is dr tiber adiga un pa
+1	in	_	ADP	P	_	2	case	_	_
+2	itley	_	PROPN	NPR	_	3	obl	_	_
+3	is	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	dr	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	tiber	_	PROPN	NPR-D	_	3	nsubj	_	_
+6	adiga	_	PROPN	NPR	_	5	flat:name	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	pa	_	PROPN	NPR	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.99
+# X_ID = 1818E-GEOGRAFIE,8.107
+# text = in freynkrikh iz di sekvane radan un garana
+1	in	_	ADP	P	_	2	case	_	_
+2	freynkrikh	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	sekvane	_	PROPN	NPR-D	_	3	nsubj	_	_
+6	radan	_	PROPN	NPR	_	5	flat:name	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	garana	_	PROPN	NPR	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.100
+# X_ID = 1818E-GEOGRAFIE,8.108
+# text = in hispaney un purtegal iz di ebre tag gvadalkvivir un duera
+1	in	_	ADP	P	_	2	case	_	_
+2	hispaney	_	PROPN	NPR	_	5	obl	_	_
+3	un	_	CCONJ	CONJ	_	4	cc	_	_
+4	purtegal	_	PROPN	NPR	_	2	conj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	di	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	ebre	_	PROPN	NPR-D	_	5	nsubj	_	_
+8	tag	_	PROPN	NPR	_	7	flat:name	_	_
+9	gvadalkvivir	_	NOUN	NP-SBJ	_	7	conj	_	_
+10	un	_	CCONJ	CONJ	_	11	cc	_	_
+11	duera	_	PROPN	NPR	_	7	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.101
+# X_ID = 1818E-GEOGRAFIE,8.109
+# text = in england iz di tamiza
+1	in	_	ADP	P	_	2	case	_	_
+2	england	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	tamiza	_	PROPN	NPR-D	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.102
+# X_ID = 1818E-GEOGRAFIE,8.110
+# text = in rus_land iz der don velge dvine dneypr neve nemir un viley
+1	in	_	ADP	P	_	2	case	_	_
+2	rus_land	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	don	_	PROPN	NPR-D	_	3	nsubj	_	_
+6	velge	_	PROPN	NPR	_	5	flat:name	_	_
+7	dvine	_	NOUN	NP-SBJ	_	5	conj	_	_
+8	dneypr	_	PROPN	NPR	_	5	conj	_	_
+9	neve	_	PROPN	NPR	_	5	conj	_	_
+10	nemir	_	PROPN	NPR	_	5	conj	_	_
+11	un	_	CCONJ	CONJ	_	12	cc	_	_
+12	viley	_	PROPN	NPR	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.103
+# X_ID = 1818E-GEOGRAFIE,8.111
+# text = in pulin iz dr veysil
+1	in	_	ADP	P	_	2	case	_	_
+2	pulin	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	dr	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	veysil	_	PROPN	NPR-D	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.104
+# X_ID = 1818E-GEOGRAFIE,8.112
+# text = fun di gresti yezares in irupe
+1	fun	_	ADP	P	_	4	case	_	_
+2	di	_	DET	D	PronType=Art	4	det	_	_
+3	gresti	_	ADJ	ADJS	Degree=Pos	4	amod	_	_
+4	yezares	_	NOUN	N	_	0	root	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	irupe	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.105
+# X_ID = 1818E-GEOGRAFIE,8.113
+# text = in rus_land iz di larage anege peeypoys ilmen beyelh azire un nakh veytir
+1	in	_	ADP	P	_	2	case	_	_
+2	rus_land	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	larage	_	PROPN	NPR	_	3	nsubj	_	_
+6	anege	_	PROPN	NPR	_	5	flat:name	_	_
+7	peeypoys	_	PROPN	NPR	_	5	conj	_	_
+8	ilmen	_	PROPN	NPR	_	5	conj	_	_
+9	beyelh	_	PROPN	NPR	_	5	conj	_	_
+10	azire	_	NOUN	N	_	5	conj	_	_
+11	un	_	CCONJ	CONJ	_	12	cc	_	_
+12	nakh	_	ADV	ADV	Degree=Pos	5	conj	_	_
+13	veytir	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.106
+# X_ID = 1818E-GEOGRAFIE,8.114
+# text = in pulin iz di geple
+1	in	_	ADP	P	_	2	case	_	_
+2	pulin	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	geple	_	PROPN	NPR-D	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.107
+# X_ID = 1818E-GEOGRAFIE,8.115
+# text = in sveydin iz venir meler heltar in teyts_land kanstantseyen
+1	in	_	ADP	P	_	2	case	_	_
+2	sveydin	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	venir	_	PROPN	NPR	_	3	nsubj	_	_
+5	meler	_	PROPN	NPR	_	4	flat:name	_	_
+6	heltar	_	NOUN	NP-SBJ	_	4	conj	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	teyts_land	_	PROPN	NPR	_	3	conj	_	_
+9	kanstantseyen	_	PROPN	NPR-SBJ	_	8	flat:name	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.108
+# X_ID = 1818E-GEOGRAFIE,8.116
+# text = in itlie udr vlakhin_land iz laga di kama laga di garda laga magiare
+1	in	_	ADP	P	_	2	case	_	_
+2	itlie	_	PROPN	NPR	_	5	obl	_	_
+3	udr	_	CCONJ	CONJ	_	4	cc	_	_
+4	vlakhin_land	_	PROPN	NPR	_	2	conj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	laga	_	PROPN	NPR	_	5	nsubj	_	_
+7	di	_	PROPN	NPR	_	6	flat:name	_	_
+8	kama	_	PROPN	NPR	_	6	dep	_	_
+9	laga	_	PROPN	NPR	_	6	conj	_	_
+10	di	_	PROPN	NPR	_	9	flat:name	_	_
+11	garda	_	PROPN	NPR	_	9	dep	_	_
+12	laga	_	NOUN	NP-SBJ	_	6	conj	_	_
+13	magiare	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.109
+# X_ID = 1818E-GEOGRAFIE,9.118
+# text = fun di gresti rezidents_hupt_stet vas %t%-1 zeyn in irupie
+1	fun	_	ADP	P	_	4	case	_	_
+2	di	_	DET	D	PronType=Art	4	det	_	_
+3	gresti	_	ADJ	ADJS	Degree=Pos	4	amod	_	_
+4	rezidents_hupt_stet	_	NOUN	N	_	0	root	_	_
+5	vas	_	SCONJ	C	_	7	mark	_	_
+6	%t%-1	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+7	zeyn	_	VERB	VBF	VerbForm=Fin	4	acl:relcl	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	irupie	_	PROPN	NPR	_	7	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.110
+# X_ID = 1818E-GEOGRAFIE,9.119
+# text = in pupsin_land iz di grusi stat rum bey dr teykh tiber
+1	in	_	ADP	P	_	2	case	_	_
+2	pupsin_land	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+5	grusi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+6	stat	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+7	rum	_	PROPN	NPR	_	6	dep	_	_
+8	bey	_	ADP	P	_	11	case	_	_
+9	dr	_	DET	D	PronType=Art	11	det	_	_
+10	teykh	_	NOUN	N	_	11	nummod	_	_
+11	tiber	_	PROPN	NPR-D	_	6	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.111
+# X_ID = 1818E-GEOGRAFIE,9.120
+# text = in rus_land iz pitrs_burg bey der neve
+1	in	_	ADP	P	_	2	case	_	_
+2	rus_land	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	pitrs_burg	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	7	case	_	_
+6	der	_	DET	D	PronType=Art	7	det	_	_
+7	neve	_	PROPN	NPR-D	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.112
+# X_ID = 1818E-GEOGRAFIE,9.121
+# text = in usterie iz vin bey dunay
+1	in	_	ADP	P	_	2	case	_	_
+2	usterie	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	vin	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	6	case	_	_
+6	dunay	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.113
+# X_ID = 1818E-GEOGRAFIE,9.122
+# text = in tirkey iz stambil udr kanstnatinapil bey das eynge mehr
+1	in	_	ADP	P	_	2	case	_	_
+2	tirkey	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	stambil	_	PROPN	NPR	_	3	nsubj	_	_
+5	udr	_	CCONJ	CONJ	_	6	cc	_	_
+6	kanstnatinapil	_	NOUN	NP-SBJ	_	4	conj	_	_
+7	bey	_	ADP	P	_	10	case	_	_
+8	das	_	DET	D	PronType=Art	10	det	_	_
+9	eynge	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	mehr	_	NOUN	N-D	Definite=Def	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.114
+# X_ID = 1818E-GEOGRAFIE,9.123
+# text = in engil_land iz lundin bey dr tamize
+1	in	_	ADP	P	_	2	case	_	_
+2	engil_land	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	lundin	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	7	case	_	_
+6	dr	_	DET	D	PronType=Art	7	det	_	_
+7	tamize	_	PROPN	NPR-D	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.115
+# X_ID = 1818E-GEOGRAFIE,9.124
+# text = in deni_mark iz kapenhagen oyf eyn kleyn vispe
+1	in	_	ADP	P	_	2	case	_	_
+2	deni_mark	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	kapenhagen	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	oyf	_	ADP	P	_	8	case	_	_
+6	eyn	_	DET	D	PronType=Art	8	det	_	_
+7	kleyn	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	vispe	_	NOUN	N-I	Definite=Ind	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.116
+# X_ID = 1818E-GEOGRAFIE,9.125
+# text = in shveydin iz stakhalem
+1	in	_	ADP	P	_	2	case	_	_
+2	shveydin	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	stakhalem	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.117
+# X_ID = 1818E-GEOGRAFIE,9.126
+# text = in preysin iz brlin bey der sprean
+1	in	_	ADP	P	_	2	case	_	_
+2	preysin	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	brlin	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	7	case	_	_
+6	der	_	DET	D	PronType=Art	7	det	_	_
+7	sprean	_	PROPN	NPR-D	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.118
+# X_ID = 1818E-GEOGRAFIE,9.127
+# text = in merib fun preysin iz kinigs_berg bey den pregel
+1	in	_	ADP	P	_	2	dep	_	_
+2	merib	west	X	H	_	5	dep	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	preysin	_	PROPN	NPR	_	2	obl	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	kinigs_berg	_	PROPN	NPR-SBJ	_	5	nsubj	_	_
+7	bey	_	ADP	P	_	9	case	_	_
+8	den	_	DET	D	PronType=Art	9	det	_	_
+9	pregel	_	PROPN	NPR-D	_	6	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.119
+# X_ID = 1818E-GEOGRAFIE,9.128
+# text = in pulin iz varshoy bey der veysil
+1	in	_	ADP	P	_	2	case	_	_
+2	pulin	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	varshoy	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	7	case	_	_
+6	der	_	DET	D	PronType=Art	7	det	_	_
+7	veysil	_	PROPN	NPR-D	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.120
+# X_ID = 1818E-GEOGRAFIE,9.129
+# text = in ungerin iz upfe oder buda bey dunoy
+1	in	_	ADP	P	_	2	case	_	_
+2	ungerin	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	upfe	_	PROPN	NPR	_	3	nsubj	_	_
+5	oder	_	CCONJ	CONJ	_	6	cc	_	_
+6	buda	_	NOUN	NP-SBJ	_	4	conj	_	_
+7	bey	_	ADP	P	_	8	case	_	_
+8	dunoy	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.121
+# X_ID = 1818E-GEOGRAFIE,9.130
+# text = in tsiekh iz prag bey mildave
+1	in	_	ADP	P	_	2	case	_	_
+2	tsiekh	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	prag	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	6	case	_	_
+6	mildave	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.122
+# X_ID = 1818E-GEOGRAFIE,9.131
+# text = in zaksn iz drezin bey dr elbe
+1	in	_	ADP	P	_	2	case	_	_
+2	zaksn	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	drezin	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	7	case	_	_
+6	dr	_	DET	D	PronType=Art	7	det	_	_
+7	elbe	_	PROPN	NPR-D	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.123
+# X_ID = 1818E-GEOGRAFIE,9.132
+# text = in vestfalin iz kasel nit veyt fun dr teykh fulde
+1	in	_	ADP	P	_	2	case	_	_
+2	vestfalin	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	kasel	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+6	veyt	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	fun	_	ADP	P	_	10	case	_	_
+8	dr	_	DET	D	PronType=Art	10	det	_	_
+9	teykh	_	NOUN	N	_	10	nummod	_	_
+10	fulde	_	PROPN	NPR-D	_	5	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.124
+# X_ID = 1818E-GEOGRAFIE,9.133
+# text = in haland iz amstrdm
+1	in	_	ADP	P	_	2	case	_	_
+2	haland	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	amstrdm	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.125
+# X_ID = 1818E-GEOGRAFIE,9.134
+# text = in nidr_land iz bruksel bey dr menne
+1	in	_	ADP	P	_	2	case	_	_
+2	nidr_land	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	bruksel	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	7	case	_	_
+6	dr	_	DET	D	PronType=Art	7	det	_	_
+7	menne	_	PROPN	NPR-D	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.126
+# X_ID = 1818E-GEOGRAFIE,9.135
+# text = in virtimberg iz stutgrad bey netsker
+1	in	_	ADP	P	_	2	case	_	_
+2	virtimberg	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	stutgrad	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	6	case	_	_
+6	netsker	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.127
+# X_ID = 1818E-GEOGRAFIE,9.136
+# text = in beyerin iz munikh bey iser
+1	in	_	ADP	P	_	2	case	_	_
+2	beyerin	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	munikh	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	6	case	_	_
+6	iser	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.128
+# X_ID = 1818E-GEOGRAFIE,9.137
+# text = in frnkreykh iz pariz bey dr sekvane
+1	in	_	ADP	P	_	2	case	_	_
+2	frnkreykh	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	pariz	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	bey	_	ADP	P	_	7	case	_	_
+6	dr	_	DET	D	PronType=Art	7	det	_	_
+7	sekvane	_	PROPN	NPR-D	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.129
+# X_ID = 1818E-GEOGRAFIE,9.138
+# text = in fartugal iz lizbon
+1	in	_	ADP	P	_	2	case	_	_
+2	fartugal	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	lizbon	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.130
+# X_ID = 1818E-GEOGRAFIE,9.139
+# text = in hispaneye iz madrit
+1	in	_	ADP	P	_	2	case	_	_
+2	hispaneye	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	madrit	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.131
+# X_ID = 1818E-GEOGRAFIE,9.140
+# text = in sardinie iz kagliari
+1	in	_	ADP	P	_	2	case	_	_
+2	sardinie	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	kagliari	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.132
+# X_ID = 1818E-GEOGRAFIE,9.141
+# text = in neapaleye iz neapal
+1	in	_	ADP	P	_	2	case	_	_
+2	neapaleye	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	neapal	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.133
+# X_ID = 1818E-GEOGRAFIE,9.142
+# text = in sitsuleye iz plaerme
+1	in	_	ADP	P	_	2	case	_	_
+2	sitsuleye	_	PROPN	NPR	_	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	plaerme	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.134
+# X_ID = 1818E-GEOGRAFIE,9.143
+# text = fun di gresti berg in irupe
+1	fun	_	ADP	P	_	4	case	_	_
+2	di	_	DET	D	PronType=Art	4	det	_	_
+3	gresti	_	ADJ	ADJS	Degree=Pos	4	amod	_	_
+4	berg	_	NOUN	N	_	0	root	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	irupe	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.135
+# X_ID = 1818E-GEOGRAFIE,9.144
+# text = di grusi berg kulien ader alip iz tsvishin narvegin un shveydin
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	grusi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	berg	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+4	kulien	_	PROPN	NPR	_	3	appos	_	_
+5	ader	_	CCONJ	CONJ	_	6	cc	_	_
+6	alip	_	PROPN	NPR	_	4	conj	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	tsvishin	_	ADP	P	_	9	case	_	_
+9	narvegin	_	PROPN	NPR	_	7	obl	_	_
+10	un	_	CCONJ	CONJ	_	11	cc	_	_
+11	shveydin	_	PROPN	NPR	_	9	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.136
+# X_ID = 1818E-GEOGRAFIE,9.145
+# text = di uralishki berg makhin eyn tsu_visin_seyd tsu_visin irpie un azie
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	uralishki	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	berg	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	makhin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	tsu_visin_seyd	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	tsu_visin	_	ADP	P	_	8	case	_	_
+8	irpie	_	PROPN	NPR	_	6	obl	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	azie	_	PROPN	NPR	_	8	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.137
+# X_ID = 1818E-GEOGRAFIE,9.146
+# text = zey tsihen zikh fun dr teykh ural biz dem eyz_mehr
+1	zey	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	tsihen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	fun	_	ADP	P	_	7	case	_	_
+5	dr	_	DET	D	PronType=Art	7	det	_	_
+6	teykh	_	NOUN	N	_	7	nummod	_	_
+7	ural	_	PROPN	NPR-D	_	2	obl	_	_
+8	biz	_	ADP	P	_	10	case	_	_
+9	dem	_	DET	D	PronType=Art	10	det	_	_
+10	eyz_mehr	_	NOUN	N-D	Definite=Def	2	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.138
+# X_ID = 1818E-GEOGRAFIE,9.147
+# text = di karpatsi berg iz tsu_visin pulin un ungerin
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	karpatsi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	berg	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	tsu_visin	_	ADP	P	_	6	case	_	_
+6	pulin	_	PROPN	NPR	_	4	obl	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	ungerin	_	PROPN	NPR	_	6	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.139
+# X_ID = 1818E-GEOGRAFIE,9.148
+# text = apeniner berg iz in italie
+1	apeniner	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	2	amod	_	_
+2	berg	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	italie	_	PROPN	NPR	_	3	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.140
+# X_ID = 1818E-GEOGRAFIE,9.149
+# text = di alper berg tsihen zikh tsu_vishin frnkreykh un italie shveytsin un teyts_land
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	alper	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	berg	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	tsihen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+6	tsu_vishin	_	ADP	P	_	7	case	_	_
+7	frnkreykh	_	PROPN	NPR	_	4	obl	_	_
+8	un	_	CCONJ	CONJ	_	9	cc	_	_
+9	italie	_	PROPN	NPR	_	7	conj	_	_
+10	shveytsin	_	PROPN	NPR	_	7	conj	_	_
+11	un	_	CCONJ	CONJ	_	12	cc	_	_
+12	teyts_land	_	PROPN	NPR	_	7	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.141
+# X_ID = 1818E-GEOGRAFIE,9.150
+# text = di piraneyski berg teylt ap frankreykh fun ispanie
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	piraneyski	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	berg	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	teylt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	ap	_	ADP	RP	_	4	compound:prt	_	_
+6	frankreykh	_	PROPN	NPR-ACC	_	4	dep	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	ispanie	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.142
+# X_ID = 1818E-GEOGRAFIE,9.151
+# text = erdts_giberg teylt ab beyhm fun shleze
+1	erdts_giberg	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+2	teylt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ab	_	ADP	RP	_	2	compound:prt	_	_
+4	beyhm	_	PROPN	NPR-ACC	_	2	dep	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	shleze	_	PROPN	NPR	_	2	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.143
+# X_ID = 1818E-GEOGRAFIE,9.152
+# text = oykh iz faran berg velkhe %t%-1 varfin fun zikh feyer %ich%-2 arus
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	faran	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	berg	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+5	velkhe	_	PRON	WPRO	_	7	obj	_	_
+6	%t%-1	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+7	varfin	_	VERB	VBF	VerbForm=Fin	4	acl:relcl	_	_
+8	fun	_	ADP	P	_	9	case	_	_
+9	zikh	_	PRON	PRO	_	7	obl	_	_
+10	feyer	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+11	%ich%-2	_	ADP	PP	_	12	obl	_	_
+12	arus	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.144
+# X_ID = 1818E-GEOGRAFIE,10.154
+# text = dr feyer_berg eklie iz in islandie
+1	dr	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	feyer_berg	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	eklie	_	PROPN	NPR-D	_	2	dep	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	islandie	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.145
+# X_ID = 1818E-GEOGRAFIE,10.155
+# text = dr feyer_berg vezevius iz in neapel
+1	dr	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	feyer_berg	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	vezevius	_	PROPN	NPR-D	_	2	dep	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	neapel	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.146
+# X_ID = 1818E-GEOGRAFIE,10.156
+# text = di etna uder gibel iz in sitsilie
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	etna	_	PROPN	NPR	_	5	nsubj	_	_
+3	uder	_	CCONJ	CONJ	_	4	cc	_	_
+4	gibel	_	PROPN	NPR	_	2	conj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	sitsilie	_	PROPN	NPR	_	5	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.147
+# X_ID = 1818E-GEOGRAFIE,10.157
+# text = fun rusishe ksriut zi grenetst zikh
+1	fun	_	ADP	P	_	3	case	_	_
+2	rusishe	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ksriut	_	NOUN	N	_	5	obl	_	_
+4	zi	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	grenetst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.148
+# X_ID = 1818E-GEOGRAFIE,10.158
+# text = tsu tsfun zeyt iz mdint narvegn un der eyz_mer
+1	tsu	_	ADP	P	_	3	case	_	_
+2	tsfun	north	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	mdint	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+6	narvegn	_	PROPN	NPR	_	5	dep	_	_
+7	un	_	CCONJ	CONJ	_	9	cc	_	_
+8	der	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+9	eyz_mer	_	NOUN	N-NOM	Case=Nom	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.149
+# X_ID = 1818E-GEOGRAFIE,10.159
+# text = oyf mzrkh zeyt iz im ukunum hmzrkhi
+1	oyf	_	ADP	P	_	3	case	_	_
+2	mzrkh	east	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	im	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+6	ukunum	UNKNOWN	X	H	_	5	dep	_	_
+7	hmzrkhi	UNKNOWN	X	H	_	5	dep	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.150
+# X_ID = 1818E-GEOGRAFIE,10.160
+# text = oyf drum zeyt iz mdint khine velne tatareye kaspisisen mer im kaspi azavisin mer un terkey
+1	oyf	_	ADP	P	_	3	case	_	_
+2	drum	south	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	mdint	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+6	khine	_	PROPN	NPR	_	5	dep	_	_
+7	velne	_	PROPN	NPR	_	5	conj	_	_
+8	tatareye	_	NOUN	NP-SBJ	_	5	conj	_	_
+9	kaspisisen	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	mer	_	NOUN	N	_	5	conj	_	_
+11	im	_	NOUN	N	_	10	appos	_	_
+12	kaspi	_	PROPN	NPR	_	11	dep	_	_
+13	azavisin	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	mer	_	NOUN	N	_	5	conj	_	_
+15	un	_	CCONJ	CONJ	_	16	cc	_	_
+16	terkey	_	PROPN	NPR	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.151
+# X_ID = 1818E-GEOGRAFIE,10.161
+# text = oyf merib zeyt mit terkey galitsie preysin shvedin narvegin
+1	oyf	_	ADP	P	_	3	case	_	_
+2	merib	west	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	0	root	_	_
+4	mit	_	ADP	P	_	5	case	_	_
+5	terkey	_	PROPN	NPR	_	3	obl	_	_
+6	galitsie	_	PROPN	NPR	_	5	flat:name	_	_
+7	preysin	_	PROPN	NPR	_	5	conj	_	_
+8	shvedin	_	PROPN	NPR	_	5	conj	_	_
+9	narvegin	_	PROPN	NPR	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.152
+# X_ID = 1818E-GEOGRAFIE,10.162
+# text = gants rusland hat in zikh 365000 meyl kvadrattve
+1	gants	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	2	amod	_	_
+2	rusland	_	PROPN	NPR	_	3	nsubj	_	_
+3	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	zikh	_	PRON	PRO	_	3	obl	_	_
+6	365000	_	NUM	NUM-ACC	Case=Acc	7	nummod	_	_
+7	meyl	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+8	kvadrattve	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.153
+# X_ID = 1818E-GEOGRAFIE,10.163
+# text = dr_fun iz 292000 in azie
+1	dr_fun	_	ADP	P	_	2	obl	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	292000	_	NUM	NUM-NOM	Case=Nom	2	nsubj	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	azie	_	PROPN	NPR	_	2	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.154
+# X_ID = 1818E-GEOGRAFIE,10.164
+# text = un das iberige 73000 meyl iz in urape
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	das	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+3	iberige	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	5	amod	_	_
+4	73000	_	NUM	NUM-NOM	Case=Nom	5	nummod	_	_
+5	meyl	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+6	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	urape	_	PROPN	NPR	_	6	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.155
+# X_ID = 1818E-GEOGRAFIE,10.165
+# text = di praduktin vas %t%-1 rusland hat in zikh iz aler_hand
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	praduktin	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	_
+3	vas	_	SCONJ	C	_	6	mark	_	_
+4	%t%-1	_	NOUN	NP-ACC	_	6	dep	_	_
+5	rusland	_	PROPN	NPR-SBJ	_	6	nsubj	_	_
+6	hat	_	VERB	VBF	VerbForm=Fin	2	acl:relcl	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	zikh	_	PRON	PRO	_	6	obl	_	_
+9	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	aler_hand	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.156
+# X_ID = 1818E-GEOGRAFIE,10.166
+# text = di amunh vas %t%-1 hersht in rusland iz grekes_ruses
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	amunh	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+3	vas	_	SCONJ	C	_	5	mark	_	_
+4	%t%-1	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+5	hersht	_	VERB	VBF	VerbForm=Fin	2	acl:relcl	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	rusland	_	PROPN	NPR	_	5	obl	_	_
+8	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	grekes_ruses	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.157
+# X_ID = 1818E-GEOGRAFIE,10.167
+# text = aber oykh aler_hand amunut iz frey in land
+1	aber	_	CCONJ	CONJ	_	5	cc	_	_
+2	oykh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+3	aler_hand	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	amunut	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	frey	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	land	_	NOUN	N	_	5	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.158
+# X_ID = 1818E-GEOGRAFIE,10.168
+# text = aler_hand fabrikes un hand_varg far_greserin zikh fun tseyt tsu tseyt
+1	aler_hand	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	2	amod	_	_
+2	fabrikes	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	un	_	CCONJ	CONJ	_	4	cc	_	_
+4	hand_varg	_	NOUN	N	_	2	conj	_	_
+5	far_greserin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	tseyt	_	NOUN	N	_	5	obl	_	_
+9	tsu	_	ADP	P	_	10	case	_	_
+10	tseyt	_	NOUN	N	_	5	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.159
+# X_ID = 1818E-GEOGRAFIE,10.169
+# text = zu oykh das handil vert ale tseyt mer far_spreyt
+1	zu	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+2	oykh	_	X	AD-NOMV	_	4	dep	_	_
+3	das	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	handil	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+5	vert	_	AUX	RDF	VerbForm=Fin	9	aux	_	_
+6	ale	_	DET	Q	_	9	obl	_	_
+7	tseyt	_	NOUN	N	_	6	conj	_	_
+8	mer	_	DET	QR	_	9	obl	_	_
+9	far_spreyt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.160
+# X_ID = 1818E-GEOGRAFIE,10.170
+# text = das rgirung fun rusland iz durkh den kisr alksndr der zelbst_herster fun ale rusin
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	rgirung	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	rusland	_	PROPN	NPR	_	2	obl	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	durkh	_	ADP	P	_	8	case	_	_
+7	den	_	DET	D	PronType=Art	8	det	_	_
+8	kisr	_	NOUN	N-D	Definite=Def	5	obl	_	_
+9	alksndr	_	PROPN	NPR	_	8	dep	_	_
+10	der	_	DET	D	PronType=Art	11	det	_	_
+11	zelbst_herster	_	NOUN	N-D	Definite=Def	8	appos	_	_
+12	fun	_	ADP	P	_	14	case	_	_
+13	ale	_	DET	Q	_	14	det	_	_
+14	rusin	_	PROPN	NPR	_	11	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.161
+# X_ID = 1818E-GEOGRAFIE,10.171
+# text = das heyst er kan in das land makhin vas %t%-1 er vil
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	heyst	_	VERB	VBF	VerbForm=Fin	8	parataxis	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+4	kan	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+5	in	_	ADP	P	_	7	case	_	_
+6	das	_	DET	D	PronType=Art	7	det	_	_
+7	land	_	NOUN	N-D	Definite=Def	8	obl	_	_
+8	makhin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+9	vas	_	PRON	WPRO	_	12	obj	_	_
+10	%t%-1	_	NOUN	NP-ACC	_	12	dep	_	_
+11	er	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+12	vil	_	VERB	VBF	VerbForm=Fin	8	dep	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.162
+# X_ID = 1818E-GEOGRAFIE,10.172
+# text = un %con% darf bey keynen tsu fregin
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	darf	_	VERB	MDF	VerbForm=Fin	0	root	_	_
+4	bey	_	ADP	P	_	5	case	_	_
+5	keynen	_	DET	Q-NEG	Polarity=Neg	7	obl	_	_
+6	tsu	_	PART	TO	_	7	mark	_	_
+7	fregin	_	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.163
+# X_ID = 1818E-GEOGRAFIE,11.174
+# text = das eyn_tragung fun aler_hant ap_gebung in das land iz 220_mileyon rubl ale yar
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	eyn_tragung	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	_
+3	fun	_	ADP	P	_	5	case	_	_
+4	aler_hant	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	ap_gebung	_	NOUN	N	_	2	obl	_	_
+6	in	_	ADP	P	_	8	case	_	_
+7	das	_	DET	D	PronType=Art	8	det	_	_
+8	land	_	NOUN	N-D	Definite=Def	5	obl	_	_
+9	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	220_mileyon	_	NUM	NUM	_	9	xcomp	_	_
+11	rubl	_	NOUN	N	_	10	conj	_	_
+12	ale	_	DET	Q	_	13	det	_	_
+13	yar	_	NOUN	N	_	10	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.164
+# X_ID = 1818E-GEOGRAFIE,11.175
+# text = rus_land hat mer az 600000 kheyl velkhi %t%-1 nutsin tsu mlkhmh oyf der ibsh 80000 zelner un materazin 32 akrentin 18 fregatin velkhe %t%-2 nutsin tsu mlkhmh oyf di imim
+1	rus_land	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	mer	_	DET	QR	_	2	dep	_	_
+4	az	_	ADP	P	_	5	case	_	_
+5	600000	_	NUM	NUM	_	3	obl	_	_
+6	kheyl	_	NOUN	N	_	5	conj	_	_
+7	velkhi	_	PRON	WPRO	_	9	obj	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+9	nutsin	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+10	tsu	_	ADP	P	_	11	case	_	_
+11	mlkhmh	_	NOUN	N	_	9	obl	_	_
+12	oyf	_	ADP	P	_	14	case	_	_
+13	der	_	DET	D	PronType=Art	14	det	_	_
+14	ibsh	_	NOUN	N-D	Definite=Def	11	obl	_	_
+15	80000	_	NUM	NUM	_	3	conj	_	_
+16	zelner	_	NOUN	N	_	15	conj	_	_
+17	un	_	CCONJ	CONJ	_	18	cc	_	_
+18	materazin	_	NOUN	N	_	15	conj	_	_
+19	32	_	NUM	NUM	_	3	conj	_	_
+20	akrentin	_	NOUN	N	_	19	conj	_	_
+21	18	_	NUM	NUM	_	19	conj	_	_
+22	fregatin	_	NOUN	N	_	21	conj	_	_
+23	velkhe	_	PRON	WPRO	_	25	obj	_	_
+24	%t%-2	_	NOUN	NP-SBJ	_	25	nsubj	_	_
+25	nutsin	_	VERB	VBF	VerbForm=Fin	19	acl:relcl	_	_
+26	tsu	_	ADP	P	_	27	case	_	_
+27	mlkhmh	_	NOUN	N	_	25	obl	_	_
+28	oyf	_	ADP	P	_	30	case	_	_
+29	di	_	DET	D	PronType=Art	30	det	_	_
+30	imim	_	NOUN	N-D	Definite=Def	27	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.165
+# X_ID = 1818E-GEOGRAFIE,11.176
+# text = rus_land hat in zikh 6 universittin in com:list_omitted
+1	rus_land	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	6	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	universittin	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	com:list_omitted	_	NOUN	NP	_	6	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.166
+# X_ID = 1818E-GEOGRAFIE,11.177
+# text = rus_land hat in zikh 50 gubernes
+1	rus_land	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	50	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	gubernes	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.167
+# X_ID = 1818E-GEOGRAFIE,11.178
+# text = un das %ich%-1 zeynen zey : com:list_omitted
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	das	_	DET	D	PronType=Art	3	det	_	_
+3	%ich%-1	_	NOUN	NP-PRN	_	4	xcomp	_	_
+4	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zey	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	SpaceAfter=No
+6	:	_	PUNCT	PUNC	_	4	punct	_	_
+7	com:list_omitted	_	NOUN	NP-1	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.168
+# X_ID = 1818E-GEOGRAFIE,11.179
+# text = velkhi %t%-1 habin in zikh anderi praves : com:list_omitted
+1	velkhi	_	PRON	WPRO	_	3	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	habin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	zikh	_	PRON	PRO	_	3	obl	_	_
+6	anderi	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	praves	_	NOUN	N-ACC	Case=Acc	3	obj	_	SpaceAfter=No
+8	:	_	PUNCT	PUNC	_	7	punct	_	_
+9	com:list_omitted	_	NOUN	NP-PRN	_	7	appos	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.169
+# X_ID = 1818E-GEOGRAFIE,11.180
+# text = ukh hat rus_land eyn stik mdinh vas %t%-1 men ruft gruzie nahant fun perzeye in velkhi %t%-2 es vaunen ukh ihudim
+1	ukh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	rus_land	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+4	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	stik	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+6	mdinh	_	NOUN	N-ACC	Case=Acc	5	nmod:poss	_	_
+7	vas	_	SCONJ	C	_	10	mark	_	_
+8	%t%-1	_	NOUN	NP-ACC	_	10	dep	_	_
+9	men	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+10	ruft	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+11	gruzie	_	PROPN	NPR	_	10	xcomp	_	_
+12	nahant	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+13	fun	_	ADP	P	_	14	case	_	_
+14	perzeye	_	PROPN	NPR	_	12	obl	_	_
+15	in	_	ADP	P	_	16	case	_	_
+16	velkhi	_	PRON	WPRO	_	19	obl	_	_
+17	%t%-2	_	ADP	PP	_	19	obl	_	_
+18	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	19	expl	_	_
+19	vaunen	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+20	ukh	_	ADV	ADV	Degree=Pos	19	advmod	_	_
+21	ihudim	_	NOUN	N-NOM	Case=Nom	19	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.170
+# X_ID = 1818E-GEOGRAFIE,11.181
+# text = oykh eyn stik land fun dunski kazakin
+1	oykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	eyn	_	DET	D	PronType=Art	3	det	_	_
+3	stik	_	NOUN	N-I	Definite=Ind	0	root	_	_
+4	land	_	NOUN	N	_	3	nmod:poss	_	_
+5	fun	_	ADP	P	_	7	case	_	_
+6	dunski	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	kazakin	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.171
+# X_ID = 1818E-GEOGRAFIE,11.182
+# text = oykh di pravintseye fun beyalistak velkhi %t%-1 hat in zikh 200000 nfsut
+1	oykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	di	_	DET	D	PronType=Art	3	det	_	_
+3	pravintseye	_	NOUN	N-D	Definite=Def	0	root	_	_
+4	fun	_	ADP	P	_	5	case	_	_
+5	beyalistak	_	PROPN	NPR	_	3	obl	_	_
+6	velkhi	_	PRON	WPRO	_	8	obj	_	_
+7	%t%-1	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+8	hat	_	VERB	VBF	VerbForm=Fin	3	acl:relcl	_	_
+9	in	_	ADP	P	_	10	case	_	_
+10	zikh	_	PRON	PRO	_	8	obl	_	_
+11	200000	_	NUM	NUM-ACC	Case=Acc	12	nummod	_	_
+12	nfsut	_	NOUN	N-ACC	Case=Acc	8	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.172
+# X_ID = 1818E-GEOGRAFIE,11.183
+# text = oykh eyn gruse stik mdinh in finland velkhi in yahr 1809 iz es ap ginumin givarin fun shveydishin kinigreykh durkh slus
+1	oykh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	eyn	_	DET	D	PronType=Art	4	det	_	_
+3	gruse	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	stik	_	NOUN	N	_	0	root	_	_
+5	mdinh	_	NOUN	N	_	4	nmod:poss	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	finland	_	NOUN	N	_	4	obl	_	_
+8	velkhi	_	PRON	WPRO	_	15	obj	_	_
+9	in	_	ADP	P	_	10	case	_	_
+10	yahr	_	NOUN	N	_	15	obl	_	_
+11	1809	_	NUM	NUM	_	10	nummod	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	15	cop	_	_
+13	es	_	PRON	PRO	_	15	nsubj	_	_
+14	ap	_	ADP	RP	_	15	compound:prt	_	_
+15	ginumin	_	VERB	VAN	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+16	givarin	_	VERB	RDN	Tense=Past|VerbForm=Part	15	dep	_	_
+17	fun	_	ADP	P	_	19	case	_	_
+18	shveydishin	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+19	kinigreykh	_	NOUN	N	_	15	obl	_	_
+20	durkh	_	ADP	P	_	21	case	_	_
+21	slus	_	NOUN	N	_	15	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.173
+# X_ID = 1818E-GEOGRAFIE,11.184
+# text = un es iz derinn faran 898463 npsut
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	derinn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	faran	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+6	898463	_	NUM	NUM-NOM	Case=Nom	7	nummod	_	_
+7	npsut	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.174
+# X_ID = 1818E-GEOGRAFIE,12.186
+# text = oykh giveltigt rus_land oyf fil vitpesn vas %t%-1 ligt oyf den im akinus un ukh etlikhi kleyne stikir land atades in amerike maldave un besarbey in velkhi %t%-2 zeyn di tsvey grusi stet yas un bender
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	giveltigt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	rus_land	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+4	oyf	_	ADP	P	_	6	case	_	_
+5	fil	_	DET	Q	_	6	det	_	_
+6	vitpesn	_	NOUN	N	_	2	obl	_	_
+7	vas	_	SCONJ	C	_	9	mark	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+9	ligt	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+10	oyf	_	ADP	P	_	12	case	_	_
+11	den	_	DET	D	PronType=Art	12	det	_	_
+12	im	_	NOUN	N-D	Definite=Def	9	obl	_	_
+13	akinus	_	NOUN	N-D	Definite=Def	12	conj	_	_
+14	un	_	CCONJ	CONJ	_	18	cc	_	_
+15	ukh	_	ADV	ADV	Degree=Pos	18	advmod	_	_
+16	etlikhi	_	DET	Q	_	18	det	_	_
+17	kleyne	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
+18	stikir	_	NOUN	N	_	6	conj	_	_
+19	land	_	NOUN	N	_	18	nmod:poss	_	_
+20	atades	_	X	X	_	18	dep	_	_
+21	in	_	ADP	P	_	22	case	_	_
+22	amerike	_	PROPN	NPR	_	18	obl	_	_
+23	maldave	_	PROPN	NPR	_	22	flat:name	_	_
+24	un	_	CCONJ	CONJ	_	25	cc	_	_
+25	besarbey	_	PROPN	NPR	_	22	conj	_	_
+26	in	_	ADP	P	_	27	case	_	_
+27	velkhi	_	PRON	WPRO	_	29	obl	_	_
+28	%t%-2	_	ADP	PP	_	29	obl	_	_
+29	zeyn	_	VERB	VBF	VerbForm=Fin	25	acl:relcl	_	_
+30	di	_	DET	D-NOM	Case=Nom|PronType=Art	33	det	_	_
+31	tsvey	_	NUM	NUM-NOM	Case=Nom	33	nummod	_	_
+32	grusi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	33	amod	_	_
+33	stet	_	NOUN	N-NOM	Case=Nom	29	nsubj	_	_
+34	yas	_	PROPN	NPR	_	33	appos	_	_
+35	un	_	CCONJ	CONJ	_	36	cc	_	_
+36	bender	_	PROPN	NPR	_	34	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.175
+# X_ID = 1818E-GEOGRAFIE,12.187
+# text = fun pulishi kinigreykh di grenetsin zeynn dizi
+1	fun	_	ADP	P	_	3	case	_	_
+2	pulishi	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	kinigreykh	_	NOUN	N	_	5	obl	_	_
+4	di	_	DET	D	PronType=Art	5	det	_	_
+5	grenetsin	_	NOUN	N-D	Definite=Def	6	xcomp	_	_
+6	zeynn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	dizi	_	DET	D-NOM	Case=Nom|PronType=Art	6	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.176
+# X_ID = 1818E-GEOGRAFIE,12.188
+# text = tsu mrkh zeyt iz rus_land
+1	tsu	_	ADP	P	_	3	case	_	_
+2	mrkh	east	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	rus_land	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.177
+# X_ID = 1818E-GEOGRAFIE,12.189
+# text = tsu merib iz puzna mit di gantsi stik mdinh vas %t%-1 giher dr_tsu
+1	tsu	_	ADP	P	_	2	dep	_	_
+2	merib	west	X	H	_	3	dep	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	puzna	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+5	mit	_	ADP	P	_	8	case	_	_
+6	di	_	DET	D	PronType=Art	8	det	_	_
+7	gantsi	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	stik	_	NOUN	N	_	4	obl	_	_
+9	mdinh	_	NOUN	N	_	8	nmod:poss	_	_
+10	vas	_	SCONJ	C	_	12	mark	_	_
+11	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+12	giher	_	VERB	VBF	VerbForm=Fin	8	acl:relcl	_	_
+13	dr_tsu	_	ADP	P	_	12	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.178
+# X_ID = 1818E-GEOGRAFIE,12.190
+# text = un yetsund giher es tsum preysishin kinig
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	yetsund	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	giher	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	es	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	tsum	_	ADP	P-CL	_	7	case	_	_
+6	preysishin	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	kinig	_	NOUN	N	_	3	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.179
+# X_ID = 1818E-GEOGRAFIE,12.191
+# text = oyf tsfun zeyt iz preysin
+1	oyf	_	ADP	P	_	2	case	_	_
+2	tsfun	north	NOUN	N	_	4	obl	_	_
+3	zeyt	_	NOUN	N	_	2	conj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	preysin	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.180
+# X_ID = 1818E-GEOGRAFIE,12.192
+# text = un tsu drum iz galeytseye un di frey reykh_stat krake un ds vas %t%-1 tsu ir giher
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	tsu	_	ADP	P	_	3	dep	_	_
+3	drum	south	X	H	_	4	dep	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	galeytseye	_	PROPN	NPR	_	4	nsubj	_	_
+6	un	_	CCONJ	CONJ	_	9	cc	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+8	frey	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	9	amod	_	_
+9	reykh_stat	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	conj	_	_
+10	krake	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+11	un	_	CCONJ	CONJ	_	12	cc	_	_
+12	ds	_	DET	D	PronType=Art	5	conj	_	_
+13	vas	_	SCONJ	C	_	17	mark	_	_
+14	%t%-1	_	NOUN	NP-SBJ	_	17	nsubj	_	_
+15	tsu	_	ADP	P	_	16	case	_	_
+16	ir	_	PRON	PRO	_	17	obl	_	_
+17	giher	_	VERB	VBF	VerbForm=Fin	12	acl:relcl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.181
+# X_ID = 1818E-GEOGRAFIE,12.193
+# text = pulin hat in zikh platts 2214 meyl kvadrattavi 487 stet 21576 derfer un mehr als drey_milian npsut
+1	pulin	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	platts	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+6	2214	_	NUM	NUM	_	5	nummod	_	_
+7	meyl	_	NOUN	N	_	5	conj	_	_
+8	kvadrattavi	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+9	487	_	NUM	NUM	_	5	conj	_	_
+10	stet	_	NOUN	N	_	9	conj	_	_
+11	21576	_	NUM	NUM	_	5	conj	_	_
+12	derfer	_	NOUN	N	_	11	conj	_	_
+13	un	_	CCONJ	CONJ	_	14	cc	_	_
+14	mehr	_	DET	QR	_	5	conj	_	_
+15	als	_	ADP	P	_	16	case	_	_
+16	drey_milian	_	NUM	NUM	_	14	obl	_	_
+17	npsut	_	NOUN	N	_	16	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.182
+# X_ID = 1818E-GEOGRAFIE,12.194
+# text = estreykhisi kisriut di grenetsin zeyn dizi
+1	estreykhisi	_	ADJ	ADJ	Degree=Pos	5	xcomp	_	_
+2	kisriut	_	NOUN	N	_	1	conj	_	_
+3	di	_	DET	D	PronType=Art	1	det	_	_
+4	grenetsin	_	NOUN	N-D	Definite=Def	1	conj	_	_
+5	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	dizi	_	DET	D-NOM	Case=Nom|PronType=Art	5	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.183
+# X_ID = 1818E-GEOGRAFIE,12.195
+# text = tsu mzrkh zeyt iz rus_land un turkey
+1	tsu	_	ADP	P	_	3	case	_	_
+2	mzrkh	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	rus_land	_	PROPN	NPR	_	4	nsubj	_	_
+6	un	_	CCONJ	CONJ	_	7	cc	_	_
+7	turkey	_	NOUN	NP-SBJ	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.184
+# X_ID = 1818E-GEOGRAFIE,12.196
+# text = tsu drum iz oykh turkey adriatishki mehr itley un vinitsey
+1	tsu	_	ADP	P	_	2	dep	_	_
+2	drum	south	X	H	_	3	dep	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	oykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	turkey	_	PROPN	NPR	_	3	nsubj	_	_
+6	adriatishki	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	mehr	_	NOUN	N	_	5	conj	_	_
+8	itley	_	NOUN	NP-SBJ	_	5	conj	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	vinitsey	_	PROPN	NPR	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.185
+# X_ID = 1818E-GEOGRAFIE,12.197
+# text = tsu merib iz oykh adriatisiki mehr itley un teyts_land
+1	tsu	_	ADP	P	_	2	dep	_	_
+2	merib	west	X	H	_	3	dep	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	oykh	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	adriatisiki	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+6	mehr	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+7	itley	_	PROPN	NPR	_	6	conj	_	_
+8	un	_	CCONJ	CONJ	_	9	cc	_	_
+9	teyts_land	_	PROPN	NPR	_	6	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.186
+# X_ID = 1818E-GEOGRAFIE,12.198
+# text = tsu tsfun iz preysin krakevir kreyz un rus_land
+1	tsu	_	ADP	P	_	2	dep	_	_
+2	tsfun	north	X	H	_	3	dep	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	preysin	_	PROPN	NPR	_	3	nsubj	_	_
+5	krakevir	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	kreyz	_	NOUN	N	_	4	conj	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	rus_land	_	PROPN	NPR	_	4	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.187
+# X_ID = 1818E-GEOGRAFIE,12.199
+# text = ds land hat in zikh 11200 meyl kvadratavi platts un 24_mileyan npsut
+1	ds	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	land	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	zikh	_	PRON	PRO	_	3	obl	_	_
+6	11200	_	NUM	NUM-ACC	Case=Acc	7	nummod	_	_
+7	meyl	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+8	kvadratavi	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+9	platts	_	NOUN	N-ACC	Case=Acc	7	nmod:poss	_	_
+10	un	_	CCONJ	CONJ	_	11	cc	_	_
+11	24_mileyan	_	NUM	NUM	_	7	conj	_	_
+12	npsut	_	NOUN	N	_	11	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.188
+# X_ID = 1818E-GEOGRAFIE,12.200
+# text = preysisi kinigreykh di grenetsin zeyn dizi
+1	preysisi	_	ADJ	ADJ	Degree=Pos	5	xcomp	_	_
+2	kinigreykh	_	NOUN	N	_	1	conj	_	_
+3	di	_	DET	D	PronType=Art	1	det	_	_
+4	grenetsin	_	NOUN	N-D	Definite=Def	1	conj	_	_
+5	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	dizi	_	DET	D-NOM	Case=Nom|PronType=Art	5	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.189
+# X_ID = 1818E-GEOGRAFIE,12.201
+# text = tsu tsfun zeyt iz mekil_berg
+1	tsu	_	ADP	P	_	3	case	_	_
+2	tsfun	north	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	mekil_berg	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.190
+# X_ID = 1818E-GEOGRAFIE,12.202
+# text = tsu mzrkh zeyt iz rus_land
+1	tsu	_	ADP	P	_	3	case	_	_
+2	mzrkh	east	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	rus_land	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.191
+# X_ID = 1818E-GEOGRAFIE,12.203
+# text = tsu drum iz pulin ustreye zaksin
+1	tsu	_	ADP	P	_	2	dep	_	_
+2	drum	south	X	H	_	3	dep	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	pulin	_	PROPN	NPR	_	3	nsubj	_	_
+5	ustreye	_	PROPN	NPR	_	4	flat:name	_	_
+6	zaksin	_	NOUN	NP-SBJ	_	4	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.192
+# X_ID = 1818E-GEOGRAFIE,12.204
+# text = tsu merib zeyt iz frankreykh nidr_land un teyts_land
+1	tsu	_	ADP	P	_	3	case	_	_
+2	merib	west	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	frankreykh	_	PROPN	NPR	_	4	nsubj	_	_
+6	nidr_land	_	PROPN	NPR	_	5	flat:name	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	teyts_land	_	PROPN	NPR	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.193
+# X_ID = 1818E-GEOGRAFIE,13.206
+# text = es hat in zikh 4900 meyl kvadratevi platts un 10_mileyan npsut
+1	es	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	4900	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	meyl	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	kvadratevi	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+8	platts	_	NOUN	N-ACC	Case=Acc	6	nmod:poss	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	10_mileyan	_	NUM	NUM	_	6	conj	_	_
+11	npsut	_	NOUN	N	_	10	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.194
+# X_ID = 1818E-GEOGRAFIE,13.207
+# text = in mzrkh zeyt fun preysin zeyn di gresti stet kinigs_berg bey den pregil vas %t%-1 falt areyn in frish hafin pilava udr pilu mit eyn gutin part memil mit eyn part un eyn gutin khzkt un gumbin
+1	in	_	ADP	P	_	3	case	_	_
+2	mzrkh	east	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	6	obl	_	_
+4	fun	_	ADP	P	_	5	case	_	_
+5	preysin	_	PROPN	NPR	_	3	obl	_	_
+6	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	di	_	DET	D	PronType=Art	9	det	_	_
+8	gresti	_	ADJ	ADJS	Degree=Pos	9	amod	_	_
+9	stet	_	NOUN	N-D	Definite=Def	6	xcomp	_	_
+10	kinigs_berg	_	PROPN	NPR	_	6	nsubj	_	_
+11	bey	_	ADP	P	_	13	case	_	_
+12	den	_	DET	D	PronType=Art	13	det	_	_
+13	pregil	_	PROPN	NPR	_	10	obl	_	_
+14	vas	_	SCONJ	C	_	16	mark	_	_
+15	%t%-1	_	NOUN	NP-SBJ	_	16	nsubj	_	_
+16	falt	_	VERB	VBF	VerbForm=Fin	13	acl:relcl	_	_
+17	areyn	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+18	in	_	ADP	P	_	20	case	_	_
+19	frish	_	ADJ	ADJ	Degree=Pos	20	amod	_	_
+20	hafin	_	NOUN	N	_	17	obl	_	_
+21	pilava	_	PROPN	NPR	_	10	conj	_	_
+22	udr	_	CCONJ	CONJ	_	23	cc	_	_
+23	pilu	_	PROPN	NPR	_	21	conj	_	_
+24	mit	_	ADP	P	_	27	case	_	_
+25	eyn	_	DET	D	PronType=Art	27	det	_	_
+26	gutin	_	ADJ	ADJ	Degree=Pos	27	amod	_	_
+27	part	_	NOUN	N-I	Definite=Ind	21	obl	_	_
+28	memil	_	PROPN	NPR	_	10	conj	_	_
+29	mit	_	ADP	P	_	31	case	_	_
+30	eyn	_	DET	D	PronType=Art	31	det	_	_
+31	part	_	NOUN	N-I	Definite=Ind	28	obl	_	_
+32	un	_	CCONJ	CONJ	_	35	cc	_	_
+33	eyn	_	DET	D	PronType=Art	35	det	_	_
+34	gutin	_	ADJ	ADJ	Degree=Pos	35	amod	_	_
+35	khzkt	_	NOUN	N-I	Definite=Ind	31	conj	_	_
+36	un	_	CCONJ	CONJ	_	37	cc	_	_
+37	gumbin	_	NOUN	N	_	10	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.195
+# X_ID = 1818E-GEOGRAFIE,13.208
+# text = in merib zeyt zeyn di gresti stet gdansk kvidnin elbling un grudents mit eyn gutin khukt
+1	in	_	ADP	P	_	3	case	_	_
+2	merib	west	X	H	_	3	dep	_	_
+3	zeyt	_	NOUN	N	_	4	obl	_	_
+4	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	di	_	DET	D	PronType=Art	7	det	_	_
+6	gresti	_	ADJ	ADJS	Degree=Pos	7	amod	_	_
+7	stet	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+8	gdansk	_	PROPN	NPR	_	4	nsubj	_	_
+9	kvidnin	_	PROPN	NPR	_	8	flat:name	_	_
+10	elbling	_	NOUN	NP-SBJ	_	8	conj	_	_
+11	un	_	CCONJ	CONJ	_	12	cc	_	_
+12	grudents	_	PROPN	NPR	_	8	conj	_	_
+13	mit	_	ADP	P	_	16	case	_	_
+14	eyn	_	DET	D	PronType=Art	16	det	_	_
+15	gutin	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	khukt	_	NOUN	N-I	Definite=Ind	12	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.196
+# X_ID = 1818E-GEOGRAFIE,13.209
+# text = in brandenburg vas %t%-1 giher tsu preysin zeyn di gresti stet
+1	in	_	ADP	P	_	2	case	_	_
+2	brandenburg	_	PROPN	NPR	_	8	obl	_	_
+3	vas	_	SCONJ	C	_	5	mark	_	_
+4	%t%-1	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+5	giher	_	VERB	VBF	VerbForm=Fin	2	acl:relcl	_	_
+6	tsu	_	ADP	P	_	7	case	_	_
+7	preysin	_	PROPN	NPR	_	5	obl	_	_
+8	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	di	_	DET	D	PronType=Art	11	det	_	_
+10	gresti	_	ADJ	ADJS	Degree=Pos	11	amod	_	_
+11	stet	_	NOUN	N-D	Definite=Def	8	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.197
+# X_ID = 1818E-GEOGRAFIE,13.210
+# text = in pamerin zeyn di gresti stet
+1	in	_	ADP	P	_	2	case	_	_
+2	pamerin	_	NOUN	N	_	3	obl	_	_
+3	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D	PronType=Art	6	det	_	_
+5	gresti	_	ADJ	ADJS	Degree=Pos	6	amod	_	_
+6	stet	_	NOUN	N-D	Definite=Def	3	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.198
+# X_ID = 1818E-GEOGRAFIE,13.211
+# text = in slezey zeyn di gresti stet
+1	in	_	ADP	P	_	2	case	_	_
+2	slezey	_	NOUN	N	_	3	obl	_	_
+3	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D	PronType=Art	6	det	_	_
+5	gresti	_	ADJ	ADJS	Degree=Pos	6	amod	_	_
+6	stet	_	NOUN	N-D	Definite=Def	3	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.199
+# X_ID = 1818E-GEOGRAFIE,13.212
+# text = in zaksin vas %t%-1 giher yetsund tsu preysin zeyn di gresti stet :
+1	in	_	ADP	P	_	2	case	_	_
+2	zaksin	_	PROPN	NPR	_	9	obl	_	_
+3	vas	_	SCONJ	C	_	5	mark	_	_
+4	%t%-1	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+5	giher	_	VERB	VBF	VerbForm=Fin	2	acl:relcl	_	_
+6	yetsund	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	tsu	_	ADP	P	_	8	case	_	_
+8	preysin	_	PROPN	NPR	_	5	obl	_	_
+9	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	di	_	DET	D	PronType=Art	12	det	_	_
+11	gresti	_	ADJ	ADJS	Degree=Pos	12	amod	_	_
+12	stet	_	NOUN	N-D	Definite=Def	9	xcomp	_	SpaceAfter=No
+13	:	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.200
+# X_ID = 1818E-GEOGRAFIE,13.213
+# text = ukh hat preysin ginumin eyn gruse teyl land
+1	ukh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	hat	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	preysin	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+4	ginumin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+6	gruse	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	teyl	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+8	land	_	NOUN	N-ACC	Case=Acc	7	nmod:poss	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.201
+# X_ID = 1818E-GEOGRAFIE,13.214
+# text = un derinn zeyn di stet
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	derinn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	stet	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.202
+# X_ID = 1818E-GEOGRAFIE,14.216
+# text = fun baeyersi kinigreykh
+1	fun	_	ADP	P	_	3	case	_	_
+2	baeyersi	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	kinigreykh	_	NOUN	N	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.203
+# X_ID = 1818E-GEOGRAFIE,14.217
+# text = di kinigreykh fun beyerin hot in zikh 15000 meyl kvadratavi platts un mer az 3_mileyan npsut
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	kinigreykh	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	beyerin	_	PROPN	NPR	_	2	obl	_	_
+5	hot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	zikh	_	PRON	PRO	_	5	obl	_	_
+8	15000	_	NUM	NUM-ACC	Case=Acc	9	nummod	_	_
+9	meyl	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+10	kvadratavi	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	9	amod	_	_
+11	platts	_	NOUN	N-ACC	Case=Acc	9	nmod:poss	_	_
+12	un	_	CCONJ	CONJ	_	13	cc	_	_
+13	mer	_	DET	QR	_	9	conj	_	_
+14	az	_	ADP	P	_	15	case	_	_
+15	3_mileyan	_	NUM	NUM	_	13	obl	_	_
+16	npsut	_	NOUN	N	_	15	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.204
+# X_ID = 1818E-GEOGRAFIE,14.218
+# text = das land ligt bey di teykin dunoy reyn un meyn
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	land	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	ligt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	bey	_	ADP	P	_	6	case	_	_
+5	di	_	DET	D	PronType=Art	6	det	_	_
+6	teykin	_	NOUN	N-D	Definite=Def	3	obl	_	_
+7	dunoy	_	PROPN	NPR	_	6	appos	_	_
+8	reyn	_	PROPN	NPR	_	7	flat:name	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	meyn	_	PROPN	NPR	_	7	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.205
+# X_ID = 1818E-GEOGRAFIE,14.219
+# text = es kinigt derinin maksimileyan yazef
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	kinigt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	derinin	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	maksimileyan	_	PROPN	NPR-LGS	_	2	dep	_	_
+5	yazef	_	PROPN	NPR	_	4	flat:name	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.206
+# X_ID = 1818E-GEOGRAFIE,14.220
+# text = eyn_kunft hat das land 18_mileyan guldin %ich%-1 un 60000 kheyl
+1	eyn_kunft	_	NOUN	N	_	2	obl	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	das	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	land	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	nsubj	_	_
+5	18_mileyan	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	guldin	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	%ich%-1	_	NOUN	NP-COM	_	6	nmod:poss	_	_
+8	un	_	CCONJ	CONJ	_	9	cc	_	_
+9	60000	_	NUM	NUM	_	6	conj	_	_
+10	kheyl	_	NOUN	N	_	9	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.207
+# X_ID = 1818E-GEOGRAFIE,14.221
+# text = di gresti stet zeyn dize oykh vas %t%-1 ap ginumin givarin iz fun frankreykh di stat tsveybrekin
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	gresti	_	ADJ	ADJS	Degree=Pos	3	amod	_	_
+3	stet	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+4	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	dize	_	DET	D-NOM	Case=Nom|PronType=Art	4	nsubj	_	_
+6	oykh	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+7	vas	_	SCONJ	C	_	10	mark	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+9	ap	_	ADP	RP	_	10	compound:prt	_	_
+10	ginumin	_	VERB	VAN	Tense=Past|VerbForm=Part	5	conj	_	_
+11	givarin	_	VERB	RDN	Tense=Past|VerbForm=Part	10	dep	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+13	fun	_	ADP	P	_	14	case	_	_
+14	frankreykh	_	PROPN	NPR	_	10	obl	_	_
+15	di	_	DET	D	PronType=Art	17	det	_	_
+16	stat	_	NOUN	N	_	17	conj	_	_
+17	tsveybrekin	_	PROPN	NPR-D	_	10	appos	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.208
+# X_ID = 1818E-GEOGRAFIE,14.222
+# text = zaksin kinigreykh
+1	zaksin	_	PROPN	NPR	_	0	root	_	_
+2	kinigreykh	_	NOUN	N	_	1	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.209
+# X_ID = 1818E-GEOGRAFIE,14.223
+# text = zaksin_land hat nist mer az 340 meyl kvadratavi platts un mer az eyn_mileyan npsut
+1	zaksin_land	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+4	mer	_	DET	QR	_	2	dep	_	_
+5	az	_	ADP	P	_	6	case	_	_
+6	340	_	NUM	NUM	_	4	obl	_	_
+7	meyl	_	NOUN	N	_	6	conj	_	_
+8	kvadratavi	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+9	platts	_	NOUN	N	_	6	nmod:poss	_	_
+10	un	_	CCONJ	CONJ	_	11	cc	_	_
+11	mer	_	DET	QR	_	4	conj	_	_
+12	az	_	ADP	P	_	13	case	_	_
+13	eyn_mileyan	_	NUM	NUM	_	11	obl	_	_
+14	npsut	_	NOUN	N	_	13	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.210
+# X_ID = 1818E-GEOGRAFIE,14.224
+# text = der kinig iz drinn fridrikh agust
+1	der	_	DET	D	PronType=Art	2	det	_	_
+2	kinig	_	NOUN	N-D	Definite=Def	3	xcomp	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	drinn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	fridrikh	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+6	agust	_	PROPN	NPR	_	5	flat:name	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.211
+# X_ID = 1818E-GEOGRAFIE,14.225
+# text = eyn_kunft hat ds land 10_mileyan guldn %ich%-1 un nist mer az 10000 khl
+1	eyn_kunft	_	NOUN	N	_	2	obl	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ds	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	land	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	nsubj	_	_
+5	10_mileyan	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	guldn	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	%ich%-1	_	NOUN	NP-COM	_	6	nmod:poss	_	_
+8	un	_	CCONJ	CONJ	_	10	cc	_	_
+9	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+10	mer	_	DET	QR	_	6	conj	_	_
+11	az	_	ADP	P	_	12	case	_	_
+12	10000	_	NUM	NUM	_	10	obl	_	_
+13	khl	_	NOUN	N	_	12	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.212
+# X_ID = 1818E-GEOGRAFIE,14.226
+# text = di gresti stet zeynn dize com:list_omitted
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	gresti	_	ADJ	ADJS	Degree=Pos	3	amod	_	_
+3	stet	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+4	zeynn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	dize	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	com:list_omitted	_	NOUN	NP-PRN	_	4	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.213
+# X_ID = 1818E-GEOGRAFIE,14.227
+# text = hanaversi kinigreykh
+1	hanaversi	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	kinigreykh	_	NOUN	N	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.214
+# X_ID = 1818E-GEOGRAFIE,14.228
+# text = di hanavrshi land velkhi %t%-1 hat in zikh 580 meyl platts un mer az eyn_mileyan npsut iz yetsund eyn kinigreykh velkhi %t%-2 giher tsum engilshin kinig un %t%-2 hat eyn_kunft 10_mileyan guldin un 24000 kheyl
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	hanavrshi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	land	_	NOUN	N-NOM	Case=Nom	17	nsubj	_	_
+4	velkhi	_	PRON	WPRO	_	6	obj	_	_
+5	%t%-1	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+6	hat	_	VERB	VBF	VerbForm=Fin	3	acl:relcl	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	zikh	_	PRON	PRO	_	6	obl	_	_
+9	580	_	NUM	NUM-ACC	Case=Acc	10	nummod	_	_
+10	meyl	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+11	platts	_	NOUN	N-ACC	Case=Acc	10	nmod:poss	_	_
+12	un	_	CCONJ	CONJ	_	13	cc	_	_
+13	mer	_	DET	QR	_	10	conj	_	_
+14	az	_	ADP	P	_	15	case	_	_
+15	eyn_mileyan	_	NUM	NUM	_	13	obl	_	_
+16	npsut	_	NOUN	N	_	15	conj	_	_
+17	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+18	yetsund	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+19	eyn	_	DET	D	PronType=Art	20	det	_	_
+20	kinigreykh	_	NOUN	N-I	Definite=Ind	17	xcomp	_	_
+21	velkhi	_	PRON	WPRO	_	23	obj	_	_
+22	%t%-2	_	NOUN	NP-SBJ	_	23	nsubj	_	_
+23	giher	_	VERB	VBF	VerbForm=Fin	20	acl:relcl	_	_
+24	tsum	_	ADP	P-CL	_	26	case	_	_
+25	engilshin	_	ADJ	ADJ	Degree=Pos	26	amod	_	_
+26	kinig	_	NOUN	N	_	23	obl	_	_
+27	un	_	CCONJ	CONJ	_	29	cc	_	_
+28	%t%-2	_	NOUN	NP-SBJ	_	29	nsubj	_	_
+29	hat	_	VERB	VBF	VerbForm=Fin	23	conj	_	_
+30	eyn_kunft	_	NOUN	N-ACC	Case=Acc	29	obj	_	_
+31	10_mileyan	_	NUM	NUM	_	30	nummod	_	_
+32	guldin	_	NOUN	N	_	30	conj	_	_
+33	un	_	CCONJ	CONJ	_	34	cc	_	_
+34	24000	_	NUM	NUM	_	30	conj	_	_
+35	kheyl	_	NOUN	N	_	34	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.215
+# X_ID = 1818E-GEOGRAFIE,14.229
+# text = di gresti stet zeyn derinen
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	gresti	_	ADJ	ADJS	Degree=Pos	3	amod	_	_
+3	stet	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+4	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	derinen	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.216
+# X_ID = 1818E-GEOGRAFIE,15.231
+# text = virtimbergr kinigreykh
+1	virtimbergr	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	kinigreykh	_	NOUN	N	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.217
+# X_ID = 1818E-GEOGRAFIE,15.232
+# text = di kinigreykh hat in zikh 669 meyl arubeut platts un 1578000 npsut
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	kinigreykh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	zikh	_	PRON	PRO	_	3	obl	_	_
+6	669	_	NUM	NUM-ACC	Case=Acc	7	nummod	_	_
+7	meyl	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+8	arubeut	UNKNOWN	X	H	_	7	dep	_	_
+9	platts	_	NOUN	N	_	7	nmod:poss	_	_
+10	un	_	CCONJ	CONJ	_	11	cc	_	_
+11	1578000	_	NUM	NUM	_	7	conj	_	_
+12	npsut	_	NOUN	N	_	11	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.218
+# X_ID = 1818E-GEOGRAFIE,15.233
+# text = es kinigt drinn fridrerik vilhelm karal
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	kinigt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	drinn	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	fridrerik	_	PROPN	NPR-LGS	_	2	dep	_	_
+5	vilhelm	_	PROPN	NPR	_	4	flat:name	_	_
+6	karal	_	PROPN	NPR	_	4	dep	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.219
+# X_ID = 1818E-GEOGRAFIE,15.234
+# text = eyn_kunft hat das land 10_mileyan guldin %ich%-1 un 27000 kheyl
+1	eyn_kunft	_	NOUN	N	_	2	obl	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	das	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	land	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	nsubj	_	_
+5	10_mileyan	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	guldin	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	%ich%-1	_	NOUN	NP-COM	_	6	nmod:poss	_	_
+8	un	_	CCONJ	CONJ	_	9	cc	_	_
+9	27000	_	NUM	NUM	_	6	conj	_	_
+10	kheyl	_	NOUN	N	_	9	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.220
+# X_ID = 1818E-GEOGRAFIE,15.235
+# text = di gresti stet zeyn derinn
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	gresti	_	ADJ	ADJS	Degree=Pos	3	amod	_	_
+3	stet	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+4	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	derinn	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.221
+# X_ID = 1818E-GEOGRAFIE,15.236
+# text = sardineyer kinigreykh
+1	sardineyer	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	kinigreykh	_	NOUN	N	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.222
+# X_ID = 1818E-GEOGRAFIE,15.237
+# text = di kinigreykh hat in zikh 1350 meyl platts un 3_mileyan_mit_eyn_halb npsut
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	kinigreykh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	zikh	_	PRON	PRO	_	3	obl	_	_
+6	1350	_	NUM	NUM-ACC	Case=Acc	7	nummod	_	_
+7	meyl	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+8	platts	_	NOUN	N-ACC	Case=Acc	7	nmod:poss	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	3_mileyan_mit_eyn_halb	_	NUM	NUM	_	7	conj	_	_
+11	npsut	_	NOUN	N	_	10	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.223
+# X_ID = 1818E-GEOGRAFIE,15.238
+# text = eyn_kunft hat das land 48_mileyan liver %ich%-1 un 70000 kheyl un 2 fregatin ader aukrentin
+1	eyn_kunft	_	NOUN	N	_	2	obl	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	das	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	land	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	nsubj	_	_
+5	48_mileyan	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	liver	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	%ich%-1	_	NOUN	NP-COM	_	6	nmod:poss	_	_
+8	un	_	CCONJ	CONJ	_	9	cc	_	_
+9	70000	_	NUM	NUM	_	6	conj	_	_
+10	kheyl	_	NOUN	N	_	9	conj	_	_
+11	un	_	CCONJ	CONJ	_	12	cc	_	_
+12	2	_	NUM	NUM	_	6	conj	_	_
+13	fregatin	_	NOUN	N	_	12	conj	_	_
+14	ader	_	CCONJ	CONJ	_	15	cc	_	_
+15	aukrentin	_	NOUN	N	_	12	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.224
+# X_ID = 1818E-GEOGRAFIE,15.239
+# text = di gresti stet zeyn drinn samberi turin in velkhi %t%-1 der kinig viktar emanuel rezedirt genevi kagliarey in velkhi %t%-2 der vitse_kinig rezidirt
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	gresti	_	ADJ	ADJS	Degree=Pos	3	amod	_	_
+3	stet	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+4	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	drinn	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	samberi	_	PROPN	NPR	_	4	nsubj	_	_
+7	turin	_	PROPN	NPR	_	6	flat:name	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	velkhi	_	PRON	WPRO	_	15	obl	_	_
+10	%t%-1	_	ADP	PP	_	15	obl	_	_
+11	der	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+12	kinig	_	NOUN	N-NOM	Case=Nom	15	nsubj	_	_
+13	viktar	_	PROPN	NPR-D	_	12	dep	_	_
+14	emanuel	_	PROPN	NPR-D	_	12	dep	_	_
+15	rezedirt	_	VERB	VBF	VerbForm=Fin	7	acl:relcl	_	_
+16	genevi	_	PROPN	NPR	_	6	conj	_	_
+17	kagliarey	_	PROPN	NPR	_	6	conj	_	_
+18	in	_	ADP	P	_	19	case	_	_
+19	velkhi	_	PRON	WPRO	_	23	obl	_	_
+20	%t%-2	_	ADP	PP	_	23	obl	_	_
+21	der	_	DET	D-NOM	Case=Nom|PronType=Art	22	det	_	_
+22	vitse_kinig	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	23	nsubj	_	_
+23	rezidirt	_	VERB	VBF	VerbForm=Fin	17	acl:relcl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.225
+# X_ID = 1818E-GEOGRAFIE,15.240
+# text = fun vlakhin_land
+1	fun	_	ADP	P	_	2	case	_	_
+2	vlakhin_land	_	PROPN	NPR	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.226
+# X_ID = 1818E-GEOGRAFIE,15.241
+# text = in vlakhin_land uder itley in velkhi %t%-1 tsu_far napala gikinigt hat iz yetsund tsu_teylt givarin oyf sardinier kinigreykh velkhi %t%-2 shun bsribn iz zu oykh oyf lambarde_vintsie kinigreykh velkhi %t%-3 giher tsum estreykhshin kisr
+1	in	_	CCONJ	CONJ	_	14	cc	_	_
+2	vlakhin_land	_	PROPN	NPR	_	14	nsubj	_	_
+3	uder	_	CCONJ	CONJ	_	4	cc	_	_
+4	itley	_	NOUN	NP-SBJ	_	2	conj	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	velkhi	_	PRON	WPRO	_	10	obl	_	_
+7	%t%-1	_	ADP	PP	_	10	obl	_	_
+8	tsu_far	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+9	napala	_	PROPN	NPR-SBJ	_	10	nsubj	_	_
+10	gikinigt	_	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+11	hat	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	14	cop	_	_
+13	yetsund	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+14	tsu_teylt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+15	givarin	_	VERB	RDN	Tense=Past|VerbForm=Part	14	dep	_	_
+16	oyf	_	ADP	P	_	18	case	_	_
+17	sardinier	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
+18	kinigreykh	_	NOUN	N	_	14	obl	_	_
+19	velkhi	_	PRON	WPRO	_	22	obj	_	_
+20	%t%-2	_	NOUN	NP-SBJ	_	22	nsubj	_	_
+21	shun	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+22	bsribn	_	VERB	VAN	Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	iz	_	AUX	BEF	VerbForm=Fin	22	cop	_	_
+24	zu	_	ADV	ADV	Degree=Pos	28	advmod	_	_
+25	oykh	_	ADV	ADV	Degree=Pos	28	advmod	_	_
+26	oyf	_	ADP	P	_	28	case	_	_
+27	lambarde_vintsie	_	ADJ	ADJ	Degree=Pos	28	amod	_	_
+28	kinigreykh	_	NOUN	N	_	14	conj	_	_
+29	velkhi	_	PRON	WPRO	_	31	obj	_	_
+30	%t%-3	_	NOUN	NP-SBJ	_	31	nsubj	_	_
+31	giher	_	VERB	VBF	VerbForm=Fin	28	acl:relcl	_	_
+32	tsum	_	ADP	P-CL	_	34	case	_	_
+33	estreykhshin	_	ADJ	ADJ	Degree=Pos	34	amod	_	_
+34	kisr	_	NOUN	N	_	31	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.227
+# X_ID = 1818E-GEOGRAFIE,15.242
+# text = un es hat eyn vitse_kinig velkhir %t%-1 rezidirt in vinitsey un tsu tseytin in medileyan
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	es	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	vitse_kinig	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+6	velkhir	_	PRON	WPRO	_	8	obj	_	_
+7	%t%-1	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+8	rezidirt	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+9	in	_	ADP	P	_	10	case	_	_
+10	vinitsey	_	PROPN	NPR	_	8	obl	_	_
+11	un	_	CCONJ	CONJ	_	8	cc	_	_
+12	tsu	_	ADP	P	_	13	case	_	_
+13	tseytin	_	NOUN	N	_	8	obl	_	_
+14	in	_	ADP	P	_	15	case	_	_
+15	medileyan	_	PROPN	NPR	_	8	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.228
+# X_ID = 1818E-GEOGRAFIE,16.244
+# text = di gresti stet zeyn drinn vinetsie
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	gresti	_	ADJ	ADJS	Degree=Pos	3	amod	_	_
+3	stet	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+4	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	drinn	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	vinetsie	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.229
+# X_ID = 1818E-GEOGRAFIE,16.245
+# text = zi iz giboyt oyf 60 kleyni vispes
+1	zi	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+3	giboyt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+4	oyf	_	ADP	P	_	5	case	_	_
+5	60	_	NUM	NUM	_	3	obl	_	_
+6	kleyni	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	vispes	_	NOUN	N	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.230
+# X_ID = 1818E-GEOGRAFIE,16.246
+# text = un es iz drinn 450 brikin
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	drinn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	450	_	NUM	NUM-NOM	Case=Nom	6	nummod	_	_
+6	brikin	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.231
+# X_ID = 1818E-GEOGRAFIE,16.247
+# text = medilian makbe un nokh fil anderi
+1	medilian	_	NOUN	N	_	0	root	_	_
+2	makbe	_	NOUN	N	_	1	conj	_	_
+3	un	_	CCONJ	CONJ	_	5	cc	_	_
+4	nokh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	fil	_	DET	Q	_	1	conj	_	_
+6	anderi	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.232
+# X_ID = 1818E-GEOGRAFIE,16.248
+# text = oykh hat men in das vlakhin_land ap giteylt eyn stik mdinh fun 90 meyl plats hundrt_tuzint npsut tsvey_mileyan frank eyn_kunft fr di takhtir fun estreykir kisr marie ludvike di grus_ferstin fun parme
+1	oykh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+2	hat	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+3	men	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+4	in	_	ADP	P	_	6	case	_	_
+5	das	_	DET	D	PronType=Art	6	det	_	_
+6	vlakhin_land	_	PROPN	NPR-D	_	8	obl	_	_
+7	ap	_	ADP	RP	_	8	compound:prt	_	_
+8	giteylt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	10	det	_	_
+10	stik	_	NOUN	N-ACC	Case=Acc	8	obj	_	_
+11	mdinh	_	NOUN	N-ACC	Case=Acc	10	nmod:poss	_	_
+12	fun	_	ADP	P	_	13	case	_	_
+13	90	_	NUM	NUM	_	10	obl	_	_
+14	meyl	_	NOUN	N	_	13	conj	_	_
+15	plats	_	NOUN	N	_	13	nmod:poss	_	_
+16	hundrt_tuzint	_	NUM	NUM	_	13	conj	_	_
+17	npsut	_	NOUN	N	_	16	conj	_	_
+18	tsvey_mileyan	_	NUM	NUM	_	13	conj	_	_
+19	frank	_	NOUN	N	_	18	conj	_	_
+20	eyn_kunft	_	NOUN	N	_	18	nmod:poss	_	_
+21	fr	_	ADP	P	_	23	case	_	_
+22	di	_	DET	D	PronType=Art	23	det	_	_
+23	takhtir	_	NOUN	N-D	Definite=Def	8	obl	_	_
+24	fun	_	ADP	P	_	26	case	_	_
+25	estreykir	_	ADJ	ADJ	Degree=Pos	26	amod	_	_
+26	kisr	_	NOUN	N	_	23	obl	_	_
+27	marie	_	PROPN	NPR	_	23	appos	_	_
+28	ludvike	_	PROPN	NPR	_	27	flat:name	_	_
+29	di	_	DET	D	PronType=Art	30	det	_	_
+30	grus_ferstin	_	NOUN	N-D	Definite=Def	23	appos	_	_
+31	fun	_	ADP	P	_	32	case	_	_
+32	parme	_	PROPN	NPR	_	30	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.233
+# X_ID = 1818E-GEOGRAFIE,16.249
+# text = di gresti stet zeyn derinn
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	gresti	_	ADJ	ADJS	Degree=Pos	3	amod	_	_
+3	stet	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+4	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	derinn	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.234
+# X_ID = 1818E-GEOGRAFIE,16.250
+# text = oykh iz in vlakhin_land das grus_kurferst fun tuskaney velkhi %t%-1 hat in zikh 350 meyl plats eyn_mileyan_mit_eyn_halb npsut
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	vlakhin_land	_	PROPN	NPR	_	2	obl	_	_
+5	das	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	grus_kurferst	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	tuskaney	_	PROPN	NPR	_	6	obl	_	_
+9	velkhi	_	PRON	WPRO	_	11	obj	_	_
+10	%t%-1	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+11	hat	_	VERB	VBF	VerbForm=Fin	8	acl:relcl	_	_
+12	in	_	ADP	P	_	13	case	_	_
+13	zikh	_	PRON	PRO	_	11	obl	_	_
+14	350	_	NUM	NUM-ACC	Case=Acc	15	nummod	_	_
+15	meyl	_	NOUN	N-ACC	Case=Acc	11	obj	_	_
+16	plats	_	NOUN	N-ACC	Case=Acc	15	nmod:poss	_	_
+17	eyn_mileyan_mit_eyn_halb	_	NUM	NUM	_	15	conj	_	_
+18	npsut	_	NOUN	N	_	17	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.235
+# X_ID = 1818E-GEOGRAFIE,16.251
+# text = un es giher tsum grus_ferst fun estreykh ferdinand
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	es	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	giher	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	tsum	_	ADP	P-CL	_	5	case	_	_
+5	grus_ferst	_	NOUN	N	_	3	obl	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	estreykh	_	PROPN	NPR	_	5	obl	_	_
+8	ferdinand	_	PROPN	NPR	_	5	appos	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.236
+# X_ID = 1818E-GEOGRAFIE,16.252
+# text = un di gresti stet zeyn derinn flarentsey mit 75000 eyn_vanir pisa livarne eyn grus handil_stat peyambin
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	di	_	DET	D	PronType=Art	4	det	_	_
+3	gresti	_	ADJ	ADJS	Degree=Pos	4	amod	_	_
+4	stet	_	NOUN	N-D	Definite=Def	5	xcomp	_	_
+5	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	derinn	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	flarentsey	_	PROPN	NPR	_	5	nsubj	_	_
+8	mit	_	ADP	P	_	9	case	_	_
+9	75000	_	NUM	NUM	_	7	obl	_	_
+10	eyn_vanir	_	NOUN	N	_	9	conj	_	_
+11	pisa	_	PROPN	NPR	_	7	conj	_	_
+12	livarne	_	PROPN	NPR	_	7	conj	_	_
+13	eyn	_	DET	D	PronType=Art	15	det	_	_
+14	grus	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	handil_stat	_	NOUN	N-I	Definite=Ind	12	appos	_	_
+16	peyambin	_	PROPN	NPR	_	7	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.237
+# X_ID = 1818E-GEOGRAFIE,16.253
+# text = un oykh giher tsu dizin land di vispe elbe oyf dem mitlendshin mehr
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	oykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	giher	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	tsu	_	ADP	P	_	6	case	_	_
+5	dizin	_	DET	D	PronType=Art	6	det	_	_
+6	land	_	NOUN	N	_	3	obl	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	vispe	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+9	elbe	_	PROPN	NPR-D	_	8	dep	_	_
+10	oyf	_	ADP	P	_	13	case	_	_
+11	dem	_	DET	D	PronType=Art	13	det	_	_
+12	mitlendshin	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	mehr	_	NOUN	N-D	Definite=Def	3	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.238
+# X_ID = 1818E-GEOGRAFIE,16.254
+# text = fun das pupsin_land
+1	fun	_	ADP	P	_	3	case	_	_
+2	das	_	DET	D	PronType=Art	3	det	_	_
+3	pupsin_land	_	PROPN	NPR-D	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.239
+# X_ID = 1818E-GEOGRAFIE,16.255
+# text = dem pups_land hat in zikh 530 meyl platts 1500000 npsut
+1	dem	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	pups_land	_	PROPN	NPR-D	_	3	nsubj	_	_
+3	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	zikh	_	PRON	PRO	_	3	obl	_	_
+6	530	_	NUM	NUM-ACC	Case=Acc	7	nummod	_	_
+7	meyl	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+8	platts	_	NOUN	N-ACC	Case=Acc	7	nmod:poss	_	_
+9	1500000	_	NUM	NUM	_	7	conj	_	_
+10	npsut	_	NOUN	N	_	9	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.240
+# X_ID = 1818E-GEOGRAFIE,16.256
+# text = es regirt derinn yetst pius der zibend dr hekhstr ibr ali kumrim fun rumish_katulish gloybin
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	regirt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	derinn	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	yetst	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+5	pius	_	PROPN	NPR-LGS	_	2	dep	_	_
+6	der	_	DET	D	PronType=Art	7	det	_	_
+7	zibend	_	NOUN	N-D	Definite=Def	5	appos	_	_
+8	dr	_	DET	D	PronType=Art	9	det	_	_
+9	hekhstr	_	NOUN	N-D	Definite=Def	5	appos	_	_
+10	ibr	_	ADP	P	_	12	case	_	_
+11	ali	_	DET	Q	_	12	det	_	_
+12	kumrim	_	NOUN	N	_	9	obl	_	_
+13	fun	_	ADP	P	_	15	case	_	_
+14	rumish_katulish	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	gloybin	_	NOUN	N	_	12	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.241
+# X_ID = 1818E-GEOGRAFIE,16.257
+# text = di grusi stat rum velkhi %t%-1 ligt bey dr teykh tiber iz di rezidents_stat fun ds gantsi land
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	grusi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	stat	_	NOUN	N-NOM	Case=Nom	12	nsubj	_	_
+4	rum	_	PROPN	NPR	_	3	dep	_	_
+5	velkhi	_	PRON	WPRO	_	7	obj	_	_
+6	%t%-1	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+7	ligt	_	VERB	VBF	VerbForm=Fin	3	acl:relcl	_	_
+8	bey	_	ADP	P	_	11	case	_	_
+9	dr	_	DET	D	PronType=Art	11	det	_	_
+10	teykh	_	NOUN	N	_	11	nummod	_	_
+11	tiber	_	PROPN	NPR-D	_	7	obl	_	_
+12	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+13	di	_	DET	D	PronType=Art	14	det	_	_
+14	rezidents_stat	_	NOUN	N-D	Definite=Def	12	xcomp	_	_
+15	fun	_	ADP	P	_	18	case	_	_
+16	ds	_	DET	D	PronType=Art	18	det	_	_
+17	gantsi	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
+18	land	_	NOUN	N-D	Definite=Def	14	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.242
+# X_ID = 1818E-GEOGRAFIE,16.258
+# text = dr pups hat derinn zeyn palsts in velkhin %t%-1 iz faran 22 dzirzintses plattsin 11246 pakaves
+1	dr	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	pups	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	derinn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	6	det:poss	_	_
+6	palsts	_	NOUN	N	_	3	obj	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	velkhin	_	PRON	WPRO	_	10	obl	_	_
+9	%t%-1	_	ADP	PP	_	10	obl	_	_
+10	iz	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+11	faran	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+12	22	_	NUM	NUM-NOM	Case=Nom	13	nummod	_	_
+13	dzirzintses	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+14	plattsin	_	NOUN	N-NOM	Case=Nom	13	nmod:poss	_	_
+15	11246	_	NUM	NUM	_	13	conj	_	_
+16	pakaves	_	NOUN	N	_	15	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.243
+# X_ID = 1818E-GEOGRAFIE,16.259
+# text = un khuts dem iz faran ukh fil anderi zeyer vaunderlikhe palatsin un gmakhin
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	khuts	_	ADP	P	_	3	case	_	_
+3	dem	_	DET	D	PronType=Art	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	faran	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+6	ukh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+7	fil	_	DET	Q-NOM	Case=Nom	11	det	_	_
+8	anderi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	11	amod	_	_
+9	zeyer	_	ADV	ADV	Degree=Pos	10	amod	_	_
+10	vaunderlikhe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	11	amod	_	_
+11	palatsin	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+12	un	_	CCONJ	CONJ	_	13	cc	_	_
+13	gmakhin	_	NOUN	N	_	11	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.244
+# X_ID = 1818E-GEOGRAFIE,16.260
+# text = fun das kinigreykh neapal uder beyde sitsileyen
+1	fun	_	ADP	P	_	4	case	_	_
+2	das	_	DET	D	PronType=Art	4	det	_	_
+3	kinigreykh	_	NOUN	N	_	4	conj	_	_
+4	neapal	_	PROPN	NPR-D	_	0	root	_	_
+5	uder	_	CCONJ	CONJ	_	7	cc	_	_
+6	beyde	_	DET	Q	_	7	det	_	_
+7	sitsileyen	_	PROPN	NPR	_	4	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.245
+# X_ID = 1818E-GEOGRAFIE,17.262
+# text = das land neapal hat in zikh 1437 meyl platts un 14500000 npsut
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	land	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	neapal	_	PROPN	NPR-D	_	2	dep	_	_
+4	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	zikh	_	PRON	PRO	_	4	obl	_	_
+7	1437	_	NUM	NUM-ACC	Case=Acc	8	nummod	_	_
+8	meyl	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+9	platts	_	NOUN	N-ACC	Case=Acc	8	nmod:poss	_	_
+10	un	_	CCONJ	CONJ	_	11	cc	_	_
+11	14500000	_	NUM	NUM	_	8	conj	_	_
+12	npsut	_	NOUN	N	_	11	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.246
+# X_ID = 1818E-GEOGRAFIE,17.263
+# text = neapal iz di rezidents_stat fun kinig
+1	neapal	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	di	_	DET	D	PronType=Art	4	det	_	_
+4	rezidents_stat	_	NOUN	N-D	Definite=Def	2	xcomp	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	kinig	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.247
+# X_ID = 1818E-GEOGRAFIE,17.264
+# text = zi iz di reykhsti un di fremsti stat in gnts vlakhin_land
+1	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	di	_	DET	D	PronType=Art	4	det	_	_
+4	reykhsti	_	ADJ	ADJS	Degree=Pos	2	xcomp	_	_
+5	un	_	CCONJ	CONJ	_	8	cc	_	_
+6	di	_	DET	D	PronType=Art	8	det	_	_
+7	fremsti	_	ADJ	ADJS	Degree=Pos	8	amod	_	_
+8	stat	_	NOUN	N-D	Definite=Def	4	conj	_	_
+9	in	_	ADP	P	_	11	case	_	_
+10	gnts	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+11	vlakhin_land	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.248
+# X_ID = 1818E-GEOGRAFIE,17.265
+# text = zi hat in zikh 40000 eyn_vanir
+1	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	40000	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	eyn_vanir	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.249
+# X_ID = 1818E-GEOGRAFIE,17.266
+# text = %con% hat ukh eyn gutin part bey den im
+1	%con%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ukh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+5	gutin	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	part	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	bey	_	ADP	P	_	9	case	_	_
+8	den	_	DET	D	PronType=Art	9	det	_	_
+9	im	_	NOUN	N-D	Definite=Def	6	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.250
+# X_ID = 1818E-GEOGRAFIE,17.267
+# text = di inzl uder kinigreykh sitsilien
+1	di	_	DET	D	PronType=Art	2	det	_	_
+2	inzl	_	NOUN	N-D	Definite=Def	0	root	_	_
+3	uder	_	CCONJ	CONJ	_	4	cc	_	_
+4	kinigreykh	_	NOUN	N	_	2	conj	_	_
+5	sitsilien	_	PROPN	NPR	_	2	appos	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.251
+# X_ID = 1818E-GEOGRAFIE,17.268
+# text = di land sitsileyen ligt oyf eyn gruse inzl di greste vas %t%-1 es gifnt zikh oyf dem mitlendishn mer
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	land	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	sitsileyen	_	PROPN	NPR-D	_	2	dep	_	_
+4	ligt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	oyf	_	ADP	P	_	8	case	_	_
+6	eyn	_	DET	D	PronType=Art	8	det	_	_
+7	gruse	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	inzl	_	NOUN	N	_	4	obl	_	_
+9	di	_	DET	D	PronType=Art	8	appos	_	_
+10	greste	_	ADJ	ADJS	Degree=Pos	9	amod	_	_
+11	vas	_	SCONJ	C	_	14	mark	_	_
+12	%t%-1	_	NOUN	NP-LGS	_	14	dep	_	_
+13	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	14	expl	_	_
+14	gifnt	_	VERB	VBF	VerbForm=Fin	9	acl:relcl	_	_
+15	zikh	_	PRON	PRO-RFL	PronType=Reflex	14	expl:pv	_	_
+16	oyf	_	ADP	P	_	19	case	_	_
+17	dem	_	DET	D	PronType=Art	19	det	_	_
+18	mitlendishn	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+19	mer	_	NOUN	N-D	Definite=Def	14	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.252
+# X_ID = 1818E-GEOGRAFIE,17.269
+# text = es grentst zikh fun mzrkh zeyt un drum zeyt mit neapel vas es teylt zikh ap mit eyn eynge mer
+1	es	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	grentst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	mzrkh	east	X	H	_	6	dep	_	_
+6	zeyt	_	NOUN	N	_	2	obl	_	_
+7	un	_	CCONJ	CONJ	_	9	cc	_	_
+8	drum	south	X	H	_	9	dep	_	_
+9	zeyt	_	NOUN	N	_	6	conj	_	_
+10	mit	_	ADP	P	_	11	case	_	_
+11	neapel	_	PROPN	NPR	_	2	obl	_	_
+12	vas	_	SCONJ	C	_	14	mark	_	_
+13	es	_	PRON	PRO	_	14	nsubj	_	_
+14	teylt	_	VERB	VBF	VerbForm=Fin	11	acl:relcl	_	_
+15	zikh	_	PRON	PRO-RFL	PronType=Reflex	14	expl:pv	_	_
+16	ap	_	ADP	RP	_	14	compound:prt	_	_
+17	mit	_	ADP	P	_	20	case	_	_
+18	eyn	_	DET	D	PronType=Art	20	det	_	_
+19	eynge	_	ADJ	ADJ	Degree=Pos	20	amod	_	_
+20	mer	_	NOUN	N-I	Definite=Ind	14	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.253
+# X_ID = 1818E-GEOGRAFIE,17.270
+# text = es hat in zikh 587 meyl kvadratavi un 1655539 eyn_vauner
+1	es	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	587	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	meyl	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	kvadratavi	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+8	un	_	CCONJ	CONJ	_	9	cc	_	_
+9	1655539	_	NUM	NUM	_	6	conj	_	_
+10	eyn_vauner	_	NOUN	N	_	9	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.254
+# X_ID = 1818E-GEOGRAFIE,17.271
+# text = das land teylt zikh in drey pravintsin
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	land	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	teylt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	3	expl:pv	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	drey	_	NUM	NUM	_	3	obl	_	_
+7	pravintsin	_	NOUN	N	_	6	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.255
+# X_ID = 1818E-GEOGRAFIE,17.272
+# text = das land sitsilie hat tsu zikh nakh mer kleyin inzlin
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	land	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	sitsilie	_	PROPN	NPR-D	_	2	dep	_	_
+4	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	tsu	_	ADP	P	_	6	case	_	_
+6	zikh	_	PRON	PRO	_	4	obl	_	_
+7	nakh	_	ADV	ADV	Degree=Pos	4	dep	_	_
+8	mer	_	DET	QR	_	7	det	_	_
+9	kleyin	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+10	inzlin	_	NOUN	N	_	7	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.256
+# X_ID = 1818E-GEOGRAFIE,17.273
+# text = di inzl malta
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	inzl	_	NOUN	N	_	3	conj	_	_
+3	malta	_	PROPN	NPR-D	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.257
+# X_ID = 1818E-GEOGRAFIE,17.274
+# text = di inzl malte mit nakh tsvey kleyni inzlin fr_nemn 8 kvadrat_meyl
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	inzl	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	_
+3	malte	_	PROPN	NPR	_	2	dep	_	_
+4	mit	_	ADP	P	_	5	case	_	_
+5	nakh	_	ADV	ADV	Degree=Pos	2	obl	_	_
+6	tsvey	_	NUM	NUM	_	5	nummod	_	_
+7	kleyni	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+8	inzlin	_	NOUN	N	_	5	conj	_	_
+9	fr_nemn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	8	_	NUM	NUM-ACC	Case=Acc	11	nummod	_	_
+11	kvadrat_meyl	_	NOUN	N-ACC	Case=Acc	9	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.258
+# X_ID = 1818E-GEOGRAFIE,17.275
+# text = un %con% habn 114000 eyn_vauner
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	habn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	114000	_	NUM	NUM-ACC	Case=Acc	5	nummod	_	_
+5	eyn_vauner	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.259
+# X_ID = 1818E-GEOGRAFIE,17.276
+# text = zey gihern itsund tsum englendr
+1	zey	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	gihern	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	itsund	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	tsum	_	ADP	P-CL	_	5	case	_	_
+5	englendr	_	PROPN	NPR	_	2	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.260
+# X_ID = 1818E-GEOGRAFIE,17.277
+# text = di hoypt_stat dr_fun ruft mn malta
+1	di	_	DET	D-ACC	Case=Acc|PronType=Art	2	det	_	_
+2	hoypt_stat	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+3	dr_fun	_	ADP	P	_	2	obl	_	_
+4	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	mn	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	malta	_	PROPN	NPR	_	4	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.261
+# X_ID = 1818E-GEOGRAFIE,17.278
+# text = zey hat an zikh tsvey partn mit eyn khzkt
+1	zey	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	an	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	tsvey	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	partn	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	mit	_	ADP	P	_	9	case	_	_
+8	eyn	_	DET	D	PronType=Art	9	det	_	_
+9	khzkt	_	NOUN	N-I	Definite=Ind	6	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.262
+# X_ID = 1818E-GEOGRAFIE,18.280
+# text = di zibn yunishe inzlin
+1	di	_	DET	D	PronType=Art	4	det	_	_
+2	zibn	_	NUM	NUM	_	4	nummod	_	_
+3	yunishe	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	inzlin	_	NOUN	N-D	Definite=Def	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.263
+# X_ID = 1818E-GEOGRAFIE,18.281
+# text = di yunishi inzlin habn in zikh 44 kvadrat_meyl un 187000 eyn_vauner
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	yunishi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	inzlin	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	habn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	zikh	_	PRON	PRO	_	4	obl	_	_
+7	44	_	NUM	NUM-ACC	Case=Acc	8	nummod	_	_
+8	kvadrat_meyl	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+9	un	_	CCONJ	CONJ	_	11	cc	_	_
+10	187000	_	NUM	NUM-ACC	Case=Acc	11	nummod	_	_
+11	eyn_vauner	_	NOUN	N-ACC	Case=Acc	8	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.264
+# X_ID = 1818E-GEOGRAFIE,18.282
+# text = un zey gihern untrn shuts fun england
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	zey	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	gihern	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	untrn	_	ADP	P-CL	_	5	case	_	_
+5	shuts	_	NOUN	N	_	3	obl	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	england	_	PROPN	NPR	_	5	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.265
+# X_ID = 1818E-GEOGRAFIE,18.283
+# text = di hoypt_stat ruft mn karfu
+1	di	_	DET	D-ACC	Case=Acc|PronType=Art	2	det	_	_
+2	hoypt_stat	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+3	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	mn	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	karfu	_	NOUN	N	_	3	xcomp	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.266
+# X_ID = 1818E-GEOGRAFIE,18.284
+# text = zi hat 14000 eyn_vauner un oykh eyn khzkt
+1	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	14000	_	NUM	NUM-ACC	Case=Acc	4	nummod	_	_
+4	eyn_vauner	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+5	un	_	CCONJ	CONJ	_	8	cc	_	_
+6	oykh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+7	eyn	_	DET	D	PronType=Art	8	det	_	_
+8	khzkt	_	NOUN	N-I	Definite=Ind	4	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.267
+# X_ID = 1818E-GEOGRAFIE,18.285
+# text = shveyts uder shveytsarie land
+1	shveyts	_	PROPN	NPR	_	0	root	_	_
+2	uder	_	CCONJ	CONJ	_	4	cc	_	_
+3	shveytsarie	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	land	_	NOUN	N	_	1	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.268
+# X_ID = 1818E-GEOGRAFIE,18.286
+# text = di mdinh shveyts grentst zikh fun mzrkh zeyt mit frankreykh fun tsfun un merib zeyt mit teytsh_land un fun drum zeyt mit italie
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	mdinh	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	shveyts	_	PROPN	NPR-D	_	2	dep	_	_
+4	grentst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+6	fun	_	ADP	P	_	8	case	_	_
+7	mzrkh	east	X	H	_	8	dep	_	_
+8	zeyt	_	NOUN	N	_	4	obl	_	_
+9	mit	_	ADP	P	_	10	case	_	_
+10	frankreykh	_	PROPN	NPR	_	4	obl	_	_
+11	fun	_	ADP	P	_	12	dep	_	_
+12	tsfun	north	X	H	_	4	conj	_	_
+13	un	_	CCONJ	CONJ	_	15	cc	_	_
+14	merib	west	X	H	_	15	dep	_	_
+15	zeyt	_	NOUN	N	_	12	conj	_	_
+16	mit	_	ADP	P	_	17	case	_	_
+17	teytsh_land	_	PROPN	NPR	_	12	obl	_	_
+18	un	_	CCONJ	CONJ	_	21	cc	_	_
+19	fun	_	ADP	P	_	21	case	_	_
+20	drum	south	X	H	_	21	dep	_	_
+21	zeyt	_	NOUN	N	_	4	conj	_	_
+22	mit	_	ADP	P	_	23	case	_	_
+23	italie	_	PROPN	NPR	_	21	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.269
+# X_ID = 1818E-GEOGRAFIE,18.287
+# text = es hat in zikh 870 kvadrat_meyl un 7138000 eyn_vauner
+1	es	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	870	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	kvadrat_meyl	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	un	_	CCONJ	CONJ	_	9	cc	_	_
+8	7138000	_	NUM	NUM-ACC	Case=Acc	9	nummod	_	_
+9	eyn_vauner	_	NOUN	N-ACC	Case=Acc	6	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.270
+# X_ID = 1818E-GEOGRAFIE,18.288
+# text = zi teylt zikh in 22 kantanes uder pravintsin
+1	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	teylt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	22	_	NUM	NUM	_	2	obl	_	_
+6	kantanes	_	NOUN	N	_	5	conj	_	_
+7	uder	_	CCONJ	CONJ	_	8	cc	_	_
+8	pravintsin	_	NOUN	N	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.271
+# X_ID = 1818E-GEOGRAFIE,18.289
+# text = oykh habn zey 32886 beli_mlkhmut
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	habn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zey	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	32886	_	NUM	NUM-ACC	Case=Acc	5	nummod	_	_
+5	beli_mlkhmut	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.272
+# X_ID = 1818E-GEOGRAFIE,18.290
+# text = di khkhnth uder eyn_kunft fun gantsin land iz 540107 shveytser frankn
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	khkhnth	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+3	uder	_	CCONJ	CONJ	_	4	cc	_	_
+4	eyn_kunft	_	NOUN	N	_	2	conj	_	_
+5	fun	_	ADP	P	_	7	case	_	_
+6	gantsin	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	land	_	NOUN	N	_	2	obl	_	_
+8	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	540107	_	NUM	NUM	_	8	xcomp	_	_
+10	shveytser	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+11	frankn	_	NOUN	N	_	9	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.273
+# X_ID = 1818E-GEOGRAFIE,18.291
+# text = fun ds kinigreykh nidr_land
+1	fun	_	ADP	P	_	4	case	_	_
+2	ds	_	DET	D	PronType=Art	4	det	_	_
+3	kinigreykh	_	NOUN	N	_	4	conj	_	_
+4	nidr_land	_	PROPN	NPR-D	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.274
+# X_ID = 1818E-GEOGRAFIE,18.292
+# text = di mdinh nidr_land grentst zikh fun tsfun un mzrkh zeyt mit dem im hlfuni uder nard_mer fun drum zeyt in frankreykh fun merib zeyt mit teyts_land
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	mdinh	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	nidr_land	_	PROPN	NPR-D	_	2	dep	_	_
+4	grentst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	tsfun	_	NOUN	N	_	4	obl	_	_
+8	un	_	CCONJ	CONJ	_	10	cc	_	_
+9	mzrkh	east	X	H	_	10	dep	_	_
+10	zeyt	_	NOUN	N	_	7	conj	_	_
+11	mit	_	ADP	P	_	13	case	_	_
+12	dem	_	DET	D	PronType=Art	13	det	_	_
+13	im	_	NOUN	N-D	Definite=Def	4	obl	_	_
+14	hlfuni	_	NOUN	N	_	13	conj	_	_
+15	uder	_	CCONJ	CONJ	_	16	cc	_	_
+16	nard_mer	_	PROPN	NPR	_	13	conj	_	_
+17	fun	_	ADP	P	_	19	case	_	_
+18	drum	south	X	H	_	19	dep	_	_
+19	zeyt	_	NOUN	N	_	4	conj	_	_
+20	in	_	ADP	P	_	21	case	_	_
+21	frankreykh	_	PROPN	NPR	_	19	obl	_	_
+22	fun	_	ADP	P	_	24	case	_	_
+23	merib	west	X	H	_	24	dep	_	_
+24	zeyt	_	NOUN	N	_	4	conj	_	_
+25	mit	_	ADP	P	_	26	case	_	_
+26	teyts_land	_	PROPN	NPR	_	24	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.275
+# X_ID = 1818E-GEOGRAFIE,18.293
+# text = es hat in zikh 1194 kvadrt_meyl un 5126400 eyn_vauner
+1	es	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	1194	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	kvadrt_meyl	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	5126400	_	NUM	NUM	_	6	conj	_	_
+9	eyn_vauner	_	NOUN	N	_	8	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.276
+# X_ID = 1818E-GEOGRAFIE,18.294
+# text = ali religies habn frey efntlikh ir gbet tsu tan in land
+1	ali	_	DET	Q-NOM	Case=Nom	2	det	_	_
+2	religies	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+3	habn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	frey	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+5	efntlikh	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+6	ir	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	7	det:poss	_	_
+7	gbet	_	NOUN	N	_	9	obj	_	_
+8	tsu	_	PART	TO	_	9	mark	_	_
+9	tan	_	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	land	_	NOUN	N	_	9	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.277
+# X_ID = 1818E-GEOGRAFIE,18.295
+# text = un %con% habn oykh shuts fun dr mlukhh
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	habn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	oykh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	shuts	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+6	fun	_	ADP	P	_	8	case	_	_
+7	dr	_	DET	D	PronType=Art	8	det	_	_
+8	mlukhh	_	NOUN	N-D	Definite=Def	5	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.278
+# X_ID = 1818E-GEOGRAFIE,19.297
+# text = dr handl iz stark in dr gantsr mdinh
+1	dr	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	handl	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	stark	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	in	_	ADP	P	_	8	case	_	_
+6	dr	_	DET	D	PronType=Art	8	det	_	_
+7	gantsr	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	mdinh	_	NOUN	N-D	Definite=Def	3	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.279
+# X_ID = 1818E-GEOGRAFIE,19.298
+# text = un fun tsvey yahr an hat er zikh nakh starker an gihubin
+1	un	_	CCONJ	CONJ	_	12	cc	_	_
+2	fun	_	ADP	P	_	3	case	_	_
+3	tsvey	_	NUM	NUM	_	12	obl	_	_
+4	yahr	_	NOUN	N	_	3	conj	_	_
+5	an	_	ADP	RP	_	3	compound:prt	_	_
+6	hat	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+7	er	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+8	zikh	_	PRON	PRO-RFL	PronType=Reflex	12	expl:pv	_	_
+9	nakh	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+10	starker	_	ADV	ADVR	Degree=Cmp	9	advmod	_	_
+11	an	_	ADP	RP	_	12	compound:prt	_	_
+12	gihubin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.280
+# X_ID = 1818E-GEOGRAFIE,19.299
+# text = das gantsi land vert tsu_teylt in 16 pravintsin dr_tsu di mdinh haland vas di hoypt_stat %t%-1 iz amstrdm dr vaunung fun dem mlkh
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	gantsi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	land	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+4	vert	_	AUX	RDF	VerbForm=Fin	5	aux	_	_
+5	tsu_teylt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	16	_	NUM	NUM	_	5	obl	_	_
+8	pravintsin	_	NOUN	N	_	7	conj	_	_
+9	dr_tsu	_	ADP	P	_	11	obl	_	_
+10	di	_	DET	D	PronType=Art	11	det	_	_
+11	mdinh	_	NOUN	N-D	Definite=Def	7	conj	_	_
+12	haland	_	PROPN	NPR	_	11	dep	_	_
+13	vas	_	SCONJ	C	_	17	mark	_	_
+14	di	_	DET	D	PronType=Art	15	det	_	_
+15	hoypt_stat	_	NOUN	N-D	Definite=Def	17	xcomp	_	_
+16	%t%-1	_	ADP	PP	_	15	obl	_	_
+17	iz	_	VERB	VBF	VerbForm=Fin	11	acl:relcl	_	_
+18	amstrdm	_	PROPN	NPR-SBJ	_	17	nsubj	_	_
+19	dr	_	DET	D	PronType=Art	20	det	_	_
+20	vaunung	_	NOUN	N-D	Definite=Def	18	appos	_	_
+21	fun	_	ADP	P	_	23	case	_	_
+22	dem	_	DET	D	PronType=Art	23	det	_	_
+23	mlkh	_	NOUN	N-D	Definite=Def	20	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.281
+# X_ID = 1818E-GEOGRAFIE,19.300
+# text = oykh giher dr_tsu di pravints brabantsie vas di hoypt_stat iz dr_fun bruksel vas in ir iz eyn gruse fabrike fun brabaner kroynn
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	giher	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	dr_tsu	_	ADP	P	_	2	obl	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	pravints	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+6	brabantsie	_	PROPN	NPR	_	5	appos	_	_
+7	vas	_	SCONJ	C	_	10	mark	_	_
+8	di	_	DET	D	PronType=Art	9	det	_	_
+9	hoypt_stat	_	NOUN	N-D	Definite=Def	10	xcomp	_	_
+10	iz	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+11	dr_fun	_	ADP	P	_	10	obl	_	_
+12	bruksel	_	PROPN	NPR-SBJ	_	10	nsubj	_	_
+13	vas	_	SCONJ	C	_	16	mark	_	_
+14	in	_	ADP	P	_	15	case	_	_
+15	ir	_	PRON	PRO	_	16	obl	_	_
+16	iz	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+17	eyn	_	DET	D-NOM	Case=Nom|PronType=Art	19	det	_	_
+18	gruse	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	19	amod	_	_
+19	fabrike	_	NOUN	N-NOM	Case=Nom	16	nsubj	_	_
+20	fun	_	ADP	P	_	22	case	_	_
+21	brabaner	_	ADJ	ADJ	Degree=Pos	22	amod	_	_
+22	kroynn	_	NOUN	N	_	19	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.282
+# X_ID = 1818E-GEOGRAFIE,19.301
+# text = oykh hat nidrland bzitsung in azie afrike un in amerike
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	nidrland	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+4	bzitsung	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	azie	_	PROPN	NPR	_	2	obl	_	_
+7	afrike	_	PROPN	NPR	_	6	flat:name	_	_
+8	un	_	CCONJ	CONJ	_	10	cc	_	_
+9	in	_	ADP	P	_	10	case	_	_
+10	amerike	_	PROPN	NPR	_	6	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.283
+# X_ID = 1818E-GEOGRAFIE,19.302
+# text = fun england uder grus_britaneye
+1	fun	_	ADP	P	_	2	case	_	_
+2	england	_	PROPN	NPR	_	0	root	_	_
+3	uder	_	CCONJ	CONJ	_	4	cc	_	_
+4	grus_britaneye	_	PROPN	NPR	_	2	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.284
+# X_ID = 1818E-GEOGRAFIE,19.303
+# text = engiland mit dem land skatsey un irland velkhi %t%-1 zeyn ali eyn kinigreykh hat in zikh 5596 meyl platts un mer az 17_mileyan eyn_vanir
+1	engiland	_	PROPN	NPR-SBJ	_	14	nsubj	_	_
+2	mit	_	ADP	P	_	5	case	_	_
+3	dem	_	DET	D	PronType=Art	5	det	_	_
+4	land	_	NOUN	N	_	5	nummod	_	_
+5	skatsey	_	PROPN	NPR-D	_	1	obl	_	_
+6	un	_	CCONJ	CONJ	_	7	cc	_	_
+7	irland	_	PROPN	NPR	_	5	conj	_	_
+8	velkhi	_	PRON	WPRO	_	10	obj	_	_
+9	%t%-1	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+10	zeyn	_	VERB	VBF	VerbForm=Fin	1	acl:relcl	_	_
+11	ali	_	ADV	Q	_	10	advmod	_	_
+12	eyn	_	DET	D	PronType=Art	13	det	_	_
+13	kinigreykh	_	NOUN	N-I	Definite=Ind	10	xcomp	_	_
+14	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+15	in	_	ADP	P	_	16	case	_	_
+16	zikh	_	PRON	PRO	_	14	obl	_	_
+17	5596	_	NUM	NUM-ACC	Case=Acc	18	nummod	_	_
+18	meyl	_	NOUN	N-ACC	Case=Acc	14	obj	_	_
+19	platts	_	NOUN	N-ACC	Case=Acc	18	nmod:poss	_	_
+20	un	_	CCONJ	CONJ	_	21	cc	_	_
+21	mer	_	DET	QR	_	18	conj	_	_
+22	az	_	ADP	P	_	23	case	_	_
+23	17_mileyan	_	NUM	NUM	_	21	obl	_	_
+24	eyn_vanir	_	NOUN	N	_	23	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.285
+# X_ID = 1818E-GEOGRAFIE,19.304
+# text = dr kinig iz derinn yerzi der 3
+1	dr	_	DET	D	PronType=Art	2	det	_	_
+2	kinig	_	NOUN	N-D	Definite=Def	3	xcomp	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	derinn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	yerzi	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+6	der	_	DET	D	PronType=Art	7	det	_	_
+7	3	_	NOUN	N-D	Definite=Def	5	appos	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.286
+# X_ID = 1818E-GEOGRAFIE,19.305
+# text = ibsh kheyl hat das land %ich%-1 100000 un gruse akrentin 255 fregatin 258 un kleneri shifin
+1	ibsh	_	NOUN	N	_	3	obl	_	_
+2	kheyl	_	NOUN	N	_	1	conj	_	_
+3	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	das	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	land	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+6	%ich%-1	_	NOUN	NP	_	3	dep	_	_
+7	100000	_	NUM	NUM	_	6	nummod	_	_
+8	un	_	CCONJ	CONJ	_	10	cc	_	_
+9	gruse	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	akrentin	_	NOUN	N	_	6	conj	_	_
+11	255	_	NUM	NUM	_	10	nummod	_	_
+12	fregatin	_	NOUN	N	_	6	conj	_	_
+13	258	_	NUM	N	_	12	nummod	_	_
+14	un	_	CCONJ	CONJ	_	16	cc	_	_
+15	kleneri	_	ADJ	ADJR	Degree=Pos	16	amod	_	_
+16	shifin	_	NOUN	N	_	6	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.287
+# X_ID = 1818E-GEOGRAFIE,19.306
+# text = di gresti stet zeyn in dizin land : lundin
+1	di	_	DET	D	PronType=Art	3	det	_	_
+2	gresti	_	ADJ	ADJS	Degree=Pos	3	amod	_	_
+3	stet	_	NOUN	N-D	Definite=Def	4	xcomp	_	_
+4	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	in	_	ADP	P	_	7	case	_	_
+6	dizin	_	DET	D	PronType=Art	7	det	_	_
+7	land	_	NOUN	N	_	4	obl	_	SpaceAfter=No
+8	:	_	PUNCT	PUNC	_	4	punct	_	_
+9	lundin	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.288
+# X_ID = 1818E-GEOGRAFIE,19.307
+# text = zi hat in zikh 10000 eyn_vanir
+1	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	10000	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	eyn_vanir	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.289
+# X_ID = 1818E-GEOGRAFIE,19.308
+# text = eyn meyl un eyn_halb iz di ling
+1	eyn	_	NUM	NUM	_	5	xcomp	_	_
+2	meyl	_	NOUN	N	_	1	conj	_	_
+3	un	_	CCONJ	CONJ	_	4	cc	_	_
+4	eyn_halb	_	NUM	NUM	_	1	conj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	di	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	ling	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.290
+# X_ID = 1818E-GEOGRAFIE,19.309
+# text = un eyn_halb meyl iz di breyt fun stat
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	eyn_halb	_	NUM	NUM	_	4	xcomp	_	_
+3	meyl	_	NOUN	N	_	2	conj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	di	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	breyt	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	stat	_	NOUN	N	_	6	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.291
+# X_ID = 1818E-GEOGRAFIE,19.310
+# text = das kinigreykh partugal
+1	das	_	DET	D	PronType=Art	3	det	_	_
+2	kinigreykh	_	NOUN	N	_	3	conj	_	_
+3	partugal	_	PROPN	NPR-D	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.292
+# X_ID = 1818E-GEOGRAFIE,19.311
+# text = di mdinh fun partugal grenitst zikh fun tsfun un merib zeyt mit spanie fun drum un mzrkh zeyt mit dem atlantikshe mer
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	mdinh	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	partugal	_	PROPN	NPR	_	2	obl	_	_
+5	grenitst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+7	fun	_	ADP	P	_	8	dep	_	_
+8	tsfun	north	X	H	_	5	obl	_	_
+9	un	_	CCONJ	CONJ	_	11	cc	_	_
+10	merib	west	X	H	_	11	dep	_	_
+11	zeyt	_	NOUN	N	_	8	conj	_	_
+12	mit	_	ADP	P	_	13	case	_	_
+13	spanie	_	PROPN	NPR	_	5	obl	_	_
+14	fun	_	ADP	P	_	15	dep	_	_
+15	drum	south	X	H	_	5	conj	_	_
+16	un	_	CCONJ	CONJ	_	18	cc	_	_
+17	mzrkh	east	X	H	_	18	dep	_	_
+18	zeyt	_	NOUN	N	_	15	conj	_	_
+19	mit	_	ADP	P	_	22	case	_	_
+20	dem	_	DET	D	PronType=Art	22	det	_	_
+21	atlantikshe	_	ADJ	ADJ	Degree=Pos	22	amod	_	_
+22	mer	_	NOUN	N-D	Definite=Def	15	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.293
+# X_ID = 1818E-GEOGRAFIE,19.312
+# text = zi hat in zikh 1656 kvadrat_meyl un 368300 eyn_vauner
+1	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	1656	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	kvadrat_meyl	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	un	_	CCONJ	CONJ	_	9	cc	_	_
+8	368300	_	NUM	NUM-ACC	Case=Acc	9	nummod	_	_
+9	eyn_vauner	_	NOUN	N-ACC	Case=Acc	6	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.294
+# X_ID = 1818E-GEOGRAFIE,20.314
+# text = di hkhnsh udr eyn_kunft fun dr mdinh btragt 39_milian guldn
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	hkhnsh	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+3	udr	_	CCONJ	CONJ	_	4	cc	_	_
+4	eyn_kunft	_	NOUN	N	_	2	conj	_	_
+5	fun	_	ADP	P	_	7	case	_	_
+6	dr	_	DET	D	PronType=Art	7	det	_	_
+7	mdinh	_	NOUN	N-D	Definite=Def	2	obl	_	_
+8	btragt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	39_milian	_	NUM	NUM-ACC	Case=Acc	10	nummod	_	_
+10	guldn	_	NOUN	N-ACC	Case=Acc	8	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.295
+# X_ID = 1818E-GEOGRAFIE,20.315
+# text = oykh habn zey 52000 beli_mlkhmut oyf dr ibsh akht_tsinien shifin fuftsehn fregatin un 1200 meytkes
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	habn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zey	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	52000	_	NUM	NUM-ACC	Case=Acc	5	nummod	_	_
+5	beli_mlkhmut	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+6	oyf	_	ADP	P	_	8	case	_	_
+7	dr	_	DET	D	PronType=Art	8	det	_	_
+8	ibsh	_	NOUN	N-D	Definite=Def	5	obl	_	_
+9	akht_tsinien	_	NUM	NUM	_	5	conj	_	_
+10	shifin	_	NOUN	N	_	9	conj	_	_
+11	fuftsehn	_	NUM	NUM	_	5	conj	_	_
+12	fregatin	_	NOUN	N	_	11	conj	_	_
+13	un	_	CCONJ	CONJ	_	14	cc	_	_
+14	1200	_	NUM	NUM	_	5	conj	_	_
+15	meytkes	_	NOUN	N	_	14	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.296
+# X_ID = 1818E-GEOGRAFIE,20.316
+# text = es teylt zikh in tsvey kinigreykh : partugalie un algarbi
+1	es	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	teylt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	tsvey	_	NUM	NUM	_	2	obl	_	_
+6	kinigreykh	_	NOUN	N	_	5	conj	_	SpaceAfter=No
+7	:	_	PUNCT	PUNC	_	5	punct	_	_
+8	partugalie	_	PROPN	NPR	_	5	appos	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	algarbi	_	PROPN	NPR	_	8	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.297
+# X_ID = 1818E-GEOGRAFIE,20.317
+# text = di mdinh partugal hat in zikh finf pravintsn
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	mdinh	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	partugal	_	PROPN	NPR-D	_	2	dep	_	_
+4	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	zikh	_	PRON	PRO	_	4	obl	_	_
+7	finf	_	NUM	NUM-ACC	Case=Acc	8	nummod	_	_
+8	pravintsn	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.298
+# X_ID = 1818E-GEOGRAFIE,20.318
+# text = di hoypt_stat fun dr gantsr mdinh iz lizban bey der tg
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	hoypt_stat	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+3	fun	_	ADP	P	_	6	case	_	_
+4	dr	_	DET	D	PronType=Art	6	det	_	_
+5	gantsr	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	mdinh	_	NOUN	N-D	Definite=Def	2	obl	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	lizban	_	PROPN	NPR	_	7	xcomp	_	_
+9	bey	_	ADP	P	_	11	case	_	_
+10	der	_	DET	D	PronType=Art	11	det	_	_
+11	tg	_	PROPN	NPR-D	_	8	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.299
+# X_ID = 1818E-GEOGRAFIE,20.319
+# text = oykh hat partugal bzitsung %ich%-1 in ali drey khlkim fun dr velt in azie in amerike un in afrike vas es giher dr_tsu di inzl madera fun vanen %t%-3 dr gutr veyn %ich%-4 kumt aroys un oykh fil tsuker
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	partugal	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+4	bzitsung	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+5	%ich%-1	_	SCONJ	CP-REL	_	4	acl:relcl	_	_
+6	in	_	ADP	P	_	8	case	_	_
+7	ali	_	DET	Q	_	8	det	_	_
+8	drey	_	NUM	NUM	_	2	obl	_	_
+9	khlkim	_	NOUN	N	_	8	conj	_	_
+10	fun	_	ADP	P	_	12	case	_	_
+11	dr	_	DET	D	PronType=Art	12	det	_	_
+12	velt	_	NOUN	N-D	Definite=Def	8	obl	_	_
+13	in	_	ADP	P	_	14	case	_	_
+14	azie	_	PROPN	NPR	_	8	obl	_	_
+15	in	_	ADP	P	_	16	case	_	_
+16	amerike	_	PROPN	NPR	_	14	conj	_	_
+17	un	_	CCONJ	CONJ	_	19	cc	_	_
+18	in	_	ADP	P	_	19	case	_	_
+19	afrike	_	PROPN	NPR	_	14	conj	_	_
+20	vas	_	SCONJ	C	_	22	mark	_	_
+21	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	22	expl	_	_
+22	giher	_	VERB	VBF	VerbForm=Fin	2	acl:relcl	_	_
+23	dr_tsu	_	ADP	P	_	22	obl	_	_
+24	di	_	DET	D-NOM	Case=Nom|PronType=Art	25	det	_	_
+25	inzl	_	NOUN	N-NOM	Case=Nom	22	nsubj	_	_
+26	madera	_	PROPN	NPR	_	25	dep	_	_
+27	fun	_	ADP	P	_	28	case	_	_
+28	vanen	_	ADV	WADV	Degree=Pos	34	obl	_	_
+29	%t%-3	_	ADP	PP	_	34	obl	_	_
+30	dr	_	DET	D-NOM	Case=Nom|PronType=Art	32	det	_	_
+31	gutr	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	32	amod	_	_
+32	veyn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	34	nsubj	_	_
+33	%ich%-4	_	SCONJ	CONJP	_	32	conj	_	_
+34	kumt	_	VERB	VBF	VerbForm=Fin	25	acl:relcl	_	_
+35	aroys	_	ADV	ADV	Degree=Pos	34	advmod	_	_
+36	un	_	CCONJ	CONJ	_	39	cc	_	_
+37	oykh	_	ADV	ADV	Degree=Pos	39	advmod	_	_
+38	fil	_	DET	Q	_	39	det	_	_
+39	tsuker	_	NOUN	N	_	34	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.300
+# X_ID = 1818E-GEOGRAFIE,20.320
+# text = das kinigreykh spanie
+1	das	_	DET	D	PronType=Art	3	det	_	_
+2	kinigreykh	_	NOUN	N	_	3	conj	_	_
+3	spanie	_	PROPN	NPR-D	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.301
+# X_ID = 1818E-GEOGRAFIE,20.321
+# text = spanie grenitst zikh fun tsfun zeyt mit frankreykh fun merib zeyt mit frankreykh un mit dem mitlandishn mer fun drum zeyt mit dem atlantikisin mer un mit dem mitlendishn mer un mit dem engin mer fun gibralter un fun mzrkh zeyt mit dem atlantikisn mer un mit partugal
+1	spanie	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	grenitst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	tsfun	north	X	H	_	6	dep	_	_
+6	zeyt	_	NOUN	N	_	2	obl	_	_
+7	mit	_	ADP	P	_	8	case	_	_
+8	frankreykh	_	PROPN	NPR	_	2	obl	_	_
+9	fun	_	ADP	P	_	11	case	_	_
+10	merib	west	X	H	_	11	dep	_	_
+11	zeyt	_	NOUN	N	_	2	conj	_	_
+12	mit	_	ADP	P	_	13	case	_	_
+13	frankreykh	_	PROPN	NPR	_	11	obl	_	_
+14	un	_	CCONJ	CONJ	_	18	cc	_	_
+15	mit	_	ADP	P	_	18	case	_	_
+16	dem	_	DET	D	PronType=Art	18	det	_	_
+17	mitlandishn	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
+18	mer	_	NOUN	N-D	Definite=Def	13	conj	_	_
+19	fun	_	ADP	P	_	21	case	_	_
+20	drum	south	X	H	_	21	dep	_	_
+21	zeyt	_	NOUN	N	_	2	conj	_	_
+22	mit	_	ADP	P	_	25	case	_	_
+23	dem	_	DET	D	PronType=Art	25	det	_	_
+24	atlantikisin	_	ADJ	ADJ	Degree=Pos	25	amod	_	_
+25	mer	_	NOUN	N-D	Definite=Def	21	obl	_	_
+26	un	_	CCONJ	CONJ	_	30	cc	_	_
+27	mit	_	ADP	P	_	30	case	_	_
+28	dem	_	DET	D	PronType=Art	30	det	_	_
+29	mitlendishn	_	ADJ	ADJ	Degree=Pos	30	amod	_	_
+30	mer	_	NOUN	N-D	Definite=Def	25	conj	_	_
+31	un	_	CCONJ	CONJ	_	35	cc	_	_
+32	mit	_	ADP	P	_	35	case	_	_
+33	dem	_	DET	D	PronType=Art	35	det	_	_
+34	engin	_	ADJ	ADJ	Degree=Pos	35	amod	_	_
+35	mer	_	NOUN	N	_	25	conj	_	_
+36	fun	_	ADP	P	_	37	case	_	_
+37	gibralter	_	PROPN	NPR	_	35	obl	_	_
+38	un	_	CCONJ	CONJ	_	41	cc	_	_
+39	fun	_	ADP	P	_	41	case	_	_
+40	mzrkh	east	X	H	_	41	dep	_	_
+41	zeyt	_	NOUN	N	_	2	conj	_	_
+42	mit	_	ADP	P	_	45	case	_	_
+43	dem	_	DET	D	PronType=Art	45	det	_	_
+44	atlantikisn	_	ADJ	ADJ	Degree=Pos	45	amod	_	_
+45	mer	_	NOUN	N	_	41	obl	_	_
+46	un	_	CCONJ	CONJ	_	48	cc	_	_
+47	mit	_	ADP	P	_	48	case	_	_
+48	partugal	_	PROPN	NPR	_	45	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.302
+# X_ID = 1818E-GEOGRAFIE,20.322
+# text = di gantsi mdinh hat in zikh 8910 kvadrat_meyl oykh 10351075 eyn_vauner
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	gantsi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	mdinh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	zikh	_	PRON	PRO	_	4	obl	_	_
+7	8910	_	NUM	NUM-ACC	Case=Acc	8	nummod	_	_
+8	kvadrat_meyl	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+9	oykh	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+10	10351075	_	NUM	NUM-ACC	Case=Acc	11	nummod	_	_
+11	eyn_vauner	_	NOUN	N-ACC	Case=Acc	8	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.303
+# X_ID = 1818E-GEOGRAFIE,20.323
+# text = di katulishe amune iz nar eyni in gantsin land
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	katulishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	amune	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	nar	_	ADV	FP	Degree=Pos	6	advmod	_	_
+6	eyni	_	NUM	NUM	_	4	xcomp	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	gantsin	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	land	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.304
+# X_ID = 1818E-GEOGRAFIE,20.324
+# text = veytr vert keyn andri in land nit gilitn
+1	veytr	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+2	vert	_	AUX	RDF	VerbForm=Fin	8	aux	_	_
+3	keyn	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	4	det	_	_
+4	andri	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	land	_	NOUN	N	_	8	obl	_	_
+7	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+8	gilitn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.305
+# X_ID = 1818E-GEOGRAFIE,20.325
+# text = ds gantse land spanie teylt zikh in fir_tsehn pravintsn
+1	ds	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	gantse	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	land	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+4	spanie	_	PROPN	NPR-D	_	3	dep	_	_
+5	teylt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+7	in	_	ADP	P	_	8	case	_	_
+8	fir_tsehn	_	NUM	NUM	_	5	obl	_	_
+9	pravintsn	_	NOUN	N	_	8	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.306
+# X_ID = 1818E-GEOGRAFIE,20.326
+# text = di hoypt_stat fun land iz madrit vau %t%-1 dr mlkh hat zeyn vaunung
+1	di	_	DET	D	PronType=Art	2	det	_	_
+2	hoypt_stat	_	NOUN	N-D	Definite=Def	5	xcomp	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	land	_	NOUN	N	_	2	obl	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	madrit	_	PROPN	NPR-SBJ	_	5	nsubj	_	_
+7	vau	_	ADV	WADV	Degree=Pos	11	advmod	_	_
+8	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	11	advmod	_	_
+9	dr	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+10	mlkh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	11	nsubj	_	_
+11	hat	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+12	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	13	det:poss	_	_
+13	vaunung	_	NOUN	N	_	11	obj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.307
+# X_ID = 1818E-GEOGRAFIE,20.327
+# text = oykh hat spanie tsvey inzlin oyf dem mitlendsn mer mayarka un minarka un oykh bzutsung in azie afrike un in amerike
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	spanie	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+4	tsvey	_	NUM	NUM-ACC	Case=Acc	5	nummod	_	_
+5	inzlin	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+6	oyf	_	ADP	P	_	9	case	_	_
+7	dem	_	DET	D	PronType=Art	9	det	_	_
+8	mitlendsn	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	mer	_	NOUN	N-D	Definite=Def	5	obl	_	_
+10	mayarka	_	PROPN	NPR	_	5	appos	_	_
+11	un	_	CCONJ	CONJ	_	12	cc	_	_
+12	minarka	_	PROPN	NPR	_	10	conj	_	_
+13	un	_	CCONJ	CONJ	_	15	cc	_	_
+14	oykh	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+15	bzutsung	_	NOUN	N	_	5	conj	_	_
+16	in	_	ADP	P	_	17	case	_	_
+17	azie	_	PROPN	NPR	_	15	obl	_	_
+18	afrike	_	PROPN	NPR	_	17	flat:name	_	_
+19	un	_	CCONJ	CONJ	_	21	cc	_	_
+20	in	_	ADP	P	_	21	case	_	_
+21	amerike	_	PROPN	NPR	_	17	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.308
+# X_ID = 1818E-GEOGRAFIE,21.329
+# text = ds kinigreykh frankreykh
+1	ds	_	DET	D	PronType=Art	3	det	_	_
+2	kinigreykh	_	NOUN	N	_	3	conj	_	_
+3	frankreykh	_	PROPN	NPR-D	_	0	root	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.309
+# X_ID = 1818E-GEOGRAFIE,21.330
+# text = di mdinh fun frankreykh grentst zikh fun tsfun zeyt mit nidr_land un mit dem nard_mer fun merib zeyt mit dem atlantiksen mer un mit spanie fun drum zeyt mit spanie un mit dem mitlendishn mer un fun mzrkh zeyt mit itali shveyzer un teytsland
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	mdinh	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	frankreykh	_	PROPN	NPR	_	2	obl	_	_
+5	grentst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+7	fun	_	ADP	P	_	9	case	_	_
+8	tsfun	north	X	H	_	9	dep	_	_
+9	zeyt	_	NOUN	N	_	5	obl	_	_
+10	mit	_	ADP	P	_	11	case	_	_
+11	nidr_land	_	PROPN	NPR	_	5	obl	_	_
+12	un	_	CCONJ	CONJ	_	15	cc	_	_
+13	mit	_	ADP	P	_	15	case	_	_
+14	dem	_	DET	D	PronType=Art	15	det	_	_
+15	nard_mer	_	PROPN	NPR-D	_	11	conj	_	_
+16	fun	_	ADP	P	_	18	case	_	_
+17	merib	west	X	H	_	18	dep	_	_
+18	zeyt	_	NOUN	N	_	5	conj	_	_
+19	mit	_	ADP	P	_	22	case	_	_
+20	dem	_	DET	D	PronType=Art	22	det	_	_
+21	atlantiksen	_	ADJ	ADJ	Degree=Pos	22	amod	_	_
+22	mer	_	NOUN	N	_	18	obl	_	_
+23	un	_	CCONJ	CONJ	_	25	cc	_	_
+24	mit	_	ADP	P	_	25	case	_	_
+25	spanie	_	PROPN	NPR	_	22	conj	_	_
+26	fun	_	ADP	P	_	28	case	_	_
+27	drum	south	X	H	_	28	dep	_	_
+28	zeyt	_	NOUN	N	_	5	conj	_	_
+29	mit	_	ADP	P	_	30	case	_	_
+30	spanie	_	PROPN	NPR	_	28	obl	_	_
+31	un	_	CCONJ	CONJ	_	35	cc	_	_
+32	mit	_	ADP	P	_	35	case	_	_
+33	dem	_	DET	D	PronType=Art	35	det	_	_
+34	mitlendishn	_	ADJ	ADJ	Degree=Pos	35	amod	_	_
+35	mer	_	NOUN	N-D	Definite=Def	30	conj	_	_
+36	un	_	CCONJ	CONJ	_	39	cc	_	_
+37	fun	_	ADP	P	_	39	case	_	_
+38	mzrkh	east	X	H	_	39	dep	_	_
+39	zeyt	_	NOUN	N	_	5	conj	_	_
+40	mit	_	ADP	P	_	41	case	_	_
+41	itali	_	PROPN	NPR	_	39	obl	_	_
+42	shveyzer	_	PROPN	NPR	_	41	flat:name	_	_
+43	un	_	CCONJ	CONJ	_	44	cc	_	_
+44	teytsland	_	PROPN	NPR	_	41	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.310
+# X_ID = 1818E-GEOGRAFIE,21.331
+# text = zi hat in zikh 9650 kvadrat_meyl oykh 29_mileyan eyn_vauner
+1	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	zikh	_	PRON	PRO	_	2	obl	_	_
+5	9650	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	kvadrat_meyl	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	oykh	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+8	29_mileyan	_	NUM	NUM-ACC	Case=Acc	9	nummod	_	_
+9	eyn_vauner	_	NOUN	N-ACC	Case=Acc	6	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.311
+# X_ID = 1818E-GEOGRAFIE,21.332
+# text = frankreykh hat 150000 beli_mlkhmut oyf dr ibsh fuftsig linien_shifn fertsig fregatin khuts kleyni shifn
+1	frankreykh	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	150000	_	NUM	NUM-ACC	Case=Acc	4	nummod	_	_
+4	beli_mlkhmut	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+5	oyf	_	ADP	P	_	7	case	_	_
+6	dr	_	DET	D	PronType=Art	7	det	_	_
+7	ibsh	_	NOUN	N-D	Definite=Def	4	obl	_	_
+8	fuftsig	_	NUM	NUM	_	4	conj	_	_
+9	linien_shifn	_	NOUN	N	_	8	conj	_	_
+10	fertsig	_	NUM	NUM	_	4	conj	_	_
+11	fregatin	_	NOUN	N	_	10	conj	_	_
+12	khuts	_	ADP	P	_	14	case	_	_
+13	kleyni	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	shifn	_	NOUN	N	_	10	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.312
+# X_ID = 1818E-GEOGRAFIE,21.333
+# text = in yar 1789 hat zikh frankreykh giteylt in 33 gruse pravintsies
+1	in	_	ADP	P	_	2	case	_	_
+2	yar	_	NOUN	N	_	7	obl	_	_
+3	1789	_	NUM	NUM	_	2	nummod	_	_
+4	hat	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	7	expl:pv	_	_
+6	frankreykh	_	PROPN	NPR-SBJ	_	7	nsubj	_	_
+7	giteylt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	33	_	NUM	NUM	_	7	obl	_	_
+10	gruse	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+11	pravintsies	_	NOUN	N	_	9	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.313
+# X_ID = 1818E-GEOGRAFIE,21.334
+# text = itsund teylt zi zikh in 86 departeiegsn
+1	itsund	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	teylt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	86	_	NUM	NUM	_	2	obl	_	_
+7	departeiegsn	_	NOUN	N	_	6	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.314
+# X_ID = 1818E-GEOGRAFIE,21.335
+# text = in dr zelbr mlkhmh hat frankreykh fr_loyrn gants haland eyn stik fun teytsh_land oykh itali venetie
+1	in	_	ADP	P	_	4	case	_	_
+2	dr	_	DET	D	PronType=Art	4	det	_	_
+3	zelbr	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	mlkhmh	_	NOUN	N-D	Definite=Def	7	obl	_	_
+5	hat	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+6	frankreykh	_	PROPN	NPR-SBJ	_	7	nsubj	_	_
+7	fr_loyrn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	gants	_	DET	Q-ACC	Case=Acc	9	det	_	_
+9	haland	_	PROPN	NPR	_	7	obj	_	_
+10	eyn	_	DET	D	PronType=Art	11	det	_	_
+11	stik	_	NOUN	N-I	Definite=Ind	9	conj	_	_
+12	fun	_	ADP	P	_	13	case	_	_
+13	teytsh_land	_	PROPN	NPR	_	11	obl	_	_
+14	oykh	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+15	itali	_	PROPN	NPR	_	9	conj	_	_
+16	venetie	_	PROPN	NPR	_	15	flat:name	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.315
+# X_ID = 1818E-GEOGRAFIE,21.336
+# text = in alem hat frankreykh fr_larn lerkh fun 13_mileyan eyn_vauner
+1	in	_	ADP	P	_	2	case	_	_
+2	alem	_	DET	Q	_	5	obl	_	_
+3	hat	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	frankreykh	_	PROPN	NPR-SBJ	_	5	nsubj	_	_
+5	fr_larn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	lerkh	approximately	X	H	_	5	dep	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	13_mileyan	_	NUM	NUM	_	6	obl	_	_
+9	eyn_vauner	_	NOUN	N	_	8	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.316
+# X_ID = 1818E-GEOGRAFIE,21.337
+# text = pariz iz di hoypt_stat fun gantsin di vaunung fun mlkh
+1	pariz	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	di	_	DET	D	PronType=Art	4	det	_	_
+4	hoypt_stat	_	NOUN	N-D	Definite=Def	2	xcomp	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	gantsin	_	NOUN	N	_	4	obl	_	_
+7	di	_	DET	D	PronType=Art	8	det	_	_
+8	vaunung	_	NOUN	N-D	Definite=Def	4	appos	_	_
+9	fun	_	ADP	P	_	10	case	_	_
+10	mlkh	_	NOUN	N	_	8	obl	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.317
+# X_ID = 1818E-GEOGRAFIE,21.338
+# text = di stat pariz hat eyn um_kreyz fun zibn meyl
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	stat	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	pariz	_	PROPN	NPR-D	_	2	dep	_	_
+4	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	um_kreyz	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	zibn	_	NUM	NUM	_	6	obl	_	_
+9	meyl	_	NOUN	N	_	8	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.318
+# X_ID = 1818E-GEOGRAFIE,21.339
+# text = oykh hat zi 547756 eyn_vauner zeyer fil shini hoyzr un palatsin drey akademies oykh fil fabrikn
+1	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	547756	_	NUM	NUM-ACC	Case=Acc	5	nummod	_	_
+5	eyn_vauner	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+6	zeyer	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+7	fil	_	DET	Q	_	6	det	_	_
+8	shini	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	hoyzr	_	NOUN	N	_	5	conj	_	_
+10	un	_	CCONJ	CONJ	_	11	cc	_	_
+11	palatsin	_	NOUN	N	_	9	conj	_	_
+12	drey	_	NUM	NUM	_	5	conj	_	_
+13	akademies	_	NOUN	N	_	12	conj	_	_
+14	oykh	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+15	fil	_	DET	Q	_	16	det	_	_
+16	fabrikn	_	NOUN	N	_	5	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.319
+# X_ID = 1818E-GEOGRAFIE,21.340
+# text = di stat versal iz oykh eyn gruse un eyn sheyne stat
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	stat	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	versal	_	PROPN	NPR-D	_	2	dep	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	oykh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	eyn	_	DET	D	PronType=Art	7	det	_	_
+7	gruse	_	ADJ	ADJ	Degree=Pos	4	xcomp	_	_
+8	un	_	CCONJ	CONJ	_	11	cc	_	_
+9	eyn	_	DET	D	PronType=Art	11	det	_	_
+10	sheyne	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	stat	_	NOUN	N-I	Definite=Ind	7	conj	_	_
+
+# sent_id = 1818E-GEOGRAFIE,.320
+# X_ID = 1818E-GEOGRAFIE,21.341
+# text = zi hat eyn fabriki fun giver kli zeyn vas es iz di besti in gants eaurape
+1	zi	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+4	fabriki	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	giver	_	NOUN	N	_	4	obl	_	_
+7	kli	tool	X	H	_	6	dep	_	_
+8	zeyn	UNKNOWN	X	H	_	6	dep	_	_
+9	vas	_	SCONJ	C	_	11	mark	_	_
+10	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	11	expl	_	_
+11	iz	_	VERB	VBF	VerbForm=Fin	4	acl:relcl	_	_
+12	di	_	DET	D	PronType=Art	13	det	_	_
+13	besti	_	ADJ	ADJS	Degree=Pos	11	xcomp	_	_
+14	in	_	ADP	P	_	16	case	_	_
+15	gants	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	eaurape	_	PROPN	NPR	_	13	obl	_	_
+
+1	oykh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	in	_	ADP	P	_	5	case	_	_
+3	dr	_	DET	D	PronType=Art	5	det	_	_
+4	stat	_	NOUN	N	_	5	nummod	_	_
+5	limn	_	PROPN	NPR-D	_	6	obl	_	_
+6	gifinn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	zikh	_	PRON	PRO-RFL	PronType=Reflex	6	expl:pv	_	_
+8	fil	_	DET	Q-NOM	Case=Nom	9	det	_	_
+9	zeyd_fabrikn	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+

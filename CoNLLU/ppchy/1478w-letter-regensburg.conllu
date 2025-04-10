@@ -1,0 +1,113 @@
+# sent_id = 1478W-LETTER-REGENSBURG,.1
+# X_ID = 1478W-LETTER-REGENSBURG,156.3
+# text = liebe froyndin, du liebe kron, ikh kasven dir fil,
+1	liebe	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	froyndin	_	NOUN	N	_	9	vocative	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	9	punct	_	_
+4	du	_	PRON	PRO	_	6	nmod	_	_
+5	liebe	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	kron	_	NOUN	N	_	9	vocative	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	9	punct	_	_
+8	ikh	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+9	kasven	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	dir	_	PRON	PRO-DTV	Case=Dat	9	iobj	_	_
+11	fil	_	DET	Q	_	9	obl	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1478W-LETTER-REGENSBURG,.2
+# X_ID = 1478W-LETTER-REGENSBURG,156.4
+# text = du entverst mir nikhtsit .
+1	du	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	entverst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	mir	_	PRON	PRO-DTV	Case=Dat	2	iobj	_	_
+4	nikhtsit	_	DET	Q-NEG	Polarity=Neg	2	obl	_	SpaceAfter=No
+5	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1478W-LETTER-REGENSBURG,.3
+# X_ID = 1478W-LETTER-REGENSBURG,156.5
+# text = ob du nit kasven kanst on di inoyem ?
+1	ob	_	SCONJ	C	_	4	mark	_	_
+2	du	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+4	kasven	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	kanst	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+6	on	_	ADP	P	_	8	case	_	_
+7	di	_	DET	D	PronType=Art	8	det	_	_
+8	inoyem	_	NOUN	N-D	Definite=Def	4	obl	_	SpaceAfter=No
+9	?	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1478W-LETTER-REGENSBURG,.4
+# X_ID = 1478W-LETTER-REGENSBURG,156.6
+# text = ikh ver morgen mit dem iren reden, ob ikh deyn zakh kont tsu guet ous makhen .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+2	ver	_	AUX	RDF	VerbForm=Fin	7	aux	_	_
+3	morgen	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+4	mit	_	ADP	P	_	6	case	_	_
+5	dem	_	DET	D	PronType=Art	6	det	_	_
+6	iren	_	NOUN	N-D	Definite=Def	7	obl	_	_
+7	reden	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+9	ob	_	SCONJ	C	_	17	mark	_	_
+10	ikh	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+11	deyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	12	det:poss	_	_
+12	zakh	_	NOUN	N	_	17	obj	_	_
+13	kont	_	AUX	MDF	VerbForm=Fin	17	aux	_	_
+14	tsu	_	ADP	P	_	15	case	_	_
+15	guet	_	NOUN	N	_	17	obl	_	_
+16	ous	_	ADP	RP	_	17	compound:prt	_	_
+17	makhen	_	VERB	VB	VerbForm=Inf	7	dep	_	SpaceAfter=No
+18	.	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1478W-LETTER-REGENSBURG,.5
+# X_ID = 1478W-LETTER-REGENSBURG,156.7
+# text = shik di haub vider heraus .
+1	shik	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	di	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+3	haub	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	1	obj	_	_
+4	vider	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+5	heraus	_	ADV	ADV	Degree=Pos	1	advmod	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1478W-LETTER-REGENSBURG,.6
+# X_ID = 1478W-LETTER-REGENSBURG,156.8
+# text = hays %arb% das lokh doheran fer_makhen .
+1	hays	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	%arb%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+3	das	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+4	lokh	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+5	doheran	_	ADP	P	_	4	obl	_	_
+6	fer_makhen	_	VERB	VB	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1478W-LETTER-REGENSBURG,.7
+# X_ID = 1478W-LETTER-REGENSBURG,156.9
+# text = kokh rayn pulver in aynem apel .
+1	kokh	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	rayn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	3	amod	_	_
+3	pulver	_	NOUN	N-ACC	Case=Acc	1	obj	_	_
+4	in	_	ADP	P	_	6	case	_	_
+5	aynem	_	DET	D	PronType=Art	6	det	_	_
+6	apel	_	NOUN	N-I	Definite=Ind	1	obl	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1478W-LETTER-REGENSBURG,.8
+# X_ID = 1478W-LETTER-REGENSBURG,156.10
+# text = host vol h yomem .
+1	host	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	vol	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	h	the	X	H	_	1	dep	_	_
+4	yomem	UNKNOWN	X	H	_	3	dep	_	SpaceAfter=No
+5	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1478W-LETTER-REGENSBURG,.9
+# X_ID = 1478W-LETTER-REGENSBURG,156.11
+# text = shrayb guet doytsh .
+1	shrayb	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	guet	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	3	amod	_	_
+3	doytsh	_	NOUN	N-ACC	Case=Acc	1	obj	_	SpaceAfter=No
+4	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+1	nay	_	X	X	_	0	root	_	_
+2	ayn	_	X	X	_	1	dep	_	_
+3	.	_	PUNCT	PUNC	_	1	punct	_	_
+

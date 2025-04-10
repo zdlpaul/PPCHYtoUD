@@ -1,0 +1,1566 @@
+# sent_id = 1928E-WEINREICH-KINES,.1
+# X_ID = 1928E-WEINREICH-KINES,192.3
+# text = tsvey yiddishe kinut oyf khmelnitskis gzrut
+1	tsvey	_	NUM	NUM	_	0	root	_	_
+2	yiddishe	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	kinut	_	NOUN	N	_	1	conj	_	_
+4	oyf	_	ADP	P	_	5	case	_	_
+5	khmelnitskis	_	NOUN	NPR$	_	1	obl	_	_
+6	gzrut	_	NOUN	N	_	5	conj	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.2
+# X_ID = 1928E-WEINREICH-KINES,192.4
+# text = in meyn bukh " shturemvint " hob ikh oyf z"z 5-76 gegebn untern kepl : " bogdan khmelnitski un zeyn zeyt " a shilderung fun di gzrut, vos %t%-1 yudn zeynen oysgeshtanen in di yorn 1648-1649 oyf ukraine .
+1	in	_	ADP	P	_	3	case	_	_
+2	meyn	_	PRON	PRO$	_	3	det:poss	_	_
+3	bukh	_	NOUN	N	_	12	obl	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	3	punct	_	_
+5	shturemvint	_	NOUN	N	_	3	dep	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	12	punct	_	_
+7	hob	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+8	ikh	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+9	oyf	_	ADP	P	_	10	case	_	_
+10	z"z	_	NOUN	N	_	12	obl	_	_
+11	5-76	_	NUM	NUM	_	10	nummod	_	_
+12	gegebn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	untern	_	ADP	P-CL	_	14	case	_	_
+14	kepl	_	NOUN	N	_	12	obl	_	SpaceAfter=No
+15	:	_	PUNCT	PUNC	_	14	punct	_	SpaceAfter=No
+16	"	_	PUNCT	PUNC	_	14	punct	_	_
+17	bogdan	_	PROPN	NPR	_	14	appos	_	_
+18	khmelnitski	_	PROPN	NPR	_	17	flat:name	_	_
+19	un	_	CCONJ	CONJ	_	21	cc	_	_
+20	zeyn	_	PRON	PRO$	_	21	det:poss	_	_
+21	zeyt	_	NOUN	N	_	17	conj	_	SpaceAfter=No
+22	"	_	PUNCT	PUNC	_	12	punct	_	_
+23	a	_	DET	D-ACC	Case=Acc|PronType=Art	24	det	_	_
+24	shilderung	_	NOUN	N-ACC	Case=Acc	12	obj	_	_
+25	fun	_	ADP	P	_	27	case	_	_
+26	di	_	DET	D	PronType=Art	27	det	_	_
+27	gzrut	_	NOUN	N-D	Definite=Def	24	obl	_	SpaceAfter=No
+28	,	_	PUNCT	PUNC	_	27	punct	_	_
+29	vos	_	SCONJ	C	_	33	mark	_	_
+30	%t%-1	_	NOUN	NP-ACC	_	33	dep	_	_
+31	yudn	_	NOUN	N-NOM	Case=Nom	33	nsubj	_	_
+32	zeynen	_	AUX	BEF	VerbForm=Fin	33	cop	_	_
+33	oysgeshtanen	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+34	in	_	ADP	P	_	36	case	_	_
+35	di	_	DET	D	PronType=Art	36	det	_	_
+36	yorn	_	NOUN	N	_	33	obl	_	_
+37	1648-1649	_	NUM	NUM-D	Definite=Def	36	nummod	_	_
+38	oyf	_	ADP	P	_	39	case	_	_
+39	ukraine	_	PROPN	NPR	_	33	obl	_	SpaceAfter=No
+40	.	_	PUNCT	PUNC	_	27	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.3
+# X_ID = 1928E-WEINREICH-KINES,192.5
+# text = yener etiud iz geshribn oyfn smkh fun hebreishe, poylishe, rusishe und ukrainishe mkurim ;
+1	yener	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	etiud	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	geshribn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+5	oyfn	_	ADP	P-CL	_	6	case	_	_
+6	smkh	_	NOUN	N	_	4	obl	_	_
+7	fun	_	ADP	P	_	15	case	_	_
+8	hebreishe	_	ADJ	ADJ	Degree=Pos	10	amod	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	10	punct	_	_
+10	poylishe	_	ADJ	ADJ	Degree=Pos	15	amod	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	10	punct	_	_
+12	rusishe	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+13	und	_	CCONJ	CONJ	_	10	amod	_	_
+14	ukrainishe	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+15	mkurim	_	NOUN	N	_	6	obl	_	SpaceAfter=No
+16	;	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.4
+# X_ID = 1928E-WEINREICH-KINES,192.6
+# text = tsu meyn groysn badoyern hob ikh dort nokh nit gekont oysnutsn di tsvey yidishe tekstn vos %t%-1 zeynen undz farblibn fun khmelnitskis tseyt .
+1	tsu	_	ADP	P	_	4	case	_	_
+2	meyn	_	PRON	PRO$	_	4	det:poss	_	_
+3	groysn	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	badoyern	_	NOUN	N	_	11	obl	_	_
+5	hob	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+6	ikh	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+7	dort	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+8	nokh	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+9	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	11	advmod	_	_
+10	gekont	_	AUX	MDN	Tense=Past|VerbForm=Part	11	aux	_	_
+11	oysnutsn	_	VERB	VB-PART	VerbForm=Inf	0	root	_	_
+12	di	_	DET	D-ACC	Case=Acc|PronType=Art	15	det	_	_
+13	tsvey	_	NUM	NUM-ACC	Case=Acc	15	nummod	_	_
+14	yidishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	15	amod	_	_
+15	tekstn	_	NOUN	N-ACC	Case=Acc	11	obj	_	_
+16	vos	_	SCONJ	C	_	20	mark	_	_
+17	%t%-1	_	NOUN	NP-SBJ	_	20	nsubj	_	_
+18	zeynen	_	AUX	BEF	VerbForm=Fin	20	cop	_	_
+19	undz	_	PRON	PRO-DTV	Case=Dat	20	iobj	_	_
+20	farblibn	_	VERB	VBN	Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+21	fun	_	ADP	P	_	22	case	_	_
+22	khmelnitskis	_	NOUN	NPR$	_	20	obl	_	_
+23	tseyt	_	NOUN	N	_	22	conj	_	SpaceAfter=No
+24	.	_	PUNCT	PUNC	_	20	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.5
+# X_ID = 1928E-WEINREICH-KINES,192.7
+# text = gib ikh zey itster do vi a tsugab tsu yener historisher bashreybung un faraeyns vi material tsu der yidisher literaturgeshikhte .
+1	gib	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	zey	_	PRON	PRO-ACC	Case=Acc	1	obj	_	_
+4	itster	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+5	do	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+6	vi	_	ADP	P	_	8	case	_	_
+7	a	_	DET	D	PronType=Art	8	det	_	_
+8	tsugab	_	NOUN	N-I	Definite=Ind	1	obl	_	_
+9	tsu	_	ADP	P	_	12	case	_	_
+10	yener	_	DET	D	PronType=Art	12	det	_	_
+11	historisher	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	bashreybung	_	NOUN	N-D	Definite=Def	8	obl	_	_
+13	un	_	CCONJ	CONJ	_	16	cc	_	_
+14	faraeyns	_	X	X	_	16	dep	_	_
+15	vi	_	ADP	P	_	16	case	_	_
+16	material	_	NOUN	N	_	8	conj	_	_
+17	tsu	_	ADP	P	_	20	case	_	_
+18	der	_	DET	D	PronType=Art	20	det	_	_
+19	yidisher	_	ADJ	ADJ	Degree=Pos	20	amod	_	_
+20	literaturgeshikhte	_	NOUN	N-D	Definite=Def	16	obl	_	SpaceAfter=No
+21	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.6
+# X_ID = 1928E-WEINREICH-KINES,192.8
+# text = oyf vifil %t%-1 mir iz %exp% bavaust, zeynen di beyde kinut in ergets nito bmtsiaut, oyser in der bodleiane, vau %t%-2 ikh hob zey kopirt .
+1	oyf	_	ADP	P	_	2	case	_	_
+2	vifil	_	PRON	WPRO	_	5	obl	_	_
+3	%t%-1	_	ADP	PP	_	5	obl	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	5	iobj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	9	obl	_	_
+6	%exp%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+7	bavaust	_	ADJ	ADJ	Degree=Pos	5	amod	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	9	punct	_	_
+9	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	di	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+11	beyde	_	DET	Q-NOM	Case=Nom	12	det	_	_
+12	kinut	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+13	in	_	ADP	P	_	14	case	_	_
+14	ergets	_	ADV	ADV	Degree=Pos	9	obl	_	_
+15	nito	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+16	bmtsiaut	in_reality	X	H	_	9	obl	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	9	punct	_	_
+18	oyser	_	ADP	P	_	21	case	_	_
+19	in	_	ADP	P	_	21	case	_	_
+20	der	_	DET	D	PronType=Art	21	det	_	_
+21	bodleiane	_	PROPN	NPR	_	9	obl	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	21	punct	_	_
+23	vau	_	ADV	WADV	Degree=Pos	28	advmod	_	_
+24	%t%-2	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	28	advmod	_	_
+25	ikh	_	PRON	PRO-NOM	Case=Nom	28	nsubj	_	_
+26	hob	_	AUX	HVF	VerbForm=Fin	28	aux	_	_
+27	zey	_	PRON	PRO-ACC	Case=Acc	28	obj	_	_
+28	kopirt	_	VERB	VBN	Tense=Past|VerbForm=Part	21	acl:relcl	_	SpaceAfter=No
+29	.	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.7
+# X_ID = 1928E-WEINREICH-KINES,192.9
+# text = ikh batseykhn zey fun kurtskeyt vegn mit " kine a " un " kine b " .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	batseykhn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zey	_	PRON	PRO-ACC	Case=Acc	2	obj	_	_
+4	fun	_	ADP	P	_	5	case	_	_
+5	kurtskeyt	_	NOUN	N	_	2	obl	_	_
+6	vegn	_	NOUN	N	_	5	conj	_	_
+7	mit	_	ADP	P	_	9	case	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	9	punct	_	_
+9	kine	_	NOUN	N	_	2	obl	_	_
+10	a	_	NOUN	N	_	9	conj	_	SpaceAfter=No
+11	"	_	PUNCT	PUNC	_	9	punct	_	_
+12	un	_	CCONJ	CONJ	_	14	cc	_	SpaceAfter=No
+13	"	_	PUNCT	PUNC	_	14	punct	_	_
+14	kine	_	NOUN	N	_	9	conj	_	_
+15	b	_	NOUN	N	_	14	conj	_	SpaceAfter=No
+16	"	_	PUNCT	PUNC	_	2	punct	_	SpaceAfter=No
+17	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.8
+# X_ID = 1928E-WEINREICH-KINES,192.10
+# text = a dos erste lid : " kine el gzirut hkhilut dk"k akr"eyni " iz faran in der bodleiane in tsvey drukn .
+1	a	_	NUM	LS	_	14	dep	_	_
+2	dos	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+3	erste	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	lid	_	NOUN	N-NOM	Case=Nom	14	nsubj	_	SpaceAfter=No
+5	:	_	PUNCT	PUNC	_	4	punct	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	4	punct	_	_
+7	kine	_	NOUN	N	_	4	dep	_	_
+8	el	on	X	H	_	7	dep	_	_
+9	gzirut	decrees	X	H	_	7	dep	_	_
+10	hkhilut	the_communities	X	H	_	7	dep	_	_
+11	dk"k	that_community_holy	X	H	_	7	dep	_	_
+12	akr"eyni	_	PROPN	NPR	_	7	dep	_	SpaceAfter=No
+13	"	_	PUNCT	PUNC	_	14	punct	_	_
+14	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+15	faran	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+16	in	_	ADP	P	_	18	case	_	_
+17	der	_	DET	D	PronType=Art	18	det	_	_
+18	bodleiane	_	PROPN	NPR-D	_	14	obl	_	_
+19	in	_	ADP	P	_	20	case	_	_
+20	tsvey	_	NUM	NUM	_	14	obl	_	_
+21	drukn	_	NOUN	N	_	20	conj	_	SpaceAfter=No
+22	.	_	PUNCT	PUNC	_	14	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.9
+# X_ID = 1928E-WEINREICH-KINES,192.11
+# text = eyner kat._bodl._3693 git nit keyn yor,
+1	eyner	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	kat._bodl._3693	_	VERB	REF	_	3	dep	_	_
+3	git	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	3	advmod	_	_
+5	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	6	det	_	_
+6	yor	_	NOUN	N-ACC	Case=Acc	3	obj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.10
+# X_ID = 1928E-WEINREICH-KINES,192.12
+# text = nor s' shteyt ongevizn : 1648, alzo ummitlbar nokh di gzrut .
+1	nor	_	CCONJ	CONJ	_	3	cc	_	_
+2	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
+3	shteyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	ongevizn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+5	:	_	PUNCT	PUNC	_	3	punct	_	_
+6	1648	_	NUM	NUM-NOM	Case=Nom	3	nsubj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	alzo	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+9	ummitlbar	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+10	nokh	_	ADP	P	_	12	case	_	_
+11	di	_	DET	D	PronType=Art	12	det	_	_
+12	gzrut	_	NOUN	N-D	Definite=Def	6	xcomp	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.11
+# X_ID = 1928E-WEINREICH-KINES,192.13
+# text = loyt dem shlekhtn zats un opdruk iz shteynshneyder mser, az s' iz a proger oysgabe .
+1	loyt	_	ADP	P	_	4	case	_	_
+2	dem	_	DET	D	PronType=Art	4	det	_	_
+3	shlekhtn	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	zats	_	NOUN	N	_	7	obl	_	_
+5	un	_	CCONJ	CONJ	_	6	cc	_	_
+6	opdruk	_	NOUN	N	_	4	conj	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	shteynshneyder	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+9	mser	_	ADP	RP-H	_	7	compound:prt	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	7	punct	_	_
+11	az	_	SCONJ	C	_	13	mark	_	_
+12	s'	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+13	iz	_	VERB	VBF	VerbForm=Fin	7	ccomp	_	_
+14	a	_	DET	D	PronType=Art	16	det	_	_
+15	proger	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	oysgabe	_	NOUN	N-I	Definite=Ind	13	xcomp	_	SpaceAfter=No
+17	.	_	PUNCT	PUNC	_	13	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.12
+# X_ID = 1928E-WEINREICH-KINES,192.14
+# text = der tsveyter druk git on dem drukort amsterdam,
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	tsveyter	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	druk	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	git	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	on	_	ADP	RP	_	4	compound:prt	_	_
+6	dem	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	drukort	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+8	amsterdam	_	PROPN	NPR-D	_	7	dep	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.13
+# X_ID = 1928E-WEINREICH-KINES,192.15
+# text = nor derfar iz nit ongevizn keyn yor ;
+1	nor	_	CCONJ	CONJ	_	5	cc	_	_
+2	derfar	_	ADP	P	_	5	obl	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	5	advmod	_	_
+5	ongevizn	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+6	keyn	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	7	det	_	_
+7	yor	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	SpaceAfter=No
+8	;	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.14
+# X_ID = 1928E-WEINREICH-KINES,192.16
+# text = shteynshneyder halt, az s' iz gedrukt " bald nakh 1648 " .
+1	shteynshneyder	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+2	halt	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	2	punct	_	_
+4	az	_	SCONJ	C	_	7	mark	_	_
+5	s'	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+6	iz	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+7	gedrukt	_	VERB	VAN	Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	7	punct	_	_
+9	bald	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+10	nakh	_	ADP	P	_	11	case	_	_
+11	1648	_	NUM	NUM	_	7	obl	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	2	punct	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.15
+# X_ID = 1928E-WEINREICH-KINES,193.18
+# text = ikh hob fargleykht in oksford beyde tekstn
+1	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+3	fargleykht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	oksford	_	NOUN	N	_	3	obl	_	_
+6	beyde	_	DET	Q-ACC	Case=Acc	7	det	_	_
+7	tekstn	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.16
+# X_ID = 1928E-WEINREICH-KINES,193.19
+# text = un %con% bin gekumen tsum bashlus, az zey zeynen kmet vi identish .
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+3	bin	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	gekumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	tsum	_	ADP	P-CL	_	6	case	_	_
+6	bashlus	_	NOUN	N	_	4	obl	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	az	_	SCONJ	C	_	10	mark	_	_
+9	zey	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+10	zeynen	_	VERB	VBF	VerbForm=Fin	6	ccomp	_	_
+11	kmet	_	ADV	ADV	Degree=Pos	13	amod	_	_
+12	vi	_	ADP	P	_	11	case	_	_
+13	identish	_	ADJ	ADJ	Degree=Pos	10	amod	_	SpaceAfter=No
+14	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.17
+# X_ID = 1928E-WEINREICH-KINES,193.20
+# text = aber in shtrofe 3 a shteyger felt in amsterdam der zats : " mit kasis zeynen di rseim gilafn az men shneyd zngin " .
+1	aber	_	CCONJ	CONJ	_	7	cc	_	_
+2	in	_	ADP	P	_	3	case	_	_
+3	shtrofe	_	NOUN	N	_	7	obl	_	_
+4	3	_	NUM	NUM	_	3	nummod	_	_
+5	a	_	DET	D	PronType=Art	7	dep	_	_
+6	shteyger	_	NOUN	N	_	5	dep	_	_
+7	felt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	in	_	ADP	P	_	9	case	_	_
+9	amsterdam	_	PROPN	NPR	_	7	obl	_	_
+10	der	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+11	zats	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	SpaceAfter=No
+12	:	_	PUNCT	PUNC	_	11	punct	_	SpaceAfter=No
+13	"	_	PUNCT	PUNC	_	11	punct	_	_
+14	mit	_	ADP	P	_	11	dep	_	_
+15	kasis	_	NOUN	N	_	14	dep	_	_
+16	zeynen	_	AUX	BEF	VerbForm=Fin	14	cop	_	_
+17	di	_	DET	D	PronType=Art	14	det	_	_
+18	rseim	_	NOUN	N	_	14	dep	_	_
+19	gilafn	_	VERB	VBN	Tense=Past|VerbForm=Part	14	dep	_	_
+20	az	_	SCONJ	C	_	14	mark	_	_
+21	men	_	PRON	PRO	_	14	nmod	_	_
+22	shneyd	_	VERB	VBF	VerbForm=Fin	14	dep	_	_
+23	zngin	_	NOUN	N	_	14	dep	_	SpaceAfter=No
+24	"	_	PUNCT	PUNC	_	7	punct	_	SpaceAfter=No
+25	.	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.18
+# X_ID = 1928E-WEINREICH-KINES,193.21
+# text = der durkhloz iz gevis nit keyn tsufal :
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	durkhloz	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	gevis	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	3	advmod	_	_
+6	keyn	_	DET	Q-NEG	Polarity=Neg	7	det	_	_
+7	tsufal	_	NOUN	N	_	3	xcomp	_	SpaceAfter=No
+8	:	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.19
+# X_ID = 1928E-WEINREICH-KINES,193.22
+# text = ikh meyn, az der amsterdamer aroysgeber hot do oysgemekt bkivn dem slavizm, veyl er hot moyre gehat, az in merb-eyrope vet men im nit farshteyn .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	meyn	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	2	punct	_	_
+4	az	_	SCONJ	C	_	10	mark	_	_
+5	der	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+6	amsterdamer	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	7	amod	_	_
+7	aroysgeber	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	_
+8	hot	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+9	do	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+10	oysgemekt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	2	ccomp	_	_
+11	bkivn	_	X	X	_	10	dep	_	_
+12	dem	_	DET	D-ACC	Case=Acc|PronType=Art	13	det	_	_
+13	slavizm	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	10	obj	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	10	punct	_	_
+15	veyl	_	SCONJ	C	_	19	mark	_	_
+16	er	_	PRON	PRO-NOM	Case=Nom	19	nsubj	_	_
+17	hot	_	AUX	HVF	VerbForm=Fin	19	aux	_	_
+18	moyre	_	ADP	RP-H	_	19	compound:prt	_	_
+19	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+20	,	_	PUNCT	PUNC	_	19	punct	_	_
+21	az	_	SCONJ	C	_	28	mark	_	_
+22	in	_	ADP	P	_	23	case	_	_
+23	merb-eyrope	_	PROPN	NPR	_	28	obl	_	_
+24	vet	_	AUX	MDF	VerbForm=Fin	28	aux	_	_
+25	men	_	PRON	PRO-NOM	Case=Nom	28	nsubj	_	_
+26	im	_	PRON	PRO-ACC	Case=Acc	28	obj	_	_
+27	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	28	advmod	_	_
+28	farshteyn	_	VERB	VB	VerbForm=Inf	19	ccomp	_	SpaceAfter=No
+29	.	_	PUNCT	PUNC	_	28	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.20
+# X_ID = 1928E-WEINREICH-KINES,193.23
+# text = ikh hob zikh deriber in meyn iberdruk gehaltn durkhoys bey erstn prager druk .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	8	expl:pv	_	_
+4	deriber	_	ADP	P	_	8	obl	_	_
+5	in	_	ADP	P	_	7	case	_	_
+6	meyn	_	PRON	PRO$	_	7	det:poss	_	_
+7	iberdruk	_	NOUN	N	_	8	obl	_	_
+8	gehaltn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	durkhoys	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+10	bey	_	ADP	P	_	13	case	_	_
+11	erstn	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+12	prager	_	ADJ	ADJ	Degree=Pos	13	dep	_	_
+13	druk	_	NOUN	N	_	8	obl	_	SpaceAfter=No
+14	.	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.21
+# X_ID = 1928E-WEINREICH-KINES,193.24
+# text = di erste surut fun dem areynfir tsu der kinh zogn dukht %exp% zikh gants klar, az zi iz frier geven oyf lsun kuds :
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	erste	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	surut	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	dem	_	DET	D	PronType=Art	6	det	_	_
+6	areynfir	_	NOUN	N-D	Definite=Def	3	obl	_	_
+7	tsu	_	ADP	P	_	9	case	_	_
+8	der	_	DET	D	PronType=Art	9	det	_	_
+9	kinh	_	NOUN	N-D	Definite=Def	6	obl	_	_
+10	zogn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+11	dukht	_	VERB	VBF	VerbForm=Fin	10	parataxis	_	_
+12	%exp%	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+13	zikh	_	PRON	PRO-RFL	PronType=Reflex	11	expl:pv	_	_
+14	gants	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+15	klar	_	ADV	ADV	Degree=Pos	14	advmod	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	10	punct	_	_
+17	az	_	SCONJ	C	_	21	mark	_	_
+18	zi	_	PRON	PRO-NOM	Case=Nom	21	nsubj	_	_
+19	iz	_	AUX	BEF	VerbForm=Fin	21	cop	_	_
+20	frier	_	ADV	ADVR	Degree=Cmp	21	advmod	_	_
+21	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	10	ccomp	_	_
+22	oyf	_	ADP	P	_	23	dep	_	_
+23	lsun	language	X	H	_	21	obl	_	_
+24	kuds	holy	X	H	_	23	dep	_	SpaceAfter=No
+25	:	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.22
+# X_ID = 1928E-WEINREICH-KINES,193.25
+# text = " un derveyl fil leyt nit kenen es farshteyn ", hobn zey gebetn, men zol es " in deytshn ... drukn " .
+1	"	_	PUNCT	PUNC	_	14	punct	_	_
+2	un	_	CCONJ	CONJ	_	14	dep	_	_
+3	derveyl	_	SCONJ	C	_	2	mark	_	_
+4	fil	_	DET	Q	_	2	det	_	_
+5	leyt	_	NOUN	N	_	2	dep	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+7	kenen	_	AUX	MDF	VerbForm=Fin	2	aux	_	_
+8	es	_	PRON	PRO	_	2	nmod	_	_
+9	farshteyn	_	VERB	VB	VerbForm=Inf	2	dep	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	14	punct	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	14	punct	_	_
+12	hobn	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+13	zey	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+14	gebetn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	14	punct	_	_
+16	men	_	PRON	PRO-NOM	Case=Nom	14	dep	_	_
+17	zol	_	AUX	MDF	VerbForm=Fin	16	aux	_	_
+18	es	_	PRON	PRO-ACC	Case=Acc	16	obj	_	SpaceAfter=No
+19	"	_	PUNCT	PUNC	_	16	punct	_	_
+20	in	_	ADP	P	_	16	dep	_	_
+21	deytshn	_	NOUN	N	_	20	dep	_	SpaceAfter=No
+22	...	_	PUNCT	PUNC	_	20	punct	_	_
+23	drukn	_	VERB	VB	VerbForm=Inf	20	dep	_	SpaceAfter=No
+24	"	_	PUNCT	PUNC	_	14	punct	_	SpaceAfter=No
+25	.	_	PUNCT	PUNC	_	14	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.23
+# X_ID = 1928E-WEINREICH-KINES,193.26
+# text = ober es hot mir nit opgegoltn tsu gefinen velkhe es iz %t%-2 shpur fun aza hebreishn tekst ;
+1	ober	_	CCONJ	CONJ	_	6	cc	_	_
+2	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	6	expl	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	6	iobj	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+6	opgegoltn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+7	tsu	_	PART	TO	_	6	xcomp	_	_
+8	gefinen	_	VERB	VB	VerbForm=Inf	7	dep	_	_
+9	velkhe	_	DET	WD	_	11	obj	_	_
+10	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	11	expl	_	_
+11	iz	_	VERB	VBF	VerbForm=Fin	7	dep	_	_
+12	%t%-2	_	DET	D	PronType=Art	11	dep	_	_
+13	shpur	_	NOUN	N	_	12	conj	_	_
+14	fun	_	ADP	P	_	17	case	_	_
+15	aza	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+16	hebreishn	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	tekst	_	NOUN	N	_	12	obl	_	SpaceAfter=No
+18	;	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.24
+# X_ID = 1928E-WEINREICH-KINES,193.27
+# text = oykh dem hebreishn original fun dem al mla rkhmim tsum sof hob ikh nit gefunen .
+1	oykh	_	ADV	ADV	Degree=Pos	15	dep	_	_
+2	dem	_	DET	D	PronType=Art	1	det	_	_
+3	hebreishn	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+4	original	_	NOUN	N	_	1	conj	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	dem	_	DET	D	PronType=Art	1	obl	_	_
+7	al	UNKNOWN	X	H	_	6	dep	_	_
+8	mla	UNKNOWN	X	H	_	6	dep	_	_
+9	rkhmim	mercy	X	H	_	6	dep	_	_
+10	tsum	_	ADP	P-CL	_	11	case	_	_
+11	sof	_	NOUN	N	_	1	obl	_	_
+12	hob	_	AUX	HVF	VerbForm=Fin	15	aux	_	_
+13	ikh	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+14	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	15	advmod	_	_
+15	gefunen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	_	PUNCT	PUNC	_	15	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.25
+# X_ID = 1928E-WEINREICH-KINES,193.28
+# text = fundestvegn kenen mir dem yusf bn hr"r alezr lipman z"l asknzi mzial mprosnits, vos %t%-1 ruft zikh an in dem akrostikon str 23-62, an nemen bloyz far@ @n iberzetser, veyl di kinh iz gevis geshribn gevorn fun an oygn-edut, vos %t%-2 hot aleyn ibergelebt khmelnitskis skhitut,
+1	fundestvegn	_	ADV	ADV	Degree=Pos	27	advmod	_	_
+2	kenen	_	AUX	MDF	VerbForm=Fin	27	aux	_	_
+3	mir	_	PRON	PRO-NOM	Case=Nom	27	nsubj	_	_
+4	dem	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	yusf	_	PROPN	NPR	_	27	obj	_	_
+6	bn	_	PROPN	NPR	_	5	flat:name	_	_
+7	hr"r	_	PROPN	NPR	_	5	dep	_	_
+8	alezr	_	PROPN	NPR	_	5	dep	_	_
+9	lipman	_	PROPN	NPR	_	5	dep	_	_
+10	z"l	memory_to_blessing	X	H	_	5	discourse	_	_
+11	asknzi	_	PROPN	NPR	_	5	dep	_	_
+12	mzial	_	PROPN	NPR	_	5	dep	_	_
+13	mprosnits	from_Prosnis	X	H	_	5	dep	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	5	punct	_	_
+15	vos	_	SCONJ	C	_	17	mark	_	_
+16	%t%-1	_	NOUN	NP-SBJ	_	17	nsubj	_	_
+17	ruft	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+18	zikh	_	PRON	PRO-RFL	PronType=Reflex	17	expl:pv	_	_
+19	an	_	ADP	RP	_	17	compound:prt	_	_
+20	in	_	ADP	P	_	22	case	_	_
+21	dem	_	DET	D	PronType=Art	22	det	_	_
+22	akrostikon	_	NOUN	N-D	Definite=Def	17	obl	_	_
+23	str	_	NOUN	N	_	17	dep	_	_
+24	23-62	_	NUM	NUM	_	23	nummod	_	SpaceAfter=No
+25	,	_	PUNCT	PUNC	_	27	punct	_	_
+26	an	_	ADP	RP	_	27	compound:prt	_	_
+27	nemen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+28	bloyz	_	ADV	FP	Degree=Pos	31	advmod	_	_
+29	far@	_	ADP	P	_	31	case	_	_
+30	@n	_	DET	D	PronType=Art	31	det	_	_
+31	iberzetser	_	NOUN	N	_	27	obl	_	SpaceAfter=No
+32	,	_	PUNCT	PUNC	_	27	punct	_	_
+33	veyl	_	SCONJ	C	_	38	mark	_	_
+34	di	_	DET	D-NOM	Case=Nom|PronType=Art	35	det	_	_
+35	kinh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	38	nsubj	_	_
+36	iz	_	AUX	BEF	VerbForm=Fin	38	cop	_	_
+37	gevis	_	ADV	ADV	Degree=Pos	38	advmod	_	_
+38	geshribn	_	VERB	VAN	Tense=Past|VerbForm=Part	27	advcl	_	_
+39	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	38	dep	_	_
+40	fun	_	ADP	P	_	42	case	_	_
+41	an	_	DET	D	PronType=Art	42	det	_	_
+42	oygn-edut	_	NOUN	N-I	Definite=Ind	38	obl	_	SpaceAfter=No
+43	,	_	PUNCT	PUNC	_	42	punct	_	_
+44	vos	_	SCONJ	C	_	48	mark	_	_
+45	%t%-2	_	NOUN	NP-SBJ	_	48	nsubj	_	_
+46	hot	_	AUX	HVF	VerbForm=Fin	48	aux	_	_
+47	aleyn	_	ADV	ADV	Degree=Pos	48	advmod	_	_
+48	ibergelebt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	42	acl:relcl	_	_
+49	khmelnitskis	_	NOUN	NPR$	_	48	dep	_	_
+50	skhitut	_	NOUN	N	_	49	conj	_	SpaceAfter=No
+51	,	_	PUNCT	PUNC	_	27	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.26
+# X_ID = 1928E-WEINREICH-KINES,193.29
+# text = anit volt di shilderung nit geven azoy frtimdik un lebedik ;
+1	anit	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+2	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	6	dep	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	shilderung	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+6	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	azoy	_	ADV	ADV	Degree=Pos	8	amod	_	_
+8	frtimdik	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	lebedik	_	ADJ	ADJ	Degree=Pos	8	amod	_	SpaceAfter=No
+11	;	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.27
+# X_ID = 1928E-WEINREICH-KINES,194.30
+# text = un r' yusf zogt dokh undz aleyn oys, az er iz gor a merisher yud, fun der khilh kremzir,
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	r'	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+3	yusf	_	PROPN	NPR	_	2	flat:name	_	_
+4	zogt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	dokh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	undz	_	PRON	PRO-DTV	Case=Dat	4	iobj	_	_
+7	aleyn	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+8	oys	_	ADP	RP	_	4	compound:prt	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	4	punct	_	_
+10	az	_	SCONJ	C	_	12	mark	_	_
+11	er	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+12	iz	_	VERB	VBF	VerbForm=Fin	4	ccomp	_	_
+13	gor	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+14	a	_	DET	D	PronType=Art	16	det	_	_
+15	merisher	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	yud	_	NOUN	N	_	12	xcomp	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	16	punct	_	_
+18	fun	_	ADP	P	_	21	case	_	_
+19	der	_	DET	D	PronType=Art	21	det	_	_
+20	khilh	_	NOUN	N	_	21	nummod	_	_
+21	kremzir	_	PROPN	NPR-D	_	16	obl	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.28
+# X_ID = 1928E-WEINREICH-KINES,194.31
+# text = un " der shved " hot im fartribn fun zeyn shteynern hoyz .
+1	un	_	CCONJ	CONJ	_	8	cc	_	SpaceAfter=No
+2	"	_	PUNCT	PUNC	_	4	punct	_	_
+3	der	_	DET	D	PronType=Art	4	det	_	_
+4	shved	_	NOUN	N-D	Definite=Def	8	nsubj	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	4	punct	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+7	im	_	PRON	PRO-DTV	Case=Dat	8	iobj	_	_
+8	fartribn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	fun	_	ADP	P	_	12	case	_	_
+10	zeyn	_	PRON	PRO$	_	12	det:poss	_	_
+11	shteynern	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	hoyz	_	NOUN	N	_	8	obl	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.29
+# X_ID = 1928E-WEINREICH-KINES,194.32
+# text = tsum sof fun dem kinh hot r' yusf areyn geflokhtn un dos iz shoyn gevis yo zeyn eygns a bashreybung fun dem khurbn, vos %t%-1 hot getrofn zeyn fotershtot kremzir in 1643 .
+1	tsum	_	ADP	P-CL	_	2	case	_	_
+2	sof	_	NOUN	N	_	10	obl	_	_
+3	fun	_	ADP	P	_	5	case	_	_
+4	dem	_	DET	D	PronType=Art	5	det	_	_
+5	kinh	_	NOUN	N-D	Definite=Def	2	obl	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+7	r'	_	PROPN	NPR-SBJ	_	10	nsubj	_	_
+8	yusf	_	PROPN	NPR	_	7	flat:name	_	_
+9	areyn	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+10	geflokhtn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	un	_	CCONJ	CONJ	_	13	cc	_	_
+12	dos	_	DET	D-NOM	Case=Nom|PronType=Art	13	nsubj	_	_
+13	iz	_	VERB	VBF	VerbForm=Fin	10	parataxis	_	_
+14	shoyn	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+15	gevis	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+16	yo	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+17	zeyn	_	PRON	PRO$	_	18	det:poss	_	_
+18	eygns	_	NOUN	N	_	13	xcomp	_	_
+19	a	_	DET	D-ACC	Case=Acc|PronType=Art	20	det	_	_
+20	bashreybung	_	NOUN	N-ACC	Case=Acc	10	obj	_	_
+21	fun	_	ADP	P	_	23	case	_	_
+22	dem	_	DET	D	PronType=Art	23	det	_	_
+23	khurbn	_	NOUN	N-D	Definite=Def	20	obl	_	SpaceAfter=No
+24	,	_	PUNCT	PUNC	_	23	punct	_	_
+25	vos	_	SCONJ	C	_	28	mark	_	_
+26	%t%-1	_	NOUN	NP-SBJ	_	28	nsubj	_	_
+27	hot	_	AUX	HVF	VerbForm=Fin	28	aux	_	_
+28	getrofn	_	VERB	VBN	Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+29	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	30	det:poss	_	_
+30	fotershtot	_	NOUN	N	_	28	obj	_	_
+31	kremzir	_	PROPN	NPR	_	30	dep	_	_
+32	in	_	ADP	P	_	33	case	_	_
+33	1643	_	NUM	NUM	_	28	obl	_	SpaceAfter=No
+34	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.30
+# X_ID = 1928E-WEINREICH-KINES,194.33
+# text = di_dozike shtrofes 67-74 hobn nit keyn sheykhut tsu khmelnitskis gzrut,
+1	di_dozike	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	shtrofes	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	67-74	_	NUM	NUM-NOM	Case=Nom	2	appos	_	_
+4	hobn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+6	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	7	det	_	_
+7	sheykhut	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+8	tsu	_	ADP	P	_	9	case	_	_
+9	khmelnitskis	_	NOUN	NPR$	_	7	obl	_	_
+10	gzrut	_	NOUN	N	_	9	conj	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.31
+# X_ID = 1928E-WEINREICH-KINES,194.34
+# text = nor ikh hob zey ibergelozn bekedey nit tsu tseshtern di gantskeyt fun dem lid .
+1	nor	_	CCONJ	CONJ	_	5	cc	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	hob	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	zey	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+5	ibergelozn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+6	bekedey	_	ADV	ADV	Degree=Pos	5	advcl	_	_
+7	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+8	tsu	_	PART	TO	_	9	mark	_	_
+9	tseshtern	_	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+10	di	_	DET	D-ACC	Case=Acc|PronType=Art	11	det	_	_
+11	gantskeyt	_	NOUN	N-ACC	Case=Acc	9	obj	_	_
+12	fun	_	ADP	P	_	14	case	_	_
+13	dem	_	DET	D	PronType=Art	14	det	_	_
+14	lid	_	NOUN	N-D	Definite=Def	11	obl	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.32
+# X_ID = 1928E-WEINREICH-KINES,194.35
+# text = b di tsveyte kinh, on a yor un on a drukort, hot shteynshneyder, oyf vifil %t%-1 ikh ze, farfelt tsu fartseykhnen in zeyn katalog, khotsh dos bikhele iz shoyn in zeyn tseyt geven in der bodleiane .
+1	b	_	NUM	LS	_	23	dep	_	_
+2	di	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+3	tsveyte	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	4	amod	_	_
+4	kinh	_	NOUN	N-ACC	Case=Acc	23	obj	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	on	_	ADP	P	_	8	case	_	_
+7	a	_	DET	D	PronType=Art	8	det	_	_
+8	yor	_	NOUN	N-I	Definite=Ind	4	obl	_	_
+9	un	_	CCONJ	CONJ	_	12	cc	_	_
+10	on	_	ADP	P	_	12	case	_	_
+11	a	_	DET	D	PronType=Art	12	det	_	_
+12	drukort	_	NOUN	N-I	Definite=Ind	8	conj	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	23	punct	_	_
+14	hot	_	AUX	HVF	VerbForm=Fin	23	aux	_	_
+15	shteynshneyder	_	NOUN	N-NOM	Case=Nom	23	nsubj	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	23	punct	_	_
+17	oyf	_	ADP	P	_	18	case	_	_
+18	vifil	_	PRON	WPRO	_	21	obl	_	_
+19	%t%-1	_	ADP	PP	_	21	obl	_	_
+20	ikh	_	PRON	PRO-NOM	Case=Nom	21	nsubj	_	_
+21	ze	_	VERB	VBF	VerbForm=Fin	23	advcl	_	SpaceAfter=No
+22	,	_	PUNCT	PUNC	_	21	punct	_	_
+23	farfelt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+24	tsu	_	PART	TO	_	25	mark	_	_
+25	fartseykhnen	_	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+26	in	_	ADP	P	_	28	case	_	_
+27	zeyn	_	PRON	PRO$	_	28	det:poss	_	_
+28	katalog	_	NOUN	N	_	25	obl	_	SpaceAfter=No
+29	,	_	PUNCT	PUNC	_	23	punct	_	_
+30	khotsh	_	SCONJ	C	_	38	mark	_	_
+31	dos	_	DET	D-NOM	Case=Nom|PronType=Art	32	det	_	_
+32	bikhele	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	38	nsubj	_	_
+33	iz	_	AUX	BEF	VerbForm=Fin	38	cop	_	_
+34	shoyn	_	ADV	ADV	Degree=Pos	38	advmod	_	_
+35	in	_	ADP	P	_	37	case	_	_
+36	zeyn	_	PRON	PRO$	_	37	det:poss	_	_
+37	tseyt	_	NOUN	N	_	38	obl	_	_
+38	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	23	advcl	_	_
+39	in	_	ADP	P	_	41	case	_	_
+40	der	_	DET	D	PronType=Art	41	det	_	_
+41	bodleiane	_	PROPN	NPR-D	_	38	obl	_	SpaceAfter=No
+42	.	_	PUNCT	PUNC	_	38	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.33
+# X_ID = 1928E-WEINREICH-KINES,194.36
+# text = der tekst farnemt 7 zeytlekh ;
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	tekst	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	farnemt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	7	_	NUM	NUM-ACC	Case=Acc	5	nummod	_	_
+5	zeytlekh	_	NOUN	N-ACC	Case=Acc	3	obj	_	SpaceAfter=No
+6	;	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.34
+# X_ID = 1928E-WEINREICH-KINES,194.37
+# text = oyf der akhter gefint zikh a holtsshnit : a kozak mit a pike in eyn hand, mit a pistoyl in der tsveyter ; lebn im a harmat ; hinter im a mkhnh zelner .
+1	oyf	_	ADP	P	_	3	case	_	_
+2	der	_	DET	D	PronType=Art	3	det	_	_
+3	akhter	_	NOUN	N-D	Definite=Def	4	obl	_	_
+4	gefint	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+6	a	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	holtsshnit	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	SpaceAfter=No
+8	:	_	PUNCT	PUNC	_	7	punct	_	_
+9	a	_	DET	D	PronType=Art	10	det	_	_
+10	kozak	_	NOUN	N-I	Definite=Ind	7	appos	_	_
+11	mit	_	ADP	P	_	13	case	_	_
+12	a	_	DET	D	PronType=Art	13	det	_	_
+13	pike	_	NOUN	N-I	Definite=Ind	10	obl	_	_
+14	in	_	ADP	P	_	16	case	_	_
+15	eyn	_	DET	D	PronType=Art	16	det	_	_
+16	hand	_	NOUN	N-I	Definite=Ind	13	obl	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	10	punct	_	_
+18	mit	_	ADP	P	_	20	case	_	_
+19	a	_	DET	D-ACC	Case=Acc|PronType=Art	20	det	_	_
+20	pistoyl	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	10	obl	_	_
+21	in	_	ADP	P	_	23	case	_	_
+22	der	_	DET	D	PronType=Art	23	det	_	_
+23	tsveyter	_	ADJ	ADJ	Degree=Pos	20	obl	_	SpaceAfter=No
+24	;	_	PUNCT	PUNC	_	7	punct	_	_
+25	lebn	_	ADP	P	_	26	case	_	_
+26	im	_	PRON	PRO	_	28	obl	_	_
+27	a	_	DET	D-NOM	Case=Nom|PronType=Art	28	det	_	_
+28	harmat	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	7	acl	_	SpaceAfter=No
+29	;	_	PUNCT	PUNC	_	7	punct	_	_
+30	hinter	_	ADP	P	_	31	case	_	_
+31	im	_	PRON	PRO	_	33	obl	_	_
+32	a	_	DET	D	PronType=Art	33	det	_	_
+33	mkhnh	_	NOUN	N-I	Definite=Ind	7	acl	_	_
+34	zelner	_	NOUN	N	_	33	nmod:poss	_	SpaceAfter=No
+35	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.35
+# X_ID = 1928E-WEINREICH-KINES,194.38
+# text = di kinh b bahandlt di gesheenisn fun yor 1656, velkhe %t%-1 ikh muz do karakterizirn, makhmes in " shturemvint " z. 75 hob ikh zey bahandlt bnshimh akht .
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	kinh	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	b	_	NOUN	N-NOM	Case=Nom	2	conj	_	_
+4	bahandlt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	gesheenisn	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	yor	_	NOUN	N	_	6	obl	_	_
+9	1656	_	NUM	NUM	_	8	nummod	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	8	punct	_	_
+11	velkhe	_	PRON	WPRO	_	16	obj	_	_
+12	%t%-1	_	NOUN	NP-ACC	_	16	dep	_	_
+13	ikh	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+14	muz	_	AUX	MDF	VerbForm=Fin	16	aux	_	_
+15	do	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+16	karakterizirn	_	VERB	VB	VerbForm=Inf	8	acl:relcl	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	16	punct	_	_
+18	makhmes	_	SCONJ	C	_	28	mark	_	_
+19	in	_	ADP	P	_	21	case	_	SpaceAfter=No
+20	"	_	PUNCT	PUNC	_	21	punct	_	_
+21	shturemvint	_	NOUN	N	_	28	obl	_	SpaceAfter=No
+22	"	_	PUNCT	PUNC	_	28	punct	_	_
+23	z.	_	NOUN	N	_	28	dep	_	_
+24	75	_	NUM	NUM	_	23	nummod	_	_
+25	hob	_	AUX	HVF	VerbForm=Fin	28	aux	_	_
+26	ikh	_	PRON	PRO-NOM	Case=Nom	28	nsubj	_	_
+27	zey	_	PRON	PRO-ACC	Case=Acc	28	obj	_	_
+28	bahandlt	_	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+29	bnshimh	at_breath	X	H	_	28	obl	_	_
+30	akht	one	X	H	_	29	dep	_	SpaceAfter=No
+31	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.36
+# X_ID = 1928E-WEINREICH-KINES,194.39
+# text = nokh@ @dem vi khmelnitski hot dershpirt, az poyln iz im gubr, hot er zikh untergegebn dem moskver tsar .
+1	nokh@	_	ADP	P	_	2	case	_	_
+2	@dem	_	PRON	PRO	_	17	obl	_	_
+3	vi	_	SCONJ	C	_	6	mark	_	_
+4	khmelnitski	_	PROPN	NPR-SBJ	_	6	nsubj	_	_
+5	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+6	dershpirt	_	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	az	_	SCONJ	C	_	10	mark	_	_
+9	poyln	_	PROPN	NPR-SBJ	_	10	nsubj	_	_
+10	iz	_	VERB	VBF	VerbForm=Fin	6	ccomp	_	_
+11	im	_	PRON	PRO-DTV	Case=Dat	10	iobj	_	_
+12	gubr	_	ADP	RP-H	_	10	compound:prt	_	SpaceAfter=No
+13	,	_	PUNCT	PUNC	_	17	punct	_	_
+14	hot	_	AUX	HVF	VerbForm=Fin	17	aux	_	_
+15	er	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+16	zikh	_	PRON	PRO-RFL	PronType=Reflex	17	expl:pv	_	_
+17	untergegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+18	dem	_	DET	D-DTV	Case=Dat|PronType=Art	20	det	_	_
+19	moskver	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	20	amod	_	_
+20	tsar	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	17	iobj	_	SpaceAfter=No
+21	.	_	PUNCT	PUNC	_	17	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.37
+# X_ID = 1928E-WEINREICH-KINES,194.40
+# text = dos iz geven yanuar 1654 .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	3	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+3	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	yanuar	_	PROPN	NPR	_	3	obl	_	_
+5	1654	_	NUM	NUM	_	4	nummod	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.38
+# X_ID = 1928E-WEINREICH-KINES,194.41
+# text = bald nokh@ @dem hot moskve ongehoybn a mlkhmh mit poyln un opgehaltn a rey ntskhunut .
+1	bald	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	nokh@	_	ADP	P	_	3	case	_	_
+3	@dem	_	PRON	PRO	_	6	obl	_	_
+4	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+5	moskve	_	PROPN	NPR-SBJ	_	6	nsubj	_	_
+6	ongehoybn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+7	a	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	mlkhmh	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+9	mit	_	ADP	P	_	10	case	_	_
+10	poyln	_	PROPN	NPR	_	8	obl	_	_
+11	un	_	CCONJ	CONJ	_	12	cc	_	_
+12	opgehaltn	_	VERB	VB-PART	VerbForm=Inf	6	conj	_	_
+13	a	_	DET	D-ACC	Case=Acc|PronType=Art	14	det	_	_
+14	rey	_	NOUN	N-ACC	Case=Acc	12	obj	_	_
+15	ntskhunut	_	NOUN	N-ACC	Case=Acc	14	nmod:poss	_	SpaceAfter=No
+16	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.39
+# X_ID = 1928E-WEINREICH-KINES,194.42
+# text = dem zelbn yor iz aroys gefaln in di hent fun di moskeviter smalenks, in 1655, vilne, kavne un grodne .
+1	dem	_	DET	D	PronType=Art	3	det	_	_
+2	zelbn	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	yor	_	NOUN	N-D	Definite=Def	6	obl	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+5	aroys	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	gefaln	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	di	_	DET	D	PronType=Art	9	det	_	_
+9	hent	_	NOUN	N-D	Definite=Def	6	obl	_	_
+10	fun	_	ADP	P	_	12	case	_	_
+11	di	_	DET	D	PronType=Art	12	det	_	_
+12	moskeviter	_	PROPN	NPR-D	_	9	obl	_	_
+13	smalenks	_	PROPN	NPR-SBJ	_	6	nsubj	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	6	punct	_	_
+15	in	_	ADP	P	_	16	case	_	_
+16	1655	_	NUM	NUM	_	6	conj	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	16	punct	_	_
+18	vilne	_	PROPN	NPR	_	16	obl	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	18	punct	_	_
+20	kavne	_	PROPN	NPR	_	18	dep	_	_
+21	un	_	CCONJ	CONJ	_	18	cc	_	_
+22	grodne	_	PROPN	NPR	_	18	dep	_	SpaceAfter=No
+23	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.40
+# X_ID = 1928E-WEINREICH-KINES,194.43
+# text = fun drum hot zikh derveyle gerukt oyf der poylishenr teritorie khmelnitski mit zeyne kozakn, velkher %t%-1 hot eyngenumen lublin .
+1	fun	_	ADP	P	_	2	dep	_	_
+2	drum	south	X	H	_	6	dep	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	6	expl:pv	_	_
+5	derveyle	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	gerukt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	oyf	_	ADP	P	_	10	case	_	_
+8	der	_	DET	D	PronType=Art	10	det	_	_
+9	poylishenr	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	teritorie	_	NOUN	N-D	Definite=Def	6	obl	_	_
+11	khmelnitski	_	PROPN	NPR-SBJ	_	6	nsubj	_	_
+12	mit	_	ADP	P	_	14	case	_	_
+13	zeyne	_	PRON	PRO$	_	14	det:poss	_	_
+14	kozakn	_	NOUN	N	_	11	obl	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	14	punct	_	_
+16	velkher	_	PRON	WPRO	_	19	obj	_	_
+17	%t%-1	_	NOUN	NP-SBJ	_	19	nsubj	_	_
+18	hot	_	AUX	HVF	VerbForm=Fin	19	aux	_	_
+19	eyngenumen	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+20	lublin	_	PROPN	NPR-ACC	_	19	dep	_	SpaceAfter=No
+21	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.41
+# X_ID = 1928E-WEINREICH-KINES,194.44
+# text = afilu lemberg iz balegert gevorn, ober on erfolg .
+1	afilu	_	ADV	FP	Degree=Pos	2	advmod	_	_
+2	lemberg	_	PROPN	NPR	_	4	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	balegert	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+5	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	4	dep	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	4	punct	_	_
+7	ober	_	CCONJ	CONJ	_	8	cc	_	_
+8	on	_	ADP	P	_	4	conj	_	_
+9	erfolg	_	NOUN	N	_	2	obl	_	SpaceAfter=No
+10	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.42
+# X_ID = 1928E-WEINREICH-KINES,194.45
+# text = fun merb hot zikh a volf %ich%-1 geton oyf poyln nokh a driter suna, di shvedn .
+1	fun	_	ADP	P	_	2	dep	_	_
+2	merb	west	X	H	_	8	dep	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	8	expl:pv	_	_
+5	a	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	volf	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+7	%ich%-1	_	NOUN	NP-PRN	_	6	appos	_	_
+8	geton	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	oyf	_	ADP	P	_	10	case	_	_
+10	poyln	_	PROPN	NPR	_	8	obl	_	_
+11	nokh	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+12	a	_	DET	D	PronType=Art	14	det	_	_
+13	driter	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	suna	_	NOUN	N	_	8	appos	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	14	punct	_	_
+16	di	_	DET	D	PronType=Art	17	det	_	_
+17	shvedn	_	NOUN	N-D	Definite=Def	14	appos	_	SpaceAfter=No
+18	.	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.43
+# X_ID = 1928E-WEINREICH-KINES,194.46
+# text = es hot gehat a pnim, vi di poylishe republik volt shteyn erb untergang ;
+1	es	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+3	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	pnim	_	NOUN	N-ACC	Case=Acc	3	obj	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	5	punct	_	_
+7	vi	_	SCONJ	C	_	12	mark	_	_
+8	di	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+9	poylishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	10	amod	_	_
+10	republik	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	12	nsubj	_	_
+11	volt	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+12	shteyn	_	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+13	erb	eve	X	H	_	14	dep	_	_
+14	untergang	_	NOUN	N	_	12	obl	_	SpaceAfter=No
+15	;	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.44
+# X_ID = 1928E-WEINREICH-KINES,194.47
+# text = nor moskve hot zikh arumgezen, az es loynt ir nit, shvedn zolt vern tsu shtark,
+1	nor	_	CCONJ	CONJ	_	5	cc	_	_
+2	moskve	_	PROPN	NPR-SBJ	_	5	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+5	arumgezen	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	5	punct	_	_
+7	az	_	SCONJ	C	_	9	mark	_	_
+8	es	_	PRON	PRO	_	9	nsubj	_	_
+9	loynt	_	VERB	VBF	VerbForm=Fin	5	ccomp	_	_
+10	ir	_	PRON	PRO-DTV	Case=Dat	9	iobj	_	_
+11	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	9	punct	_	_
+13	shvedn	_	NOUN	N-NOM	Case=Nom	15	nsubj	_	_
+14	zolt	_	AUX	MDF	VerbForm=Fin	15	aux	_	_
+15	vern	_	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+16	tsu	_	ADV	ADV	Degree=Pos	17	amod	_	_
+17	shtark	_	ADJ	ADJ	Degree=Pos	15	amod	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.45
+# X_ID = 1928E-WEINREICH-KINES,194.48
+# text = hot tsar aleksey mikhailovits geshlosn a vofnshtilstand mit di poliakn, kedey tsu hobn freye hent kegn di shvedn .
+1	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+2	tsar	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	aleksey	_	PROPN	NPR	_	2	dep	_	_
+4	mikhailovits	_	PROPN	NPR	_	2	dep	_	_
+5	geshlosn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	a	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	vofnshtilstand	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+8	mit	_	ADP	P	_	10	case	_	_
+9	di	_	DET	D	PronType=Art	10	det	_	_
+10	poliakn	_	NOUN	N-D	Definite=Def	7	obl	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	5	punct	_	_
+12	kedey	_	SCONJ	C	_	5	advcl	_	_
+13	tsu	_	PART	TO	_	14	mark	_	_
+14	hobn	_	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	freye	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	16	amod	_	_
+16	hent	_	NOUN	N-ACC	Case=Acc	14	obj	_	_
+17	kegn	_	ADP	P	_	19	case	_	_
+18	di	_	DET	D	PronType=Art	19	det	_	_
+19	shvedn	_	NOUN	N-D	Definite=Def	14	obl	_	SpaceAfter=No
+20	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.46
+# X_ID = 1928E-WEINREICH-KINES,194.49
+# text = di maskevitishe ntskhunut in lite un reysn hobn teyer gekost der dortiker yidisher bafelkerung .
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	maskevitishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	ntskhunut	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	lite	_	PROPN	NPR	_	3	obl	_	_
+6	un	_	CCONJ	CONJ	_	7	cc	_	_
+7	reysn	_	PROPN	NPR	_	5	conj	_	_
+8	hobn	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+9	teyer	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+10	gekost	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	der	_	DET	D-DTV	Case=Dat|PronType=Art	14	det	_	_
+12	dortiker	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	14	amod	_	_
+13	yidisher	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	14	amod	_	_
+14	bafelkerung	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	10	iobj	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.47
+# X_ID = 1928E-WEINREICH-KINES,195.51
+# text = in vitebsk a shteyger hobn zikh di birger 14 vokhn gehaltn antkegn dem moskviter kheyl,
+1	in	_	ADP	P	_	2	case	_	_
+2	vitebsk	_	PROPN	NPR	_	11	obl	_	_
+3	a	_	DET	D	PronType=Art	11	dep	_	_
+4	shteyger	_	NOUN	N	_	3	dep	_	_
+5	hobn	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	11	expl:pv	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	birger	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	11	nsubj	_	_
+9	14	_	NUM	NUM	_	11	obl	_	_
+10	vokhn	_	NOUN	N	_	9	conj	_	_
+11	gehaltn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+12	antkegn	_	ADP	P	_	15	case	_	_
+13	dem	_	DET	D	PronType=Art	15	det	_	_
+14	moskviter	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	kheyl	_	NOUN	N-D	Definite=Def	11	obl	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	11	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.48
+# X_ID = 1928E-WEINREICH-KINES,195.52
+# text = un bey der gelegerung hobn yidn mit alemen tsugleykh geboyt befestikungen, gegebn gelt, gegangen oyf oysshpir .
+1	un	_	CCONJ	CONJ	_	10	cc	_	_
+2	bey	_	ADP	P	_	4	case	_	_
+3	der	_	DET	D	PronType=Art	4	det	_	_
+4	gelegerung	_	NOUN	N-D	Definite=Def	10	obl	_	_
+5	hobn	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+6	yidn	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+7	mit	_	ADP	P	_	8	case	_	_
+8	alemen	_	DET	Q	_	10	obl	_	_
+9	tsugleykh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+10	geboyt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	befestikungen	_	NOUN	N-ACC	Case=Acc	10	obj	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	10	punct	_	_
+13	gegebn	_	VERB	VBN	Tense=Past|VerbForm=Part	10	conj	_	_
+14	gelt	_	NOUN	N-ACC	Case=Acc	13	obj	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	10	punct	_	_
+16	gegangen	_	VERB	VBN	Tense=Past|VerbForm=Part	18	dep	_	_
+17	oyf	_	ADP	P	_	18	case	_	_
+18	oysshpir	_	NOUN	N	_	10	conj	_	SpaceAfter=No
+19	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.49
+# X_ID = 1928E-WEINREICH-KINES,195.53
+# text = ven di shtot iz eyngenumen gevorn, hot der rusisher komandir aroysgeleygt oyf yidn a hipshe kontributsie un dernokh farshikt di reykhe yidn keyn tif rusland, vau %t%-2 zey zeynen opgezesn bizn undrumover slum fun 1667 .
+1	ven	_	SCONJ	C	_	5	mark	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	shtot	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+4	iz	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+5	eyngenumen	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	12	advcl	_	_
+6	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	5	dep	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	12	punct	_	_
+8	hot	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+9	der	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+10	rusisher	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	11	amod	_	_
+11	komandir	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	12	nsubj	_	_
+12	aroysgeleygt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+13	oyf	_	ADP	P	_	14	case	_	_
+14	yidn	_	NOUN	N	_	12	obl	_	_
+15	a	_	DET	D-ACC	Case=Acc|PronType=Art	17	det	_	_
+16	hipshe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	17	amod	_	_
+17	kontributsie	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	12	obj	_	_
+18	un	_	CCONJ	CONJ	_	20	cc	_	_
+19	dernokh	_	ADP	P	_	20	obl	_	_
+20	farshikt	_	VERB	VBN	Tense=Past|VerbForm=Part	12	conj	_	_
+21	di	_	DET	D-ACC	Case=Acc|PronType=Art	23	det	_	_
+22	reykhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	23	amod	_	_
+23	yidn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	20	obj	_	_
+24	keyn	_	ADP	P	_	26	case	_	_
+25	tif	_	ADJ	ADJ	Degree=Pos	26	amod	_	_
+26	rusland	_	PROPN	NPR	_	20	obl	_	SpaceAfter=No
+27	,	_	PUNCT	PUNC	_	26	punct	_	_
+28	vau	_	ADV	WADV	Degree=Pos	32	advmod	_	_
+29	%t%-2	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	32	advmod	_	_
+30	zey	_	PRON	PRO-NOM	Case=Nom	32	nsubj	_	_
+31	zeynen	_	AUX	BEF	VerbForm=Fin	32	cop	_	_
+32	opgezesn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+33	bizn	_	ADP	P-CL	_	35	case	_	_
+34	undrumover	_	ADJ	ADJ	Degree=Pos	35	amod	_	_
+35	slum	_	NOUN	N	_	32	obl	_	_
+36	fun	_	ADP	P	_	37	case	_	_
+37	1667	_	NUM	NUM	_	35	obl	_	SpaceAfter=No
+38	.	_	PUNCT	PUNC	_	12	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.50
+# X_ID = 1928E-WEINREICH-KINES,195.54
+# text = avekforndik hobn zey ibergelozn teyere khptsim bey di shtotleyt,
+1	avekforndik	_	VERB	VAG-PART	Tense=Pres|VerbForm=Part	4	advcl	_	_
+2	hobn	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	zey	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	ibergelozn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+5	teyere	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	khptsim	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	bey	_	ADP	P	_	9	case	_	_
+8	di	_	DET	D	PronType=Art	9	det	_	_
+9	shtotleyt	_	NOUN	N-D	Definite=Def	4	obl	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.51
+# X_ID = 1928E-WEINREICH-KINES,195.55
+# text = nor di kblut zeynen bey zey farfaln gevorn in der tseyt fun girus,
+1	nor	_	CCONJ	CONJ	_	8	cc	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	kblut	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	8	nsubj	_	_
+4	zeynen	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+5	bey	_	ADP	P	_	6	case	_	_
+6	zey	_	PRON	PRO	_	8	obl	_	_
+7	farfaln	_	VERB	VX	_	8	dep	_	_
+8	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	0	root	_	_
+9	in	_	ADP	P	_	11	case	_	_
+10	der	_	DET	D	PronType=Art	11	det	_	_
+11	tseyt	_	NOUN	N-D	Definite=Def	8	obl	_	_
+12	fun	_	ADP	P	_	13	case	_	_
+13	girus	_	NOUN	N	_	11	obl	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.52
+# X_ID = 1928E-WEINREICH-KINES,195.56
+# text = hobn di shtotleyt shpeter geleyknt, az zey hobn epes bakumen .
+1	hobn	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	shtotleyt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+4	shpeter	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	geleyknt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	5	punct	_	_
+7	az	_	SCONJ	C	_	11	mark	_	_
+8	zey	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+9	hobn	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+10	epes	_	DET	Q-ACC	Case=Acc	11	obj	_	_
+11	bakumen	_	VERB	VBN	Tense=Past|VerbForm=Part	5	ccomp	_	SpaceAfter=No
+12	.	_	PUNCT	PUNC	_	11	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.53
+# X_ID = 1928E-WEINREICH-KINES,195.57
+# text = in mohilev hobn di shtotleyt dershpirt a set-khkusr zikh optsurekhenen mit der yidisher konkurents
+1	in	_	ADP	P	_	2	case	_	_
+2	mohilev	_	NOUN	N	_	6	obl	_	_
+3	hobn	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	shtotleyt	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+6	dershpirt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	a	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	set-khkusr	_	NOUN	N-ACC	Case=Acc	6	obj	_	_
+9	zikh	_	PRON	PRO-RFL-ACC	PronType=Reflex	10	expl:pv	_	_
+10	optsurekhenen	_	VERB	VB-PART	VerbForm=Inf	8	xcomp	_	_
+11	mit	_	ADP	P	_	14	case	_	_
+12	der	_	DET	D	PronType=Art	14	det	_	_
+13	yidisher	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	konkurents	_	NOUN	N-D	Definite=Def	10	obl	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.54
+# X_ID = 1928E-WEINREICH-KINES,195.58
+# text = un %con% hobn oysgepuelt bey di neye balebatim, az men zol ale yidn aroys@ %ich%-2 @treybn fun shtot un zeyere heyzer tseteyln tsvishn dem magistrat un der rusisher makht .
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+3	hobn	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	oysgepuelt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+5	bey	_	ADP	P	_	8	case	_	_
+6	di	_	DET	D	PronType=Art	8	det	_	_
+7	neye	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	balebatim	_	NOUN	N-D	Definite=Def	4	obl	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	4	punct	_	_
+10	az	_	SCONJ	C	_	17	mark	_	_
+11	men	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+12	zol	_	AUX	MDF	VerbForm=Fin	17	aux	_	_
+13	ale	_	DET	Q-ACC	Case=Acc	14	det	_	_
+14	yidn	_	NOUN	N-ACC	Case=Acc	17	obj	_	_
+15	aroys@	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+16	%ich%-2	_	ADP	PP	_	15	obl	_	_
+17	@treybn	_	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+18	fun	_	ADP	P	_	19	case	_	_
+19	shtot	_	NOUN	N	_	17	obl	_	_
+20	un	_	CCONJ	CONJ	_	17	cc	_	_
+21	zeyere	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	22	det:poss	_	_
+22	heyzer	_	NOUN	N	_	17	obj	_	_
+23	tseteyln	_	VERB	VB	VerbForm=Inf	17	dep	_	_
+24	tsvishn	_	ADP	P	_	26	case	_	_
+25	dem	_	DET	D	PronType=Art	26	det	_	_
+26	magistrat	_	NOUN	N-D	Definite=Def	17	obl	_	_
+27	un	_	CCONJ	CONJ	_	30	cc	_	_
+28	der	_	DET	D	PronType=Art	30	det	_	_
+29	rusisher	_	ADJ	ADJ	Degree=Pos	30	amod	_	_
+30	makht	_	NOUN	N-D	Definite=Def	26	conj	_	SpaceAfter=No
+31	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.55
+# X_ID = 1928E-WEINREICH-KINES,195.59
+# text = der girus iz nit tsushtandgekumen -
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	girus	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	5	advmod	_	_
+5	tsushtandgekumen	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	-	-	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.56
+# X_ID = 1928E-WEINREICH-KINES,195.60
+# text = tsulib voser sibh veyst men nit .
+1	tsulib	_	ADP	P	_	4	dep	_	_
+2	voser	_	DET	WD	_	1	obj	_	_
+3	sibh	_	NOUN	N	_	2	dep	_	_
+4	veyst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	men	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.57
+# X_ID = 1928E-WEINREICH-KINES,195.61
+# text = ven s' zeynen ober in a kurtser tseyt arum tsugetrotn tsu mahilev di poylishe mkhnut, hot der rusisher komandir poklonski geheysn ale yidn avekgeyn in poylishe lager :
+1	ven	_	SCONJ	C	_	10	mark	_	_
+2	s'	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	10	expl	_	_
+3	zeynen	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+4	ober	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+5	in	_	ADP	P	_	8	case	_	_
+6	a	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+7	kurtser	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	tseyt	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	10	obl	_	_
+9	arum	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+10	tsugetrotn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	22	advcl	_	_
+11	tsu	_	ADP	P	_	12	case	_	_
+12	mahilev	_	NOUN	N	_	10	obl	_	_
+13	di	_	DET	D-NOM	Case=Nom|PronType=Art	15	det	_	_
+14	poylishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	15	amod	_	_
+15	mkhnut	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	SpaceAfter=No
+16	,	_	PUNCT	PUNC	_	10	punct	_	_
+17	hot	_	AUX	HVF	VerbForm=Fin	22	aux	_	_
+18	der	_	DET	D-NOM	Case=Nom|PronType=Art	20	det	_	_
+19	rusisher	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	20	amod	_	_
+20	komandir	_	NOUN	N-NOM	Case=Nom	22	nsubj	_	_
+21	poklonski	_	PROPN	NPR-D	_	20	dep	_	_
+22	geheysn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+23	ale	_	DET	Q-NOM	Case=Nom	24	det	_	_
+24	yidn	_	NOUN	N-NOM	Case=Nom	25	nsubj	_	_
+25	avekgeyn	_	VERB	VB-PART	VerbForm=Inf	22	xcomp	_	_
+26	in	_	ADP	P	_	28	case	_	_
+27	poylishe	_	ADJ	ADJ	Degree=Pos	28	amod	_	_
+28	lager	_	NOUN	N	_	25	obl	_	SpaceAfter=No
+29	:	_	PUNCT	PUNC	_	25	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.58
+# X_ID = 1928E-WEINREICH-KINES,195.62
+# text = vi nor zey zeynen aroys hinter der shtot, hobn di moskeviter zey alemen oysgehrget .
+1	vi	_	SCONJ	C	_	4	mark	_	_
+2	nor	_	ADV	FP	Degree=Pos	4	advmod	_	_
+3	zey	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	zeynen	_	VERB	VBF	VerbForm=Fin	15	advcl	_	_
+5	aroys	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	hinter	_	ADP	P	_	8	case	_	_
+7	der	_	DET	D	PronType=Art	8	det	_	_
+8	shtot	_	NOUN	N-D	Definite=Def	5	obl	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	4	punct	_	_
+10	hobn	_	AUX	HVF	VerbForm=Fin	15	aux	_	_
+11	di	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+12	moskeviter	_	PROPN	NPR-D	_	15	nsubj	_	_
+13	zey	_	PRON	PRO-ACC	Case=Acc	15	obj	_	_
+14	alemen	_	ADV	Q	_	15	advmod	_	_
+15	oysgehrget	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	_	PUNCT	PUNC	_	15	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.59
+# X_ID = 1928E-WEINREICH-KINES,195.63
+# text = fun vilne zeynen kmes ale yidn antlofn,
+1	fun	_	ADP	P	_	2	case	_	_
+2	vilne	_	PROPN	NPR	_	7	obl	_	_
+3	zeynen	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+4	kmes	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	ale	_	DET	Q	_	4	det	_	_
+6	yidn	_	NOUN	N	_	7	nsubj	_	_
+7	antlofn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.60
+# X_ID = 1928E-WEINREICH-KINES,195.64
+# text = bset es hot zikh farshpreyt der klang, az di moskeviter geyen .
+1	bset	_	CCONJ	CONJ	_	5	cc	_	_
+2	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	5	expl	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+5	farshpreyt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	der	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	klang	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+9	az	_	SCONJ	C	_	12	mark	_	_
+10	di	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+11	moskeviter	_	PROPN	NPR-D	_	12	nsubj	_	_
+12	geyen	_	VERB	VBF	VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.61
+# X_ID = 1928E-WEINREICH-KINES,195.65
+# text = di shtot hot ibergelebt a shreklekhe zibetsntogike srph ;
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	shtot	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	ibergelebt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+5	a	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+6	shreklekhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+7	zibetsntogike	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	srph	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	4	obj	_	SpaceAfter=No
+9	;	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.62
+# X_ID = 1928E-WEINREICH-KINES,195.66
+# text = oykh der gantser yidisher kvartl iz khrub gevorn .
+1	oykh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+3	gantser	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	5	amod	_	_
+4	yidisher	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	5	amod	_	_
+5	kvartl	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	8	nsubj	_	_
+6	iz	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+7	khrub	_	ADP	RP-H	_	8	compound:prt	_	_
+8	gevorn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.63
+# X_ID = 1928E-WEINREICH-KINES,195.67
+# text = shreklekhe epidemies hobn gevildevet un farlendt di vos %t%-1 zeynen gants geblibn fun shvedn, fun feyer un fun hunger .
+1	shreklekhe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	2	amod	_	_
+2	epidemies	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+3	hobn	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	gevildevet	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	un	_	CCONJ	CONJ	_	6	cc	_	_
+6	farlendt	_	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+7	di	_	DET	D-ACC	Case=Acc|PronType=Art	4	obj	_	_
+8	vos	_	SCONJ	C	_	12	mark	_	_
+9	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+10	zeynen	_	AUX	BEF	VerbForm=Fin	12	cop	_	_
+11	gants	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	geblibn	_	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	fun	_	ADP	P	_	14	case	_	_
+14	shvedn	_	NOUN	N	_	12	obl	_	SpaceAfter=No
+15	,	_	PUNCT	PUNC	_	14	punct	_	_
+16	fun	_	ADP	P	_	17	case	_	_
+17	feyer	_	NOUN	N	_	14	conj	_	_
+18	un	_	CCONJ	CONJ	_	20	cc	_	_
+19	fun	_	ADP	P	_	20	case	_	_
+20	hunger	_	NOUN	N	_	14	conj	_	SpaceAfter=No
+21	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.64
+# X_ID = 1928E-WEINREICH-KINES,195.68
+# text = di shtotishe kristn tsuzamen mit zeyere voitn un ratmener hobn opgegebn dem tsar mzl-tub tsu zeyn ntskhun un zikh mstdl geven bey im, er zol beshteminm ale frierdike privilegies un akhuts dem farvern yidn tsu vaoynen in shtot .
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	shtotishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	kristn	_	NOUN	N-NOM	Case=Nom	11	nsubj	_	_
+4	tsuzamen	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	mit	_	ADP	P	_	7	case	_	_
+6	zeyere	_	PRON	PRO$	_	7	det:poss	_	_
+7	voitn	_	NOUN	N	_	4	obl	_	_
+8	un	_	CCONJ	CONJ	_	9	cc	_	_
+9	ratmener	_	NOUN	N	_	7	conj	_	_
+10	hobn	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+11	opgegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+12	dem	_	DET	D-DTV	Case=Dat|PronType=Art	13	det	_	_
+13	tsar	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	11	iobj	_	_
+14	mzl-tub	_	ADP	RP-H	_	16	compound:prt	_	_
+15	tsu	_	PART	TO	_	16	mark	_	_
+16	zeyn	_	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+17	ntskhun	_	NOUN	N-ACC	Case=Acc	16	obj	_	_
+18	un	_	CCONJ	CONJ	_	21	cc	_	_
+19	zikh	_	PRON	PRO-RFL	PronType=Reflex	21	expl:pv	_	_
+20	mstdl	_	ADP	RP-H	_	21	compound:prt	_	_
+21	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	11	conj	_	_
+22	bey	_	ADP	P	_	23	case	_	_
+23	im	_	PRON	PRO	_	21	obl	_	SpaceAfter=No
+24	,	_	PUNCT	PUNC	_	21	punct	_	_
+25	er	_	PRON	PRO-NOM	Case=Nom	27	nsubj	_	_
+26	zol	_	AUX	MDF	VerbForm=Fin	27	aux	_	_
+27	beshteminm	_	VERB	VB	VerbForm=Inf	21	ccomp	_	_
+28	ale	_	DET	Q-ACC	Case=Acc	30	det	_	_
+29	frierdike	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	30	amod	_	_
+30	privilegies	_	NOUN	N-ACC	Case=Acc	27	obj	_	_
+31	un	_	CCONJ	CONJ	_	34	cc	_	_
+32	akhuts	_	ADP	P	_	33	case	_	_
+33	dem	_	DET	D	PronType=Art	34	obl	_	_
+34	farvern	_	VERB	VB	VerbForm=Inf	27	ccomp	_	_
+35	yidn	_	NOUN	N-ACC	Case=Acc	34	obj	_	_
+36	tsu	_	PART	TO	_	37	mark	_	_
+37	vaoynen	_	VERB	VB	VerbForm=Inf	34	xcomp	_	_
+38	in	_	ADP	P	_	39	case	_	_
+39	shtot	_	NOUN	N	_	37	obl	_	SpaceAfter=No
+40	.	_	PUNCT	PUNC	_	11	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.65
+# X_ID = 1928E-WEINREICH-KINES,195.69
+# text = 1658 hot tsar aleksey take aroys gegebn a ktb " gramota " %ich%-1 tsum vilner voievode, er zol aroys@ %ich%-2 @shikn ale yidn fun shtot,
+1	1658	_	NUM	NUM	_	7	obl	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+3	tsar	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+4	aleksey	_	PROPN	NPR	_	3	dep	_	_
+5	take	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+6	aroys	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	gegebn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	a	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+9	ktb	_	NOUN	N-ACC	Case=Acc	7	obj	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	9	punct	_	_
+11	gramota	_	PROPN	NPR	_	9	dep	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	9	punct	_	_
+13	%ich%-1	_	SCONJ	CP-THT	_	9	ccomp	_	_
+14	tsum	_	ADP	P-CL	_	16	case	_	_
+15	vilner	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	voievode	_	NOUN	N	_	7	obl	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	7	punct	_	_
+18	er	_	PRON	PRO-NOM	Case=Nom	22	nsubj	_	_
+19	zol	_	AUX	MDF	VerbForm=Fin	22	aux	_	_
+20	aroys@	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+21	%ich%-2	_	ADP	PP	_	20	obl	_	_
+22	@shikn	_	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+23	ale	_	DET	Q-ACC	Case=Acc	24	det	_	_
+24	yidn	_	NOUN	N-ACC	Case=Acc	22	obj	_	_
+25	fun	_	ADP	P	_	26	case	_	_
+26	shtot	_	NOUN	N	_	22	obl	_	SpaceAfter=No
+27	,	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.66
+# X_ID = 1928E-WEINREICH-KINES,195.70
+# text = nor tsi iz der bafel oysgefolgt gevorn iz nit gevaust .
+1	nor	_	CCONJ	CONJ	_	10	cc	_	_
+2	tsi	_	SCONJ	C	_	6	mark	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+4	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	bafel	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+6	oysgefolgt	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	10	nsubj	_	_
+7	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	6	dep	_	_
+8	iz	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+9	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+10	gevaust	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.67
+# X_ID = 1928E-WEINREICH-KINES,196.71
+# text = ven vilne iz 1661 tsurik farnumen gevorn fun dem poylishe khil-firer mikhal pats hobn yidn bekumen tsurik di " rekht " fun far der mlkhmh .
+1	ven	_	SCONJ	C	_	6	mark	_	_
+2	vilne	_	PROPN	NPR-SBJ	_	6	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+4	1661	_	NUM	NUM	_	6	obl	_	_
+5	tsurik	_	ADV	RP-ADV	_	6	advmod	_	_
+6	farnumen	_	VERB	VAN	Tense=Past|VerbForm=Part	16	advcl	_	_
+7	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	6	dep	_	_
+8	fun	_	ADP	P	_	12	case	_	_
+9	dem	_	DET	D	PronType=Art	12	det	_	_
+10	poylishe	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+11	khil-firer	_	NOUN	N	_	12	nummod	_	_
+12	mikhal	_	PROPN	NPR-D	_	6	obl	_	_
+13	pats	_	PROPN	NPR-D	_	12	flat:name	_	_
+14	hobn	_	AUX	HVF	VerbForm=Fin	16	aux	_	_
+15	yidn	_	NOUN	N-NOM	Case=Nom	16	nsubj	_	_
+16	bekumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+17	tsurik	_	ADV	RP-ADV	_	16	advmod	_	_
+18	di	_	DET	D-ACC	Case=Acc|PronType=Art	20	det	_	SpaceAfter=No
+19	"	_	PUNCT	PUNC	_	20	punct	_	_
+20	rekht	_	NOUN	N	_	16	obj	_	SpaceAfter=No
+21	"	_	PUNCT	PUNC	_	20	punct	_	_
+22	fun	_	ADP	P	_	25	case	_	_
+23	far	_	ADP	P	_	25	case	_	_
+24	der	_	DET	D	PronType=Art	25	det	_	_
+25	mlkhmh	_	NOUN	N-D	Definite=Def	20	obl	_	SpaceAfter=No
+26	.	_	PUNCT	PUNC	_	16	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.68
+# X_ID = 1928E-WEINREICH-KINES,196.72
+# text = enlekhe isurim hobn oykh ibergelebt di andere yidishe khilut fun lite-reysn .
+1	enlekhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	2	amod	_	_
+2	isurim	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+3	hobn	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	oykh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	ibergelebt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+6	di	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+7	andere	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	9	amod	_	_
+8	yidishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	9	amod	_	_
+9	khilut	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+10	fun	_	ADP	P	_	11	case	_	_
+11	lite-reysn	_	NOUN	N	_	9	obl	_	SpaceAfter=No
+12	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1928E-WEINREICH-KINES,.69
+# X_ID = 1928E-WEINREICH-KINES,196.73
+# text = undzer kinh git nit keyn eyntslheytn,
+1	undzer	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	2	det:poss	_	_
+2	kinh	_	NOUN	N	_	3	nsubj	_	_
+3	git	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	3	advmod	_	_
+5	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	6	det	_	_
+6	eyntslheytn	_	NOUN	N-ACC	Case=Acc	3	obj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	3	punct	_	_
+
+1	ober	_	CCONJ	CONJ	_	3	cc	_	_
+2	zi	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	shildert	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	zeyer	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	eyndriklekh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+6	di	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	toytshrek	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+8	vos	_	SCONJ	C	_	12	mark	_	_
+9	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+10	hot	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+11	yemolt	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+12	arumgenumen	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	dem	_	DET	D-ACC	Case=Acc|PronType=Art	16	det	_	_
+14	gantsn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	16	amod	_	_
+15	yidishn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	16	amod	_	_
+16	tsibur	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	12	obj	_	_
+17	.	_	PUNCT	PUNC	_	3	punct	_	_
+

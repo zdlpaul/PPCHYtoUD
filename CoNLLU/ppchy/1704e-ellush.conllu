@@ -1,0 +1,302 @@
+# sent_id = 1704E-ELLUSH,.1
+# X_ID = 1704E-ELLUSH,.2
+# text = az der eulm iz gibuat habin
+1	az	_	SCONJ	C	_	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	eulm	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+5	gibuat	_	X	X	_	4	dep	_	_
+6	habin	_	X	X	_	4	dep	_	_
+
+# sent_id = 1704E-ELLUSH,.2
+# X_ID = 1704E-ELLUSH,.3
+# text = az alts hengt an deyn sfe al ding
+1	az	_	SCONJ	C	_	0	root	_	_
+2	alts	_	DET	Q-NOM	Case=Nom	3	nsubj	_	_
+3	hengt	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+4	an	_	ADP	P	_	6	case	_	_
+5	deyn	_	PRON	PRO$	_	6	det:poss	_	_
+6	sfe	_	NOUN	N	_	3	obl	_	_
+7	al	_	DET	Q	_	8	det	_	_
+8	ding	_	NOUN	N	_	3	obl	_	_
+
+# sent_id = 1704E-ELLUSH,.3
+# X_ID = 1704E-ELLUSH,.4
+# text = gat vas %t%-1 met in himl
+1	gat	_	PROPN	NPR	_	0	root	_	_
+2	vas	_	SCONJ	C	_	4	mark	_	_
+3	%t%-1	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+4	met	_	VERB	VBF	VerbForm=Fin	1	acl:relcl	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	himl	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1704E-ELLUSH,.4
+# X_ID = 1704E-ELLUSH,.5
+# text = gat vas %t%-1 bishefin het himl di mlakhim
+1	gat	_	PROPN	NPR	_	0	root	_	_
+2	vas	_	SCONJ	C	_	4	mark	_	_
+3	%t%-1	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+4	bishefin	_	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	het	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+6	himl	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	di	_	DET	D	PronType=Art	8	det	_	_
+8	mlakhim	_	NOUN	N-D	Definite=Def	6	conj	_	_
+
+# sent_id = 1704E-ELLUSH,.5
+# X_ID = 1704E-ELLUSH,.6
+# text = di %t%-1 da habin lib iri leybr
+1	di	_	PRON	WPRO	_	4	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+3	da	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	habin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	lib	_	ADP	RP-ADJ	_	4	compound:prt	_	_
+6	iri	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	7	det:poss	_	_
+7	leybr	_	NOUN	N	_	4	obj	_	_
+
+# sent_id = 1704E-ELLUSH,.6
+# X_ID = 1704E-ELLUSH,.7
+# text = az di gmilut khsdim ...
+1	az	_	SCONJ	C	_	0	root	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	1	dep	_	_
+3	gmilut	acts	X	H	_	2	dep	_	_
+4	khsdim	pious_ones	X	H	_	2	dep	_	SpaceAfter=No
+5	...	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1704E-ELLUSH,.7
+# X_ID = 1704E-ELLUSH,.8
+# text = vas %t%-1 der mens tut mit di tutn
+1	vas	_	PRON	WPRO	_	5	obj	_	_
+2	%t%-1	_	NOUN	NP-ACC	_	5	dep	_	_
+3	der	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	mens	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+5	tut	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	mit	_	ADP	P	_	8	case	_	_
+7	di	_	DET	D	PronType=Art	8	det	_	_
+8	tutn	_	NOUN	N-D	Definite=Def	5	obl	_	_
+
+# sent_id = 1704E-ELLUSH,.8
+# X_ID = 1704E-ELLUSH,.9
+# text = az ikh far in erts isral areyn
+1	az	_	SCONJ	C	_	0	root	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	far	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+4	in	_	ADP	P	_	6	case	_	_
+5	erts	land	X	H	_	6	dep	_	_
+6	isral	_	PROPN	NPR	_	7	obl	_	_
+7	areyn	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+
+# sent_id = 1704E-ELLUSH,.9
+# X_ID = 1704E-ELLUSH,.10
+# text = az ikh ver zukhh zeyn tsu kumn areyn
+1	az	_	SCONJ	C	_	0	root	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	ver	_	AUX	RDF	VerbForm=Fin	5	aux	_	_
+4	zukhh	_	ADP	RP-H	_	5	compound:prt	_	_
+5	zeyn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+6	tsu	_	PART	TO	_	7	mark	_	_
+7	kumn	_	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	areyn	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+
+# sent_id = 1704E-ELLUSH,.10
+# X_ID = 1704E-ELLUSH,.11
+# text = az hs"i zal eykh mit eyrh mann und kindr irh yar dr_lengn
+1	az	_	SCONJ	C	_	12	mark	_	_
+2	hs"i	his_name_may_be_blessed	X	H	_	12	dep	_	_
+3	zal	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+4	eykh	_	PRON	PRO-DTV	Case=Dat	12	iobj	_	_
+5	mit	_	ADP	P	_	7	case	_	_
+6	eyrh	_	PRON	PRO$	_	7	det:poss	_	_
+7	mann	_	NOUN	N	_	12	obl	_	_
+8	und	_	CCONJ	CONJ	_	9	cc	_	_
+9	kindr	_	NOUN	N	_	7	conj	_	_
+10	irh	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	11	det:poss	_	_
+11	yar	_	NOUN	N	_	12	obj	_	_
+12	dr_lengn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1704E-ELLUSH,.11
+# X_ID = 1704E-ELLUSH,.12
+# text = dz keynr zul zikh nit dr_vegn
+1	dz	_	SCONJ	C	_	0	root	_	_
+2	keynr	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	6	nsubj	_	_
+3	zul	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	6	expl:pv	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+6	dr_vegn	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+
+# sent_id = 1704E-ELLUSH,.12
+# X_ID = 1704E-ELLUSH,.13
+# text = vaz %t%-1 hash hkdush mit pirn hat gimakht
+1	vaz	_	PRON	WPRO	_	8	obj	_	_
+2	%t%-1	_	NOUN	NP-ACC	_	8	dep	_	_
+3	hash	the_name	X	H	_	8	dep	_	_
+4	hkdush	the_holy	X	H	_	3	dep	_	_
+5	mit	_	ADP	P	_	6	case	_	_
+6	pirn	_	NOUN	N	_	8	obl	_	_
+7	hat	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+8	gimakht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1704E-ELLUSH,.13
+# X_ID = 1704E-ELLUSH,.14
+# text = vi der ben adam iz zikh nuhg mit dem menshn
+1	vi	_	SCONJ	C	_	5	mark	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	ben	son	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+4	adam	_	PROPN	NPR-D	_	3	dep	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+7	nuhg	_	ADP	RP-H	_	5	compound:prt	_	_
+8	mit	_	ADP	P	_	10	case	_	_
+9	dem	_	DET	D	PronType=Art	10	det	_	_
+10	menshn	_	NOUN	N-D	Definite=Def	5	obl	_	_
+
+# sent_id = 1704E-ELLUSH,.14
+# X_ID = 1704E-ELLUSH,.15
+# text = az itlikhr zal verstin
+1	az	_	SCONJ	C	_	0	root	_	_
+2	itlikhr	_	DET	Q-NOM	Case=Nom	4	nsubj	_	_
+3	zal	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+4	verstin	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+
+# sent_id = 1704E-ELLUSH,.15
+# X_ID = 1704E-ELLUSH,.16
+# text = vas es iz hurb das art
+1	vas	_	SCONJ	C	_	0	root	_	_
+2	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+4	hurb	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	das	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	art	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+
+# sent_id = 1704E-ELLUSH,.16
+# X_ID = 1704E-ELLUSH,.17
+# text = vau %t%-1 min hat fergebin unzi zind
+1	vau	_	ADV	WADV	Degree=Pos	0	root	_	_
+2	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	5	advmod	_	_
+3	min	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	hat	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+5	fergebin	_	VERB	VBN	Tense=Past|VerbForm=Part	1	conj	_	_
+6	unzi	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	7	det:poss	_	_
+7	zind	_	NOUN	N	_	5	obj	_	_
+
+# sent_id = 1704E-ELLUSH,.17
+# X_ID = 1704E-ELLUSH,.18
+# text = az das iz gmlu khsrim sl ams
+1	az	_	SCONJ	C	_	0	root	_	_
+2	das	_	DET	D-NOM	Case=Nom|PronType=Art	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+4	gmlu	recompensed_they	X	H	_	3	dep	_	_
+5	khsrim	absent	X	H	_	3	dep	_	_
+6	sl	of	X	H	_	3	dep	_	_
+7	ams	UNKNOWN	X	H	_	3	dep	_	_
+
+# sent_id = 1704E-ELLUSH,.18
+# X_ID = 1704E-ELLUSH,.19
+# text = ven eynr is gistt
+1	ven	_	SCONJ	C	_	4	mark	_	_
+2	eynr	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	is	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	gistt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1704E-ELLUSH,.19
+# X_ID = 1704E-ELLUSH,.20
+# text = az zi zehn az di nsmh zoymt i zi git arus
+1	az	_	SCONJ	C	_	3	mark	_	_
+2	zi	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	zehn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	az	_	SCONJ	C	_	7	mark	_	_
+5	di	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	nsmh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+7	zoymt	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+8	i	_	SCONJ	C	_	10	mark	_	_
+9	zi	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+10	git	_	VERB	VBF	VerbForm=Fin	7	advcl	_	_
+11	arus	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+
+# sent_id = 1704E-ELLUSH,.20
+# X_ID = 1704E-ELLUSH,.21
+# text = az zi zehn az es givert lang
+1	az	_	SCONJ	C	_	3	mark	_	_
+2	zi	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	zehn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	az	_	SCONJ	C	_	6	mark	_	_
+5	es	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	givert	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+7	lang	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+
+# sent_id = 1704E-ELLUSH,.21
+# X_ID = 1704E-ELLUSH,.22
+# text = ven zi kumn tsu im i di nshmh git arus
+1	ven	_	SCONJ	C	_	3	mark	_	_
+2	zi	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	kumn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	tsu	_	ADP	P	_	5	case	_	_
+5	im	_	PRON	PRO	_	3	obl	_	_
+6	i	_	SCONJ	C	_	9	mark	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	nshmh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+9	git	_	VERB	VBF	VerbForm=Fin	3	advcl	_	_
+10	arus	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+
+# sent_id = 1704E-ELLUSH,.22
+# X_ID = 1704E-ELLUSH,.23
+# text = vas %t%-1 ikh hab gifunn
+1	vas	_	PRON	WPRO	_	5	obj	_	_
+2	%t%-1	_	NOUN	NP-ACC	_	5	dep	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	hab	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+5	gifunn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1704E-ELLUSH,.23
+# X_ID = 1704E-ELLUSH,.24
+# text = az der mens iz nsh lmut
+1	az	_	SCONJ	C	_	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	mens	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+5	nsh	UNKNOWN	X	H	_	4	xcomp	_	_
+6	lmut	UNKNOWN	X	H	_	5	dep	_	_
+
+# sent_id = 1704E-ELLUSH,.24
+# X_ID = 1704E-ELLUSH,.25
+# text = az di nshmh zal nit oys gin
+1	az	_	SCONJ	C	_	0	root	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	nshmh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+4	zal	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+6	oys	_	ADP	RP	_	7	compound:prt	_	_
+7	gin	_	VERB	VB	VerbForm=Inf	1	conj	_	_
+
+# sent_id = 1704E-ELLUSH,.25
+# X_ID = 1704E-ELLUSH,.26
+# text = i zi git aroys
+1	i	_	SCONJ	C	_	3	mark	_	_
+2	zi	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	git	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	aroys	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+
+# sent_id = 1704E-ELLUSH,.26
+# X_ID = 1704E-ELLUSH,.27
+# text = az men hat gizagt fir drfin simus_use
+1	az	_	SCONJ	C	_	0	root	_	_
+2	men	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	hat	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	gizagt	_	VERB	VBN	Tense=Past|VerbForm=Part	1	conj	_	_
+5	fir	_	NUM	NUM	_	4	dep	_	_
+6	drfin	_	X	X	_	5	dep	_	_
+7	simus_use	_	VERB	VB	VerbForm=Inf	5	dep	_	_
+
+# sent_id = 1704E-ELLUSH,.27
+# X_ID = 1704E-ELLUSH,.28
+# text = az min iz bey im
+1	az	_	SCONJ	C	_	0	root	_	_
+2	min	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+4	bey	_	ADP	P	_	5	case	_	_
+5	im	_	PRON	PRO	_	3	obl	_	_
+
+1	di	_	PRON	WPRO	_	4	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+3	darbey	_	ADP	P	_	4	obl	_	_
+4	steyain	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+

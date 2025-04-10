@@ -1,0 +1,1138 @@
+# sent_id = 1619W-LETTERS-PRAGUE,.1
+# X_ID = 1619W-LETTERS-PRAGUE,30.3
+# text = bekitser, libe shvegerin, vis, dos mir hoben dayne ksovem mekabel gevezen
+1	bekitser	_	ADV	ADV	Degree=Pos	6	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	PUNC	_	6	punct	_	_
+3	libe	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	shvegerin	_	NOUN	N	_	6	vocative	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	6	punct	_	_
+6	vis	_	VERB	VBI	Mood=Imp	0	root	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	dos	_	SCONJ	C	_	14	mark	_	_
+9	mir	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+10	hoben	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+11	dayne	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	12	det:poss	_	_
+12	ksovem	_	NOUN	N	_	14	obj	_	_
+13	mekabel	_	ADP	RP-H	_	14	compound:prt	_	_
+14	gevezen	_	VERB	VBN	Tense=Past|VerbForm=Part	6	ccomp	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.2
+# X_ID = 1619W-LETTERS-PRAGUE,30.4
+# text = mir zayn zer der_shroken fun vegen di psure_roy bavoynoysenu horabem, az do iz nifter gevorn ben akhenu borekh dayn emes .
+1	mir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	zayn	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+3	zer	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	der_shroken	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	vegen	_	NOUN	N	_	4	obl	_	_
+7	di	_	DET	D	PronType=Art	8	det	_	_
+8	psure_roy	news_harm	NOUN	N-D	Definite=Def	6	nmod:poss	_	_
+9	bavoynoysenu	for_sins_our	X	H	_	4	obl	_	_
+10	horabem	the_many	X	H	_	9	dep	_	SpaceAfter=No
+11	,	_	PUNCT	PUNC	_	4	punct	_	_
+12	az	_	SCONJ	C	_	16	mark	_	_
+13	do	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+14	iz	_	AUX	BEF	VerbForm=Fin	16	cop	_	_
+15	nifter	_	ADP	RP-H	_	16	compound:prt	_	_
+16	gevorn	_	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+17	ben	_	PROPN	NPR-SBJ	_	16	nsubj	_	_
+18	akhenu	_	PROPN	NPR	_	17	flat:name	_	_
+19	borekh	blessed	X	H	_	21	dep	_	_
+20	dayn	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	21	det:poss	_	_
+21	emes	_	NOUN	N	_	4	advcl	_	SpaceAfter=No
+22	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.3
+# X_ID = 1619W-LETTERS-PRAGUE,30.5
+# text = men zayn mir zer der_shroken makhmes ipesh .
+1	men	_	DET	QR	_	5	obl	_	_
+2	zayn	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+3	mir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	zer	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	der_shroken	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	makhmes	_	ADP	P	_	7	case	_	_
+7	ipesh	_	NOUN	N	_	5	obl	_	SpaceAfter=No
+8	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.4
+# X_ID = 1619W-LETTERS-PRAGUE,30.6
+# text = ikh hob bedey %ich%-1 gehat ahin tsu tsien mit mayne kinderlikh, got behit zey .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	bedey	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+4	%ich%-1	_	X	IP-INF	_	3	xcomp	_	_
+5	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	ahin	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+7	tsu	_	PART	TO	_	8	mark	_	_
+8	tsien	_	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	mit	_	ADP	P	_	11	case	_	_
+10	mayne	_	PRON	PRO$	_	11	det:poss	_	_
+11	kinderlikh	_	NOUN	N	_	8	obl	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	5	punct	_	_
+13	got	_	PROPN	NPR-SBJ	_	14	nsubj	_	_
+14	behit	_	VERB	VBF	VerbForm=Fin	5	parataxis	_	_
+15	zey	_	PRON	PRO-ACC	Case=Acc	14	obj	_	SpaceAfter=No
+16	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.5
+# X_ID = 1619W-LETTERS-PRAGUE,30.7
+# text = nun vayl es azoy tsu get kan es nit zayn .
+1	nun	_	INTJ	INTJ	_	10	discourse	_	_
+2	vayl	_	SCONJ	C	_	6	mark	_	_
+3	es	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+4	azoy	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	tsu	_	ADP	RP	_	6	compound:prt	_	_
+6	get	_	VERB	VBF	VerbForm=Fin	10	advcl	_	_
+7	kan	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+8	es	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+9	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+10	zayn	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.6
+# X_ID = 1619W-LETTERS-PRAGUE,30.8
+# text = %pro% vil es shemisborekh befelen .
+1	%pro%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+2	vil	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	es	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+4	shemisborekh	name_may_be_blessed	X	H	_	5	dep	_	_
+5	befelen	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.7
+# X_ID = 1619W-LETTERS-PRAGUE,30.9
+# text = akh hoben mir nokh an ksav mekabel gevezen aliede sliekh
+1	akh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+2	hoben	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+3	mir	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+4	nokh	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	an	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	ksav	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	8	obj	_	_
+7	mekabel	_	ADP	RP-H	_	8	compound:prt	_	_
+8	gevezen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	aliede	on_hands	X	H	_	8	obl	_	_
+10	sliekh	messenger	X	H	_	9	dep	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.8
+# X_ID = 1619W-LETTERS-PRAGUE,30.10
+# text = akh zayn mir zikh zer metsaer az du dikh bavoynoysenu horabem muzt azoy geneten
+1	akh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	zayn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	mir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+5	zer	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+6	metsaer	_	ADP	RP-H	_	2	compound:prt	_	_
+7	az	_	SCONJ	C	_	14	mark	_	_
+8	du	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+9	dikh	_	PRON	PRO-RFL	PronType=Reflex	14	expl:pv	_	_
+10	bavoynoysenu	for_sins_our	X	H	_	14	dep	_	_
+11	horabem	the_many	X	H	_	10	dep	_	_
+12	muzt	_	AUX	MDF	VerbForm=Fin	14	aux	_	_
+13	azoy	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+14	geneten	_	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.9
+# X_ID = 1619W-LETTERS-PRAGUE,30.11
+# text = ober vos %t%-1 zol man ton ?
+1	ober	_	CCONJ	CONJ	_	6	cc	_	_
+2	vos	_	PRON	WPRO	_	6	obj	_	_
+3	%t%-1	_	NOUN	NP-ACC	_	6	dep	_	_
+4	zol	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+5	man	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	ton	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.10
+# X_ID = 1619W-LETTERS-PRAGUE,30.12
+# text = ikh hob mayn bruder gor zer gekiplt vi %t%-1 man in hot auf genumen
+1	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+3	mayn	_	PRON	PRO$-DTV	Case=Dat|PronType=Poss	4	det:poss	_	_
+4	bruder	_	NOUN	N	_	7	iobj	_	_
+5	gor	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+6	zer	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	gekiplt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	vi	_	ADV	WADV	Degree=Pos	14	advmod	_	_
+9	%t%-1	_	ADV	ADVP	Degree=Pos	14	advmod	_	_
+10	man	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+11	in	_	PRON	PRO-ACC	Case=Acc	14	obj	_	_
+12	hot	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+13	auf	_	ADP	RP	_	14	compound:prt	_	_
+14	genumen	_	VERB	VBN	Tense=Past|VerbForm=Part	7	dep	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.11
+# X_ID = 1619W-LETTERS-PRAGUE,30.13
+# text = er zol dikh her nemen
+1	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	zol	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	dikh	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+4	her	_	ADV	RP-ADV	_	5	advmod	_	_
+5	nemen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.12
+# X_ID = 1619W-LETTERS-PRAGUE,30.14
+# text = hot er klal uklal nit gevelt .
+1	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+3	klal	general	ADV	H	_	6	advmod	_	_
+4	uklal	and_general	X	H	_	3	dep	_	_
+5	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+6	gevelt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.13
+# X_ID = 1619W-LETTERS-PRAGUE,30.15
+# text = ikh hob imer_tsu gezogt vi %t%-1 viltn %pro% on vayb hauzen ?
+1	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	imer_tsu	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	gezogt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	vi	_	ADV	WADV	Degree=Pos	11	advmod	_	_
+6	%t%-1	_	ADV	ADVP	Degree=Pos	11	advmod	_	_
+7	viltn	_	AUX	MDF	VerbForm=Fin	11	aux	_	_
+8	%pro%	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+9	on	_	ADP	P	_	10	case	_	_
+10	vayb	_	NOUN	N	_	11	obl	_	_
+11	hauzen	_	VERB	VB	VerbForm=Inf	4	dep	_	SpaceAfter=No
+12	?	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.14
+# X_ID = 1619W-LETTERS-PRAGUE,30.16
+# text = ober hits iz mayn dey gor_nit
+1	ober	_	CCONJ	CONJ	_	0	root	_	_
+2	hits	_	X	X	_	1	dep	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	1	dep	_	_
+4	mayn	_	X	X	_	1	dep	_	_
+5	dey	_	X	X	_	1	dep	_	_
+6	gor_nit	_	ADV	NEG	_	1	advmod	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.15
+# X_ID = 1619W-LETTERS-PRAGUE,30.17
+# text = un akh die gants mishpokhe, got behit zey, zayn akh dervider, in an zelkhen rash,
+1	un	_	CCONJ	CONJ	_	11	cc	_	_
+2	akh	_	X	AD-NOMV	_	5	dep	_	_
+3	die	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+4	gants	_	X	AD-NOMJ	_	5	dep	_	_
+5	mishpokhe	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	11	nsubj	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	11	punct	_	_
+7	got	_	PROPN	NPR-SBJ	_	8	nsubj	_	_
+8	behit	_	VERB	VBF	VerbForm=Fin	11	parataxis	_	_
+9	zey	_	PRON	PRO-ACC	Case=Acc	8	obj	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	11	punct	_	_
+11	zayn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+12	akh	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+13	dervider	_	ADP	P	_	11	obl	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	11	punct	_	_
+15	in	_	ADP	P	_	18	case	_	_
+16	an	_	DET	D	PronType=Art	18	det	_	_
+17	zelkhen	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
+18	rash	_	NOUN	N-I	Definite=Ind	11	obl	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	11	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.16
+# X_ID = 1619W-LETTERS-PRAGUE,30.18
+# text = es tsit avek ver %t%-1 nor kan zayn gezind farshiken
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+2	tsit	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	avek	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	ver	_	PRON	WPRO	_	10	obj	_	_
+5	%t%-1	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+6	nor	_	ADV	FP	Degree=Pos	10	advmod	_	_
+7	kan	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+8	zayn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	9	det:poss	_	_
+9	gezind	_	NOUN	N	_	10	obj	_	_
+10	farshiken	_	VERB	VB	VerbForm=Inf	2	dep	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.17
+# X_ID = 1619W-LETTERS-PRAGUE,30.19
+# text = nun vi %t%-1 vil@ @tu, mayn herts-libe shvegerin, dir in an zin nemen in an zelkhen vezen her tsu kumen
+1	nun	_	INTJ	INTJ	_	15	discourse	_	_
+2	vi	_	ADV	WADV	Degree=Pos	15	advmod	_	_
+3	%t%-1	_	ADV	ADVP	Degree=Pos	15	advmod	_	_
+4	vil@	_	AUX	MDF	VerbForm=Fin	15	aux	_	_
+5	@tu	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	15	punct	_	_
+7	mayn	_	PRON	PRO$	_	9	det:poss	_	_
+8	herts-libe	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	shvegerin	_	NOUN	N	_	15	vocative	_	SpaceAfter=No
+10	,	_	PUNCT	PUNC	_	15	punct	_	_
+11	dir	_	PRON	PRO-DTV	Case=Dat	15	iobj	_	_
+12	in	_	ADP	P	_	14	case	_	_
+13	an	_	DET	D	PronType=Art	14	det	_	_
+14	zin	_	NOUN	N-I	Definite=Ind	15	obl	_	_
+15	nemen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+16	in	_	ADP	P	_	19	case	_	_
+17	an	_	DET	D	PronType=Art	19	det	_	_
+18	zelkhen	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+19	vezen	_	NOUN	N-I	Definite=Ind	22	obl	_	_
+20	her	_	ADV	RP-ADV	_	22	advmod	_	_
+21	tsu	_	PART	TO	_	22	mark	_	_
+22	kumen	_	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.18
+# X_ID = 1619W-LETTERS-PRAGUE,30.20
+# text = ans : man lozt niment ayn
+1	ans	_	NUM	LS	_	4	dep	_	SpaceAfter=No
+2	:	_	PUNCT	PUNC	_	4	punct	_	_
+3	man	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	lozt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	niment	_	DET	Q-ACC	Case=Acc	4	obj	_	_
+6	ayn	_	ADP	RP	_	4	compound:prt	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.19
+# X_ID = 1619W-LETTERS-PRAGUE,30.21
+# text = di layt di %t%-1 do zayn her kumen bele ir tokhter un di %t%-2 mit ir zayn kumen di hot man nit velen ayn lozen
+1	di	_	DET	D	PronType=Art	2	det	_	_
+2	layt	_	NOUN	N-D	Definite=Def	25	obl	_	_
+3	di	_	PRON	WPRO	_	8	obj	_	_
+4	%t%-1	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+5	do	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+6	zayn	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+7	her	_	ADV	RP-ADV	_	8	advmod	_	_
+8	kumen	_	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+9	bele	_	PROPN	NPR	_	2	appos	_	_
+10	ir	_	PRON	PRO$	_	9	det:poss	_	_
+11	tokhter	_	NOUN	N	_	9	conj	_	_
+12	un	_	CCONJ	CONJ	_	18	cc	_	_
+13	di	_	PRON	WPRO	_	18	obj	_	_
+14	%t%-2	_	NOUN	NP-SBJ	_	18	nsubj	_	_
+15	mit	_	ADP	P	_	16	case	_	_
+16	ir	_	PRON	PRO	_	18	obl	_	_
+17	zayn	_	AUX	BEF	VerbForm=Fin	18	cop	_	_
+18	kumen	_	VERB	VBN	Tense=Past|VerbForm=Part	9	conj	_	_
+19	di	_	DET	D-ACC	Case=Acc|PronType=Art	25	obj	_	_
+20	hot	_	AUX	HVF	VerbForm=Fin	25	aux	_	_
+21	man	_	PRON	PRO-NOM	Case=Nom	25	nsubj	_	_
+22	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	25	advmod	_	_
+23	velen	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	25	aux	_	_
+24	ayn	_	ADP	RP	_	25	compound:prt	_	_
+25	lozen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.20
+# X_ID = 1619W-LETTERS-PRAGUE,30.22
+# text = %pro% hoben muzen 3 yomem auf den bes khayem ligen
+1	%pro%	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+2	hoben	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+3	muzen	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	10	aux	_	_
+4	3	_	NUM	NUM	_	10	obl	_	_
+5	yomem	_	NOUN	N	_	4	conj	_	_
+6	auf	_	ADP	P	_	7	case	_	_
+7	den	_	DET	D	PronType=Art	10	obl	_	_
+8	bes	house	X	H	_	7	dep	_	_
+9	khayem	life	X	H	_	7	dep	_	_
+10	ligen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.21
+# X_ID = 1619W-LETTERS-PRAGUE,30.23
+# text = dernokh hoben zey gor avek muzen tsien, mit an_gezind un mit kinder auf den veg legen
+1	dernokh	_	ADP	P	_	7	obl	_	_
+2	hoben	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+3	zey	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+4	gor	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+5	avek	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+6	muzen	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	7	aux	_	_
+7	tsien	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+9	mit	_	ADP	P	_	10	case	_	_
+10	an_gezind	_	NOUN	N	_	17	obl	_	_
+11	un	_	CCONJ	CONJ	_	13	cc	_	_
+12	mit	_	ADP	P	_	13	case	_	_
+13	kinder	_	NOUN	N	_	10	conj	_	_
+14	auf	_	ADP	P	_	16	case	_	_
+15	den	_	DET	D	PronType=Art	16	det	_	_
+16	veg	_	NOUN	N-D	Definite=Def	17	obl	_	_
+17	legen	_	VERB	VB	VerbForm=Inf	7	conj	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.22
+# X_ID = 1619W-LETTERS-PRAGUE,30.24
+# text = akh hot man zey begazelt
+1	akh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	man	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	zey	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+5	begazelt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.23
+# X_ID = 1619W-LETTERS-PRAGUE,30.25
+# text = man hot zey velen gor in leger firen
+1	man	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+3	zey	_	PRON	PRO-ACC	Case=Acc	8	obj	_	_
+4	velen	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	8	aux	_	_
+5	gor	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	leger	_	NOUN	N	_	8	obl	_	_
+8	firen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.24
+# X_ID = 1619W-LETTERS-PRAGUE,30.26
+# text = %exp% iz gor fil %t%-2 derfun tsun shrayben
+1	%exp%	_	NOUN	NP-SBJ-1	_	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	gor	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	fil	_	DET	Q	_	2	obl	_	_
+5	%t%-2	_	NOUN	NP-ACC	_	8	dep	_	_
+6	derfun	_	ADP	P	_	8	obl	_	_
+7	tsun	_	PART	TO	_	8	mark	_	_
+8	shrayben	_	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.25
+# X_ID = 1619W-LETTERS-PRAGUE,30.27
+# text = iz gor tsu fil fun beyle gevezen az zi hot di tokhter in an zelkhen vezen her geshikt
+1	iz	_	AUX	BEF	VerbForm=Fin	7	cop	_	_
+2	gor	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+3	tsu	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	fil	_	DET	Q-NOM	Case=Nom	7	nsubj	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	beyle	_	PROPN	NPR	_	7	obl	_	_
+7	gevezen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	az	_	SCONJ	C	_	18	mark	_	_
+9	zi	_	PRON	PRO-NOM	Case=Nom	18	nsubj	_	_
+10	hot	_	AUX	HVF	VerbForm=Fin	18	aux	_	_
+11	di	_	DET	D-ACC	Case=Acc|PronType=Art	12	det	_	_
+12	tokhter	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	18	obj	_	_
+13	in	_	ADP	P	_	16	case	_	_
+14	an	_	DET	D	PronType=Art	16	det	_	_
+15	zelkhen	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	vezen	_	NOUN	N-I	Definite=Ind	18	obl	_	_
+17	her	_	ADV	RP-ADV	_	18	advmod	_	_
+18	geshikt	_	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.26
+# X_ID = 1619W-LETTERS-PRAGUE,30.28
+# text = zi hot skhus oves genosen
+1	zi	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	skhus	merits	X	H	_	5	dep	_	_
+4	oves	parents	X	H	_	3	dep	_	_
+5	genosen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.27
+# X_ID = 1619W-LETTERS-PRAGUE,30.29
+# text = ver %t%-1 nit kan derfun reden, der kan nit leben .
+1	ver	_	PRON	WPRO	_	6	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	6	advmod	_	_
+4	kan	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+5	derfun	_	ADP	P	_	6	obl	_	_
+6	reden	_	VERB	VB	VerbForm=Inf	11	obl	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	11	punct	_	_
+8	der	_	DET	D-NOM	Case=Nom|PronType=Art	11	nsubj	_	_
+9	kan	_	AUX	MDF	VerbForm=Fin	11	aux	_	_
+10	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	11	advmod	_	_
+11	leben	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	_	PUNCT	PUNC	_	11	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.28
+# X_ID = 1619W-LETTERS-PRAGUE,30.30
+# text = nun, mayn herts-libe shvegerin, ikh bit dikh gor zer un zer
+1	nun	_	INTJ	INTJ	_	8	discourse	_	SpaceAfter=No
+2	,	_	PUNCT	PUNC	_	8	punct	_	_
+3	mayn	_	PRON	PRO$	_	5	det:poss	_	_
+4	herts-libe	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	shvegerin	_	NOUN	N	_	8	vocative	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	8	punct	_	_
+7	ikh	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+8	bit	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	dikh	_	PRON	PRO-ACC	Case=Acc	8	obj	_	_
+10	gor	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+11	zer	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+12	un	_	CCONJ	CONJ	_	13	cc	_	_
+13	zer	_	ADV	ADV	Degree=Pos	10	conj	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.29
+# X_ID = 1619W-LETTERS-PRAGUE,30.31
+# text = un nem dir nit zelkhe um_glaykhe drokhem %ich%-1 fir vos %t%-2 nit miglekh iz
+1	un	_	CCONJ	CONJ	_	2	cc	_	_
+2	nem	_	VERB	VBI	Mood=Imp	0	root	_	_
+3	dir	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+5	zelkhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+6	um_glaykhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	drokhem	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+8	%ich%-1	_	SCONJ	CP-REL	_	7	acl:relcl	_	_
+9	fir	_	ADP	RP	_	2	compound:prt	_	_
+10	vos	_	SCONJ	C	_	14	mark	_	_
+11	%t%-2	_	NOUN	NP-SBJ	_	14	nsubj	_	_
+12	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	14	advmod	_	_
+13	miglekh	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	iz	_	VERB	VBF	VerbForm=Fin	2	acl:relcl	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.30
+# X_ID = 1619W-LETTERS-PRAGUE,30.32
+# text = ven es nor an miglekh_kat ver velt mayn bruder kan menukhe lozen
+1	ven	_	SCONJ	C	_	6	mark	_	_
+2	es	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+3	nor	_	ADV	FP	Degree=Pos	5	advmod	_	_
+4	an	_	DET	D	PronType=Art	5	det	_	_
+5	miglekh_kat	_	NOUN	N-I	Definite=Ind	6	xcomp	_	_
+6	ver	_	VERB	VBF	VerbForm=Fin	12	advcl	_	_
+7	velt	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+8	mayn	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	9	det:poss	_	_
+9	bruder	_	NOUN	N	_	12	nsubj	_	_
+10	kan	_	DET	Q-ACC	Case=Acc	11	det	_	_
+11	menukhe	_	NOUN	N-ACC	Case=Acc	12	obj	_	_
+12	lozen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.31
+# X_ID = 1619W-LETTERS-PRAGUE,30.33
+# text = er muzet dikh her nemen vi %t%-1 ikh for mit gantser makht hob velen hoben er zol dikh her nemen
+1	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	muzet	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	dikh	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+4	her	_	ADV	RP-ADV	_	5	advmod	_	_
+5	nemen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+6	vi	_	ADV	WADV	Degree=Pos	15	advmod	_	_
+7	%t%-1	_	ADV	ADVP	Degree=Pos	15	advmod	_	_
+8	ikh	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+9	for	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+10	mit	_	ADP	P	_	12	case	_	_
+11	gantser	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	makht	_	NOUN	N	_	15	obl	_	_
+13	hob	_	AUX	HVF	VerbForm=Fin	15	aux	_	_
+14	velen	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	15	aux	_	_
+15	hoben	_	VERB	VB	VerbForm=Inf	5	advcl	_	_
+16	er	_	PRON	PRO-NOM	Case=Nom	20	nsubj	_	_
+17	zol	_	AUX	MDF	VerbForm=Fin	20	aux	_	_
+18	dikh	_	PRON	PRO-ACC	Case=Acc	20	obj	_	_
+19	her	_	ADV	RP-ADV	_	20	advmod	_	_
+20	nemen	_	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.32
+# X_ID = 1619W-LETTERS-PRAGUE,30.34
+# text = azoy bin ikh hits der_vider
+1	azoy	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	bin	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	hits	_	X	X	_	2	dep	_	_
+5	der_vider	_	ADP	P	_	2	obl	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.33
+# X_ID = 1619W-LETTERS-PRAGUE,30.35
+# text = ikh hob zelber bedey mit mayn shvoger reb shloyme in poylen tsu tsien .
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hob	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zelber	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	bedey	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+5	mit	_	ADP	P	_	7	case	_	_
+6	mayn	_	PRON	PRO$	_	7	det:poss	_	_
+7	shvoger	_	NOUN	N	_	13	obl	_	_
+8	reb	_	PROPN	NPR	_	7	appos	_	_
+9	shloyme	_	PROPN	NPR	_	8	flat:name	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	poylen	_	PROPN	NPR	_	13	obl	_	_
+12	tsu	_	PART	TO	_	13	mark	_	_
+13	tsien	_	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+14	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.34
+# X_ID = 1619W-LETTERS-PRAGUE,30.36
+# text = nit ikh alan, andere leyt men, di %t%-1 nor kenen ob kumen
+1	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	0	root	_	_
+2	ikh	_	PRON	PRO	_	1	nmod	_	_
+3	alan	_	ADV	ADV	Degree=Pos	1	advmod	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	1	punct	_	_
+5	andere	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	leyt	_	NOUN	N	_	1	conj	_	_
+7	men	_	ADV	QR	_	6	advmod	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	6	punct	_	_
+9	di	_	PRON	WPRO	_	14	obj	_	_
+10	%t%-1	_	NOUN	NP-SBJ	_	14	nsubj	_	_
+11	nor	_	ADV	FP	Degree=Pos	14	advmod	_	_
+12	kenen	_	AUX	MDF	VerbForm=Fin	14	aux	_	_
+13	ob	_	ADP	RP	_	14	compound:prt	_	_
+14	kumen	_	VERB	VB	VerbForm=Inf	6	acl:relcl	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.35
+# X_ID = 1619W-LETTERS-PRAGUE,30.37
+# text = ikh vas voyl, az du dikh zer muzt geneten
+1	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	vas	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	voyl	_	ADV	ADV	Degree=Pos	2	advmod	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	2	punct	_	_
+5	az	_	SCONJ	C	_	10	mark	_	_
+6	du	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+7	dikh	_	PRON	PRO-RFL	PronType=Reflex	10	expl:pv	_	_
+8	zer	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+9	muzt	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+10	geneten	_	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.36
+# X_ID = 1619W-LETTERS-PRAGUE,30.38
+# text = vos %t%-1 zol man ton ?
+1	vos	_	PRON	WPRO	_	5	obj	_	_
+2	%t%-1	_	NOUN	NP-ACC	_	5	dep	_	_
+3	zol	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+4	man	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	ton	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.37
+# X_ID = 1619W-LETTERS-PRAGUE,30.39
+# text = shemisborekh zol es amol %ich%-1 beser %ich%-2 makhen az vi %t%-3 mir hofen
+1	shemisborekh	name_may_be_blessed	X	H	_	8	dep	_	_
+2	zol	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+3	es	_	PRON	PRO	_	8	obl	_	_
+4	amol	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+5	%ich%-1	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+6	beser	_	ADJ	ADJ	Degree=Pos	8	ccomp	_	_
+7	%ich%-2	_	ADP	PP	_	6	amod	_	_
+8	makhen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+9	az	_	ADP	P	_	10	case	_	_
+10	vi	_	ADV	WADV	Degree=Pos	8	obl	_	_
+11	%t%-3	_	ADV	ADVP	Degree=Pos	13	advmod	_	_
+12	mir	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+13	hofen	_	VERB	VBF	VerbForm=Fin	10	obl	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.38
+# X_ID = 1619W-LETTERS-PRAGUE,31.41
+# text = libes herts, a@ @m yom bes, e der sliekh iz kumen zoy iz bele tokhter %ich%-1 kumen un maatle
+1	libes	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	herts	_	NOUN	N	_	19	vocative	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	19	punct	_	_
+4	a@	_	ADP	P	_	13	case	_	_
+5	@m	_	DET	D	PronType=Art	13	obl	_	_
+6	yom	day	X	H	_	5	dep	_	_
+7	bes	2	X	H	_	5	dep	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	13	punct	_	_
+9	e	_	SCONJ	C	_	13	mark	_	_
+10	der	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+11	sliekh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	13	nsubj	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	13	cop	_	_
+13	kumen	_	VERB	VBN	Tense=Past|VerbForm=Part	19	obl	_	_
+14	zoy	_	ADV	ADV	Degree=Pos	19	advmod	_	_
+15	iz	_	AUX	BEF	VerbForm=Fin	19	cop	_	_
+16	bele	_	NOUN	NP-SBJ	_	19	nsubj	_	_
+17	tokhter	_	NOUN	N	_	16	conj	_	_
+18	%ich%-1	_	SCONJ	CONJP	_	16	conj	_	_
+19	kumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+20	un	_	CCONJ	CONJ	_	21	cc	_	_
+21	maatle	_	PROPN	NPR	_	19	conj	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.39
+# X_ID = 1619W-LETTERS-PRAGUE,31.42
+# text = un %con% hoben mir kan briv gebrakht,
+1	un	_	CCONJ	CONJ	_	7	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+3	hoben	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+5	kan	_	DET	Q-ACC	Case=Acc	6	det	_	_
+6	briv	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+7	gebrakht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	7	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.40
+# X_ID = 1619W-LETTERS-PRAGUE,31.43
+# text = zoy bin ikh shir gebliben
+1	zoy	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	bin	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	shir	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	gebliben	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.41
+# X_ID = 1619W-LETTERS-PRAGUE,31.44
+# text = zoy hoben zey mir geshvoyren dos ets lang mit lib al gezunt zayt
+1	zoy	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	hoben	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	zey	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	mir	_	PRON	PRO-DTV	Case=Dat	5	iobj	_	_
+5	geshvoyren	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	dos	_	SCONJ	C	_	13	mark	_	_
+7	ets	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+8	lang	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+9	mit	_	ADP	P	_	10	case	_	_
+10	lib	_	NOUN	N	_	13	obl	_	_
+11	al	_	ADV	Q	_	13	advmod	_	_
+12	gezunt	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	zayt	_	VERB	VBF	VerbForm=Fin	5	ccomp	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.42
+# X_ID = 1619W-LETTERS-PRAGUE,31.45
+# text = zoy hob ikh %arb% mikh an venik benugen gelozen
+1	zoy	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+2	hob	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+4	%arb%	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+5	mikh	_	PRON	PRO-ACC	Case=Acc	8	obj	_	_
+6	an	_	DET	D	PronType=Art	8	obl	_	_
+7	venik	_	DET	Q	_	6	det	_	_
+8	benugen	_	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+9	gelozen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.43
+# X_ID = 1619W-LETTERS-PRAGUE,31.46
+# text = di gants kile kan zikh nit genugen for_vundern dos man di mad itsunder hot her geshikt
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	gants	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	kile	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	8	nsubj	_	_
+4	kan	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	8	expl:pv	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	8	advmod	_	_
+7	genugen	_	DET	Q	_	8	obl	_	_
+8	for_vundern	_	VERB	VB	VerbForm=Inf	0	root	_	_
+9	dos	_	SCONJ	C	_	16	mark	_	_
+10	man	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+11	di	_	DET	D-ACC	Case=Acc|PronType=Art	12	det	_	_
+12	mad	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	16	obj	_	_
+13	itsunder	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+14	hot	_	AUX	HVF	VerbForm=Fin	16	aux	_	_
+15	her	_	ADV	RP-ADV	_	16	advmod	_	_
+16	geshikt	_	VERB	VBN	Tense=Past|VerbForm=Part	8	ccomp	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.44
+# X_ID = 1619W-LETTERS-PRAGUE,31.47
+# text = %exp% iz ir gena genugen gangen
+1	%exp%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+3	ir	_	PRON	PRO-DTV	Case=Dat	6	iobj	_	_
+4	gena	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	genugen	_	ADV	Q	_	4	advmod	_	_
+6	gangen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.45
+# X_ID = 1619W-LETTERS-PRAGUE,31.48
+# text = zi ver shir ins leger kumen het zi nit mit zikh gehat ire zakhen
+1	zi	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	ver	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+3	shir	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+4	ins	_	ADP	P-CL	_	5	case	_	_
+5	leger	_	NOUN	N	_	6	obl	_	_
+6	kumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	het	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+8	zi	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+9	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	12	advmod	_	_
+10	mit	_	ADP	P	_	11	case	_	_
+11	zikh	_	PRON	PRO	_	12	obl	_	_
+12	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+13	ire	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	14	det:poss	_	_
+14	zakhen	_	NOUN	N	_	12	obj	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.46
+# X_ID = 1619W-LETTERS-PRAGUE,31.49
+# text = der_mit hot zi zikh, got tsu_for, aus geleyzt
+1	der_mit	_	ADP	P	_	10	obl	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+3	zi	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	10	expl:pv	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	10	punct	_	_
+6	got	_	PROPN	NPR	_	10	discourse	_	_
+7	tsu_for	_	ADV	ADV	Degree=Pos	6	advmod	_	SpaceAfter=No
+8	,	_	PUNCT	PUNC	_	10	punct	_	_
+9	aus	_	ADP	RP	_	10	compound:prt	_	_
+10	geleyzt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.47
+# X_ID = 1619W-LETTERS-PRAGUE,31.50
+# text = %pro% ver ober kan vunder gevezen azoy an frevel %EXCL%
+1	%pro%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+2	ver	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+3	ober	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+4	kan	_	DET	Q	_	5	det	_	_
+5	vunder	_	NOUN	N	_	6	xcomp	_	_
+6	gevezen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	azoy	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+8	an	_	DET	D	PronType=Art	9	det	_	_
+9	frevel	_	NOUN	N-I	Definite=Ind	6	discourse	_	SpaceAfter=No
+10	%EXCL%	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.48
+# X_ID = 1619W-LETTERS-PRAGUE,31.51
+# text = zi hot gevis skhus oves genosen
+1	zi	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+3	gevis	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+4	skhus	merits	X	H	_	6	dep	_	_
+5	oves	parents	X	H	_	4	dep	_	_
+6	genosen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.49
+# X_ID = 1619W-LETTERS-PRAGUE,31.52
+# text = erst hot man zi hi nit velen ayn lozen
+1	erst	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+3	man	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+4	zi	_	PRON	PRO-ACC	Case=Acc	9	obj	_	_
+5	hi	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+6	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+7	velen	_	AUX	MDN-IPP	Tense=Past|VerbForm=Part	9	aux	_	_
+8	ayn	_	ADP	RP	_	9	compound:prt	_	_
+9	lozen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.50
+# X_ID = 1619W-LETTERS-PRAGUE,31.53
+# text = iz tsu libene, den dos kol %ich%-1 get vi khas vesholem %pro% groyser aver ver,
+1	iz	_	X	X	_	9	dep	_	_
+2	tsu	_	ADP	P	_	1	obl	_	_
+3	libene	_	X	X	_	2	dep	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	9	punct	_	_
+5	den	_	CCONJ	CONJ	_	9	cc	_	_
+6	dos	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	kol	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	_
+8	%ich%-1	_	SCONJ	CP-THT	_	7	ccomp	_	_
+9	get	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+10	vi	_	SCONJ	C	_	16	mark	_	_
+11	khas	have_mercy	X	H	_	16	dep	_	_
+12	vesholem	and_peace	X	H	_	11	discourse	_	_
+13	%pro%	_	NOUN	NP-SBJ	_	16	nsubj	_	_
+14	groyser	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	aver	_	NOUN	N	_	16	xcomp	_	_
+16	ver	_	VERB	VBF	VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.51
+# X_ID = 1619W-LETTERS-PRAGUE,31.54
+# text = man hot di mad drum her geshikt
+1	man	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+3	di	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+4	mad	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	7	obj	_	_
+5	drum	_	ADP	P	_	7	obl	_	_
+6	her	_	ADV	RP-ADV	_	7	advmod	_	_
+7	geshikt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.52
+# X_ID = 1619W-LETTERS-PRAGUE,31.55
+# text = drum for_langt %exp% mikh, biz ikh ver mertseshem vider briv fun enk hoben .
+1	drum	_	ADP	P	_	2	obl	_	_
+2	for_langt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	%exp%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+4	mikh	_	PRON	PRO-ACC	Case=Acc	2	obj	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	2	punct	_	_
+6	biz	_	SCONJ	C	_	14	mark	_	_
+7	ikh	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+8	ver	_	AUX	RDF	VerbForm=Fin	14	aux	_	_
+9	mertseshem	willing_name	X	H	_	14	dep	_	_
+10	vider	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+11	briv	_	NOUN	N-ACC	Case=Acc	14	obj	_	_
+12	fun	_	ADP	P	_	13	case	_	_
+13	enk	_	PRON	PRO	_	11	obl	_	_
+14	hoben	_	VERB	VB	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.53
+# X_ID = 1619W-LETTERS-PRAGUE,31.56
+# text = libes herts, az du shraybst dos do fil fremde layt bay enk zayn iz %exp% kan vunder,
+1	libes	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	herts	_	NOUN	N	_	15	vocative	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	15	punct	_	_
+4	az	_	SCONJ	C	_	6	mark	_	_
+5	du	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+6	shraybst	_	VERB	VBF	VerbForm=Fin	15	advcl	_	_
+7	dos	_	SCONJ	C	_	14	mark	_	_
+8	do	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+9	fil	_	DET	Q-NOM	Case=Nom	11	det	_	_
+10	fremde	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	11	amod	_	_
+11	layt	_	NOUN	N-NOM	Case=Nom	14	nsubj	_	_
+12	bay	_	ADP	P	_	13	case	_	_
+13	enk	_	PRON	PRO	_	14	obl	_	_
+14	zayn	_	VERB	VBF	VerbForm=Fin	6	ccomp	_	_
+15	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+16	%exp%	_	NOUN	NP-SBJ	_	15	nsubj	_	_
+17	kan	_	DET	Q	_	18	det	_	_
+18	vunder	_	NOUN	N	_	15	xcomp	_	SpaceAfter=No
+19	,	_	PUNCT	PUNC	_	15	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.54
+# X_ID = 1619W-LETTERS-PRAGUE,31.57
+# text = zaynen hi akh shir azoy fil az hige .
+1	zaynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	hi	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	akh	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+4	shir	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	azoy	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	fil	_	DET	Q	_	1	nsubj	_	_
+7	az	_	ADP	P	_	8	dep	_	_
+8	hige	_	X	X	_	6	obl	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.55
+# X_ID = 1619W-LETTERS-PRAGUE,31.58
+# text = vos %t%-1 zol man tuen ?
+1	vos	_	PRON	WPRO	_	5	obj	_	_
+2	%t%-1	_	NOUN	NP-ACC	_	5	dep	_	_
+3	zol	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+4	man	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	tuen	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.56
+# X_ID = 1619W-LETTERS-PRAGUE,31.59
+# text = vos %t%-1 shemisborekh tut, iz voyl geton, geloybt zey er .
+1	vos	_	PRON	WPRO	_	4	obj	_	_
+2	%t%-1	_	NOUN	NP-ACC	_	4	dep	_	_
+3	shemisborekh	name_may_be_blessed	X	H	_	4	dep	_	_
+4	tut	_	VERB	VBF	VerbForm=Fin	8	nsubj	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	8	punct	_	_
+6	iz	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+7	voyl	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	geton	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	8	punct	_	_
+10	geloybt	_	VERB	VAN	Tense=Past|VerbForm=Part	8	parataxis	_	_
+11	zey	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+12	er	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	SpaceAfter=No
+13	.	_	PUNCT	PUNC	_	8	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.57
+# X_ID = 1619W-LETTERS-PRAGUE,31.60
+# text = zol ikh dir shrayben, vi %t%-1 es unz geyt ?
+1	zol	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	dir	_	PRON	PRO-DTV	Case=Dat	4	iobj	_	_
+4	shrayben	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	vi	_	ADV	WADV	Degree=Pos	10	advmod	_	_
+7	%t%-1	_	ADV	ADVP	Degree=Pos	10	advmod	_	_
+8	es	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+9	unz	_	PRON	PRO-DTV	Case=Dat	10	iobj	_	_
+10	geyt	_	VERB	VBF	VerbForm=Fin	4	dep	_	SpaceAfter=No
+11	?	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.58
+# X_ID = 1619W-LETTERS-PRAGUE,31.61
+# text = shemisborekh zol@ @s iber_al %ich%-1 gut makhen
+1	shemisborekh	name_may_be_blessed	X	H	_	7	dep	_	_
+2	zol@	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+3	@s	_	PRON	PRO	_	7	obl	_	_
+4	iber_al	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+5	%ich%-1	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+6	gut	_	ADJ	ADJ	Degree=Pos	7	ccomp	_	_
+7	makhen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.59
+# X_ID = 1619W-LETTERS-PRAGUE,31.62
+# text = mir zaynen shmol genugen gestanden .
+1	mir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	zaynen	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+3	shmol	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+4	genugen	_	ADV	Q	_	3	advmod	_	_
+5	gestanden	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.60
+# X_ID = 1619W-LETTERS-PRAGUE,31.63
+# text = man iz an mol ayn gelofen
+1	man	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+3	an	_	DET	D	PronType=Art	4	det	_	_
+4	mol	_	NOUN	N-I	Definite=Ind	6	obl	_	_
+5	ayn	_	ADP	RP	_	6	compound:prt	_	_
+6	gelofen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.61
+# X_ID = 1619W-LETTERS-PRAGUE,31.64
+# text = %pro% iz borkh_ashem voyl aus gangen
+1	%pro%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+3	borkh_ashem	blessed_the_name	X	H	_	6	dep	_	_
+4	voyl	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	aus	_	ADP	RP	_	6	compound:prt	_	_
+6	gangen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.62
+# X_ID = 1619W-LETTERS-PRAGUE,31.65
+# text = mir hoben skhus oves genosen
+1	mir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+2	hoben	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+3	skhus	merits	X	H	_	5	dep	_	_
+4	oves	parents	X	H	_	3	dep	_	_
+5	genosen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.63
+# X_ID = 1619W-LETTERS-PRAGUE,32.67
+# text = ahuvi mekhutoni kmar zanvel . %pro% velt aykh geren barikhes shrayben .
+1	ahuvi	beloved_my	X	H	_	3	dep	_	_
+2	mekhutoni	father_in_law	X	H	_	3	dep	_	_
+3	kmar	_	PROPN	NPR	_	11	vocative	_	_
+4	zanvel	_	PROPN	NPR	_	3	flat:name	_	SpaceAfter=No
+5	.	_	PUNCT	PUNC	_	11	punct	_	_
+6	%pro%	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+7	velt	_	AUX	MDF	VerbForm=Fin	11	aux	_	_
+8	aykh	_	PRON	PRO-DTV	Case=Dat	11	iobj	_	_
+9	geren	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+10	barikhes	_	NOUN	N-ACC	Case=Acc	11	obj	_	_
+11	shrayben	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	_	PUNCT	PUNC	_	11	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.64
+# X_ID = 1619W-LETTERS-PRAGUE,32.68
+# text = %con% kan nit visen, oyb di ksovem on kumen
+1	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+2	kan	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+4	visen	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	oyb	_	SCONJ	C	_	10	mark	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	ksovem	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	_
+9	on	_	ADP	RP	_	10	compound:prt	_	_
+10	kumen	_	VERB	VBF	VerbForm=Fin	4	dep	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.65
+# X_ID = 1619W-LETTERS-PRAGUE,32.69
+# text = dokh muz ikh shuresayem shrayben, dermit ir s akh tun zolt
+1	dokh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+2	muz	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+4	shuresayem	two_lines	X	H	_	5	dep	_	_
+5	shrayben	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	5	punct	_	_
+7	dermit	_	SCONJ	C	_	11	mark	_	_
+8	ir	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+9	s	_	PRON	PRO-ACC	Case=Acc	11	obj	_	_
+10	akh	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+11	tun	_	VERB	VB	VerbForm=Inf	5	advcl	_	_
+12	zolt	_	AUX	MDF	VerbForm=Fin	11	aux	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.66
+# X_ID = 1619W-LETTERS-PRAGUE,32.70
+# text = un %con% bit aykh
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	bit	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	aykh	_	PRON	PRO-ACC	Case=Acc	3	obj	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.67
+# X_ID = 1619W-LETTERS-PRAGUE,32.71
+# text = %con% vert aykh losen mayne kinder %ich%-1 befoylen zayn
+1	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+2	vert	_	AUX	RDF	VerbForm=Fin	4	aux	_	_
+3	aykh	_	PRON	PRO	_	4	obl	_	_
+4	losen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	mayne	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	6	det:poss	_	_
+6	kinder	_	NOUN	N	_	8	nsubj	_	_
+7	%ich%-1	_	NOUN	NP-DTV	_	8	dep	_	_
+8	befoylen	_	VERB	VAN	Tense=Past|VerbForm=Part	4	xcomp	_	_
+9	zayn	_	AUX	BE	VerbForm=Inf	8	cop	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.68
+# X_ID = 1619W-LETTERS-PRAGUE,32.72
+# text = akh kan ikh denken, dos itsunder di mikhie tsu vin akh nit iz vi %t%-1 es zayn zol
+1	akh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	kan	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	denken	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	dos	_	SCONJ	C	_	14	mark	_	_
+7	itsunder	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+8	di	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+9	mikhie	_	NOUN	N-NOM	Case=Nom	14	nsubj	_	_
+10	tsu	_	ADP	P	_	11	case	_	_
+11	vin	_	PROPN	NPR	_	9	obl	_	_
+12	akh	_	ADV	ADV	Degree=Pos	14	advmod	_	_
+13	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	14	advmod	_	_
+14	iz	_	VERB	VBF	VerbForm=Fin	4	ccomp	_	_
+15	vi	_	ADV	WADV	Degree=Pos	18	advmod	_	_
+16	%t%-1	_	ADV	ADVP	Degree=Pos	18	advmod	_	_
+17	es	_	PRON	PRO-NOM	Case=Nom	18	nsubj	_	_
+18	zayn	_	VERB	VB	VerbForm=Inf	14	advcl	_	_
+19	zol	_	AUX	MDF	VerbForm=Fin	18	aux	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.69
+# X_ID = 1619W-LETTERS-PRAGUE,32.73
+# text = vert ir zen, beni an on_stelung helfen, dos er bay den zeynigen blayben kan un %con% khas vesholem nit derum kumt .
+1	vert	_	AUX	RDF	VerbForm=Fin	3	aux	_	_
+2	ir	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	zen	_	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	3	punct	_	_
+5	beni	son_my	X	H	_	8	dep	_	_
+6	an	_	ADP	P	_	7	case	_	_
+7	on_stelung	_	NOUN	N	_	8	obl	_	_
+8	helfen	_	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	8	punct	_	_
+10	dos	_	SCONJ	C	_	15	mark	_	_
+11	er	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+12	bay	_	ADP	P	_	14	case	_	_
+13	den	_	DET	D	PronType=Art	14	det	_	_
+14	zeynigen	_	ADJ	ADJ	Degree=Pos	15	obl	_	_
+15	blayben	_	VERB	VB	VerbForm=Inf	8	advcl	_	_
+16	kan	_	AUX	MDF	VerbForm=Fin	15	aux	_	_
+17	un	_	CCONJ	CONJ	_	23	cc	_	_
+18	%con%	_	NOUN	NP-SBJ	_	23	nsubj	_	_
+19	khas	have_mercy	X	H	_	23	dep	_	_
+20	vesholem	and_peace	X	H	_	19	discourse	_	_
+21	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	23	advmod	_	_
+22	derum	_	ADP	P	_	23	obl	_	_
+23	kumt	_	VERB	VBF	VerbForm=Fin	15	conj	_	SpaceAfter=No
+24	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.70
+# X_ID = 1619W-LETTERS-PRAGUE,32.74
+# text = akh fer_hof ikh, ayer tsu_zogen %ich%-1 nokh kumen dos ir in velt mehane zayn on hoytsoys
+1	akh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	fer_hof	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	2	punct	_	_
+5	ayer	_	PRON	PRO$-DTV	Case=Dat|PronType=Poss	6	det:poss	_	_
+6	tsu_zogen	_	NOUN	N	_	9	iobj	_	_
+7	%ich%-1	_	SCONJ	CP-THT	_	6	xcomp	_	_
+8	nokh	_	ADP	RP	_	9	compound:prt	_	_
+9	kumen	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+10	dos	_	SCONJ	C	_	15	mark	_	_
+11	ir	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+12	in	_	PRON	PRO-ACC	Case=Acc	15	obj	_	_
+13	velt	_	AUX	MDF	VerbForm=Fin	15	aux	_	_
+14	mehane	_	ADP	RP-H	_	15	compound:prt	_	_
+15	zayn	_	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+16	on	_	ADP	P	_	17	case	_	_
+17	hoytsoys	_	NOUN	N	_	15	obl	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.71
+# X_ID = 1619W-LETTERS-PRAGUE,32.75
+# text = %con% fer_hof, ir tut un tun vert .
+1	%con%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+2	fer_hof	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	2	punct	_	_
+4	ir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	tut	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+6	un	_	CCONJ	CONJ	_	7	cc	_	_
+7	tun	_	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+8	vert	_	AUX	RDF	VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.72
+# X_ID = 1619W-LETTERS-PRAGUE,32.76
+# text = %con% fer_hof, %exp% iz aykh tsayes
+1	%con%	_	NOUN	NP-SBJ	_	2	nsubj	_	_
+2	fer_hof	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	2	punct	_	_
+4	%exp%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+6	aykh	_	PRON	PRO-DTV	Case=Dat	5	iobj	_	_
+7	tsayes	_	NOUN	N	_	5	xcomp	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.73
+# X_ID = 1619W-LETTERS-PRAGUE,32.77
+# text = veren %pro% mertseshem ovrem ve-shovem zayn, vil ikh barikhes shrayben
+1	veren	_	AUX	RDF	VerbForm=Fin	6	aux	_	_
+2	%pro%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+3	mertseshem	willing_name	X	H	_	6	dep	_	_
+4	ovrem	ones_who_go	X	H	_	6	dep	_	_
+5	ve-shovem	and_ones_who_return	X	H	_	4	dep	_	_
+6	zayn	_	VERB	VB	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	11	punct	_	_
+8	vil	_	AUX	MDF	VerbForm=Fin	11	aux	_	_
+9	ikh	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+10	barikhes	_	NOUN	N-ACC	Case=Acc	11	obj	_	_
+11	shrayben	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1619W-LETTERS-PRAGUE,.74
+# X_ID = 1619W-LETTERS-PRAGUE,32.78
+# text = grist zugoskhe fun unzeren vegen .
+1	grist	_	VERB	VBI	Mood=Imp	0	root	_	_
+2	zugoskhe	_	PROPN	NPR-ACC	_	1	dep	_	_
+3	fun	_	ADP	P	_	5	case	_	_
+4	unzeren	_	PRON	PRO$	_	5	det:poss	_	_
+5	vegen	_	NOUN	N	_	1	obl	_	SpaceAfter=No
+6	.	_	PUNCT	PUNC	_	1	punct	_	_
+
+1	volt	_	AUX	MDI	Mood=Imp	3	aux	_	_
+2	gutret	_	PROPN	NPR-ACC	_	3	dep	_	_
+3	befelen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+4	,	_	PUNCT	PUNC	_	3	punct	_	_
+5	dos	_	SCONJ	C	_	9	mark	_	_
+6	zi	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+7	unz	_	PRON	PRO-DTV	Case=Dat	9	iobj	_	_
+8	akh	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+9	shraybt	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+

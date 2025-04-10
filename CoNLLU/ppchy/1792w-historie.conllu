@@ -1,0 +1,884 @@
+# sent_id = 1792W-HISTORIE,.1
+# X_ID = 1792W-HISTORIE,551.3
+# text = eyn shinh historie fun eyn palak velkhi %t%-1 nakh ni_mahl iz gedrukt vardn
+1	eyn	_	DET	D	PronType=Art	3	det	_	_
+2	shinh	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	historie	_	NOUN	N	_	0	root	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	eyn	_	DET	D	PronType=Art	6	det	_	_
+6	palak	_	NOUN	N-I	Definite=Ind	3	obl	_	_
+7	velkhi	_	PRON	WPRO	_	12	obj	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+9	nakh	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+10	ni_mahl	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+11	iz	_	AUX	BEF	VerbForm=Fin	12	cop	_	_
+12	gedrukt	_	VERB	VAN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+13	vardn	_	VERB	RDN	Tense=Past|VerbForm=Part	12	dep	_	_
+
+# sent_id = 1792W-HISTORIE,.2
+# X_ID = 1792W-HISTORIE,551.4
+# text = oyf sdrut veyz fun brasit biz uzat hbrkh eyn gdikht vi %t%-1 er zeyn velt_loyf fr_brengn tut fun mahl an als er zikh eyn veyb nemt
+1	oyf	_	ADP	P	_	2	dep	_	_
+2	sdrut	series	X	H	_	16	dep	_	_
+3	veyz	_	X	X	_	16	dep	_	_
+4	fun	_	ADP	P	_	16	obl	_	_
+5	brasit	in_beginning	X	H	_	4	dep	_	_
+6	biz	_	ADP	P	_	16	obl	_	_
+7	uzat	and_this	X	H	_	6	dep	_	_
+8	hbrkh	the_blessing	X	H	_	7	dep	_	_
+9	eyn	_	DET	D	PronType=Art	10	det	_	_
+10	gdikht	_	NOUN	N-I	Definite=Ind	16	obl	_	_
+11	vi	_	ADV	WADV	Degree=Pos	16	advmod	_	_
+12	%t%-1	_	ADV	ADVP	Degree=Pos	16	advmod	_	_
+13	er	_	PRON	PRO-NOM	Case=Nom	16	nsubj	_	_
+14	zeyn	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	15	det:poss	_	_
+15	velt_loyf	_	NOUN	N	_	16	obj	_	_
+16	fr_brengn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+17	tut	_	VERB	DOF	VerbForm=Fin	16	ccomp	_	_
+18	fun	_	ADP	P	_	19	case	_	_
+19	mahl	_	NOUN	N	_	16	obl	_	_
+20	an	_	ADP	RP	_	19	compound:prt	_	_
+21	als	_	SCONJ	C	_	26	mark	_	_
+22	er	_	PRON	PRO-NOM	Case=Nom	26	nsubj	_	_
+23	zikh	_	PRON	PRO-RFL	PronType=Reflex	26	expl:pv	_	_
+24	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	25	det	_	_
+25	veyb	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	26	obj	_	_
+26	nemt	_	VERB	VBF	VerbForm=Fin	19	advcl	_	_
+
+# sent_id = 1792W-HISTORIE,.3
+# X_ID = 1792W-HISTORIE,552.6
+# text = der an_fang izt der palak tut libr den hlz brekhn i er den tkun brekht
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	an_fang	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	izt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	der	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	_
+6	tut	_	VERB	DOF	VerbForm=Fin	10	ccomp	_	_
+7	libr	_	ADV	ADVR	Degree=Cmp	10	advmod	_	_
+8	den	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+9	hlz	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	10	obj	_	_
+10	brekhn	_	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+11	i	_	SCONJ	C	_	15	mark	_	_
+12	er	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+13	den	_	DET	D-ACC	Case=Acc|PronType=Art	14	det	_	_
+14	tkun	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	15	obj	_	_
+15	brekht	_	VERB	VBF	VerbForm=Fin	10	advcl	_	_
+
+# sent_id = 1792W-HISTORIE,.4
+# X_ID = 1792W-HISTORIE,552.7
+# text = tsu 18 yahr nemt er zikh eyn vab
+1	tsu	_	ADP	P	_	2	case	_	_
+2	18	_	NUM	NUM	_	4	obl	_	_
+3	yahr	_	NOUN	N	_	2	conj	_	_
+4	nemt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+7	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	vab	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	4	obj	_	_
+
+# sent_id = 1792W-HISTORIE,.5
+# X_ID = 1792W-HISTORIE,552.8
+# text = hat er keyn gelt
+1	hat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	4	det	_	_
+4	gelt	_	NOUN	N-ACC	Case=Acc	1	obj	_	_
+
+# sent_id = 1792W-HISTORIE,.6
+# X_ID = 1792W-HISTORIE,552.9
+# text = geht er tsu der srrh
+1	geht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	tsu	_	ADP	P	_	5	case	_	_
+4	der	_	DET	D	PronType=Art	5	det	_	_
+5	srrh	_	NOUN	N-D	Definite=Def	1	obl	_	_
+
+# sent_id = 1792W-HISTORIE,.7
+# X_ID = 1792W-HISTORIE,552.10
+# text = udr %con% bargt zikh geld oyz
+1	udr	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	bargt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	3	expl:pv	_	_
+5	geld	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+6	oyz	_	ADP	RP	_	3	compound:prt	_	_
+
+# sent_id = 1792W-HISTORIE,.8
+# X_ID = 1792W-HISTORIE,552.11
+# text = nakh der tseyt kumt di srrh
+1	nakh	_	ADP	P	_	3	case	_	_
+2	der	_	DET	D	PronType=Art	3	det	_	_
+3	tseyt	_	NOUN	N-D	Definite=Def	4	obl	_	_
+4	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	di	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	srrh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+
+# sent_id = 1792W-HISTORIE,.9
+# X_ID = 1792W-HISTORIE,552.12
+# text = und %con% zagt palak btsahl mir
+1	und	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	palak	_	NOUN	N	_	5	vocative	_	_
+5	btsahl	_	VERB	VBI	Mood=Imp	3	ccomp	_	_
+6	mir	_	PRON	PRO-DTV	Case=Dat	5	iobj	_	_
+
+# sent_id = 1792W-HISTORIE,.10
+# X_ID = 1792W-HISTORIE,552.13
+# text = zagt der palk git tsu
+1	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	palk	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	git	_	VERB	VBI	Mood=Imp	1	ccomp	_	_
+5	tsu	_	ADP	RP	_	4	compound:prt	_	_
+
+# sent_id = 1792W-HISTORIE,.11
+# X_ID = 1792W-HISTORIE,552.14
+# text = zagt der srrh nkh iz %pro% mir niks shuldig
+1	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	srrh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	nkh	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	iz	_	VERB	VBF	VerbForm=Fin	1	ccomp	_	_
+6	%pro%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+7	mir	_	PRON	PRO-DTV	Case=Dat	5	iobj	_	_
+8	niks	_	DET	Q-NEG	Polarity=Neg	9	amod	_	_
+9	shuldig	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+
+# sent_id = 1792W-HISTORIE,.12
+# X_ID = 1792W-HISTORIE,552.15
+# text = zeht der palak es kan niks gutts der_fun her kumen
+1	zeht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	10	expl	_	_
+5	kan	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+6	niks	_	DET	Q-NOM-NEG	Case=Nom|PronType=Neg	10	nsubj	_	_
+7	gutts	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+8	der_fun	_	ADP	P	_	10	obl	_	_
+9	her	_	ADV	RP-ADV	_	10	advmod	_	_
+10	kumen	_	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+
+# sent_id = 1792W-HISTORIE,.13
+# X_ID = 1792W-HISTORIE,552.16
+# text = giht er fun pulin nakh ashknz
+1	giht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	pulin	_	PROPN	NPR	_	1	obl	_	_
+5	nakh	_	ADP	P	_	6	case	_	_
+6	ashknz	_	PROPN	NPR	_	1	obl	_	_
+
+# sent_id = 1792W-HISTORIE,.14
+# X_ID = 1792W-HISTORIE,552.17
+# text = zeht er, ashknz izt eyn shinh mdinh als vi pulin
+1	zeht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	SpaceAfter=No
+3	,	_	PUNCT	PUNC	_	1	punct	_	_
+4	ashknz	_	PROPN	NPR-SBJ	_	5	nsubj	_	_
+5	izt	_	VERB	VBF	VerbForm=Fin	1	ccomp	_	_
+6	eyn	_	DET	D	PronType=Art	8	det	_	_
+7	shinh	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	mdinh	_	NOUN	N	_	5	xcomp	_	_
+9	als	_	ADP	P	_	11	case	_	_
+10	vi	_	ADP	P	_	11	case	_	_
+11	pulin	_	PROPN	NPR	_	8	obl	_	_
+
+# sent_id = 1792W-HISTORIE,.15
+# X_ID = 1792W-HISTORIE,552.18
+# text = nemt er zikh nakh eyn vab
+1	nemt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	1	expl:pv	_	_
+4	nakh	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	vab	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	1	obj	_	_
+
+# sent_id = 1792W-HISTORIE,.16
+# X_ID = 1792W-HISTORIE,552.19
+# text = di heyst kheysrh
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	heyst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	kheysrh	_	PROPN	NPR	_	2	xcomp	_	_
+
+# sent_id = 1792W-HISTORIE,.17
+# X_ID = 1792W-HISTORIE,552.20
+# text = der palak fangt an kindr tsu krign
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	fangt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	an	_	ADP	RP	_	3	compound:prt	_	_
+5	kindr	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+6	tsu	_	PART	TO	_	7	mark	_	_
+7	krign	_	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+
+# sent_id = 1792W-HISTORIE,.18
+# X_ID = 1792W-HISTORIE,552.21
+# text = und eyn polak ken keynh kindr oys stehn
+1	und	_	CCONJ	CONJ	_	8	cc	_	_
+2	eyn	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	polak	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	8	nsubj	_	_
+4	ken	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+5	keynh	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	6	det	_	_
+6	kindr	_	NOUN	N-ACC	Case=Acc	8	obj	_	_
+7	oys	_	ADP	RP	_	8	compound:prt	_	_
+8	stehn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.19
+# X_ID = 1792W-HISTORIE,552.22
+# text = geht er fun ashknz oykh eyn_vek
+1	geht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	ashknz	_	PROPN	NPR	_	1	obl	_	_
+5	oykh	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+6	eyn_vek	_	ADV	ADV	Degree=Pos	1	advmod	_	_
+
+# sent_id = 1792W-HISTORIE,.20
+# X_ID = 1792W-HISTORIE,552.23
+# text = ibr_shikn ihm di tsvey veybr vau %t%-1 der palak izt
+1	ibr_shikn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	ihm	_	PRON	PRO-ACC	Case=Acc	1	obj	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+4	tsvey	_	NUM	NUM-NOM	Case=Nom	5	nummod	_	_
+5	veybr	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+6	vau	_	ADV	WADV	Degree=Pos	10	advmod	_	_
+7	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	10	advmod	_	_
+8	der	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+9	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	10	nsubj	_	_
+10	izt	_	ADV	VBF	VerbForm=Fin	1	advmod	_	_
+
+# sent_id = 1792W-HISTORIE,.21
+# X_ID = 1792W-HISTORIE,552.24
+# text = vau %t%-1 zitst eyn palak
+1	vau	_	ADV	WADV	Degree=Pos	3	advmod	_	_
+2	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	3	advmod	_	_
+3	zitst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	eyn	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	palak	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	3	nsubj	_	_
+
+# sent_id = 1792W-HISTORIE,.22
+# X_ID = 1792W-HISTORIE,552.25
+# text = in spil und hurn_heyzr
+1	in	_	ADP	P	_	2	case	_	_
+2	spil	_	NOUN	N	_	0	root	_	_
+3	und	_	CCONJ	CONJ	_	4	cc	_	_
+4	hurn_heyzr	_	NOUN	N	_	2	conj	_	_
+
+# sent_id = 1792W-HISTORIE,.23
+# X_ID = 1792W-HISTORIE,552.26
+# text = mn lazt %arb% den palak zukhn fun eyn end tsu den andrn
+1	mn	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	lazt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	%arb%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+4	den	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	palak	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	6	obj	_	_
+6	zukhn	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+7	fun	_	ADP	P	_	9	case	_	_
+8	eyn	_	DET	D	PronType=Art	9	det	_	_
+9	end	_	NOUN	N-I	Definite=Ind	6	obl	_	_
+10	tsu	_	ADP	P	_	12	case	_	_
+11	den	_	DET	D	PronType=Art	12	det	_	_
+12	andrn	_	ADJ	ADJ	Degree=Pos	6	obl	_	_
+
+# sent_id = 1792W-HISTORIE,.24
+# X_ID = 1792W-HISTORIE,552.27
+# text = tut er tsu zi gnenn
+1	tut	_	VERB	DOF	VerbForm=Fin	5	ccomp	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	tsu	_	ADP	P	_	4	case	_	_
+4	zi	_	PRON	PRO	_	5	obl	_	_
+5	gnenn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.25
+# X_ID = 1792W-HISTORIE,552.28
+# text = zagn di veybr lebs@ @tu nakh
+1	zagn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	veybr	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	lebs@	_	VERB	VBF	VerbForm=Fin	1	dep	_	_
+5	@tu	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	nakh	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+
+# sent_id = 1792W-HISTORIE,.26
+# X_ID = 1792W-HISTORIE,552.29
+# text = zagt der palak sehn ver ez ven etts ali beydi suhn tut verit
+1	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	sehn	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	ver	_	VERB	VBF	VerbForm=Fin	1	ccomp	_	_
+6	ez	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+7	ven	_	SCONJ	C	_	13	mark	_	_
+8	etts	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+9	ali	_	ADV	Q	_	13	advmod	_	_
+10	beydi	_	DET	Q	_	9	det	_	_
+11	suhn	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+12	tut	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	verit	_	VERB	VBF	VerbForm=Fin	5	advcl	_	_
+
+# sent_id = 1792W-HISTORIE,.27
+# X_ID = 1792W-HISTORIE,552.30
+# text = zagn di veybr nun has@ @tu dikh tsu unz bvizn
+1	zagn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	veybr	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	nun	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+5	has@	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+6	@tu	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+7	dikh	_	PRON	PRO-RFL	PronType=Reflex	10	expl:pv	_	_
+8	tsu	_	ADP	P	_	9	case	_	_
+9	unz	_	PRON	PRO	_	10	obl	_	_
+10	bvizn	_	VERB	VBN	Tense=Past|VerbForm=Part	1	ccomp	_	_
+
+# sent_id = 1792W-HISTORIE,.28
+# X_ID = 1792W-HISTORIE,552.31
+# text = kum mir velin zikh getn
+1	kum	_	VERB	VBI	Mood=Imp	5	dep	_	_
+2	mir	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	velin	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+5	getn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.29
+# X_ID = 1792W-HISTORIE,552.32
+# text = shikt mn dn palak
+1	shikt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	mn	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	dn	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+4	palak	_	NOUN	N-ACC	Case=Acc	1	obj	_	_
+
+# sent_id = 1792W-HISTORIE,.30
+# X_ID = 1792W-HISTORIE,552.33
+# text = makht %con% : kl itr kn ntl dmh
+1	makht	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	%con%	_	NOUN	NP-SBJ	_	1	nsubj	_	SpaceAfter=No
+3	:	_	PUNCT	PUNC	_	1	punct	_	_
+4	kl	all	X	H	_	1	dep	_	_
+5	itr	addition	X	H	_	4	dep	_	_
+6	kn	yes	X	H	_	4	dep	_	_
+7	ntl	took	X	H	_	4	dep	_	_
+8	dmh	value	X	H	_	4	dep	_	_
+
+# sent_id = 1792W-HISTORIE,.31
+# X_ID = 1792W-HISTORIE,552.34
+# text = zetst zikh ds grikht
+1	zetst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	zikh	_	PRON	PRO-RFL	PronType=Reflex	1	expl:pv	_	_
+3	ds	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	grikht	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+
+# sent_id = 1792W-HISTORIE,.32
+# X_ID = 1792W-HISTORIE,552.35
+# text = und %con% zagt an du zalst dikh mit eyne fun di tsvey veybr sheydn
+1	und	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	an	_	ADP	RP	_	3	compound:prt	_	_
+5	du	_	PRON	PRO-NOM	Case=Nom	14	nsubj	_	_
+6	zalst	_	AUX	MDF	VerbForm=Fin	14	aux	_	_
+7	dikh	_	PRON	PRO-RFL	PronType=Reflex	14	expl:pv	_	_
+8	mit	_	ADP	P	_	9	case	_	_
+9	eyne	_	PRON	PRO	_	14	obl	_	_
+10	fun	_	ADP	P	_	13	case	_	_
+11	di	_	DET	D	PronType=Art	13	det	_	_
+12	tsvey	_	NUM	NUM	_	13	nummod	_	_
+13	veybr	_	NOUN	N-D	Definite=Def	9	obl	_	_
+14	sheydn	_	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+
+# sent_id = 1792W-HISTORIE,.33
+# X_ID = 1792W-HISTORIE,552.36
+# text = man tut gbitn makhn mir eyn tsum vau %t%-1 mir pskinn zalin
+1	man	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	tut	_	VERB	DOF	VerbForm=Fin	3	ccomp	_	_
+3	gbitn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+4	makhn	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+5	mir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	tsum	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+8	vau	_	ADV	WADV	Degree=Pos	11	advmod	_	_
+9	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	11	advmod	_	_
+10	mir	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+11	pskinn	_	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+12	zalin	_	AUX	MDF	VerbForm=Fin	11	aux	_	_
+
+# sent_id = 1792W-HISTORIE,.34
+# X_ID = 1792W-HISTORIE,552.37
+# text = zamlt zikh ds gantsi bit_din
+1	zamlt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	zikh	_	PRON	PRO-RFL	PronType=Reflex	1	expl:pv	_	_
+3	ds	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+4	gantsi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	5	amod	_	_
+5	bit_din	court	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+
+# sent_id = 1792W-HISTORIE,.35
+# X_ID = 1792W-HISTORIE,553.39
+# text = ruft mn den palak
+1	ruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	mn	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	den	_	DET	D-ACC	Case=Acc|PronType=Art	4	det	_	_
+4	palak	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	1	obj	_	_
+
+# sent_id = 1792W-HISTORIE,.36
+# X_ID = 1792W-HISTORIE,553.40
+# text = gbitt man ihm er zal eyne fun di tsvey veybr gt gebn
+1	gbitt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	man	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	ihm	_	PRON	PRO-DTV	Case=Dat	1	iobj	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+5	zal	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+6	eyne	_	PRON	PRO-ACC	Case=Acc	12	obj	_	_
+7	fun	_	ADP	P	_	10	case	_	_
+8	di	_	DET	D	PronType=Art	10	det	_	_
+9	tsvey	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	veybr	_	NOUN	N-D	Definite=Def	6	obl	_	_
+11	gt	_	PROPN	NPR-DTV	_	12	dep	_	_
+12	gebn	_	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+
+# sent_id = 1792W-HISTORIE,.37
+# X_ID = 1792W-HISTORIE,553.41
+# text = zagt der palak gibt mir akht tag tseyt
+1	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	gibt	_	VERB	VBI	Mood=Imp	1	ccomp	_	_
+5	mir	_	PRON	PRO-DTV	Case=Dat	4	iobj	_	_
+6	akht	_	NUM	NUM-ACC	Case=Acc	7	nummod	_	_
+7	tag	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+8	tseyt	_	NOUN	N-ACC	Case=Acc	7	nmod:poss	_	_
+
+# sent_id = 1792W-HISTORIE,.38
+# X_ID = 1792W-HISTORIE,553.42
+# text = ikh veri mikh bezinn velkhe %t%-1 ikh zal gt gebn
+1	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	veri	_	AUX	RDF	VerbForm=Fin	4	aux	_	_
+3	mikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+4	bezinn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	velkhe	_	PRON	WPRO	_	4	dep	_	_
+6	%t%-1	_	NOUN	NP-ACC	_	10	dep	_	_
+7	ikh	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+8	zal	_	AUX	MDF	VerbForm=Fin	10	aux	_	_
+9	gt	_	PROPN	NPR-DTV	_	10	dep	_	_
+10	gebn	_	VERB	VB	VerbForm=Inf	5	conj	_	_
+
+# sent_id = 1792W-HISTORIE,.39
+# X_ID = 1792W-HISTORIE,553.43
+# text = nun kumn di tsvey veybr tsu_zam
+1	nun	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	kumn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+4	tsvey	_	NUM	NUM-NOM	Case=Nom	5	nummod	_	_
+5	veybr	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	nsubj	_	_
+6	tsu_zam	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+
+# sent_id = 1792W-HISTORIE,.40
+# X_ID = 1792W-HISTORIE,553.44
+# text = ds izt di eyne zagt
+1	ds	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	izt	_	VERB	VBF	VerbForm=Fin	5	parataxis	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	eyne	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	5	nsubj	_	_
+5	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.41
+# X_ID = 1792W-HISTORIE,553.45
+# text = di andri zagt
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	andri	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	nsubj	_	_
+3	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.42
+# X_ID = 1792W-HISTORIE,553.46
+# text = eynh zagt ikh valt du verist shuhn lang gstarbn
+1	eynh	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ikh	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	valt	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+5	du	_	PRON	PRO-NOM	Case=Nom	9	nsubj	_	_
+6	verist	_	AUX	BEF	VerbForm=Fin	9	cop	_	_
+7	shuhn	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+8	lang	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+9	gstarbn	_	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+
+# sent_id = 1792W-HISTORIE,.43
+# X_ID = 1792W-HISTORIE,553.47
+# text = di andri zagt ikh valt du verist eyn kdush gvarn fr der khtunh
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	andri	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	nsubj	_	_
+3	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	valt	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+6	du	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+7	verist	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+8	eyn	_	DET	D	PronType=Art	9	det	_	_
+9	kdush	_	NOUN	N-I	Definite=Ind	10	xcomp	_	_
+10	gvarn	_	VERB	VBN	Tense=Past|VerbForm=Part	5	ccomp	_	_
+11	fr	_	ADP	P	_	13	case	_	_
+12	der	_	DET	D	PronType=Art	13	det	_	_
+13	khtunh	_	NOUN	N-D	Definite=Def	10	obl	_	_
+
+# sent_id = 1792W-HISTORIE,.44
+# X_ID = 1792W-HISTORIE,553.48
+# text = hetin mir aliz er_spart
+1	hetin	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+2	mir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	aliz	_	DET	Q-ACC	Case=Acc	4	obj	_	_
+4	er_spart	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.45
+# X_ID = 1792W-HISTORIE,553.49
+# text = zagt der palak ikh ver enk veytr yagn
+1	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+5	ver	_	AUX	RDF	VerbForm=Fin	8	aux	_	_
+6	enk	_	PRON	PRO-ACC	Case=Acc	8	obj	_	_
+7	veytr	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	yagn	_	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+
+# sent_id = 1792W-HISTORIE,.46
+# X_ID = 1792W-HISTORIE,553.50
+# text = loyft er ibr di berg nakh pulin
+1	loyft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	ibr	_	ADP	P	_	5	case	_	_
+4	di	_	DET	D	PronType=Art	5	det	_	_
+5	berg	_	NOUN	N-D	Definite=Def	1	obl	_	_
+6	nakh	_	ADP	P	_	7	case	_	_
+7	pulin	_	PROPN	NPR	_	1	obl	_	_
+
+# sent_id = 1792W-HISTORIE,.47
+# X_ID = 1792W-HISTORIE,553.51
+# text = lazt er %arb% zikh di tukhkhh far leyann
+1	lazt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	%arb%	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+4	zikh	_	PRON	PRO-DTV	Case=Dat	8	iobj	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	tukhkhh	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	8	obj	_	_
+7	far	_	ADP	RP	_	8	compound:prt	_	_
+8	leyann	_	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+
+# sent_id = 1792W-HISTORIE,.48
+# X_ID = 1792W-HISTORIE,553.52
+# text = brumt er 7_1/2 grashin
+1	brumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	7_1/2	_	NUM	NUM	_	1	dep	_	_
+4	grashin	_	NOUN	N	_	3	conj	_	_
+
+# sent_id = 1792W-HISTORIE,.49
+# X_ID = 1792W-HISTORIE,553.53
+# text = izt er in pulin eyn ktsin
+1	izt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	pulin	_	PROPN	NPR	_	1	obl	_	_
+5	eyn	_	DET	D	PronType=Art	6	det	_	_
+6	ktsin	_	NOUN	N-I	Definite=Ind	1	xcomp	_	_
+
+# sent_id = 1792W-HISTORIE,.50
+# X_ID = 1792W-HISTORIE,553.54
+# text = loyft er in der mdbr
+1	loyft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	in	_	ADP	P	_	5	case	_	_
+4	der	_	DET	D	PronType=Art	5	det	_	_
+5	mdbr	_	NOUN	N-D	Definite=Def	1	obl	_	_
+
+# sent_id = 1792W-HISTORIE,.51
+# X_ID = 1792W-HISTORIE,553.55
+# text = vert er gfangin
+1	vert	_	AUX	RDF	VerbForm=Fin	3	aux	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	gfangin	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.52
+# X_ID = 1792W-HISTORIE,553.56
+# text = fr gzirut tsindt er zikh di luzge an mit brantiveyn
+1	fr	_	ADP	P	_	2	dep	_	_
+2	gzirut	decrees	X	H	_	3	dep	_	_
+3	tsindt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	3	expl:pv	_	_
+6	di	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	luzge	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+8	an	_	ADP	RP	_	3	compound:prt	_	_
+9	mit	_	ADP	P	_	10	case	_	_
+10	brantiveyn	_	NOUN	N	_	3	obl	_	_
+
+# sent_id = 1792W-HISTORIE,.53
+# X_ID = 1792W-HISTORIE,553.57
+# text = un %con% vert krank
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	vert	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	krank	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+
+# sent_id = 1792W-HISTORIE,.54
+# X_ID = 1792W-HISTORIE,553.58
+# text = vau %t%-1 shikt mn eyn krankin ahin ?
+1	vau	_	ADV	WADV	Degree=Pos	3	advmod	_	_
+2	%t%-1	_	ADV	ADVP-LOC	AdvType=Loc|Degree=Pos	3	advmod	_	_
+3	shikt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	mn	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	eyn	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	krankin	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	3	obj	_	_
+7	ahin	_	ADV	ADV	Degree=Pos	3	advmod	_	SpaceAfter=No
+8	?	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1792W-HISTORIE,.55
+# X_ID = 1792W-HISTORIE,553.59
+# text = fun eyn hkds tsu den den andrn hkds
+1	fun	_	ADP	P	_	3	case	_	_
+2	eyn	_	DET	D	PronType=Art	3	det	_	_
+3	hkds	_	NOUN	N-I	Definite=Ind	0	root	_	_
+4	tsu	_	ADP	P	_	8	case	_	_
+5	den	_	DET	D	PronType=Art	8	dep	_	_
+6	den	_	DET	D	PronType=Art	8	det	_	_
+7	andrn	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	hkds	_	NOUN	N-D	Definite=Def	3	obl	_	_
+
+# sent_id = 1792W-HISTORIE,.56
+# X_ID = 1792W-HISTORIE,553.60
+# text = fragn ihm di gbaim vaz %t%-1 foylt oykh
+1	fragn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	ihm	_	PRON	PRO-DTV	Case=Dat	1	iobj	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	gbaim	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+5	vaz	_	PRON	WPRO	_	7	obj	_	_
+6	%t%-1	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+7	foylt	_	VERB	VBF	VerbForm=Fin	1	dep	_	_
+8	oykh	_	PRON	PRO-DTV	Case=Dat	7	iobj	_	_
+
+# sent_id = 1792W-HISTORIE,.57
+# X_ID = 1792W-HISTORIE,553.61
+# text = zagt der palak krkh makht kdkht rbieit khulat
+1	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	krkh	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+5	makht	_	VERB	VBF	VerbForm=Fin	1	ccomp	_	_
+6	kdkht	fever	X	H	_	5	dep	_	_
+7	rbieit	fourth	X	H	_	6	dep	_	_
+8	khulat	sick	X	H	_	6	dep	_	_
+
+# sent_id = 1792W-HISTORIE,.58
+# X_ID = 1792W-HISTORIE,553.62
+# text = ds zeynn di gzetts fun blk makht brantveyn lidrlikh kartn
+1	ds	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	zeynn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	di	_	DET	D	PronType=Art	4	det	_	_
+4	gzetts	_	NOUN	N-D	Definite=Def	2	xcomp	_	_
+5	fun	_	ADP	P	_	4	obl	_	_
+6	blk	_	X	X	_	7	dep	_	_
+7	makht	_	VERB	VBF	VerbForm=Fin	5	dep	_	_
+8	brantveyn	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+9	lidrlikh	_	NOUN	N	_	8	conj	_	_
+10	kartn	_	NOUN	N-ACC	Case=Acc	8	conj	_	_
+
+# sent_id = 1792W-HISTORIE,.59
+# X_ID = 1792W-HISTORIE,554.64
+# text = nun hibt der palak an eykhus tsu rekhnn
+1	nun	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	hibt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	der	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	nsubj	_	_
+5	an	_	ADP	RP	_	2	compound:prt	_	_
+6	eykhus	_	NOUN	N-ACC	Case=Acc	8	obj	_	_
+7	tsu	_	PART	TO	_	8	mark	_	_
+8	rekhnn	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+
+# sent_id = 1792W-HISTORIE,.60
+# X_ID = 1792W-HISTORIE,554.65
+# text = r' tudrum izt meyn zidh gvezn
+1	r'	_	PROPN	NPR-SBJ	_	6	nsubj	_	_
+2	tudrum	_	PROPN	NPR	_	1	flat:name	_	_
+3	izt	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+4	meyn	_	PRON	PRO$	_	5	det:poss	_	_
+5	zidh	_	NOUN	N	_	6	xcomp	_	_
+6	gvezn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.61
+# X_ID = 1792W-HISTORIE,554.66
+# text = r' septl izt meyn fetr gvezn
+1	r'	_	PROPN	NPR-SBJ	_	6	nsubj	_	_
+2	septl	_	PROPN	NPR	_	1	flat:name	_	_
+3	izt	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+4	meyn	_	PRON	PRO$	_	5	det:poss	_	_
+5	fetr	_	NOUN	N	_	6	xcomp	_	_
+6	gvezn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.62
+# X_ID = 1792W-HISTORIE,554.67
+# text = nun izt bn aliezr bn ahrn hkhhn meyn tatin svestr takhtr givezin
+1	nun	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+2	izt	_	AUX	BEF	VerbForm=Fin	12	cop	_	_
+3	bn	_	PROPN	NPR-SBJ	_	12	nsubj	_	_
+4	aliezr	_	PROPN	NPR	_	3	flat:name	_	_
+5	bn	_	PROPN	NPR	_	3	dep	_	_
+6	ahrn	_	PROPN	NPR	_	3	dep	_	_
+7	hkhhn	_	PROPN	NPR	_	3	dep	_	_
+8	meyn	_	PRON	PRO$	_	12	xcomp	_	_
+9	tatin	_	NOUN	N	_	8	conj	_	_
+10	svestr	_	NOUN	N	_	8	conj	_	_
+11	takhtr	_	NOUN	N	_	8	conj	_	_
+12	givezin	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.63
+# X_ID = 1792W-HISTORIE,554.68
+# text = heyst di srrh
+1	heyst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	srrh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+
+# sent_id = 1792W-HISTORIE,.64
+# X_ID = 1792W-HISTORIE,554.69
+# text = heyst der palak
+1	heyst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+
+# sent_id = 1792W-HISTORIE,.65
+# X_ID = 1792W-HISTORIE,554.70
+# text = nun izt di srrh und der palak in di klem
+1	nun	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	izt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	srrh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	nsubj	_	_
+5	und	_	CCONJ	CONJ	_	7	cc	_	_
+6	der	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	palak	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	conj	_	_
+8	in	_	ADP	P	_	10	case	_	_
+9	di	_	DET	D	PronType=Art	10	det	_	_
+10	klem	_	NOUN	N-D	Definite=Def	2	obl	_	_
+
+# sent_id = 1792W-HISTORIE,.66
+# X_ID = 1792W-HISTORIE,554.71
+# text = das zeyn di straf_rid
+1	das	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	zeyn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	di	_	DET	D	PronType=Art	4	det	_	_
+4	straf_rid	_	NOUN	N-D	Definite=Def	2	xcomp	_	_
+
+# sent_id = 1792W-HISTORIE,.67
+# X_ID = 1792W-HISTORIE,554.72
+# text = zagt der srrh ikh bet dikh palak btsal mir
+1	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	srrh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	bet	_	VERB	VBF	VerbForm=Fin	8	parataxis	_	_
+6	dikh	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+7	palak	_	NOUN	N	_	8	vocative	_	_
+8	btsal	_	VERB	VBI	Mood=Imp	1	ccomp	_	_
+9	mir	_	PRON	PRO-DTV	Case=Dat	8	iobj	_	_
+
+# sent_id = 1792W-HISTORIE,.68
+# X_ID = 1792W-HISTORIE,554.73
+# text = vau nit drum azu ver@ %pro% @s dr_zehn
+1	vau	_	SCONJ	C	_	8	advcl	_	_
+2	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	1	xcomp	_	_
+3	drum	_	ADP	P	_	8	obl	_	_
+4	azu	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+5	ver@	_	AUX	BEF	VerbForm=Fin	8	cop	_	_
+6	%pro%	_	NOUN	NP-SBJ	_	8	nsubj	_	_
+7	@s	_	PRON	PRO-ACC	Case=Acc	8	obj	_	_
+8	dr_zehn	_	VERB	VAG	Tense=Pres|VerbForm=Part	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.69
+# X_ID = 1792W-HISTORIE,554.74
+# text = ikh ver dikh durkh eyn stroys lazn %ich%-1 %ich%-2 in der tfish shmeysn
+1	ikh	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+2	ver	_	AUX	RDF	VerbForm=Fin	7	aux	_	_
+3	dikh	_	PRON	PRO	_	7	obl	_	_
+4	durkh	_	ADP	P	_	6	case	_	_
+5	eyn	_	DET	D	PronType=Art	6	det	_	_
+6	stroys	_	NOUN	N-I	Definite=Ind	7	obl	_	_
+7	lazn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+8	%ich%-1	_	NOUN	NP-ACC	_	13	dep	_	_
+9	%ich%-2	_	ADP	PP	_	13	obl	_	_
+10	in	_	ADP	P	_	12	case	_	_
+11	der	_	DET	D	PronType=Art	12	det	_	_
+12	tfish	_	NOUN	N-D	Definite=Def	13	obl	_	_
+13	shmeysn	_	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+
+# sent_id = 1792W-HISTORIE,.70
+# X_ID = 1792W-HISTORIE,554.75
+# text = zagt der palk i du verst aroyz gihn ven du verst areyn kumn ver ikh mikh stelin
+1	zagt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+3	palk	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	1	nsubj	_	_
+4	i	_	SCONJ	C	_	8	mark	_	_
+5	du	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+6	verst	_	AUX	RDF	VerbForm=Fin	8	aux	_	_
+7	aroyz	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	gihn	_	VERB	VB	VerbForm=Inf	17	advcl	_	_
+9	ven	_	SCONJ	C	_	13	mark	_	_
+10	du	_	PRON	PRO-NOM	Case=Nom	13	nsubj	_	_
+11	verst	_	AUX	RDF	VerbForm=Fin	13	aux	_	_
+12	areyn	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+13	kumn	_	VERB	VB	VerbForm=Inf	17	advcl	_	_
+14	ver	_	AUX	RDF	VerbForm=Fin	17	aux	_	_
+15	ikh	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+16	mikh	_	PRON	PRO-RFL	PronType=Reflex	17	expl:pv	_	_
+17	stelin	_	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+
+# sent_id = 1792W-HISTORIE,.71
+# X_ID = 1792W-HISTORIE,554.76
+# text = ver ikh gehn
+1	ver	_	AUX	RDF	VerbForm=Fin	3	aux	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	gehn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.72
+# X_ID = 1792W-HISTORIE,554.77
+# text = und %con% ver meynh subitsh mit zilbri heklikh fr_koyfn
+1	und	_	CCONJ	CONJ	_	9	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	9	nsubj	_	_
+3	ver	_	AUX	RDF	VerbForm=Fin	9	aux	_	_
+4	meynh	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	5	det:poss	_	_
+5	subitsh	_	NOUN	N	_	9	obj	_	_
+6	mit	_	ADP	P	_	8	case	_	_
+7	zilbri	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	heklikh	_	NOUN	N	_	5	obl	_	_
+9	fr_koyfn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.73
+# X_ID = 1792W-HISTORIE,554.78
+# text = ver ikh krign drey pulish gildn
+1	ver	_	AUX	RDF	VerbForm=Fin	3	aux	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	krign	_	VERB	VB	VerbForm=Inf	0	root	_	_
+4	drey	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+5	pulish	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	gildn	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+
+# sent_id = 1792W-HISTORIE,.74
+# X_ID = 1792W-HISTORIE,554.79
+# text = verst du mikh fr_nemn
+1	verst	_	AUX	RDF	VerbForm=Fin	4	aux	_	_
+2	du	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	mikh	_	PRON	PRO-ACC	Case=Acc	4	obj	_	_
+4	fr_nemn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1792W-HISTORIE,.75
+# X_ID = 1792W-HISTORIE,554.80
+# text = und verst du nemn di drey pulish gildn
+1	und	_	CCONJ	CONJ	_	4	cc	_	_
+2	verst	_	AUX	RDF	VerbForm=Fin	4	aux	_	_
+3	du	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	nemn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+6	drey	_	NUM	NUM-ACC	Case=Acc	8	nummod	_	_
+7	pulish	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	gildn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	4	obj	_	_
+
+1	verst	_	AUX	RDF	VerbForm=Fin	4	aux	_	_
+2	du	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	der_mit	_	ADP	P	_	4	obl	_	_
+4	habn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+5	mzl	luck	X	H	_	4	dep	_	_
+6	ubrkhh	and_blessing	X	H	_	5	dep	_	_
+

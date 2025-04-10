@@ -1,0 +1,125 @@
+# sent_id = 1740W-DRISES,.1
+# X_ID = 1740W-DRISES,.2
+# text = az er nit broykh tsu zukhin in ali sfrim
+1	az	_	SCONJ	C	_	4	mark	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	4	advmod	_	_
+4	broykh	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	tsu	_	PART	TO	_	6	mark	_	_
+6	zukhin	_	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	ali	_	DET	Q	_	9	det	_	_
+9	sfrim	_	NOUN	N	_	6	obl	_	_
+
+# sent_id = 1740W-DRISES,.2
+# X_ID = 1740W-DRISES,.3
+# text = vas %t%-1 da iz durkh eyn pst giat dem mensh besr tsu hertsin
+1	vas	_	PRON	WPRO	_	4	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+3	da	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	8	nsubj	_	_
+5	durkh	_	ADP	P	_	7	case	_	_
+6	eyn	_	DET	D	PronType=Art	7	det	_	_
+7	pst	_	NOUN	N-I	Definite=Ind	4	obl	_	_
+8	giat	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	dem	_	DET	D-DTV	Case=Dat|PronType=Art	10	det	_	_
+10	mensh	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	8	iobj	_	_
+11	besr	_	ADV	ADVR	Degree=Cmp	8	advmod	_	_
+12	tsu	_	ADP	P	_	13	case	_	_
+13	hertsin	_	NOUN	N	_	8	obl	_	_
+
+# sent_id = 1740W-DRISES,.3
+# X_ID = 1740W-DRISES,.4
+# text = di %t%-1 da bistit in di pstim oykh in hertsin
+1	di	_	PRON	WPRO	_	4	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+3	da	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	bistit	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	in	_	ADP	P	_	7	case	_	_
+6	di	_	DET	D	PronType=Art	7	det	_	_
+7	pstim	_	NOUN	N-D	Definite=Def	4	obl	_	_
+8	oykh	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+9	in	_	ADP	P	_	10	case	_	_
+10	hertsin	_	NOUN	N	_	4	obl	_	_
+
+# sent_id = 1740W-DRISES,.4
+# X_ID = 1740W-DRISES,.5
+# text = oyb es gleykh neyart mekht helfin tsu eynem fun toyznt
+1	oyb	_	SCONJ	C	_	6	mark	_	_
+2	es	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+3	gleykh	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+4	neyart	_	ADV	FP	Degree=Pos	6	advmod	_	_
+5	mekht	_	AUX	MDF	VerbForm=Fin	6	aux	_	_
+6	helfin	_	VERB	VB	VerbForm=Inf	0	root	_	_
+7	tsu	_	ADP	P	_	8	case	_	_
+8	eynem	_	PRON	PRO	_	6	obl	_	_
+9	fun	_	ADP	P	_	10	case	_	_
+10	toyznt	_	NUM	NUM	_	8	obl	_	_
+
+# sent_id = 1740W-DRISES,.5
+# X_ID = 1740W-DRISES,.6
+# text = vas ikh hab mikh bmiat
+1	vas	_	SCONJ	C	_	5	mark	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	hab	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	mikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+5	bmiat	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1740W-DRISES,.6
+# X_ID = 1740W-DRISES,.7
+# text = di %t%-1 durkh mir vert kumn
+1	di	_	PRON	WPRO	_	6	obj	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+3	durkh	_	ADP	P	_	4	case	_	_
+4	mir	_	PRON	PRO	_	6	obl	_	_
+5	vert	_	AUX	RDF	VerbForm=Fin	6	aux	_	_
+6	kumn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1740W-DRISES,.7
+# X_ID = 1740W-DRISES,.8
+# text = ds ikh heys ds sfr nakh eyn namn
+1	ds	_	SCONJ	C	_	3	mark	_	_
+2	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	heys	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	ds	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	sfr	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	3	obj	_	_
+6	nakh	_	ADP	P	_	8	case	_	_
+7	eyn	_	DET	D	PronType=Art	8	det	_	_
+8	namn	_	NOUN	N-I	Definite=Ind	3	obl	_	_
+
+# sent_id = 1740W-DRISES,.8
+# X_ID = 1740W-DRISES,.9
+# text = ikh hab gtun fr gmeyni leyt di %t%-1 nit frstin lsn hkds
+1	ikh	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	hab	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+3	gtun	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	fr	_	ADP	P	_	6	case	_	_
+5	gmeyni	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	leyt	_	NOUN	N	_	3	obl	_	_
+7	di	_	PRON	WPRO	_	10	obj	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+9	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+10	frstin	_	VERB	VBF	VerbForm=Fin	6	acl:relcl	_	_
+11	lsn	language	X	H	_	10	dep	_	_
+12	hkds	the_holy	X	H	_	11	dep	_	_
+
+# sent_id = 1740W-DRISES,.9
+# X_ID = 1740W-DRISES,.10
+# text = ikh zal nit vern gstroykhlt mit meyni tsung
+1	ikh	_	PRON	PRO-NOM	Case=Nom	0	root	_	_
+2	zal	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+3	nit	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	5	advmod	_	_
+4	vern	_	AUX	RD	VerbForm=Inf	5	aux	_	_
+5	gstroykhlt	_	VERB	VAN	Tense=Past|VerbForm=Part	1	conj	_	_
+6	mit	_	ADP	P	_	8	case	_	_
+7	meyni	_	PRON	PRO$	_	8	det:poss	_	_
+8	tsung	_	NOUN	N	_	5	obl	_	_
+
+1	oyb	_	SCONJ	C	_	4	mark	_	_
+2	villeykht	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+3	mekht	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+4	gfundn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+5	vern	_	AUX	RD	VerbForm=Inf	4	aux	_	_
+6	eyn	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	shent	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	4	nsubj	_	_
+

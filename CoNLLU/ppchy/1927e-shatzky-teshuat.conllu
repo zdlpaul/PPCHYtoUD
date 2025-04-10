@@ -1,0 +1,2790 @@
+# sent_id = 1927E-SHATZKY-TESHUAT,.1
+# X_ID = 1927E-SHATZKY-TESHUAT,12.3
+# text = 1 in der bibliotek fun hebrew union college in sinsineti gefint zikh a zeltn yidish bikhl vegn elilt-dm
+1	1	_	NUM	LS	_	11	dep	_	_
+2	in	_	ADP	P	_	4	case	_	_
+3	der	_	DET	D	PronType=Art	4	det	_	_
+4	bibliotek	_	NOUN	N-D	Definite=Def	11	obl	_	_
+5	fun	_	ADP	P	_	6	case	_	_
+6	hebrew	_	PROPN	NPR	_	4	obl	_	_
+7	union	_	PROPN	NPR	_	6	flat:name	_	_
+8	college	_	PROPN	NPR	_	6	dep	_	_
+9	in	_	ADP	P	_	10	case	_	_
+10	sinsineti	_	PROPN	NPR	_	6	obl	_	_
+11	gefint	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+12	zikh	_	PRON	PRO-RFL	PronType=Reflex	11	expl:pv	_	_
+13	a	_	DET	D-NOM	Case=Nom|PronType=Art	16	det	_	_
+14	zeltn	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	16	amod	_	_
+15	yidish	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	16	amod	_	_
+16	bikhl	_	NOUN	N-NOM	Case=Nom	11	nsubj	_	_
+17	vegn	_	ADP	P	_	18	case	_	_
+18	elilt-dm	_	NOUN	N	_	16	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.2
+# X_ID = 1927E-SHATZKY-TESHUAT,12.4
+# text = der fuler erster ser-blat fun dem bikhl leyent zikh azoy
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+2	fuler	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+3	erster	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	ser-blat	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+5	fun	_	ADP	P	_	7	case	_	_
+6	dem	_	DET	D	PronType=Art	7	det	_	_
+7	bikhl	_	NOUN	N-D	Definite=Def	4	obl	_	_
+8	leyent	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	zikh	_	PRON	PRO-RFL	PronType=Reflex	8	expl:pv	_	_
+10	azoy	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.3
+# X_ID = 1927E-SHATZKY-TESHUAT,12.5
+# text = dos bikhl basteyt fun drey bazundere teyln
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	bikhl	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	basteyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	fun	_	ADP	P	_	5	case	_	_
+5	drey	_	NUM	NUM	_	3	obl	_	_
+6	bazundere	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	teyln	_	NOUN	N	_	5	conj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.4
+# X_ID = 1927E-SHATZKY-TESHUAT,12.6
+# text = yede teyl hot an eygenem ser-blat
+1	yede	_	DET	Q-NOM	Case=Nom	2	det	_	_
+2	teyl	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+3	hot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	an	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+5	eygenem	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	ser-blat	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	3	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.5
+# X_ID = 1927E-SHATZKY-TESHUAT,12.7
+# text = nokh dem erstn algemeynem ser-blat folgn tsvey hkdmut eyne a hebreyaishe a klenere un di tsveyte a yidishe a gresere
+1	nokh	_	ADP	P	_	5	case	_	_
+2	dem	_	DET	D	PronType=Art	5	det	_	_
+3	erstn	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+4	algemeynem	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	ser-blat	_	NOUN	N-D	Definite=Def	6	obl	_	_
+6	folgn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+7	tsvey	_	NUM	NUM-NOM	Case=Nom	8	nummod	_	_
+8	hkdmut	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+9	eyne	_	PRON	PRO-NOM	Case=Nom	8	acl	_	_
+10	a	_	DET	D	PronType=Art	13	det	_	_
+11	hebreyaishe	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+12	a	_	DET	D	PronType=Art	13	det	_	_
+13	klenere	_	ADJ	ADJR	Degree=Pos	9	xcomp	_	_
+14	un	_	CCONJ	CONJ	_	16	cc	_	_
+15	di	_	DET	D-NOM	Case=Nom|PronType=Art	16	det	_	_
+16	tsveyte	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	9	acl	_	_
+17	a	_	DET	D	PronType=Art	20	det	_	_
+18	yidishe	_	ADJ	ADJ	Degree=Pos	20	amod	_	_
+19	a	_	DET	D	PronType=Art	20	det	_	_
+20	gresere	_	ADJ	ADJR	Degree=Pos	16	xcomp	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.6
+# X_ID = 1927E-SHATZKY-TESHUAT,12.8
+# text = zey farnemen finf nist_numerirte zeytlekh
+1	zey	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	farnemen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	finf	_	NUM	NUM-ACC	Case=Acc	5	nummod	_	_
+4	nist_numerirte	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	5	amod	_	_
+5	zeytlekh	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.7
+# X_ID = 1927E-SHATZKY-TESHUAT,12.9
+# text = di drey teyln fun dem bikhl zeynen oykh nist paginirt
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	drey	_	NUM	NUM-NOM	Case=Nom	3	nummod	_	_
+3	teyln	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	dem	_	DET	D	PronType=Art	6	det	_	_
+6	bikhl	_	NOUN	N-D	Definite=Def	3	obl	_	_
+7	zeynen	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+8	oykh	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+9	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+10	paginirt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.8
+# X_ID = 1927E-SHATZKY-TESHUAT,12.10
+# text = dos erste bikhele farnemt 12 bleter, dos tsveyte 21 bleter un dos drite 20 bleter 8o
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	erste	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	bikhele	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	farnemt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	12	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	bleter	_	NOUN	N-ACC	Case=Acc	4	obj	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	4	punct	_	_
+8	dos	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+9	tsveyte	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	conj	_	_
+10	21	_	NUM	NUM-ACC	Case=Acc	11	nummod	_	_
+11	bleter	_	NOUN	N-ACC	Case=Acc	9	obj	_	_
+12	un	_	CCONJ	CONJ	_	14	cc	_	_
+13	dos	_	DET	D-NOM	Case=Nom|PronType=Art	14	det	_	_
+14	drite	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	conj	_	_
+15	20	_	NUM	NUM-ACC	Case=Acc	16	nummod	_	_
+16	bleter	_	NOUN	N-ACC	Case=Acc	14	obj	_	_
+17	8o	_	X	X	_	16	dep	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.9
+# X_ID = 1927E-SHATZKY-TESHUAT,12.11
+# text = oyf dem ser-blat fun dem erstn bikhl gefint zikh folgndiker oyfshrift com:title_omitted
+1	oyf	_	ADP	P	_	3	case	_	_
+2	dem	_	DET	D	PronType=Art	3	det	_	_
+3	ser-blat	_	NOUN	N-D	Definite=Def	8	obl	_	_
+4	fun	_	ADP	P	_	7	case	_	_
+5	dem	_	DET	D	PronType=Art	7	det	_	_
+6	erstn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	bikhl	_	NOUN	N-D	Definite=Def	3	obl	_	_
+8	gefint	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	zikh	_	PRON	PRO-RFL	PronType=Reflex	8	expl:pv	_	_
+10	folgndiker	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	11	amod	_	_
+11	oyfshrift	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+12	com:title_omitted	_	NOUN	NP-PRN-TTL	_	11	dep	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.10
+# X_ID = 1927E-SHATZKY-TESHUAT,12.12
+# text = der tsveyter ser-blat trogt folgndikn oyfshrift com:title_omitted
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	tsveyter	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	ser-blat	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	trogt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	folgndikn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	oyfshrift	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	com:title_omitted	_	NOUN	NP-PRN-TTL	_	6	dep	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.11
+# X_ID = 1927E-SHATZKY-TESHUAT,13.14
+# text = ... dos letste bikhl heyst com:title_omitted
+1	...	_	PUNCT	PUNC	_	5	punct	_	_
+2	dos	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+3	letste	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	bikhl	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+5	heyst	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	com:title_omitted	_	NOUN	NP-SPR-TTL	_	5	dep	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.12
+# X_ID = 1927E-SHATZKY-TESHUAT,13.15
+# text = in skh-khkl hot dos interesante bikhl 56 bleter
+1	in	_	ADP	P	_	2	case	_	_
+2	skh-khkl	_	NOUN	N	_	3	obl	_	_
+3	hot	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	dos	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+5	interesante	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	6	amod	_	_
+6	bikhl	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+7	56	_	NUM	NUM-ACC	Case=Acc	8	nummod	_	_
+8	bleter	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.13
+# X_ID = 1927E-SHATZKY-TESHUAT,13.16
+# text = bis itst zeynen bakant fir ekzempliarn fun " tshuet isral ", a_khuts tsvey fragmentn
+1	bis	_	ADP	P	_	2	case	_	_
+2	itst	_	ADV	ADV	Degree=Pos	3	obl	_	_
+3	zeynen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	bakant	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	fir	_	NUM	NUM-NOM	Case=Nom	6	nummod	_	_
+6	ekzempliarn	_	NOUN	N-NOM	Case=Nom	3	nsubj	_	_
+7	fun	_	ADP	P	_	9	case	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	9	punct	_	_
+9	tshuet	salvation	X	H	_	6	obl	_	_
+10	isral	_	PROPN	NPR	_	9	flat:foreign	_	SpaceAfter=No
+11	"	_	PUNCT	PUNC	_	6	punct	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	6	punct	_	_
+13	a_khuts	_	ADP	P	_	14	case	_	_
+14	tsvey	_	NUM	NUM	_	6	obl	_	_
+15	fragmentn	_	NOUN	N	_	14	conj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.14
+# X_ID = 1927E-SHATZKY-TESHUAT,13.17
+# text = di_dozike ekzempliarn gefinen zikh 1 in der bresloyer stot-bibliotek 2 in britishn muzey 3 in der frankfurter stot_bibliotek un 4 in hebrew union college in sinsineti
+1	di_dozike	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	ekzempliarn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	3	nsubj	_	_
+3	gefinen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	3	expl:pv	_	_
+5	1	_	NUM	LS	_	3	dep	_	_
+6	in	_	ADP	P	_	9	case	_	_
+7	der	_	DET	D	PronType=Art	9	det	_	_
+8	bresloyer	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	stot-bibliotek	_	NOUN	N-D	Definite=Def	3	obl	_	_
+10	2	_	NUM	LS	_	9	dep	_	_
+11	in	_	ADP	P	_	13	case	_	_
+12	britishn	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	muzey	_	NOUN	N	_	9	conj	_	_
+14	3	_	NUM	LS	_	9	dep	_	_
+15	in	_	ADP	P	_	18	case	_	_
+16	der	_	DET	D	PronType=Art	18	det	_	_
+17	frankfurter	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
+18	stot_bibliotek	_	NOUN	N-D	Definite=Def	9	conj	_	_
+19	un	_	CCONJ	CONJ	_	22	cc	_	_
+20	4	_	NUM	LS	_	22	dep	_	_
+21	in	_	ADP	P	_	22	case	_	_
+22	hebrew	_	PROPN	NPR	_	9	conj	_	_
+23	union	_	PROPN	NPR	_	22	flat:name	_	_
+24	college	_	PROPN	NPR	_	22	dep	_	_
+25	in	_	ADP	P	_	26	case	_	_
+26	sinsineti	_	PROPN	NPR	_	22	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.15
+# X_ID = 1927E-SHATZKY-TESHUAT,13.18
+# text = di tsvey fragmentn gefinen zikh in der " rozentaliana " amsterdamer universitet un' in yidishn teologishn seminar in niu york %pro% stamt fun alkhnn arlers kolektsie
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	tsvey	_	NUM	NUM-NOM	Case=Nom	3	nummod	_	_
+3	fragmentn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+4	gefinen	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+6	in	_	ADP	P	_	12	case	_	_
+7	der	_	DET	D	PronType=Art	12	det	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	12	punct	_	_
+9	rozentaliana	_	PROPN	NPR	_	12	dep	_	SpaceAfter=No
+10	"	_	PUNCT	PUNC	_	12	punct	_	_
+11	amsterdamer	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	universitet	_	NOUN	N-D	Definite=Def	4	obl	_	_
+13	un'	_	CCONJ	CONJ	_	17	cc	_	_
+14	in	_	ADP	P	_	17	case	_	_
+15	yidishn	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+16	teologishn	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	seminar	_	NOUN	N	_	12	conj	_	_
+18	in	_	ADP	P	_	19	case	_	_
+19	niu	_	PROPN	NPR	_	17	obl	_	_
+20	york	_	PROPN	NPR	_	19	flat:name	_	_
+21	%pro%	_	NOUN	NP-SBJ	_	17	dep	_	_
+22	stamt	_	VERB	VBF	VerbForm=Fin	21	dep	_	_
+23	fun	_	ADP	P	_	24	case	_	_
+24	alkhnn	_	PROPN	NPR	_	21	obl	_	_
+25	arlers	_	NOUN	NPR$	_	24	dep	_	_
+26	kolektsie	_	NOUN	N	_	24	conj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.16
+# X_ID = 1927E-SHATZKY-TESHUAT,13.19
+# text = der gantser sfr vert oysfirlekh beshribn fun berlinern geven in zeyn bazits heynt in frankfurter stat_bibliotek un fun izidor leb
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	gantser	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	sfr	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+4	vert	_	AUX	RDF	VerbForm=Fin	6	aux	_	_
+5	oysfirlekh	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	beshribn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	berlinern	_	PROPN	NPR	_	6	obl	_	_
+9	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	8	xcomp	_	_
+10	in	_	ADP	P	_	12	case	_	_
+11	zeyn	_	PRON	PRO$	_	12	det:poss	_	_
+12	bazits	_	NOUN	N	_	9	obl	_	_
+13	heynt	_	ADV	ADV	Degree=Pos	16	advmod	_	_
+14	in	_	ADP	P	_	16	case	_	_
+15	frankfurter	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	stat_bibliotek	_	NOUN	N	_	8	xcomp	_	_
+17	un	_	CCONJ	CONJ	_	19	cc	_	_
+18	fun	_	ADP	P	_	19	case	_	_
+19	izidor	_	PROPN	NPR	_	8	conj	_	_
+20	leb	_	PROPN	NPR	_	19	flat:name	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.17
+# X_ID = 1927E-SHATZKY-TESHUAT,13.20
+# text = ven %t%-1 iz dershinen tshuet isral
+1	ven	_	ADV	WADV	Degree=Pos	4	advmod	_	_
+2	%t%-1	_	ADV	ADVP-TMP	AdvType=Tim|Degree=Pos	4	advmod	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	dershinen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	tshuet	salvation	X	H	_	4	dep	_	_
+6	isral	_	PROPN	NPR	_	5	flat:foreign	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.18
+# X_ID = 1927E-SHATZKY-TESHUAT,13.21
+# text = un ver %t%-1 iz der aroysgeber un iberzetser
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	ver	_	PRON	WPRO	_	4	obj	_	_
+3	%t%-1	_	NOUN	NP-PRD	_	4	xcomp	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	der	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	aroysgeber	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	iberzetser	_	NOUN	N	_	6	conj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.19
+# X_ID = 1927E-SHATZKY-TESHUAT,13.22
+# text = bn-yekb notirt in zeyn bibliografie az " tshuet isral bbtul elilt dm bl"a " iz dershinen in fiurda on a date
+1	bn-yekb	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	notirt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	in	_	ADP	P	_	5	case	_	_
+4	zeyn	_	PRON	PRO$	_	5	det:poss	_	_
+5	bibliografie	_	NOUN	N	_	2	obl	_	_
+6	az	_	SCONJ	C	_	16	mark	_	SpaceAfter=No
+7	"	_	PUNCT	PUNC	_	16	punct	_	_
+8	tshuet	salvation	X	H	_	9	dep	_	_
+9	isral	_	PROPN	NPR	_	16	nsubj	_	_
+10	bbtul	in_scorn	X	H	_	9	dep	_	_
+11	elilt	libel	X	H	_	9	dep	_	_
+12	dm	blood	X	H	_	9	dep	_	_
+13	bl"a	in_language_other	X	H	_	9	dep	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	16	punct	_	_
+15	iz	_	AUX	BEF	VerbForm=Fin	16	cop	_	_
+16	dershinen	_	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+17	in	_	ADP	P	_	18	case	_	_
+18	fiurda	_	PROPN	NPR	_	16	obl	_	_
+19	on	_	ADP	P	_	21	case	_	_
+20	a	_	DET	D	PronType=Art	21	det	_	_
+21	date	_	NOUN	N-I	Definite=Ind	16	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.20
+# X_ID = 1927E-SHATZKY-TESHUAT,13.23
+# text = tsedner git on dos yar 1740 mit a frage-tseykhn
+1	tsedner	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	git	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	on	_	ADP	RP	_	2	compound:prt	_	_
+4	dos	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	yar	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	2	obj	_	_
+6	1740	_	NUM	NUM-ACC	Case=Acc	5	nummod	_	_
+7	mit	_	ADP	P	_	9	case	_	_
+8	a	_	DET	D	PronType=Art	9	det	_	_
+9	frage-tseykhn	_	NOUN	N-I	Definite=Ind	2	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.21
+# X_ID = 1927E-SHATZKY-TESHUAT,13.24
+# text = steynshneyder nemt oykh on az dos bikhl iz aroys an erkh in yar 1740 .
+1	steynshneyder	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	nemt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	on	_	ADP	RP	_	2	compound:prt	_	_
+5	az	_	SCONJ	C	_	8	mark	_	_
+6	dos	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	bikhl	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	8	nsubj	_	_
+8	iz	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+9	aroys	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+10	an	_	ADP	P	_	8	obl	_	_
+11	erkh	_	NOUN	N	_	10	conj	_	_
+12	in	_	ADP	P	_	13	case	_	_
+13	yar	_	NOUN	N	_	8	obl	_	_
+14	1740	_	NUM	NUM	_	13	nummod	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.22
+# X_ID = 1927E-SHATZKY-TESHUAT,13.25
+# text = levensteyn hot ober bavizn az der druker fun " tsuet isral " hirsh un zeyn zun kheym hobn gearbet in fiurda in di yorn 1742-1745,
+1	levensteyn	_	NOUN	N-NOM	Case=Nom	4	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	ober	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	bavizn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	az	_	SCONJ	C	_	19	mark	_	_
+6	der	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	druker	_	NOUN	N-NOM	Case=Nom	19	nsubj	_	_
+8	fun	_	ADP	P	_	9	case	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	7	punct	_	_
+10	tsuet	salvation	X	H	_	9	dep	_	_
+11	isral	_	PROPN	NPR	_	9	dep	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	9	punct	_	_
+13	hirsh	_	PROPN	NPR	_	7	appos	_	_
+14	un	_	CCONJ	CONJ	_	16	cc	_	_
+15	zeyn	_	PRON	PRO$	_	16	det:poss	_	_
+16	zun	_	NOUN	N	_	13	conj	_	_
+17	kheym	_	PROPN	NPR	_	16	appos	_	_
+18	hobn	_	AUX	HVF	VerbForm=Fin	19	aux	_	_
+19	gearbet	_	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+20	in	_	ADP	P	_	21	case	_	_
+21	fiurda	_	PROPN	NPR	_	19	obl	_	_
+22	in	_	ADP	P	_	24	case	_	_
+23	di	_	DET	D	PronType=Art	24	det	_	_
+24	yorn	_	NOUN	N-D	Definite=Def	19	obl	_	_
+25	1742-1745	_	NOUN	N-D	Definite=Def	24	conj	_	SpaceAfter=No
+26	,	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.23
+# X_ID = 1927E-SHATZKY-TESHUAT,13.26
+# text = deriber darf men iberdrukn di date fun druk oyf yene yorn
+1	deriber	_	ADP	P	_	4	obl	_	_
+2	darf	_	AUX	MDF	VerbForm=Fin	4	aux	_	_
+3	men	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+4	iberdrukn	_	VERB	VB-PART	VerbForm=Inf	0	root	_	_
+5	di	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	date	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	druk	_	NOUN	N	_	6	obl	_	_
+9	oyf	_	ADP	P	_	11	case	_	_
+10	yene	_	DET	D	PronType=Art	11	det	_	_
+11	yorn	_	NOUN	N-D	Definite=Def	4	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.24
+# X_ID = 1927E-SHATZKY-TESHUAT,13.27
+# text = ver %t%-1 iz der iberzetser, dos veysn mir fun erstn ser-blat
+1	ver	_	PRON	WPRO	_	8	dep	_	_
+2	%t%-1	_	NOUN	NP-SBJ	_	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	1	conj	_	_
+4	der	_	DET	D	PronType=Art	5	det	_	_
+5	iberzetser	_	NOUN	N-D	Definite=Def	3	xcomp	_	SpaceAfter=No
+6	,	_	PUNCT	PUNC	_	8	punct	_	_
+7	dos	_	DET	D-ACC	Case=Acc|PronType=Art	8	obj	_	_
+8	veysn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+9	mir	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+10	fun	_	ADP	P	_	12	case	_	_
+11	erstn	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	ser-blat	_	NOUN	N	_	8	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.25
+# X_ID = 1927E-SHATZKY-TESHUAT,13.28
+# text = zeyn namen iz kheym
+1	zeyn	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	2	det:poss	_	_
+2	namen	_	NOUN	N	_	3	nsubj	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	kheym	_	PROPN	NPR	_	3	xcomp	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.26
+# X_ID = 1927E-SHATZKY-TESHUAT,13.29
+# text = un er stamt " mgze lublin " alzu a poylisher yid
+1	un	_	CCONJ	CONJ	_	3	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+3	stamt	_	VERB	VBF	VerbForm=Fin	0	root	_	SpaceAfter=No
+4	"	_	PUNCT	PUNC	_	3	punct	_	_
+5	mgze	from_stock	X	H	_	6	dep	_	_
+6	lublin	_	PROPN	NPR	_	3	obl	_	SpaceAfter=No
+7	"	_	PUNCT	PUNC	_	3	punct	_	_
+8	alzu	_	ADV	ADV	Degree=Pos	11	advmod	_	_
+9	a	_	DET	D	PronType=Art	11	det	_	_
+10	poylisher	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	yid	_	NOUN	N-I	Definite=Ind	3	xcomp	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.27
+# X_ID = 1927E-SHATZKY-TESHUAT,13.30
+# text = fun zeyn hkdmh dervisn mir zikh a@ @bisl mer eyntslheytn vegn im
+1	fun	_	ADP	P	_	3	case	_	_
+2	zeyn	_	PRON	PRO$	_	3	det:poss	_	_
+3	hkdmh	_	NOUN	N	_	4	obl	_	_
+4	dervisn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	mir	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+7	a@	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	@bisl	_	ADV	N-ACC-I	Case=Acc|Definite=Ind	10	advmod	_	_
+9	mer	_	DET	QR	_	8	det	_	_
+10	eyntslheytn	_	NOUN	N	_	4	obj	_	_
+11	vegn	_	ADP	P	_	12	case	_	_
+12	im	_	PRON	PRO	_	10	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.28
+# X_ID = 1927E-SHATZKY-TESHUAT,13.31
+# text = er iz geven zeyn gants lebn kl imi a groyser zoykhr
+1	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+3	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	zeyn	_	PRON	PRO$	_	6	det:poss	_	_
+5	gants	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	lebn	_	NOUN	N	_	3	obl	_	_
+7	kl	all	X	H	_	6	appos	_	_
+8	imi	days	X	H	_	7	dep	_	_
+9	a	_	DET	D	PronType=Art	11	det	_	_
+10	groyser	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	zoykhr	_	NOUN	N-I	Definite=Ind	3	xcomp	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.29
+# X_ID = 1927E-SHATZKY-TESHUAT,13.32
+# text = der enin fun elilt-dm interesirt in zeyer blutig veyl er iz a " gual hdm mn hkdusim bk"k tsuzmir den tsvisn di kdushim iz gevezn meyn fetir "
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	enin	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+3	fun	_	ADP	P	_	4	case	_	_
+4	elilt-dm	_	NOUN	N	_	2	obl	_	_
+5	interesirt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+6	in	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+7	zeyer	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+8	blutig	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+9	veyl	_	SCONJ	C	_	11	mark	_	_
+10	er	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+11	iz	_	VERB	VBF	VerbForm=Fin	5	advcl	_	_
+12	a	_	DET	D	PronType=Art	11	xcomp	_	SpaceAfter=No
+13	"	_	PUNCT	PUNC	_	12	punct	_	_
+14	gual	redeemer	X	H	_	12	dep	_	_
+15	hdm	the_blood	X	H	_	14	dep	_	_
+16	mn	from	X	H	_	14	dep	_	_
+17	hkdusim	the_holy_ones	X	H	_	14	dep	_	_
+18	bk"k	in_community_holy	X	H	_	14	dep	_	_
+19	tsuzmir	_	PROPN	NPR	_	14	dep	_	_
+20	den	_	CCONJ	CONJ	_	12	dep	_	_
+21	tsvisn	_	ADP	P	_	20	case	_	_
+22	di	_	DET	D	PronType=Art	20	det	_	_
+23	kdushim	_	NOUN	N-D	Definite=Def	20	dep	_	_
+24	iz	_	AUX	BEF	VerbForm=Fin	20	cop	_	_
+25	gevezn	_	VERB	VBN	Tense=Past|VerbForm=Part	20	dep	_	_
+26	meyn	_	PRON	PRO$	_	20	det:poss	_	_
+27	fetir	_	NOUN	N	_	20	dep	_	SpaceAfter=No
+28	"	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.30
+# X_ID = 1927E-SHATZKY-TESHUAT,13.33
+# text = iber dem tsuzmirer elilt-dm veln mir reydn speter
+1	iber	_	ADP	P	_	4	case	_	_
+2	dem	_	DET	D	PronType=Art	4	det	_	_
+3	tsuzmirer	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	elilt-dm	_	NOUN	N-D	Definite=Def	7	obl	_	_
+5	veln	_	AUX	MDF	VerbForm=Fin	7	aux	_	_
+6	mir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	reydn	_	VERB	VB	VerbForm=Inf	0	root	_	_
+8	speter	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.31
+# X_ID = 1927E-SHATZKY-TESHUAT,13.34
+# text = itst iz %exp% vikhtig festtsushteln az der aroysgeber un efshr oykh der iberzetser fun di drey italienishe dokumentn kegn elilt-dm iz spetsiel geforn keyn roym un %con% iz " hlbn ne vnd bmdint akhrim " gevezn kdi tsu bakumen di_dozike shriftn
+1	itst	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	%exp%	_	NOUN	NP-SBJ-1	_	2	nsubj	_	_
+4	vikhtig	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+5	festtsushteln	_	VERB	VB-PART	VerbForm=Inf	2	xcomp	_	_
+6	az	_	SCONJ	C	_	23	mark	_	_
+7	der	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	aroysgeber	_	NOUN	N-NOM	Case=Nom	23	nsubj	_	_
+9	un	_	CCONJ	CONJ	_	13	cc	_	_
+10	efshr	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+11	oykh	_	ADV	ADV	Degree=Pos	13	advmod	_	_
+12	der	_	DET	D	PronType=Art	13	det	_	_
+13	iberzetser	_	NOUN	N-D	Definite=Def	8	conj	_	_
+14	fun	_	ADP	P	_	16	case	_	_
+15	di	_	DET	D	PronType=Art	16	det	_	_
+16	drey	_	NUM	NUM-D	Definite=Def	8	obl	_	_
+17	italienishe	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+18	dokumentn	_	NOUN	N	_	16	conj	_	_
+19	kegn	_	ADP	P	_	20	case	_	_
+20	elilt-dm	_	NOUN	N	_	16	obl	_	_
+21	iz	_	AUX	BEF	VerbForm=Fin	23	cop	_	_
+22	spetsiel	_	ADV	ADV	Degree=Pos	23	advmod	_	_
+23	geforn	_	VERB	VBN	Tense=Past|VerbForm=Part	5	ccomp	_	_
+24	keyn	_	ADP	P	_	25	case	_	_
+25	roym	_	NOUN	N	_	23	obl	_	_
+26	un	_	CCONJ	CONJ	_	36	cc	_	_
+27	%con%	_	NOUN	NP-SBJ	_	36	nsubj	_	_
+28	iz	_	AUX	BEF	VerbForm=Fin	36	cop	_	SpaceAfter=No
+29	"	_	PUNCT	PUNC	_	36	punct	_	_
+30	hlbn	_	X	X	_	36	dep	_	_
+31	ne	move	X	H	_	36	dep	_	_
+32	vnd	and_wander	X	H	_	31	dep	_	_
+33	bmdint	in_countries	X	H	_	31	dep	_	_
+34	akhrim	UNKNOWN	X	H	_	31	dep	_	SpaceAfter=No
+35	"	_	PUNCT	PUNC	_	36	punct	_	_
+36	gevezn	_	VERB	VBN	Tense=Past|VerbForm=Part	23	conj	_	_
+37	kdi	_	ADV	ADV	Degree=Pos	36	advcl	_	_
+38	tsu	_	PART	TO	_	39	mark	_	_
+39	bakumen	_	VERB	VB	VerbForm=Inf	37	xcomp	_	_
+40	di_dozike	_	DET	D-ACC	Case=Acc|PronType=Art	41	det	_	_
+41	shriftn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	39	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.32
+# X_ID = 1927E-SHATZKY-TESHUAT,13.35
+# text = er baruft zikh oyf yidn velkhe %t%-1 hobn mit im gehandlt vos %t%-2 konen bastetikn az alts vos %t%-3 er zogt iz emes
+1	er	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	baruft	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	2	expl:pv	_	_
+4	oyf	_	ADP	P	_	5	case	_	_
+5	yidn	_	NOUN	N	_	2	obl	_	_
+6	velkhe	_	PRON	WPRO	_	11	obj	_	_
+7	%t%-1	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+8	hobn	_	AUX	HVF	VerbForm=Fin	11	aux	_	_
+9	mit	_	ADP	P	_	10	case	_	_
+10	im	_	PRON	PRO	_	11	obl	_	_
+11	gehandlt	_	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+12	vos	_	SCONJ	C	_	15	mark	_	_
+13	%t%-2	_	NOUN	NP-SBJ	_	15	nsubj	_	_
+14	konen	_	AUX	MDF	VerbForm=Fin	15	aux	_	_
+15	bastetikn	_	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+16	az	_	SCONJ	C	_	22	mark	_	_
+17	alts	_	DET	Q-NOM	Case=Nom	22	nsubj	_	_
+18	vos	_	SCONJ	C	_	21	mark	_	_
+19	%t%-3	_	NOUN	NP-ACC	_	21	dep	_	_
+20	er	_	PRON	PRO-NOM	Case=Nom	21	nsubj	_	_
+21	zogt	_	VERB	VBF	VerbForm=Fin	17	acl:relcl	_	_
+22	iz	_	VERB	VBF	VerbForm=Fin	15	ccomp	_	_
+23	emes	_	NOUN	N	_	22	xcomp	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.33
+# X_ID = 1927E-SHATZKY-TESHUAT,13.36
+# text = er iz geven in roym
+1	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+3	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	roym	_	NOUN	N	_	3	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.34
+# X_ID = 1927E-SHATZKY-TESHUAT,13.37
+# text = un %con% hot di bikhlekh oyfgezukht
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	di	_	DET	D-ACC	Case=Acc|PronType=Art	5	det	_	_
+5	bikhlekh	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	6	obj	_	_
+6	oyfgezukht	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.35
+# X_ID = 1927E-SHATZKY-TESHUAT,13.38
+# text = un %con% hot zey " mit groyzami mi un' kostn in " teytshin gebroykht
+1	un	_	CCONJ	CONJ	_	14	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	14	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+4	zey	_	PRON	PRO-ACC	Case=Acc	14	obj	_	SpaceAfter=No
+5	"	_	PUNCT	PUNC	_	14	punct	_	_
+6	mit	_	ADP	P	_	8	case	_	_
+7	groyzami	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	mi	_	NOUN	N	_	14	obl	_	_
+9	un'	_	CCONJ	CONJ	_	10	cc	_	_
+10	kostn	_	NOUN	N	_	8	conj	_	_
+11	in	_	ADP	P	_	13	case	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	13	punct	_	_
+13	teytshin	_	NOUN	N	_	14	obl	_	_
+14	gebroykht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.36
+# X_ID = 1927E-SHATZKY-TESHUAT,13.39
+# text = ale andere eninim veln dem lezer klar vern ven er vet iberleyenen di gantse hkdmh zeyne velkhe %t%-1 vert do ibergedrukt
+1	ale	_	DET	Q-NOM	Case=Nom	3	det	_	_
+2	andere	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	eninim	_	NOUN	N-NOM	Case=Nom	8	nsubj	_	_
+4	veln	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+5	dem	_	DET	D-DTV	Case=Dat|PronType=Art	6	det	_	_
+6	lezer	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	8	iobj	_	_
+7	klar	_	ADJ	ADJ	Degree=Pos	8	amod	_	_
+8	vern	_	VERB	VB	VerbForm=Inf	0	root	_	_
+9	ven	_	SCONJ	C	_	12	mark	_	_
+10	er	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+11	vet	_	AUX	MDF	VerbForm=Fin	12	aux	_	_
+12	iberleyenen	_	VERB	VB-PART	VerbForm=Inf	8	advcl	_	_
+13	di	_	DET	D-ACC	Case=Acc|PronType=Art	15	det	_	_
+14	gantse	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	15	amod	_	_
+15	hkdmh	_	NOUN	N-ACC	Case=Acc	12	obj	_	_
+16	zeyne	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	15	det:poss	_	_
+17	velkhe	_	PRON	WPRO	_	21	obj	_	_
+18	%t%-1	_	NOUN	NP-SBJ	_	21	nsubj	_	_
+19	vert	_	AUX	RDF	VerbForm=Fin	21	aux	_	_
+20	do	_	ADV	ADV	Degree=Pos	21	advmod	_	_
+21	ibergedrukt	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.37
+# X_ID = 1927E-SHATZKY-TESHUAT,13.40
+# text = itst iz %exp% vikhtik festtsushteln az mir hobn do tsu ton mit an interesantn poylishn yidn a soykhr un an energisher kll-mued velkher %t%-2 hot bakumen dos vos %t%-3 andere shlikhim fun poyln far im hot zikh nisht eyngegebn
+1	itst	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	%exp%	_	NOUN	NP-SBJ-1	_	2	nsubj	_	_
+4	vikhtik	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+5	festtsushteln	_	VERB	VB-PART	VerbForm=Inf	2	xcomp	_	_
+6	az	_	SCONJ	C	_	8	mark	_	_
+7	mir	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+8	hobn	_	VERB	VBF	VerbForm=Fin	5	ccomp	_	_
+9	do	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+10	tsu	_	PART	TO	_	11	mark	_	_
+11	ton	_	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+12	mit	_	ADP	P	_	16	case	_	_
+13	an	_	DET	D	PronType=Art	16	det	_	_
+14	interesantn	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+15	poylishn	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	yidn	_	NOUN	N	_	11	obl	_	_
+17	a	_	DET	D	PronType=Art	18	det	_	_
+18	soykhr	_	NOUN	N-I	Definite=Ind	16	appos	_	_
+19	un	_	CCONJ	CONJ	_	22	cc	_	_
+20	an	_	DET	D	PronType=Art	22	det	_	_
+21	energisher	_	ADJ	ADJ	Degree=Pos	22	amod	_	_
+22	kll-mued	_	NOUN	N-I	Definite=Ind	18	conj	_	_
+23	velkher	_	PRON	WPRO	_	26	obj	_	_
+24	%t%-2	_	NOUN	NP-SBJ	_	26	nsubj	_	_
+25	hot	_	AUX	HVF	VerbForm=Fin	26	aux	_	_
+26	bakumen	_	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+27	dos	_	DET	D-ACC	Case=Acc|PronType=Art	26	obj	_	_
+28	vos	_	SCONJ	C	_	39	mark	_	_
+29	%t%-3	_	NOUN	NP-SBJ	_	39	nsubj	_	_
+30	andere	_	ADJ	ADJ-DTV	Case=Dat|Degree=Pos	31	amod	_	_
+31	shlikhim	_	NOUN	N-DTV	Case=Dat	39	iobj	_	_
+32	fun	_	ADP	P	_	33	case	_	_
+33	poyln	_	PROPN	NPR	_	31	obl	_	_
+34	far	_	ADP	P	_	35	case	_	_
+35	im	_	PRON	PRO	_	31	obl	_	_
+36	hot	_	AUX	HVF	VerbForm=Fin	39	aux	_	_
+37	zikh	_	PRON	PRO-RFL	PronType=Reflex	39	expl:pv	_	_
+38	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	39	advmod	_	_
+39	eyngegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.38
+# X_ID = 1927E-SHATZKY-TESHUAT,13.41
+# text = er hot zikh bezargt mit khtimut fun farsheydene rbnim in italie un deytshland velkhe %t%-1 zoln bastetikn zeyne groyse anstrengungen in dem prt
+1	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	4	expl:pv	_	_
+4	bezargt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	mit	_	ADP	P	_	6	case	_	_
+6	khtimut	_	NOUN	N	_	4	obl	_	_
+7	fun	_	ADP	P	_	9	case	_	_
+8	farsheydene	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	rbnim	_	NOUN	N	_	6	obl	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	italie	_	PROPN	NPR	_	9	obl	_	_
+12	un	_	CCONJ	CONJ	_	13	cc	_	_
+13	deytshland	_	PROPN	NPR	_	11	conj	_	_
+14	velkhe	_	PRON	WPRO	_	17	obj	_	_
+15	%t%-1	_	NOUN	NP-SBJ	_	17	nsubj	_	_
+16	zoln	_	AUX	MDF	VerbForm=Fin	17	aux	_	_
+17	bastetikn	_	VERB	VB	VerbForm=Inf	9	acl:relcl	_	_
+18	zeyne	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	20	det:poss	_	_
+19	groyse	_	ADJ	ADJ	Degree=Pos	20	amod	_	_
+20	anstrengungen	_	NOUN	N	_	17	obj	_	_
+21	in	_	ADP	P	_	23	case	_	_
+22	dem	_	DET	D	PronType=Art	23	det	_	_
+23	prt	_	NOUN	N-D	Definite=Def	20	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.39
+# X_ID = 1927E-SHATZKY-TESHUAT,14.43
+# text = r' kheym " mgze alsikh " hot oykh gehat breh optsudruken dos sfrl " oyf andri lsunut "
+1	r'	_	PROPN	NPR-SBJ	_	9	nsubj	_	_
+2	kheym	_	PROPN	NPR	_	1	flat:name	_	SpaceAfter=No
+3	"	_	PUNCT	PUNC	_	1	punct	_	_
+4	mgze	from_stock	X	H	_	1	dep	_	_
+5	alsikh	_	PROPN	NPR	_	1	dep	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	1	punct	_	_
+7	hot	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+8	oykh	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+9	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	breh	_	NOUN	N-ACC	Case=Acc	9	obj	_	_
+11	optsudruken	_	VERB	VB-PART	VerbForm=Inf	10	xcomp	_	_
+12	dos	_	DET	D-ACC	Case=Acc|PronType=Art	13	det	_	_
+13	sfrl	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	11	obj	_	SpaceAfter=No
+14	"	_	PUNCT	PUNC	_	11	punct	_	_
+15	oyf	_	ADP	P	_	17	case	_	_
+16	andri	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	lsunut	_	NOUN	N	_	11	obl	_	SpaceAfter=No
+18	"	_	PUNCT	PUNC	_	9	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.40
+# X_ID = 1927E-SHATZKY-TESHUAT,14.44
+# text = dos meynt az er hot efshr gehot breh dos_dozike verkl aroysgebn oyf poylish kdi di " sliakhte " zal zikh ibertseygn az di blut-bashuldikung iz a grundloze vi %t%-1 es bastetikn di_dozike dokumentn
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	meynt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	az	_	SCONJ	C	_	7	mark	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+5	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+6	efshr	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	gehot	_	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	breh	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+9	dos_dozike	_	DET	D-ACC	Case=Acc|PronType=Art	11	dep	_	_
+10	verkl	_	NOUN	N-ACC	Case=Acc	9	conj	_	_
+11	aroysgebn	_	VERB	VB-PART	VerbForm=Inf	8	xcomp	_	_
+12	oyf	_	ADP	P	_	13	case	_	_
+13	poylish	_	NOUN	N	_	11	obl	_	_
+14	kdi	_	ADV	ADV	Degree=Pos	21	advmod	_	_
+15	di	_	DET	D-NOM	Case=Nom|PronType=Art	17	det	_	SpaceAfter=No
+16	"	_	PUNCT	PUNC	_	17	punct	_	_
+17	sliakhte	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	21	nsubj	_	SpaceAfter=No
+18	"	_	PUNCT	PUNC	_	17	punct	_	_
+19	zal	_	AUX	MDF	VerbForm=Fin	21	aux	_	_
+20	zikh	_	PRON	PRO-RFL	PronType=Reflex	21	expl:pv	_	_
+21	ibertseygn	_	VERB	VB-PART	VerbForm=Inf	7	advcl	_	_
+22	az	_	SCONJ	C	_	25	mark	_	_
+23	di	_	DET	D-NOM	Case=Nom|PronType=Art	24	det	_	_
+24	blut-bashuldikung	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	25	nsubj	_	_
+25	iz	_	VERB	VBF	VerbForm=Fin	21	ccomp	_	_
+26	a	_	DET	D	PronType=Art	27	det	_	_
+27	grundloze	_	ADJ	ADJ	Degree=Pos	25	xcomp	_	_
+28	vi	_	ADV	WADV	Degree=Pos	31	advmod	_	_
+29	%t%-1	_	ADV	ADVP	Degree=Pos	31	advmod	_	_
+30	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	31	expl	_	_
+31	bastetikn	_	VERB	VBF	VerbForm=Fin	25	advcl	_	_
+32	di_dozike	_	DET	D-NOM	Case=Nom|PronType=Art	33	det	_	_
+33	dokumentn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	31	nsubj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.41
+# X_ID = 1927E-SHATZKY-TESHUAT,14.45
+# text = mer ydieut vegn dem kheym " mzge alshikh " farmogn mir nisht
+1	mer	_	DET	QR	_	10	dep	_	_
+2	ydieut	_	NOUN	N	_	1	conj	_	_
+3	vegn	_	ADP	P	_	5	case	_	_
+4	dem	_	DET	D	PronType=Art	5	det	_	_
+5	kheym	_	PROPN	NPR-D	_	1	obl	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	5	punct	_	_
+7	mzge	UNKNOWN	X	H	_	5	dep	_	_
+8	alshikh	_	PROPN	NPR-D	_	5	dep	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	5	punct	_	_
+10	farmogn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+11	mir	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+12	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.42
+# X_ID = 1927E-SHATZKY-TESHUAT,14.46
+# text = in der rsimh fun lubliner rbnim un tlmidi_khkhmim vert zeyn nomen nist dermont
+1	in	_	ADP	P	_	3	case	_	_
+2	der	_	DET	D	PronType=Art	3	det	_	_
+3	rsimh	_	NOUN	N-D	Definite=Def	13	obl	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	lubliner	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	rbnim	_	NOUN	N	_	3	obl	_	_
+7	un	_	CCONJ	CONJ	_	8	cc	_	_
+8	tlmidi_khkhmim	_	NOUN	N	_	6	conj	_	_
+9	vert	_	AUX	RDF	VerbForm=Fin	13	aux	_	_
+10	zeyn	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	11	det:poss	_	_
+11	nomen	_	NOUN	N	_	13	nsubj	_	_
+12	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	13	advmod	_	_
+13	dermont	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.43
+# X_ID = 1927E-SHATZKY-TESHUAT,14.47
+# text = tsi stamt er fun dem barimten r' mskh bn kheym alsikh fun tspt dem mkhbr fun pirus tsum khums velkher %t%-1 hot gelebt in 16tn yorhundert iz oykh nisht bakant
+1	tsi	_	SCONJ	C	_	2	mark	_	_
+2	stamt	_	VERB	VBF	VerbForm=Fin	27	nsubj	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	fun	_	ADP	P	_	7	case	_	_
+5	dem	_	DET	D	PronType=Art	7	det	_	_
+6	barimten	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	r'	_	PROPN	NPR	_	2	obl	_	_
+8	mskh	_	PROPN	NPR	_	7	flat:name	_	_
+9	bn	_	PROPN	NPR	_	7	dep	_	_
+10	kheym	_	PROPN	NPR	_	7	dep	_	_
+11	alsikh	_	PROPN	NPR	_	7	dep	_	_
+12	fun	_	ADP	P	_	13	case	_	_
+13	tspt	_	PROPN	NPR	_	7	obl	_	_
+14	dem	_	DET	D	PronType=Art	15	det	_	_
+15	mkhbr	_	NOUN	N-D	Definite=Def	7	appos	_	_
+16	fun	_	ADP	P	_	17	case	_	_
+17	pirus	_	PROPN	NPR	_	15	obl	_	_
+18	tsum	_	PROPN	NPR	_	17	flat:name	_	_
+19	khums	_	PROPN	NPR	_	17	dep	_	_
+20	velkher	_	PRON	WPRO	_	23	obj	_	_
+21	%t%-1	_	NOUN	NP-SBJ	_	23	nsubj	_	_
+22	hot	_	AUX	HVF	VerbForm=Fin	23	aux	_	_
+23	gelebt	_	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+24	in	_	ADP	P	_	26	case	_	_
+25	16tn	_	ADJ	ADJ	Degree=Pos	26	amod	_	_
+26	yorhundert	_	NOUN	N	_	23	obl	_	_
+27	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+28	oykh	_	ADV	ADV	Degree=Pos	27	advmod	_	_
+29	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	27	advmod	_	_
+30	bakant	_	ADJ	ADJ	Degree=Pos	27	amod	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.44
+# X_ID = 1927E-SHATZKY-TESHUAT,14.48
+# text = %exp% veyzt oys, az oyser dem ihus mit a feter a kdus fun tsuzmir un mit zeyn guter kunh aroystsugebn di_dozike apologetishe shriftn oyf yidish hot er zikh nisht gehat mit vos %t%-3 %ich%-2 oystsutseykhenen
+1	%exp%	_	NOUN	NP-SBJ-1	_	2	nsubj	_	_
+2	veyzt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	oys	_	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
+4	,	_	PUNCT	PUNC	_	2	punct	_	_
+5	az	_	SCONJ	C	_	31	mark	_	_
+6	oyser	_	ADP	P	_	8	case	_	_
+7	dem	_	DET	D	PronType=Art	8	det	_	_
+8	ihus	_	NOUN	N-D	Definite=Def	31	obl	_	_
+9	mit	_	ADP	P	_	11	case	_	_
+10	a	_	DET	D	PronType=Art	11	det	_	_
+11	feter	_	NOUN	N-I	Definite=Ind	8	obl	_	_
+12	a	_	DET	D	PronType=Art	13	det	_	_
+13	kdus	_	NOUN	N-I	Definite=Ind	11	appos	_	_
+14	fun	_	ADP	P	_	15	case	_	_
+15	tsuzmir	_	PROPN	NPR	_	11	obl	_	_
+16	un	_	CCONJ	CONJ	_	20	cc	_	_
+17	mit	_	ADP	P	_	20	case	_	_
+18	zeyn	_	PRON	PRO$	_	20	det:poss	_	_
+19	guter	_	ADJ	ADJ	Degree=Pos	20	amod	_	_
+20	kunh	_	NOUN	N	_	11	conj	_	_
+21	aroystsugebn	_	VERB	VB-PART	VerbForm=Inf	20	xcomp	_	_
+22	di_dozike	_	DET	D-ACC	Case=Acc|PronType=Art	24	det	_	_
+23	apologetishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	24	amod	_	_
+24	shriftn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	21	obj	_	_
+25	oyf	_	ADP	P	_	26	case	_	_
+26	yidish	_	NOUN	N	_	21	obl	_	_
+27	hot	_	AUX	HVF	VerbForm=Fin	31	aux	_	_
+28	er	_	PRON	PRO-NOM	Case=Nom	31	nsubj	_	_
+29	zikh	_	PRON	PRO	_	31	obl	_	_
+30	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	31	advmod	_	_
+31	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+32	mit	_	ADP	P	_	33	case	_	_
+33	vos	_	PRON	WPRO	_	31	dep	_	_
+34	%t%-3	_	ADP	PP	_	36	obl	_	_
+35	%ich%-2	_	NOUN	NP-RFL	_	36	expl:pv	_	_
+36	oystsutseykhenen	_	VERB	VB-PART	VerbForm=Inf	33	xcomp	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.45
+# X_ID = 1927E-SHATZKY-TESHUAT,14.49
+# text = derfar shveygn vegn im ale entsiklopedies un biografishe leksikoner
+1	derfar	_	ADP	P	_	2	obl	_	_
+2	shveygn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	vegn	_	ADP	P	_	4	case	_	_
+4	im	_	PRON	PRO	_	2	obl	_	_
+5	ale	_	DET	Q-NOM	Case=Nom	6	det	_	_
+6	entsiklopedies	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+7	un	_	CCONJ	CONJ	_	9	cc	_	_
+8	biografishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	9	amod	_	_
+9	leksikoner	_	NOUN	N-NOM	Case=Nom	6	conj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.46
+# X_ID = 1927E-SHATZKY-TESHUAT,14.50
+# text = derfar vert er azu zeyn " gze " nist dermont afilu in der geshikhte fun di yidn in lublin
+1	derfar	_	ADP	P	_	10	obl	_	_
+2	vert	_	AUX	RDF	VerbForm=Fin	10	aux	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+4	azu	_	CCONJ	CONJ	_	7	cc	_	_
+5	zeyn	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	7	det:poss	_	SpaceAfter=No
+6	"	_	PUNCT	PUNC	_	7	punct	_	_
+7	gze	_	NOUN	N	_	3	conj	_	SpaceAfter=No
+8	"	_	PUNCT	PUNC	_	7	punct	_	_
+9	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+10	dermont	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+11	afilu	_	ADV	FP	Degree=Pos	14	advmod	_	_
+12	in	_	ADP	P	_	14	case	_	_
+13	der	_	DET	D	PronType=Art	14	det	_	_
+14	geshikhte	_	NOUN	N-D	Definite=Def	10	obl	_	_
+15	fun	_	ADP	P	_	17	case	_	_
+16	di	_	DET	D	PronType=Art	17	det	_	_
+17	yidn	_	NOUN	N-D	Definite=Def	14	obl	_	_
+18	in	_	ADP	P	_	19	case	_	_
+19	lublin	_	PROPN	NPR	_	17	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.47
+# X_ID = 1927E-SHATZKY-TESHUAT,14.51
+# text = 2 in zkhut fun zeyn feter a krbn fun a blut_bashuldikung in tsuzmir hot r' kheym gashlosn aroystsugebn di_dozike vikhtike dokumentn kegn dem blbul velkhe %t%-1 hobn gehot a sheykhut mit a gevaunenem protses in a kleyn italienish stot viterbo
+1	2	_	NUM	LS	_	17	dep	_	_
+2	in	_	ADP	P	_	3	case	_	_
+3	zkhut	_	NOUN	N	_	17	obl	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	zeyn	_	PRON	PRO$	_	6	det:poss	_	_
+6	feter	_	NOUN	N	_	3	obl	_	_
+7	a	_	DET	D	PronType=Art	8	det	_	_
+8	krbn	_	NOUN	N-I	Definite=Ind	6	appos	_	_
+9	fun	_	ADP	P	_	11	case	_	_
+10	a	_	DET	D	PronType=Art	11	det	_	_
+11	blut_bashuldikung	_	NOUN	N-I	Definite=Ind	8	obl	_	_
+12	in	_	ADP	P	_	13	case	_	_
+13	tsuzmir	_	PROPN	NPR	_	11	obl	_	_
+14	hot	_	AUX	HVF	VerbForm=Fin	17	aux	_	_
+15	r'	_	PROPN	NPR-SBJ	_	17	nsubj	_	_
+16	kheym	_	PROPN	NPR	_	15	flat:name	_	_
+17	gashlosn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+18	aroystsugebn	_	VERB	VB-PART	VerbForm=Inf	17	xcomp	_	_
+19	di_dozike	_	DET	D-ACC	Case=Acc|PronType=Art	21	det	_	_
+20	vikhtike	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	21	amod	_	_
+21	dokumentn	_	NOUN	N-ACC	Case=Acc	18	obj	_	_
+22	kegn	_	ADP	P	_	24	case	_	_
+23	dem	_	DET	D	PronType=Art	24	det	_	_
+24	blbul	_	NOUN	N-D	Definite=Def	21	obl	_	_
+25	velkhe	_	PRON	WPRO	_	28	obj	_	_
+26	%t%-1	_	NOUN	NP-SBJ	_	28	nsubj	_	_
+27	hobn	_	AUX	HVF	VerbForm=Fin	28	aux	_	_
+28	gehot	_	VERB	VBN	Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+29	a	_	DET	D-ACC	Case=Acc|PronType=Art	30	det	_	_
+30	sheykhut	_	NOUN	N-ACC	Case=Acc	28	obj	_	_
+31	mit	_	ADP	P	_	34	case	_	_
+32	a	_	DET	D	PronType=Art	34	det	_	_
+33	gevaunenem	_	ADJ	ADJ	Degree=Pos	34	amod	_	_
+34	protses	_	NOUN	N-I	Definite=Ind	30	obl	_	_
+35	in	_	ADP	P	_	39	case	_	_
+36	a	_	DET	D	PronType=Art	39	det	_	_
+37	kleyn	_	ADJ	ADJ	Degree=Pos	39	amod	_	_
+38	italienish	_	ADJ	ADJ	Degree=Pos	39	amod	_	_
+39	stot	_	NOUN	N	_	30	obl	_	_
+40	viterbo	_	PROPN	NPR	_	39	appos	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.48
+# X_ID = 1927E-SHATZKY-TESHUAT,14.52
+# text = tsuzmir oder oyf poylish com:name_omitted hot gehat a_sakh %t%-1 oystsusteyn fun blut-blbulim
+1	tsuzmir	_	PROPN	NPR	_	7	nsubj	_	_
+2	oder	_	CCONJ	CONJ	_	5	cc	_	_
+3	oyf	_	ADP	P	_	4	case	_	_
+4	poylish	_	NOUN	N	_	5	obl	_	_
+5	com:name_omitted	_	NOUN	NP	_	1	conj	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+7	gehat	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	a_sakh	_	DET	Q-ACC	Case=Acc	7	obj	_	_
+9	%t%-1	_	NOUN	NP-ACC	_	10	dep	_	_
+10	oystsusteyn	_	VERB	VB-PART	VerbForm=Inf	8	xcomp	_	_
+11	fun	_	ADP	P	_	12	case	_	_
+12	blut-blbulim	_	NOUN	N	_	8	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.49
+# X_ID = 1927E-SHATZKY-TESHUAT,14.53
+# text = in yor 1698 hot men dort bashuldikt di yidn in hrgenen a par kristlekhe kinder
+1	in	_	ADP	P	_	2	case	_	_
+2	yor	_	NOUN	N	_	7	obl	_	_
+3	1698	_	NUM	NUM	_	2	nummod	_	_
+4	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+5	men	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+6	dort	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	bashuldikt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	di	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+9	yidn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	7	obj	_	_
+10	in	_	ADP	P	_	11	case	_	_
+11	hrgenen	_	VERB	VB	VerbForm=Inf	7	obl	_	_
+12	a	_	ADV	D-ACC	Case=Acc|PronType=Art	15	advmod	_	_
+13	par	_	DET	Q-ACC	Case=Acc	12	det	_	_
+14	kristlekhe	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	kinder	_	NOUN	N	_	11	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.50
+# X_ID = 1927E-SHATZKY-TESHUAT,14.54
+# text = mit vos %t%-1 hot zikh demolst der protses geendikt un tsi iz %exp% bkll gekumen tsu a protses deriber shveygn di kveln
+1	mit	_	ADP	P	_	2	case	_	_
+2	vos	_	PRON	WPRO	_	9	obl	_	_
+3	%t%-1	_	ADP	PP	_	9	obl	_	_
+4	hot	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	9	expl:pv	_	_
+6	demolst	_	ADV	ADV	Degree=Pos	9	advmod	_	_
+7	der	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	protses	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	9	nsubj	_	_
+9	geendikt	_	VERB	VBN	Tense=Past|VerbForm=Part	20	obl	_	_
+10	un	_	CCONJ	CONJ	_	15	cc	_	_
+11	tsi	_	SCONJ	C	_	15	mark	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	15	cop	_	_
+13	%exp%	_	NOUN	NP-SBJ	_	15	nsubj	_	_
+14	bkll	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+15	gekumen	_	VERB	VBN	Tense=Past|VerbForm=Part	9	conj	_	_
+16	tsu	_	ADP	P	_	18	case	_	_
+17	a	_	DET	D	PronType=Art	18	det	_	_
+18	protses	_	NOUN	N-I	Definite=Ind	15	obl	_	_
+19	deriber	_	ADP	P	_	20	obl	_	_
+20	shveygn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+21	di	_	DET	D-NOM	Case=Nom|PronType=Art	22	det	_	_
+22	kveln	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	20	nsubj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.51
+# X_ID = 1927E-SHATZKY-TESHUAT,14.55
+# text = a groysn rusm hot ober gemakht der tsveyter blut-blbul un der protses fun yor 1710 .
+1	a	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+2	groysn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	3	amod	_	_
+3	rusm	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	6	obj	_	_
+4	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+5	ober	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	gemakht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	der	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+8	tsveyter	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	9	amod	_	_
+9	blut-blbul	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+10	un	_	CCONJ	CONJ	_	12	cc	_	_
+11	der	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+12	protses	_	NOUN	N-NOM	Case=Nom	9	conj	_	_
+13	fun	_	ADP	P	_	14	case	_	_
+14	yor	_	NOUN	N	_	12	obl	_	_
+15	1710	_	NUM	NUM	_	14	nummod	_	SpaceAfter=No
+16	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.52
+# X_ID = 1927E-SHATZKY-TESHUAT,14.56
+# text = dem 18tn oygust 1710 iz in tsuzmir farfaln gevorn a kristlekh kind
+1	dem	_	DET	D	PronType=Art	4	det	_	_
+2	18tn	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+3	oygust	_	PROPN	NPR	_	4	dep	_	_
+4	1710	_	NUM	NUM-D	Definite=Def	9	obl	_	_
+5	iz	_	AUX	BEF	VerbForm=Fin	9	cop	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	tsuzmir	_	PROPN	NPR	_	9	obl	_	_
+8	farfaln	_	VERB	VX	_	9	dep	_	_
+9	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	0	root	_	_
+10	a	_	DET	D-NOM	Case=Nom|PronType=Art	12	det	_	_
+11	kristlekh	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	12	amod	_	_
+12	kind	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	9	nsubj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.53
+# X_ID = 1927E-SHATZKY-TESHUAT,14.57
+# text = di kristlekhe birger velkhe %t%-1 hobn zikh shoyn fun lang mskhdl geven beym kinig az men zal aroys@ %ich%-2 @treybn di yidishe soykhrim fun stot hobn inttsegirt a protses mit a pogrom
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	kristlekhe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	birger	_	NOUN	N-NOM	Case=Nom	27	nsubj	_	_
+4	velkhe	_	PRON	WPRO	_	12	obj	_	_
+5	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+6	hobn	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+7	zikh	_	PRON	PRO-RFL	PronType=Reflex	12	expl:pv	_	_
+8	shoyn	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+9	fun	_	ADP	P	_	10	case	_	_
+10	lang	_	ADV	ADV	Degree=Pos	12	obl	_	_
+11	mskhdl	_	ADP	RP-H	_	12	compound:prt	_	_
+12	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+13	beym	_	ADP	P-CL	_	14	case	_	_
+14	kinig	_	NOUN	N	_	12	obl	_	_
+15	az	_	SCONJ	C	_	20	mark	_	_
+16	men	_	PRON	PRO-NOM	Case=Nom	20	nsubj	_	_
+17	zal	_	AUX	MDF	VerbForm=Fin	20	aux	_	_
+18	aroys@	_	ADV	ADV	Degree=Pos	20	advmod	_	_
+19	%ich%-2	_	ADP	PP	_	18	obl	_	_
+20	@treybn	_	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+21	di	_	DET	D-ACC	Case=Acc|PronType=Art	23	det	_	_
+22	yidishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	23	amod	_	_
+23	soykhrim	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	20	obj	_	_
+24	fun	_	ADP	P	_	25	case	_	_
+25	stot	_	NOUN	N	_	20	obl	_	_
+26	hobn	_	AUX	HVF	VerbForm=Fin	27	aux	_	_
+27	inttsegirt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+28	a	_	DET	D-ACC	Case=Acc|PronType=Art	29	det	_	_
+29	protses	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	27	obj	_	_
+30	mit	_	ADP	P	_	32	case	_	_
+31	a	_	DET	D	PronType=Art	32	det	_	_
+32	pogrom	_	NOUN	N-I	Definite=Ind	27	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.54
+# X_ID = 1927E-SHATZKY-TESHUAT,14.58
+# text = zey hobn gefunen a gutn anreytser in der perzon fun glkh zhukhovski velkher %t%-1 hot afilu aroysgegebn an interesant antisemitish bikhl vegn dem blutrstn mard fun yor 1698 .
+1	zey	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	hobn	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+3	gefunen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+5	gutn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	6	amod	_	_
+6	anreytser	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	3	obj	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	der	_	DET	D	PronType=Art	9	det	_	_
+9	perzon	_	NOUN	N-D	Definite=Def	3	obl	_	_
+10	fun	_	ADP	P	_	11	case	_	_
+11	glkh	_	NOUN	N	_	9	obl	_	_
+12	zhukhovski	_	PROPN	NPR	_	11	dep	_	_
+13	velkher	_	PRON	WPRO	_	17	obj	_	_
+14	%t%-1	_	NOUN	NP-SBJ	_	17	nsubj	_	_
+15	hot	_	AUX	HVF	VerbForm=Fin	17	aux	_	_
+16	afilu	_	ADV	FP	Degree=Pos	17	advmod	_	_
+17	aroysgegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+18	an	_	DET	D-ACC	Case=Acc|PronType=Art	21	det	_	_
+19	interesant	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	21	amod	_	_
+20	antisemitish	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	21	amod	_	_
+21	bikhl	_	NOUN	N-ACC	Case=Acc	17	obj	_	_
+22	vegn	_	ADP	P	_	25	case	_	_
+23	dem	_	DET	D	PronType=Art	25	det	_	_
+24	blutrstn	_	ADJ	ADJ	Degree=Pos	25	amod	_	_
+25	mard	_	NOUN	N	_	21	obl	_	_
+26	fun	_	ADP	P	_	27	case	_	_
+27	yor	_	NOUN	N	_	25	obl	_	_
+28	1698	_	NUM	NUM	_	27	nummod	_	SpaceAfter=No
+29	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.55
+# X_ID = 1927E-SHATZKY-TESHUAT,14.59
+# text = zhukhovski hot ongefirt mit der gantser aktsie
+1	zhukhovski	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+3	ongefirt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+4	mit	_	ADP	P	_	7	case	_	_
+5	der	_	DET	D	PronType=Art	7	det	_	_
+6	gantser	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	aktsie	_	NOUN	N-D	Definite=Def	3	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.56
+# X_ID = 1927E-SHATZKY-TESHUAT,14.60
+# text = er hot spetsiel aropgebrakht a msumd mitn namen yaz merapimovits velkher %t%-1 hot zikh ongegebn far a gevezenem rb fun brisk
+1	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	spetsiel	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	aropgebrakht	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+5	a	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	msumd	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	mitn	_	ADP	P-CL	_	8	case	_	_
+8	namen	_	NOUN	N	_	6	obl	_	_
+9	yaz	_	NOUN	N	_	8	appos	_	_
+10	merapimovits	_	NOUN	N	_	9	conj	_	_
+11	velkher	_	PRON	WPRO	_	15	obj	_	_
+12	%t%-1	_	NOUN	NP-SBJ	_	15	nsubj	_	_
+13	hot	_	AUX	HVF	VerbForm=Fin	15	aux	_	_
+14	zikh	_	PRON	PRO-RFL	PronType=Reflex	15	expl:pv	_	_
+15	ongegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+16	far	_	ADP	P	_	19	case	_	_
+17	a	_	DET	D	PronType=Art	19	det	_	_
+18	gevezenem	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+19	rb	_	NOUN	N	_	15	obl	_	_
+20	fun	_	ADP	P	_	21	case	_	_
+21	brisk	_	PROPN	NPR	_	19	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.57
+# X_ID = 1927E-SHATZKY-TESHUAT,14.61
+# text = der_doziker serafimovits iz gekumen tsu farn keyn tsuzmir als an ekspert
+1	der_doziker	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	serafimovits	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	gekumen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	tsu	_	PART	TO	_	6	mark	_	_
+6	farn	_	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	keyn	_	ADP	P	_	8	case	_	_
+8	tsuzmir	_	PROPN	NPR	_	6	obl	_	_
+9	als	_	ADP	P	_	11	case	_	_
+10	an	_	DET	D	PronType=Art	11	det	_	_
+11	ekspert	_	NOUN	N-I	Definite=Ind	6	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.58
+# X_ID = 1927E-SHATZKY-TESHUAT,14.62
+# text = oyfn protses hot er geredt psut yidsh veyl er hot keyn ander sprakh nisht gekent .
+1	oyfn	_	ADP	P-CL	_	2	case	_	_
+2	protses	_	NOUN	N	_	5	obl	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	geredt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	psut	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	yidsh	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+8	veyl	_	SCONJ	C	_	15	mark	_	_
+9	er	_	PRON	PRO-NOM	Case=Nom	15	nsubj	_	_
+10	hot	_	AUX	HVF	VerbForm=Fin	15	aux	_	_
+11	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	13	det	_	_
+12	ander	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	13	amod	_	_
+13	sprakh	_	NOUN	N-ACC	Case=Acc	15	obj	_	_
+14	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	15	advmod	_	_
+15	gekent	_	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
+16	.	_	PUNCT	PUNC	_	15	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.59
+# X_ID = 1927E-SHATZKY-TESHUAT,14.63
+# text = a tsveyter msumd tazsevski hot beshtetikt az der klumrster rb serapimovits farsteyt nisht keyn hebreyish
+1	a	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	tsveyter	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	msumd	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+4	tazsevski	_	PROPN	NPR-I	_	3	dep	_	_
+5	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+6	beshtetikt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	az	_	SCONJ	C	_	12	mark	_	_
+8	der	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+9	klumrster	_	ADJ	ADJS-NOM	Case=Nom|Degree=Pos	10	amod	_	_
+10	rb	_	PROPN	NPR-D	_	12	nsubj	_	_
+11	serapimovits	_	PROPN	NPR-D	_	10	flat:name	_	_
+12	farsteyt	_	VERB	VBF	VerbForm=Fin	6	ccomp	_	_
+13	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	12	advmod	_	_
+14	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	15	det	_	_
+15	hebreyish	_	NOUN	N-ACC	Case=Acc	12	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.60
+# X_ID = 1927E-SHATZKY-TESHUAT,14.64
+# text = keyn lateyn un keyn poylish hot er oykh nist gekant
+1	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	2	det	_	_
+2	lateyn	_	NOUN	N-ACC	Case=Acc	10	obj	_	_
+3	un	_	CCONJ	CONJ	_	5	cc	_	_
+4	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	5	det	_	_
+5	poylish	_	NOUN	N-ACC	Case=Acc	2	conj	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+7	er	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+8	oykh	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+9	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	10	advmod	_	_
+10	gekant	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.61
+# X_ID = 1927E-SHATZKY-TESHUAT,14.65
+# text = stitsndik zikh oyf serafimovitses ekspertize hot der glkh zhukovski gevirkt oyf dem kinig oygust dem 2tn az men zal onerkenen di yidn far shuldig un aroys@ %ich%-2 @treybn zey fun tsuzmir
+1	stitsndik	_	VERB	VAG	Tense=Pres|VerbForm=Part	10	advcl	_	_
+2	zikh	_	PRON	PRO-RFL	PronType=Reflex	1	expl:pv	_	_
+3	oyf	_	ADP	P	_	4	case	_	_
+4	serafimovitses	_	NOUN	NPR$	_	1	obl	_	_
+5	ekspertize	_	NOUN	N	_	4	conj	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+7	der	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	glkh	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+9	zhukovski	_	PROPN	NPR-D	_	8	dep	_	_
+10	gevirkt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	oyf	_	ADP	P	_	13	case	_	_
+12	dem	_	DET	D	PronType=Art	13	det	_	_
+13	kinig	_	NOUN	N-D	Definite=Def	10	obl	_	_
+14	oygust	_	PROPN	NPR	_	13	dep	_	_
+15	dem	_	DET	D	PronType=Art	13	appos	_	_
+16	2tn	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+17	az	_	SCONJ	C	_	20	mark	_	_
+18	men	_	PRON	PRO-NOM	Case=Nom	20	nsubj	_	_
+19	zal	_	AUX	MDF	VerbForm=Fin	20	aux	_	_
+20	onerkenen	_	VERB	VB-PART	VerbForm=Inf	10	advcl	_	_
+21	di	_	DET	D-ACC	Case=Acc|PronType=Art	22	det	_	_
+22	yidn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	20	obj	_	_
+23	far	_	ADP	P	_	24	case	_	_
+24	shuldig	_	ADJ	ADJ	Degree=Pos	20	obl	_	_
+25	un	_	CCONJ	CONJ	_	20	cc	_	_
+26	aroys@	_	ADV	ADV	Degree=Pos	20	advmod	_	_
+27	%ich%-2	_	ADP	PP	_	26	obl	_	_
+28	@treybn	_	VERB	VB	VerbForm=Inf	20	dep	_	_
+29	zey	_	PRON	PRO-ACC	Case=Acc	20	obj	_	_
+30	fun	_	ADP	P	_	31	case	_	_
+31	tsuzmir	_	PROPN	NPR	_	20	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.62
+# X_ID = 1927E-SHATZKY-TESHUAT,14.66
+# text = dos iz geven eygntlekh der tsvek fun protses
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	3	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+3	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	eygntlekh	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+5	der	_	DET	D	PronType=Art	6	det	_	_
+6	tsvek	_	NOUN	N-D	Definite=Def	3	xcomp	_	_
+7	fun	_	ADP	P	_	8	case	_	_
+8	protses	_	NOUN	N	_	6	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.63
+# X_ID = 1927E-SHATZKY-TESHUAT,14.67
+# text = un er hot im teylveyz dergreykht
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+4	im	_	PRON	PRO-ACC	Case=Acc	6	obj	_	_
+5	teylveyz	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	dergreykht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.64
+# X_ID = 1927E-SHATZKY-TESHUAT,14.68
+# text = dem 28 april 1712 hot der kinig aroysgegebn a dekret in velkhn %t%-1 barufndik zikh oyf dem oytoritet fun glh zhukovski hot er tsugeshtimt az di yidn zeynen shuldik in hrgenen kristlekhe kinder un in oysveyzn a stendike snah tsu di kristn
+1	dem	_	DET	D	PronType=Art	4	det	_	_
+2	28	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+3	april	_	PROPN	NPR	_	4	dep	_	_
+4	1712	_	NUM	NUM-D	Definite=Def	8	obl	_	_
+5	hot	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+6	der	_	DET	D-NOM	Case=Nom|PronType=Art	7	det	_	_
+7	kinig	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	8	nsubj	_	_
+8	aroysgegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+9	a	_	DET	D-ACC	Case=Acc|PronType=Art	10	det	_	_
+10	dekret	_	NOUN	N-ACC	Case=Acc	8	obj	_	_
+11	in	_	ADP	P	_	12	case	_	_
+12	velkhn	_	PRON	WPRO	_	24	obl	_	_
+13	%t%-1	_	ADP	PP	_	24	obl	_	_
+14	barufndik	_	VERB	VAG	Tense=Pres|VerbForm=Part	24	advcl	_	_
+15	zikh	_	PRON	PRO-RFL	PronType=Reflex	14	expl:pv	_	_
+16	oyf	_	ADP	P	_	18	case	_	_
+17	dem	_	DET	D	PronType=Art	18	det	_	_
+18	oytoritet	_	NOUN	N-D	Definite=Def	14	obl	_	_
+19	fun	_	ADP	P	_	20	case	_	_
+20	glh	_	NOUN	N	_	18	obl	_	_
+21	zhukovski	_	PROPN	NPR	_	20	dep	_	_
+22	hot	_	AUX	HVF	VerbForm=Fin	24	aux	_	_
+23	er	_	PRON	PRO-NOM	Case=Nom	24	nsubj	_	_
+24	tsugeshtimt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+25	az	_	SCONJ	C	_	28	mark	_	_
+26	di	_	DET	D-NOM	Case=Nom|PronType=Art	27	det	_	_
+27	yidn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	28	nsubj	_	_
+28	zeynen	_	VERB	VBF	VerbForm=Fin	24	ccomp	_	_
+29	shuldik	_	ADJ	ADJ	Degree=Pos	28	amod	_	_
+30	in	_	ADP	P	_	31	case	_	_
+31	hrgenen	_	VERB	VB	VerbForm=Inf	29	amod	_	_
+32	kristlekhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	33	amod	_	_
+33	kinder	_	NOUN	N-ACC	Case=Acc	31	obj	_	_
+34	un	_	CCONJ	CONJ	_	36	cc	_	_
+35	in	_	ADP	P	_	36	case	_	_
+36	oysveyzn	_	VERB	VB-PART	VerbForm=Inf	31	conj	_	_
+37	a	_	DET	D-ACC	Case=Acc|PronType=Art	39	det	_	_
+38	stendike	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	39	amod	_	_
+39	snah	_	NOUN	N-ACC	Case=Acc	36	obj	_	_
+40	tsu	_	ADP	P	_	42	case	_	_
+41	di	_	DET	D	PronType=Art	42	det	_	_
+42	kristn	_	NOUN	N-D	Definite=Def	39	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.65
+# X_ID = 1927E-SHATZKY-TESHUAT,14.69
+# text = un %con% hot zey bafoyln farlozn di stot " oyf eybig "
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	5	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	zey	_	PRON	PRO-DTV	Case=Dat	5	iobj	_	_
+5	bafoyln	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	farlozn	_	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+7	di	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+8	stot	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	6	obj	_	SpaceAfter=No
+9	"	_	PUNCT	PUNC	_	6	punct	_	_
+10	oyf	_	ADP	P	_	11	case	_	_
+11	eybig	_	ADV	ADV	Degree=Pos	6	obl	_	SpaceAfter=No
+12	"	_	PUNCT	PUNC	_	5	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.66
+# X_ID = 1927E-SHATZKY-TESHUAT,14.70
+# text = di yidn hot %exp% zikh ober eyngegebn di gzirh optsushafn mstima mit der hilf fun gelt
+1	di	_	DET	D-DTV	Case=Dat|PronType=Art	2	det	_	_
+2	yidn	_	NOUN	N-DTV-D	Case=Dat|Definite=Def	7	iobj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+4	%exp%	_	NOUN	NP-SBJ-1	_	7	nsubj	_	_
+5	zikh	_	PRON	PRO-RFL	PronType=Reflex	7	expl:pv	_	_
+6	ober	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+7	eyngegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+8	di	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+9	gzirh	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	10	obj	_	_
+10	optsushafn	_	VERB	VB-PART	VerbForm=Inf	7	xcomp	_	_
+11	mstima	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+12	mit	_	ADP	P	_	14	case	_	_
+13	der	_	DET	D	PronType=Art	14	det	_	_
+14	hilf	_	NOUN	N-D	Definite=Def	10	obl	_	_
+15	fun	_	ADP	P	_	16	case	_	_
+16	gelt	_	NOUN	N	_	14	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.67
+# X_ID = 1927E-SHATZKY-TESHUAT,14.71
+# text = un zey zeynen farblibn in tsuzmir
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	zey	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+3	zeynen	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	farblibn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	tsuzmir	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.68
+# X_ID = 1927E-SHATZKY-TESHUAT,14.72
+# text = bseh dem pogrom zeynen gehrgt gevorn a por yidn
+1	bseh	_	ADP	P	_	3	case	_	_
+2	dem	_	DET	D	PronType=Art	3	det	_	_
+3	pogrom	_	NOUN	N-D	Definite=Def	5	obl	_	_
+4	zeynen	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+5	gehrgt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+6	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	5	dep	_	_
+7	a	_	ADV	D-NOM	Case=Nom|PronType=Art	9	advmod	_	_
+8	por	_	DET	Q	_	7	det	_	_
+9	yidn	_	NOUN	N-NOM	Case=Nom	5	nsubj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.69
+# X_ID = 1927E-SHATZKY-TESHUAT,14.73
+# text = un di yidishe gas iz pogromirt gevorn
+1	un	_	CCONJ	CONJ	_	6	cc	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+3	yidishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	gas	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	nsubj	_	_
+5	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+6	pogromirt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+7	gevorn	_	VERB	RDN	Tense=Past|VerbForm=Part	6	dep	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.70
+# X_ID = 1927E-SHATZKY-TESHUAT,15.74
+# text = a_khuts dem iz gefaln als a krbn der ros hkhilh ahrn ber velkhn %t%-1 men hot gepeynikt veyl bey im oyf@ @n hoyf hot men gefunen a toytn mmzr velkhn %t%-2 an umbakantr froy hot untergevorfn
+1	a_khuts	_	ADP	P	_	2	case	_	_
+2	dem	_	DET	D	PronType=Art	4	obl	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	gefaln	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	als	_	ADP	P	_	7	case	_	_
+6	a	_	DET	D	PronType=Art	7	det	_	_
+7	krbn	_	NOUN	N-I	Definite=Ind	4	obl	_	_
+8	der	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+9	ros	head	X	H	_	11	dep	_	_
+10	hkhilh	the_community	X	H	_	11	dep	_	_
+11	ahrn	_	PROPN	NPR	_	4	nsubj	_	_
+12	ber	_	PROPN	NPR	_	11	flat:name	_	_
+13	velkhn	_	PRON	WPRO	_	17	obj	_	_
+14	%t%-1	_	NOUN	NP-ACC	_	17	dep	_	_
+15	men	_	PRON	PRO-NOM	Case=Nom	17	nsubj	_	_
+16	hot	_	AUX	HVF	VerbForm=Fin	17	aux	_	_
+17	gepeynikt	_	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+18	veyl	_	SCONJ	C	_	26	mark	_	_
+19	bey	_	ADP	P	_	20	case	_	_
+20	im	_	PRON	PRO	_	26	obl	_	_
+21	oyf@	_	ADP	P	_	23	case	_	_
+22	@n	_	DET	D	PronType=Art	23	det	_	_
+23	hoyf	_	NOUN	N	_	20	obl	_	_
+24	hot	_	AUX	HVF	VerbForm=Fin	26	aux	_	_
+25	men	_	PRON	PRO-NOM	Case=Nom	26	nsubj	_	_
+26	gefunen	_	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	_	_
+27	a	_	DET	D-ACC	Case=Acc|PronType=Art	29	det	_	_
+28	toytn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	29	amod	_	_
+29	mmzr	_	NOUN	N-ACC	Case=Acc	26	obj	_	_
+30	velkhn	_	PRON	WPRO	_	36	obj	_	_
+31	%t%-2	_	NOUN	NP-ACC	_	36	dep	_	_
+32	an	_	DET	D-NOM	Case=Nom|PronType=Art	34	det	_	_
+33	umbakantr	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	34	amod	_	_
+34	froy	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	36	nsubj	_	_
+35	hot	_	AUX	HVF	VerbForm=Fin	36	aux	_	_
+36	untergevorfn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.71
+# X_ID = 1927E-SHATZKY-TESHUAT,15.75
+# text = keyn oysfirlekhe idieut vegn di kdushim farmogn mir nisht
+1	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	3	det	_	_
+2	oysfirlekhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	3	amod	_	_
+3	idieut	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+4	vegn	_	ADP	P	_	6	case	_	_
+5	di	_	DET	D	PronType=Art	6	det	_	_
+6	kdushim	_	NOUN	N-D	Definite=Def	3	obl	_	_
+7	farmogn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	mir	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+9	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.72
+# X_ID = 1927E-SHATZKY-TESHUAT,15.76
+# text = tsi iz r' valf der feter fun unzer r' kheym alskhikh a direkter tsi an umdirekter krbn fun dem elilt_dm, iz unz nisht bekant .
+1	tsi	_	SCONJ	C	_	2	mark	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	22	nsubj	_	_
+3	r'	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+4	valf	_	PROPN	NPR	_	3	flat:name	_	_
+5	der	_	DET	D	PronType=Art	6	det	_	_
+6	feter	_	NOUN	N-D	Definite=Def	3	appos	_	_
+7	fun	_	ADP	P	_	9	case	_	_
+8	unzer	_	PRON	PRO$	_	9	det:poss	_	_
+9	r'	_	PROPN	NPR	_	6	obl	_	_
+10	kheym	_	PROPN	NPR	_	9	flat:name	_	_
+11	alskhikh	_	PROPN	NPR	_	9	dep	_	_
+12	a	_	DET	D	PronType=Art	13	det	_	_
+13	direkter	_	ADJ	ADJ	Degree=Pos	2	xcomp	_	_
+14	tsi	_	CCONJ	CONJ	_	17	cc	_	_
+15	an	_	DET	D	PronType=Art	17	det	_	_
+16	umdirekter	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	krbn	_	NOUN	N-I	Definite=Ind	13	conj	_	_
+18	fun	_	ADP	P	_	20	case	_	_
+19	dem	_	DET	D	PronType=Art	20	det	_	_
+20	elilt_dm	_	NOUN	N-D	Definite=Def	13	obl	_	SpaceAfter=No
+21	,	_	PUNCT	PUNC	_	22	punct	_	_
+22	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+23	unz	_	PRON	PRO-DTV	Case=Dat	22	iobj	_	_
+24	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	22	advmod	_	_
+25	bekant	_	ADJ	ADJ	Degree=Pos	22	amod	_	SpaceAfter=No
+26	.	_	PUNCT	PUNC	_	22	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.73
+# X_ID = 1927E-SHATZKY-TESHUAT,15.77
+# text = mir veysn az eyner fun di kdushim fun dem elilh dm fun 1698 alksndr mtsuzmir iz gestarbn gar in lublin
+1	mir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	veysn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	az	_	SCONJ	C	_	17	mark	_	_
+4	eyner	_	PRON	PRO-NOM	Case=Nom	14	nmod	_	_
+5	fun	_	ADP	P	_	7	case	_	_
+6	di	_	DET	D	PronType=Art	7	det	_	_
+7	kdushim	_	NOUN	N-D	Definite=Def	14	obl	_	_
+8	fun	_	ADP	P	_	9	case	_	_
+9	dem	_	DET	D	PronType=Art	7	obl	_	_
+10	elilh	libel	X	H	_	9	dep	_	_
+11	dm	blood	X	H	_	9	dep	_	_
+12	fun	_	ADP	P	_	13	case	_	_
+13	1698	_	NOUN	N	_	9	obl	_	_
+14	alksndr	_	PROPN	NPR	_	17	nsubj	_	_
+15	mtsuzmir	from_Tsuzmir	X	H	_	14	dep	_	_
+16	iz	_	AUX	BEF	VerbForm=Fin	17	cop	_	_
+17	gestarbn	_	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+18	gar	_	ADV	ADV	Degree=Pos	17	advmod	_	_
+19	in	_	ADP	P	_	20	case	_	_
+20	lublin	_	PROPN	NPR	_	17	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.74
+# X_ID = 1927E-SHATZKY-TESHUAT,15.78
+# text = eyns %ich%-1 iz klor az r' volf iz a krbn fun dem tsveytn elilt_dm fun yor 1710, veyl r' kheym dermont in zeyn khdmh az vegn dem groysn ns vos %t%-2 iz geshen " veys di gntsi mdine pulin "
+1	eyns	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	%ich%-1	_	SCONJ	CP-THT-PRN	_	1	ccomp	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	klor	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	az	_	SCONJ	C	_	8	mark	_	_
+6	r'	_	PROPN	NPR-SBJ	_	8	nsubj	_	_
+7	volf	_	PROPN	NPR	_	6	flat:name	_	_
+8	iz	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+9	a	_	DET	D	PronType=Art	10	det	_	_
+10	krbn	_	NOUN	N-I	Definite=Ind	8	xcomp	_	_
+11	fun	_	ADP	P	_	14	case	_	_
+12	dem	_	DET	D	PronType=Art	14	det	_	_
+13	tsveytn	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	elilt_dm	_	NOUN	N	_	10	obl	_	_
+15	fun	_	ADP	P	_	16	case	_	_
+16	yor	_	NOUN	N	_	14	obl	_	_
+17	1710	_	NUM	NUM	_	16	appos	_	SpaceAfter=No
+18	,	_	PUNCT	PUNC	_	3	punct	_	_
+19	veyl	_	SCONJ	C	_	22	mark	_	_
+20	r'	_	PROPN	NPR-SBJ	_	22	nsubj	_	_
+21	kheym	_	PROPN	NPR	_	20	flat:name	_	_
+22	dermont	_	VERB	VBF	VerbForm=Fin	3	advcl	_	_
+23	in	_	ADP	P	_	25	case	_	_
+24	zeyn	_	PRON	PRO$	_	25	det:poss	_	_
+25	khdmh	_	NOUN	N	_	22	obl	_	_
+26	az	_	SCONJ	C	_	36	mark	_	_
+27	vegn	_	ADP	P	_	30	case	_	_
+28	dem	_	DET	D	PronType=Art	30	det	_	_
+29	groysn	_	ADJ	ADJ	Degree=Pos	30	amod	_	_
+30	ns	_	NOUN	N	_	36	obl	_	_
+31	vos	_	SCONJ	C	_	34	mark	_	_
+32	%t%-2	_	NOUN	NP-SBJ	_	34	nsubj	_	_
+33	iz	_	AUX	BEF	VerbForm=Fin	34	cop	_	_
+34	geshen	_	VERB	VBN	Tense=Past|VerbForm=Part	30	acl:relcl	_	SpaceAfter=No
+35	"	_	PUNCT	PUNC	_	36	punct	_	_
+36	veys	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+37	di	_	DET	D-NOM	Case=Nom|PronType=Art	39	det	_	_
+38	gntsi	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	39	amod	_	_
+39	mdine	_	NOUN	N-NOM	Case=Nom	36	nsubj	_	_
+40	pulin	_	PROPN	NPR-D	_	39	dep	_	SpaceAfter=No
+41	"	_	PUNCT	PUNC	_	36	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.75
+# X_ID = 1927E-SHATZKY-TESHUAT,15.79
+# text = dos meynt er mistome dos opsteln fun der girus-gzirh velkhe %t%-1 iz gehangen iber di kep fun di tsuzmirer yidn
+1	dos	_	DET	D	PronType=Art	2	dep	_	_
+2	meynt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	er	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+4	mistome	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+5	dos	_	DET	D-ACC	Case=Acc|PronType=Art	2	obj	_	_
+6	opsteln	_	VERB	VB-PART	VerbForm=Inf	5	xcomp	_	_
+7	fun	_	ADP	P	_	9	case	_	_
+8	der	_	DET	D	PronType=Art	9	det	_	_
+9	girus-gzirh	_	NOUN	N-D	Definite=Def	6	obl	_	_
+10	velkhe	_	PRON	WPRO	_	13	obj	_	_
+11	%t%-1	_	NOUN	NP-SBJ	_	13	nsubj	_	_
+12	iz	_	AUX	BEF	VerbForm=Fin	13	cop	_	_
+13	gehangen	_	VERB	VBN	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	iber	_	ADP	P	_	16	case	_	_
+15	di	_	DET	D	PronType=Art	16	det	_	_
+16	kep	_	NOUN	N-D	Definite=Def	13	obl	_	_
+17	fun	_	ADP	P	_	20	case	_	_
+18	di	_	DET	D	PronType=Art	20	det	_	_
+19	tsuzmirer	_	ADJ	ADJ	Degree=Pos	20	amod	_	_
+20	yidn	_	NOUN	N-D	Definite=Def	13	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.76
+# X_ID = 1927E-SHATZKY-TESHUAT,15.80
+# text = dos iz der perzenlekher hintergrunt fun r' kheyms strebung aroystsugebn di apologie kegn elilt-dm .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	der	_	DET	D	PronType=Art	5	det	_	_
+4	perzenlekher	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+5	hintergrunt	_	NOUN	N	_	2	xcomp	_	_
+6	fun	_	ADP	P	_	7	case	_	_
+7	r'	_	PROPN	NPR	_	5	obl	_	_
+8	kheyms	_	NOUN	NPR$	_	7	dep	_	_
+9	strebung	_	NOUN	N	_	7	conj	_	_
+10	aroystsugebn	_	VERB	VB-PART	VerbForm=Inf	7	xcomp	_	_
+11	di	_	DET	D-ACC	Case=Acc|PronType=Art	12	det	_	_
+12	apologie	_	NOUN	N-ACC	Case=Acc	10	obj	_	_
+13	kegn	_	ADP	P	_	14	case	_	_
+14	elilt-dm	_	NOUN	N	_	12	obl	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.77
+# X_ID = 1927E-SHATZKY-TESHUAT,15.81
+# text = es iz ober geven nokh an andere sibh, vos %t%-1 iz im perzenlekh nisht nuge genug
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	4	expl	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+3	ober	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	nokh	_	ADV	ADV	Degree=Pos	4	dep	_	_
+6	an	_	DET	D	PronType=Art	5	det	_	_
+7	andere	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+8	sibh	_	NOUN	N	_	5	conj	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	5	punct	_	_
+10	vos	_	SCONJ	C	_	12	mark	_	_
+11	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+12	iz	_	VERB	VBF	VerbForm=Fin	5	acl:relcl	_	_
+13	im	_	PRON	PRO-DTV	Case=Dat	12	iobj	_	_
+14	perzenlekh	_	ADV	ADV	Degree=Pos	12	advmod	_	_
+15	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	12	advmod	_	_
+16	nuge	_	X	X	_	12	dep	_	_
+17	genug	_	ADV	Q	_	16	advmod	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.78
+# X_ID = 1927E-SHATZKY-TESHUAT,15.82
+# text = %con% hot ober ongerirt dos gantse poylishe yidntum
+1	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+3	ober	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+4	ongerirt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+5	dos	_	DET	D-ACC	Case=Acc|PronType=Art	8	det	_	_
+6	gantse	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+7	poylishe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	yidntum	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	4	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.79
+# X_ID = 1927E-SHATZKY-TESHUAT,15.83
+# text = dos iz di barimte shoyderlakhe elilt_dm tragedie velkhe %t%-1 hot zikh opgespilt in pozn un %t%-1 hot gedoyert fir yor fun 1736 biz 1740 .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	di	_	DET	D	PronType=Art	6	det	_	_
+4	barimte	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+5	shoyderlakhe	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	elilt_dm	_	NOUN	N	_	2	xcomp	_	_
+7	tragedie	_	NOUN	N	_	6	conj	_	_
+8	velkhe	_	PRON	WPRO	_	12	obj	_	_
+9	%t%-1	_	NOUN	NP-SBJ	_	12	nsubj	_	_
+10	hot	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+11	zikh	_	PRON	PRO-RFL	PronType=Reflex	12	expl:pv	_	_
+12	opgespilt	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+13	in	_	ADP	P	_	14	case	_	_
+14	pozn	_	NOUN	N	_	12	obl	_	_
+15	un	_	CCONJ	CONJ	_	18	cc	_	_
+16	%t%-1	_	NOUN	NP-SBJ	_	18	nsubj	_	_
+17	hot	_	AUX	HVF	VerbForm=Fin	18	aux	_	_
+18	gedoyert	_	VERB	VBN	Tense=Past|VerbForm=Part	12	conj	_	_
+19	fir	_	NUM	NUM	_	18	obl	_	_
+20	yor	_	NOUN	N	_	19	conj	_	_
+21	fun	_	ADP	P	_	22	case	_	_
+22	1736	_	NOUN	N	_	18	obl	_	_
+23	biz	_	ADP	P	_	24	case	_	_
+24	1740	_	NOUN	N	_	18	obl	_	SpaceAfter=No
+25	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.80
+# X_ID = 1927E-SHATZKY-TESHUAT,15.84
+# text = der_doziker protses hot aroysgerufn an interes in gants eyrope
+1	der_doziker	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	protses	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	aroysgerufn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+5	an	_	DET	D-ACC	Case=Acc|PronType=Art	6	det	_	_
+6	interes	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	4	obj	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	gants	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	eyrope	_	PROPN	NPR	_	4	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.81
+# X_ID = 1927E-SHATZKY-TESHUAT,15.85
+# text = es zeynen in im geven areyngemisht di angezeenste perzenlakhkeytn fun der poyzner khilh
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	6	expl	_	_
+2	zeynen	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+3	in	_	ADP	P	_	4	case	_	_
+4	im	_	PRON	PRO	_	6	obl	_	_
+5	geven	_	AUX	BEN	Tense=Past|VerbForm=Part	6	cop	_	_
+6	areyngemisht	_	VERB	VAN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+7	di	_	DET	D-NOM	Case=Nom|PronType=Art	9	det	_	_
+8	angezeenste	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	9	amod	_	_
+9	perzenlakhkeytn	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+10	fun	_	ADP	P	_	13	case	_	_
+11	der	_	DET	D	PronType=Art	13	det	_	_
+12	poyzner	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	khilh	_	NOUN	N-D	Definite=Def	9	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.82
+# X_ID = 1927E-SHATZKY-TESHUAT,15.86
+# text = der drsn arih-lib velkher %t%-1 hot gestamt fun der italienisher mspkhh kalahara iz geven der erster krbn
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	drsn	UNKNOWN	X	H	_	3	dep	_	_
+3	arih-lib	_	PROPN	NPR	_	14	nsubj	_	_
+4	velkher	_	PRON	WPRO	_	7	obj	_	_
+5	%t%-1	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+7	gestamt	_	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	fun	_	ADP	P	_	12	case	_	_
+9	der	_	DET	D	PronType=Art	12	det	_	_
+10	italienisher	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+11	mspkhh	_	NOUN	N	_	12	nummod	_	_
+12	kalahara	_	PROPN	NPR-D	_	7	obl	_	_
+13	iz	_	AUX	BEF	VerbForm=Fin	14	cop	_	_
+14	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	der	_	DET	D	PronType=Art	17	det	_	_
+16	erster	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	krbn	_	NOUN	N-D	Definite=Def	14	xcomp	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.83
+# X_ID = 1927E-SHATZKY-TESHUAT,15.87
+# text = a_khuts dem zeynen geven bashuldikt der prns hkhilh a sms un a shneyder
+1	a_khuts	_	ADP	P	_	2	case	_	_
+2	dem	_	DET	D	PronType=Art	5	obl	_	_
+3	zeynen	_	AUX	BEF	VerbForm=Fin	5	cop	_	_
+4	geven	_	AUX	BEN	Tense=Past|VerbForm=Part	5	cop	_	_
+5	bashuldikt	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+6	der	_	DET	D	PronType=Art	5	dep	_	_
+7	prns	livelihood?	X	H	_	6	dep	_	_
+8	hkhilh	the_community	X	H	_	6	dep	_	_
+9	a	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+10	sms	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	5	nsubj	_	_
+11	un	_	CCONJ	CONJ	_	13	cc	_	_
+12	a	_	DET	D-NOM	Case=Nom|PronType=Art	13	det	_	_
+13	shneyder	_	NOUN	N-NOM-I	Case=Nom|Definite=Ind	10	conj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.84
+# X_ID = 1927E-SHATZKY-TESHUAT,15.88
+# text = di pozner khlih zeyendik neenter tsu merb-eyrope hot gesturemt veltn
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	pozner	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	khlih	_	NOUN	N-NOM	Case=Nom	9	nsubj	_	_
+4	zeyendik	_	VERB	VAG	Tense=Pres|VerbForm=Part	3	acl	_	_
+5	neenter	_	ADV	ADVR	Degree=Cmp	4	advmod	_	_
+6	tsu	_	ADP	P	_	7	case	_	_
+7	merb-eyrope	_	PROPN	NPR	_	5	obl	_	_
+8	hot	_	AUX	HVF	VerbForm=Fin	9	aux	_	_
+9	gesturemt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	veltn	_	NOUN	N-ACC	Case=Acc	9	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.85
+# X_ID = 1927E-SHATZKY-TESHUAT,15.89
+# text = di yidn hobn apelirt tsum poypstlekhn delegat com:name_omitted
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	yidn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+3	hobn	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	apelirt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	tsum	_	ADP	P-CL	_	7	case	_	_
+6	poypstlekhn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	delegat	_	NOUN	N	_	4	obl	_	_
+8	com:name_omitted	_	NOUN	NP-PRN	_	7	appos	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.86
+# X_ID = 1927E-SHATZKY-TESHUAT,15.90
+# text = in vin hot zikh opgerufn der msumr alaeyzius de zanenfels
+1	in	_	ADP	P	_	2	case	_	_
+2	vin	_	PROPN	NPR	_	5	obl	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	5	expl:pv	_	_
+5	opgerufn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+6	der	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+7	msumr	UNKNOWN	X	H	_	8	dep	_	_
+8	alaeyzius	_	PROPN	NPR-D	_	5	nsubj	_	_
+9	de	_	PROPN	NPR-D	_	8	flat:name	_	_
+10	zanenfels	_	PROPN	NPR-D	_	8	dep	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.87
+# X_ID = 1927E-SHATZKY-TESHUAT,15.91
+# text = un %con% hot geshvirn az yidn banutsn nisht keyn kristlekh blut
+1	un	_	CCONJ	CONJ	_	4	cc	_	_
+2	%con%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	geshvirn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	az	_	SCONJ	C	_	7	mark	_	_
+6	yidn	_	NOUN	N-NOM	Case=Nom	7	nsubj	_	_
+7	banutsn	_	VERB	VBF	VerbForm=Fin	4	ccomp	_	_
+8	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+9	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	11	det	_	_
+10	kristlekh	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	11	amod	_	_
+11	blut	_	NOUN	N-ACC	Case=Acc	7	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.88
+# X_ID = 1927E-SHATZKY-TESHUAT,15.92
+# text = der yidisher bankir vertheymer in vin velkher %t%-1 iz gestanen in finantsiele farbindungen mit der saksisher dinastie hot zikh oykh mstdl geven ltubh di yidn
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	yidisher	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	bankir	_	NOUN	N-NOM	Case=Nom	22	nsubj	_	_
+4	vertheymer	_	PROPN	NPR	_	3	dep	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	vin	_	PROPN	NPR	_	3	obl	_	_
+7	velkher	_	PRON	WPRO	_	10	obj	_	_
+8	%t%-1	_	NOUN	NP-SBJ	_	10	nsubj	_	_
+9	iz	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+10	gestanen	_	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+11	in	_	ADP	P	_	13	case	_	_
+12	finantsiele	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	farbindungen	_	NOUN	N	_	10	obl	_	_
+14	mit	_	ADP	P	_	17	case	_	_
+15	der	_	DET	D	PronType=Art	17	det	_	_
+16	saksisher	_	ADJ	ADJ	Degree=Pos	17	amod	_	_
+17	dinastie	_	NOUN	N-D	Definite=Def	13	obl	_	_
+18	hot	_	AUX	HVF	VerbForm=Fin	22	aux	_	_
+19	zikh	_	PRON	PRO-RFL	PronType=Reflex	22	expl:pv	_	_
+20	oykh	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+21	mstdl	_	ADP	RP-H	_	22	compound:prt	_	_
+22	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+23	ltubh	to_good	X	H	_	25	dep	_	_
+24	di	_	DET	D	PronType=Art	25	det	_	_
+25	yidn	_	NOUN	N-D	Definite=Def	22	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.89
+# X_ID = 1927E-SHATZKY-TESHUAT,15.93
+# text = der suf iz geven, az m' hat di pozner yidn freygesprokhn fun di peynigungen
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	suf	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	4	nsubj	_	_
+3	iz	_	AUX	BEF	VerbForm=Fin	4	cop	_	_
+4	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	PUNC	_	4	punct	_	_
+6	az	_	SCONJ	C	_	12	mark	_	_
+7	m'	_	PRON	PRO-NOM	Case=Nom	12	nsubj	_	_
+8	hat	_	AUX	HVF	VerbForm=Fin	12	aux	_	_
+9	di	_	DET	D-ACC	Case=Acc|PronType=Art	11	det	_	_
+10	pozner	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	11	amod	_	_
+11	yidn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	12	obj	_	_
+12	freygesprokhn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	4	ccomp	_	_
+13	fun	_	ADP	P	_	15	case	_	_
+14	di	_	DET	D	PronType=Art	15	det	_	_
+15	peynigungen	_	NOUN	N-D	Definite=Def	12	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.90
+# X_ID = 1927E-SHATZKY-TESHUAT,15.94
+# text = iz ober geshtorbn in tfish der frns hkhilh
+1	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+2	ober	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	geshtorbn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	tfish	_	NOUN	N	_	3	obl	_	_
+6	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	nsubj	_	_
+7	frns	UNKNOWN	X	H	_	6	dep	_	_
+8	hkhilh	the_community	X	H	_	6	dep	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.91
+# X_ID = 1927E-SHATZKY-TESHUAT,15.95
+# text = dem drsn r' arih lib hot men gebrakht a farblutiktn aheym
+1	dem	_	DET	D-ACC	Case=Acc|PronType=Art	3	det	_	_
+2	drsn	UNKNOWN	X	H	_	3	dep	_	_
+3	r'	_	PROPN	NPR-D	_	8	obj	_	_
+4	arih	_	PROPN	NPR-D	_	3	flat:name	_	_
+5	lib	_	PROPN	NPR-D	_	3	dep	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+7	men	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+8	gebrakht	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	a	_	DET	D	PronType=Art	8	xcomp	_	_
+10	farblutiktn	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+11	aheym	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.92
+# X_ID = 1927E-SHATZKY-TESHUAT,15.96
+# text = un in a por teg arum iz er oykh geshtorbn dem 22tn november 1736 .
+1	un	_	CCONJ	CONJ	_	10	cc	_	_
+2	in	_	ADP	P	_	5	case	_	_
+3	a	_	ADV	D-NOM	Case=Nom|PronType=Art	5	advmod	_	_
+4	por	_	DET	Q	_	3	det	_	_
+5	teg	_	NOUN	N-NOM	Case=Nom	10	obl	_	_
+6	arum	_	ADV	ADV	Degree=Pos	5	advmod	_	_
+7	iz	_	AUX	BEF	VerbForm=Fin	10	cop	_	_
+8	er	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+9	oykh	_	ADV	ADV	Degree=Pos	10	advmod	_	_
+10	geshtorbn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	dem	_	DET	D	PronType=Art	14	det	_	_
+12	22tn	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+13	november	_	NOUN	N	_	14	nummod	_	_
+14	1736	_	NUM	NUM-D	Definite=Def	10	obl	_	SpaceAfter=No
+15	.	_	PUNCT	PUNC	_	10	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.93
+# X_ID = 1927E-SHATZKY-TESHUAT,15.97
+# text = der_doziker protses velkher %t%-1 hot aroysgerufn a groysn interes in der damolsdiker yidisher un kristlekher eyrope un %t%-1 hot afilu farinteresirt di poypslekhe spern in roym kumt for in der tseyt ven %t%-2 r' kheym hot gekent zeyn in veg zukhndik di dokumentn fun dem protses in viterba
+1	der_doziker	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	protses	_	NOUN	N-NOM	Case=Nom	27	nsubj	_	_
+3	velkher	_	PRON	WPRO	_	6	obj	_	_
+4	%t%-1	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+5	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+6	aroysgerufn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	a	_	DET	D-ACC	Case=Acc|PronType=Art	9	det	_	_
+8	groysn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	9	amod	_	_
+9	interes	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	6	obj	_	_
+10	in	_	ADP	P	_	16	case	_	_
+11	der	_	DET	D	PronType=Art	16	det	_	_
+12	damolsdiker	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+13	yidisher	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+14	un	_	CCONJ	CONJ	_	13	amod	_	_
+15	kristlekher	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+16	eyrope	_	PROPN	NPR	_	6	obl	_	_
+17	un	_	CCONJ	CONJ	_	21	cc	_	_
+18	%t%-1	_	NOUN	NP-SBJ	_	21	nsubj	_	_
+19	hot	_	AUX	HVF	VerbForm=Fin	21	aux	_	_
+20	afilu	_	ADV	FP	Degree=Pos	21	advmod	_	_
+21	farinteresirt	_	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+22	di	_	DET	D-ACC	Case=Acc|PronType=Art	24	det	_	_
+23	poypslekhe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	24	amod	_	_
+24	spern	_	NOUN	N-ACC	Case=Acc	21	obj	_	_
+25	in	_	ADP	P	_	26	case	_	_
+26	roym	_	NOUN	N	_	24	obl	_	_
+27	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+28	for	_	ADP	RP	_	27	compound:prt	_	_
+29	in	_	ADP	P	_	31	case	_	_
+30	der	_	DET	D	PronType=Art	31	det	_	_
+31	tseyt	_	NOUN	N-D	Definite=Def	27	obl	_	_
+32	ven	_	ADV	WADV	Degree=Pos	38	advmod	_	_
+33	%t%-2	_	ADV	ADVP-TMP	AdvType=Tim|Degree=Pos	38	advmod	_	_
+34	r'	_	PROPN	NPR-SBJ	_	38	nsubj	_	_
+35	kheym	_	PROPN	NPR	_	34	flat:name	_	_
+36	hot	_	AUX	HVF	VerbForm=Fin	38	aux	_	_
+37	gekent	_	AUX	MDN	Tense=Past|VerbForm=Part	38	aux	_	_
+38	zeyn	_	VERB	VB	VerbForm=Inf	31	acl:relcl	_	_
+39	in	_	ADP	P	_	40	case	_	_
+40	veg	_	NOUN	N	_	38	obl	_	_
+41	zukhndik	_	VERB	VAG	Tense=Pres|VerbForm=Part	38	advcl	_	_
+42	di	_	DET	D-ACC	Case=Acc|PronType=Art	43	det	_	_
+43	dokumentn	_	NOUN	N-ACC	Case=Acc	41	obj	_	_
+44	fun	_	ADP	P	_	46	case	_	_
+45	dem	_	DET	D	PronType=Art	46	det	_	_
+46	protses	_	NOUN	N-D	Definite=Def	43	obl	_	_
+47	in	_	ADP	P	_	48	case	_	_
+48	viterba	_	PROPN	NPR	_	46	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.94
+# X_ID = 1927E-SHATZKY-TESHUAT,15.98
+# text = mistome hot men shoyn damolst gevaust, az der roymisher rb, karkus hot oysgegebn zeyne memorandums vegn der viterborn blut-blbul-protses
+1	mistome	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	6	aux	_	_
+3	men	_	PRON	PRO-NOM	Case=Nom	6	nsubj	_	_
+4	shoyn	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+5	damolst	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+6	gevaust	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	az	_	SCONJ	C	_	15	mark	_	_
+9	der	_	DET	D-NOM	Case=Nom|PronType=Art	11	det	_	_
+10	roymisher	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	11	amod	_	_
+11	rb	_	NOUN	N-NOM	Case=Nom	15	nsubj	_	SpaceAfter=No
+12	,	_	PUNCT	PUNC	_	11	punct	_	_
+13	karkus	_	PROPN	NPR	_	11	appos	_	_
+14	hot	_	AUX	HVF	VerbForm=Fin	15	aux	_	_
+15	oysgegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	6	ccomp	_	_
+16	zeyne	_	PRON	PRO$-ACC	Case=Acc|PronType=Poss	17	det:poss	_	_
+17	memorandums	_	NOUN	N	_	15	obj	_	_
+18	vegn	_	ADP	P	_	21	case	_	_
+19	der	_	DET	D	PronType=Art	21	det	_	_
+20	viterborn	_	ADJ	ADJ	Degree=Pos	21	amod	_	_
+21	blut-blbul-protses	_	NOUN	N-D	Definite=Def	17	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.95
+# X_ID = 1927E-SHATZKY-TESHUAT,15.99
+# text = un der gliklekher suf fun yenem protses hot im bevoygn di_dozike dokumentn aroysgebn frier in yidish kedey speter konen zey oykh aroysgebn in andere lshunut
+1	un	_	CCONJ	CONJ	_	10	cc	_	_
+2	der	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+3	gliklekher	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	suf	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+5	fun	_	ADP	P	_	7	case	_	_
+6	yenem	_	DET	D	PronType=Art	7	det	_	_
+7	protses	_	NOUN	N-D	Definite=Def	4	obl	_	_
+8	hot	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+9	im	_	PRON	PRO-ACC	Case=Acc	10	obj	_	_
+10	bevoygn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	di_dozike	_	DET	D-ACC	Case=Acc|PronType=Art	12	det	_	_
+12	dokumentn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	13	obj	_	_
+13	aroysgebn	_	VERB	VB-PART	VerbForm=Inf	10	xcomp	_	_
+14	frier	_	ADV	ADVR	Degree=Cmp	13	advmod	_	_
+15	in	_	ADP	P	_	16	case	_	_
+16	yidish	_	NOUN	N	_	13	obl	_	_
+17	kedey	_	SCONJ	C	_	13	advcl	_	_
+18	speter	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+19	konen	_	AUX	MD	VerbForm=Inf	22	aux	_	_
+20	zey	_	PRON	PRO-ACC	Case=Acc	22	obj	_	_
+21	oykh	_	ADV	ADV	Degree=Pos	22	advmod	_	_
+22	aroysgebn	_	VERB	VB-PART	VerbForm=Inf	17	xcomp	_	_
+23	in	_	ADP	P	_	25	case	_	_
+24	andere	_	ADJ	ADJ	Degree=Pos	25	amod	_	_
+25	lshunut	_	NOUN	N	_	22	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.96
+# X_ID = 1927E-SHATZKY-TESHUAT,15.100
+# text = di drey broshurn velkhe %t%-1 zeynen aroyz in dem bukh tsuet isral barirn dem blut-blbul fun yor 1706 in italie .
+1	di	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	drey	_	NUM	NUM-NOM	Case=Nom	3	nummod	_	_
+3	broshurn	_	NOUN	N-NOM	Case=Nom	13	nsubj	_	_
+4	velkhe	_	PRON	WPRO	_	6	obj	_	_
+5	%t%-1	_	NOUN	NP-SBJ	_	6	nsubj	_	_
+6	zeynen	_	VERB	VBF	VerbForm=Fin	3	acl:relcl	_	_
+7	aroyz	_	ADV	ADV	Degree=Pos	6	advmod	_	_
+8	in	_	ADP	P	_	10	case	_	_
+9	dem	_	DET	D	PronType=Art	10	det	_	_
+10	bukh	_	NOUN	N-D	Definite=Def	6	obl	_	_
+11	tsuet	salvation	X	H	_	10	dep	_	_
+12	isral	_	PROPN	NPR	_	11	flat:foreign	_	_
+13	barirn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+14	dem	_	DET	D-ACC	Case=Acc|PronType=Art	15	det	_	_
+15	blut-blbul	_	NOUN	N-ACC	Case=Acc	13	obj	_	_
+16	fun	_	ADP	P	_	17	case	_	_
+17	yor	_	NOUN	N	_	15	obl	_	_
+18	1706	_	NUM	NUM	_	17	nummod	_	_
+19	in	_	ADP	P	_	20	case	_	_
+20	italie	_	PROPN	NPR	_	15	obl	_	SpaceAfter=No
+21	.	_	PUNCT	PUNC	_	13	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.97
+# X_ID = 1927E-SHATZKY-TESHUAT,15.101
+# text = mir veln zikh in kurtsn oyf zey opsteln
+1	mir	_	PRON	PRO-NOM	Case=Nom	8	nsubj	_	_
+2	veln	_	AUX	MDF	VerbForm=Fin	8	aux	_	_
+3	zikh	_	PRON	PRO-RFL	PronType=Reflex	8	expl:pv	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	kurtsn	_	NOUN	N	_	8	obl	_	_
+6	oyf	_	ADP	P	_	7	case	_	_
+7	zey	_	PRON	PRO	_	8	obl	_	_
+8	opsteln	_	VERB	VB-PART	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.98
+# X_ID = 1927E-SHATZKY-TESHUAT,15.102
+# text = 3 in a kleyn italienish stetl viterbo hot men gefunen a derstikt kristlekh kind
+1	3	_	NUM	LS	_	10	dep	_	_
+2	in	_	ADP	P	_	7	case	_	_
+3	a	_	DET	D	PronType=Art	7	det	_	_
+4	kleyn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+5	italienish	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+6	stetl	_	NOUN	N	_	7	nummod	_	_
+7	viterbo	_	PROPN	NPR-I	_	10	obl	_	_
+8	hot	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+9	men	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+10	gefunen	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	a	_	DET	D-ACC	Case=Acc|PronType=Art	14	det	_	_
+12	derstikt	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	14	amod	_	_
+13	kristlekh	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	14	amod	_	_
+14	kind	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	10	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.99
+# X_ID = 1927E-SHATZKY-TESHUAT,15.103
+# text = dos iz geven in yor 1705 .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	3	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+3	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	yor	_	NOUN	N	_	3	obl	_	_
+6	1705	_	NUM	NUM	_	5	nummod	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.100
+# X_ID = 1927E-SHATZKY-TESHUAT,15.104
+# text = men hot arestirt finf yidn zey shreklekh gepeynikt un getsvaungen zikh mudh zeyn in dem " farbrekhn "
+1	men	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+2	hot	_	AUX	HVF	VerbForm=Fin	3	aux	_	_
+3	arestirt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	finf	_	NUM	NUM-ACC	Case=Acc	5	nummod	_	_
+5	yidn	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+6	zey	_	PRON	PRO-ACC	Case=Acc	8	obj	_	_
+7	shreklekh	_	ADV	ADV	Degree=Pos	8	advmod	_	_
+8	gepeynikt	_	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+9	un	_	CCONJ	CONJ	_	10	cc	_	_
+10	getsvaungen	_	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+11	zikh	_	PRON	PRO-RFL	PronType=Reflex	13	expl:pv	_	_
+12	mudh	_	ADP	RP-H	_	13	compound:prt	_	_
+13	zeyn	_	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+14	in	_	ADP	P	_	17	case	_	_
+15	dem	_	DET	D	PronType=Art	17	det	_	SpaceAfter=No
+16	"	_	PUNCT	PUNC	_	17	punct	_	_
+17	farbrekhn	_	NOUN	N-D	Definite=Def	13	obl	_	SpaceAfter=No
+18	"	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.101
+# X_ID = 1927E-SHATZKY-TESHUAT,15.105
+# text = nokh a por khdsim hot %exp% zikh oysgevizn az zey zeynen umshuldig
+1	nokh	_	ADP	P	_	4	case	_	_
+2	a	_	ADV	D	PronType=Art	4	advmod	_	_
+3	por	_	DET	Q	_	2	det	_	_
+4	khdsim	_	NOUN	N	_	8	obl	_	_
+5	hot	_	AUX	HVF	VerbForm=Fin	8	aux	_	_
+6	%exp%	_	NOUN	NP-SBJ-1	_	8	nsubj	_	_
+7	zikh	_	PRON	PRO-RFL	PronType=Reflex	8	expl:pv	_	_
+8	oysgevizn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+9	az	_	SCONJ	C	_	11	mark	_	_
+10	zey	_	PRON	PRO-NOM	Case=Nom	11	nsubj	_	_
+11	zeynen	_	VERB	VBF	VerbForm=Fin	8	ccomp	_	_
+12	umshuldig	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.102
+# X_ID = 1927E-SHATZKY-TESHUAT,15.106
+# text = un men hot zey bafreyt
+1	un	_	CCONJ	CONJ	_	5	cc	_	_
+2	men	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	zey	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+5	bafreyt	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.103
+# X_ID = 1927E-SHATZKY-TESHUAT,15.107
+# text = der arest un di beshuldikung hot aroysgerufn a groyse oyfregung in di yidishe kreyzn fun roym
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	2	det	_	_
+2	arest	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	7	nsubj	_	_
+3	un	_	CCONJ	CONJ	_	5	cc	_	_
+4	di	_	DET	D-NOM	Case=Nom|PronType=Art	5	det	_	_
+5	beshuldikung	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	2	conj	_	_
+6	hot	_	AUX	HVF	VerbForm=Fin	7	aux	_	_
+7	aroysgerufn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+8	a	_	DET	D-ACC	Case=Acc|PronType=Art	10	det	_	_
+9	groyse	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	10	amod	_	_
+10	oyfregung	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	7	obj	_	_
+11	in	_	ADP	P	_	14	case	_	_
+12	di	_	DET	D	PronType=Art	14	det	_	_
+13	yidishe	_	ADJ	ADJ	Degree=Pos	14	amod	_	_
+14	kreyzn	_	NOUN	N	_	7	obl	_	_
+15	fun	_	ADP	P	_	16	case	_	_
+16	roym	_	NOUN	N	_	14	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.104
+# X_ID = 1927E-SHATZKY-TESHUAT,16.108
+# text = far der bafreyung fun di tsvey hoypt_beshuldikte yusf samun un giaiela di kore hot a_skh oyfgeton der damolstidiker roymisher rb
+1	far	_	ADP	P	_	3	case	_	_
+2	der	_	DET	D	PronType=Art	3	det	_	_
+3	bafreyung	_	NOUN	N-D	Definite=Def	16	obl	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	di	_	DET	D	PronType=Art	6	det	_	_
+6	tsvey	_	NUM	NUM-D	Definite=Def	3	obl	_	_
+7	hoypt_beshuldikte	_	NOUN	N	_	6	conj	_	_
+8	yusf	_	PROPN	NPR	_	6	appos	_	_
+9	samun	_	PROPN	NPR	_	8	flat:name	_	_
+10	un	_	CCONJ	CONJ	_	11	cc	_	_
+11	giaiela	_	PROPN	NPR	_	8	conj	_	_
+12	di	_	PROPN	NPR	_	11	flat:name	_	_
+13	kore	_	PROPN	NPR	_	11	dep	_	_
+14	hot	_	AUX	HVF	VerbForm=Fin	16	aux	_	_
+15	a_skh	_	DET	Q-ACC	Case=Acc	16	obj	_	_
+16	oyfgeton	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+17	der	_	DET	D-NOM	Case=Nom|PronType=Art	20	det	_	_
+18	damolstidiker	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	20	amod	_	_
+19	roymisher	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	20	amod	_	_
+20	rb	_	NOUN	N-NOM	Case=Nom	16	nsubj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.105
+# X_ID = 1927E-SHATZKY-TESHUAT,16.109
+# text = karkus, oder kurkus iz geven an angezener mitglid fun der roymisher khlh .
+1	karkus	_	PROPN	NPR-SBJ	_	6	nsubj	_	SpaceAfter=No
+2	,	_	PUNCT	PUNC	_	1	punct	_	_
+3	oder	_	CCONJ	CONJ	_	1	cc	_	_
+4	kurkus	_	PROPN	NPR	_	1	dep	_	_
+5	iz	_	AUX	BEF	VerbForm=Fin	6	cop	_	_
+6	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	an	_	DET	D	PronType=Art	9	det	_	_
+8	angezener	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+9	mitglid	_	NOUN	N	_	6	xcomp	_	_
+10	fun	_	ADP	P	_	13	case	_	_
+11	der	_	DET	D	PronType=Art	13	det	_	_
+12	roymisher	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	khlh	_	NOUN	N-D	Definite=Def	9	obl	_	SpaceAfter=No
+14	.	_	PUNCT	PUNC	_	6	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.106
+# X_ID = 1927E-SHATZKY-TESHUAT,16.110
+# text = in yor 1692 vert er a mitglid fun der khilh in yor 1702 ir sekreter un rb .
+1	in	_	ADP	P	_	2	case	_	_
+2	yor	_	NOUN	N	_	4	obl	_	_
+3	1692	_	NUM	NUM	_	2	nummod	_	_
+4	vert	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	er	_	PRON	PRO-NOM	Case=Nom	4	nsubj	_	_
+6	a	_	DET	D	PronType=Art	7	det	_	_
+7	mitglid	_	NOUN	N-I	Definite=Ind	4	xcomp	_	_
+8	fun	_	ADP	P	_	10	case	_	_
+9	der	_	DET	D	PronType=Art	10	det	_	_
+10	khilh	_	NOUN	N-D	Definite=Def	7	obl	_	_
+11	in	_	ADP	P	_	12	case	_	_
+12	yor	_	NOUN	N	_	15	obl	_	_
+13	1702	_	NUM	NUM	_	12	nummod	_	_
+14	ir	_	PRON	PRO$	_	15	det:poss	_	_
+15	sekreter	_	NOUN	N	_	4	conj	_	_
+16	un	_	CCONJ	CONJ	_	17	cc	_	_
+17	rb	_	NOUN	N	_	15	conj	_	SpaceAfter=No
+18	.	_	PUNCT	PUNC	_	4	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.107
+# X_ID = 1927E-SHATZKY-TESHUAT,16.111
+# text = karkus iz gestarbn in yor 1730 .
+1	karkus	_	PROPN	NPR-SBJ	_	3	nsubj	_	_
+2	iz	_	AUX	BEF	VerbForm=Fin	3	cop	_	_
+3	gestarbn	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	_	ADP	P	_	5	case	_	_
+5	yor	_	NOUN	N	_	3	obl	_	_
+6	1730	_	NUM	NUM	_	5	nummod	_	SpaceAfter=No
+7	.	_	PUNCT	PUNC	_	3	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.108
+# X_ID = 1927E-SHATZKY-TESHUAT,16.112
+# text = dr. korkus hot angeshribn elf shriftn iber farsheydene idishe aktuele anelegnheytn
+1	dr.	_	PROPN	NPR-SBJ	_	4	nsubj	_	_
+2	korkus	_	PROPN	NPR	_	1	flat:name	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	4	aux	_	_
+4	angeshribn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+5	elf	_	NUM	NUM-ACC	Case=Acc	6	nummod	_	_
+6	shriftn	_	NOUN	N-ACC	Case=Acc	4	obj	_	_
+7	iber	_	ADP	P	_	11	case	_	_
+8	farsheydene	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+9	idishe	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+10	aktuele	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	anelegnheytn	_	NOUN	N	_	6	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.109
+# X_ID = 1927E-SHATZKY-TESHUAT,16.113
+# text = spetsiel vegn dem elilt-dm blbul in viterba hot er ongeshribn tsvey memorandums bastimt farn monsiniore gezzi dem referent far yidishe eninim bey poypstlekhn hoyf
+1	spetsiel	_	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	vegn	_	ADP	P	_	4	case	_	_
+3	dem	_	DET	D	PronType=Art	4	det	_	_
+4	elilt-dm	_	NOUN	N-D	Definite=Def	10	obl	_	_
+5	blbul	_	NOUN	N	_	4	conj	_	_
+6	in	_	ADP	P	_	7	case	_	_
+7	viterba	_	PROPN	NPR	_	4	obl	_	_
+8	hot	_	AUX	HVF	VerbForm=Fin	10	aux	_	_
+9	er	_	PRON	PRO-NOM	Case=Nom	10	nsubj	_	_
+10	ongeshribn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+11	tsvey	_	NUM	NUM-ACC	Case=Acc	12	nummod	_	_
+12	memorandums	_	NOUN	N-ACC	Case=Acc	10	obj	_	_
+13	bastimt	_	VERB	VAN	Tense=Past|VerbForm=Part	12	acl	_	_
+14	farn	_	ADP	P-CL	_	15	case	_	_
+15	monsiniore	_	PROPN	NPR	_	13	obl	_	_
+16	gezzi	_	PROPN	NPR	_	15	flat:name	_	_
+17	dem	_	DET	D	PronType=Art	18	det	_	_
+18	referent	_	NOUN	N-D	Definite=Def	15	appos	_	_
+19	far	_	ADP	P	_	21	case	_	_
+20	yidishe	_	ADJ	ADJ	Degree=Pos	21	amod	_	_
+21	eninim	_	NOUN	N	_	18	obl	_	_
+22	bey	_	ADP	P	_	24	case	_	_
+23	poypstlekhn	_	ADJ	ADJ	Degree=Pos	24	amod	_	_
+24	hoyf	_	NOUN	N	_	18	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.110
+# X_ID = 1927E-SHATZKY-TESHUAT,16.114
+# text = in dem erstn memorandum vert %exp% bavizn oyfn smkh fun historishe faktn az di hersher in di poypsn hobn alemol beshitst di yidn kegn di_dozike blbulim
+1	in	_	ADP	P	_	4	case	_	_
+2	dem	_	DET	D	PronType=Art	4	det	_	_
+3	erstn	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+4	memorandum	_	NOUN	N-D	Definite=Def	7	obl	_	_
+5	vert	_	AUX	RDF	VerbForm=Fin	7	aux	_	_
+6	%exp%	_	NOUN	NP-SBJ-1	_	7	nsubj	_	_
+7	bavizn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+8	oyfn	_	ADP	P-CL	_	9	case	_	_
+9	smkh	_	NOUN	N	_	7	obl	_	_
+10	fun	_	ADP	P	_	12	case	_	_
+11	historishe	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+12	faktn	_	NOUN	N	_	9	obl	_	_
+13	az	_	SCONJ	C	_	21	mark	_	_
+14	di	_	DET	D-NOM	Case=Nom|PronType=Art	15	det	_	_
+15	hersher	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	21	nsubj	_	_
+16	in	_	CCONJ	CONJ	_	18	cc	_	_
+17	di	_	DET	D-NOM	Case=Nom|PronType=Art	18	det	_	_
+18	poypsn	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	15	conj	_	_
+19	hobn	_	AUX	HVF	VerbForm=Fin	21	aux	_	_
+20	alemol	_	ADV	ADV	Degree=Pos	21	advmod	_	_
+21	beshitst	_	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	_	_
+22	di	_	DET	D-ACC	Case=Acc|PronType=Art	23	det	_	_
+23	yidn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	21	obj	_	_
+24	kegn	_	ADP	P	_	26	case	_	_
+25	di_dozike	_	DET	D	PronType=Art	26	det	_	_
+26	blbulim	_	NOUN	N-D	Definite=Def	21	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.111
+# X_ID = 1927E-SHATZKY-TESHUAT,16.115
+# text = es vert bavizn az di bibl un di tlmudishe literatur git keyn shum grunt %ich%-2 nist tsu bashuldikn di yidn in aza barbarishn mnhg
+1	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	3	expl	_	_
+2	vert	_	AUX	RDF	VerbForm=Fin	3	aux	_	_
+3	bavizn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+4	az	_	SCONJ	C	_	11	mark	_	_
+5	di	_	DET	D-NOM	Case=Nom|PronType=Art	6	det	_	_
+6	bibl	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	11	nsubj	_	_
+7	un	_	CCONJ	CONJ	_	10	cc	_	_
+8	di	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+9	tlmudishe	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	10	amod	_	_
+10	literatur	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	6	conj	_	_
+11	git	_	VERB	VBF	VerbForm=Fin	3	ccomp	_	_
+12	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	14	det	_	_
+13	shum	_	DET	Q-ACC	Case=Acc	14	det	_	_
+14	grunt	_	NOUN	N-ACC	Case=Acc	11	obj	_	_
+15	%ich%-2	_	X	IP-INF	_	14	xcomp	_	_
+16	nist	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	11	advmod	_	_
+17	tsu	_	PART	TO	_	18	mark	_	_
+18	bashuldikn	_	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+19	di	_	DET	D-ACC	Case=Acc|PronType=Art	20	det	_	_
+20	yidn	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	18	obj	_	_
+21	in	_	ADP	P	_	24	case	_	_
+22	aza	_	ADV	ADV	Degree=Pos	24	amod	_	_
+23	barbarishn	_	ADJ	ADJ	Degree=Pos	22	amod	_	_
+24	mnhg	_	NOUN	N	_	18	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.112
+# X_ID = 1927E-SHATZKY-TESHUAT,16.116
+# text = in a beygeleygtn vert iber gegebn a reye dokumentn un briv fun glkhim kisrim un a psk-din fun venetsianer senat kegn dem blut-blbut
+1	in	_	ADP	P	_	3	case	_	_
+2	a	_	DET	D	PronType=Art	3	det	_	_
+3	beygeleygtn	_	ADJ	ADJ	Degree=Pos	6	obl	_	_
+4	vert	_	AUX	RDF	VerbForm=Fin	6	aux	_	_
+5	iber	_	ADP	RP	_	6	compound:prt	_	_
+6	gegebn	_	VERB	VAN	Tense=Past|VerbForm=Part	0	root	_	_
+7	a	_	DET	D-NOM	Case=Nom|PronType=Art	8	det	_	_
+8	reye	_	NOUN	N-NOM	Case=Nom	6	nsubj	_	_
+9	dokumentn	_	NOUN	N-NOM	Case=Nom	8	nmod:poss	_	_
+10	un	_	CCONJ	CONJ	_	11	cc	_	_
+11	briv	_	NOUN	N	_	9	conj	_	_
+12	fun	_	ADP	P	_	13	case	_	_
+13	glkhim	_	NOUN	N	_	9	obl	_	_
+14	kisrim	_	NOUN	N	_	13	conj	_	_
+15	un	_	CCONJ	CONJ	_	17	cc	_	_
+16	a	_	DET	D	PronType=Art	17	det	_	_
+17	psk-din	_	NOUN	N-I	Definite=Ind	8	conj	_	_
+18	fun	_	ADP	P	_	20	case	_	_
+19	venetsianer	_	ADJ	ADJ	Degree=Pos	20	amod	_	_
+20	senat	_	NOUN	N	_	17	obl	_	_
+21	kegn	_	ADP	P	_	23	case	_	_
+22	dem	_	DET	D	PronType=Art	23	det	_	_
+23	blut-blbut	_	NOUN	N-D	Definite=Def	17	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.113
+# X_ID = 1927E-SHATZKY-TESHUAT,16.117
+# text = dan folgt an oystsug fun un der dekret fun dem senat in venedik fun 8tn april 1705 velkher %t%-1 makht a suf fun di oyfreytsnde stsenes vi bilder velkhe %t%-2 steln for vi yidn tsapfn blut fun a kristlekhn kind un_az_v
+1	dan	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	folgt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	an	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+4	oystsug	_	NOUN	N-NOM	Case=Nom	2	nsubj	_	_
+5	fun	_	ADP	P	_	4	obl	_	_
+6	un	_	CCONJ	CONJ	_	8	cc	_	_
+7	der	_	DET	D	PronType=Art	8	det	_	_
+8	dekret	_	NOUN	N-D	Definite=Def	4	conj	_	_
+9	fun	_	ADP	P	_	11	case	_	_
+10	dem	_	DET	D	PronType=Art	11	det	_	_
+11	senat	_	NOUN	N-D	Definite=Def	8	obl	_	_
+12	in	_	ADP	P	_	13	case	_	_
+13	venedik	_	NOUN	N	_	11	obl	_	_
+14	fun	_	ADP	P	_	16	case	_	_
+15	8tn	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	april	_	PROPN	NPR	_	8	obl	_	_
+17	1705	_	NUM	NUM	_	16	nummod	_	_
+18	velkher	_	PRON	WPRO	_	20	obj	_	_
+19	%t%-1	_	NOUN	NP-SBJ	_	20	nsubj	_	_
+20	makht	_	VERB	VBF	VerbForm=Fin	8	acl:relcl	_	_
+21	a	_	DET	D-ACC	Case=Acc|PronType=Art	22	det	_	_
+22	suf	_	NOUN	N-ACC-I	Case=Acc|Definite=Ind	20	obj	_	_
+23	fun	_	ADP	P	_	26	case	_	_
+24	di	_	DET	D	PronType=Art	26	det	_	_
+25	oyfreytsnde	_	ADJ	ADJ	Degree=Pos	26	amod	_	_
+26	stsenes	_	NOUN	N-D	Definite=Def	20	obl	_	_
+27	vi	_	ADP	P	_	28	case	_	_
+28	bilder	_	NOUN	N	_	20	obl	_	_
+29	velkhe	_	PRON	WPRO	_	31	obj	_	_
+30	%t%-2	_	NOUN	NP-SBJ	_	31	nsubj	_	_
+31	steln	_	VERB	VBF	VerbForm=Fin	28	acl:relcl	_	_
+32	for	_	ADP	RP	_	31	compound:prt	_	_
+33	vi	_	SCONJ	C	_	35	mark	_	_
+34	yidn	_	NOUN	N-NOM	Case=Nom	35	nsubj	_	_
+35	tsapfn	_	VERB	VBF	VerbForm=Fin	31	ccomp	_	_
+36	blut	_	NOUN	N-ACC	Case=Acc	35	obj	_	_
+37	fun	_	ADP	P	_	40	case	_	_
+38	a	_	DET	D	PronType=Art	40	det	_	_
+39	kristlekhn	_	ADJ	ADJ	Degree=Pos	40	amod	_	_
+40	kind	_	NOUN	N-I	Definite=Ind	35	obl	_	_
+41	un_az_v	_	X	X	_	35	dep	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.114
+# X_ID = 1927E-SHATZKY-TESHUAT,16.118
+# text = der tsveyter memorandum fun dem roymshn rb un doktor barirt di zelbe frage mit neye materialn un beveyzn
+1	der	_	DET	D-NOM	Case=Nom|PronType=Art	3	det	_	_
+2	tsveyter	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	3	amod	_	_
+3	memorandum	_	NOUN	N-NOM	Case=Nom	10	nsubj	_	_
+4	fun	_	ADP	P	_	7	case	_	_
+5	dem	_	DET	D	PronType=Art	7	det	_	_
+6	roymshn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	rb	_	NOUN	N	_	3	obl	_	_
+8	un	_	CCONJ	CONJ	_	7	conj	_	_
+9	doktor	_	NOUN	N	_	8	conj	_	_
+10	barirt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+11	di	_	DET	D-ACC	Case=Acc|PronType=Art	13	det	_	_
+12	zelbe	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	13	amod	_	_
+13	frage	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	10	obj	_	_
+14	mit	_	ADP	P	_	16	case	_	_
+15	neye	_	ADJ	ADJ	Degree=Pos	16	amod	_	_
+16	materialn	_	NOUN	N	_	10	obl	_	_
+17	un	_	CCONJ	CONJ	_	18	cc	_	_
+18	beveyzn	_	NOUN	N	_	16	conj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.115
+# X_ID = 1927E-SHATZKY-TESHUAT,16.119
+# text = r' kheym alshiakh hot oysgeklibn dem memorandum fun 1705 un di beyloges fun 26 september 1705 fun korkusn un zey iberzetst oder aroysgegebn
+1	r'	_	PROPN	NPR-SBJ	_	5	nsubj	_	_
+2	kheym	_	PROPN	NPR	_	1	flat:name	_	_
+3	alshiakh	_	PROPN	NPR	_	1	dep	_	_
+4	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+5	oysgeklibn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+6	dem	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+7	memorandum	_	NOUN	N-ACC	Case=Acc	5	obj	_	_
+8	fun	_	ADP	P	_	9	case	_	_
+9	1705	_	NOUN	N	_	7	obl	_	_
+10	un	_	CCONJ	CONJ	_	12	cc	_	_
+11	di	_	DET	D	PronType=Art	12	det	_	_
+12	beyloges	_	NOUN	N-D	Definite=Def	7	conj	_	_
+13	fun	_	ADP	P	_	14	case	_	_
+14	26	_	NUM	NUM	_	12	obl	_	_
+15	september	_	PROPN	NPR	_	14	dep	_	_
+16	1705	_	NUM	NUM	_	14	nummod	_	_
+17	fun	_	ADP	P	_	18	case	_	_
+18	korkusn	_	NOUN	N	_	12	obl	_	_
+19	un	_	CCONJ	CONJ	_	21	cc	_	_
+20	zey	_	PRON	PRO-ACC	Case=Acc	21	obj	_	_
+21	iberzetst	_	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+22	oder	_	CCONJ	CONJ	_	23	cc	_	_
+23	aroysgegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	21	conj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.116
+# X_ID = 1927E-SHATZKY-TESHUAT,16.120
+# text = a_khuts dem hot er aroysgegebn tsvey andere farteydikungs_shriftn, velkhe %t%-1 es hot farfast der advokat andre alberta
+1	a_khuts	_	ADP	P	_	2	case	_	_
+2	dem	_	DET	D	PronType=Art	5	obl	_	_
+3	hot	_	AUX	HVF	VerbForm=Fin	5	aux	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	aroysgegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	0	root	_	_
+6	tsvey	_	NUM	NUM-ACC	Case=Acc	8	nummod	_	_
+7	andere	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	8	amod	_	_
+8	farteydikungs_shriftn	_	NOUN	N-ACC	Case=Acc	5	obj	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	8	punct	_	_
+10	velkhe	_	PRON	WPRO	_	14	obj	_	_
+11	%t%-1	_	NOUN	NP-ACC	_	14	dep	_	_
+12	es	_	PRON	ES	Case=Nom|Gender=Neut|Number=Sing	14	expl	_	_
+13	hot	_	AUX	HVF	VerbForm=Fin	14	aux	_	_
+14	farfast	_	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+15	der	_	DET	D-NOM	Case=Nom|PronType=Art	16	det	_	_
+16	advokat	_	NOUN	N-NOM	Case=Nom	14	nsubj	_	_
+17	andre	_	PROPN	NPR	_	16	appos	_	_
+18	alberta	_	PROPN	NPR	_	17	flat:name	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.117
+# X_ID = 1927E-SHATZKY-TESHUAT,16.121
+# text = loyt zeyn hkdmh kumt %exp% oys, az der rb korkuse@ @s shrift iz di drite, bet ven in der emesn iz nor di erste farfast fun im
+1	loyt	_	ADP	P	_	3	case	_	_
+2	zeyn	_	PRON	PRO$	_	3	det:poss	_	_
+3	hkdmh	_	NOUN	N	_	4	obl	_	_
+4	kumt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	%exp%	_	NOUN	NP-SBJ-1	_	4	nsubj	_	_
+6	oys	_	ADP	RP	_	4	compound:prt	_	SpaceAfter=No
+7	,	_	PUNCT	PUNC	_	6	punct	_	_
+8	az	_	SCONJ	C	_	14	mark	_	_
+9	der	_	DET	D-NOM	Case=Nom|PronType=Art	10	det	_	_
+10	rb	_	NOUN	N-NOM	Case=Nom	14	nsubj	_	_
+11	korkuse@	_	PROPN	NPR	_	10	appos	_	SpaceAfter=No
+12	@s	_	PUNCT	$	_	13	punct	_	_
+13	shrift	_	NOUN	N	_	10	conj	_	_
+14	iz	_	VERB	VBF	VerbForm=Fin	4	ccomp	_	_
+15	di	_	DET	D	PronType=Art	16	det	_	_
+16	drite	_	ADJ	ADJ	Degree=Pos	14	xcomp	_	SpaceAfter=No
+17	,	_	PUNCT	PUNC	_	16	punct	_	_
+18	bet	_	X	X	_	27	dep	_	_
+19	ven	_	SCONJ	C	_	27	mark	_	_
+20	in	_	ADP	P	_	22	case	_	_
+21	der	_	DET	D	PronType=Art	22	det	_	_
+22	emesn	_	NOUN	N-D	Definite=Def	27	obl	_	_
+23	iz	_	AUX	BEF	VerbForm=Fin	27	cop	_	_
+24	nor	_	PART	FP	Degree=Pos	27	nsubj	_	_
+25	di	_	DET	D	PronType=Art	24	det	_	_
+26	erste	_	ADJ	ADJ	Degree=Pos	24	amod	_	_
+27	farfast	_	VERB	VAN	Tense=Past|VerbForm=Part	4	advcl	_	_
+28	fun	_	ADP	P	_	29	case	_	_
+29	im	_	PRON	PRO	_	27	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.118
+# X_ID = 1927E-SHATZKY-TESHUAT,16.122
+# text = iz er der iberzetser tsi nor der aroysgeber ?
+1	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+2	er	_	PRON	PRO-NOM	Case=Nom	1	nsubj	_	_
+3	der	_	DET	D	PronType=Art	4	det	_	_
+4	iberzetser	_	NOUN	N-D	Definite=Def	1	xcomp	_	_
+5	tsi	_	CCONJ	CONJ	_	8	cc	_	_
+6	nor	_	ADV	FP	Degree=Pos	8	advmod	_	_
+7	der	_	DET	D	PronType=Art	8	det	_	_
+8	aroysgeber	_	NOUN	N-D	Definite=Def	4	conj	_	SpaceAfter=No
+9	?	_	PUNCT	PUNC	_	1	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.119
+# X_ID = 1927E-SHATZKY-TESHUAT,16.123
+# text = ven men volt gevolt urteyln loyt der zaftiker yidisher sprakh fun zeyn hkdmh un dem trukenem deytshishn stil fun di drey bikhlekh damolt iz %exp% klor az nisht er iz %ich%-2 der iberzetser nor der oysgeber
+1	ven	_	SCONJ	C	_	5	mark	_	_
+2	men	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+3	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	5	dep	_	_
+4	gevolt	_	AUX	MDN	Tense=Past|VerbForm=Part	5	aux	_	_
+5	urteyln	_	VERB	VB	VerbForm=Inf	24	advcl	_	_
+6	loyt	_	ADP	P	_	10	case	_	_
+7	der	_	DET	D	PronType=Art	10	det	_	_
+8	zaftiker	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+9	yidisher	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	sprakh	_	NOUN	N	_	5	obl	_	_
+11	fun	_	ADP	P	_	13	case	_	_
+12	zeyn	_	PRON	PRO$	_	13	det:poss	_	_
+13	hkdmh	_	NOUN	N	_	10	obl	_	_
+14	un	_	CCONJ	CONJ	_	18	cc	_	_
+15	dem	_	DET	D	PronType=Art	18	det	_	_
+16	trukenem	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
+17	deytshishn	_	ADJ	ADJ	Degree=Pos	18	amod	_	_
+18	stil	_	NOUN	N	_	10	conj	_	_
+19	fun	_	ADP	P	_	22	case	_	_
+20	di	_	DET	D	PronType=Art	22	det	_	_
+21	drey	_	NUM	NUM	_	22	nummod	_	_
+22	bikhlekh	_	NOUN	N-D	Definite=Def	18	obl	_	_
+23	damolt	_	ADV	ADV	Degree=Pos	24	advmod	_	_
+24	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+25	%exp%	_	NOUN	NP-SBJ-1	_	24	nsubj	_	_
+26	klor	_	ADJ	ADJ	Degree=Pos	24	amod	_	_
+27	az	_	SCONJ	C	_	30	mark	_	_
+28	nisht	_	ADV	NEG-2	_	30	advmod	_	_
+29	er	_	PRON	PRO-NOM	Case=Nom	30	nsubj	_	_
+30	iz	_	VERB	VBF	VerbForm=Fin	24	ccomp	_	_
+31	%ich%-2	_	ADV	NEG	_	33	advmod	_	_
+32	der	_	DET	D	PronType=Art	33	det	_	_
+33	iberzetser	_	NOUN	N-D	Definite=Def	30	xcomp	_	_
+34	nor	_	CCONJ	CONJ	_	36	cc	_	_
+35	der	_	DET	D	PronType=Art	36	det	_	_
+36	oysgeber	_	NOUN	N-D	Definite=Def	33	conj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.120
+# X_ID = 1927E-SHATZKY-TESHUAT,16.124
+# text = steynshneyder meynt oykh az r' kheym alhaikh iz nor der aroysgeber
+1	steynshneyder	_	PROPN	NPR-SBJ	_	2	nsubj	_	_
+2	meynt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	oykh	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	az	_	SCONJ	C	_	8	mark	_	_
+5	r'	_	PROPN	NPR-SBJ	_	8	nsubj	_	_
+6	kheym	_	PROPN	NPR	_	5	flat:name	_	_
+7	alhaikh	_	PROPN	NPR	_	5	dep	_	_
+8	iz	_	VERB	VBF	VerbForm=Fin	2	ccomp	_	_
+9	nor	_	ADV	FP	Degree=Pos	11	advmod	_	_
+10	der	_	DET	D	PronType=Art	11	det	_	_
+11	aroysgeber	_	NOUN	N-D	Definite=Def	8	xcomp	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.121
+# X_ID = 1927E-SHATZKY-TESHUAT,16.125
+# text = nor der fargleykh fun der sprakh fun di drey broshurn mit mentsls deytshishn tekst volt gekont fest steln di frage
+1	nor	_	ADV	FP	Degree=Pos	3	advmod	_	_
+2	der	_	DET	D	PronType=Art	3	det	_	_
+3	fargleykh	_	NOUN	N-D	Definite=Def	18	nsubj	_	_
+4	fun	_	ADP	P	_	6	case	_	_
+5	der	_	DET	D	PronType=Art	6	det	_	_
+6	sprakh	_	NOUN	N-D	Definite=Def	3	obl	_	_
+7	fun	_	ADP	P	_	9	case	_	_
+8	di	_	DET	D	PronType=Art	9	det	_	_
+9	drey	_	NUM	NUM-D	Definite=Def	6	obl	_	_
+10	broshurn	_	NOUN	N	_	9	conj	_	_
+11	mit	_	ADP	P	_	12	case	_	_
+12	mentsls	_	NOUN	NPR$	_	9	obl	_	_
+13	deytshishn	_	ADJ	ADJ	Degree=Pos	12	amod	_	_
+14	tekst	_	NOUN	N	_	12	conj	_	_
+15	volt	_	VERB	VLF	Mood=Sub|VerbForm=Fin	18	dep	_	_
+16	gekont	_	AUX	MDN	Tense=Past|VerbForm=Part	18	aux	_	_
+17	fest	_	ADP	RP-ADJ	_	18	compound:prt	_	_
+18	steln	_	VERB	VB	VerbForm=Inf	0	root	_	_
+19	di	_	DET	D-ACC	Case=Acc|PronType=Art	20	det	_	_
+20	frage	_	NOUN	N-ACC-D	Case=Acc|Definite=Def	18	obj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.122
+# X_ID = 1927E-SHATZKY-TESHUAT,16.126
+# text = dos geyt ober nisht areyn in di ramen fun dem artikl .
+1	dos	_	DET	D-NOM	Case=Nom|PronType=Art	2	nsubj	_	_
+2	geyt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	ober	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+4	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+5	areyn	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+6	in	_	ADP	P	_	8	case	_	_
+7	di	_	DET	D	PronType=Art	8	det	_	_
+8	ramen	_	NOUN	N-D	Definite=Def	5	obl	_	_
+9	fun	_	ADP	P	_	11	case	_	_
+10	dem	_	DET	D	PronType=Art	11	det	_	_
+11	artikl	_	NOUN	N-D	Definite=Def	8	obl	_	SpaceAfter=No
+12	.	_	PUNCT	PUNC	_	2	punct	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.123
+# X_ID = 1927E-SHATZKY-TESHUAT,16.127
+# text = r heykhm alskhikh afilu ven er iz nor der aroysgeber fun di drey apologetishe shrift in yidish fardint dermont tsu vern in der yidisher literatur-geshikhte
+1	r	_	PROPN	NPR-SBJ	_	18	nsubj	_	_
+2	heykhm	_	PROPN	NPR	_	1	flat:name	_	_
+3	alskhikh	_	PROPN	NPR	_	1	dep	_	_
+4	afilu	_	ADV	FP	Degree=Pos	7	advmod	_	_
+5	ven	_	SCONJ	C	_	7	mark	_	_
+6	er	_	PRON	PRO-NOM	Case=Nom	7	nsubj	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	18	advcl	_	_
+8	nor	_	ADV	FP	Degree=Pos	10	advmod	_	_
+9	der	_	DET	D	PronType=Art	10	det	_	_
+10	aroysgeber	_	NOUN	N-D	Definite=Def	7	xcomp	_	_
+11	fun	_	ADP	P	_	13	case	_	_
+12	di	_	DET	D	PronType=Art	13	det	_	_
+13	drey	_	NUM	NUM-D	Definite=Def	10	obl	_	_
+14	apologetishe	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+15	shrift	_	NOUN	N	_	13	conj	_	_
+16	in	_	ADP	P	_	17	case	_	_
+17	yidish	_	NOUN	N	_	13	obl	_	_
+18	fardint	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+19	dermont	_	VERB	VAN	Tense=Past|VerbForm=Part	18	xcomp	_	_
+20	tsu	_	PART	TO	_	19	mark	_	_
+21	vern	_	AUX	RD	VerbForm=Inf	19	aux	_	_
+22	in	_	ADP	P	_	25	case	_	_
+23	der	_	DET	D	PronType=Art	25	det	_	_
+24	yidisher	_	ADJ	ADJ	Degree=Pos	25	amod	_	_
+25	literatur-geshikhte	_	NOUN	N-D	Definite=Def	19	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.124
+# X_ID = 1927E-SHATZKY-TESHUAT,16.128
+# text = a_khuts dem iz er lkhlutin umbakant in der geshikhte fun di yidn in poyln
+1	a_khuts	_	ADP	P	_	2	case	_	_
+2	dem	_	DET	D	PronType=Art	3	obl	_	_
+3	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	lkhlutin	_	ADV	ADV	Degree=Pos	3	advmod	_	_
+6	umbakant	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	der	_	DET	D	PronType=Art	9	det	_	_
+9	geshikhte	_	NOUN	N-D	Definite=Def	6	amod	_	_
+10	fun	_	ADP	P	_	12	case	_	_
+11	di	_	DET	D	PronType=Art	12	det	_	_
+12	yidn	_	NOUN	N-D	Definite=Def	9	obl	_	_
+13	in	_	ADP	P	_	14	case	_	_
+14	poyln	_	PROPN	NPR	_	12	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.125
+# X_ID = 1927E-SHATZKY-TESHUAT,16.129
+# text = er iz eyner fun di umbekantn skhdlnim velkhe %t%-1 zeynen geforn tsu yener tseyt nokh dem groyzamen pozener protses zukhn farteydikung-material kegn elilt-dm
+1	er	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	eyner	_	PRON	PRO	_	2	xcomp	_	_
+4	fun	_	ADP	P	_	7	case	_	_
+5	di	_	DET	D	PronType=Art	7	det	_	_
+6	umbekantn	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+7	skhdlnim	_	NOUN	N	_	3	obl	_	_
+8	velkhe	_	PRON	WPRO	_	11	obj	_	_
+9	%t%-1	_	NOUN	NP-SBJ	_	11	nsubj	_	_
+10	zeynen	_	AUX	BEF	VerbForm=Fin	11	cop	_	_
+11	geforn	_	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+12	tsu	_	ADP	P	_	14	case	_	_
+13	yener	_	DET	D	PronType=Art	14	det	_	_
+14	tseyt	_	NOUN	N-D	Definite=Def	11	obl	_	_
+15	nokh	_	ADP	P	_	19	case	_	_
+16	dem	_	DET	D	PronType=Art	19	det	_	_
+17	groyzamen	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+18	pozener	_	ADJ	ADJ	Degree=Pos	19	amod	_	_
+19	protses	_	NOUN	N-D	Definite=Def	11	obl	_	_
+20	zukhn	_	VERB	VB	VerbForm=Inf	11	advcl	_	_
+21	farteydikung-material	_	NOUN	N-ACC	Case=Acc	20	obj	_	_
+22	kegn	_	ADP	P	_	23	case	_	_
+23	elilt-dm	_	NOUN	N	_	21	obl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.126
+# X_ID = 1927E-SHATZKY-TESHUAT,16.130
+# text = mir hobn nisht keyn shum motiv nisht tsu gloybn in zeyn oyfrikhtikeyt un idealizm
+1	mir	_	PRON	PRO-NOM	Case=Nom	2	nsubj	_	_
+2	hobn	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	2	advmod	_	_
+4	keyn	_	DET	Q-ACC-NEG	Case=Acc|PronType=Neg	6	det	_	_
+5	shum	_	DET	Q-ACC	Case=Acc	6	det	_	_
+6	motiv	_	NOUN	N-ACC	Case=Acc	2	obj	_	_
+7	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	9	advmod	_	_
+8	tsu	_	PART	TO	_	9	mark	_	_
+9	gloybn	_	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+10	in	_	ADP	P	_	12	case	_	_
+11	zeyn	_	PRON	PRO$	_	12	det:poss	_	_
+12	oyfrikhtikeyt	_	NOUN	N	_	9	obl	_	_
+13	un	_	CCONJ	CONJ	_	14	cc	_	_
+14	idealizm	_	NOUN	N	_	12	conj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.127
+# X_ID = 1927E-SHATZKY-TESHUAT,16.131
+# text = azoy vi %t%-1 er shildert dos iz zeyn zeyer vikhtiker in kultur-historishn zin oytobiografisher hkdmh
+1	azoy	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+2	vi	_	ADV	WADV	Degree=Pos	5	advmod	_	_
+3	%t%-1	_	ADV	ADVP	Degree=Pos	5	advmod	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	5	nsubj	_	_
+5	shildert	_	VERB	VBF	VerbForm=Fin	1	advcl	_	_
+6	dos	_	DET	D-ACC	Case=Acc|PronType=Art	5	obj	_	_
+7	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+8	zeyn	_	PRON	PRO$-NOM	Case=Nom|PronType=Poss	15	det:poss	_	_
+9	zeyer	_	ADV	ADV	Degree=Pos	15	amod	_	_
+10	vikhtiker	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+11	in	_	ADP	P	_	13	case	_	_
+12	kultur-historishn	_	ADJ	ADJ	Degree=Pos	13	amod	_	_
+13	zin	_	NOUN	N	_	9	amod	_	_
+14	oytobiografisher	_	ADJ	ADJ	Degree=Pos	15	amod	_	_
+15	hkdmh	_	NOUN	N	_	7	nsubj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.128
+# X_ID = 1927E-SHATZKY-TESHUAT,16.132
+# text = fun der hkdmh iz %exp% %t%-1 tsu zen, az r' kheym alsikh iz geven in deytsland efshr take in pivrda nupa ven dos sfr hot zikh dort gedrukt
+1	fun	_	ADP	P	_	3	case	_	_
+2	der	_	DET	D	PronType=Art	3	det	_	_
+3	hkdmh	_	NOUN	N-D	Definite=Def	4	obl	_	_
+4	iz	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+5	%exp%	_	NOUN	NP-SBJ	_	4	nsubj	_	_
+6	%t%-1	_	NOUN	NP-ACC	_	8	dep	_	_
+7	tsu	_	PART	TO	_	8	mark	_	_
+8	zen	_	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+9	,	_	PUNCT	PUNC	_	8	punct	_	_
+10	az	_	SCONJ	C	_	15	mark	_	_
+11	r'	_	PROPN	NPR-SBJ	_	15	nsubj	_	_
+12	kheym	_	PROPN	NPR	_	11	flat:name	_	_
+13	alsikh	_	PROPN	NPR	_	11	dep	_	_
+14	iz	_	AUX	BEF	VerbForm=Fin	15	cop	_	_
+15	geven	_	VERB	VBN	Tense=Past|VerbForm=Part	8	ccomp	_	_
+16	in	_	ADP	P	_	17	case	_	_
+17	deytsland	_	PROPN	NPR	_	15	obl	_	_
+18	efshr	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+19	take	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+20	in	_	ADP	P	_	21	case	_	_
+21	pivrda	_	PROPN	NPR	_	15	obl	_	_
+22	nupa	_	PROPN	NPR	_	21	flat:name	_	_
+23	ven	_	SCONJ	C	_	29	mark	_	_
+24	dos	_	DET	D-NOM	Case=Nom|PronType=Art	25	det	_	_
+25	sfr	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	29	nsubj	_	_
+26	hot	_	AUX	HVF	VerbForm=Fin	29	aux	_	_
+27	zikh	_	PRON	PRO-RFL	PronType=Reflex	29	expl:pv	_	_
+28	dort	_	ADV	ADV	Degree=Pos	29	advmod	_	_
+29	gedrukt	_	VERB	VBN	Tense=Past|VerbForm=Part	15	advcl	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.129
+# X_ID = 1927E-SHATZKY-TESHUAT,16.133
+# text = leyder lozt %arb% zikh derveyl nisht feststeln zeyn veyterdiker gudl
+1	leyder	_	ADV	ADV	Degree=Pos	2	advmod	_	_
+2	lozt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+3	%arb%	_	NOUN	NP-SBJ	_	7	nsubj	_	_
+4	zikh	_	PRON	PRO-RFL	PronType=Reflex	7	expl:pv	_	_
+5	derveyl	_	ADV	ADV	Degree=Pos	7	advmod	_	_
+6	nisht	_	ADV	ADV-NEG	Degree=Pos|Polarity=Neg	7	advmod	_	_
+7	feststeln	_	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+8	zeyn	_	PRON	PRO$	_	10	det:poss	_	_
+9	veyterdiker	_	ADJ	ADJ	Degree=Pos	10	amod	_	_
+10	gudl	_	NOUN	N	_	2	nsubj	_	_
+
+# sent_id = 1927E-SHATZKY-TESHUAT,.130
+# X_ID = 1927E-SHATZKY-TESHUAT,16.134
+# text = zal di ibergedrukte hkdmh dermonen unz vegn dem umbakantn yidishn kll-mued fun poyln, fun suf 17tn un anfang 18tn yorhundert %EXCL%
+1	zal	_	AUX	MDF	VerbForm=Fin	5	aux	_	_
+2	di	_	DET	D-NOM	Case=Nom|PronType=Art	4	det	_	_
+3	ibergedrukte	_	ADJ	ADJ-NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	hkdmh	_	NOUN	N-NOM-D	Case=Nom|Definite=Def	5	nsubj	_	_
+5	dermonen	_	VERB	VB	VerbForm=Inf	0	root	_	_
+6	unz	_	PRON	PRO-ACC	Case=Acc	5	obj	_	_
+7	vegn	_	ADP	P	_	11	case	_	_
+8	dem	_	DET	D	PronType=Art	11	det	_	_
+9	umbakantn	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+10	yidishn	_	ADJ	ADJ	Degree=Pos	11	amod	_	_
+11	kll-mued	_	NOUN	N	_	5	obl	_	_
+12	fun	_	ADP	P	_	13	case	_	_
+13	poyln	_	PROPN	NPR	_	11	obl	_	SpaceAfter=No
+14	,	_	PUNCT	PUNC	_	11	punct	_	_
+15	fun	_	ADP	P	_	16	case	_	_
+16	suf	_	NOUN	N	_	11	obl	_	_
+17	17tn	_	ADJ	ADJ	Degree=Pos	16	nmod:poss	_	_
+18	un	_	CCONJ	CONJ	_	19	cc	_	_
+19	anfang	_	NOUN	N	_	16	conj	_	_
+20	18tn	_	ADJ	ADJ	Degree=Pos	21	amod	_	_
+21	yorhundert	_	NOUN	N	_	19	nmod:poss	_	SpaceAfter=No
+22	%EXCL%	_	PUNCT	PUNC	_	5	punct	_	_
+
+1	fn._28	_	NUM	LS	_	3	dep	_	_
+2	dos	_	DET	D	PronType=Art	3	dep	_	_
+3	meynt	_	VERB	VBF	VerbForm=Fin	0	root	_	_
+4	er	_	PRON	PRO-NOM	Case=Nom	3	nsubj	_	_
+5	dem	_	DET	D-ACC	Case=Acc|PronType=Art	7	det	_	_
+6	barimtn	_	ADJ	ADJ-ACC	Case=Acc|Degree=Pos	7	amod	_	_
+7	hebreist	_	NOUN	N-ACC	Case=Acc	3	obj	_	_
+8	yohan	_	PROPN	NPR	_	7	appos	_	_
+9	kristofar	_	PROPN	NPR	_	8	flat:name	_	_
+10	vagnzeyl	_	PROPN	NPR	_	8	dep	_	_
+11	velkher	_	PRON	WPRO	_	15	obj	_	_
+12	%t%-1	_	NOUN	NP-SBJ	_	15	nsubj	_	_
+13	hot	_	AUX	HVF	VerbForm=Fin	15	aux	_	_
+14	oykh	_	ADV	ADV	Degree=Pos	15	advmod	_	_
+15	aroysgegebn	_	VERB	VBN-PART	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+16	a	_	DET	D-ACC	Case=Acc|PronType=Art	17	det	_	_
+17	bukh	_	NOUN	N-ACC	Case=Acc	15	obj	_	_
+18	iber	_	ADP	P	_	21	case	_	_
+19	der	_	DET	D	PronType=Art	21	det	_	_
+20	yidisher	_	ADJ	ADJ	Degree=Pos	21	amod	_	_
+21	sprakh	_	NOUN	N	_	17	obl	_	_
+22	un	_	CCONJ	CONJ	_	23	cc	_	_
+23	literatur	_	NOUN	N	_	21	conj	_	_
+24	.	_	PUNCT	PUNC	_	3	punct	_	_
+
