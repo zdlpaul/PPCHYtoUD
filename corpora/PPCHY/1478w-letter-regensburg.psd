@@ -15,7 +15,7 @@
 ( (IP-MAT (NP-SBJ (PRO-NOM du))
 	  (VBF entverst)
 	  (NP-OB2 (PRO-DTV mir))
-	  (NP-MSR (Q-NEG-NEG nikhtsit))
+	  (NP-MSR (Q-NEG nikhtsit))
 	  (PUNC .))
   (ID 1478W-LETTER-REGENSBURG,156.4))
 
@@ -25,7 +25,7 @@
 		      (VB kasven)
 		      (MDF kanst)
 		      (PP (P on)
-			  (NP (D di) (N-D-D inoyem))))
+			  (NP (D di) (N-D inoyem))))
 	      (PUNC ?))
   (ID 1478W-LETTER-REGENSBURG,156.5))
 
@@ -33,7 +33,7 @@
 	  (RDF ver)
 	  (ADVP-TMP (ADV morgen))
 	  (PP (P mit)
-	      (NP (D dem) (N-D-D iren)))
+	      (NP (D dem) (N-D iren)))
 	  (VB reden)
 	  (PUNC ,)
 	  (CP-QUE-SUB (C ob)
@@ -48,7 +48,7 @@
   (ID 1478W-LETTER-REGENSBURG,156.6))
 
 ( (IP-IMP (VBI shik)
-	  (NP-OB1 (D-ACC di) (N-ACC-D-ACC haub))
+	  (NP-OB1 (D-ACC di) (N-ACC-D haub))
 	  (ADVP (ADV vider))
 	  (ADVP-DIR (ADV heraus))
 	  (PUNC .))
@@ -66,7 +66,7 @@
 ( (IP-IMP (VBI kokh)
 	  (NP-OB1 (ADJ-ACC rayn) (N-ACC pulver))
 	  (PP (P in)
-	      (NP (D aynem) (N-I-I apel)))
+	      (NP (D aynem) (N-I apel)))
 	  (PUNC .))
   (ID 1478W-LETTER-REGENSBURG,156.9))
 

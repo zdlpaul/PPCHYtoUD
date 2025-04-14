@@ -233,6 +233,7 @@ class PPCHY_Features:
         if "-" in tag:
             tag, morph = tag.split("-", 1)
             if "-" in morph:
+                print(morph)
                 case = morph.split("-")[0]
                 polarity = morph.split("-")[1]
                 if polarity == "NEG":

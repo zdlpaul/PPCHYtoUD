@@ -47,6 +47,9 @@ for file in $dir/*; do
     # Delete lines which include (ID
     # sed -i '/(ID/d' $file
 
+    # Put indices at the right position
+    # sed -i -r 's/\([A-Z]*-\d'
+
     sed -i -r 's/\{(COM:[a-z]+_?[a-z]+)\}/\L\1/g' $file
 
     # Delete hebrew notation that contains {}, messes with the depender

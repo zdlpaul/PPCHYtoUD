@@ -32,7 +32,7 @@
 	  (VBF frogt)
 	  (ADVP (ADV akh))
 	  (PP (P nokh)
-	      (NP (D an) (N-I-I huk-pletsie))))
+	      (NP (D an) (N-I huk-pletsie))))
   (ID 1798W-DISKURS,164.7))
 
 ( (IP-MAT (NP-SBJ (D-NOM 0) (N-NOM shifer))
@@ -121,7 +121,7 @@
 			  (NP (NUM akht) (N tog)))
 		      (N shabes))
 	      (BEF zenen)
-	      (NP-SBJ (Q-NOM ale) (D-NOM di) (N-NOM-D-NOM ketsinem))
+	      (NP-SBJ (Q-NOM ale) (D-NOM di) (N-NOM-D ketsinem))
 	      (RP uf)
 	      (VAN gerufn)
 	      (RDN gevorn))
@@ -134,7 +134,7 @@
 			      (VBF kumt)
 			      (NP-SBJ (PRO-NOM es))
 			      (PP (P on)
-				  (NP (D di) (N-D-D dalfonem)))))
+				  (NP (D di) (N-D dalfonem)))))
   (ID 1798W-DISKURS,164.20))
 
 ( (CP-QUE-MAT-SPE (NP-VOC (NPR anshl))
@@ -170,12 +170,12 @@
 	      (ADJP-PRD (ADJ egal)))
   (ID 1798W-DISKURS,164.22))
 
-( (IP-MAT-SPE (NP-SBJ (D-NOM der) (N-NOM-D-NOM maneg))
+( (IP-MAT-SPE (NP-SBJ (D-NOM der) (N-NOM-D maneg))
 	      (VBF is)
-	      (ADJP-PRD (QP (Q-NEG-NEG niks))
+	      (ADJP-PRD (QP (Q-NEG niks))
 			(ADJR beser)
 			(PP (P als)
-			    (NP (D der) (ADJ gemaner) (N-D-D man)))))
+			    (NP (D der) (ADJ gemaner) (N-D man)))))
   (ID 1798W-DISKURS,164.23))
 
 ( (IP-MAT-SPE (NP-SBJ (Q-NOM ale)
@@ -206,7 +206,7 @@
 ( (IP-MAT-SPE (META (NPR anshl))
 	      (NP-SBJ (PRO-NOM du))
 	      (VBF bist)
-	      (NP-PRD (D an) (ADJ rekhter) (N-I-I nar)))
+	      (NP-PRD (D an) (ADJ rekhter) (N-I nar)))
   (ID 1798W-DISKURS,164.26))
 
 ( (IP-MAT-SPE (NP-SBJ (N-NOM haftore))
@@ -223,11 +223,11 @@
 			  (IP-SUB-SPE (NP-SBJ (PRO-NOM du))
 				      (ADVP (ADV akh))
 				      (NP-PRD (D an)
-					      (N-I-I soyne)
+					      (N-I soyne)
 					      (PP %ich%-1))
 				      (VBF bist)
 				      (PP-1 (P fun)
-					    (NP (D di) (ADJ neye) (N-D-D kile))))))
+					    (NP (D di) (ADJ neye) (N-D kile))))))
   (ID 1798W-DISKURS,164.28))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO-NOM ikh))
@@ -261,7 +261,7 @@
 
 ( (IP-MAT-SPE (NP-SBJ (PRO-NOM du))
 	      (VBF bist)
-	      (NP-RFL (PRO-RFL-RFL dir))
+	      (NP-RFL (PRO-RFL dir))
 	      (PP (PP (P on)
 		      (NP (PRO mir)))
 		  (CONJP (CONJ un)
@@ -278,7 +278,7 @@
 	  (NP-PRD (Q kan)
 		  (N soyne)
 		  (PP (P fun)
-		      (NP (D di) (ADJ neye) (N-D-D kile)))))
+		      (NP (D di) (ADJ neye) (N-D kile)))))
   (ID 1798W-DISKURS,164.33))
 
 ( (IP-MAT (CONJ nor)

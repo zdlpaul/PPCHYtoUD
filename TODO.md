@@ -262,7 +262,6 @@ Examples that create this problem:
 						(CONJP (CONJ uder)
 						       (NP (ADJ reykhr) (N man))))))))
   ```
-
   
   ```
   ( (IP-MAT (CONJ un')
@@ -324,3 +323,13 @@ Missing polarity information:
 
 I am not sure what to do with *gor_nit*. 
 
+## Converting to different versions
+
+### Parser version 
+The main problem at the moment are traces. They are indexed with a number, e.g. `(WNP-1 (WPRO velkhe))` and `(NP-SBJ *T*-1).
+
+- Option 1: 
+  - Copying the phrase-level index of the moved element to the token 
+  - this preserves the index through the conversion 
+  - then, copy the relation of the trace to that of the moved element and the corresponding number
+  - delete the line with the trace 

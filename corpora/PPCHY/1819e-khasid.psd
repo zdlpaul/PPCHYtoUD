@@ -22,7 +22,7 @@
 							 (VBN (VBN gilugt) (CONJ un) (VBN bklert))))))
 			  (CP-REL (WNP-2 0)
 				  (C vas)
-				  (IP-SUB (IP-SUB-3 (NP-SBJ (D-NOM der) (N-NOM-D-NOM mkhbr))
+				  (IP-SUB (IP-SUB-3 (NP-SBJ (D-NOM der) (N-NOM-D mkhbr))
 						    (HVF hat)
 						    (NP-ACC-RSP-2 (PRO im))
 						    (VBN ginumn)
